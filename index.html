@@ -1,18 +1,1 @@
-<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>행성 관측소 · 통합 지역 지도</title><style>body{background:#101921;color:#e1edf4;font:17px system-ui;max-width:640px;margin:15vh auto;padding:24px}button{font:inherit;padding:8px 16px}</style><h1>행성 관측소</h1><p id="status" role="status">통합 지역 지도가 있는 v0.77을 불러오는 중입니다…</p><button onclick="location.reload()" hidden id="retry">다시 시도</button><script>
-(async()=>{try{
-if(!window.DecompressionStream)throw new Error('최신 Chrome, Edge, Firefox 또는 Safari로 열어 주세요.');
-const files=["assets/planet-v0.76-00.bin", "assets/planet-v0.76-01.bin", "assets/planet-v0.76-02.bin", "assets/planet-v0.76-03.bin", "assets/planet-v0.76-04.bin", "assets/planet-v0.76-05.bin", "assets/planet-v0.76-06.bin", "assets/planet-v0.76-07.bin", "assets/planet-v0.76-08.bin", "assets/planet-v0.76-09.bin", "assets/planet-v0.76-10.bin"];
-const fetchBytes=async name=>{const r=await fetch(new URL(name,location.href));if(!r.ok)throw new Error('파일을 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.');return r.arrayBuffer();};
-const unzip=parts=>new Response(new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
-const hash=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),n=>n.toString(16).padStart(2,'0')).join('');
-const [chunks,patchBytes]=await Promise.all([Promise.all(files.map(fetchBytes)),fetchBytes("assets/atlas-0.77-3675d809c24b.json.gz")]);
-const [bytes,unpackedPatch]=await Promise.all([unzip(chunks),unzip([patchBytes])]);
-const patch=JSON.parse(new TextDecoder().decode(unpackedPatch));
-if(patch.baseSha256!=="4114e88d49231d57ebc35dec3466fdb69acedaa76af57473d4fd2acd6b365749"||patch.targetSha256!=="3675d809c24b3fbb8edae4596c918b9ed1feae603e8fde57da9bb0cbd1464cbd"||await hash(bytes)!=="4114e88d49231d57ebc35dec3466fdb69acedaa76af57473d4fd2acd6b365749")throw new Error('기본 실행 파일 확인에 실패했습니다. 새로고침해 주세요.');
-const lines=new TextDecoder().decode(bytes).split('\n');
-for(const [start,count,replacement] of patch.changes.slice().reverse())lines.splice(start,count,...replacement);
-const html=lines.join('\n');
-if(await hash(new TextEncoder().encode(html))!=="3675d809c24b3fbb8edae4596c918b9ed1feae603e8fde57da9bb0cbd1464cbd")throw new Error('업데이트 확인에 실패했습니다. 새로고침해 주세요.');
-document.open();document.write(html);document.close();
-}catch(e){document.getElementById('status').textContent=e.message;document.getElementById('retry').hidden=false;}})();
-</script></html>
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Planet Atlas</title><script>location.replace('./integration/atlas/index.html'+location.search+location.hash)</script><a href="integration/atlas/index.html">최신 시뮬레이터 열기</a></html>

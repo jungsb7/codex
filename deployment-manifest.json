@@ -1,0 +1,276 @@
+{
+  "schema": "planet-pages/1",
+  "originals": {
+    "integration/atlas/index.html": {
+      "sha256": "ba089e8d2b7f1b49e88cf56a335fd57136dbf726a9f1670f02987384a22d42d4",
+      "bytes": 17456145,
+      "hostedPayloadSha256": "ba089e8d2b7f1b49e88cf56a335fd57136dbf726a9f1670f02987384a22d42d4"
+    },
+    "integration/terrain-v2/index.html": {
+      "sha256": "8c3ac45e43e36c490d780c6a5bcdff2f4fbe8014f2acce806b7a29fcf6c44023",
+      "bytes": 11156755,
+      "hostedPayloadSha256": "2f0583182d7d4c2143d1ba77fe541da8726431959e589d5b98863022d8f4b475"
+    },
+    "integration/seasonal/index.html": {
+      "sha256": "5907839e4af83c82aeab6e2e15df2bc215cf7ef4143c544652e030d7b9ad7db0",
+      "bytes": 8626198,
+      "hostedPayloadSha256": "0b5acdc043aaefb2f45e4855e470a1780619b31e5e6dc8737c2f4612b886ff74"
+    },
+    "integration/atlas/README.md": {
+      "sha256": "2329c1d8abc9dba7873c388bc832d63fc909f9f48425b12008062da2ddd250e2",
+      "bytes": 12148
+    },
+    "integration/terrain-v2/README.md": {
+      "sha256": "220f4c6d138014deb9847f0b5e6a347d9bc576cd264e01c205ced7f8434b365f",
+      "bytes": 4594
+    },
+    "integration/terrain-v2/REPORT.md": {
+      "sha256": "2c7110e3df8dc0a53db89b774ab9b8edf8ea790c52ea52cd29cceb0776998e54",
+      "bytes": 7047
+    },
+    "integration/seasonal/REPORT.md": {
+      "sha256": "6dc092dbf9c6ae47a2f6d88f5e9d88dbd7cd0de5061abba5e66628a745254f14",
+      "bytes": 8876
+    },
+    "integration/terrain/README.md": {
+      "sha256": "c15b9604f13b3a9723eca8697e0739574d24d8d8c95724e1358a7a74ad6d485c",
+      "bytes": 3808
+    },
+    "integration/terrain/REPORT.md": {
+      "sha256": "1f74406e7abe251056c31a8ef301dba5b12d428af1aff5ef1e96ecdd98031519",
+      "bytes": 6563
+    }
+  },
+  "downloads": {
+    "integration/terrain-v2/output/coverage.json": {
+      "files": [
+        "assets/atlas-716744ad89aad880-00.bin"
+      ],
+      "sha256": "716744ad89aad8807d923973b88901aa519e2e458abd34b825025036088aba13",
+      "bytes": 21926,
+      "compressedBytes": 5625
+    },
+    "integration/seasonal/output/imperial.json": {
+      "files": [
+        "assets/atlas-3a7110623cd880ba-00.bin"
+      ],
+      "sha256": "3a7110623cd880ba98724c5e4a1098411d001828e64dc1f1a2bbc57a7ffe4485",
+      "bytes": 470938,
+      "compressedBytes": 32111
+    },
+    "integration/seasonal/output/summary.json": {
+      "files": [
+        "assets/atlas-7c47354628899fae-00.bin"
+      ],
+      "sha256": "7c47354628899fae000a5f84b3a3cf04f9aa10dd29f795a6ff2b0d4201e966c1",
+      "bytes": 153679,
+      "compressedBytes": 7440
+    },
+    "integration/seasonal/output/joint-result.json": {
+      "files": [
+        "assets/atlas-fb1d8586aa0698ea-00.bin"
+      ],
+      "sha256": "fb1d8586aa0698ea02360cc9fd1224942b191eacc37c0bb5d6a7ddc9aa276a39",
+      "bytes": 14112217,
+      "compressedBytes": 485953
+    },
+    "integration/seasonal/output/result.json": {
+      "files": [
+        "assets/atlas-f21156a791af2f1a-00.bin"
+      ],
+      "sha256": "f21156a791af2f1a2b6e05b1a002078e1253da97b946f672ae79167f7b8b4dc3",
+      "bytes": 10337965,
+      "compressedBytes": 584037
+    },
+    "integration/coverage-matrix.csv": {
+      "files": [
+        "assets/atlas-62103685d19e6640-00.bin"
+      ],
+      "sha256": "62103685d19e6640476c211c17d4ea827cf4343058acabedf767d0c9e01b6feb",
+      "bytes": 44229,
+      "compressedBytes": 2249
+    },
+    "integration/terrain/output/coverage.json": {
+      "files": [
+        "assets/atlas-c0cc9a6130798b34-00.bin"
+      ],
+      "sha256": "c0cc9a6130798b34d35c03514f25f966111f2dfacb35a8df2274f0a422df23a9",
+      "bytes": 15205,
+      "compressedBytes": 3769
+    }
+  },
+  "files": [
+    {
+      "path": "assets/atlas-ba089e8d2b7f1b49-00.bin",
+      "bytes": 700000,
+      "sha256": "eeb2522e9c02f7cc7b8377e41b94dfcce0e0315f41cb6c7f93faefcfa55daca1"
+    },
+    {
+      "path": "assets/atlas-ba089e8d2b7f1b49-01.bin",
+      "bytes": 700000,
+      "sha256": "31f529c13c7de91e3c3272c79a99c22b049873f19fb1ed1bbae71c25548f5d8c"
+    },
+    {
+      "path": "assets/atlas-ba089e8d2b7f1b49-02.bin",
+      "bytes": 217970,
+      "sha256": "6da6437b6d6b3b6cd7c6fad6dea0945164a34600de59da73dfc7d80add763824"
+    },
+    {
+      "path": "integration/atlas/index.html",
+      "bytes": 1735,
+      "sha256": "a762af73ade98cc709f81ca554b1ee316962738f5b4d81d56cc85df30a639d78"
+    },
+    {
+      "path": "assets/atlas-716744ad89aad880-00.bin",
+      "bytes": 5625,
+      "sha256": "0f0dc8f42f55058a8c66f53c15e0fff1b45599543aa6b76fd63a2c690e36e23a"
+    },
+    {
+      "path": "assets/atlas-2f0583182d7d4c21-00.bin",
+      "bytes": 700000,
+      "sha256": "3b7bb6df97161983f8b634d8a3dc4db183d3dc6c620f2de850e699f671f64030"
+    },
+    {
+      "path": "assets/atlas-2f0583182d7d4c21-01.bin",
+      "bytes": 434444,
+      "sha256": "8b6384fe21b684012b89f7b0eb3547db8eecbd26d4c9c97dfe03a376e9a17a87"
+    },
+    {
+      "path": "integration/terrain-v2/index.html",
+      "bytes": 1689,
+      "sha256": "20d33caf6935b91bca200cc3fd93c9b8f9c03ffac044a654ab27d74c6d16a84f"
+    },
+    {
+      "path": "assets/atlas-3a7110623cd880ba-00.bin",
+      "bytes": 32111,
+      "sha256": "ebc72b51fb0d2f9657c45104d487f69cc7eae44a34a3f5b290884def547da3db"
+    },
+    {
+      "path": "assets/atlas-7c47354628899fae-00.bin",
+      "bytes": 7440,
+      "sha256": "cf62092a42f481e94ff702243193bb925984db1b32fd135ce621b3bbdb5dbc10"
+    },
+    {
+      "path": "assets/atlas-fb1d8586aa0698ea-00.bin",
+      "bytes": 485953,
+      "sha256": "bd20ac13d53e834aa406c8f1b78bc70e36b1987de73ee9a92141427530a5429f"
+    },
+    {
+      "path": "assets/atlas-f21156a791af2f1a-00.bin",
+      "bytes": 584037,
+      "sha256": "076fed997fa32dc03bafab39d7b43ecb9adb013e994b2b4737969e933f499359"
+    },
+    {
+      "path": "assets/atlas-62103685d19e6640-00.bin",
+      "bytes": 2249,
+      "sha256": "d2de0dcae357bf79ff5703c777e90b3006625c606fe7da1a3b96ba7c19f5d708"
+    },
+    {
+      "path": "assets/atlas-0b5acdc043aaefb2-00.bin",
+      "bytes": 425894,
+      "sha256": "23e9c0d744ec140b10503eee20e97e31da3dfcf6792a33ae8cfc5835fbb494fb"
+    },
+    {
+      "path": "integration/seasonal/index.html",
+      "bytes": 1641,
+      "sha256": "7b221c6d9f671aa888dbaa14477232f31b1ebff1411c2ef1014921c90ff36844"
+    },
+    {
+      "path": "application/planet-observatory.html",
+      "bytes": 1283,
+      "sha256": "7d1b571ff48f47934908f42361fb25ab638f1ea9cf8c41cda3a48103034e9ccf"
+    },
+    {
+      "path": "integration/atlas/README.md",
+      "bytes": 12148,
+      "sha256": "2329c1d8abc9dba7873c388bc832d63fc909f9f48425b12008062da2ddd250e2"
+    },
+    {
+      "path": "integration/terrain-v2/README.md",
+      "bytes": 4594,
+      "sha256": "220f4c6d138014deb9847f0b5e6a347d9bc576cd264e01c205ced7f8434b365f"
+    },
+    {
+      "path": "integration/terrain-v2/REPORT.md",
+      "bytes": 7047,
+      "sha256": "2c7110e3df8dc0a53db89b774ab9b8edf8ea790c52ea52cd29cceb0776998e54"
+    },
+    {
+      "path": "assets/atlas-c0cc9a6130798b34-00.bin",
+      "bytes": 3769,
+      "sha256": "8701a052b7b75315f90313d5516e6564773b7089771e582c5220be1fbe2334cf"
+    },
+    {
+      "path": "integration/terrain/index.html",
+      "bytes": 995,
+      "sha256": "f355f25462ad89a67ae217f43d3f7bd88e80f33a660977f8204356c029b37693"
+    },
+    {
+      "path": "integration/seasonal/REPORT.md",
+      "bytes": 8876,
+      "sha256": "6dc092dbf9c6ae47a2f6d88f5e9d88dbd7cd0de5061abba5e66628a745254f14"
+    },
+    {
+      "path": "integration/index.html",
+      "bytes": 991,
+      "sha256": "6cde1fdc1314120b9f5ded08fde094760db2a0fa7af953f9e9496d1c92f86395"
+    },
+    {
+      "path": "integration/terrain/README.md",
+      "bytes": 3808,
+      "sha256": "c15b9604f13b3a9723eca8697e0739574d24d8d8c95724e1358a7a74ad6d485c"
+    },
+    {
+      "path": "integration/terrain/REPORT.md",
+      "bytes": 6563,
+      "sha256": "1f74406e7abe251056c31a8ef301dba5b12d428af1aff5ef1e96ecdd98031519"
+    },
+    {
+      "path": "index.html",
+      "bytes": 323,
+      "sha256": "0670ddf5625daa8a2a67b75b1ada1575f5cc7af44bff2732948f342bf9db2851"
+    },
+    {
+      "path": "START_SIMULATOR.html",
+      "bytes": 323,
+      "sha256": "0670ddf5625daa8a2a67b75b1ada1575f5cc7af44bff2732948f342bf9db2851"
+    },
+    {
+      "path": "legacy-v0.77.html",
+      "bytes": 2731,
+      "sha256": "edb7ffe6ee270f87fe50e22e867fc71131297f28131cb54df28fb057d0af9b8f"
+    },
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "download.html",
+      "bytes": 3425,
+      "sha256": "97ab8caee5e7db6ede5376464fd1ef11f9ac1ee55add5e7411c72e6992fa04a3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1632,
+      "sha256": "d1b7ca68e09a3169edc058f9f0d5972860c64e8b5f7506a3ad0364076a19fe84"
+    }
+  ],
+  "omittedSources": [
+    {
+      "path": "application/planet-observatory.html",
+      "sha256": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+      "reason": "Automatic publication review rejected upload of the full historical simulator; latest Atlas and its calculation engine remain included."
+    },
+    {
+      "path": "integration/terrain/index.html",
+      "sha256": "f2af5ad35c22051da8006084ec4856489e6e1471e4d80cbc425a7fb0c8ba7b0e",
+      "reason": "Historical standalone screen omitted from reduced publication; latest replacement remains available."
+    },
+    {
+      "path": "integration/index.html",
+      "sha256": "2db5d2fd09862ccbac75caa0692f109ade1b413b60dc171b5e8a7607561c8e96",
+      "reason": "Historical standalone screen omitted from reduced publication; latest replacement remains available."
+    }
+  ]
+}
