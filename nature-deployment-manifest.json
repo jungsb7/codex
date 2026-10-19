@@ -95,6 +95,90 @@
       "source": "integration/natural-world/app.js"
     },
     {
+      "path": "integration/natural-world/catchment-budget/README.md",
+      "bytes": 4839,
+      "sha256": "0096d5a9274805d7ae714aa57476a474a5ab95470e6449eeaae518d9ec527496",
+      "source": "integration/natural-world/catchment-budget/README.md"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/REPORT.md",
+      "bytes": 4260,
+      "sha256": "e9b6574e0146f37b61ef3385afd2304dee6ea4a653968b1d7c9f100e3139d20e",
+      "source": "integration/natural-world/catchment-budget/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/app.js",
+      "bytes": 13356,
+      "sha256": "69ce5902b945d0787ec18650a0238a93ebf7383a1ba1dc76a8047e08e5021728",
+      "source": "integration/natural-world/catchment-budget/app.js"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/browser-check.cjs",
+      "bytes": 9444,
+      "sha256": "9e4f3565385961d25c736194abb5bff05798da89d1190c0ea4f6c55b1888f23a",
+      "source": "integration/natural-world/catchment-budget/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/build.cjs",
+      "bytes": 10351,
+      "sha256": "24ad1db677c1d6924f08f28154d902f2514280013af0fb693bf378acdf945238",
+      "source": "integration/natural-world/catchment-budget/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/collect.cjs",
+      "bytes": 8738,
+      "sha256": "067617db188c78ee72a4740da94319166f9364aa994537fd620949b10a996186",
+      "source": "integration/natural-world/catchment-budget/collect.cjs"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/core.js",
+      "bytes": 5303,
+      "sha256": "3c9b606548231dd170d1e6d86b1a8714098db38eeed142b84cc728cbace6beb5",
+      "source": "integration/natural-world/catchment-budget/core.js"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/index.html",
+      "bytes": 5668,
+      "sha256": "5117cd3bccf30566aa4cca64304ae5148721ac460acb2efd0b03a8a00b6a0da5",
+      "source": "integration/natural-world/catchment-budget/index.html"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/output/atlas.json.gz",
+      "bytes": 5321525,
+      "sha256": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+      "source": "integration/natural-world/catchment-budget/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/output/checks.json",
+      "bytes": 972,
+      "sha256": "ae4ddf35aa93305736e4e09b86c0e6a19a61f14be4f1c8f6dce743169bbe710d",
+      "source": "integration/natural-world/catchment-budget/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/output/summary.json",
+      "bytes": 8849,
+      "sha256": "4b1dc10ea1e0429d51704a6d99c095ebd4eaa1ba45ebf091d70625f55074629c",
+      "source": "integration/natural-world/catchment-budget/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/priority-browser.cjs",
+      "bytes": 7642,
+      "sha256": "c6fce6183edfdbcb106998cd6e7fab2c15f04c231792ffb5df0871f5f62ddfb4",
+      "source": "integration/natural-world/catchment-budget/priority-browser.cjs"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/style.css",
+      "bytes": 5896,
+      "sha256": "94fd401829e148ba3f178e0c1f190cb3b25ea5e196313cd0e101af400001e232",
+      "source": "integration/natural-world/catchment-budget/style.css"
+    },
+    {
+      "path": "integration/natural-world/catchment-budget/test.cjs",
+      "bytes": 8366,
+      "sha256": "599558303af8d9626c14008af5a68e890ac926fa52c39e5a7afc421b0fb99c52",
+      "source": "integration/natural-world/catchment-budget/test.cjs"
+    },
+    {
       "path": "integration/natural-world/cold-water/README.md",
       "bytes": 6145,
       "sha256": "8409cb96dd339b2c49c9356169e2872d72d06689d31b757842eb3f2432e25e66",
@@ -588,8 +672,8 @@
     },
     {
       "path": "integration/natural-world/retention-priority/ui.js",
-      "bytes": 7525,
-      "sha256": "82e662e17b7740d6a387dad530edd4dbcb95dbff683a93a382f31b8c3dec4734",
+      "bytes": 7795,
+      "sha256": "852043a473f0f75e3f1531ce5340e18d24abadfc05534c614df6b9ddc9ae6614",
       "source": "integration/natural-world/retention-priority/ui.js"
     },
     {
@@ -894,14 +978,14 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/README.md",
-      "bytes": 5149,
-      "sha256": "b56bee796ab356b807beb351465f91ba959c76f71fae010b884f1c3952bd15b4",
+      "bytes": 5610,
+      "sha256": "758e92f98296fd92ecbd812be5990f1f4c0881a58c3da14a172907630fba28f9",
       "source": "integration/natural-world/unified-atlas/README.md"
     },
     {
       "path": "integration/natural-world/unified-atlas/REPORT.md",
-      "bytes": 8664,
-      "sha256": "e00ed16217198cf9cedfc1bf6e91906518af2c7e7954e8a4dbb58fa9f62c2ba5",
+      "bytes": 9125,
+      "sha256": "9ac5b04c05f32b62c49a647637d75b2c5da60eaa11918c6f12ed83501a06f437",
       "source": "integration/natural-world/unified-atlas/REPORT.md"
     },
     {
@@ -1244,6 +1328,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "world-retention-priority-12",
-  "previousPublicationCommit": "9a44710b8deed8ec96b60a064c9f3d83fabb0e5a"
+  "latestFollowup": "catchment-budget-13",
+  "previousPublicationCommit": "16955514824cc98ac6502f91e51b77da6351bc26"
 }

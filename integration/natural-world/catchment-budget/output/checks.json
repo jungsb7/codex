@@ -1,0 +1,44 @@
+[
+  {
+    "id": "source-world-and-full-runoff-identical",
+    "passed": true
+  },
+  {
+    "id": "all-source-cells-once-and-exact-domain",
+    "passed": true
+  },
+  {
+    "id": "every-cell-period-source-water-balance",
+    "passed": true,
+    "maxCellResidualMm": 5.711520145723625e-11,
+    "maxStateContinuityMm": 4.547473508864641e-13
+  },
+  {
+    "id": "existing-monthly-boundary-inflow-reproduced",
+    "passed": true,
+    "maxRelativeError": 4.571619192436585e-16
+  },
+  {
+    "id": "all-pond-fluxes-sum-to-parent",
+    "passed": true
+  },
+  {
+    "id": "geometric-mergers-match-independent-minimax",
+    "passed": true,
+    "maxConnectionErrorM": 0,
+    "ponds": 47,
+    "mergers": 46
+  },
+  {
+    "id": "every-source-path-adjacent-acyclic-and-correct-low-point",
+    "passed": true
+  },
+  {
+    "id": "climate-gap-retained-with-source-branch-distinction",
+    "passed": true
+  },
+  {
+    "id": "raw-storage-telescopes-without-cyclic-reset",
+    "passed": true
+  }
+]
