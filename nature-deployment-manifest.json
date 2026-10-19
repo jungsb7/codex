@@ -831,6 +831,18 @@
       "bytes": 2524,
       "sha256": "6314699831745c841fea1e49f5a7e48db7d73b0ffc6e31a7c90ac804b7040c1d",
       "source": null
+    },
+    {
+      "path": "integration/natural-world/stage4/README.md",
+      "bytes": 5664,
+      "sha256": "fa68a1a8f1dd3ed86b6e8ae23a1fe45238ab9145f7c4c7ee9d77d98e76aaa904",
+      "source": "integration/natural-world/stage4/README.md"
+    },
+    {
+      "path": "integration/natural-world/stage4/REPORT.md",
+      "bytes": 5689,
+      "sha256": "63d1f211b82ee0eb54bc015ad71b277d08c5edaee102b90913c8ed6fc6484fb4",
+      "source": "integration/natural-world/stage4/REPORT.md"
     }
   ],
   "packedHtml": [
