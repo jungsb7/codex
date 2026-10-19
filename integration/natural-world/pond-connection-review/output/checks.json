@@ -1,0 +1,26 @@
+[
+  {
+    "id": "geometric-closure-includes-all-nine",
+    "passed": true
+  },
+  {
+    "id": "source-cell-set-is-disjoint-and-complete",
+    "passed": true
+  },
+  {
+    "id": "full-connected-footprint-and-next-boundary",
+    "passed": true
+  },
+  {
+    "id": "annual-contributions-conserve-parent-budget",
+    "passed": true
+  },
+  {
+    "id": "surface-land-replacement-closes",
+    "passed": true
+  },
+  {
+    "id": "actual-physics-remains-unknown",
+    "passed": true
+  }
+]

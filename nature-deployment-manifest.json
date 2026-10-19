@@ -108,8 +108,8 @@
     },
     {
       "path": "integration/natural-world/catchment-budget/app.js",
-      "bytes": 13496,
-      "sha256": "581a3e54cde681fc2d49eb7035166577da30703fa948c5a645b110eca4b71c9b",
+      "bytes": 13712,
+      "sha256": "832a49354f2a694b310a8a3c7e5817c1644e5b6e68113fee5415902ccc6b620d",
       "source": "integration/natural-world/catchment-budget/app.js"
     },
     {
@@ -138,8 +138,8 @@
     },
     {
       "path": "integration/natural-world/catchment-budget/index.html",
-      "bytes": 5792,
-      "sha256": "4ae7d553f2e3b5e594101c04f936805dd5846132420ffea9d6f5e125fb2cba53",
+      "bytes": 5935,
+      "sha256": "38251fc5769d1fe39472bbeeb5ad735765f4979b5cbe38a4b20b0c18f1de5adb",
       "source": "integration/natural-world/catchment-budget/index.html"
     },
     {
@@ -539,6 +539,78 @@
       "source": "integration/natural-world/pond-budget/validation/final-checks.json"
     },
     {
+      "path": "integration/natural-world/pond-connection-review/README.md",
+      "bytes": 2350,
+      "sha256": "12fca7728c8b563096b4ecebe2daebd97d50956f3a4dc0b893108d4f4631801e",
+      "source": "integration/natural-world/pond-connection-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/REPORT.md",
+      "bytes": 5865,
+      "sha256": "d29fe44f3b72e351fadac046ed6f68f1e183bcff75af2cf6abab72ae0d7c9774",
+      "source": "integration/natural-world/pond-connection-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/app.js",
+      "bytes": 11498,
+      "sha256": "6099bb825c63059f809aff8c46567395245d44996e8aab1ea3f38f5f0f7b9743",
+      "source": "integration/natural-world/pond-connection-review/app.js"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/browser-check.cjs",
+      "bytes": 9487,
+      "sha256": "7e45944ce821682146870a58d664fd6781010901fb8b081fb5eb7c059f3df3ad",
+      "source": "integration/natural-world/pond-connection-review/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/build.cjs",
+      "bytes": 4895,
+      "sha256": "31961b9b1e2f4825a048d71edf63641311beb49d8fd64effa760d95823381c26",
+      "source": "integration/natural-world/pond-connection-review/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/core.js",
+      "bytes": 5865,
+      "sha256": "dc25435f74b64eaa704165769230e5d45fbbe70b6efc1c927b09e6a3c6664138",
+      "source": "integration/natural-world/pond-connection-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/index.html",
+      "bytes": 7772,
+      "sha256": "57183cc44e78c8e787b244640623a500ab9bcdc7f92a3d020e6360fca962edf3",
+      "source": "integration/natural-world/pond-connection-review/index.html"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/output/atlas.json",
+      "bytes": 111589,
+      "sha256": "4c37aafd38caf0fb16575a0873512997ebe13690e8bc9b96baba934941199aa0",
+      "source": "integration/natural-world/pond-connection-review/output/atlas.json"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/output/checks.json",
+      "bytes": 476,
+      "sha256": "10c50e517a2d333902ae25e7fb3357bc8e849bf68871de83e9628c374bcd2ffb",
+      "source": "integration/natural-world/pond-connection-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/output/summary.json",
+      "bytes": 31690,
+      "sha256": "3a3a27fd0ad81c0a6df8044d1a5bf2f0e1ea04cc81e0e2545e66439949de780c",
+      "source": "integration/natural-world/pond-connection-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/style.css",
+      "bytes": 3475,
+      "sha256": "ed529f4bedfdfe1cde5ddd83e8d0c3ccaae1c2e588a62c983f26ea7f3964dd77",
+      "source": "integration/natural-world/pond-connection-review/style.css"
+    },
+    {
+      "path": "integration/natural-world/pond-connection-review/test.cjs",
+      "bytes": 7245,
+      "sha256": "e3e5f531b3d2677680b5515ae0b30a98f5d0b1deaabdb84e1a6355672e41aa43",
+      "source": "integration/natural-world/pond-connection-review/test.cjs"
+    },
+    {
       "path": "integration/natural-world/pond-surface-review/README.md",
       "bytes": 1898,
       "sha256": "6eada1cf5db871ad3d574591a5aa67207fa37123077af45b1cad23633209cea4",
@@ -552,8 +624,8 @@
     },
     {
       "path": "integration/natural-world/pond-surface-review/app.js",
-      "bytes": 9843,
-      "sha256": "d43add680a99e4f540d642c44a52d836d8e4309b7cce5976ff706ed509014059",
+      "bytes": 9976,
+      "sha256": "0f520f5dc5b1646672b7c375e1e1e11e33c6519301e57400409bbeab5ad9f649",
       "source": "integration/natural-world/pond-surface-review/app.js"
     },
     {
@@ -576,8 +648,8 @@
     },
     {
       "path": "integration/natural-world/pond-surface-review/index.html",
-      "bytes": 7157,
-      "sha256": "27f06da09887c63258549a630a566ad47dff5c9b8bb92d66030e27c15196f48b",
+      "bytes": 7285,
+      "sha256": "4ea3e0e18824e526b636ffa33c560ce37322aa434d082614f8834b73f7218577",
       "source": "integration/natural-world/pond-surface-review/index.html"
     },
     {
@@ -1400,6 +1472,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "pond-surface-review-14",
-  "previousPublicationCommit": "07185c8d0e57265f92baba0ed01abd7321e91e80"
+  "latestFollowup": "pond-connection-review-15",
+  "previousPublicationCommit": "ea93aea700e12e65ccda72da7ab5ea54402b4ce5"
 }
