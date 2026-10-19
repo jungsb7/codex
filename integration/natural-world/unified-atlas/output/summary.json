@@ -1,0 +1,248 @@
+{
+  "schema": "unified-nature-summary/1",
+  "status": "presentation-integration-complete",
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceHashes": {
+      "integration/natural-world/output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "integration/natural-world/stage2/output/diagnostics.json": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "integration/natural-world/stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "integration/natural-world/stage4/output/ecology.json": "322484a70c56bda8852d08c9a0be1acf062d570be448c9b4065adabe11e9f0c9",
+      "integration/natural-world/review-atlas/output/atlas.json.gz": "d1cc126657b881e4715e32f54a09719c812a628de9f7ee1e1f6938096c144faa",
+      "integration/natural-world/pet-review/output/summary.json": "1136c4942b3dc9e5e8d9bd1fee65e66975a183e259342a776cc4498da6afd106",
+      "integration/natural-world/desert-review/output/summary.json": "9690b480c6716ef0dbc441ac6a24cacafcbc0db5916913f98e346d43c4620f18",
+      "integration/natural-world/cold-water/output/summary.json": "4664963f4bde91eacab2e239b31a0497d77ae6e924910d482033306563d23dc5",
+      "integration/natural-world/core.js": "61ebd90323b7e303013153450016299b373b5deb4bcc0193e73a8eb91557d74e",
+      "integration/natural-world/stage5/core.js": "9781ca8f3227ea309bc9ba87554b799eebfac2c419259de445f5f46f273899fd",
+      "integration/natural-world/stage5/codec.js": "36f36e87fc50db6947ece12267d877c6bac040b59f0a10699f3a594091daa994",
+      "integration/natural-world/unified-atlas/core.js": "d4320382484439c44118fc69834eb8a8e5d99090e0f4a24ed4141c67dc67613a",
+      "integration/natural-world/unified-atlas/build.cjs": "04e2e06a12e5d54f6ba94213c3159330daf31be2b76279d13f8c89b198e4ae9c"
+    }
+  },
+  "totals": {
+    "cells": 268857,
+    "dryCells": 268648,
+    "lakeCells": 209,
+    "wetlandCells": 9804,
+    "volcanicCells": 214,
+    "hotPETCells": 24448,
+    "settingConflictCells": 2629,
+    "holdCells": 32568,
+    "transitionCells": 70905,
+    "channelCells": 119143,
+    "forestCells": 63020,
+    "grassCells": 87403
+  },
+  "regions": [
+    {
+      "id": 1,
+      "name": "북부 설원권",
+      "cells": 28295,
+      "wetlandCells": 424,
+      "volcanicCells": 0,
+      "forestCells": 4890,
+      "grassCells": 9222,
+      "holdCells": 5295
+    },
+    {
+      "id": 2,
+      "name": "북방 내륙·대초원권",
+      "cells": 60150,
+      "wetlandCells": 1016,
+      "volcanicCells": 0,
+      "forestCells": 9452,
+      "grassCells": 37773,
+      "holdCells": 1363
+    },
+    {
+      "id": 3,
+      "name": "서부 사막권",
+      "cells": 7409,
+      "wetlandCells": 395,
+      "volcanicCells": 0,
+      "forestCells": 3605,
+      "grassCells": 3222,
+      "holdCells": 2629
+    },
+    {
+      "id": 4,
+      "name": "서대륙 중남부",
+      "cells": 14622,
+      "wetlandCells": 1636,
+      "volcanicCells": 0,
+      "forestCells": 12271,
+      "grassCells": 222,
+      "holdCells": 0
+    },
+    {
+      "id": 5,
+      "name": "북방 수원 산지",
+      "cells": 9797,
+      "wetlandCells": 0,
+      "volcanicCells": 0,
+      "forestCells": 1618,
+      "grassCells": 563,
+      "holdCells": 38
+    },
+    {
+      "id": 6,
+      "name": "제국 분지·대호수",
+      "cells": 1573,
+      "wetlandCells": 0,
+      "volcanicCells": 0,
+      "forestCells": 41,
+      "grassCells": 59,
+      "holdCells": 520
+    },
+    {
+      "id": 7,
+      "name": "동대륙 내륙·연안",
+      "cells": 49868,
+      "wetlandCells": 527,
+      "volcanicCells": 0,
+      "forestCells": 4774,
+      "grassCells": 5218,
+      "holdCells": 22318
+    },
+    {
+      "id": 8,
+      "name": "남동 연결부",
+      "cells": 4133,
+      "wetlandCells": 54,
+      "volcanicCells": 0,
+      "forestCells": 997,
+      "grassCells": 802,
+      "holdCells": 0
+    },
+    {
+      "id": 9,
+      "name": "남동대륙",
+      "cells": 42581,
+      "wetlandCells": 2440,
+      "volcanicCells": 214,
+      "forestCells": 12805,
+      "grassCells": 13842,
+      "holdCells": 0
+    },
+    {
+      "id": 10,
+      "name": "남서대륙",
+      "cells": 47787,
+      "wetlandCells": 2970,
+      "volcanicCells": 0,
+      "forestCells": 10330,
+      "grassCells": 16480,
+      "holdCells": 0
+    },
+    {
+      "id": 11,
+      "name": "섬·분리 육지",
+      "cells": 2642,
+      "wetlandCells": 342,
+      "volcanicCells": 0,
+      "forestCells": 2237,
+      "grassCells": 0,
+      "holdCells": 405
+    }
+  ],
+  "naturalRegions": 11,
+  "existingFeatures": {
+    "ridge": 16,
+    "river": 7,
+    "pass": 3,
+    "lowland": 5,
+    "trench": 1,
+    "ocean-ridge": 2,
+    "basin": 1
+  },
+  "reaches": 45824,
+  "unresolvedEndpointReaches": 23022,
+  "localCells": 6850,
+  "snowCandidates": 55,
+  "modes": 6,
+  "layerControls": 10,
+  "checks": [
+    {
+      "id": "world-identity",
+      "passed": true,
+      "details": {
+        "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7"
+      }
+    },
+    {
+      "id": "original-compact-fields-preserved",
+      "passed": true,
+      "details": {
+        "fields": 11,
+        "cells": 268857
+      }
+    },
+    {
+      "id": "scope-and-original-water",
+      "passed": true,
+      "details": {
+        "cells": 268857,
+        "dryCells": 268648,
+        "lakeCells": 209,
+        "wetlandCells": 9804,
+        "volcanicCells": 214,
+        "hotPETCells": 24448,
+        "settingConflictCells": 2629,
+        "holdCells": 32568,
+        "transitionCells": 70905,
+        "channelCells": 119143,
+        "forestCells": 63020,
+        "grassCells": 87403
+      }
+    },
+    {
+      "id": "wetland-evidence-not-new-area",
+      "passed": true,
+      "details": {
+        "wetErrors": 0,
+        "candidateCells": 9804,
+        "actualAreaKm2": null
+      }
+    },
+    {
+      "id": "volcanic-corridor-not-points",
+      "passed": true,
+      "details": {
+        "volcErrors": 0,
+        "candidateCells": 214,
+        "volcanoLocations": null
+      }
+    },
+    {
+      "id": "review-holds-retained",
+      "passed": true,
+      "details": {
+        "hotPETCells": 24448,
+        "settingConflictCells": 2629
+      }
+    },
+    {
+      "id": "reach-geometry-and-endpoints",
+      "passed": true,
+      "details": {
+        "reaches": 45824,
+        "unresolved": 23022
+      }
+    },
+    {
+      "id": "local-scope-retained",
+      "passed": true,
+      "details": {
+        "localCells": 6850,
+        "snowCandidates": 55
+      }
+    }
+  ],
+  "presentationOnly": true,
+  "actualNewNatureGeometry": null,
+  "actualWetlandAreaKm2": null,
+  "actualVolcanoLocations": null,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false
+}

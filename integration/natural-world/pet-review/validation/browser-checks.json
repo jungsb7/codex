@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "id": "desktop-load-and-world-scope",
+      "milliseconds": 3356
+    },
+    {
+      "id": "both-methods-point-equivalence-and-hold"
+    },
+    {
+      "id": "four-modes-and-global-controls"
+    },
+    {
+      "id": "zero-hot-region-and-dry-lake-counts"
+    },
+    {
+      "id": "lake-coordinate-and-json-unknowns"
+    },
+    {
+      "id": "ocean-does-not-invent-land-data"
+    },
+    {
+      "id": "both-map-projections-and-missing-periods"
+    },
+    {
+      "id": "keyboard-url-reload-and-history"
+    },
+    {
+      "id": "pan-and-wheel-synchronize"
+    },
+    {
+      "id": "prior-global-map-same-cell"
+    },
+    {
+      "id": "mobile-layout-and-controls"
+    }
+  ],
+  "errors": [],
+  "hashes": {
+    "index.html": "3c69c7ce56e11ef020b5f20a69403952dccdb511ad7e75a4e11831e47b820441",
+    "app.js": "aaf1a305bf7dfdac703265a1fba0b3145ba62acbf230e431ba89c2faddca84fb",
+    "core.js": "83b650b81b860571b573c676a11fd25181f63e1749f50c8d2707ea19305ea8ab",
+    "style.css": "c2bf25fde1151d8a01d9511cc439addb8d3730415095786a6447e56d52573f66",
+    "output/atlas.json.gz": "7e1edecc40e3000d45ecb2a03492e866a8bf3ecfa1c951410e9a1e47b2908336"
+  }
+}

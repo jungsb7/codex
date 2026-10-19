@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T07:45:15.789Z",
+  "stage": 1,
+  "scope": "All existing continents and islands; baseline data and review map",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "priorIntegrationFilesChecked": 207,
+  "intendedIntegrationChanges": [
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json",
+    "atlas/NEXT_SESSION_PROMPT.txt",
+    "atlas/README.md",
+    "atlas/index.html",
+    "atlas/style.css",
+    "atlas/ui.html",
+    "natural-world-design/PLAN.md"
+  ],
+  "unexpectedIntegrationChanges": [],
+  "modelChecks": 21,
+  "browserChecks": 11,
+  "skippedBrowserChecks": [
+    {
+      "check": "Direct file:// navigation",
+      "reason": "Managed browser policy blocks local file URLs; HTTP loading and self-contained payload verified separately."
+    }
+  ],
+  "coverage": {
+    "terrestrialCells": 268857,
+    "unclassifiedCells": 0,
+    "reviewRegions": 11
+  },
+  "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+  "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+  "naturalWorldHtmlSha256": "9116646a97711fec78501583f549a00a6f39ca69a0c9977a21b945dd3644af95",
+  "atlasHtmlSha256": "1863f9b3676593f5ac268722d6efa8335fbbd153be95c77a3ffac9ff3c9b42fe",
+  "deploymentPerformed": false,
+  "failures": []
+}

@@ -1,0 +1,350 @@
+{
+  "schema": "hot-pet-review/1",
+  "status": "conditional-comparison-complete-not-adopted",
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "applicationVersion": "0.107",
+    "applicationHtmlSha256": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+    "sourceHashes": {
+      "application/source/app.js": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+      "integration/natural-world/output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "integration/natural-world/stage2/inputs/seasonal.json": "03b8a48ee6142b07fe1d08ef76110d6cfa4150f7d8f5c02c39c9a6c92681a1a0",
+      "integration/natural-world/stage2/output/diagnostics.json": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "integration/natural-world/stage6/output/cell-review.json": "0ad06cec6610200fc736ecc06c393c3634bb8e944ba9a57ec60e468bc33611f3",
+      "integration/natural-world/pet-review/core.js": "83b650b81b860571b573c676a11fd25181f63e1749f50c8d2707ea19305ea8ab",
+      "integration/natural-world/pet-review/build.cjs": "ba420c501e62bbfa8894cceaeefabeeedca5eb55604d4efab2ae8b47b3f04243",
+      "integration/natural-world/pet-review/inputs/references/airGR-PE_Oudin.R": "cb631f48932f511557dc1f377c6b106051f2352818ad93bc5327b088329e4172",
+      "integration/natural-world/pet-review/inputs/references/airGR-frun_PE.f90": "0f7d788c4d75b83c236848e01007d7da7dfa17bf43c93d84087ac9fde591965e",
+      "integration/natural-world/pet-review/inputs/references/airGR-PE_Oudin.Rd": "379512c0f3e70d9934e83935987fb2c8ce216ea334c01c638375e348ca7f0434",
+      "integration/natural-world/pet-review/inputs/references/pyet-combination.py": "4129c9891b9085f25ecab6631f9d9d67438f46a10ba336979c0c54e21b0727a6",
+      "integration/natural-world/pet-review/inputs/references/pyet-temperature.py": "8393bd0793a1c73eac0e37fb74c3bcbc15773dcd00fe59ee44a45b1a5c9f7ee1",
+      "integration/natural-world/pet-review/inputs/references/pyet-radiation.py": "75504f547f95075975bd394bb3fcabd63743b34af3a93ce753a6b5298088107d"
+    }
+  },
+  "constants": {
+    "yearDays": 365,
+    "periods": 12,
+    "tiltDegrees": 23.4,
+    "solarConstantWm2": 1361,
+    "wattsPerMmDay": 28.5,
+    "temperatureOffsetC": 5,
+    "temperatureScaleC": 100,
+    "radiationSamples": 64
+  },
+  "scope": {
+    "allTerrestrialCells": 268857,
+    "hotCells": 24448,
+    "dryCells": 24239,
+    "lakeCells": 209,
+    "areaKm2": 13296989.619520867,
+    "maxTemperatureC": 41.97955322265625,
+    "maximumCell": 371038,
+    "maximumLocation": [
+      22.1484375,
+      33.3984375
+    ],
+    "periodCounts": [
+      0,
+      0,
+      0,
+      17875,
+      24448,
+      5236,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hotPeriodsHistogram": [
+      0,
+      6573,
+      12639,
+      5236,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "hotPeriodSamples": 47559
+  },
+  "regions": [
+    {
+      "id": 1,
+      "name": "북부 설원권",
+      "allCells": 28295,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 2,
+      "name": "북방 내륙·대초원권",
+      "allCells": 60150,
+      "hotCells": 1363,
+      "dryCells": 1363,
+      "lakeCells": 0,
+      "areaKm2": 588210.6358266063,
+      "representativeCell": 249958
+    },
+    {
+      "id": 3,
+      "name": "서부 사막권",
+      "allCells": 7409,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 4,
+      "name": "서대륙 중남부",
+      "allCells": 14622,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 5,
+      "name": "북방 수원 산지",
+      "allCells": 9797,
+      "hotCells": 38,
+      "dryCells": 38,
+      "lakeCells": 0,
+      "areaKm2": 20745.78641127517,
+      "representativeCell": 345016
+    },
+    {
+      "id": 6,
+      "name": "제국 분지·대호수",
+      "allCells": 1573,
+      "hotCells": 729,
+      "dryCells": 520,
+      "lakeCells": 209,
+      "areaKm2": 394115.74047545285,
+      "representativeCell": 326580
+    },
+    {
+      "id": 7,
+      "name": "동대륙 내륙·연안",
+      "allCells": 49868,
+      "hotCells": 22318,
+      "dryCells": 22318,
+      "lakeCells": 0,
+      "areaKm2": 12293917.456807232,
+      "representativeCell": 263512
+    },
+    {
+      "id": 8,
+      "name": "남동 연결부",
+      "allCells": 4133,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 9,
+      "name": "남동대륙",
+      "allCells": 42581,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 10,
+      "name": "남서대륙",
+      "allCells": 47787,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    },
+    {
+      "id": 11,
+      "name": "섬·분리 육지",
+      "allCells": 2642,
+      "hotCells": 0,
+      "dryCells": 0,
+      "lakeCells": 0,
+      "areaKm2": 0,
+      "representativeCell": null
+    }
+  ],
+  "overlap": {
+    "polarGap": 0,
+    "hotPETGap": 24448,
+    "settingConflict": 0,
+    "transition": 0,
+    "unresolvedDrainage": 21994,
+    "largeVirtualFill": 20,
+    "wetlandCandidate": 0,
+    "volcanicCorridor": 0
+  },
+  "cases": [
+    {
+      "id": "phase",
+      "name": "Oudin · 대표 위상",
+      "note": "원본과 같은 위상의 일평균 대기권 밖 일사. 12기간 기온을 해당 기간의 일평균 대용으로 사용.",
+      "dryCells": 24239,
+      "lakeCells": 209,
+      "biomes": [
+        {
+          "id": 4,
+          "name": "사막·건조 관목지 후보",
+          "cells": 24048,
+          "areaKm2": 13098240.805727866
+        },
+        {
+          "id": 5,
+          "name": "초원·반건조지 후보",
+          "cells": 191,
+          "areaKm2": 84715.23935904438
+        }
+      ],
+      "areaKm2": 13182956.045086967,
+      "minAI": 0,
+      "maxAI": 0.24963184046192455,
+      "minAnnualPET": 1119.2097604115318,
+      "maxAnnualPET": 1685.1799841737507,
+      "meanAnnualPETMm": 1503.7177725036038,
+      "meanAI": 0.04382580022121722,
+      "status": "conditional-not-adopted",
+      "actualCover": null
+    },
+    {
+      "id": "interval",
+      "name": "Oudin · 기간 일사 평균",
+      "note": "각 위상 ±15°에서 일사를 64회 평균. 원본 기간 기온은 고정. 일별 날씨를 복원한 값이 아님.",
+      "dryCells": 24239,
+      "lakeCells": 209,
+      "biomes": [
+        {
+          "id": 4,
+          "name": "사막·건조 관목지 후보",
+          "cells": 24045,
+          "areaKm2": 13096902.661493711
+        },
+        {
+          "id": 5,
+          "name": "초원·반건조지 후보",
+          "cells": 194,
+          "areaKm2": 86053.38359319676
+        }
+      ],
+      "areaKm2": 13182956.045086967,
+      "minAI": 0,
+      "maxAI": 0.250118249533471,
+      "minAnnualPET": 1116.7118614774863,
+      "maxAnnualPET": 1684.027521773432,
+      "meanAnnualPETMm": 1502.1523265851908,
+      "meanAI": 0.04388823875297259,
+      "status": "conditional-not-adopted",
+      "actualCover": null
+    }
+  ],
+  "radiationConventionBiomeDifferences": 3,
+  "controls": {
+    "cells": 236874,
+    "areaKm2": 118089682.34722891,
+    "biomeChanges": 48610,
+    "meaning": "PET 원식 유효·비극지·비호수 육지의 방법 차이. 관측값에 대한 정확도 검증 아님.",
+    "annualPETRatioUnweighted": {
+      "min": 0.031147794909326038,
+      "p10": 0.6609592897343225,
+      "median": 1.0245788002542575,
+      "p90": 1.1838684680773213,
+      "max": 1.5301908445782024
+    },
+    "meanBaselinePETMm": 990.981522937118,
+    "meanOudinPETMm": 1048.7161403307016
+  },
+  "retainedHotReviewCells": 24448,
+  "validatedGapResolutions": 0,
+  "actualCover": null,
+  "actualEvapotranspirationMm": null,
+  "runoffRecomputed": false,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "checks": [
+    {
+      "id": "source-world-and-order",
+      "passed": true,
+      "details": {
+        "scopeErrors": 0
+      }
+    },
+    {
+      "id": "native-baseline-reproduction",
+      "passed": true,
+      "details": {
+        "cells": 268857,
+        "sourceErrors": 0
+      }
+    },
+    {
+      "id": "exact-hot-scope",
+      "passed": true,
+      "details": {
+        "hot": 24448,
+        "hotDry": 24239,
+        "hotLake": 209,
+        "areaKm2": 13296989.619520867
+      }
+    },
+    {
+      "id": "baseline-unknown-retained",
+      "passed": true,
+      "details": {
+        "cells": 24448,
+        "nullErrors": 0
+      }
+    },
+    {
+      "id": "lake-not-terrestrial-cover",
+      "passed": true,
+      "details": {
+        "lakeErrors": 0,
+        "hotLake": 209
+      }
+    },
+    {
+      "id": "conditional-coverage",
+      "passed": true,
+      "details": {
+        "cases": 2
+      }
+    },
+    {
+      "id": "original-solar-exact",
+      "passed": true,
+      "details": {
+        "samples": 84,
+        "maxSolarErrorWm2": 0
+      }
+    },
+    {
+      "id": "source-files-consistent",
+      "passed": true,
+      "details": {
+        "meaning": "diagnostics embedded source equals standalone seasonal source"
+      }
+    }
+  ]
+}

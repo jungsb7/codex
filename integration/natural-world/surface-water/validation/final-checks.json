@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T13:11:36.789Z",
+  "scope": "Six explicit surface-replacement assumptions in 52 ponds; evolving cell snow/shallow stores; temperature-index evaporation and ice-cover proxy only",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "previousIntegrationFilesChecked": 480,
+  "intendedChanges": [
+    "natural-world-design/PLAN.md",
+    "natural-world/README.md",
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json"
+  ],
+  "unexpectedChanges": [],
+  "comparisonChecks": 7,
+  "modelChecks": {
+    "new": 27,
+    "priorPondCoreReexecuted": 12,
+    "totalExecuted": 39
+  },
+  "browserChecks": 9,
+  "previousEvidencePreservedByHashes": true,
+  "baselineNaturalMapHtmlSha256": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+  "previousPondHtmlSha256": "86470f9925c2499e72770909fb6c419afe7fb8748b315e0ecf9dd259cc851618",
+  "currentComparisonHtmlSha256": "53b0ca179f20691cb078ef32e749147eb864020559b7e6c312e5377904372df1",
+  "economicLedgersPreserved": true,
+  "actualIceVolumeM3": null,
+  "actualGroundExchangeM3": null,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "failures": []
+}

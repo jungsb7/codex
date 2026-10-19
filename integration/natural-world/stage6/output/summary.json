@@ -1,0 +1,148 @@
+{
+  "schema": "natural-world-adoption-audit/1",
+  "stage": 6,
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceHashes": {
+      "application/validation/world-map/world-map.json": "c964f8a10e1a3ee99be48852d926031a5e2277d5d1e35c774c8319f34257ac14",
+      "integration/natural-world/output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "integration/natural-world/stage2/output/diagnostics.json": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "integration/natural-world/stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "integration/natural-world/stage3/output/flow-ledger.bin": "0918b45f5556e3c0caf34646fbc7ccfab4789db908031c393d0c7e0ab4da8b9c",
+      "integration/natural-world/stage3/inputs/hydrology.json": "59ec33f53b014d6da7ed2e4353a4b2c86d3dff8078ace78bda524adfdb7fe5a8",
+      "integration/natural-world/stage4/output/ecology.json": "322484a70c56bda8852d08c9a0be1acf062d570be448c9b4065adabe11e9f0c9",
+      "integration/natural-world/stage5/output/manifest.json": "76e8fc13953f6786542153f3f872c64ed3f285e973a7ff3d385e5ebc8a22d653",
+      "integration/natural-world/stage5/validation/browser-checks.json": "9eded43d3168a2f3333453fa20d571869b184c3c54f3a5f43610864f5136f3c0",
+      "integration/natural-world/index.html": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+      "integration/natural-world/stage6/audit.js": "d146f45190e41c9e2a61224e9507f584bb5ca483e7b86c60c2147ab6abd9b198",
+      "integration/natural-world/stage6/load.cjs": "dc52ecacd0411e5f72c1cd72fd04b71ee41978b89128c7ab5b7a9a67581fa043",
+      "integration/natural-world/stage6/build.cjs": "f5d2818536c4d5b579a39066447a655cd476972c67f09d1e9e1ea223980a9a3e"
+    }
+  },
+  "status": "passed-with-open-issues",
+  "terrestrialCells": 268857,
+  "regions": 11,
+  "checks": 12,
+  "failedChecks": [],
+  "totals": {
+    "vegetation": {
+      "screening-candidate": 165905,
+      "conditional-candidate": 70175,
+      "hold": 32568,
+      "existing-water": 209
+    },
+    "drainage": {
+      "review-boundary": 168576,
+      "connected-candidate": 100281
+    }
+  },
+  "flags": {
+    "polarGap": {
+      "cells": 5700,
+      "candidateCellAreaKm2": 1043330.8234557017,
+      "representative": [
+        -58.0078125,
+        80.2734375
+      ]
+    },
+    "hotPETGap": {
+      "cells": 24448,
+      "candidateCellAreaKm2": 13296989.619520867,
+      "representative": [
+        84.0234375,
+        51.9140625
+      ]
+    },
+    "settingConflict": {
+      "cells": 2629,
+      "candidateCellAreaKm2": 1309709.8012066556,
+      "representative": [
+        -92.6953125,
+        49.8046875
+      ]
+    },
+    "transition": {
+      "cells": 70905,
+      "candidateCellAreaKm2": 36670462.402121544,
+      "representative": [
+        -81.2109375,
+        71.8359375
+      ]
+    },
+    "unresolvedDrainage": {
+      "cells": 168576,
+      "candidateCellAreaKm2": 80510181.87387863,
+      "representative": [
+        -57.7734375,
+        77.6953125
+      ]
+    },
+    "largeVirtualFill": {
+      "cells": 617,
+      "candidateCellAreaKm2": 205748.2790274489,
+      "representative": [
+        -57.0703125,
+        76.5234375
+      ]
+    },
+    "wetlandCandidate": {
+      "cells": 9804,
+      "candidateCellAreaKm2": 5494451.58246293,
+      "representative": [
+        1.5234375,
+        71.8359375
+      ]
+    },
+    "volcanicCorridor": {
+      "cells": 214,
+      "candidateCellAreaKm2": 91694.7210039517,
+      "representative": [
+        115.8984375,
+        -47.6953125
+      ]
+    }
+  },
+  "water": {
+    "annual": {
+      "precipitationM3": 46503423917286,
+      "evaporationM3": 28795610904615.26,
+      "sourceStorageChangeM3": 769783423851.4207,
+      "lakeStorageChangeM3": 717.35791015625,
+      "oceanExportM3": 11151627391001.082,
+      "unresolvedRetentionTransferM3": 5786402190777.913,
+      "baselineOceanExportM3": 16938029588333.49,
+      "oceanChangeM3": -5786402197332.409,
+      "balance": {
+        "passed": true,
+        "residualM3": 6322.9609375,
+        "absoluteM3": 6322.9609375,
+        "relative": 1.3596764291477609e-10,
+        "toleranceM3": 46503423.917286
+      }
+    },
+    "maxNodeErrorM3": 0.000030517578125,
+    "maxNodeRelative": 3.140319258300271e-16,
+    "nodePeriodEquations": 2950548,
+    "catchments": 6088,
+    "fullCatchmentBudgets": "unresolved"
+  },
+  "aridPerennial": {
+    "cells": 5398,
+    "upstreamContributingCells": 5398,
+    "majorityUpstreamCells": 5398,
+    "lakeReleaseUpstreamCells": 38,
+    "meaning": "Upstream is outside this native cell, not proven humid terrain or political external water. Local-only flow retains legacy source-model uncertainty."
+  },
+  "adoption": {
+    "status": "recommended-candidates-not-applied",
+    "modelReady": true,
+    "physicalValidationComplete": false,
+    "economicChangesApplied": 0,
+    "newLakesAdopted": 0,
+    "newIndividualVolcanoesAdopted": 0,
+    "actualForestAreaKm2": null,
+    "actualWetlandAreaKm2": null
+  },
+  "deploymentPerformed": false
+}

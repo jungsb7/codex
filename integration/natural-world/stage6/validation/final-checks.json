@@ -1,0 +1,33 @@
+{
+  "stage": 6,
+  "status": "passed",
+  "completedAt": "2026-10-18T10:16:44.171Z",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "previousIntegrationFilesChecked": 364,
+  "intendedChanges": [
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json",
+    "atlas/NEXT_SESSION_PROMPT.txt",
+    "atlas/README.md",
+    "natural-world/README.md",
+    "natural-world-design/PLAN.md"
+  ],
+  "unexpectedChanges": [],
+  "globalAuditChecks": 12,
+  "modelTests": 66,
+  "browserChecks": 9,
+  "preservedMapBrowserChecks": 29,
+  "preservedBrowserMeaning": "Prior29 checks reused only because map HTML, packages, source, and previous validation are byte-identical. Current smoke tests cover map/Atlas entry.",
+  "phaseOneToFiveDataCodeAndValidationPreserved": true,
+  "naturalMapHtmlSha256": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+  "reviewHtmlSha256": "b1edfb3d1ee5223acd24c1ecdb888b26d6c6e3df8b3280169d05b290a675e645",
+  "economicLedgersPreserved": true,
+  "physicalValidationComplete": false,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "failures": []
+}

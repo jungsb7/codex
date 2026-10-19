@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "id": "world-identity",
+      "passed": true,
+      "details": {
+        "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7"
+      }
+    },
+    {
+      "id": "original-compact-fields-preserved",
+      "passed": true,
+      "details": {
+        "fields": 11,
+        "cells": 268857
+      }
+    },
+    {
+      "id": "scope-and-original-water",
+      "passed": true,
+      "details": {
+        "cells": 268857,
+        "dryCells": 268648,
+        "lakeCells": 209,
+        "wetlandCells": 9804,
+        "volcanicCells": 214,
+        "hotPETCells": 24448,
+        "settingConflictCells": 2629,
+        "holdCells": 32568,
+        "transitionCells": 70905,
+        "channelCells": 119143,
+        "forestCells": 63020,
+        "grassCells": 87403
+      }
+    },
+    {
+      "id": "wetland-evidence-not-new-area",
+      "passed": true,
+      "details": {
+        "wetErrors": 0,
+        "candidateCells": 9804,
+        "actualAreaKm2": null
+      }
+    },
+    {
+      "id": "volcanic-corridor-not-points",
+      "passed": true,
+      "details": {
+        "volcErrors": 0,
+        "candidateCells": 214,
+        "volcanoLocations": null
+      }
+    },
+    {
+      "id": "review-holds-retained",
+      "passed": true,
+      "details": {
+        "hotPETCells": 24448,
+        "settingConflictCells": 2629
+      }
+    },
+    {
+      "id": "reach-geometry-and-endpoints",
+      "passed": true,
+      "details": {
+        "reaches": 45824,
+        "unresolved": 23022
+      }
+    },
+    {
+      "id": "local-scope-retained",
+      "passed": true,
+      "details": {
+        "localCells": 6850,
+        "snowCandidates": 55
+      }
+    }
+  ]
+}

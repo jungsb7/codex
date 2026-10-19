@@ -1,0 +1,49 @@
+# 전 대륙 통합 자연지도 — 후속9
+
+[지도](index.html) · [화면 미리보기](validation/world.png) · [보고서](REPORT.md) · [자료 집계](output/summary.json) · [검증](validation/final-checks.json)
+
+기존 자료를 한 지도에서 전환하는 표시판입니다. 새 지형·식생·수계 계산이나 자연물 채택 없이 육지·기존 호수268,857격자, 자연 검토11권역을 연결합니다.
+
+## 지도 사용
+
+프로젝트 루트 `planet-full-handoff-v0.107`에서:
+
+```sh
+python -m http.server 8080
+```
+
+`http://localhost:8080/integration/natural-world/unified-atlas/index.html`을 엽니다. 최신 브라우저의 HTTPS 또는 localhost가 필요하며 `file://`는 지원하지 않습니다.
+
+- 상단에서 자연환경·지형·식생·수계·지질·검토 상태6가지를 전환합니다.
+- 왼쪽에서 숲/정글·초원·습지·화산대·물길·기존 산계/강·검토 범위를 각각 켜고 끕니다. 지명·지형 음영·원본 격자는 추가 설정에 있습니다.
+- ‘기존 세계 설정만’은 계산 후보와 검토 무늬/표식을 숨기고 원본 고도·산계·강·호수를 표시합니다. 우측의 자료 조회는 출처별로 구분하여 유지합니다.
+- 권역 선택은 지도를 이동하고 그 권역의 대표 격자를 선택합니다. 다른 권역의 데이터를 삭제하거나 새 경계를 만들지 않습니다.
+- 클릭·좌표 입력·바로 보기로 격자를 선택합니다. 드래그·휠·버튼·방향키·두 손가락으로 이동/확대합니다. `Home`은 전 대륙 보기입니다. 미니맵도 전 대륙으로 돌아갑니다.
+- URL에 보기·레이어·좌표·확대·선택 격자를 저장하고 뒤로 가기를 지원합니다. JSON에는 선택 자료와 보기 설정을 함께 저장합니다.
+
+좌표가 해당 범위에 있을 때 서부 사막·고온 PET·국지 수면 검토 링크가 활성화됩니다. 범위 밖 링크는 이유와 함께 비활성화합니다. 전 대륙 검토·기존 자연 지도에도 같은 좌표를 전달합니다.
+
+지도 데이터는 약9.9MB gzip이며 처음에 일괄 로드합니다. `index.html`, `app.js`, `render.js`, `core.js`, `style.css`, `output/atlas.json.gz`와 상위 `../core.js`, `../stage5/codec.js`가 필요합니다. 별도 CDN·폰트·외부 타일을 사용하지 않습니다. [GitHub Pages에서 열기](https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html). 왕국·제국 지도와 같은 격자로 이동할 수 있습니다.
+
+## 재현
+
+이 폴더에서:
+
+```sh
+node build.cjs > validation/build-log.json
+node --test --test-isolation=none --test-reporter=tap core.test.cjs > validation/model-tests.txt
+node browser-check.cjs
+node record.cjs
+node verify.cjs
+node query.cjs -37.6171875 42.5390625
+```
+
+브라우저 검사는 Playwright(`/opt/codex/cua_node/lib/node_modules/playwright`)와 Chromium(`/usr/bin/chromium`)을 사용하고 임시 localhost 서버를 종료합니다. `inputs/prior-integration-manifest.json`은 시작 전629파일의 고정 스냅샷입니다. `record/verify`는 최신 공유 기록·manifest를 갱신하므로 다음 단계 이후 재실행하지 않습니다.
+
+## 표시의 의미
+
+원본 고도와 자연물은 이 가상세계의 기존 설정이며 실측이라는 뜻이 아닙니다. 45,824개는 물길 **구간** 수이고 강45,824개가 아닙니다. 확대 단계에 따라 보이는 구간 수가 달라집니다. 점선 물길은 하류 내부 배분이 미정인 경로입니다. 습지9,804격자와 화산대214격자는 후보 환경이 있는 격자이며 실제 습지 면적·화산 위치가 아닙니다.
+
+숲/정글/초원 기호는 잠재 식생 표현입니다. 고온·극지·설정 충돌 때문에 식생이 보류된 칸에는 나무 기호를 놓지 않습니다. 원본 간격은0.234375°(남북 약26km)이며, 확대해도 새 미세 지류나 정밀 피복 경계를 생성하지 않습니다.
+
+기존 호수209격자는 유지합니다. 고온 PET24,448격자와 서부 설정 충돌2,629격자의 보류를 해제하지 않습니다. 국지 수면·적설 검토는 두 집수권6,850격자에만 연결하며 실제 새 호수·빙하 형상을 부여하지 않습니다. 원본 기후·경제와 이전 지도는 보존합니다.

@@ -1,0 +1,25 @@
+{
+  "checks": [
+    "Three coupled alternatives and three explicitly withheld lowering cases load",
+    "All three cases at five years match CLI, connectivity and map masks",
+    "Withheld lowering cases show no calculated water, charts or coupled dates",
+    "Connection zoom and native-cell click retain terrain and unknown actual water",
+    "Reload and same-page URL changes restore and normalize scenario, year and map extent",
+    "Charts and independent upper/lower first-overflow labels track the selected year",
+    "Calculated and withheld JSON downloads match CLI including assumptions and nulls",
+    "Mobile controls and map focus work without horizontal page overflow",
+    "Links open preserved earlier review and unchanged natural-map depression data",
+    "No browser script errors"
+  ],
+  "errors": [],
+  "status": "passed",
+  "hashes": {
+    "index.html": "bc0c2591cf79531539d0ebac9341278d9bc04ee45078a496867defe6a658f65e",
+    "app.js": "17b325919815c556e25a3d782f5942462c63edb5e0319904f328eb8f35c9d88e",
+    "style.css": "793e879073f9a39ba8d870599eaf7127d8ffdebc20a65162da30c468fe3fe906",
+    "output/summary.json": "ea086c0957ef1cf4b16fd4718ba72c794c2279fe1922a3bcfd289c53b80414c9",
+    "output/scenarios.json": "b53793de654d733d5326ec804bbdb89b7bee6e907031172fc80fdfa80c440863",
+    "output/geometry.json": "568ae5a09e5518749e1d9d8e86da981db16cb0ca25835713ce9a7e82d0a26591",
+    "output/connection.json": "dad613533ae7640c5b5cf1f2cabaf10510dc401b8d2fd7935503f8837f06180b"
+  }
+}

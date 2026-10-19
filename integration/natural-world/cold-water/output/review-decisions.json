@@ -1,0 +1,54 @@
+{
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceHashes": {
+      "integration/natural-world/pond-budget/inputs/fluxes.json": "2dd14e7a8772bd2b8d85720bf7427bf6f8df96bedebe931a2a69a285b0037f35",
+      "integration/natural-world/pond-budget/output/topology.json": "eb4c61a7eb4da9d73e0eb74233a46f361fbe614192866ea0d03df72a762e14e4",
+      "integration/natural-world/surface-water/output/geometry.json": "e50379668a50819df05d007c69b779024751082d66c3affd654560a7cf981221",
+      "integration/natural-world/surface-water/output/scenarios.json": "2eb463d38c701993a3084f0e31f64b2a52671bf2e0e09c29799f1af305e334c3",
+      "integration/natural-world/surface-water/core.cjs": "0794674c73be23da056b11df8dd7a7786ddd8828b0b3871f33184913a7978c70",
+      "application/source/app.js": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+      "integration/natural-world/cold-water/model.cjs": "a2bb414ec6c30d8384656981f9693515e77d0f112fefb23bdf312b401dc74468",
+      "integration/natural-world/cold-water/diagnostics.js": "b80e313453f8c3c2f41c144dff93a71b07710b43f3841acc760f6accc169a872",
+      "integration/natural-world/cold-water/build.cjs": "f092c1a77cd78e5be4685bad9d57cf20b7c2daf883c294be362408059f0e079a"
+    }
+  },
+  "source": "cold-water/record.cjs",
+  "scope": "52 ponds / two original catchments; 6850 climate cells. Not a global glacier inventory.",
+  "decisions": [
+    {
+      "id": "persistent-snow-55",
+      "status": "screening-candidate",
+      "cells": 55,
+      "polarGapCells": 18,
+      "actualGlacierGeometry": null,
+      "reason": "Annual source degree-day surplus; no glacier flow, sublimation or terrain feedback. Prioritize the18 polar-moisture-gap cells."
+    },
+    {
+      "id": "lake-ice",
+      "status": "conditional-reference-only",
+      "actualIceThicknessM": null,
+      "reason": "Ideal conduction responds to prescribed snow insulation; no calibrated surface-energy or lake heat budget."
+    },
+    {
+      "id": "ground-exchange",
+      "status": "withhold-physical-adoption",
+      "actualConductivityMPerS": null,
+      "actualHeadM": null,
+      "reason": "Return path/time and required capacity materially affect outcomes; leak rates are uncalibrated stress assumptions."
+    },
+    {
+      "id": "lowering-25m",
+      "status": "withheld",
+      "reason": "Previously unresolved internal barriers and1.068m backwater remain."
+    },
+    {
+      "id": "next-D144758",
+      "status": "unresolved-boundary",
+      "oceanRoutingPerformed": false,
+      "reason": "Receiving depression interior and outlet not modeled."
+    }
+  ],
+  "next": "검토1~5의 근거·가정·보류 항목을 전 대륙 지도에서 구분되는 검토 표식과 채택 목록으로 연결. 두 유역의 조건부 결과를 전 대륙의 사실로 일반화하지 않으며 실제 빙하·호소·대수층 경계는 미정 유지."
+}

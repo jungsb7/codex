@@ -1,0 +1,50 @@
+{
+  "checks": [
+    {
+      "id": "world-identity",
+      "passed": true,
+      "details": {
+        "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7"
+      }
+    },
+    {
+      "id": "native-source-reproduction",
+      "passed": true,
+      "details": {
+        "nativePeriodSamples": 88908,
+        "sampleErrors": 0,
+        "maxRainReconstructionMm": 0.0000038120550414078025
+      }
+    },
+    {
+      "id": "scope-and-conflicts",
+      "passed": true,
+      "details": {
+        "cells": 7409,
+        "conflicts": 2629
+      }
+    },
+    {
+      "id": "not-eastern-transport",
+      "passed": true,
+      "details": {
+        "meaning": "Western review has neither eastern dryland multiplier nor adopted 2-degree headwater precipitation."
+      }
+    },
+    {
+      "id": "baseline-no-desert",
+      "passed": true,
+      "details": {
+        "minimumAI": 0.25644289478405907,
+        "meaning": "Forest disagreement is only one part of the desert-setting mismatch."
+      }
+    },
+    {
+      "id": "interpretation-preserves-climate",
+      "passed": true,
+      "details": {
+        "meaning": "Boundary interpretation does not manufacture aridity."
+      }
+    }
+  ]
+}

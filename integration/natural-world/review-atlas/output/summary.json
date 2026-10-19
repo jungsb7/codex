@@ -1,0 +1,45 @@
+{
+  "schema": "natural-review-atlas-summary/1",
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceHashes": {
+      "integration/natural-world/output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "integration/natural-world/stage6/output/cell-review.json": "0ad06cec6610200fc736ecc06c393c3634bb8e944ba9a57ec60e468bc33611f3",
+      "integration/natural-world/stage6/output/summary.json": "ae3dab9ecbf58c52d5e55ae8fd854dea935dd5cb32e44d7abcc2657392423c4a",
+      "integration/natural-world/stage6/output/issues.json": "9fa8452bf73ac57a4ba105171aac9c1afa085274b18851573ac0ba8c26d7845e",
+      "integration/natural-world/stage6/output/priority-depressions.json": "13ece1a670004c6f10d8a1b8222bf0dc978c4d0813ef6233c8668b774d701e55",
+      "integration/natural-world/stage2/output/diagnostics.json": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "integration/natural-world/stage4/output/ecology.json": "322484a70c56bda8852d08c9a0be1acf062d570be448c9b4065adabe11e9f0c9",
+      "integration/natural-world/cold-water/output/summary.json": "4664963f4bde91eacab2e239b31a0497d77ae6e924910d482033306563d23dc5",
+      "integration/natural-world/cold-water/output/diagnostics.json": "6426c0e925d250d6235664d5b1c70a491dba8c1f0a10ff83bb2cce0586c35c9a",
+      "integration/natural-world/cold-water/output/geometry.json": "e50379668a50819df05d007c69b779024751082d66c3affd654560a7cf981221",
+      "integration/natural-world/cold-water/output/review-decisions.json": "dbf680a10712b1f66611f580bcd112d6372ddbcfc0538d54d641e8fb7cad3789"
+    }
+  },
+  "terrestrialCells": 268857,
+  "dryCells": 268648,
+  "existingLakeCells": 209,
+  "naturalRegions": 11,
+  "politicalDetailCells": 24481,
+  "localCells": 6850,
+  "outsideLocalCells": 262007,
+  "snowCandidates": 55,
+  "snowPolarGap": 18,
+  "totals": {
+    "vegetation": {
+      "screening-candidate": 165905,
+      "conditional-candidate": 70175,
+      "hold": 32568,
+      "existing-water": 209
+    },
+    "drainage": {
+      "review-boundary": 168576,
+      "connected-candidate": 100281
+    }
+  },
+  "registryItems": 18,
+  "actualNewNatureGeometry": null,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false
+}

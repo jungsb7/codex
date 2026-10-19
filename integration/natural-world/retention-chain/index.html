@@ -1,0 +1,10 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Planet Atlas</title><style>body{background:#142832;color:#e5dfcd;font:16px/1.8 system-ui;max-width:620px;margin:18vh auto;padding:25px}h1{font:28px Georgia}button{font:inherit;padding:8px 20px}</style><h1>PLANET ATLAS</h1><p id="load-status" role="status">지도를 불러오는 중입니다…</p><button id="retry" hidden onclick="location.reload()">다시 시도</button><script>
+(async()=>{try{const spec={"files": ["../../../assets/nature-bc0c2591cf795315.html.gz"], "sha256": "bc0c2591cf79531539d0ebac9341278d9bc04ee45078a496867defe6a658f65e", "bytes": 2063096, "compressedBytes": 207406};
+if(!window.DecompressionStream)throw Error('최신 Chrome, Edge, Firefox 또는 Safari로 열어 주세요.');
+const parts=await Promise.all(spec.files.map(async p=>{const r=await fetch(p);if(!r.ok)throw Error('지도 파일을 불러오지 못했습니다. 다시 시도해 주세요.');return r.arrayBuffer();}));
+const bytes=await new Response(new Blob(parts).stream().pipeThrough(new DecompressionStream('gzip'))).arrayBuffer();
+const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes)),n=>n.toString(16).padStart(2,'0')).join('');
+if(hash!==spec.sha256||bytes.byteLength!==spec.bytes)throw Error('지도 파일 확인에 실패했습니다. 다시 시도해 주세요.');
+document.open();document.write(new TextDecoder().decode(bytes));document.close();
+}catch(e){document.getElementById('load-status').textContent=e.message;document.getElementById('retry').hidden=false;}})();
+</script></html>

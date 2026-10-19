@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T11:29:09.906Z",
+  "scope": "Two original-sill storage buckets; independent catchment accounting and low-point connectivity; lowered alternatives withheld",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "previousIntegrationFilesChecked": 419,
+  "intendedChanges": [
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json",
+    "natural-world/README.md",
+    "natural-world-design/PLAN.md"
+  ],
+  "unexpectedChanges": [],
+  "comparisonChecks": 10,
+  "modelChecks": {
+    "new": 20,
+    "priorCoreReexecuted": 10,
+    "totalExecuted": 30
+  },
+  "browserChecks": 10,
+  "previousEvidencePreservedByHashes": true,
+  "baselineNaturalMapHtmlSha256": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+  "previousComparisonHtmlSha256": "a0ce82cb689c29aedbea850d21332dbaed55c4d499f4d4ca6f6b463dae89d409",
+  "currentComparisonHtmlSha256": "bc0c2591cf79531539d0ebac9341278d9bc04ee45078a496867defe6a658f65e",
+  "economicLedgersPreserved": true,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "failures": []
+}

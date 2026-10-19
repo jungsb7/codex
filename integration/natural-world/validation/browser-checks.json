@@ -1,0 +1,24 @@
+{
+  "checks": [
+    "Seven views and all eleven global review regions load from the self-contained package",
+    "Elevation, review regions, climate, candidate basins and open issues render distinct maps",
+    "Coordinate inspector reproduces exact CLI data in every region, including southern continents and islands",
+    "Coordinates outside the kingdoms can be queried and exported without inventing ecological values",
+    "Wheel zoom remains anchored and dragging moves the global camera",
+    "Address restores the selected coordinate, camera, view and layer choices",
+    "Open drainage questions navigate to their measured grid locations",
+    "Ocean queries keep terrestrial fields unknown and invalid latitude is rejected",
+    "Mobile map, coordinate form and inspector remain reachable without horizontal overflow",
+    "Existing Atlas retains nine modes and opens the new map on desktop and mobile",
+    "No browser script errors"
+  ],
+  "errors": [],
+  "skipped": [
+    {
+      "check": "Direct file:// navigation",
+      "reason": "Managed browser policy blocks local file URLs; HTTP loading and self-contained payload verified separately."
+    }
+  ],
+  "status": "passed",
+  "htmlSha256": "9116646a97711fec78501583f549a00a6f39ca69a0c9977a21b945dd3644af95"
+}

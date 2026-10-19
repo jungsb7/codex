@@ -1,0 +1,1061 @@
+{
+  "schema": "planet-nature-pages/1",
+  "repository": "jungsb7/codex",
+  "baseCommit": "e746a0e3b92be6674045b05140862e4ca3ac1aa0",
+  "site": "https://jungsb7.github.io/codex/",
+  "files": [
+    {
+      "path": "integration/natural-world/index.html",
+      "bytes": 121883,
+      "sha256": "446b6982d1115deaa63284fe2fead5c604c696ef3755f8d5c399ece39bdadb2c",
+      "source": "integration/natural-world/index.html"
+    },
+    {
+      "path": "integration/natural-world/style.css",
+      "bytes": 17561,
+      "sha256": "0b8d31f7492863cf8ece8bd2a02761425ee7e21947535802baf1ca3594d427c5",
+      "source": "integration/natural-world/style.css"
+    },
+    {
+      "path": "integration/natural-world/app.js",
+      "bytes": 49566,
+      "sha256": "0b4e6d77b54a344382a84f6a95fc7d7e12a9061887301e7cb2d5f74c06553cee",
+      "source": "integration/natural-world/app.js"
+    },
+    {
+      "path": "integration/natural-world/core.js",
+      "bytes": 7771,
+      "sha256": "61ebd90323b7e303013153450016299b373b5deb4bcc0193e73a8eb91557d74e",
+      "source": "integration/natural-world/core.js"
+    },
+    {
+      "path": "integration/natural-world/README.md",
+      "bytes": 8268,
+      "sha256": "796c746e32dc944e7eed457314a3a764c4e945dcf6c5f863a1e7017fdeb17f74",
+      "source": "integration/natural-world/README.md"
+    },
+    {
+      "path": "integration/natural-world/REPORT.md",
+      "bytes": 4030,
+      "sha256": "adec4dfe00c19e1b1164265f59ac656b6fa7dce0e3de25e6c3a1ecb7f8ea6063",
+      "source": "integration/natural-world/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/output/summary.json",
+      "bytes": 13020,
+      "sha256": "fd1d099eacf6c0ddffb6b1eac563eeddd68efaed57ec46f78f05410823aeab5b",
+      "source": "integration/natural-world/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/validation/final-checks.json",
+      "bytes": 1376,
+      "sha256": "dddce09372f5164d501640046b93253db114f5543457c10d959be129daef7d6c",
+      "source": "integration/natural-world/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/validation/browser-checks.json",
+      "bytes": 1274,
+      "sha256": "09c9ac78c2fae2d4cb62cb4a9816be819a9500e9bbf747942c780b310fc4a04f",
+      "source": "integration/natural-world/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/stage6/index.html",
+      "bytes": 1646,
+      "sha256": "299d970e4d155fdd2b36bf63cabe06104c858eb7f4c3fd77969d276930843ec6",
+      "source": "integration/natural-world/stage6/index.html"
+    },
+    {
+      "path": "integration/natural-world/stage6/README.md",
+      "bytes": 5396,
+      "sha256": "0e68f1513bcd660e2a78dbee09d22bc8fcf1d3267731c0bd2dc48a803d0202a7",
+      "source": "integration/natural-world/stage6/README.md"
+    },
+    {
+      "path": "integration/natural-world/stage6/REPORT.md",
+      "bytes": 10056,
+      "sha256": "c8456cec4a2b1ca986a5cd3f3178bca38e9acc0f735b062e2bef94ac78f6421c",
+      "source": "integration/natural-world/stage6/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/stage6/output/checks.json",
+      "bytes": 6360,
+      "sha256": "6ba648ff6bfa5624bea3d86975163bb76ff428f20ab6e50faf2774bb879e96ed",
+      "source": "integration/natural-world/stage6/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/stage6/output/summary.json",
+      "bytes": 5208,
+      "sha256": "ae3dab9ecbf58c52d5e55ae8fd854dea935dd5cb32e44d7abcc2657392423c4a",
+      "source": "integration/natural-world/stage6/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/stage6/validation/final-checks.json",
+      "bytes": 1162,
+      "sha256": "379dffe1cf24a4dc7620491f25b2f71d4798c62b0cb7aa1f5fee5eacc60c178f",
+      "source": "integration/natural-world/stage6/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/stage6/validation/browser-checks.json",
+      "bytes": 1120,
+      "sha256": "6898ee4a70c51b0304f5242626d874a498e4c22e8b60c5f2fbf8b14decae80e6",
+      "source": "integration/natural-world/stage6/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-review/index.html",
+      "bytes": 1646,
+      "sha256": "9811b541d19fd284819756fffd0d1755356138e3f185d2dc2c1c9ed75d6f1873",
+      "source": "integration/natural-world/retention-review/index.html"
+    },
+    {
+      "path": "integration/natural-world/retention-review/core.js",
+      "bytes": 5202,
+      "sha256": "d7d78b9babc0f992ab1ca2b6787a8f589fc378e682e7b9c3a9eddd8e88d3891c",
+      "source": "integration/natural-world/retention-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/retention-review/README.md",
+      "bytes": 5498,
+      "sha256": "a10180c91d18a682645442743c54a8d91958c4d8ed3dcd572a882b9efb4d5546",
+      "source": "integration/natural-world/retention-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/retention-review/REPORT.md",
+      "bytes": 7170,
+      "sha256": "1935331fa529748ea441c599c50fb0daa1788a3e97dda67cf3bdfabf3c5e52ec",
+      "source": "integration/natural-world/retention-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/retention-review/output/checks.json",
+      "bytes": 5562,
+      "sha256": "759b365ea2c2c497d927ed4d544fe83bc06fb0f84c2d4767499feb47dfb01808",
+      "source": "integration/natural-world/retention-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-review/output/summary.json",
+      "bytes": 19160,
+      "sha256": "652a8e200aba1acef1219a7fb7ebf1f671c611cbc316b3da47c1726347880e2b",
+      "source": "integration/natural-world/retention-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/retention-review/validation/final-checks.json",
+      "bytes": 1052,
+      "sha256": "a4d434105e4c32114c8e35a111ad42536e7fb6af534a0852a285f83b1cfa416e",
+      "source": "integration/natural-world/retention-review/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-review/validation/browser-checks.json",
+      "bytes": 957,
+      "sha256": "b1e0bab78f091d9ece05025143079b9e00454b9f23f61aaa6acfb4b1d0643b5d",
+      "source": "integration/natural-world/retention-review/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/index.html",
+      "bytes": 1646,
+      "sha256": "347d3b377b80d29a2b261c6a86a7050765592a9641182fee851c43f00182aa42",
+      "source": "integration/natural-world/retention-chain/index.html"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/style.css",
+      "bytes": 4983,
+      "sha256": "793e879073f9a39ba8d870599eaf7127d8ffdebc20a65162da30c468fe3fe906",
+      "source": "integration/natural-world/retention-chain/style.css"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/app.js",
+      "bytes": 12498,
+      "sha256": "17b325919815c556e25a3d782f5942462c63edb5e0319904f328eb8f35c9d88e",
+      "source": "integration/natural-world/retention-chain/app.js"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/core.js",
+      "bytes": 7961,
+      "sha256": "97bfacd7d77d31c5e3d963887b025f71955225a5d4dd5b8ecb2e49375c022226",
+      "source": "integration/natural-world/retention-chain/core.js"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/README.md",
+      "bytes": 5571,
+      "sha256": "72d0eded3eca889bff741da86c7ac3bc7e87270adbfa73323a445575bb49ff54",
+      "source": "integration/natural-world/retention-chain/README.md"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/REPORT.md",
+      "bytes": 7509,
+      "sha256": "8b215a521699c428e5de264c6303d7ec265339eeedc583460f289e912096d573",
+      "source": "integration/natural-world/retention-chain/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/output/checks.json",
+      "bytes": 4443,
+      "sha256": "620a2ad6cc1ea289707cc5f9b3178883f55f4dc4ee08c54dbc98f208f98fbec8",
+      "source": "integration/natural-world/retention-chain/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/output/summary.json",
+      "bytes": 17849,
+      "sha256": "ea086c0957ef1cf4b16fd4718ba72c794c2279fe1922a3bcfd289c53b80414c9",
+      "source": "integration/natural-world/retention-chain/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/validation/final-checks.json",
+      "bytes": 1156,
+      "sha256": "d65f78ed13a0a7f33769b2cd7d83bba6302188f2bf2b44cd04307c8a53d7248d",
+      "source": "integration/natural-world/retention-chain/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-chain/validation/browser-checks.json",
+      "bytes": 1501,
+      "sha256": "3e2b2d19c120f1c4dd891f737e72ce342fe3372ef0ecd1a49cc7fed779c67873",
+      "source": "integration/natural-world/retention-chain/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/index.html",
+      "bytes": 1646,
+      "sha256": "0d615c9f75dfee553652d9b776c05ce0d426193caf38f7b2eba1694d61736f00",
+      "source": "integration/natural-world/pond-budget/index.html"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/style.css",
+      "bytes": 6734,
+      "sha256": "37a51fef13ba044a2e9876de5c8d5250f7a9287225c9d81fdf99cfe9e04e05c4",
+      "source": "integration/natural-world/pond-budget/style.css"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/app.js",
+      "bytes": 14037,
+      "sha256": "522ab33eddca730a7f5673579f6240fdbdbfe152be7a8b61107a78bcf5ca2be8",
+      "source": "integration/natural-world/pond-budget/app.js"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/core.js",
+      "bytes": 9912,
+      "sha256": "78e90d97d45f64ec39f13dbd58b781789a0d76cc9919631c87edcc5c05e3a3fd",
+      "source": "integration/natural-world/pond-budget/core.js"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/README.md",
+      "bytes": 6755,
+      "sha256": "8279e80c6c509ff4e941a6fa2ba699375005baa2f44f6c79e5a1701aea852d67",
+      "source": "integration/natural-world/pond-budget/README.md"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/REPORT.md",
+      "bytes": 8953,
+      "sha256": "5df9bd0486032c3e77cc195c7af6e378f33f18dab24bfb7492cd0f1afe9692e5",
+      "source": "integration/natural-world/pond-budget/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/output/checks.json",
+      "bytes": 4613,
+      "sha256": "b4490d8fbb5e16e60a39dddfe72c6486a4382ce6860da4727ba3422ca40a78f6",
+      "source": "integration/natural-world/pond-budget/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/output/summary.json",
+      "bytes": 17270,
+      "sha256": "8fbef550ca61576df54ca99b917c03faa2c594f9258e67490ede0b6f3e00463a",
+      "source": "integration/natural-world/pond-budget/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/validation/final-checks.json",
+      "bytes": 1324,
+      "sha256": "18c40e5483a8941b8283c843ac2cd4143d8a7db0c40981db5d0228952343bd71",
+      "source": "integration/natural-world/pond-budget/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-budget/validation/browser-checks.json",
+      "bytes": 1622,
+      "sha256": "cc9ca0099a0c13d6ddaba818b45c5b5e27430549223f37e5a7ae8a1e6a6fc0b8",
+      "source": "integration/natural-world/pond-budget/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/surface-water/index.html",
+      "bytes": 1648,
+      "sha256": "010b21ecbb0e14b47ea70d93673ed5dbae7fc4ace04c681cf0aa49a6f979d64f",
+      "source": "integration/natural-world/surface-water/index.html"
+    },
+    {
+      "path": "integration/natural-world/surface-water/style.css",
+      "bytes": 7314,
+      "sha256": "408d50ba103ee05d4da0708283b17e577f193e1941a03a911ddac694b47ca08f",
+      "source": "integration/natural-world/surface-water/style.css"
+    },
+    {
+      "path": "integration/natural-world/surface-water/app.js",
+      "bytes": 11621,
+      "sha256": "b20939c55ca7ff6df8afc1df08fd8825ac71e32d42d7257480aa8c672be511cc",
+      "source": "integration/natural-world/surface-water/app.js"
+    },
+    {
+      "path": "integration/natural-world/surface-water/query.js",
+      "bytes": 1275,
+      "sha256": "186a3b1eff93526ff4a22cf4ac3a6baf1c0a85e67dfba1fd83fdc65cca8789f2",
+      "source": "integration/natural-world/surface-water/query.js"
+    },
+    {
+      "path": "integration/natural-world/surface-water/README.md",
+      "bytes": 5672,
+      "sha256": "b04a70e1ba71e85e0458ff2db5b987326302dd92a519289315807f44b26681c6",
+      "source": "integration/natural-world/surface-water/README.md"
+    },
+    {
+      "path": "integration/natural-world/surface-water/REPORT.md",
+      "bytes": 5348,
+      "sha256": "0528323c3b73063a2093a79abc257ccc9e23db17d7767e47993a6cdc70d427e4",
+      "source": "integration/natural-world/surface-water/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/surface-water/output/checks.json",
+      "bytes": 1250,
+      "sha256": "892ef62aaed920c8021541dfb415c3181f9a6a52626227495fd26a36396eb0df",
+      "source": "integration/natural-world/surface-water/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/surface-water/output/summary.json",
+      "bytes": 37094,
+      "sha256": "8453ed37bf90d1a611af3bdd49ebd53d8ab22412c515342b30eccd0f28f894c6",
+      "source": "integration/natural-world/surface-water/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/surface-water/validation/final-checks.json",
+      "bytes": 1237,
+      "sha256": "95eb3325c19c1c373d49ef622dd7d84d224b00a4a29ca2d9e4e0136c6a9f2181",
+      "source": "integration/natural-world/surface-water/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/surface-water/validation/browser-checks.json",
+      "bytes": 1419,
+      "sha256": "53344129465befa3dcdada0fa19ecc43a3aaf9cc1c0808c94dc193f3d0137149",
+      "source": "integration/natural-world/surface-water/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/cold-water/index.html",
+      "bytes": 1648,
+      "sha256": "da1e800b32f00c88dd0e7e8eb09a4391baa50a8171bb4d73b2ea4cb293c17469",
+      "source": "integration/natural-world/cold-water/index.html"
+    },
+    {
+      "path": "integration/natural-world/cold-water/style.css",
+      "bytes": 7821,
+      "sha256": "a6487b665fc2311b18f8678fba360ec4ab7bd5b4297a3b66e1d3b4bd08bda8d2",
+      "source": "integration/natural-world/cold-water/style.css"
+    },
+    {
+      "path": "integration/natural-world/cold-water/app.js",
+      "bytes": 14395,
+      "sha256": "8e4e1689e2ceb0348a41abf8258f674ac71d197bc26dccd7f638df26bfc6b587",
+      "source": "integration/natural-world/cold-water/app.js"
+    },
+    {
+      "path": "integration/natural-world/cold-water/query.js",
+      "bytes": 1315,
+      "sha256": "f68fb4eaa6420d78eec0f5df3e96ec72faee8914cc53edfc9d6a7e824ef98d2b",
+      "source": "integration/natural-world/cold-water/query.js"
+    },
+    {
+      "path": "integration/natural-world/cold-water/README.md",
+      "bytes": 6145,
+      "sha256": "8409cb96dd339b2c49c9356169e2872d72d06689d31b757842eb3f2432e25e66",
+      "source": "integration/natural-world/cold-water/README.md"
+    },
+    {
+      "path": "integration/natural-world/cold-water/REPORT.md",
+      "bytes": 5802,
+      "sha256": "7b1f00cc48a2d1679c6fe6990d7ae6aceb784caa17012e83c9ccb7418e908416",
+      "source": "integration/natural-world/cold-water/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/cold-water/output/checks.json",
+      "bytes": 1877,
+      "sha256": "2adb1741321211404f882d2a0f940b239ee7dae8193c6f315506e879f88da40f",
+      "source": "integration/natural-world/cold-water/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/cold-water/output/summary.json",
+      "bytes": 26819,
+      "sha256": "4664963f4bde91eacab2e239b31a0497d77ae6e924910d482033306563d23dc5",
+      "source": "integration/natural-world/cold-water/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/cold-water/output/review-decisions.json",
+      "bytes": 3013,
+      "sha256": "dbf680a10712b1f66611f580bcd112d6372ddbcfc0538d54d641e8fb7cad3789",
+      "source": "integration/natural-world/cold-water/output/review-decisions.json"
+    },
+    {
+      "path": "integration/natural-world/cold-water/validation/final-checks.json",
+      "bytes": 1226,
+      "sha256": "5db0fafc866f0cf58be68f4dfa90f0c727249a11e4246ad22c7415ca89619cc4",
+      "source": "integration/natural-world/cold-water/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/cold-water/validation/browser-checks.json",
+      "bytes": 1541,
+      "sha256": "9a45e6dc878c806fb5d23d60b173aa6544fe271b828dca17561acf76f0154931",
+      "source": "integration/natural-world/cold-water/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/index.html",
+      "bytes": 4868,
+      "sha256": "6ec889a6798f75043baa4d20f63f8d4c4156dce61c91a3be61ce30022fb1c11e",
+      "source": "integration/natural-world/review-atlas/index.html"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/style.css",
+      "bytes": 9407,
+      "sha256": "0db6732a415314cece5cb84fa8b38751ef6bc5f49e33d04ccfdb264876edca25",
+      "source": "integration/natural-world/review-atlas/style.css"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/app.js",
+      "bytes": 15484,
+      "sha256": "588cba00da8996b3e7e671a6f1b5aaec7b97d0bb5a0078ac18774ffed233c64f",
+      "source": "integration/natural-world/review-atlas/app.js"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/core.js",
+      "bytes": 5487,
+      "sha256": "a390077aca7280789b90f900e519327f2b439c54a4bad900abe979c0009cddf5",
+      "source": "integration/natural-world/review-atlas/core.js"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/README.md",
+      "bytes": 5450,
+      "sha256": "f339783b4f204e881c389da4187012180f249e035df5efe7b41f44c9368865c0",
+      "source": "integration/natural-world/review-atlas/README.md"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/REPORT.md",
+      "bytes": 4286,
+      "sha256": "1f6f66694fe35b5c93c26dd48ec540fdaa3d713bafdc1eb06b7f5de959df4099",
+      "source": "integration/natural-world/review-atlas/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/output/summary.json",
+      "bytes": 2376,
+      "sha256": "bf4a2f242c1c36fb61547821378e49497de6de91722965b85eb993b5cf9a47b0",
+      "source": "integration/natural-world/review-atlas/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/output/registry.json",
+      "bytes": 13007,
+      "sha256": "a61bfa6aa44cbc2c7b69aecb067ffda872375d91ba7d54ee045d8383591cb1e3",
+      "source": "integration/natural-world/review-atlas/output/registry.json"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/validation/final-checks.json",
+      "bytes": 1088,
+      "sha256": "ffb67febc19f29a3f6c3103a4b019579e422047ceb1de0ea4b52035fccc72f23",
+      "source": "integration/natural-world/review-atlas/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/validation/browser-checks.json",
+      "bytes": 1074,
+      "sha256": "76797a52c29298a8ac3a43d3f254fea648e608769176fc904afcc27c4c16bea3",
+      "source": "integration/natural-world/review-atlas/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/desert-review/index.html",
+      "bytes": 6610,
+      "sha256": "982cd95853cfd15ba4fa40864e61d108ac8877e2360575b7720d27afa28346aa",
+      "source": "integration/natural-world/desert-review/index.html"
+    },
+    {
+      "path": "integration/natural-world/desert-review/style.css",
+      "bytes": 7246,
+      "sha256": "814d1d407c610ad404baa620f2a711ba98bf74f0643cce0c3501d83989c615b8",
+      "source": "integration/natural-world/desert-review/style.css"
+    },
+    {
+      "path": "integration/natural-world/desert-review/app.js",
+      "bytes": 14230,
+      "sha256": "c55020798971385a557d0f6fc08392bbec8d902faa1314e625124f0966fa19a8",
+      "source": "integration/natural-world/desert-review/app.js"
+    },
+    {
+      "path": "integration/natural-world/desert-review/core.js",
+      "bytes": 4104,
+      "sha256": "5912cc6daa0f97b2e1029b97d0d00ecefd9a0d31398851ad429ed8806da8de7f",
+      "source": "integration/natural-world/desert-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/desert-review/README.md",
+      "bytes": 5352,
+      "sha256": "6ed4d2c3b0a1197ea7132919c88a05f85a3d4ed83fd4ac7543181848cec1a273",
+      "source": "integration/natural-world/desert-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/desert-review/REPORT.md",
+      "bytes": 7054,
+      "sha256": "45bc0581b52f170af14d8d84a5e12434d11386bcb703d8f89da186f5b866e769",
+      "source": "integration/natural-world/desert-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/desert-review/output/checks.json",
+      "bytes": 1209,
+      "sha256": "512a1604c6747eca2557233aa78817b678b44524b2b9662753601ad687a5d67d",
+      "source": "integration/natural-world/desert-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/desert-review/output/summary.json",
+      "bytes": 24816,
+      "sha256": "9690b480c6716ef0dbc441ac6a24cacafcbc0db5916913f98e346d43c4620f18",
+      "source": "integration/natural-world/desert-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/desert-review/output/review-decisions.json",
+      "bytes": 3671,
+      "sha256": "95b1e357c51c14a70de41d2efce90ebb4122d3e356544e0adb1be9e51427f2a0",
+      "source": "integration/natural-world/desert-review/output/review-decisions.json"
+    },
+    {
+      "path": "integration/natural-world/desert-review/validation/final-checks.json",
+      "bytes": 1147,
+      "sha256": "66fc40ef7172ca8cd749d124a8b28041204a85a3dee7ac4edd286a6c480c0624",
+      "source": "integration/natural-world/desert-review/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/desert-review/validation/browser-checks.json",
+      "bytes": 1004,
+      "sha256": "7248de46ae938959a0322470efe23eac71063e455ffadc3dcfafe4b4f992d764",
+      "source": "integration/natural-world/desert-review/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/index.html",
+      "bytes": 6098,
+      "sha256": "3c69c7ce56e11ef020b5f20a69403952dccdb511ad7e75a4e11831e47b820441",
+      "source": "integration/natural-world/pet-review/index.html"
+    },
+    {
+      "path": "integration/natural-world/pet-review/style.css",
+      "bytes": 7252,
+      "sha256": "c2bf25fde1151d8a01d9511cc439addb8d3730415095786a6447e56d52573f66",
+      "source": "integration/natural-world/pet-review/style.css"
+    },
+    {
+      "path": "integration/natural-world/pet-review/app.js",
+      "bytes": 16339,
+      "sha256": "aaf1a305bf7dfdac703265a1fba0b3145ba62acbf230e431ba89c2faddca84fb",
+      "source": "integration/natural-world/pet-review/app.js"
+    },
+    {
+      "path": "integration/natural-world/pet-review/core.js",
+      "bytes": 7300,
+      "sha256": "83b650b81b860571b573c676a11fd25181f63e1749f50c8d2707ea19305ea8ab",
+      "source": "integration/natural-world/pet-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/pet-review/README.md",
+      "bytes": 3734,
+      "sha256": "e2c3d571fc718e50c6fc65dd273a03be17c4d07b53be02f0fc18a3ef46cb5f94",
+      "source": "integration/natural-world/pet-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/pet-review/REPORT.md",
+      "bytes": 9533,
+      "sha256": "1a261712431639f01bbc037b5320a9d7336c951363347c370f927d5768bf71b8",
+      "source": "integration/natural-world/pet-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/pet-review/output/checks.json",
+      "bytes": 1260,
+      "sha256": "a450d48b00250ecd795bca3fe3d6d43e977130607849d06a85e7815b34a20238",
+      "source": "integration/natural-world/pet-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/output/references.json",
+      "bytes": 2511,
+      "sha256": "0632d7aa3a6e7bfdba99e04969458000dac4d843874e2e3d2d7b58615213c793",
+      "source": "integration/natural-world/pet-review/output/references.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/output/summary.json",
+      "bytes": 9628,
+      "sha256": "1136c4942b3dc9e5e8d9bd1fee65e66975a183e259342a776cc4498da6afd106",
+      "source": "integration/natural-world/pet-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/output/review-decisions.json",
+      "bytes": 3992,
+      "sha256": "908980c066081053f2886251275c7aaefe7ffe5a989104abd2813e35ff380d0f",
+      "source": "integration/natural-world/pet-review/output/review-decisions.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/validation/final-checks.json",
+      "bytes": 1344,
+      "sha256": "ac01202073d54bf44dbae29def1f164717cbea711c9ebb72b3affaf1a88834d2",
+      "source": "integration/natural-world/pet-review/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/pet-review/validation/browser-checks.json",
+      "bytes": 1189,
+      "sha256": "f6ce57aea813b2ff85f878effd78ccefe01a412a37886755f7e2e79e7522bd31",
+      "source": "integration/natural-world/pet-review/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/index.html",
+      "bytes": 4714,
+      "sha256": "e93c5a56d3ec1037f1fc18ba9d6f7d323b9054f5f6c5a2ab3107c572c542a5b9",
+      "source": "integration/natural-world/unified-atlas/index.html"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/style.css",
+      "bytes": 10502,
+      "sha256": "674fd339e0784a55454eda6ab0a2334b9dcc455bb8ceb5666a654eefca38da42",
+      "source": "integration/natural-world/unified-atlas/style.css"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/app.js",
+      "bytes": 13711,
+      "sha256": "f375ad1f89ec7f5f172b2e723f82149c273bae4f915bf6a293bba585bd404ea9",
+      "source": "integration/natural-world/unified-atlas/app.js"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/core.js",
+      "bytes": 8981,
+      "sha256": "d4320382484439c44118fc69834eb8a8e5d99090e0f4a24ed4141c67dc67613a",
+      "source": "integration/natural-world/unified-atlas/core.js"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/README.md",
+      "bytes": 4334,
+      "sha256": "fd3cf3c8d10157cc73349a0433c0d965687d53d666da2077dd4e2dd1aac32538",
+      "source": "integration/natural-world/unified-atlas/README.md"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/REPORT.md",
+      "bytes": 7843,
+      "sha256": "76d7d5260f54be7621fb3635e89f7550343e95606ef41dcf8dc4edb49b69ffd0",
+      "source": "integration/natural-world/unified-atlas/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/output/checks.json",
+      "bytes": 1688,
+      "sha256": "8b0ff4e223e7aa3111ec2612fa2bbdfcf0156100fa1f44b3f7f6a0c501dbda1e",
+      "source": "integration/natural-world/unified-atlas/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/output/summary.json",
+      "bytes": 6887,
+      "sha256": "4e248e2b8e3c06450e7b21356c1f4fd591037da501057e864be36f887f867e15",
+      "source": "integration/natural-world/unified-atlas/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/output/review-decisions.json",
+      "bytes": 3000,
+      "sha256": "df9b79a86464f9565ef995d417cba41cfc7383260872502a7f97f52397c4135f",
+      "source": "integration/natural-world/unified-atlas/output/review-decisions.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/validation/final-checks.json",
+      "bytes": 1600,
+      "sha256": "53fadaa00d3da80698594e93de50ff570dcfc2ea42a1b69e97aa88df3d80e82c",
+      "source": "integration/natural-world/unified-atlas/validation/final-checks.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/validation/browser-checks.json",
+      "bytes": 1394,
+      "sha256": "78806d63891f5dff5c7ab1ebe7361dbd330aee4f10361cb58dbc54adf68ca44c",
+      "source": "integration/natural-world/unified-atlas/validation/browser-checks.json"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/validation/world.png",
+      "bytes": 509925,
+      "sha256": "1f27486a7335c5d4999599e6a6ece3967aa0b4ef2d9514f2b654c562bd3b6625",
+      "source": "integration/natural-world/unified-atlas/validation/world.png"
+    },
+    {
+      "path": "integration/map-navigation.js",
+      "bytes": 1986,
+      "sha256": "a9db4936155e3ebacbfafb16d1a5a2d5aaadf782db3127418ae78ebce358117b",
+      "source": "integration/map-navigation.js"
+    },
+    {
+      "path": "integration/natural-world/stage2/core.js",
+      "bytes": 6799,
+      "sha256": "cf4e5d7c87048a7c8a385a77e210e44ab5b7708e2d752c0b03d2d57ef827d9f9",
+      "source": "integration/natural-world/stage2/core.js"
+    },
+    {
+      "path": "integration/natural-world/stage5/codec.js",
+      "bytes": 1422,
+      "sha256": "36f36e87fc50db6947ece12267d877c6bac040b59f0a10699f3a594091daa994",
+      "source": "integration/natural-world/stage5/codec.js"
+    },
+    {
+      "path": "integration/natural-world/stage6/audit.js",
+      "bytes": 3410,
+      "sha256": "d146f45190e41c9e2a61224e9507f584bb5ca483e7b86c60c2147ab6abd9b198",
+      "source": "integration/natural-world/stage6/audit.js"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/render.js",
+      "bytes": 9235,
+      "sha256": "27c247d230bf28d71d1844bb5ba7c8d0faa69eb44ab4591f9410cf3af38fea46",
+      "source": "integration/natural-world/unified-atlas/render.js"
+    },
+    {
+      "path": "integration/atlas/index.html",
+      "bytes": 1645,
+      "sha256": "76b04f7a6a2b8cc0dfac542dbdf71a0b76259d3aa55d35b735ce0a1c73f7a590",
+      "source": "integration/atlas/index.html"
+    },
+    {
+      "path": "integration/atlas/README.md",
+      "bytes": 14590,
+      "sha256": "9cd2059905963776603b8d13a8c7ec0886b8f0137e31afff0250d6274afc4de6",
+      "source": "integration/atlas/README.md"
+    },
+    {
+      "path": "integration/natural-world-design/PLAN.md",
+      "bytes": 31673,
+      "sha256": "d1da269d1ed3c23c95a0ef5a668db87e2a55865d947aa0299d2696a99be08767",
+      "source": "integration/natural-world-design/PLAN.md"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/ecology-322484a70c56.json.gz",
+      "bytes": 4994631,
+      "sha256": "06d51f7ad9a72c5733f8c9f4d8bf4a54c8b103d0fd83e949c3f93f874939721e",
+      "source": "integration/natural-world/stage5/output/ecology-322484a70c56.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/foundation-fc5d72cbbab3.json.gz",
+      "bytes": 10737538,
+      "sha256": "189ff903825c7ba4e89997ae264b9b07d3436ecc1e14a8e2761928e19d7663bf",
+      "source": "integration/natural-world/stage5/output/foundation-fc5d72cbbab3.json.gz"
+    },
+    {
+      "path": "integration/natural-world/review-atlas/output/atlas.json.gz",
+      "bytes": 1904828,
+      "sha256": "d1cc126657b881e4715e32f54a09719c812a628de9f7ee1e1f6938096c144faa",
+      "source": "integration/natural-world/review-atlas/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/desert-review/output/atlas.json.gz",
+      "bytes": 4011851,
+      "sha256": "6fbf31df1e65279cfa1481f3d8d94ece3c533234c4824ccc5e3c9cc324ee503d",
+      "source": "integration/natural-world/desert-review/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/pet-review/output/atlas.json.gz",
+      "bytes": 10874995,
+      "sha256": "7e1edecc40e3000d45ecb2a03492e866a8bf3ecfa1c951410e9a1e47b2908336",
+      "source": "integration/natural-world/pet-review/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/unified-atlas/output/atlas.json.gz",
+      "bytes": 9883227,
+      "sha256": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+      "source": "integration/natural-world/unified-atlas/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/water-3775f512672b-part00.bin",
+      "bytes": 9000000,
+      "sha256": "03f8cde9748a9fa032c689da5f2cc9eed5488cdb35bb2565f73fd95bd7a79562",
+      "source": "integration/natural-world/stage5/output/water-3775f512672b.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/water-3775f512672b-part01.bin",
+      "bytes": 4774415,
+      "sha256": "488f861074ef93faab2f7369839033e6b6988829f89d8693d8f957d18d55f8bb",
+      "source": "integration/natural-world/stage5/output/water-3775f512672b.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/climate-1369f5b0c513-part00.bin",
+      "bytes": 9000000,
+      "sha256": "2ae7a6c253d4c19a55f18a689956daff34b3bc6ade5a4e416a08eeeee05ae051",
+      "source": "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/climate-1369f5b0c513-part01.bin",
+      "bytes": 9000000,
+      "sha256": "ce3c7d29e4f5c10fcbd517e618872258b70b558594ab7927db734c3f813f23c6",
+      "source": "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/climate-1369f5b0c513-part02.bin",
+      "bytes": 9000000,
+      "sha256": "4fb8509d80398cb8f03f72a39757169395fd3ddfe49ea2cb329df1c75669b186",
+      "source": "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/climate-1369f5b0c513-part03.bin",
+      "bytes": 604615,
+      "sha256": "c731ec7eaecda1e1afe663cca6aecb38ea5bb794d611c9600acdef5ae6707550",
+      "source": "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz"
+    },
+    {
+      "path": "assets/nature-7101b98f087644f7.html.gz",
+      "bytes": 590809,
+      "sha256": "1e71ef0a95d3bded36a889979c63f2f8deff474d9a71b198c5639458d1cd304b",
+      "source": "integration/natural-world/stage6/index.html"
+    },
+    {
+      "path": "assets/nature-a0ce82cb689c29ae.html.gz",
+      "bytes": 256900,
+      "sha256": "8f364376e1c08eb348c5ac508e8b801bf8f5b0c51d46b5df5f8e23c921323b98",
+      "source": "integration/natural-world/retention-review/index.html"
+    },
+    {
+      "path": "assets/nature-bc0c2591cf795315.html.gz",
+      "bytes": 207406,
+      "sha256": "0903ba343425d90e6a798a23eb651483e236b556a7ef6edefc18274fc163102d",
+      "source": "integration/natural-world/retention-chain/index.html"
+    },
+    {
+      "path": "assets/nature-86470f9925c2499e.html.gz",
+      "bytes": 998706,
+      "sha256": "19777f5da7637d06f9d64493b537c09d8e68fbca448c37e19aeb0b12cf6470b1",
+      "source": "integration/natural-world/pond-budget/index.html"
+    },
+    {
+      "path": "assets/nature-53b0ca179f20691c.html.gz",
+      "bytes": 5581961,
+      "sha256": "63783a3011ecf873561b0d50aff8423a75f77e145d10450c1857a52f4940d659",
+      "source": "integration/natural-world/surface-water/index.html"
+    },
+    {
+      "path": "assets/nature-ae8a2313818f261e.html.gz",
+      "bytes": 9211079,
+      "sha256": "c0616edab6bfc6b87d62f8c8ca3c15dfdb1ec1426167bd9c1063d869b601c911",
+      "source": "integration/natural-world/cold-water/index.html"
+    },
+    {
+      "path": "assets/nature-6623f10c4f38ba2d.html.gz",
+      "bytes": 1619048,
+      "sha256": "478424cfba9645143d1655b10e1e1b27a4a2e3b5eb4ceae6618aab12b951501c",
+      "source": "integration/atlas/index.html"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2524,
+      "sha256": "6314699831745c841fea1e49f5a7e48db7d73b0ffc6e31a7c90ac804b7040c1d",
+      "source": null
+    }
+  ],
+  "packedHtml": [
+    {
+      "path": "integration/natural-world/stage6/index.html",
+      "files": [
+        "../../../assets/nature-7101b98f087644f7.html.gz"
+      ],
+      "sha256": "7101b98f087644f75f6c47a1acfa3f2b945dda317ed45137883dc1b921f0f896",
+      "bytes": 2201053,
+      "compressedBytes": 590809
+    },
+    {
+      "path": "integration/natural-world/retention-review/index.html",
+      "files": [
+        "../../../assets/nature-a0ce82cb689c29ae.html.gz"
+      ],
+      "sha256": "a0ce82cb689c29aedbea850d21332dbaed55c4d499f4d4ca6f6b463dae89d409",
+      "bytes": 1322939,
+      "compressedBytes": 256900
+    },
+    {
+      "path": "integration/natural-world/retention-chain/index.html",
+      "files": [
+        "../../../assets/nature-bc0c2591cf795315.html.gz"
+      ],
+      "sha256": "bc0c2591cf79531539d0ebac9341278d9bc04ee45078a496867defe6a658f65e",
+      "bytes": 2063096,
+      "compressedBytes": 207406
+    },
+    {
+      "path": "integration/natural-world/pond-budget/index.html",
+      "files": [
+        "../../../assets/nature-86470f9925c2499e.html.gz"
+      ],
+      "sha256": "86470f9925c2499e72770909fb6c419afe7fb8748b315e0ecf9dd259cc851618",
+      "bytes": 8498651,
+      "compressedBytes": 998706
+    },
+    {
+      "path": "integration/natural-world/surface-water/index.html",
+      "files": [
+        "../../../assets/nature-53b0ca179f20691c.html.gz"
+      ],
+      "sha256": "53b0ca179f20691cb078ef32e749147eb864020559b7e6c312e5377904372df1",
+      "bytes": 22502487,
+      "compressedBytes": 5581961
+    },
+    {
+      "path": "integration/natural-world/cold-water/index.html",
+      "files": [
+        "../../../assets/nature-ae8a2313818f261e.html.gz"
+      ],
+      "sha256": "ae8a2313818f261e30e3dc6fd64b8c308c1121b877f8d4b51fb17d94f784a780",
+      "bytes": 12189666,
+      "compressedBytes": 9211079
+    },
+    {
+      "path": "integration/atlas/index.html",
+      "files": [
+        "../../assets/nature-6623f10c4f38ba2d.html.gz"
+      ],
+      "sha256": "6623f10c4f38ba2def9d615094cac8ef6860a8785e1b349b4693fb26bb1dcfd7",
+      "bytes": 17458909,
+      "compressedBytes": 1619048
+    }
+  ],
+  "splitAssets": {
+    "integration/natural-world/stage5/output/water-3775f512672b.json.gz": [
+      "integration/natural-world/stage5/output/water-3775f512672b-part00.bin",
+      "integration/natural-world/stage5/output/water-3775f512672b-part01.bin"
+    ],
+    "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz": [
+      "integration/natural-world/stage5/output/climate-1369f5b0c513-part00.bin",
+      "integration/natural-world/stage5/output/climate-1369f5b0c513-part01.bin",
+      "integration/natural-world/stage5/output/climate-1369f5b0c513-part02.bin",
+      "integration/natural-world/stage5/output/climate-1369f5b0c513-part03.bin"
+    ]
+  },
+  "packageOnlyReferences": [
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage5/README.md"
+    },
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage5/REPORT.md"
+    },
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage5/validation/final-checks.json"
+    },
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage2/REPORT.md"
+    },
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage3/REPORT.md"
+    },
+    {
+      "document": "integration/natural-world/README.md",
+      "target": "integration/natural-world/stage5/REPORT.md"
+    },
+    {
+      "document": "integration/natural-world/stage6/README.md",
+      "target": "integration/natural-world/stage5/README.md"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/validation/desktop.png"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/validation/mobile.png"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/output/priority-depressions.json"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/output/water-audit.json"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/output/setting-review.json"
+    },
+    {
+      "document": "integration/natural-world/stage6/REPORT.md",
+      "target": "integration/natural-world/stage6/output/assumptions.json"
+    },
+    {
+      "document": "integration/natural-world/retention-review/REPORT.md",
+      "target": "integration/natural-world/retention-review/validation/desktop.png"
+    },
+    {
+      "document": "integration/natural-world/review-atlas/REPORT.md",
+      "target": "integration/natural-world/review-atlas/validation/desktop.png"
+    },
+    {
+      "document": "integration/natural-world/review-atlas/REPORT.md",
+      "target": "integration/natural-world/review-atlas/validation/local-snow.png"
+    },
+    {
+      "document": "integration/natural-world/review-atlas/REPORT.md",
+      "target": "integration/natural-world/review-atlas/validation/mobile-map.png"
+    },
+    {
+      "document": "integration/natural-world/desert-review/REPORT.md",
+      "target": "integration/natural-world/desert-review/validation/desktop.png"
+    },
+    {
+      "document": "integration/natural-world/desert-review/REPORT.md",
+      "target": "integration/natural-world/desert-review/validation/mobile-maps.png"
+    },
+    {
+      "document": "integration/natural-world/pet-review/README.md",
+      "target": "integration/natural-world/pet-review/output/methods.json"
+    },
+    {
+      "document": "integration/natural-world/pet-review/REPORT.md",
+      "target": "integration/natural-world/pet-review/output/methods.json"
+    },
+    {
+      "document": "integration/natural-world/pet-review/REPORT.md",
+      "target": "integration/natural-world/pet-review/inputs/references/airGR-PE_Oudin.R"
+    },
+    {
+      "document": "integration/natural-world/pet-review/REPORT.md",
+      "target": "integration/natural-world/pet-review/inputs/references/airGR-PE_Oudin.Rd"
+    },
+    {
+      "document": "integration/natural-world/pet-review/REPORT.md",
+      "target": "integration/natural-world/pet-review/validation/preview.png"
+    },
+    {
+      "document": "integration/natural-world/pet-review/REPORT.md",
+      "target": "integration/natural-world/pet-review/validation/mobile-maps.png"
+    },
+    {
+      "document": "integration/natural-world/unified-atlas/REPORT.md",
+      "target": "integration/natural-world/unified-atlas/validation/mobile-map.png"
+    },
+    {
+      "document": "integration/natural-world/unified-atlas/REPORT.md",
+      "target": "integration/natural-world/unified-atlas/validation/region.png"
+    },
+    {
+      "document": "integration/natural-world/unified-atlas/REPORT.md",
+      "target": "integration/natural-world/unified-atlas/validation/wetland.png"
+    },
+    {
+      "document": "integration/natural-world/unified-atlas/REPORT.md",
+      "target": "integration/natural-world/unified-atlas/validation/geology.png"
+    },
+    {
+      "document": "integration/natural-world/unified-atlas/REPORT.md",
+      "target": "integration/natural-world/unified-atlas/validation/original-only.png"
+    },
+    {
+      "document": "integration/atlas/README.md",
+      "target": "integration/natural-world/stage5/README.md"
+    },
+    {
+      "document": "integration/atlas/README.md",
+      "target": "integration/natural-world/stage3/REPORT.md"
+    },
+    {
+      "document": "integration/natural-world-design/PLAN.md",
+      "target": "integration/natural-world-design/evidence.json"
+    },
+    {
+      "document": "integration/natural-world-design/PLAN.md",
+      "target": "application/validation/world-map/world-map.json"
+    },
+    {
+      "document": "integration/natural-world-design/PLAN.md",
+      "target": "application/source/app.js"
+    },
+    {
+      "document": "integration/natural-world-design/PLAN.md",
+      "target": "worldbuilding/WORLD_HANDOFF.md"
+    }
+  ],
+  "originalWorldModified": false,
+  "newNatureAdopted": false
+}

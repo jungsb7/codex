@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T17:03:22.411Z",
+  "scope": "55 accumulating snow cells, conditional energy/ice diagnostics, four explicit groundwater receiving/return assumptions in 52 ponds",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "previousIntegrationFilesChecked": 509,
+  "intendedChanges": [
+    "natural-world-design/PLAN.md",
+    "natural-world/README.md",
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json"
+  ],
+  "unexpectedChanges": [],
+  "comparisonChecks": 7,
+  "modelChecks": {
+    "new": 22,
+    "priorSurfaceCoreReexecuted": 17,
+    "totalExecuted": 39
+  },
+  "browserChecks": 9,
+  "previousEvidencePreservedByHashes": true,
+  "baselineNaturalMapHtmlSha256": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+  "previousSurfaceHtmlSha256": "53b0ca179f20691cb078ef32e749147eb864020559b7e6c312e5377904372df1",
+  "currentComparisonHtmlSha256": "ae8a2313818f261e30e3dc6fd64b8c308c1121b877f8d4b51fb17d94f784a780",
+  "economicLedgersPreserved": true,
+  "actualIceVolumeM3": null,
+  "actualGroundExchangeM3": null,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "failures": []
+}

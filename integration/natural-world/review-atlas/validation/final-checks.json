@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-18T17:38:22.332Z",
+  "scope": "Global review map with scoped local evidence and adoption conditions",
+  "originalFilesChecked": 1663,
+  "originalChanges": [],
+  "previousIntegrationFilesChecked": 541,
+  "intendedChanges": [
+    "natural-world-design/PLAN.md",
+    "natural-world/README.md",
+    "NEXT_SESSION_PROMPT.txt",
+    "PROGRESS.md",
+    "README.md",
+    "SOURCE_INDEX.md",
+    "STATE.json"
+  ],
+  "unexpectedChanges": [],
+  "modelTests": 11,
+  "browserChecks": 9,
+  "terrestrialCells": 268857,
+  "localCells": 6850,
+  "registryItems": 18,
+  "baselineNaturalMapHtmlSha256": "c2a5a5d7b797dda585b5b1f6d3b429f43368c113912d4ccc95716acae57f1909",
+  "priorColdWaterHtmlSha256": "ae8a2313818f261e30e3dc6fd64b8c308c1121b877f8d4b51fb17d94f784a780",
+  "currentReviewHtmlSha256": "6ec889a6798f75043baa4d20f63f8d4c4156dce61c91a3be61ce30022fb1c11e",
+  "sourceVersionsMatched": true,
+  "economicLedgersPreserved": true,
+  "actualNewNatureGeometry": null,
+  "automaticAdoptionPerformed": false,
+  "deploymentPerformed": false,
+  "failures": []
+}
