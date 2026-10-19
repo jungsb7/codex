@@ -1,0 +1,26 @@
+[
+  {
+    "id": "all-three-candidate-layers-covered",
+    "passed": true
+  },
+  {
+    "id": "all-eleven-regions-reported",
+    "passed": true
+  },
+  {
+    "id": "climate-holds-never-prioritized",
+    "passed": true
+  },
+  {
+    "id": "wetland-drainage-holds-retained",
+    "passed": true
+  },
+  {
+    "id": "proposals-one-per-region-layer",
+    "passed": true
+  },
+  {
+    "id": "no-physical-adoption",
+    "passed": true
+  }
+]
