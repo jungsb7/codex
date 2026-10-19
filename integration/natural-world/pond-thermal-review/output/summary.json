@@ -1,0 +1,826 @@
+{
+  "schema": "pond-thermal-review/1",
+  "status": "screening-completed-adoption-held",
+  "firstConnection": {
+    "schema": "pond-thermal-point/1",
+    "selection": {
+      "level": 260.2316589355469,
+      "period": 0,
+      "evap": null,
+      "cell": 237734
+    },
+    "status": "energy-screening-not-physical-adoption",
+    "areaKm2": 67779.40928847702,
+    "cells": 171,
+    "constants": {
+      "yearDays": 365,
+      "periodDays": 30.416666666666668,
+      "secondsPerDay": 86400,
+      "solarConstantWm2": 1361,
+      "tiltDegrees": 23.4,
+      "latentVaporizationJKg": 2450000,
+      "solarSamplesPerPeriod": 64
+    },
+    "annual": {
+      "period": 0,
+      "meanAirTemperatureC": 1.5615386126274873,
+      "minimumAirTemperatureC": -22.513718993490738,
+      "maximumAirTemperatureC": 28.027915773121233,
+      "belowZeroAirAreaFraction": 0.4921900333234058,
+      "belowZeroAirEquivalentDays": 179.64936216304315,
+      "freezingDegreeDays": 2274.142895266038,
+      "toaWm2": 263.64874374539727,
+      "liquidSupplyReferenceM3": 261726817698.40485,
+      "requiredEvaporationDepthMm": 3861.450261162135,
+      "requiredLatentWm2": 299.9921721159066,
+      "selectedEvaporationLatentWm2": null,
+      "toaAllToEvaporationDepthMm": 3393.643584797897,
+      "requiredToaRatio": 1.137847910269604,
+      "localShortwaveOnlyEnergyGapWm2": 36.34342837050934
+    },
+    "periods": [
+      {
+        "period": 1,
+        "sourceTemperaturePhaseDegrees": 0,
+        "solarIntervalDegrees": [
+          0,
+          30
+        ],
+        "meanAirTemperatureC": -6.816748228828212,
+        "minimumAirTemperatureC": -10.282105674009596,
+        "maximumAirTemperatureC": -0.8035963890205022,
+        "belowZeroAirAreaFraction": 1.0000000000000002,
+        "belowZeroAirEquivalentDays": 30.416666666666675,
+        "freezingDegreeDays": 207.34275862685817,
+        "toaWm2": 310.6668223886035,
+        "liquidSupplyReferenceM3": 3123458773.4171824,
+        "requiredEvaporationDepthMm": 46.082708689941214,
+        "requiredLatentWm2": 42.96142933422983,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.13828779334695324,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 333.23771805602047
+      },
+      {
+        "period": 2,
+        "sourceTemperaturePhaseDegrees": 30,
+        "solarIntervalDegrees": [
+          30,
+          60
+        ],
+        "meanAirTemperatureC": 4.325896785412462,
+        "minimumAirTemperatureC": 1.0273025141315102,
+        "maximumAirTemperatureC": 9.656198014398935,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 416.5817069892467,
+        "liquidSupplyReferenceM3": 14949036836.77648,
+        "requiredEvaporationDepthMm": 220.55425082198116,
+        "requiredLatentWm2": 205.6156447921818,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.4935781896863018,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 446.8476432521389
+      },
+      {
+        "period": 3,
+        "sourceTemperaturePhaseDegrees": 60,
+        "solarIntervalDegrees": [
+          60,
+          90
+        ],
+        "meanAirTemperatureC": 15.345148936061701,
+        "minimumAirTemperatureC": 12.349336412801552,
+        "maximumAirTemperatureC": 19.948476556944254,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 482.7857743542411,
+        "liquidSupplyReferenceM3": 27965809186.389286,
+        "requiredEvaporationDepthMm": 412.60036757422245,
+        "requiredLatentWm2": 384.65407174918,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.7967386202786962,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 517.8616387767125
+      },
+      {
+        "period": 4,
+        "sourceTemperaturePhaseDegrees": 90,
+        "solarIntervalDegrees": [
+          90,
+          120
+        ],
+        "meanAirTemperatureC": 22.84652146391673,
+        "minimumAirTemperatureC": 20.201757718973443,
+        "maximumAirTemperatureC": 26.932284340976505,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 482.7857743542408,
+        "liquidSupplyReferenceM3": 48440658644.931816,
+        "requiredEvaporationDepthMm": 714.6810388795624,
+        "requiredLatentWm2": 666.2741800817838,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.380061748863606,
+        "localShortwaveOnlyEnergyGapWm2": 183.488405727543,
+        "toaAllToEvaporationDepthMm": 517.8616387767122
+      },
+      {
+        "period": 5,
+        "sourceTemperaturePhaseDegrees": 120,
+        "solarIntervalDegrees": [
+          120,
+          150
+        ],
+        "meanAirTemperatureC": 24.011360838896632,
+        "minimumAirTemperatureC": 21.636681021552125,
+        "maximumAirTemperatureC": 28.027915773121233,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 416.5817069892467,
+        "liquidSupplyReferenceM3": 53862087494.72039,
+        "requiredEvaporationDepthMm": 794.6674079952085,
+        "requiredLatentWm2": 740.84290319188,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.7783855862182723,
+        "localShortwaveOnlyEnergyGapWm2": 324.26119620263336,
+        "toaAllToEvaporationDepthMm": 446.8476432521389
+      },
+      {
+        "period": 6,
+        "sourceTemperaturePhaseDegrees": 150,
+        "solarIntervalDegrees": [
+          150,
+          180
+        ],
+        "meanAirTemperatureC": 18.466167561614313,
+        "minimumAirTemperatureC": 16.091609027163532,
+        "maximumAirTemperatureC": 22.88616789018229,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 310.6668223886036,
+        "liquidSupplyReferenceM3": 45895287207.01378,
+        "requiredEvaporationDepthMm": 677.1272822942159,
+        "requiredLatentWm2": 631.264018881594,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 2.0319647074896374,
+        "localShortwaveOnlyEnergyGapWm2": 320.5971964929904,
+        "toaAllToEvaporationDepthMm": 333.23771805602047
+      },
+      {
+        "period": 7,
+        "sourceTemperaturePhaseDegrees": 180,
+        "solarIntervalDegrees": [
+          180,
+          210
+        ],
+        "meanAirTemperatureC": 8.400555968604314,
+        "minimumAirTemperatureC": 5.811769496463559,
+        "maximumAirTemperatureC": 13.500511770059486,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 198.37251180581066,
+        "liquidSupplyReferenceM3": 32015530020.95362,
+        "requiredEvaporationDepthMm": 472.3489088654021,
+        "requiredLatentWm2": 440.35571793007426,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 2.2198424263596763,
+        "localShortwaveOnlyEnergyGapWm2": 241.9832061242636,
+        "toaAllToEvaporationDepthMm": 212.78488205129406
+      },
+      {
+        "period": 8,
+        "sourceTemperaturePhaseDegrees": 210,
+        "solarIntervalDegrees": [
+          210,
+          240
+        ],
+        "meanAirTemperatureC": -2.9709678018642505,
+        "minimumAirTemperatureC": -5.842487419482903,
+        "maximumAirTemperatureC": 2.836982992868936,
+        "belowZeroAirAreaFraction": 0.9062803998808686,
+        "belowZeroAirEquivalentDays": 27.566028829709754,
+        "freezingDegreeDays": 93.68702473221306,
+        "toaWm2": 109.78794507613884,
+        "liquidSupplyReferenceM3": 16981316232.868223,
+        "requiredEvaporationDepthMm": 250.53797917585524,
+        "requiredLatentWm2": 233.56851178875394,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 2.127451348385948,
+        "localShortwaveOnlyEnergyGapWm2": 123.7805667126151,
+        "toaAllToEvaporationDepthMm": 117.76437537146649
+      },
+      {
+        "period": 9,
+        "sourceTemperaturePhaseDegrees": 240,
+        "solarIntervalDegrees": [
+          240,
+          270
+        ],
+        "meanAirTemperatureC": -12.511273161229745,
+        "minimumAirTemperatureC": -15.647510476639988,
+        "maximumAirTemperatureC": -6.166893565034886,
+        "belowZeroAirAreaFraction": 1.0000000000000002,
+        "belowZeroAirEquivalentDays": 30.416666666666675,
+        "freezingDegreeDays": 380.5512253207381,
+        "toaWm2": 63.697701858342825,
+        "liquidSupplyReferenceM3": 9139541161.04872,
+        "requiredEvaporationDepthMm": 134.8424434056333,
+        "requiredLatentWm2": 125.70927943067032,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.9735292759891856,
+        "localShortwaveOnlyEnergyGapWm2": 62.0115775723275,
+        "toaAllToEvaporationDepthMm": 68.32553489131631
+      },
+      {
+        "period": 10,
+        "sourceTemperaturePhaseDegrees": 270,
+        "solarIntervalDegrees": [
+          270,
+          300
+        ],
+        "meanAirTemperatureC": -18.10596327677716,
+        "minimumAirTemperatureC": -21.437985206059647,
+        "maximumAirTemperatureC": -11.481755978108001,
+        "belowZeroAirAreaFraction": 1.0000000000000002,
+        "belowZeroAirEquivalentDays": 30.416666666666675,
+        "freezingDegreeDays": 550.7230496686386,
+        "toaWm2": 63.697701858342825,
+        "liquidSupplyReferenceM3": 4879127541.907412,
+        "requiredEvaporationDepthMm": 71.98539487326127,
+        "requiredLatentWm2": 67.10967178062789,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.053565039597079,
+        "localShortwaveOnlyEnergyGapWm2": 3.411969922285067,
+        "toaAllToEvaporationDepthMm": 68.32553489131631
+      },
+      {
+        "period": 11,
+        "sourceTemperaturePhaseDegrees": 300,
+        "solarIntervalDegrees": [
+          300,
+          330
+        ],
+        "meanAirTemperatureC": -19.063709767379688,
+        "minimumAirTemperatureC": -22.513718993490738,
+        "maximumAirTemperatureC": -12.391860508706348,
+        "belowZeroAirAreaFraction": 1.0000000000000002,
+        "belowZeroAirEquivalentDays": 30.416666666666675,
+        "freezingDegreeDays": 579.8545054244654,
+        "toaWm2": 109.78794507613884,
+        "liquidSupplyReferenceM3": 2755851304.7414775,
+        "requiredEvaporationDepthMm": 40.659122492677014,
+        "requiredLatentWm2": 37.905194104664645,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.34525825288356643,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 117.76437537146649
+      },
+      {
+        "period": 12,
+        "sourceTemperaturePhaseDegrees": 330,
+        "solarIntervalDegrees": [
+          330,
+          360
+        ],
+        "meanAirTemperatureC": -15.188525966897242,
+        "minimumAirTemperatureC": -18.660611027767242,
+        "maximumAirTemperatureC": -8.708695537490573,
+        "belowZeroAirAreaFraction": 1.0000000000000002,
+        "belowZeroAirEquivalentDays": 30.416666666666675,
+        "freezingDegreeDays": 461.98433149312444,
+        "toaWm2": 198.3725118058103,
+        "liquidSupplyReferenceM3": 1719113293.6364427,
+        "requiredEvaporationDepthMm": 25.36335609417452,
+        "requiredLatentWm2": 23.6454423252388,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.11919717157377965,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 212.7848820512937
+      }
+    ],
+    "selected": {
+      "period": 0,
+      "meanAirTemperatureC": 1.5615386126274873,
+      "minimumAirTemperatureC": -22.513718993490738,
+      "maximumAirTemperatureC": 28.027915773121233,
+      "belowZeroAirAreaFraction": 0.4921900333234058,
+      "belowZeroAirEquivalentDays": 179.64936216304315,
+      "freezingDegreeDays": 2274.142895266038,
+      "toaWm2": 263.64874374539727,
+      "liquidSupplyReferenceM3": 261726817698.40485,
+      "requiredEvaporationDepthMm": 3861.450261162135,
+      "requiredLatentWm2": 299.9921721159066,
+      "selectedEvaporationLatentWm2": null,
+      "toaAllToEvaporationDepthMm": 3393.643584797897,
+      "requiredToaRatio": 1.137847910269604,
+      "localShortwaveOnlyEnergyGapWm2": 36.34342837050934
+    },
+    "point": {
+      "cell": 237734,
+      "sourceYear": 6,
+      "temperaturesC": [
+        -1.4972583648162545,
+        9.054099556765912,
+        19.454733057140082,
+        26.519553096786375,
+        27.62210581715376,
+        22.409677071223676,
+        12.916754249812264,
+        2.155314498175947,
+        -6.908370963834706,
+        -12.243977780512843,
+        -13.15525680956339,
+        -9.45508704740437
+      ],
+      "toaWm2": [
+        313.2770443857593,
+        418.0449119426533,
+        483.29196425552124,
+        483.2919642555212,
+        418.0449119426534,
+        313.27704438575927,
+        201.68662298485364,
+        113.17421103735748,
+        66.83084194931962,
+        66.83084194931963,
+        113.17421103735751,
+        201.6866229848536
+      ],
+      "belowZeroSamplePeriods": 5,
+      "belowZeroEquivalentDays": 152.08333333333334,
+      "freezingDegreeDays": 1315.8235085531685
+    },
+    "pointStatus": "candidate-surface-source-sample",
+    "decision": "local-incoming-shortwave-alone-insufficient",
+    "actual": {
+      "surfaceNetRadiationWm2": null,
+      "sensibleHeatWm2": null,
+      "advectedHeatWm2": null,
+      "waterTemperatureC": null,
+      "waterHeatStorageChangeJ": null,
+      "iceAreaKm2": null,
+      "iceThicknessM": null,
+      "iceCoveredDays": null,
+      "evaporationMm": null,
+      "groundwaterExchangeM3": null,
+      "overflowM3": null
+    },
+    "automaticAdoption": false,
+    "assumptions": {
+      "solar": "Original 1361 W/m2 solar constant, 23.4-degree tilt and ideal circular 365-day year. Each 30-degree interval uses 64 midpoint daily means. TOA is incoming shortwave above the atmosphere, not surface net radiation.",
+      "temperature": "Original land air-temperature snapshot at the start phase of each source period. Below-zero equivalent days and degree-days hold that snapshot for 365/12 days; neither is a lake-ice prediction.",
+      "energy": "Fixed liquid-water latent heat 2.45 MJ/kg; 1 mm water equals 1 kg/m2. No inferred sublimation or freezing energy is added.",
+      "comparison": "Evaporation-only closure keeps the previous original local snow ledger and sets other annual balance terms to zero only for this diagnostic. Actual storage/groundwater/outflow stay unknown.",
+      "limits": "TOA all-to-evaporation is a generous local-shortwave-only envelope. Atmospheric/advected/stored heat is unresolved; a deficit does not prove evaporation impossible. Being below the envelope does not establish physical feasibility.",
+      "calendar": "Solar interval means and source start-phase air snapshots are distinguished; original source cycles 6 and 60 are not synchronized dates."
+    },
+    "provenance": {
+      "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+      "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+      "sourceInputs": {
+        "catchment-budget/output/atlas.json.gz": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+        "catchment-budget/output/topology.json": "3651e46d0015b290d4f9120f5ecec9da23c6979569b3058744ac0d2d9c9a519a",
+        "pond-surface-review/output/summary.json": "0ccb2d91b2ff29c024317311a1952cbd6c7bbc724cecdeeca7997f4a333d7a48",
+        "catchment-budget/core.js": "3c9b606548231dd170d1e6d86b1a8714098db38eeed142b84cc728cbace6beb5",
+        "retention-priority/analysis.cjs": "9c47119ded0d1a67eb18626485b72d6d10e8e9e30e4ccf0749205ba5d3518b43"
+      }
+    }
+  },
+  "nextBoundaryLimit": {
+    "schema": "pond-thermal-point/1",
+    "selection": {
+      "level": 266.3189392089844,
+      "period": 0,
+      "evap": null,
+      "cell": 237734
+    },
+    "status": "energy-screening-not-physical-adoption",
+    "areaKm2": 91510.24787513766,
+    "cells": 231,
+    "constants": {
+      "yearDays": 365,
+      "periodDays": 30.416666666666668,
+      "secondsPerDay": 86400,
+      "solarConstantWm2": 1361,
+      "tiltDegrees": 23.4,
+      "latentVaporizationJKg": 2450000,
+      "solarSamplesPerPeriod": 64
+    },
+    "annual": {
+      "period": 0,
+      "meanAirTemperatureC": 1.9761681740585235,
+      "minimumAirTemperatureC": -22.56837787907297,
+      "maximumAirTemperatureC": 28.985425901583106,
+      "belowZeroAirAreaFraction": 0.4843807035762249,
+      "belowZeroAirEquivalentDays": 176.7989568053221,
+      "freezingDegreeDays": 2193.7011035523115,
+      "toaWm2": 263.5435658484966,
+      "liquidSupplyReferenceM3": 263412994045.76578,
+      "requiredEvaporationDepthMm": 2878.5081470348878,
+      "requiredLatentWm2": 223.62839168681742,
+      "selectedEvaporationLatentWm2": null,
+      "toaAllToEvaporationDepthMm": 3392.289752080894,
+      "requiredToaRatio": 0.8485443041146934,
+      "localShortwaveOnlyEnergyGapWm2": 0
+    },
+    "periods": [
+      {
+        "period": 1,
+        "sourceTemperaturePhaseDegrees": 0,
+        "solarIntervalDegrees": [
+          0,
+          30
+        ],
+        "meanAirTemperatureC": -6.366152337027199,
+        "minimumAirTemperatureC": -10.282105674009596,
+        "maximumAirTemperatureC": 0.5606916258241399,
+        "belowZeroAirAreaFraction": 0.986797178774303,
+        "belowZeroAirEquivalentDays": 30.01508085438505,
+        "freezingDegreeDays": 193.75070106527906,
+        "toaWm2": 310.55105218648634,
+        "liquidSupplyReferenceM3": 3137029661.832579,
+        "requiredEvaporationDepthMm": 34.280637793845116,
+        "requiredLatentWm2": 31.95873766930005,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.10290977101603502,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 333.1135367943209
+      },
+      {
+        "period": 2,
+        "sourceTemperaturePhaseDegrees": 30,
+        "solarIntervalDegrees": [
+          30,
+          60
+        ],
+        "meanAirTemperatureC": 4.728674768077417,
+        "minimumAirTemperatureC": 1.0273025141315102,
+        "maximumAirTemperatureC": 10.865800279312927,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 416.5164585605212,
+        "liquidSupplyReferenceM3": 15574055497.73811,
+        "requiredEvaporationDepthMm": 170.18919584818883,
+        "requiredLatentWm2": 158.66192154796906,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.3809259353071038,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 446.7776543253264
+      },
+      {
+        "period": 3,
+        "sourceTemperaturePhaseDegrees": 60,
+        "solarIntervalDegrees": [
+          60,
+          90
+        ],
+        "meanAirTemperatureC": 15.702899926602676,
+        "minimumAirTemperatureC": 12.349336412801552,
+        "maximumAirTemperatureC": 21.010769998987847,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 482.76332117316787,
+        "liquidSupplyReferenceM3": 28205560367.24722,
+        "requiredEvaporationDepthMm": 308.2229698004169,
+        "requiredLatentWm2": 287.3463759554876,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.5952116976434837,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 517.8375543033001
+      },
+      {
+        "period": 4,
+        "sourceTemperaturePhaseDegrees": 90,
+        "solarIntervalDegrees": [
+          90,
+          120
+        ],
+        "meanAirTemperatureC": 23.174234863595686,
+        "minimumAirTemperatureC": 20.201757718973443,
+        "maximumAirTemperatureC": 27.89909875587025,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 482.76332117316764,
+        "liquidSupplyReferenceM3": 48548139774.78706,
+        "requiredEvaporationDepthMm": 530.5213448993079,
+        "requiredLatentWm2": 494.58801179730006,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.024493763518316,
+        "localShortwaveOnlyEnergyGapWm2": 11.824690624132415,
+        "toaAllToEvaporationDepthMm": 517.8375543032998
+      },
+      {
+        "period": 5,
+        "sourceTemperaturePhaseDegrees": 120,
+        "solarIntervalDegrees": [
+          120,
+          150
+        ],
+        "meanAirTemperatureC": 24.332765273285,
+        "minimumAirTemperatureC": 21.636681021552125,
+        "maximumAirTemperatureC": 28.985425901583106,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 416.516458560521,
+        "liquidSupplyReferenceM3": 53984247307.35673,
+        "requiredEvaporationDepthMm": 589.9257029771816,
+        "requiredLatentWm2": 549.9687870221061,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.3204010927270333,
+        "localShortwaveOnlyEnergyGapWm2": 133.45232846158507,
+        "toaAllToEvaporationDepthMm": 446.77765432532624
+      },
+      {
+        "period": 6,
+        "sourceTemperaturePhaseDegrees": 150,
+        "solarIntervalDegrees": [
+          150,
+          180
+        ],
+        "meanAirTemperatureC": 18.80666745886887,
+        "minimumAirTemperatureC": 16.041427427274,
+        "maximumAirTemperatureC": 23.922834543378734,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 310.55105218648634,
+        "liquidSupplyReferenceM3": 46154742315.346275,
+        "requiredEvaporationDepthMm": 504.366924875154,
+        "requiredLatentWm2": 470.20508597569534,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.5140991558880197,
+        "localShortwaveOnlyEnergyGapWm2": 159.654033789209,
+        "toaAllToEvaporationDepthMm": 333.1135367943209
+      },
+      {
+        "period": 7,
+        "sourceTemperaturePhaseDegrees": 180,
+        "solarIntervalDegrees": [
+          180,
+          210
+        ],
+        "meanAirTemperatureC": 8.779919106380287,
+        "minimumAirTemperatureC": 5.701048928946518,
+        "maximumAirTemperatureC": 14.675529184027502,
+        "belowZeroAirAreaFraction": 0,
+        "belowZeroAirEquivalentDays": 0,
+        "freezingDegreeDays": 0,
+        "toaWm2": 198.2267147137707,
+        "liquidSupplyReferenceM3": 32277877599.615887,
+        "requiredEvaporationDepthMm": 352.7241849859029,
+        "requiredLatentWm2": 328.83342968624896,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.6588754455274495,
+        "localShortwaveOnlyEnergyGapWm2": 130.60671497247827,
+        "toaAllToEvaporationDepthMm": 212.62849235419978
+      },
+      {
+        "period": 8,
+        "sourceTemperaturePhaseDegrees": 210,
+        "solarIntervalDegrees": [
+          210,
+          240
+        ],
+        "meanAirTemperatureC": -2.5435150070471346,
+        "minimumAirTemperatureC": -5.982294303462725,
+        "maximumAirTemperatureC": 4.167475899111443,
+        "belowZeroAirAreaFraction": 0.8257712641403963,
+        "belowZeroAirEquivalentDays": 25.117209284270388,
+        "freezingDegreeDays": 86.69717524768573,
+        "toaWm2": 109.64066165855031,
+        "liquidSupplyReferenceM3": 17053684881.74028,
+        "requiredEvaporationDepthMm": 186.35819788193993,
+        "requiredLatentWm2": 173.73576286558327,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.5845924334772974,
+        "localShortwaveOnlyEnergyGapWm2": 64.09510120703295,
+        "toaAllToEvaporationDepthMm": 117.60639136272255
+      },
+      {
+        "period": 9,
+        "sourceTemperaturePhaseDegrees": 240,
+        "solarIntervalDegrees": [
+          240,
+          270
+        ],
+        "meanAirTemperatureC": -12.039470913261521,
+        "minimumAirTemperatureC": -15.78071460228911,
+        "maximumAirTemperatureC": -4.70592462279067,
+        "belowZeroAirAreaFraction": 1,
+        "belowZeroAirEquivalentDays": 30.416666666666668,
+        "freezingDegreeDays": 366.20057361170467,
+        "toaWm2": 63.56318679848352,
+        "liquidSupplyReferenceM3": 9133698267.798012,
+        "requiredEvaporationDepthMm": 99.81066033457371,
+        "requiredLatentWm2": 93.05027314296255,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 1.4639019506363473,
+        "localShortwaveOnlyEnergyGapWm2": 29.48708634447903,
+        "toaAllToEvaporationDepthMm": 68.18124690057743
+      },
+      {
+        "period": 10,
+        "sourceTemperaturePhaseDegrees": 270,
+        "solarIntervalDegrees": [
+          270,
+          300
+        ],
+        "meanAirTemperatureC": -17.605290023903557,
+        "minimumAirTemperatureC": -21.538059993992093,
+        "maximumAirTemperatureC": -9.945208751609451,
+        "belowZeroAirAreaFraction": 1,
+        "belowZeroAirEquivalentDays": 30.416666666666668,
+        "freezingDegreeDays": 535.4942382270667,
+        "toaWm2": 63.56318679848352,
+        "liquidSupplyReferenceM3": 4874745371.969381,
+        "requiredEvaporationDepthMm": 53.26993954404746,
+        "requiredLatentWm2": 49.66185383672613,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.7812989929874151,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 68.18124690057743
+      },
+      {
+        "period": 11,
+        "sourceTemperaturePhaseDegrees": 300,
+        "solarIntervalDegrees": [
+          300,
+          330
+        ],
+        "meanAirTemperatureC": -18.55683276159029,
+        "minimumAirTemperatureC": -22.56837787907297,
+        "maximumAirTemperatureC": -10.846185158374036,
+        "belowZeroAirAreaFraction": 1,
+        "belowZeroAirEquivalentDays": 30.416666666666668,
+        "freezingDegreeDays": 564.4369964983714,
+        "toaWm2": 109.64066165855031,
+        "liquidSupplyReferenceM3": 2752564677.287955,
+        "requiredEvaporationDepthMm": 30.07930522758202,
+        "requiredLatentWm2": 28.04197024641398,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.2557625047333626,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 117.60639136272255
+      },
+      {
+        "period": 12,
+        "sourceTemperaturePhaseDegrees": 330,
+        "solarIntervalDegrees": [
+          330,
+          360
+        ],
+        "meanAirTemperatureC": -14.69988226527794,
+        "minimumAirTemperatureC": -18.66071222412883,
+        "maximumAirTemperatureC": -7.223184507751947,
+        "belowZeroAirAreaFraction": 1,
+        "belowZeroAirEquivalentDays": 30.416666666666668,
+        "freezingDegreeDays": 447.121418902204,
+        "toaWm2": 198.22671471377018,
+        "liquidSupplyReferenceM3": 1716648323.0463004,
+        "requiredEvaporationDepthMm": 18.759082866747374,
+        "requiredLatentWm2": 17.488490496016386,
+        "selectedEvaporationLatentWm2": null,
+        "requiredToaRatio": 0.08822469020519723,
+        "localShortwaveOnlyEnergyGapWm2": 0,
+        "toaAllToEvaporationDepthMm": 212.62849235419918
+      }
+    ],
+    "selected": {
+      "period": 0,
+      "meanAirTemperatureC": 1.9761681740585235,
+      "minimumAirTemperatureC": -22.56837787907297,
+      "maximumAirTemperatureC": 28.985425901583106,
+      "belowZeroAirAreaFraction": 0.4843807035762249,
+      "belowZeroAirEquivalentDays": 176.7989568053221,
+      "freezingDegreeDays": 2193.7011035523115,
+      "toaWm2": 263.5435658484966,
+      "liquidSupplyReferenceM3": 263412994045.76578,
+      "requiredEvaporationDepthMm": 2878.5081470348878,
+      "requiredLatentWm2": 223.62839168681742,
+      "selectedEvaporationLatentWm2": null,
+      "toaAllToEvaporationDepthMm": 3392.289752080894,
+      "requiredToaRatio": 0.8485443041146934,
+      "localShortwaveOnlyEnergyGapWm2": 0
+    },
+    "point": {
+      "cell": 237734,
+      "sourceYear": 6,
+      "temperaturesC": [
+        -1.4972583648162545,
+        9.054099556765912,
+        19.454733057140082,
+        26.519553096786375,
+        27.62210581715376,
+        22.409677071223676,
+        12.916754249812264,
+        2.155314498175947,
+        -6.908370963834706,
+        -12.243977780512843,
+        -13.15525680956339,
+        -9.45508704740437
+      ],
+      "toaWm2": [
+        313.2770443857593,
+        418.0449119426533,
+        483.29196425552124,
+        483.2919642555212,
+        418.0449119426534,
+        313.27704438575927,
+        201.68662298485364,
+        113.17421103735748,
+        66.83084194931962,
+        66.83084194931963,
+        113.17421103735751,
+        201.6866229848536
+      ],
+      "belowZeroSamplePeriods": 5,
+      "belowZeroEquivalentDays": 152.08333333333334,
+      "freezingDegreeDays": 1315.8235085531685
+    },
+    "pointStatus": "candidate-surface-source-sample",
+    "decision": "below-toa-envelope-but-surface-energy-unresolved",
+    "actual": {
+      "surfaceNetRadiationWm2": null,
+      "sensibleHeatWm2": null,
+      "advectedHeatWm2": null,
+      "waterTemperatureC": null,
+      "waterHeatStorageChangeJ": null,
+      "iceAreaKm2": null,
+      "iceThicknessM": null,
+      "iceCoveredDays": null,
+      "evaporationMm": null,
+      "groundwaterExchangeM3": null,
+      "overflowM3": null
+    },
+    "automaticAdoption": false,
+    "assumptions": {
+      "solar": "Original 1361 W/m2 solar constant, 23.4-degree tilt and ideal circular 365-day year. Each 30-degree interval uses 64 midpoint daily means. TOA is incoming shortwave above the atmosphere, not surface net radiation.",
+      "temperature": "Original land air-temperature snapshot at the start phase of each source period. Below-zero equivalent days and degree-days hold that snapshot for 365/12 days; neither is a lake-ice prediction.",
+      "energy": "Fixed liquid-water latent heat 2.45 MJ/kg; 1 mm water equals 1 kg/m2. No inferred sublimation or freezing energy is added.",
+      "comparison": "Evaporation-only closure keeps the previous original local snow ledger and sets other annual balance terms to zero only for this diagnostic. Actual storage/groundwater/outflow stay unknown.",
+      "limits": "TOA all-to-evaporation is a generous local-shortwave-only envelope. Atmospheric/advected/stored heat is unresolved; a deficit does not prove evaporation impossible. Being below the envelope does not establish physical feasibility.",
+      "calendar": "Solar interval means and source start-phase air snapshots are distinguished; original source cycles 6 and 60 are not synchronized dates."
+    },
+    "provenance": {
+      "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+      "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+      "sourceInputs": {
+        "catchment-budget/output/atlas.json.gz": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+        "catchment-budget/output/topology.json": "3651e46d0015b290d4f9120f5ecec9da23c6979569b3058744ac0d2d9c9a519a",
+        "pond-surface-review/output/summary.json": "0ccb2d91b2ff29c024317311a1952cbd6c7bbc724cecdeeca7997f4a333d7a48",
+        "catchment-budget/core.js": "3c9b606548231dd170d1e6d86b1a8714098db38eeed142b84cc728cbace6beb5",
+        "retention-priority/analysis.cjs": "9c47119ded0d1a67eb18626485b72d6d10e8e9e30e4ccf0749205ba5d3518b43"
+      }
+    }
+  },
+  "checks": [
+    {
+      "id": "first-surface-source-domain",
+      "passed": true
+    },
+    {
+      "id": "annual-energy-and-depth-agree",
+      "passed": true
+    },
+    {
+      "id": "first-level-exceeds-local-toa-envelope",
+      "passed": true
+    },
+    {
+      "id": "higher-level-below-envelope-still-not-adopted",
+      "passed": true
+    },
+    {
+      "id": "source-subzero-samples-not-actual-ice",
+      "passed": true
+    },
+    {
+      "id": "all-actual-surface-physics-null",
+      "passed": true
+    }
+  ],
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "pond-connection-review/output/atlas.json": "4c37aafd38caf0fb16575a0873512997ebe13690e8bc9b96baba934941199aa0",
+      "pond-connection-review/core.js": "dc25435f74b64eaa704165769230e5d45fbbe70b6efc1c927b09e6a3c6664138",
+      "catchment-budget/output/atlas.json.gz": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+      "cold-water/diagnostics.js": "b80e313453f8c3c2f41c144dff93a71b07710b43f3841acc760f6accc169a872"
+    },
+    "code": {
+      "pond-thermal-review/core.js": "f6a6a6fef59f08a06642a3d8e5c571bd08e8808beb618033d3144e0442b3b969",
+      "pond-thermal-review/build.cjs": "22958546ca6345d24ea76940ba4d7b546d4819cb7dc81829b1069cbe61b464ef"
+    }
+  }
+}

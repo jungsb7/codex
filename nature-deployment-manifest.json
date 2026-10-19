@@ -197,6 +197,12 @@
       "source": "integration/natural-world/cold-water/app.js"
     },
     {
+      "path": "integration/natural-world/cold-water/diagnostics.js",
+      "bytes": 3622,
+      "sha256": "b80e313453f8c3c2f41c144dff93a71b07710b43f3841acc760f6accc169a872",
+      "source": "integration/natural-world/cold-water/diagnostics.js"
+    },
+    {
       "path": "integration/natural-world/cold-water/index.html",
       "bytes": 1648,
       "sha256": "da1e800b32f00c88dd0e7e8eb09a4391baa50a8171bb4d73b2ea4cb293c17469",
@@ -552,8 +558,8 @@
     },
     {
       "path": "integration/natural-world/pond-connection-review/app.js",
-      "bytes": 11498,
-      "sha256": "6099bb825c63059f809aff8c46567395245d44996e8aab1ea3f38f5f0f7b9743",
+      "bytes": 11557,
+      "sha256": "b08d6da112c8b1827f7e3b93427e118931c54a057b73176eb3ec03a015b47ca9",
       "source": "integration/natural-world/pond-connection-review/app.js"
     },
     {
@@ -576,8 +582,8 @@
     },
     {
       "path": "integration/natural-world/pond-connection-review/index.html",
-      "bytes": 7772,
-      "sha256": "57183cc44e78c8e787b244640623a500ab9bcdc7f92a3d020e6360fca962edf3",
+      "bytes": 10074,
+      "sha256": "c8776cd8c764dee9524832b302575b46228ceebbb09b533ce9614d52abb3c37f",
       "source": "integration/natural-world/pond-connection-review/index.html"
     },
     {
@@ -681,6 +687,90 @@
       "bytes": 5898,
       "sha256": "0e184924129c3097fa78e5d9399179ef464da4d59433194534001ff0c46fb46b",
       "source": "integration/natural-world/pond-surface-review/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/PROJECT_STATUS.md",
+      "bytes": 4134,
+      "sha256": "3568fa8b2707e8e59af89e267ccf5634a03a4a186c1942d1fdb14ed0ad26678d",
+      "source": "integration/natural-world/pond-thermal-review/PROJECT_STATUS.md"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/README.md",
+      "bytes": 1867,
+      "sha256": "e56a972b99272dada4e94f7431da435e6c99d8624e45f25ff098ecb809d8d781",
+      "source": "integration/natural-world/pond-thermal-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/REPORT.md",
+      "bytes": 4998,
+      "sha256": "99b23f35503ed58f8dab39231b92f6363f07639068b0f5ac1a918f0d6e83e1c4",
+      "source": "integration/natural-world/pond-thermal-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/browser-check.cjs",
+      "bytes": 8338,
+      "sha256": "c5b8941c4e27fe25ebdd1e676b7d4aa8fd3fa735b1d8732d910502e7786e91ef",
+      "source": "integration/natural-world/pond-thermal-review/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/build.cjs",
+      "bytes": 5191,
+      "sha256": "22958546ca6345d24ea76940ba4d7b546d4819cb7dc81829b1069cbe61b464ef",
+      "source": "integration/natural-world/pond-thermal-review/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/connection-browser.cjs",
+      "bytes": 9553,
+      "sha256": "6ce8bbdba14366276fa63f2879519eacc4d4a7dba45678abd874ffea404a53d5",
+      "source": "integration/natural-world/pond-thermal-review/connection-browser.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/core.js",
+      "bytes": 6227,
+      "sha256": "f6a6a6fef59f08a06642a3d8e5c571bd08e8808beb618033d3144e0442b3b969",
+      "source": "integration/natural-world/pond-thermal-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/output/checks.json",
+      "bytes": 462,
+      "sha256": "7ef7d98dd22729adb4f52d2070217477d8f59c11ea9955179b67ba7e15f494f9",
+      "source": "integration/natural-world/pond-thermal-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/output/project-status.json",
+      "bytes": 2800,
+      "sha256": "ec76ddfe9923ed36d68faeab47126a074eaa780477f4bee58e0197f55e9e881f",
+      "source": "integration/natural-world/pond-thermal-review/output/project-status.json"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/output/summary.json",
+      "bytes": 33044,
+      "sha256": "095d06d14bb5945f21ad2ee63fa2b54504f924f4a3c46c0f5999025df169a4db",
+      "source": "integration/natural-world/pond-thermal-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/status.html",
+      "bytes": 4160,
+      "sha256": "fd3a02c01935b133c7466deee52a3042d67494337c383c6190b5cb0f4e96f003",
+      "source": "integration/natural-world/pond-thermal-review/status.html"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/style.css",
+      "bytes": 1689,
+      "sha256": "d873e600c5a62a3f7f5c2b39537ff587b31bca78187c2bfdc1b2e2abbb06079f",
+      "source": "integration/natural-world/pond-thermal-review/style.css"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/test.cjs",
+      "bytes": 7587,
+      "sha256": "384904635882cb256da34518370361b9b097b2de27307906933ef9e723074423",
+      "source": "integration/natural-world/pond-thermal-review/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-thermal-review/ui.js",
+      "bytes": 2613,
+      "sha256": "a1e453e3d2d56f703ac5af93e20a8709719bf8fce083d844901279a600cba0f2",
+      "source": "integration/natural-world/pond-thermal-review/ui.js"
     },
     {
       "path": "integration/natural-world/retention-chain/README.md",
@@ -1146,8 +1236,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/index.html",
-      "bytes": 5595,
-      "sha256": "ce18f584f9b4530e91271262983b3e188e1dad67aca1ed45c61410f098d7da8d",
+      "bytes": 5686,
+      "sha256": "ea71347ec51a305acb300c525b42db1d85432b70f09fb6ca2b84cdf873d2ea1f",
       "source": "integration/natural-world/unified-atlas/index.html"
     },
     {
@@ -1472,6 +1562,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "pond-connection-review-15",
-  "previousPublicationCommit": "ea93aea700e12e65ccda72da7ab5ea54402b4ce5"
+  "latestFollowup": "pond-thermal-review-16",
+  "previousPublicationCommit": "06aead72ed96f537e870ec7482c457a119995169"
 }

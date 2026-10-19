@@ -1,0 +1,26 @@
+[
+  {
+    "id": "first-surface-source-domain",
+    "passed": true
+  },
+  {
+    "id": "annual-energy-and-depth-agree",
+    "passed": true
+  },
+  {
+    "id": "first-level-exceeds-local-toa-envelope",
+    "passed": true
+  },
+  {
+    "id": "higher-level-below-envelope-still-not-adopted",
+    "passed": true
+  },
+  {
+    "id": "source-subzero-samples-not-actual-ice",
+    "passed": true
+  },
+  {
+    "id": "all-actual-surface-physics-null",
+    "passed": true
+  }
+]
