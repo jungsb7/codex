@@ -1,3 +1,5 @@
+> 후속17에서 9곳 국지 검토 최종 정리를 마쳤습니다. 아래는 후속16 시점 기록이며, 현재 상태는 [최종 결정](../pond-decision-review/REPORT.md)과 [현황 화면](status.html)을 따릅니다.
+
 # 9곳 수면의 열수지 조건과 전체 남은 범위 · 후속16
 
 [기존 연결 지도에 추가한 비교](../pond-connection-review/index.html#cell=237734&period=0&view=surface) · [분석 보고서](REPORT.md) · [프로젝트 현황](status.html).

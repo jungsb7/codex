@@ -1,3 +1,5 @@
+> 후속17에서 9곳 국지 검토 최종 정리를 마쳤습니다. 아래는 후속16 시점 기록이며, 현재 상태는 [최종 결정](../pond-decision-review/REPORT.md)과 [현황 화면](status.html)을 따릅니다.
+
 # 전 대륙 자연지도 — 남은 작업과 완료 기준
 
 2026-10-19 기준. [기존 지도](../unified-atlas/index.html) · [현황 화면](status.html) · [기계 판독 현황](output/project-status.json).

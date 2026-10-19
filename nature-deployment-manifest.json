@@ -582,8 +582,8 @@
     },
     {
       "path": "integration/natural-world/pond-connection-review/index.html",
-      "bytes": 10074,
-      "sha256": "c8776cd8c764dee9524832b302575b46228ceebbb09b533ce9614d52abb3c37f",
+      "bytes": 10293,
+      "sha256": "fc11e67b605d7064cd895fce4b66743cc50fd5069b9d84c0d29a7fcfd74de6e9",
       "source": "integration/natural-world/pond-connection-review/index.html"
     },
     {
@@ -615,6 +615,84 @@
       "bytes": 7245,
       "sha256": "e3e5f531b3d2677680b5515ae0b30a98f5d0b1deaabdb84e1a6355672e41aa43",
       "source": "integration/natural-world/pond-connection-review/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/README.md",
+      "bytes": 1970,
+      "sha256": "02ee9fe726369912a9eafc2d2cbf71f49c46368594243d01810bd724eb1a7aaf",
+      "source": "integration/natural-world/pond-decision-review/README.md"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/REPORT.md",
+      "bytes": 4201,
+      "sha256": "df453411f8c359c63477fe3e4fdadd61c3fecbfb16467a03c7b7a0c0a6e4431b",
+      "source": "integration/natural-world/pond-decision-review/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/browser-check.cjs",
+      "bytes": 9676,
+      "sha256": "7e0a5f2c332ec0586c7bd03692a63cb450eeb5ce3ee09727d3281e700eca7ff5",
+      "source": "integration/natural-world/pond-decision-review/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/build.cjs",
+      "bytes": 9210,
+      "sha256": "5f4fbb3e5309a76d5aac1f19c81d4bbf7b33c8cd606ddbc4b9f0e4885387d073",
+      "source": "integration/natural-world/pond-decision-review/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/connection-browser.cjs",
+      "bytes": 9553,
+      "sha256": "6ce8bbdba14366276fa63f2879519eacc4d4a7dba45678abd874ffea404a53d5",
+      "source": "integration/natural-world/pond-decision-review/connection-browser.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/core.js",
+      "bytes": 2392,
+      "sha256": "dc7c6a3fd036238611c72d77b6dbea8093e0699747aeeb861f2dbff9250b85c2",
+      "source": "integration/natural-world/pond-decision-review/core.js"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/output/checks.json",
+      "bytes": 370,
+      "sha256": "b19f1df82261a08f7102847029306365afef59efc207f54570a77fea3557caa9",
+      "source": "integration/natural-world/pond-decision-review/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/output/project-status.json",
+      "bytes": 3073,
+      "sha256": "f20e0180ad7c596bff8c7741c82cbb5f644d4c68d60b790bae3fbcf1c41697cc",
+      "source": "integration/natural-world/pond-decision-review/output/project-status.json"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/output/register.json",
+      "bytes": 70866,
+      "sha256": "59e347639b0be686d9751c28ebdfc2514985215084c24e2f3ac452f26cd44738",
+      "source": "integration/natural-world/pond-decision-review/output/register.json"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/output/summary.json",
+      "bytes": 2495,
+      "sha256": "db4580c11ce0bc50fdd99d6e2904a238bf6a5a0bba8610c2467e94c92c39465e",
+      "source": "integration/natural-world/pond-decision-review/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/style.css",
+      "bytes": 1258,
+      "sha256": "b0b68260a096c11fc88a284d4d3a822107e4ee6f120801a27a4e9a11b57aa80e",
+      "source": "integration/natural-world/pond-decision-review/style.css"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/test.cjs",
+      "bytes": 5219,
+      "sha256": "f88a7ab482e100b7c59372aa5d0b01b0cc90b4cb775912054b4b4f48e47ec998",
+      "source": "integration/natural-world/pond-decision-review/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/pond-decision-review/ui.js",
+      "bytes": 3385,
+      "sha256": "3fbac048a0ec0081e27d621c0a373c8254c84af9a94a95cb37a9cf472190ffca",
+      "source": "integration/natural-world/pond-decision-review/ui.js"
     },
     {
       "path": "integration/natural-world/pond-surface-review/README.md",
@@ -690,14 +768,14 @@
     },
     {
       "path": "integration/natural-world/pond-thermal-review/PROJECT_STATUS.md",
-      "bytes": 4134,
-      "sha256": "3568fa8b2707e8e59af89e267ccf5634a03a4a186c1942d1fdb14ed0ad26678d",
+      "bytes": 4362,
+      "sha256": "21661b06ac08dfcc6dfbb1d0b9697e642be101730f4a674abff7cd6e0bb9c5a1",
       "source": "integration/natural-world/pond-thermal-review/PROJECT_STATUS.md"
     },
     {
       "path": "integration/natural-world/pond-thermal-review/README.md",
-      "bytes": 1867,
-      "sha256": "e56a972b99272dada4e94f7431da435e6c99d8624e45f25ff098ecb809d8d781",
+      "bytes": 2095,
+      "sha256": "1cf843d5ae1629619cba9be922d298cdc680a08002faf853fb316473bac60f8d",
       "source": "integration/natural-world/pond-thermal-review/README.md"
     },
     {
@@ -750,8 +828,8 @@
     },
     {
       "path": "integration/natural-world/pond-thermal-review/status.html",
-      "bytes": 4160,
-      "sha256": "fd3a02c01935b133c7466deee52a3042d67494337c383c6190b5cb0f4e96f003",
+      "bytes": 5114,
+      "sha256": "1ff31bdae41699543fae2295da1f56e21bbad39ead9401ab66373c206ea04ca8",
       "source": "integration/natural-world/pond-thermal-review/status.html"
     },
     {
@@ -1224,8 +1302,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/app.js",
-      "bytes": 18860,
-      "sha256": "dc1a30422e8a529b9b8e5cca87744f6f8d48571dc334b0b019d1511f67b44d2b",
+      "bytes": 19006,
+      "sha256": "7019b2db0f80cce6f20cf4f52821313f7f43adb9ef9acd2437225e6f0ae98987",
       "source": "integration/natural-world/unified-atlas/app.js"
     },
     {
@@ -1236,8 +1314,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/index.html",
-      "bytes": 5686,
-      "sha256": "ea71347ec51a305acb300c525b42db1d85432b70f09fb6ca2b84cdf873d2ea1f",
+      "bytes": 5905,
+      "sha256": "ff1e7e11f38744b73f6a0bd6ff0acddf8d1ddf55baa68d69985cbd5022b5fb9f",
       "source": "integration/natural-world/unified-atlas/index.html"
     },
     {
@@ -1562,6 +1640,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "pond-thermal-review-16",
-  "previousPublicationCommit": "06aead72ed96f537e870ec7482c457a119995169"
+  "latestFollowup": "pond-decision-review-17",
+  "previousPublicationCommit": "ca0eb80a8e98146b706d447168be458366b666e5"
 }
