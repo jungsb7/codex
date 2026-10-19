@@ -1,0 +1,294 @@
+{
+  "schema": "pond-surface-review/1",
+  "status": "conditional-review-complete",
+  "pond": "P237734",
+  "sourceCells": 286,
+  "sourcePeriods": 3432,
+  "footprintCells": 74,
+  "branches": [
+    {
+      "branch": "legacy-6",
+      "cells": 189,
+      "annual": {
+        "precipitationM3": 10390741267.970789,
+        "evaporationM3": 7918989533.046856,
+        "runoffM3": 2471751708.9832115,
+        "snowChangeM3": -3.5762786865234375e-7,
+        "nonSnowChangeM3": 25.940720290876925,
+        "snowfallM3": 2917775629.9930873,
+        "meltM3": 2917775629.9930873,
+        "sublimationM3": 0,
+        "storedRunoffM3": 2471751710.183963,
+        "storageChangeM3": 25.940719933249056,
+        "residualM3": 0.000001578591763973236,
+        "runoffRoundingM3": -1.2007513046264648
+      }
+    },
+    {
+      "branch": "northern-60",
+      "cells": 97,
+      "annual": {
+        "precipitationM3": 275019934682.774,
+        "evaporationM3": 21588558767.832005,
+        "runoffM3": 216328061998.06757,
+        "snowChangeM3": 37103313916.87436,
+        "nonSnowChangeM3": 0.000001430511474609375,
+        "snowfallM3": 79213475992.33229,
+        "meltM3": 40697280534.12249,
+        "sublimationM3": 1412881541.335363,
+        "storedRunoffM3": 216328062139.94998,
+        "storageChangeM3": 37103313916.87436,
+        "residualM3": 0.00006103515625,
+        "runoffRoundingM3": -141.88241577148438
+      }
+    }
+  ],
+  "snowAccumulatingCells": 21,
+  "snowAccumulatingFootprintCells": 0,
+  "annual": {
+    "precipitationM3": 285410675950.7448,
+    "evaporationM3": 29507548300.878864,
+    "runoffM3": 218799813707.0508,
+    "snowChangeM3": 37103313916.87436,
+    "nonSnowChangeM3": 25.940719842910767,
+    "snowfallM3": 82131251622.32538,
+    "meltM3": 43615056164.11558,
+    "sublimationM3": 1412881541.335363,
+    "storedRunoffM3": 218799813850.1339,
+    "storageChangeM3": 37103313942.81508,
+    "residualM3": 0.0000457763671875,
+    "runoffRoundingM3": -143.08309936523438
+  },
+  "firstConnection": {
+    "neighborPond": 231591,
+    "saddleM": 260.2316589355469,
+    "cellA": 234661,
+    "cellB": 236198
+  },
+  "firstConnectionLimit": {
+    "schema": "pond-surface-review-point/1",
+    "pond": "P237734",
+    "basin": "D193196",
+    "selection": {
+      "level": 260.2316589355469,
+      "period": 0,
+      "evap": null,
+      "cell": 237734
+    },
+    "status": "conditional-comparison-not-adopted",
+    "geometry": {
+      "levelM": 260.2316589355469,
+      "wetCells": [
+        237733,
+        237734,
+        237735,
+        237736,
+        239270
+      ],
+      "areaKm2": 2008.4330144886928,
+      "capacityM3": 5987985868.928645,
+      "touchesNeighbor": true,
+      "neighborPond": 231591
+    },
+    "baseline": {
+      "precipitationM3": 285410675950.7448,
+      "evaporationM3": 29507548300.878864,
+      "runoffM3": 218799813707.0508,
+      "snowChangeM3": 37103313916.87436,
+      "nonSnowChangeM3": 25.940719842910767,
+      "snowfallM3": 82131251622.32538,
+      "meltM3": 43615056164.11558,
+      "sublimationM3": 1412881541.335363,
+      "storedRunoffM3": 218799813850.1339,
+      "storageChangeM3": 37103313942.81508,
+      "residualM3": 0.0000457763671875,
+      "runoffRoundingM3": -143.08309936523438
+    },
+    "removedLand": {
+      "precipitationM3": 176675970.3194431,
+      "evaporationM3": 158136805.80746692,
+      "runoffM3": 18539164.236062806,
+      "snowChangeM3": 7.450580596923828e-9,
+      "nonSnowChangeM3": 0.2759133679646766,
+      "snowfallM3": 60141868.827910945,
+      "meltM3": 60141868.82791094,
+      "sublimationM3": 0,
+      "storedRunoffM3": 18539164.24573213,
+      "storageChangeM3": 0.2759133754152572,
+      "residualM3": 9.458744898438454e-10,
+      "runoffRoundingM3": -0.009669322520494461
+    },
+    "retainedLand": {
+      "precipitationM3": 285233999980.42535,
+      "evaporationM3": 29349411495.07139,
+      "runoffM3": 218781274542.81476,
+      "snowChangeM3": 37103313916.87435,
+      "nonSnowChangeM3": 25.664818048477173,
+      "snowfallM3": 82071109753.49747,
+      "meltM3": 43554914295.287674,
+      "sublimationM3": 1412881541.335363,
+      "storedRunoffM3": 218781274685.88818,
+      "storageChangeM3": 37103313942.53917,
+      "residualM3": 0.0000457763671875,
+      "runoffRoundingM3": -143.07342529296875
+    },
+    "point": {
+      "cell": 237734,
+      "location": [
+        99.0234375,
+        53.7890625
+      ],
+      "elevationM": 254.841796875,
+      "areaKm2": 401.2389408518174,
+      "pond": 237734,
+      "entryCell": 237734,
+      "insideDepression": true,
+      "nextCell": -1,
+      "branch": "legacy-6",
+      "flags": 16,
+      "wet": true,
+      "budget": {
+        "precipitationM3": 35312927.758785404,
+        "evaporationM3": 31593119.966670945,
+        "runoffM3": 3719807.7367535695,
+        "snowChangeM3": 1.3969838619232178e-9,
+        "nonSnowChangeM3": 0.055360892751195934,
+        "snowfallM3": 12072550.617464224,
+        "meltM3": 12072550.617464222,
+        "sublimationM3": 0,
+        "storedRunoffM3": 3719807.589797303,
+        "storageChangeM3": 0.055360894148179796,
+        "residualM3": -4.6202330850064754e-9,
+        "runoffRoundingM3": 0.14695626636967063
+      },
+      "temperatureC": [
+        -1.4972583648162545,
+        9.054099556765912,
+        19.454733057140082,
+        26.519553096786375,
+        27.62210581715376,
+        22.409677071223676,
+        12.916754249812264,
+        2.155314498175947,
+        -6.908370963834706,
+        -12.243977780512843,
+        -13.15525680956339,
+        -9.45508704740437
+      ],
+      "sourceYear": 6
+    },
+    "surface": {
+      "directPrecipitationM3": 176675970.3194431,
+      "rainReferenceM3": 116534101.49153216,
+      "snowfallReferenceM3": 60141868.827910945,
+      "meltReferenceM3": 60141868.82791094,
+      "sublimationReferenceM3": 0,
+      "snowChangeReferenceM3": 7.450580596923828e-9,
+      "liquidSupplyReferenceM3": 218957950513.13422,
+      "assumedEvaporationM3": null,
+      "unresolvedBalanceReferenceM3": null,
+      "evaporationOnlyBalanceDepthMm": 109019.29461106601,
+      "landReplacementIdentityResidualM3": 0.000030517578125
+    },
+    "actual": {
+      "waterLevelM": null,
+      "waterAreaKm2": null,
+      "storageM3": null,
+      "evaporationM3": null,
+      "snowChangeM3": null,
+      "iceChangeM3": null,
+      "iceThicknessM": null,
+      "groundwaterExchangeM3": null,
+      "neighborOverflowM3": null,
+      "downstreamD191657M3": null
+    },
+    "automaticAdoption": false,
+    "assumptions": {
+      "level": "Fixed, connected positive-depth native columns up to the first saddle; capacity is geometric only.",
+      "snow": "Arithmetic reference reuses original local land snowfall, melt and sublimation. It is not a water/ice model or an initial snow inventory.",
+      "evaporation": "Unknown; no evaporation comparison chosen.",
+      "balance": "Liquid supply minus assumed evaporation is shared by unknown liquid/ice storage change, groundwater exchange and outflow. None of those terms is assumed zero.",
+      "calendar": "Original legacy cycle 6 and northern cycle 60; not the same physical year. No added travel delay or annual storage reset.",
+      "routing": "Retained source runoff counted once; submerged land runoff/ET/non-snow stores removed. Neighbor inflow and other conditional basin releases excluded."
+    },
+    "provenance": {
+      "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+      "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+      "inputs": {
+        "catchment-budget/output/atlas.json.gz": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+        "catchment-budget/output/topology.json": "3651e46d0015b290d4f9120f5ecec9da23c6979569b3058744ac0d2d9c9a519a",
+        "catchment-budget/core.js": "3c9b606548231dd170d1e6d86b1a8714098db38eeed142b84cc728cbace6beb5",
+        "retention-priority/analysis.cjs": "9c47119ded0d1a67eb18626485b72d6d10e8e9e30e4ccf0749205ba5d3518b43"
+      },
+      "code": {
+        "pond-surface-review/core.js": "3582241865f0116d30c8a19b4e7935ef42be40b95dcba954a7d6ba5e4f30f5eb",
+        "pond-surface-review/build.cjs": "496c64b677d45f5be7653853ffa946d3b2f7d1a52c8984baa1c00a30e9d36cbe"
+      }
+    }
+  },
+  "evaporation2000MmReference": {
+    "directPrecipitationM3": 176675970.3194431,
+    "rainReferenceM3": 116534101.49153216,
+    "snowfallReferenceM3": 60141868.827910945,
+    "meltReferenceM3": 60141868.82791094,
+    "sublimationReferenceM3": 0,
+    "snowChangeReferenceM3": 7.450580596923828e-9,
+    "liquidSupplyReferenceM3": 218957950513.13422,
+    "assumedEvaporationM3": 4016866028.9773855,
+    "unresolvedBalanceReferenceM3": 214941084484.15683,
+    "evaporationOnlyBalanceDepthMm": 109019.29461106601,
+    "landReplacementIdentityResidualM3": 0.000030517578125
+  },
+  "actual": {
+    "waterLevelM": null,
+    "waterAreaKm2": null,
+    "storageM3": null,
+    "evaporationM3": null,
+    "snowChangeM3": null,
+    "iceChangeM3": null,
+    "iceThicknessM": null,
+    "groundwaterExchangeM3": null,
+    "neighborOverflowM3": null,
+    "downstreamD191657M3": null
+  },
+  "checks": [
+    {
+      "id": "exact-source-subset",
+      "passed": true
+    },
+    {
+      "id": "source-budget-closed",
+      "passed": true
+    },
+    {
+      "id": "all-footprint-columns-connected",
+      "passed": true
+    },
+    {
+      "id": "no-inundation-at-dry-minimum",
+      "passed": true
+    },
+    {
+      "id": "first-saddle-positive-depth-domain",
+      "passed": true
+    },
+    {
+      "id": "all-actual-water-values-remain-null",
+      "passed": true
+    }
+  ],
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "catchment-budget/output/atlas.json.gz": "0418c5b8829ef1c7ab09de693191ac6378dc91d81720909b11f4a83bbdf453d2",
+      "catchment-budget/output/topology.json": "3651e46d0015b290d4f9120f5ecec9da23c6979569b3058744ac0d2d9c9a519a",
+      "catchment-budget/core.js": "3c9b606548231dd170d1e6d86b1a8714098db38eeed142b84cc728cbace6beb5",
+      "retention-priority/analysis.cjs": "9c47119ded0d1a67eb18626485b72d6d10e8e9e30e4ccf0749205ba5d3518b43"
+    },
+    "code": {
+      "pond-surface-review/core.js": "3582241865f0116d30c8a19b4e7935ef42be40b95dcba954a7d6ba5e4f30f5eb",
+      "pond-surface-review/build.cjs": "496c64b677d45f5be7653853ffa946d3b2f7d1a52c8984baa1c00a30e9d36cbe"
+    }
+  }
+}
