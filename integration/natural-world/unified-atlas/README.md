@@ -1,3 +1,9 @@
+# 최신 추가: 수계 검증 보기
+
+일곱 번째 보기 **수계 검증**에서 선택 좌표의 하류 후보, 종착점별 집수 경계, 미확정 함몰부를 확인할 수 있습니다. [수계 검사 보고서](../hydrology-audit/REPORT.md)와 [사용 안내](../hydrology-audit/README.md)를 참조하세요. 기존 지도 자료와 기후·경제·후보 채택은 유지했습니다.
+
+이하 내용은 여섯 보기 통합 당시의 기록입니다.
+
 # 전 대륙 통합 자연지도 — 후속9
 
 [지도](index.html) · [화면 미리보기](validation/world.png) · [보고서](REPORT.md) · [자료 집계](output/summary.json) · [검증](validation/final-checks.json)
@@ -23,7 +29,7 @@ python -m http.server 8080
 
 좌표가 해당 범위에 있을 때 서부 사막·고온 PET·국지 수면 검토 링크가 활성화됩니다. 범위 밖 링크는 이유와 함께 비활성화합니다. 전 대륙 검토·기존 자연 지도에도 같은 좌표를 전달합니다.
 
-지도 데이터는 약9.9MB gzip이며 처음에 일괄 로드합니다. `index.html`, `app.js`, `render.js`, `core.js`, `style.css`, `output/atlas.json.gz`와 상위 `../core.js`, `../stage5/codec.js`가 필요합니다. 별도 CDN·폰트·외부 타일을 사용하지 않습니다. [GitHub Pages에서 열기](https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html). 왕국·제국 지도와 같은 격자로 이동할 수 있습니다.
+지도 데이터는 약9.9MB gzip이며 처음에 일괄 로드합니다. `index.html`, `app.js`, `render.js`, `core.js`, `style.css`, `output/atlas.json.gz`와 상위 `../core.js`, `../stage5/codec.js`가 필요합니다. 별도 CDN·폰트·외부 타일을 사용하지 않습니다. 원격 배포는 수행하지 않았습니다.
 
 ## 재현
 

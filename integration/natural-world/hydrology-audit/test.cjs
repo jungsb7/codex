@@ -1,0 +1,23 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),zlib=require('node:zlib'),crypto=require('node:crypto');
+const {inspectGraph,inspectReaches}=require('./audit.cjs'),H=require('./core.js'),{load}=require('../unified-atlas/query.cjs'),C=require('../core.js');
+function fixture(){const n=24,canonical=Int32Array.from({length:n},(_,i)=>i),receiver=new Int32Array(n).fill(-1),entry=receiver.slice(),terminal=receiver.slice(),land=new Uint8Array(n),lake=new Uint8Array(n),heights=new Float32Array(n),cells=[8,9,10,16,17,18];canonical[18]=17;for(const i of cells)land[i]=1;for(const [i,j,z]of [[8,9,30],[9,10,20],[10,11,10],[16,17,15]]){receiver[i]=entry[i]=j;heights[i]=z;}heights[17]=heights[18]=5;for(const i of [8,9,10,11])terminal[i]=11;terminal[16]=terminal[17]=17;return {w:8,h:3,cells,nodes:[8,9,10,11,16,17],land,lake,heights,canonical,receiver,entry,terminal,depressions:[{node:17}],lakeNode:-1,lakeOutlet:-1};}
+test('independent graph accepts a valid confluence and held boundary',()=>assert.equal(inspectGraph(fixture()).issueCount,0));
+for(const [name,edit,key]of [
+ ['cycle',g=>{g.receiver[9]=g.entry[9]=8;},'cycleAffected'],
+ ['nonadjacent jump',g=>{g.receiver[8]=g.entry[8]=10;},'nonAdjacent'],
+ ['uphill edge',g=>{g.heights[9]=40;},'uphill'],
+ ['inactive receiver',g=>{g.receiver[8]=5;},'receiver'],
+ ['incorrect collapse',g=>{g.canonical[18]=20;},'canonical'],
+ ['wrong entry cell',g=>{g.entry[8]=16;},'entryMapping'],
+ ['stale terminal',g=>{g.terminal[8]=17;},'terminalMismatch'],
+ ['forced depression outlet',g=>{g.receiver[17]=g.entry[17]=10;},'unresolvedBoundaryRouted']
+])test('detects '+name,()=>{const g=fixture();edit(g);assert.ok(inspectGraph(g).issues[key]?.length);});
+test('reach graph detects a stale join and asymmetric upstream list',()=>{const g=fixture(),field=new Int32Array(24).fill(-1),channel=new Uint8Array(24);for(const i of [8,9,10]){field[i]=0;channel[i]=1;}const r={id:0,start:8,end:10,nextNode:11,downstreamReach:null,upstreamReaches:[],endpointNode:11,coordinates:[8,9,10,11].map(i=>C.ll(8,3,i))};assert.equal(inspectReaches(g,[r],field,channel,i=>C.ll(8,3,i)).issueCount,0);r.downstreamReach=44;r.upstreamReaches=[99];const result=inspectReaches(g,[r],field,channel,i=>C.ll(8,3,i));assert.ok(result.issues.reachJoin);assert.ok(result.issues.upstreamReciprocity);});
+H.install(require('../unified-atlas/core.js'));
+const m=load(),data=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(__dirname,'output/atlas.json.gz')))),h=H.create(data,m);
+test('all nine audit groups pass with complete all-continent accounting',()=>{assert.equal(data.summary.checks.length,9);assert.ok(data.summary.checks.every(c=>c.passed));assert.equal(data.summary.regions.length,11);assert.equal(data.summary.regions.reduce((s,r)=>s+r.cells,0),268857);assert.equal(data.summary.regions.reduce((s,r)=>s+r.unresolvedCells,0),168576);assert.equal(data.terminals.filter(t=>t.kind==='unresolved').length,1184);});
+test('runtime audit is bound to exact unchanged scientific inputs',()=>{for(const [p,sha]of Object.entries(data.provenance.inputs))assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.resolve(__dirname,'..',p))).digest('hex'),sha);assert.throws(()=>H.create({...data,provenance:{...data.provenance,worldHash:'wrong'}},m));});
+test('every terrestrial query reaches its recorded boundary without cycles or invented allocation',()=>{for(const cell of m.a.cells){const q=h.query(cell);assert.ok(q.endpoint);assert.equal(q.path.at(-1),q.endpoint.node);assert.equal(q.unresolvedAllocation,null);assert.equal(q.actualChannelGeometry,null);}});
+test('collapsed interiors never draw a chord to the representative',()=>{for(const id of ['D126467','D147845','D144758']){const t=data.terminals.find(t=>t.id===id),q=h.query(t.node);assert.equal(q.status,'unresolved-interior');assert.equal(q.segments.length,0);assert.equal(q.internalPathKnown,false);assert.equal(q.endpoint.allocation,null);}const q=h.query(data.lake.node);assert.ok(q.passesLake);assert.ok(q.segments.length>0);assert.ok(q.segments.every(segment=>JSON.stringify(segment[0])!==JSON.stringify(C.ll(data.width,data.height,data.lake.node))));});
+test('original-only mode hides audit coloring and preserves existing query evidence',()=>{m.hydrology=h;const U=require('../unified-atlas/core.js'),s={...U.DEFAULT,mode:'drainage',candidates:false};for(let j=0;j<m.d.count;j+=101)assert.deepEqual(U.pixel(m,j,s),U.pixel(m,j,{...s,mode:'nature'}));const ocean=C.cell(data.width,data.height,179,0);assert.equal(h.query(ocean).status,'ocean');assert.throws(()=>h.query(-1));assert.equal(U.readState('#mode=drainage',m.d).mode,'drainage');});

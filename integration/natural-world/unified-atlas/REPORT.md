@@ -1,6 +1,12 @@
+# 최신 추가: 수계 검증 보기
+
+일곱 번째 보기 **수계 검증**에서 선택 좌표의 하류 후보, 종착점별 집수 경계, 미확정 함몰부를 확인할 수 있습니다. [수계 검사 보고서](../hydrology-audit/REPORT.md)와 [사용 안내](../hydrology-audit/README.md)를 참조하세요. 기존 지도 자료와 기후·경제·후보 채택은 유지했습니다.
+
+이하 내용은 여섯 보기 통합 당시의 기록입니다.
+
 # 전 대륙 통합 자연지도 — 후속9
 
-[지도](index.html) · [실행 안내](README.md) · [전 대륙 화면](validation/world.png) · 모바일 (전체 인계 패키지: `validation/mobile-map.png`)
+[지도](index.html) · [실행 안내](README.md) · [전 대륙 화면](validation/world.png) · [모바일](validation/mobile-map.png)
 
 **지형·식생·물길·습지·화산대와 검토 결과를 한 화면으로 통합했습니다.** 기존 세계 설정·계산 후보·보류를 구분하며, 원본 기후·자연물·경제는 변경하지 않았습니다. 검토를 마친 결과를 찾아 여러 화면을 오가던 동선을 줄이는 표시 작업입니다.
 
@@ -51,7 +57,7 @@
 
 8개 빌드 검산·12개 자료/조회 검사·12개 브라우저 검사, 합계32개를 통과했습니다. 원본 압축 필드·세계해시·출처 해시,호수/해양/null, 후보 숨김, 식생 보류 기호 억제, 축척별 물길, 좌표 링크 적용 범위,6,850격자 국지 제한을 검사했습니다.
 
-브라우저에서는6보기, 레이어 토글, 기존 설정만 보기, 원본 격자, 좌표 JSON, 같은 셀의 서부 사막·고온 PET·국지 수면 실제 페이지, URL/뒤로 가기, 모바일과 두 손가락 확대를 확인했습니다. [세계](validation/world.png) · 권역 (전체 인계 패키지: `validation/region.png`) · 습지 (전체 인계 패키지: `validation/wetland.png`) · 지질 (전체 인계 패키지: `validation/geology.png`) · 기존 설정만 (전체 인계 패키지: `validation/original-only.png`).
+브라우저에서는6보기, 레이어 토글, 기존 설정만 보기, 원본 격자, 좌표 JSON, 같은 셀의 서부 사막·고온 PET·국지 수면 실제 페이지, URL/뒤로 가기, 모바일과 두 손가락 확대를 확인했습니다. [세계](validation/world.png) · [권역](validation/region.png) · [습지](validation/wetland.png) · [지질](validation/geology.png) · [기존 설정만](validation/original-only.png).
 
 원본1,663파일과 이전 통합629파일을 해시로 대조합니다. 최신 기록을 위한7개 공유 문서/상태 이외 이전 파일은 보존합니다. 이전 자연지도·전역 검토지도·서부 사막·고온 PET·국지 수면 화면은 그대로 유지합니다. [보존 검사](validation/final-checks.json). 이번 단계는 로컬 표시 통합이며 원격 배포는 없습니다.
 

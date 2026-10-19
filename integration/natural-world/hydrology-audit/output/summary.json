@@ -1,0 +1,294 @@
+{
+  "schema": "world-hydrology-audit/1",
+  "status": "passed-with-unresolved-boundaries",
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "stage3/inputs/hydrology.json": "59ec33f53b014d6da7ed2e4353a4b2c86d3dff8078ace78bda524adfdb7fe5a8",
+      "stage3/output/flow-ledger.bin": "0918b45f5556e3c0caf34646fbc7ccfab4789db908031c393d0c7e0ab4da8b9c",
+      "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4"
+    },
+    "code": {
+      "hydrology-audit/audit.cjs": "86bec910627f4f0c8f07925cf212cb72e43174fd4f66643021096dc42db59cc9",
+      "hydrology-audit/build.cjs": "3b9f55e520a83fc5a10e8cea5efa911af34d1cc7fc2c6fb120ae1b14c8dca4bc"
+    }
+  },
+  "terrestrialCells": 268857,
+  "nodeCount": 245879,
+  "reaches": 45824,
+  "unresolvedReaches": 23022,
+  "depressions": 1184,
+  "depressionCells": 28858,
+  "originalLakeCells": 209,
+  "lakeInletReaches": [
+    25563,
+    27173
+  ],
+  "lakeOutletReach": 27684,
+  "graphIssues": 0,
+  "reachIssues": 0,
+  "dividePairs": 78253,
+  "regions": [
+    {
+      "id": 1,
+      "name": "북부 설원권",
+      "cells": 28295,
+      "oceanCells": 12674,
+      "unresolvedCells": 15621,
+      "collapsedCells": 3763,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 2,
+      "name": "북방 내륙·대초원권",
+      "cells": 60150,
+      "oceanCells": 5254,
+      "unresolvedCells": 54896,
+      "collapsedCells": 12629,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 3,
+      "name": "서부 사막권",
+      "cells": 7409,
+      "oceanCells": 3376,
+      "unresolvedCells": 4033,
+      "collapsedCells": 121,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 4,
+      "name": "서대륙 중남부",
+      "cells": 14622,
+      "oceanCells": 8303,
+      "unresolvedCells": 6319,
+      "collapsedCells": 376,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 5,
+      "name": "북방 수원 산지",
+      "cells": 9797,
+      "oceanCells": 3357,
+      "unresolvedCells": 6440,
+      "collapsedCells": 176,
+      "passesLakeCells": 2200
+    },
+    {
+      "id": 6,
+      "name": "제국 분지·대호수",
+      "cells": 1573,
+      "oceanCells": 1488,
+      "unresolvedCells": 85,
+      "collapsedCells": 7,
+      "passesLakeCells": 1292
+    },
+    {
+      "id": 7,
+      "name": "동대륙 내륙·연안",
+      "cells": 49868,
+      "oceanCells": 16079,
+      "unresolvedCells": 33789,
+      "collapsedCells": 5641,
+      "passesLakeCells": 38
+    },
+    {
+      "id": 8,
+      "name": "남동 연결부",
+      "cells": 4133,
+      "oceanCells": 2712,
+      "unresolvedCells": 1421,
+      "collapsedCells": 102,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 9,
+      "name": "남동대륙",
+      "cells": 42581,
+      "oceanCells": 22027,
+      "unresolvedCells": 20554,
+      "collapsedCells": 2085,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 10,
+      "name": "남서대륙",
+      "cells": 47787,
+      "oceanCells": 22369,
+      "unresolvedCells": 25418,
+      "collapsedCells": 3958,
+      "passesLakeCells": 0
+    },
+    {
+      "id": 11,
+      "name": "섬·분리 육지",
+      "cells": 2642,
+      "oceanCells": 2642,
+      "unresolvedCells": 0,
+      "collapsedCells": 0,
+      "passesLakeCells": 0
+    }
+  ],
+  "checks": [
+    {
+      "id": "all-cells-covered",
+      "passed": true
+    },
+    {
+      "id": "acyclic-adjacent-downhill-graph",
+      "passed": true,
+      "issues": {}
+    },
+    {
+      "id": "reach-joins-and-exact-geometry",
+      "passed": true,
+      "issues": {}
+    },
+    {
+      "id": "terminal-catchment-boundaries",
+      "passed": true,
+      "examinedPairs": 78253
+    },
+    {
+      "id": "catchment-area-conservation",
+      "passed": true,
+      "maxRelativeError": 5.939147553167907e-8
+    },
+    {
+      "id": "all-node-seasonal-flow-reconstruction",
+      "passed": true,
+      "maxRelativeError": 0,
+      "maxAbsoluteErrorM3s": 0,
+      "samples": 2950548
+    },
+    {
+      "id": "lake-inflow-release-loss-and-boundary-accounts",
+      "passed": true
+    },
+    {
+      "id": "unresolved-allocations-still-null",
+      "passed": true
+    },
+    {
+      "id": "existing-trunk-destinations",
+      "passed": true
+    }
+  ],
+  "periods": [
+    {
+      "period": 1,
+      "lakeInflowRelativeError": 8.688113031857352e-9,
+      "oceanRelativeError": 1.2492161199445153e-16,
+      "unresolvedRelativeError": 1.917299720813602e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 977175290576.7966,
+      "unresolvedBoundaryTransferM3": 636678299041.3188
+    },
+    {
+      "period": 2,
+      "lakeInflowRelativeError": 1.7188833237229082e-8,
+      "oceanRelativeError": 1.0867493161003127e-15,
+      "unresolvedRelativeError": 6.647242059235997e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 1123261001332.2742,
+      "unresolvedBoundaryTransferM3": 1101843243367.8828
+    },
+    {
+      "period": 3,
+      "lakeInflowRelativeError": 2.0577178121367913e-8,
+      "oceanRelativeError": 1.1486434855215345e-16,
+      "unresolvedRelativeError": 3.9582289438440447e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 1062734556358.6664,
+      "unresolvedBoundaryTransferM3": 925188872840.5718
+    },
+    {
+      "period": 4,
+      "lakeInflowRelativeError": 7.3841198865983e-9,
+      "oceanRelativeError": 3.92419625767688e-16,
+      "unresolvedRelativeError": 0,
+      "lossRelativeError": 0,
+      "oceanExportM3": 933212595531.0824,
+      "unresolvedBoundaryTransferM3": 559379142528.2157
+    },
+    {
+      "period": 5,
+      "lakeInflowRelativeError": 1.5627112340079252e-9,
+      "oceanRelativeError": 2.7845480150807515e-16,
+      "unresolvedRelativeError": 5.198140436350283e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 876769312928.9424,
+      "unresolvedBoundaryTransferM3": 469669159557.0201
+    },
+    {
+      "period": 6,
+      "lakeInflowRelativeError": 2.9351167455748677e-8,
+      "oceanRelativeError": 3.7797265423865434e-16,
+      "unresolvedRelativeError": 3.96929077099561e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 968882096080.8767,
+      "unresolvedBoundaryTransferM3": 461305254046.8632
+    },
+    {
+      "period": 7,
+      "lakeInflowRelativeError": 2.841021458735555e-8,
+      "oceanRelativeError": 0,
+      "unresolvedRelativeError": 1.437583206657334e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 1077842518147.7635,
+      "unresolvedBoundaryTransferM3": 424567816091.2776
+    },
+    {
+      "period": 8,
+      "lakeInflowRelativeError": 1.7139120655310382e-8,
+      "oceanRelativeError": 0,
+      "unresolvedRelativeError": 1.9154647181758884e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 1002898962033.5052,
+      "unresolvedBoundaryTransferM3": 318644116338.1189
+    },
+    {
+      "period": 9,
+      "lakeInflowRelativeError": 7.874491477349827e-9,
+      "oceanRelativeError": 2.8627080986788426e-16,
+      "unresolvedRelativeError": 1.266393437243426e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 852831013796.5952,
+      "unresolvedBoundaryTransferM3": 240980229583.5328
+    },
+    {
+      "period": 10,
+      "lakeInflowRelativeError": 2.486764763652814e-9,
+      "oceanRelativeError": 1.6427028534105667e-16,
+      "unresolvedRelativeError": 1.5663031502380142e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 743106473861.4081,
+      "unresolvedBoundaryTransferM3": 194838260526.78613
+    },
+    {
+      "period": 11,
+      "lakeInflowRelativeError": 7.00346369808568e-9,
+      "oceanRelativeError": 3.3515057435652126e-16,
+      "unresolvedRelativeError": 1.5560926367415015e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 728450564253.8204,
+      "unresolvedBoundaryTransferM3": 196116718275.23456
+    },
+    {
+      "period": 12,
+      "lakeInflowRelativeError": 2.0295286008946884e-8,
+      "oceanRelativeError": 3.0348272468585217e-16,
+      "unresolvedRelativeError": 4.746288758282607e-16,
+      "lossRelativeError": 0,
+      "oceanExportM3": 804463006099.3435,
+      "unresolvedBoundaryTransferM3": 257191078581.0886
+    }
+  ],
+  "automaticAdoption": false,
+  "terrainChanged": false,
+  "climateChanged": false,
+  "meaning": "Checks certify internal consistency of the existing candidate graph, not real channels, true divides or resolved depression storage."
+}
