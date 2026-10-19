@@ -515,6 +515,84 @@
       "source": "integration/natural-world/retention-chain/validation/final-checks.json"
     },
     {
+      "path": "integration/natural-world/retention-priority/README.md",
+      "bytes": 2785,
+      "sha256": "f3af1912efa3ee2188328ceff1a7c96fd42e78612f8e573f83b577551e073b4b",
+      "source": "integration/natural-world/retention-priority/README.md"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/REPORT.md",
+      "bytes": 6552,
+      "sha256": "89209a56a50d96ddf0c555f5aa1eb1e5d0ea73e42f4d2629405085962c15d6bc",
+      "source": "integration/natural-world/retention-priority/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/analysis.cjs",
+      "bytes": 2366,
+      "sha256": "9c47119ded0d1a67eb18626485b72d6d10e8e9e30e4ccf0749205ba5d3518b43",
+      "source": "integration/natural-world/retention-priority/analysis.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/audit-browser.cjs",
+      "bytes": 6153,
+      "sha256": "e7539beee883c19034df0deef046c7f98342dc8f28315f0d96d5bbb44d851b77",
+      "source": "integration/natural-world/retention-priority/audit-browser.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/browser-check.cjs",
+      "bytes": 7597,
+      "sha256": "245c9166c17cae2d3e132546c588255d36eda90203b41c5294a9b170ca3b2e1b",
+      "source": "integration/natural-world/retention-priority/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/build.cjs",
+      "bytes": 10912,
+      "sha256": "df3b0f2080d4452f037f5f1832b74faed2a5b51203b784519b663c9c94dca2a8",
+      "source": "integration/natural-world/retention-priority/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/core.js",
+      "bytes": 3939,
+      "sha256": "840410c3164718219fb328ffcb6def23e8408de561c952d99daeb4c46d134cca",
+      "source": "integration/natural-world/retention-priority/core.js"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/output/atlas.json.gz",
+      "bytes": 439227,
+      "sha256": "e6e722c1b37fbb3aec06a491385ce2cdf6568331c077f1efd3be48c63729e1e5",
+      "source": "integration/natural-world/retention-priority/output/atlas.json.gz"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/output/checks.json",
+      "bytes": 607,
+      "sha256": "a77645a3607d1c9df29df78b8a24aa6394d18e92ab7671f74959970e328d5746",
+      "source": "integration/natural-world/retention-priority/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/output/summary.json",
+      "bytes": 9247,
+      "sha256": "5db0f0904e234695a6b8f402079f5d1d76eab6707b6da6a39cd231cc442e89a0",
+      "source": "integration/natural-world/retention-priority/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/regression-browser.cjs",
+      "bytes": 10667,
+      "sha256": "b9a9e3cb36c244b92bfa45c2f9caed7be4c13165bab04d1d109252a30b1b0420",
+      "source": "integration/natural-world/retention-priority/regression-browser.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/test.cjs",
+      "bytes": 5608,
+      "sha256": "ad93ccfe2f5d4f5fc1323a2e73ce1f69d83d2ae1d10bce587fc77364fcb21b4e",
+      "source": "integration/natural-world/retention-priority/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/retention-priority/ui.js",
+      "bytes": 7525,
+      "sha256": "82e662e17b7740d6a387dad530edd4dbcb95dbff683a93a382f31b8c3dec4734",
+      "source": "integration/natural-world/retention-priority/ui.js"
+    },
+    {
       "path": "integration/natural-world/retention-review/README.md",
       "bytes": 5498,
       "sha256": "a10180c91d18a682645442743c54a8d91958c4d8ed3dcd572a882b9efb4d5546",
@@ -816,20 +894,20 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/README.md",
-      "bytes": 4662,
-      "sha256": "74cbf103b495a4468e0de7c4266f2466cbce9f1bf6eae57727f2c3b40c318cf8",
+      "bytes": 5149,
+      "sha256": "b56bee796ab356b807beb351465f91ba959c76f71fae010b884f1c3952bd15b4",
       "source": "integration/natural-world/unified-atlas/README.md"
     },
     {
       "path": "integration/natural-world/unified-atlas/REPORT.md",
-      "bytes": 8177,
-      "sha256": "87796ccc1015ce31b0f4511bfea12ef3f0fa4dc443c2e2d48edbc59cd0c0b007",
+      "bytes": 8664,
+      "sha256": "e00ed16217198cf9cedfc1bf6e91906518af2c7e7954e8a4dbb58fa9f62c2ba5",
       "source": "integration/natural-world/unified-atlas/REPORT.md"
     },
     {
       "path": "integration/natural-world/unified-atlas/app.js",
-      "bytes": 18390,
-      "sha256": "373490ecf77b2577fff245163be442f57b781ab25fe63715d95c97fc404e6533",
+      "bytes": 18860,
+      "sha256": "dc1a30422e8a529b9b8e5cca87744f6f8d48571dc334b0b019d1511f67b44d2b",
       "source": "integration/natural-world/unified-atlas/app.js"
     },
     {
@@ -840,8 +918,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/index.html",
-      "bytes": 5412,
-      "sha256": "e5f3c3ab761fe38422aea1badfbe2182925a9f743e099f4dd87b000047ea2869",
+      "bytes": 5595,
+      "sha256": "ce18f584f9b4530e91271262983b3e188e1dad67aca1ed45c61410f098d7da8d",
       "source": "integration/natural-world/unified-atlas/index.html"
     },
     {
@@ -870,14 +948,14 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/render.js",
-      "bytes": 9334,
-      "sha256": "e95995a268b94362d4cf1bb6569da36164a86b76a657158a9d9e034e9af1ced4",
+      "bytes": 9383,
+      "sha256": "66db922edfb82953009f6b47ad38f138d2e087844c8f79339324805c721084f5",
       "source": "integration/natural-world/unified-atlas/render.js"
     },
     {
       "path": "integration/natural-world/unified-atlas/style.css",
-      "bytes": 10973,
-      "sha256": "93d1eb2b6bf6df77dbb333635b9e507f59dea454f9887e349e8df425e5a12929",
+      "bytes": 12288,
+      "sha256": "de2f2a9339c4cc3c354ecce9d9f9b17026ccdd81a5973bed06c00101179e36a6",
       "source": "integration/natural-world/unified-atlas/style.css"
     },
     {
@@ -1166,6 +1244,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "world-hydrology-audit-11",
-  "previousPublicationCommit": "f94f359982abe181df46777dbbf2c5405e9b9438"
+  "latestFollowup": "world-retention-priority-12",
+  "previousPublicationCommit": "9a44710b8deed8ec96b60a064c9f3d83fabb0e5a"
 }
