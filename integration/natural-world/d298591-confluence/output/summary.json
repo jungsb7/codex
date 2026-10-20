@@ -1,0 +1,13 @@
+{
+  "schema": "d298591-confluence-summary/1",
+  "counts": {
+    "completed": 5,
+    "stopped": 4,
+    "held-boundary": 1
+  },
+  "presets": 10,
+  "sourceLedgerMaxResidualM3S": 0,
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}
