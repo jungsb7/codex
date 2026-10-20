@@ -1,0 +1,130 @@
+{
+  "schema": "downstream-boundary-summary/1",
+  "status": "screened-and-budget-tested-not-physically-resolved",
+  "provenance": {
+    "baseline": "f939f3f28d1e35ace62cabd7442725d63abd9108",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "retention-priority/output/atlas.json.gz": "e6e722c1b37fbb3aec06a491385ce2cdf6568331c077f1efd3be48c63729e1e5",
+      "hydrology-audit/output/atlas.json.gz": "6c86dfe3e889f7f6dd985d5292c731de7cf05f1e41f0e105d7e851d0c043d699",
+      "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+      "pond-decision-review/output/register.json": "59e347639b0be686d9751c28ebdfc2514985215084c24e2f3ac452f26cd44738"
+    },
+    "code": {
+      "downstream-budget/core.js": "efac56b0ab53f89253651b5883f5a4cb8575cbfac8bcf19da888882268943ad1",
+      "downstream-budget/build.cjs": "d95e9213b06721f7f0a705f51d739b1301208ee81bbc73d8bbe75eee6872ca15"
+    }
+  },
+  "boundaries": 1184,
+  "reaches": 23022,
+  "catchmentCells": 168576,
+  "totalAnnualBoundaryInflowM3": 5786402190777.903,
+  "categories": [
+    {
+      "key": "hot-and-polar",
+      "label": "고온·극지 방법 공백",
+      "boundaries": 0,
+      "reaches": 0,
+      "annualInflowM3": 0
+    },
+    {
+      "key": "hot",
+      "label": "고온 PET 방법 공백",
+      "boundaries": 177,
+      "reaches": 1400,
+      "annualInflowM3": 902019862102.6736
+    },
+    {
+      "key": "polar",
+      "label": "극지 수분 방법 공백",
+      "boundaries": 54,
+      "reaches": 1250,
+      "annualInflowM3": 218023727625.01587
+    },
+    {
+      "key": "coupled",
+      "label": "하류 수위 결합 검토",
+      "boundaries": 2,
+      "reaches": 12,
+      "annualInflowM3": 3925320914.8362656
+    },
+    {
+      "key": "chain",
+      "label": "다음 미정 경계로 연결",
+      "boundaries": 741,
+      "reaches": 15439,
+      "annualInflowM3": 3304156505848.677
+    },
+    {
+      "key": "ocean",
+      "label": "해양 출구 후보 · 물수지 미정",
+      "boundaries": 210,
+      "reaches": 4921,
+      "annualInflowM3": 1358276774286.7097
+    }
+  ],
+  "outletTargets": {
+    "ocean": 242,
+    "unresolved": 942
+  },
+  "representativeIds": [
+    "D298591",
+    "D186192",
+    "D200327",
+    "D260741",
+    "D143595",
+    "D774651"
+  ],
+  "excludedPreviousStudyBoundaries": [
+    "D193196",
+    "D126467",
+    "D147845",
+    "D144758"
+  ],
+  "experiments": 60,
+  "checks": [
+    {
+      "id": "all-23022-reaches-mapped-once",
+      "passed": true
+    },
+    {
+      "id": "1184-terminal-catchments-168576-cells",
+      "passed": true
+    },
+    {
+      "id": "boundary-input-not-summed-along-reaches",
+      "passed": true
+    },
+    {
+      "id": "all-source-inlet-reaches-and-periods-match",
+      "passed": true
+    },
+    {
+      "id": "six-distinct-representatives-outside-closed-review",
+      "passed": true
+    },
+    {
+      "id": "all-representative-geometry-connected-at-crest",
+      "passed": true
+    },
+    {
+      "id": "all-60-experiments-conserve-inventory",
+      "passed": true
+    },
+    {
+      "id": "physical-allocation-remains-null",
+      "passed": true
+    }
+  ],
+  "physicalResolvedBoundaries": 0,
+  "physicalResolvedReaches": 0,
+  "automaticAdoption": false,
+  "limitations": [
+    "기존 모델에서 도출한 경계 유입이며 관측값이 아님.",
+    "분류는 고온·극지 → 수위 결합 → 하류 목적지 순의 상호 배타 집계이며 원래 중첩 flags도 보존.",
+    "모든 구간 유량을 더하면 합류·하류에서 중복된다. 유입은 각 종착 경계의 원본 장부만 합산.",
+    "실제 저류·침투·증발·넘침은 미정. 순손실·체적 초과 장부를 실제 물리 배분으로 승격하지 않음."
+  ]
+}

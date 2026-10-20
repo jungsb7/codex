@@ -1,0 +1,34 @@
+[
+  {
+    "id": "all-23022-reaches-mapped-once",
+    "passed": true
+  },
+  {
+    "id": "1184-terminal-catchments-168576-cells",
+    "passed": true
+  },
+  {
+    "id": "boundary-input-not-summed-along-reaches",
+    "passed": true
+  },
+  {
+    "id": "all-source-inlet-reaches-and-periods-match",
+    "passed": true
+  },
+  {
+    "id": "six-distinct-representatives-outside-closed-review",
+    "passed": true
+  },
+  {
+    "id": "all-representative-geometry-connected-at-crest",
+    "passed": true
+  },
+  {
+    "id": "all-60-experiments-conserve-inventory",
+    "passed": true
+  },
+  {
+    "id": "physical-allocation-remains-null",
+    "passed": true
+  }
+]

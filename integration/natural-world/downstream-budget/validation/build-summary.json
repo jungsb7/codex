@@ -1,0 +1,154 @@
+{
+  "categories": [
+    {
+      "key": "hot-and-polar",
+      "label": "고온·극지 방법 공백",
+      "boundaries": 0,
+      "reaches": 0,
+      "annualInflowM3": 0
+    },
+    {
+      "key": "hot",
+      "label": "고온 PET 방법 공백",
+      "boundaries": 177,
+      "reaches": 1400,
+      "annualInflowM3": 902019862102.6736
+    },
+    {
+      "key": "polar",
+      "label": "극지 수분 방법 공백",
+      "boundaries": 54,
+      "reaches": 1250,
+      "annualInflowM3": 218023727625.01587
+    },
+    {
+      "key": "coupled",
+      "label": "하류 수위 결합 검토",
+      "boundaries": 2,
+      "reaches": 12,
+      "annualInflowM3": 3925320914.8362656
+    },
+    {
+      "key": "chain",
+      "label": "다음 미정 경계로 연결",
+      "boundaries": 741,
+      "reaches": 15439,
+      "annualInflowM3": 3304156505848.677
+    },
+    {
+      "key": "ocean",
+      "label": "해양 출구 후보 · 물수지 미정",
+      "boundaries": 210,
+      "reaches": 4921,
+      "annualInflowM3": 1358276774286.7097
+    }
+  ],
+  "representatives": [
+    {
+      "id": "D298591",
+      "selection": "해양 출구 후보 중 방법 공백 없는 유입1위",
+      "inflowKm3": 87.66004584328799,
+      "capacityKm3": 407.90728929404946,
+      "areaKm2": 60015.84438256692,
+      "steadyLossM": 1.460615054992895,
+      "zeroLossFirstExcess": {
+        "year": 5,
+        "period": 9
+      }
+    },
+    {
+      "id": "D186192",
+      "selection": "해양 출구 후보 중 방법 공백 없는 유입2위",
+      "inflowKm3": 65.1477116557567,
+      "capacityKm3": 3099.0288420795755,
+      "areaKm2": 190388.1482836566,
+      "steadyLossM": 0.3421836508367845,
+      "zeroLossFirstExcess": {
+        "year": 48,
+        "period": 4
+      }
+    },
+    {
+      "id": "D200327",
+      "selection": "다음 경계만 보류된 유역 중 유입1위",
+      "inflowKm3": 460.3583854137118,
+      "capacityKm3": 19755.862062254873,
+      "areaKm2": 928505.1160220648,
+      "steadyLossM": 0.4958059761544404,
+      "zeroLossFirstExcess": {
+        "year": 43,
+        "period": 7
+      }
+    },
+    {
+      "id": "D260741",
+      "selection": "고온 방법 공백이 있는 유역 중 유입1위",
+      "inflowKm3": 127.63279157664157,
+      "capacityKm3": 5.33168376724733,
+      "areaKm2": 1738.4846144144346,
+      "steadyLossM": 73.41611799057048,
+      "zeroLossFirstExcess": {
+        "year": 1,
+        "period": 2
+      }
+    },
+    {
+      "id": "D143595",
+      "selection": "극지 공백이 있는 유역 중 유입1위",
+      "inflowKm3": 15.769984049727983,
+      "capacityKm3": 0.2287381388968612,
+      "areaKm2": 253.48477579127965,
+      "steadyLossM": 62.21274630991271,
+      "zeroLossFirstExcess": {
+        "year": 1,
+        "period": 2
+      }
+    },
+    {
+      "id": "D774651",
+      "selection": "하류 수위 결합 검토 대상 중 유입1위",
+      "inflowKm3": 3.7730007889251174,
+      "capacityKm3": 2.0892321079035123,
+      "areaKm2": 598.337290016189,
+      "steadyLossM": 6.305809201400489,
+      "zeroLossFirstExcess": {
+        "year": 1,
+        "period": 10
+      }
+    }
+  ],
+  "checks": [
+    {
+      "id": "all-23022-reaches-mapped-once",
+      "passed": true
+    },
+    {
+      "id": "1184-terminal-catchments-168576-cells",
+      "passed": true
+    },
+    {
+      "id": "boundary-input-not-summed-along-reaches",
+      "passed": true
+    },
+    {
+      "id": "all-source-inlet-reaches-and-periods-match",
+      "passed": true
+    },
+    {
+      "id": "six-distinct-representatives-outside-closed-review",
+      "passed": true
+    },
+    {
+      "id": "all-representative-geometry-connected-at-crest",
+      "passed": true
+    },
+    {
+      "id": "all-60-experiments-conserve-inventory",
+      "passed": true
+    },
+    {
+      "id": "physical-allocation-remains-null",
+      "passed": true
+    }
+  ]
+}

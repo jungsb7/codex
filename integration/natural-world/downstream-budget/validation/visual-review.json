@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "review": "1440/390/320px에서 분류 표, 경계 조회, 조건 선택, 재고 그래프, 실제 미정/가정 구분, JSON 버튼과 가로 넘침을 직접 검토했다.",
+  "screenshots": [
+    {
+      "path": "budget-1440.png",
+      "sha256": "3f042bb8d4066a068ac1b3a9c40b78e0a0acac3c0be4af64b7293f5d63c5c4da"
+    },
+    {
+      "path": "budget-320.png",
+      "sha256": "d546199d85ff1d27061dbd0a32adf25fdccdabf5eb06b5529ca9ead2f95b4bf1"
+    },
+    {
+      "path": "budget-390.png",
+      "sha256": "ba3912b72c768d0270a1a91f2bc5f5f62bbdd5ec9f19445aee32b3aacaa32aaf"
+    }
+  ]
+}

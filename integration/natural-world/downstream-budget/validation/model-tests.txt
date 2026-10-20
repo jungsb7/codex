@@ -1,0 +1,17 @@
+✔ all source hashes bind to exact main inputs and closed review stays excluded (177.262963ms)
+✔ 23022 unique reaches independently follow receiver graph to the same unresolved terminal (56.461797ms)
+✔ exclusive categories cover every boundary and reach without duplicate inflow aggregation (239.054731ms)
+✔ native geometry independently integrates spherical cell areas and is connected below the crest (86.745173ms)
+✔ zero loss exactly matches the closed-form inventory envelope and each period conserves water (21.213954ms)
+✔ 60 saved experiments match runtime, preserve null allocations, and clamp loss to available water (47.818506ms)
+✔ necessary loss bound is a total-volume condition, not an overflow guarantee (0.319999ms)
+✔ invalid inputs and non-unresolved queries fail without fabricating a boundary (2.043094ms)
+✔ CLI returns original boundary evidence and a source-linked reproducible experiment (161.987026ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1843.58804
