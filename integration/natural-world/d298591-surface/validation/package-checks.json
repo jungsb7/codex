@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "7f803eb5f3fd17d4ce3edbf887f9deb2646fd675",
+  "baselineFiles": 723,
+  "byteIdenticalFiles": 719,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/downstream-budget/index.html"
+  ],
+  "newPayloadBytes": 164811,
+  "newPayloadSha256": "08e3a634b1a8181a294ff54e8cf7f797f65b792de4c7b1fc3e9d09a9a9340363",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

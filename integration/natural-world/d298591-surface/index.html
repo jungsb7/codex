@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D298591 · 육지에서 수면으로</title><link rel="stylesheet" href="style.css"><script defer src="view.js"></script><script defer src="app.js"></script></head>
+<body><header><a href="../downstream-budget/index.html#group=D298591">← 미정 하류 검토</a><span>PLANET ATLAS · 후속24</span></header>
+<main><p class="eyebrow">D298591 · 조건부 동적 물수지</p><h1>육지가 잠기면,<br>물의 장부도 바뀝니다.</h1>
+<p class="intro">619개 집수 격자에서 눈·얕은 저장을 이어 계산하고, 물에 잠긴 칸의 육지 유출을 수면 강수·융설로 교체합니다. 원본 지형 위의 가정 실험입니다.</p>
+<p class="notice"><strong>실제 채택 0건.</strong> 이 화면의 수면·저류·체적 초과분은 조건부 계산입니다. 실제 저류·침투·방류와 침수 범위는 미정입니다.</p>
+<p id="status" role="status">검증된 자료를 읽는 중…</p><button id="retry" hidden>자료 다시 읽기</button>
+<div id="content" hidden>
+<section><div class="heading"><h2>물에 잠기는 칸을 따라</h2><a href="REPORT.md">결과와 한계 ↗</a></div>
+<div class="controls">
+<label>수면 증발 가정<select id="evap"><option value="0.5">0.5 m/년</option><option value="1" selected>1 m/년</option><option value="2">2 m/년</option></select></label>
+<label>외부 지하수 순손실 가정<select id="ground"><option value="0">0 m/년</option><option value="0.25" selected>0.25 m/년</option></select></label>
+<label>초기 가정 재고<select id="initial"><option value="0">문턱 체적의 0%</option><option value="0.5">문턱 체적의 50%</option></select></label>
+</div>
+<p class="note">손실 깊이는 매 계산 단계의 젖은 수면에 적용합니다. 실제 증발률·침투율이 아닙니다. 원본 12공전 위상을 100년 반복하며, 눈은 원본 온도식으로 계산하고 결빙·열수지는 계산하지 않습니다.</p>
+<label class="year-label" for="year">연말 상태 <output id="year-label">100년차</output></label><input id="year" type="range" min="1" max="100" step="1" value="100">
+<div id="metrics" class="metrics"></div>
+<div class="visuals"><figure><figcaption>121개 원본 지형 칸 · 선택 연도 말</figcaption><svg id="map" viewBox="0 0 500 330" role="img" aria-label="원본 격자에서 계산한 가정 수면"><title>조건부 수면</title></svg><p class="legend"><span class="wet">■</span> 가정 수면 <span class="dry">■</span> 남은 육지 · 원본 위경도 격자 표시</p></figure>
+<figure><figcaption>100년간의 가정 재고</figcaption><svg id="chart" viewBox="0 0 500 330" role="img" aria-label="100년간 조건부 재고와 선택 연도"></svg><p class="note">문턱 체적은 원본 기둥 기하입니다. 실제 저류 용량이나 미래 예측이 아닙니다.</p></figure></div>
+<div class="actions"><button id="download">현재 조건 JSON 저장 ↓</button><a id="share-link">현재 비교 주소</a><a href="../unified-atlas/index.html#mode=drainage&cell=303204&lon=-36.4453125&lat=43.7109375&zoom=8">원본 지도 ↗</a></div>
+</section>
+<section><h2 id="ledger-title">선택 연도의 물수지</h2><p>육지와 수면을 합친 전체 집수권 장부입니다. 내부 이동인 육지 유출·수면 직접 유입은 총강수에 다시 더하지 않습니다.</p><div class="table-wrap"><table><thead><tr><th>항목</th><th>km³/년</th><th>의미</th></tr></thead><tbody id="ledger"></tbody></table></div><p id="closure" class="note"></p></section>
+<section><h2>문턱을 넘는 체적 ≠ 실제 방류</h2><p>이 계산은 문턱 체적에서 재고를 제한하고 남는 물을 미배분 항으로 분리합니다. 실제 방류에는 출구 형상과 양쪽 수위가 필요합니다. 아래는 자유 월류식을 가정했을 때의 필요한 유효 폭입니다.</p><div id="outlet"></div><p class="note">Q = C L H<sup>1.5</sup>, C = 1.38–1.71 (SI). H는 문턱 위 에너지 수두입니다. 수두 0이면 유량도 0입니다. 표는 최대 기간 평균 초과율을 사용하며 홍수 첨두나 실제 하폭이 아닙니다. 하류 잠김 보정과 문턱 위 침수 지형은 미계산입니다. <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/modeling-bridges/hydraulic-computations-through-the-bridge/high-flow-computations">USACE 방법 근거 ↗</a></p></section>
+<section><h2>원본에서 확인한 것</h2><div id="source"></div><p>619격자 × 12기간의 원본 강수·증발산·눈·얕은 저장·유출 장부를 계측했습니다. 전체 세계 유출량과 원본 세계·지형 해시가 계측 전후 동일합니다. 얕은 저장은 원본의 혼합 저장이며 토양과 대수층으로 나누지 않습니다.</p><p class="note">잠긴 동안 얕은 저장을 보존하고, 다시 드러나면 육지 계산을 재개합니다. 수면 증발·외부 지하수 손실은 설계 가정이며 원본 또는 관측에서 검증된 값이 아닙니다. 시간 간격 민감도와 잔차는 <a href="REPORT.md">보고서</a>를 참고하세요.</p></section>
+</div></main><footer><a href="README.md">재현·AI 안내</a><a href="output/summary.json">구조화 요약</a><a href="../downstream-budget/index.html">23,022구간 분류</a></footer></body></html>
