@@ -1,0 +1,57 @@
+{
+  "schema": "natural-map-package/1",
+  "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+  "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+  "parts": [
+    {
+      "id": "foundation",
+      "name": "세계 기준",
+      "url": "stage5/output/foundation-fc5d72cbbab3.json.gz",
+      "source": "output/foundation.json",
+      "sourceBytes": 52739642,
+      "sourceSha256": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "bytes": 10737538,
+      "sha256": "189ff903825c7ba4e89997ae264b9b07d3436ecc1e14a8e2761928e19d7663bf"
+    },
+    {
+      "id": "climate",
+      "name": "계절 기후",
+      "url": "stage5/output/climate-1369f5b0c513.json.gz",
+      "source": "stage2/output/diagnostics.json",
+      "sourceBytes": 40862316,
+      "sourceSha256": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "bytes": 27604615,
+      "sha256": "d091b038ef003bfb4d57b655299f05dba4b69600acf9009bb3d855444afe8702",
+      "files": [
+        "stage5/output/climate-1369f5b0c513-part00.bin",
+        "stage5/output/climate-1369f5b0c513-part01.bin",
+        "stage5/output/climate-1369f5b0c513-part02.bin",
+        "stage5/output/climate-1369f5b0c513-part03.bin"
+      ]
+    },
+    {
+      "id": "water",
+      "name": "연결 수계",
+      "url": "stage5/output/water-3775f512672b.json.gz",
+      "source": "stage3/output/waterways.json",
+      "sourceBytes": 83065336,
+      "sourceSha256": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "bytes": 13774415,
+      "sha256": "7eacc9c27cca5086f37d4bc0fda6b2acb6181baec11ae8b44c91366eeab9fce0",
+      "files": [
+        "stage5/output/water-3775f512672b-part00.bin",
+        "stage5/output/water-3775f512672b-part01.bin"
+      ]
+    },
+    {
+      "id": "ecology",
+      "name": "생태·지표",
+      "url": "stage5/output/ecology-322484a70c56.json.gz",
+      "source": "stage4/output/ecology.json",
+      "sourceBytes": 11886329,
+      "sourceSha256": "322484a70c56bda8852d08c9a0be1acf062d570be448c9b4065adabe11e9f0c9",
+      "bytes": 4994631,
+      "sha256": "06d51f7ad9a72c5733f8c9f4d8bf4a54c8b103d0fd83e949c3f93f874939721e"
+    }
+  ]
+}

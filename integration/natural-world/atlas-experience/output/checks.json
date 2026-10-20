@@ -1,0 +1,26 @@
+[
+  {
+    "name": "climate published source hash",
+    "passed": true
+  },
+  {
+    "name": "water published source hash",
+    "passed": true
+  },
+  {
+    "name": "all eleven natural regions",
+    "passed": true
+  },
+  {
+    "name": "original features 16 ridges and 7 rivers",
+    "passed": true
+  },
+  {
+    "name": "unchanged 45824 reaches and 268857 native cells",
+    "passed": true
+  },
+  {
+    "name": "original 209 lake cells",
+    "passed": true
+  }
+]

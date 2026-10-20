@@ -1,0 +1,122 @@
+{
+  "schema": "atlas-experience/1",
+  "status": "implementation-complete",
+  "scope": {
+    "seasonal": "all 268857 terrestrial and original-lake cells, twelve phases, original temperature/rain and quantized candidate flow",
+    "objects": "27 existing objects including 16 ridges and 7 rivers; 45824 candidate reaches",
+    "detail": "all 11 natural regions; viewport tiles at zoom >=12 in nature/terrain/vegetation; 8x native display samples, not new physical terrain"
+  },
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceHashes": {
+      "integration/natural-world/output/foundation.json": "fc5d72cbbab302c3634f4e82631ec4de0d706fec56132f6e4f3b62acbcbf1060",
+      "integration/natural-world/stage2/output/diagnostics.json": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "integration/natural-world/stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "integration/natural-world/stage4/output/ecology.json": "322484a70c56bda8852d08c9a0be1acf062d570be448c9b4065adabe11e9f0c9",
+      "integration/natural-world/review-atlas/output/atlas.json.gz": "d1cc126657b881e4715e32f54a09719c812a628de9f7ee1e1f6938096c144faa",
+      "integration/natural-world/pet-review/output/summary.json": "1136c4942b3dc9e5e8d9bd1fee65e66975a183e259342a776cc4498da6afd106",
+      "integration/natural-world/desert-review/output/summary.json": "9690b480c6716ef0dbc441ac6a24cacafcbc0db5916913f98e346d43c4620f18",
+      "integration/natural-world/cold-water/output/summary.json": "4664963f4bde91eacab2e239b31a0497d77ae6e924910d482033306563d23dc5",
+      "integration/natural-world/core.js": "61ebd90323b7e303013153450016299b373b5deb4bcc0193e73a8eb91557d74e",
+      "integration/natural-world/stage5/core.js": "9781ca8f3227ea309bc9ba87554b799eebfac2c419259de445f5f46f273899fd",
+      "integration/natural-world/stage5/codec.js": "36f36e87fc50db6947ece12267d877c6bac040b59f0a10699f3a594091daa994",
+      "integration/natural-world/unified-atlas/core.js": "d4320382484439c44118fc69834eb8a8e5d99090e0f4a24ed4141c67dc67613a",
+      "integration/natural-world/unified-atlas/build.cjs": "04e2e06a12e5d54f6ba94213c3159330daf31be2b76279d13f8c89b198e4ae9c"
+    }
+  },
+  "originalCounts": {
+    "cells": 268857,
+    "reaches": 45824,
+    "features": 27,
+    "regions": 11,
+    "lakeCells": 209
+  },
+  "displaySampling": {
+    "nativeDegrees": 0.234375,
+    "subdivisions": 8,
+    "designedDegrees": 0.029296875,
+    "nominalNorthSouthKm": 3.2576638665398066,
+    "tileNativeCells": 16,
+    "cacheTiles": 96
+  },
+  "unchangedUnknowns": {
+    "unresolvedDepressions": 1184,
+    "unresolvedCatchmentCells": 168576,
+    "unresolvedReaches": 23022,
+    "actualCoverAreaKm2": null,
+    "actualFloodAreaKm2": null,
+    "actualIceThicknessM": null,
+    "actualRiverWidthM": null
+  },
+  "automaticAdoption": false,
+  "physicalDEMChanged": false,
+  "previousNinePondReviewClosed": true,
+  "sourceParts": [
+    {
+      "id": "climate",
+      "name": "계절 기후",
+      "url": "stage5/output/climate-1369f5b0c513.json.gz",
+      "source": "stage2/output/diagnostics.json",
+      "sourceBytes": 40862316,
+      "sourceSha256": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a",
+      "bytes": 27604615,
+      "sha256": "d091b038ef003bfb4d57b655299f05dba4b69600acf9009bb3d855444afe8702",
+      "files": [
+        "stage5/output/climate-1369f5b0c513-part00.bin",
+        "stage5/output/climate-1369f5b0c513-part01.bin",
+        "stage5/output/climate-1369f5b0c513-part02.bin",
+        "stage5/output/climate-1369f5b0c513-part03.bin"
+      ]
+    },
+    {
+      "id": "water",
+      "name": "연결 수계",
+      "url": "stage5/output/water-3775f512672b.json.gz",
+      "source": "stage3/output/waterways.json",
+      "sourceBytes": 83065336,
+      "sourceSha256": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "bytes": 13774415,
+      "sha256": "7eacc9c27cca5086f37d4bc0fda6b2acb6181baec11ae8b44c91366eeab9fce0",
+      "files": [
+        "stage5/output/water-3775f512672b-part00.bin",
+        "stage5/output/water-3775f512672b-part01.bin"
+      ]
+    }
+  ],
+  "codeHashes": {
+    "atlas-experience/core.js": "e92025761009824f8197fe9610ea43fca17abdc1c4bba9c1907c859071eda8c1",
+    "atlas-experience/detail.js": "44cb57aa11e8dfc29077d0d0d53ad6e95fbd2de706adecc8714abbd8e754c802",
+    "atlas-experience/ui.js": "a82472f7ff674092c5ce7d53e89cd78f0de2e990cff6f3ade2cf8572fa96f87e",
+    "atlas-experience/style.css": "16e3fd2f408ff17de83464f456ef318c5cb2a2a45e971f62407078bdfbb33b07",
+    "unified-atlas/app.js": "27fdbe9366751bef6f5b278667d5d287c7638e3b0f6377340592d7e094a6775e",
+    "unified-atlas/render.js": "e42691506e25d20c3f9a963746176f33c8e49bc46ea49c05663f8e5064267fc5",
+    "unified-atlas/index.html": "ba262564d8d16e4e2dc59ff9c58709aa4789de938f1ecde20c39c5745de26540"
+  },
+  "checks": [
+    {
+      "name": "climate published source hash",
+      "passed": true
+    },
+    {
+      "name": "water published source hash",
+      "passed": true
+    },
+    {
+      "name": "all eleven natural regions",
+      "passed": true
+    },
+    {
+      "name": "original features 16 ridges and 7 rivers",
+      "passed": true
+    },
+    {
+      "name": "unchanged 45824 reaches and 268857 native cells",
+      "passed": true
+    },
+    {
+      "name": "original 209 lake cells",
+      "passed": true
+    }
+  ]
+}

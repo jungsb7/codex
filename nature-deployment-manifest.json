@@ -95,6 +95,78 @@
       "source": "integration/natural-world/app.js"
     },
     {
+      "path": "integration/natural-world/atlas-experience/README.md",
+      "bytes": 1594,
+      "sha256": "74f56802067c16d7b625eb1dd9f5308b90cca6991f70e58a3f798b2699976784",
+      "source": "integration/natural-world/atlas-experience/README.md"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/REPORT.md",
+      "bytes": 6673,
+      "sha256": "dc060205dbc88503a1925982565cd2513de956a614588e1aef5432e2eba57dc3",
+      "source": "integration/natural-world/atlas-experience/REPORT.md"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/browser-check.cjs",
+      "bytes": 10055,
+      "sha256": "070f062cec6569871dc35e66343d84aaa6df9a23cd4bd5fa97bbf8b640f5be5c",
+      "source": "integration/natural-world/atlas-experience/browser-check.cjs"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/build.cjs",
+      "bytes": 2893,
+      "sha256": "97be253294e479a826134002101084bb825ce3e1226d099a28c746e8ca2c16fb",
+      "source": "integration/natural-world/atlas-experience/build.cjs"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/core.js",
+      "bytes": 8046,
+      "sha256": "e92025761009824f8197fe9610ea43fca17abdc1c4bba9c1907c859071eda8c1",
+      "source": "integration/natural-world/atlas-experience/core.js"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/detail.js",
+      "bytes": 6761,
+      "sha256": "44cb57aa11e8dfc29077d0d0d53ad6e95fbd2de706adecc8714abbd8e754c802",
+      "source": "integration/natural-world/atlas-experience/detail.js"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/output/checks.json",
+      "bytes": 459,
+      "sha256": "7ded4aade6c29242d269587c054bb5db13499d8906a10217f0cb9a6e384581ba",
+      "source": "integration/natural-world/atlas-experience/output/checks.json"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/output/sources.json",
+      "bytes": 2222,
+      "sha256": "a5844a15a2476193caaffae17800efb5f9d10a238ef956014ae5beb78e325040",
+      "source": "integration/natural-world/atlas-experience/output/sources.json"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/output/summary.json",
+      "bytes": 5528,
+      "sha256": "b4398fd473a527d76363c2cd0e0ff36e92beddb7e25f394116dde93a5e8ca526",
+      "source": "integration/natural-world/atlas-experience/output/summary.json"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/style.css",
+      "bytes": 2106,
+      "sha256": "16e3fd2f408ff17de83464f456ef318c5cb2a2a45e971f62407078bdfbb33b07",
+      "source": "integration/natural-world/atlas-experience/style.css"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/test.cjs",
+      "bytes": 7084,
+      "sha256": "89221a0bc28b6888259a47e903e0c71fe6dcb9d6e37d3478f5379bf647eb7909",
+      "source": "integration/natural-world/atlas-experience/test.cjs"
+    },
+    {
+      "path": "integration/natural-world/atlas-experience/ui.js",
+      "bytes": 12261,
+      "sha256": "a82472f7ff674092c5ce7d53e89cd78f0de2e990cff6f3ade2cf8572fa96f87e",
+      "source": "integration/natural-world/atlas-experience/ui.js"
+    },
+    {
       "path": "integration/natural-world/catchment-budget/README.md",
       "bytes": 4839,
       "sha256": "0096d5a9274805d7ae714aa57476a474a5ab95470e6449eeaae518d9ec527496",
@@ -894,8 +966,8 @@
     },
     {
       "path": "integration/natural-world/pond-thermal-review/status.html",
-      "bytes": 5703,
-      "sha256": "ec289595f7e9779787154a1da83bd984c43bd81c7bada7e247dab0fdf46a10be",
+      "bytes": 6179,
+      "sha256": "5944b2a4b6478be28d3593f64edc3802311664d065cc2f2f574e2da07f6d7b6b",
       "source": "integration/natural-world/pond-thermal-review/status.html"
     },
     {
@@ -1356,20 +1428,20 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/README.md",
-      "bytes": 5610,
-      "sha256": "758e92f98296fd92ecbd812be5990f1f4c0881a58c3da14a172907630fba28f9",
+      "bytes": 6131,
+      "sha256": "a587012eee0f94c3664bdc3c41cb8eb7a80fa3db3d7bacbbd425a76b28be0da0",
       "source": "integration/natural-world/unified-atlas/README.md"
     },
     {
       "path": "integration/natural-world/unified-atlas/REPORT.md",
-      "bytes": 9125,
-      "sha256": "9ac5b04c05f32b62c49a647637d75b2c5da60eaa11918c6f12ed83501a06f437",
+      "bytes": 9646,
+      "sha256": "a7ebfb5beb475e219a6335975f5b89c649f99a8572d344e5e027abce25930c2a",
       "source": "integration/natural-world/unified-atlas/REPORT.md"
     },
     {
       "path": "integration/natural-world/unified-atlas/app.js",
-      "bytes": 19512,
-      "sha256": "d3550d8738ee082cc5c31c06effef70d73d753820aea631ddd377ab731b2b5d9",
+      "bytes": 20415,
+      "sha256": "27fdbe9366751bef6f5b278667d5d287c7638e3b0f6377340592d7e094a6775e",
       "source": "integration/natural-world/unified-atlas/app.js"
     },
     {
@@ -1380,8 +1452,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/index.html",
-      "bytes": 6144,
-      "sha256": "bf8c291ed6766c640727e5113f0a3afae5101417e1dfa92ac9615cf122d5c7d0",
+      "bytes": 6546,
+      "sha256": "ba262564d8d16e4e2dc59ff9c58709aa4789de938f1ecde20c39c5745de26540",
       "source": "integration/natural-world/unified-atlas/index.html"
     },
     {
@@ -1410,8 +1482,8 @@
     },
     {
       "path": "integration/natural-world/unified-atlas/render.js",
-      "bytes": 9488,
-      "sha256": "3cda7ebcd8e571bed459732204da1b4074871efeb6769ee93f60b1e8604eab9f",
+      "bytes": 10208,
+      "sha256": "e42691506e25d20c3f9a963746176f33c8e49bc46ea49c05663f8e5064267fc5",
       "source": "integration/natural-world/unified-atlas/render.js"
     },
     {
@@ -1706,6 +1778,6 @@
   ],
   "originalWorldModified": false,
   "newNatureAdopted": false,
-  "latestFollowup": "landscape-draft-18",
-  "previousPublicationCommit": "d2f7ebebe522a92f7b094f180d90c225a3644c9c"
+  "latestFollowup": "atlas-experience-19",
+  "previousPublicationCommit": "55dcbacdc21e90f619bb02985956b1daf6ab9300"
 }
