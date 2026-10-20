@@ -1,53 +1,55 @@
-GitHub 기반 최신 인수인계 — 후속25 구현·검증·배포 완료, 2026-10-20
+GitHub 기반 최신 인수인계 — 후속26 구현·검증 완료, 배포 준비, 2026-10-20
 
 jungsb7/codex 최신 main에서 시작한다. 과거 고정 커밋으로 되돌리지 않는다.
-사용자가 다음 단계 진행을 요청해 D298591 적설 원인·에너지·출구 범위를 구현했다.
-새12+기존50자료 검사, 새12+기존12브라우저 검사 통과. 배포 상태:
-integration/natural-world/d298591-constraints/validation/deployment.json
-PR #5 병합 f948a08db538f368735ae3332485d5001b049479, Pages 실행39426035205의 build/deploy/report-build-status 성공.
-공개 도메인 직접 확인은 환경 프록시403으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
-현재 사용자 요청이 우선이며 NEXT_GOALS 제안을 자동 작업 지시로 오인하지 않는다.
+사용자가 다음 진행을 요청해 D298591 132격자 동적 물수지와 조건부 출구 방류를 구현했다.
+새13+기존62자료 검사, 새11+기존12브라우저 검사. 배포 기록:
+integration/natural-world/d298591-routing/validation/deployment.json
+현재 사용자 요청을 우선하며 NEXT_GOALS 제안을 새 요청 없이 자동 수행하지 않는다.
 
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/d298591-constraints/README.md 및 REPORT.md
-4. integration/natural-world/d298591-surface/README.md 및 REPORT.md
+3. integration/natural-world/d298591-routing/README.md 및 REPORT.md
+4. integration/natural-world/d298591-constraints/README.md 및 REPORT.md
 5. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속25 완료 범위:
--619격자의 원본 적설을 분해:18곳은 양의 기온 없음,13곳은 잠재 융설 부족,588곳은 지속 누적 없음.
--31곳 모두 기존121수면 기둥 밖.6.007900km³/년 누적을 장부·독립200년 반복으로 검산.
--기온+0/1/2/5℃×융설 계수0.5/1/2배 민감도. 원본 기후·유량에는 미적용.
--이전12조건의 마지막 수면 고정 에너지 진단. 연2m 증발은9·10공전 기간의 TOA 일사를 넘지만 이류·저장열 등이 미정이므로 불가능 판정은 아님.
--원본4도 바람은 진단값이며2m 측정값이 아님. 습도·순복사·수온·빙설 열수지는null.
--출구303194↔301657 연결 하나 제거 가정에서+0.94207763671875m에 우회 해양 연결.
--우회 문턱 직전132후보 기둥(기존121+추가11) 모두 기존619원본 장부에 포함.
--25수위/하류 수위 조건, 공유·JSON·원본 격자 조회·오류 복구 구현.
+후속26 완료 범위:
+-132원본 기둥(기존121+11)과619원본 계측 입력,5국지 웅덩이 및 원본 진입점을 연결.
+-가정 증발0.5/1/2m·년, 외부 손실0/0.25m·년, 초기0/50%, 폭100/1000/5000m의36조건.
+-자유 월류 Q=1.5*W*H^1.5, 접근 유속 무시, 수위=에너지 수두 가정. 실제 폭·유량 아님.
+-원본 문턱175.2985076904297m부터 양의 수두를 허용. 우회176.24058532714844m에서 중단.
+-22조건100년 완료,14조건우회 상한 중단. 하류 수위+0.05/+0.5/+1m의108조합은시작부터 보류.
+-출구만의 배수는 면적별 해석 적분. 전체 결합은 분할 적분이며 공급 직후 보수적인 상한 검사.
+-상한 도달 단계는32회 이분 탐색, 보류 물량 포함 모든 저장 보존, 이후 기후·손실·방류 미계산.
+-중단 후 조건부 순간 방류율null. 누적 방류는 실제 해양 유입이 아니며 원본 수계에 미적용.
+-부분 연도 complete:false, 하류 보류 annual:[], elapsedYears:0. 중단 이후 시계열 없음.
+-619격자 최종 눈·얕은 저장을 finalCellStores에 보존. 지속 적설을 매년 초기화하지 않음.
+-6조건30/60/120단계 비교.60→120재고차<0.00310%,누적방류차<0.09905%,대표중단시각차약0.117일.
+-111조건/시점 조회·39실제 JSON 저장·공유·오류 복구·1440/390/320px 확인.
 
 실제 물리 해결0구간·23022구간 미정·1184경계 유지.
-연결 격자 수는 실제 침수 범위가 아니며 해양 연결 영역을 닫힌 저류량으로 합산하지 않는다.
-수위 상승은 에너지 수두와 다르다. 문턱 체적 초과를 실제 방류로 바꾸지 않는다.
 실제 저류·침투·증발·방류·세부 하도·숲/습지·강폭·적설·결빙은null.
-AI 자료: d298591-constraints/output/review.json.gz (integration/natural-world 아래)
-다음 권장 목표는132기둥 동적 장부+제한된 출구 방류 후보. 우회 문턱 도달 시 중단·보존 필요.
+AI 자료: integration/natural-world/d298591-routing/output/review.json.gz
+다음 권장 목표는 출구 바로 아래 원본 경로·제어 문턱과 하류 수위/잠김 근거 검토.
+없는 단면·조도·폭을 임의 채우지 않고 해수면0m를 출구 하류 수위로 대체하지 않는다.
 
 재현:
 node handoff/restore-inputs.cjs
-node integration/natural-world/d298591-constraints/build.cjs
-node --test --test-isolation=none integration/natural-world/d298591-constraints/test.cjs
-node integration/natural-world/d298591-constraints/query.cjs 274035 2 90 E2-G0.25-I0 .5 0
+node integration/natural-world/d298591-routing/build.cjs
+node --test --test-isolation=none integration/natural-world/d298591-routing/test.cjs
+node integration/natural-world/d298591-routing/query.cjs E1-G0.25-I0-W100-C1.5-T0 10
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/d298591-constraints/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/d298591-routing/index.html
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
 일반 재생성에는 전체 아카이브 복원이 필요 없다.
 
 유지 사항:
--기존 세계·경제·약26km 원본 지형·기후·수계·해안/호수 마스크를 보존한다.
--약3.26km 확대 형태는 설계 표시이며 새 물리DEM·실제 피복 경계가 아니다.
--12기간은 공전 위상이며 지구 달력 월이 아니다. 눈 물당량과 실제 눈 두께를 구분한다.
--기존 경관 설명·두 기간 비교·계절 지연 로딩·3기간 캐시·미리 읽기·오류 처리를 유지한다.
--권역/후보 표제와 설명 초안은 정식 고유 지명·정설로 승격하지 않는다.
--종료된9곳 국지 수문 검토를 재개하지 않는다.
--전체3044원본은 archive/full-handoff-20261020에 별도 보관하며 main에 병합하지 않는다.
--옛 build/record/package 스크립트로 최신 기록을 덮어쓰지 않는다. 새 작업은 자체 검증을 남긴다.
+-기존 세계·경제·약26km 원본 지형·기후·수계·해안/호수 마스크 보존.
+-약3.26km 확대 형태는 설계 표시이며 새 물리DEM·실제 피복 경계가 아님.
+-12기간은 공전 위상이며 지구 달력 월이 아님. SWE와 실제 눈 두께 구분.
+-이전 연2m 고정 마스크 에너지 경고 유지. 동적 수면 열수지·결빙 미계산.
+-기존 경관 비교·계절 지연 로딩·3기간 캐시·미리 읽기·오류 처리 유지.
+-권역/후보 표제와 설명 초안을 정식 지명·정설로 승격하지 않음.
+-종료된9곳 국지 검토와 D126467/D147845/D144758 보류를 자동 재개하지 않음.
+-전체3044원본은 archive/full-handoff-20261020에 별도 보관, main에 병합하지 않음.
+-옛 build/record/package 스크립트로 최신 기록을 덮어쓰지 않음. 새 작업 자체 검증 유지.

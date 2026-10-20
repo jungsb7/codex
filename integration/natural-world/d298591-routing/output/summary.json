@@ -1,0 +1,309 @@
+{
+  "schema": "d298591-routing-summary/1",
+  "provenance": {
+    "baseline": "4ba6823884181b0598ac6be86df4ee456c44e0fc",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "d298591-surface/inputs/fluxes.json.gz": "c682260b0ce4f994bab93ea523569473c39d7a07721756c9ac7f7da955e8146b",
+      "d298591-surface/output/review.json.gz": "08e3a634b1a8181a294ff54e8cf7f797f65b792de4c7b1fc3e9d09a9a9340363",
+      "d298591-constraints/output/review.json.gz": "ee1ba65a09ad4acc679de36bb687cb27ef21a8a4d50ee44717cb2b9584f5163c",
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77"
+    },
+    "code": {
+      "d298591-routing/core.cjs": "c52ae7cf5d30b424f556b9b236d631fca16aa23d8c25e273098b648d6eb1fa79",
+      "d298591-routing/build.cjs": "0c25489cd8783d3f0c9cbbc869afba85d892ef19b4802d8547fcf2501719d8ef",
+      "d298591-surface/core.cjs": "7dcf38191cfe24556ae3b30544449c173c9c7e4d8112b9dd3a2bb1fb872755f7",
+      "pond-budget/core.js": "78e90d97d45f64ec39f13dbd58b781789a0d76cc9919631c87edcc5c05e3a3fd",
+      "retention-review/core.js": "d7d78b9babc0f992ab1ca2b6787a8f589fc378e682e7b9c3a9eddd8e88d3891c",
+      "core.js": "61ebd90323b7e303013153450016299b373b5deb4bcc0193e73a8eb91557d74e"
+    }
+  },
+  "assumptions": {
+    "calendar": "Repeat 12 source orbit phases, 365-day model years; not Earth months or climate forecasts.",
+    "space": "132 native columns; 619 source cells each delivered once to first candidate entry in original graph. No new terrain or catchment forcing.",
+    "initial": "Pool 0/50% of original crest capacity, filled via original lowest leaf. Snow and shallow stores start at original sixth cycle.",
+    "land": "Reuse source temperature-index snow and fractional-step land ledger. Wet cells replace land ET/runoff with direct rain and melt; preserve submerged shallow stores.",
+    "outlet": "Hypothetical free broad-crested weir Q=C*W*max(stage-crest,0)^1.5; negligible approach velocity, C=1.5 SI and W=100/1000/5000m. Widths and coefficient are sensitivity assumptions, not measured geometry.",
+    "tailwater": "Tailwater at/below crest only; above-crest conditions pause at time zero pending shape-specific submergence and backwater. Null is not zero discharge.",
+    "integration": "Exact piecewise-area autonomous drainage half step, half surface losses, frozen-mask source evolution and leaf injection, guard, half losses, half drainage. No travel time.",
+    "guard": "Guard at post-supply stage before second losses. Binary locate first crossing in split scheme; retain capacity volume plus tiny overshoot separately as held water, suspend all future forcing. Not ocean discharge or physical event-time accuracy.",
+    "energy": "Prescribed 0.5/1/2m/year evaporation and 0/0.25m/year external groundwater sink on wet area, no energy or groundwater feedback. E2 prior fixed-mask energy warning remains, not recomputed for dynamic masks.",
+    "snow": "Keep upstream SWE through full or truncated simulated duration. No annual reset, actual snow depth, ice extent or glacier transport.",
+    "adoption": "Conditional release leaves this hypothetical ledger into an unmodeled external receiving ledger; no routing/adoption in original hydrological graph."
+  },
+  "sourceCells": 619,
+  "columns": 132,
+  "extraColumns": 11,
+  "localPonds": 5,
+  "crestM": 175.2985076904297,
+  "exclusiveLimitM": 176.24058532714844,
+  "crestVolumeM3": 407907289294.04297,
+  "limitVolumeM3": 467805424699.1406,
+  "statusCounts": {
+    "completed-horizon": 22,
+    "alternate-outlet-limit": 14,
+    "unsupported-tailwater": 108
+  },
+  "convergence": [
+    {
+      "id": "E0.5-G0.25-I0-W5000-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "completed-horizon",
+          "elapsedYears": 100.00000000004825,
+          "finalPoolM3": 432811110852.1133,
+          "releaseM3": 6293369609412.861,
+          "heldWaterM3": 0,
+          "residualM3": -0.012939453125,
+          "wetCells": 128
+        },
+        {
+          "substeps": 60,
+          "status": "completed-horizon",
+          "elapsedYears": 99.99999999987973,
+          "finalPoolM3": 432810802785.29297,
+          "releaseM3": 6293563995210.629,
+          "heldWaterM3": 0,
+          "residualM3": 0.01434326171875,
+          "wetCells": 128
+        },
+        {
+          "substeps": 120,
+          "status": "completed-horizon",
+          "elapsedYears": 100.0000000000922,
+          "finalPoolM3": 432810559612.9082,
+          "releaseM3": 6293632541815.285,
+          "heldWaterM3": 0,
+          "residualM3": -0.10516357421875,
+          "wetCells": 128
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 2.1246648884698516e-10,
+        "poolRelative": 5.618448518980464e-7,
+        "releaseRelative": 0.000010891421480491926
+      }
+    },
+    {
+      "id": "E1-G0.25-I0-W100-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "alternate-outlet-limit",
+          "elapsedYears": 9.199028160039669,
+          "finalPoolM3": 467805424699.1406,
+          "releaseM3": 2779928606.126953,
+          "heldWaterM3": 0.03356126695871353,
+          "residualM3": -0.0023193359375,
+          "wetCells": 132
+        },
+        {
+          "substeps": 60,
+          "status": "alternate-outlet-limit",
+          "elapsedYears": 9.199633200015874,
+          "finalPoolM3": 467805424699.1406,
+          "releaseM3": 2785758921.2773438,
+          "heldWaterM3": 0.015780583024024963,
+          "residualM3": 0.00445556640625,
+          "wetCells": 132
+        },
+        {
+          "substeps": 120,
+          "status": "alternate-outlet-limit",
+          "elapsedYears": 9.19995276841232,
+          "finalPoolM3": 467805424699.1406,
+          "releaseM3": 2788520801.8164062,
+          "heldWaterM3": 0.007751801982522011,
+          "residualM3": 0.01959228515625,
+          "wetCells": 132
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 0.0003195683964456464,
+        "poolRelative": 0,
+        "releaseRelative": 0.0009904464536407427
+      }
+    },
+    {
+      "id": "E1-G0.25-I0-W1000-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "completed-horizon",
+          "elapsedYears": 100.00000000004825,
+          "finalPoolM3": 454454680361.7988,
+          "releaseM3": 3046585162362.5293,
+          "heldWaterM3": 0,
+          "residualM3": 0.07476806640625,
+          "wetCells": 132
+        },
+        {
+          "substeps": 60,
+          "status": "completed-horizon",
+          "elapsedYears": 99.99999999987973,
+          "finalPoolM3": 454454444142.03516,
+          "releaseM3": 3046606185125.42,
+          "heldWaterM3": 0,
+          "residualM3": 0.04583740234375,
+          "wetCells": 132
+        },
+        {
+          "substeps": 120,
+          "status": "completed-horizon",
+          "elapsedYears": 100.0000000000922,
+          "finalPoolM3": 454454345044.81445,
+          "releaseM3": 3046610879630.3633,
+          "heldWaterM3": 0,
+          "residualM3": -0.24359130859375,
+          "wetCells": 132
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 2.1246648884698516e-10,
+        "poolRelative": 2.180575932074164e-7,
+        "releaseRelative": 0.0000015408941702226659
+      }
+    },
+    {
+      "id": "E1-G0.25-I0-W5000-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "completed-horizon",
+          "elapsedYears": 100.00000000004825,
+          "finalPoolM3": 423193978650.0762,
+          "releaseM3": 3295838629609.8066,
+          "heldWaterM3": 0,
+          "residualM3": -0.06207275390625,
+          "wetCells": 126
+        },
+        {
+          "substeps": 60,
+          "status": "completed-horizon",
+          "elapsedYears": 99.99999999987973,
+          "finalPoolM3": 423193245546.3672,
+          "releaseM3": 3296087073573.0605,
+          "heldWaterM3": 0,
+          "residualM3": 0.0491943359375,
+          "wetCells": 126
+        },
+        {
+          "substeps": 120,
+          "status": "completed-horizon",
+          "elapsedYears": 100.0000000000922,
+          "finalPoolM3": 423192823110.2207,
+          "releaseM3": 3296165742494.2266,
+          "heldWaterM3": 0,
+          "residualM3": -0.0928955078125,
+          "wetCells": 126
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 2.1246648884698516e-10,
+        "poolRelative": 9.982119814313377e-7,
+        "releaseRelative": 0.000023866797761961578
+      }
+    },
+    {
+      "id": "E2-G0.25-I0-W1000-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "completed-horizon",
+          "elapsedYears": 100.00000000004825,
+          "finalPoolM3": 279581686374.0447,
+          "releaseM3": 0,
+          "heldWaterM3": 0,
+          "residualM3": -0.050537109375,
+          "wetCells": 96
+        },
+        {
+          "substeps": 60,
+          "status": "completed-horizon",
+          "elapsedYears": 99.99999999987973,
+          "finalPoolM3": 279602331643.00867,
+          "releaseM3": 0,
+          "heldWaterM3": 0,
+          "residualM3": -0.01397705078125,
+          "wetCells": 96
+        },
+        {
+          "substeps": 120,
+          "status": "completed-horizon",
+          "elapsedYears": 100.0000000000922,
+          "finalPoolM3": 279610988677.27484,
+          "releaseM3": 0,
+          "heldWaterM3": 0,
+          "residualM3": -0.02301025390625,
+          "wetCells": 96
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 2.1246648884698516e-10,
+        "poolRelative": 0.00003096099444133867,
+        "releaseRelative": 0
+      }
+    },
+    {
+      "id": "E1-G0.25-I0.5-W5000-C1.5-T0",
+      "runs": [
+        {
+          "substeps": 30,
+          "status": "completed-horizon",
+          "elapsedYears": 100.00000000004825,
+          "finalPoolM3": 423193978650.0762,
+          "releaseM3": 3407170450691.078,
+          "heldWaterM3": 0,
+          "residualM3": -0.056671142578125,
+          "wetCells": 126
+        },
+        {
+          "substeps": 60,
+          "status": "completed-horizon",
+          "elapsedYears": 99.99999999987973,
+          "finalPoolM3": 423193245546.3672,
+          "releaseM3": 3407413766338.91,
+          "heldWaterM3": 0,
+          "residualM3": 0.046875,
+          "wetCells": 126
+        },
+        {
+          "substeps": 120,
+          "status": "completed-horizon",
+          "elapsedYears": 100.0000000000922,
+          "finalPoolM3": 423192823110.2207,
+          "releaseM3": 3407492290559.26,
+          "heldWaterM3": 0,
+          "residualM3": -0.118408203125,
+          "wetCells": 126
+        }
+      ],
+      "difference60to120": {
+        "eventYears": 2.1246648884698516e-10,
+        "poolRelative": 9.982119814313377e-7,
+        "releaseRelative": 0.00002304457755257943
+      }
+    }
+  ],
+  "coefficientSensitivity": [
+    {
+      "coefficient": 1.38,
+      "status": "completed-horizon",
+      "elapsedYears": 99.99999999987973,
+      "releaseM3": 3043494584905.3086,
+      "residualM3": 0.04364013671875
+    },
+    {
+      "coefficient": 1.71,
+      "status": "completed-horizon",
+      "elapsedYears": 99.99999999987973,
+      "releaseM3": 3069170342470.215,
+      "residualM3": 0.02716064453125
+    }
+  ],
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

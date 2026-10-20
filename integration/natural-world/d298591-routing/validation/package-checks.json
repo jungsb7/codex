@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "4ba6823884181b0598ac6be86df4ee456c44e0fc",
+  "baselineFiles": 780,
+  "byteIdenticalFiles": 776,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/d298591-constraints/index.html"
+  ],
+  "newPayloadBytes": 861238,
+  "newPayloadSha256": "a3f552ea7c857bbd19c57db285175be91bacc193dc407805a7edab833d0b61d0",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

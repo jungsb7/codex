@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>D298591 · 물을 보존하며 출구를 계산하기</title><link rel="stylesheet" href="style.css"><script defer src="view.js"></script><script defer src="app.js"></script></head>
+<body><header><a href="../d298591-constraints/index.html">← 적설·에너지·출구 범위</a><span>PLANET ATLAS · 후속26</span></header>
+<main><p class="eyebrow">D298591 · 132격자 조건부 방류</p><h1>출구로 빠지는 물과,<br>계산을 멈춰야 할 수위.</h1>
+<p class="intro">619개 집수 격자의 눈·얕은 저장을 이어 계산합니다. 132개 원본 지형 기둥에 가정한 출구를 연결하고, 다른 해양 연결이 열리면 물을 보존한 채 멈춥니다.</p>
+<p class="notice"><strong>실제 물리 해결 0구간 · 23,022구간 미정.</strong> 아래 방류는 가정 장부의 외부 이동입니다. 실제 하폭·방류·침수·적설·결빙을 확정하거나 원본 수계에 반영하지 않습니다.</p>
+<p id="status" role="status">자료를 검증하는 중…</p><button id="retry" hidden>자료 다시 읽기</button><div id="content" hidden>
+<section><div class="heading"><h2>출구 조건을 비교하세요</h2><a href="REPORT.md">결과와 한계 ↗</a></div><div class="controls">
+<label>가정 증발<select id="evap"><option value="0.5">0.5 m/년</option><option value="1" selected>1 m/년</option><option value="2">2 m/년</option></select></label>
+<label>가정 외부 지하수 순손실<select id="ground"><option value="0">0 m/년</option><option value="0.25" selected>0.25 m/년</option></select></label>
+<label>초기 수면 재고<select id="initial"><option value="0">원래 문턱 체적의 0%</option><option value="0.5">원래 문턱 체적의 50%</option></select></label>
+<label>가정 출구 유효 폭<select id="width"><option value="100">100 m</option><option value="1000" selected>1,000 m</option><option value="5000">5,000 m</option></select></label>
+<label>문턱 기준 하류 수위<select id="tailwater"><option value="0">0 m · 자유 월류 가정</option><option value="0.05">+0.05 m · 보정 미정</option><option value="0.5">+0.5 m · 보정 미정</option><option value="1">+1 m · 보정 미정</option></select></label></div>
+<p class="note">Q = 1.5 × 폭 × 수두<sup>1.5</sup> (SI). 접근 유속을 무시해 수위 상승을 에너지 수두로 두는 가정입니다. 폭과 계수는 실제 지형에서 측정한 값이 아닙니다. 원본 12공전 기간을 최대 100년 반복합니다.</p>
+<p id="run-status" class="notice"></p><p id="energy-note" class="note"></p>
+<label class="year-label" for="year">저장된 계산 시점 <output id="year-label"></output></label><input id="year" type="range" min="0" max="100" step="1" value="100">
+<div id="metrics" class="metrics"></div><div class="visuals"><figure><figcaption>132개 원본 격자 · 선택 시점의 가정 수면</figcaption><svg id="map" viewBox="0 0 500 330" role="img" aria-label="조건부 수면과 추가된 원본 격자"></svg><p class="legend"><span class="wet">■</span> 가정 수면 <span class="dry">■</span> 육지 · 금색 테두리: 추가 11격자</p></figure>
+<figure><figcaption>최대 100년의 재고 · 중단 이후는 계산하지 않음</figcaption><svg id="chart" viewBox="0 0 500 330" role="img" aria-label="계산된 구간의 재고와 우회 출구 상한"></svg><p class="note">점은 연말 또는 중단 시점입니다. 중단 조건의 마지막 장부는 1년 전체가 아닙니다.</p></figure></div>
+<div class="actions"><button id="download">현재 조건 JSON 저장 ↓</button><a id="share-link">현재 비교 주소</a><a href="../unified-atlas/index.html#mode=drainage&cell=303204&lon=-36.4453125&lat=43.7109375&zoom=8">원본 지도 ↗</a></div></section>
+<section><h2 id="ledger-title">선택 구간의 물수지</h2><p>단위는 선택 구간의 km³입니다. 육지 유출과 수면 직접 유입은 내부 이동이므로 총강수에 다시 더하지 않습니다.</p><div class="table-wrap"><table><thead><tr><th>항목</th><th>km³ / 선택 구간</th><th>의미</th></tr></thead><tbody id="ledger"></tbody></table></div><p id="closure" class="note"></p></section>
+<section><h2>계산 범위의 끝도 장부에 남깁니다</h2><p id="guard"></p><p>우회 수위에 도달하면 이후의 강수·융설·증발·방류 계산을 모두 멈춥니다. 그 시점의 수면·눈·얕은 저장과 수치적 초과분을 보존합니다. 초과분은 미배분 보류량이며 실제 넘침으로 이름을 바꾸지 않습니다.</p><p>하류 수위가 문턱보다 높으면 잠김 보정과 역수위 모델이 필요하므로 시작부터 보류합니다. 이때 방류량은 0이 아니라 미정(null)입니다. 하류의 실제 유하·저류·해양 도달은 계산하지 않습니다.</p></section>
+<section><h2>여전히 필요한 물리 입력</h2><p>출구 단면·조도·실제 하류 수위, 수면 순복사·습도·수온, 눈 이동·빙하·결빙 및 지하수 되먹임은 미정입니다. 상류의 지속 적설은 지우지 않고 계산한 시간만큼 이어갑니다. 장부의 보존은 실제 지형·유량의 정확도 인증이 아닙니다.</p><p class="note">시간 간격과 계수 민감도는 <a href="REPORT.md">결과 보고서</a>, 수식의 적용 범위는 <a href="https://www.hec.usace.army.mil/confluence/rasdocs/ras1dtechref/6.5/modeling-bridges/hydraulic-computations-through-the-bridge/high-flow-computations">USACE 설명</a>을 참고하세요.</p></section>
+</div></main><footer><a href="README.md">재현·AI 안내</a><a href="output/summary.json">구조화 요약</a><a href="../d298591-surface/index.html">이전 수면 모델</a></footer></body></html>
