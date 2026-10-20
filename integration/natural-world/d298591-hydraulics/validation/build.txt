@@ -1,0 +1,11 @@
+{
+  "presets": 36,
+  "counts": {
+    "critical-or-supercritical": 6,
+    "completed": 17,
+    "bank-limit": 11,
+    "rapid-variation": 2
+  },
+  "bytes": 30415,
+  "maxEnergyResidualM": 6.02276086780762e-8
+}

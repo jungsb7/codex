@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "8cef6a3351af308525920dcc997233783fd37f4d",
+  "baselineFiles": 840,
+  "byteIdenticalFiles": 836,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/d298591-tailwater/index.html"
+  ],
+  "newPayloadBytes": 30415,
+  "newPayloadSha256": "71805ef95adf384c0f50852a6e902da67c3e9d9f4943d68f878395a4b851542b",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

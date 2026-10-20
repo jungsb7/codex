@@ -1,0 +1,21 @@
+✔ contract rejects missing, nonfinite, zero/reverse flow, unsupported geometry and implicit actual inputs (4.41213ms)
+✔ uniform rectangular channel has analytically constant normal depth and linear energy loss (5.376937ms)
+✔ critical depth follows specific-energy minimum with SI gravity and velocity terms (0.294105ms)
+✔ independent depth quadrature reproduces upstream distance for rising and falling profiles (5.041025ms)
+✔ independent implicit energy steps converge toward adaptive GVF solution (3.810794ms)
+✔ held boundary contains no invented interior or upstream result (0.266678ms)
+✔ interior bank guard retains only valid prefix and reports no actual flood (1.155954ms)
+✔ steep-slope upstream integration stops before critical/rapid transition without jumping regimes (1.756709ms)
+✔ horizontal channel has no finite normal depth and still uses downstream boundary (0.44314ms)
+✔ 36 presets reproduce stored outcomes, conserve constant Q and preserve null and prior holds (21.455286ms)
+✔ step refinement preserves completed end depths and stopped-prefix locations (14.85527ms)
+✔ provenance hashes and source-only length reuse are explicit (1.196973ms)
+✔ CLI requires explicit preset or complete input and agrees with browser-independent core (177.752857ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 261.639426

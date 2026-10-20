@@ -1,0 +1,27 @@
+{
+  "schema": "d298591-hydraulics-summary/1",
+  "context": {
+    "fromCell": 301657,
+    "toCell": 320078,
+    "nativePathCells": 21,
+    "lengthM": 487056.3661590521,
+    "nativeDropM": 1,
+    "adoptedNativeBed": false,
+    "adoptedNativeWidth": false,
+    "adoptedSourceFlow": false,
+    "originalBaselineMeanM3S": 892.4266250779232,
+    "priorTailwaterHeldCases": 108,
+    "priorAlternateLimitCases": 14,
+    "meaning": "Only route length is reused. Synthetic straight constant-section bed, constant assumed flow and local downstream-bed datum; no original elevations, widths or flows adopted."
+  },
+  "counts": {
+    "critical-or-supercritical": 6,
+    "completed": 17,
+    "bank-limit": 11,
+    "rapid-variation": 2
+  },
+  "presets": 36,
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}
