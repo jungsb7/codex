@@ -1,35 +1,30 @@
-# 최신 인수인계 · ZIP 없이 GitHub에서 이어가기
+# Planet 전체 원본 보관 · 2026-10-20
 
-다음 세션은 [NEXT_SESSION_PROMPT.txt](NEXT_SESSION_PROMPT.txt)부터 읽으세요. [현재 상태·복원·실행](handoff/CURRENT_STATE.md) · [다음 권장 목표](handoff/NEXT_GOALS.md). 계절 지도 개발 입력은 저장소의 기존 압축 자료에서 해시 검증 후 복원할 수 있습니다.
+제공된 `planet-full-handoff-v0.107` 작업 폴더의 **3,044개 파일, 2,480,165,475바이트 전체**입니다. 세계관 원문·국가 초안, v0.107 원본 행성 시뮬레이터 실행 HTML·개발 소스, 과거 버전별 인계 기록, 검증 결과·경제 자료, 현재 전 대륙 자연지도 개발 자료와 캐시를 포함합니다. 현재 제공된 폴더의 완전한 보관본이며, 이 폴더에 없던 과거 버전까지 소급 수집했다는 뜻은 아닙니다.
 
-이하 내용은 기존 시뮬레이터 안내입니다.
+현재 작업 시작점은 [main/NEXT_SESSION_PROMPT.txt](https://github.com/jungsb7/codex/blob/main/NEXT_SESSION_PROMPT.txt)입니다. 보관본 안의 옛 지시문은 당시 기록이며 현재 사용자의 요청보다 우선하지 않습니다. 현재 공개 지도와 최신 인계 문서는 main에서 계속 관리합니다.
 
-# Planet Atlas · 왕국과 제국
+## 복원
 
-[시뮬레이터 실행](https://jungsb7.github.io/codex/)
+Python 3.9 이상과 `zstd` CLI를 준비합니다(예: Debian/Ubuntu `sudo apt-get install zstd`).
 
-9개 권역의 정치·생활권·지형·기후·인구·식량·비축 지도, 설정 재계산과 기준안 비교, 광역/권역/격자/정밀 확대를 제공합니다.
-정밀 지형은 설계 모형이며 기후·경제는 권역 집계입니다. 정밀 버튼은 남북 약25m 표시 간격을 목표로 합니다.
+```sh
+git clone --depth 1 --single-branch --branch archive/full-handoff-20261020 https://github.com/jungsb7/codex.git planet-archive
+cd planet-archive
+python3 restore.py ../restored
+```
 
-GitHub Pages: main / root. 외부 API와 서버 계산은 사용하지 않습니다. 압축된 실행 파일은 브라우저에서 SHA-256을 검증한 뒤 엽니다. 최신 Chrome, Edge, Firefox, Safari가 필요합니다.
+결과: `../restored/planet-full-handoff-v0.107/`. 구 행성 시뮬레이터는 그 안의 `application/planet-observatory.html`, 개발 소스는 `application/source/`, 세계관은 `worldbuilding/WORLD_HANDOFF.md`에 있습니다. 브라우저에서 원본 HTML을 열거나 복원 폴더에서 로컬 HTTP 서버를 실행할 수 있습니다.
 
-[사용 안내](integration/atlas/README.md) · [원본 앱 공개 안내](application/planet-observatory.html) · [이전 공개 v0.77](legacy-v0.77.html)
+```sh
+python3 restore.py ../restored --verify-only
+```
 
-Atlas 원본 검증 61개 통과. 공개 패키지와 연결 자료는 별도로 검사했습니다.
+검증만 실행하면 추출하지 않고 압축 내부의 모든 파일을 확인합니다. 복원 도구는 48개 조각, 결합 압축본, 원본 3,044개 파일의 SHA-256을 모두 검사합니다. 이미 동일한 파일은 재사용하며 내용이 다른 파일은 덮어쓰지 않습니다. 압축본은 약402MB, 복원 원본은 약2.48GB이므로 작업 공간을 넉넉히 확보하세요. 원본에는 민감한 추가 설정을 자동 확정하지 않는 기존 구분과 미정값이 그대로 있습니다.
 
-Atlas 실행 파일 SHA-256: `ba089e8d2b7f1b49e88cf56a335fd57136dbf726a9f1670f02987384a22d42d4`
+- `ARCHIVE.json`: 조각별 크기·SHA-256·Git blob SHA와 전체 압축본 SHA-256.
+- `SOURCE_MANIFEST.json`: 원본 전체 경로·크기·SHA-256.
+- `verification.json`: 업로드 전 압축 내부 전 파일 검증 결과.
+- `parts/`: 8MiB 이하 조각. 일반 Git 파일이며 Git LFS나 외부 저장소에 의존하지 않습니다.
 
-데이터 파일 링크는 압축 자료를 원본 바이트로 복원하여 저장하는 다운로드 화면을 엽니다. 기존 세계와 계산 모형은 변경하지 않았습니다.
-
-별도 v0.107 원본 앱 전체 파일은 자동 공개 검토에서 차단되어 제외했습니다. 해당 링크는 안내 화면을 열며 이전 공개 v0.77도 유지합니다. 최신 Atlas의 9권역 계산·정밀 지형은 포함되어 있습니다.
-
-공개 범위는 최신 Atlas·2차 정밀 지형·계절 장부와 연결 자료입니다. 이전 1차 지형 및 초기 통합 독립 화면은 안내 링크로 대체했습니다.
-
-<!-- nature-pages -->
-## 전 대륙 자연지도
-
-[통합 자연지도 실행](https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html) · [왕국·제국 전략지도](https://jungsb7.github.io/codex/)
-
-전 대륙 268,857개 육지·호수 격자를 자연환경·지형·식생·수계·지질·검토 상태로 전환합니다. 숲·정글, 초원, 습지, 물길, 화산대 후보를 켜고 끌 수 있고, 선택 좌표의 검토 근거를 확인할 수 있습니다. 기존 설정과 계산 후보를 구분하며 새 자연물의 실제 경계와 면적은 확정하지 않습니다.
-
-전략지도 상단의 **전 대륙 자연지도**, 자연지도 상단의 **왕국·제국 지도**로 이동합니다. 같은 원본 격자를 유지하며 첫 이동의 세부 좌표도 보존합니다. 정밀 지형과 경제 자료는 기존 9권역 범위입니다.
+이 브랜치를 main에 병합하지 마세요. 별도 보관 브랜치로 유지하여 기본 지도 작업의 shallow clone과 Pages 배포에 전체 보관본이 들어가지 않게 합니다.
