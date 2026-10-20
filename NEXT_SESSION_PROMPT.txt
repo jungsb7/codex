@@ -7,7 +7,9 @@ GitHub 기반 최신 인수인계 — 후속19 완료, 2026-10-20
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md — 완료 범위·출처·실행·제약
 3. handoff/NEXT_GOALS.md — 다음 권장 목표(미착수)
-4. integration/natural-world/atlas-experience/README.md 및 REPORT.md
+4. worldbuilding/WORLD_HANDOFF.md — 기존 세계관 기준 원문
+5. handoff/FULL_ARCHIVE.md — 세계관·구 행성 시뮬레이터·원본 전체 보관 및 복원
+6. integration/natural-world/atlas-experience/README.md 및 REPORT.md
 
 현재 기능 기준 커밋: 376f07e035f771d2ddc4554011ca3e8bba115e83
 Pages build/deploy 성공: https://github.com/jungsb7/codex/actions/runs/39357485994
@@ -29,5 +31,5 @@ python3 -m http.server 8000 --bind 127.0.0.1
 - 원본 약26km 고도와 명목3.26km 확대 표시를 구분한다. 후자는 새 물리DEM·실제 숲/습지 경계가 아니다.
 - 12기간은 공전위상이며 달력월이 아니다. 원본 기온/강수, 기간평균 후보유량, 양자화 오차를 보존한다.
 - 전역 미정 경계1184곳·관련집수권168576격자·하류미정 물길23022구간을 자동 확정하지 않는다. 앞선9곳 국지 검토는 종료됐다.
-- 이 저장소는 과거 연구 전체2.4GB 소스 백업이 아니다. 다음 권장 지도 작업에 필요한 실행코드·원본자료·검사는 Git에서 재현된다. 다른 옛 연구를 전체 재실행하려면 해당 입력의 존재를 먼저 확인한다.
+- 제공된 원본 전체 3,044개 파일(약2.48GB)은 별도 archive/full-handoff-20261020 브랜치에 보관했다. 세계관 원문은 main/worldbuilding에도 있다. 구 v0.107 행성 시뮬레이터 실행 HTML·개발 소스·검증 자료는 handoff/FULL_ARCHIVE.md를 따라 복원한다. ZIP 재업로드는 필요 없다. 원본 폴더에 없던 과거 버전까지 있다는 뜻은 아니다.
 - 기록된49검사는 후속19 당시 기록이다. 새 작업의 검증 결과와 혼동하지 않는다. 실제 Pages 도메인 직접 브라우저 확인은 당시 네트워크 정책으로 미실시했다.

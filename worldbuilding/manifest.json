@@ -1,0 +1,29 @@
+{
+  "as_of": "2026-10-13",
+  "title": "이름 미정 판타지 아카데미 루프 게임 세계관 인수인계",
+  "primary": "WORLD_HANDOFF.md",
+  "readable": "WORLD_HANDOFF.html",
+  "previous_lore_source": {
+    "library_file_id": "libfile_8e8663dff714819189bf5b7991d2c404",
+    "file": "planet-handoff-20261012.zip",
+    "member": "planet-handoff-20261012/HANDOFF.md",
+    "sections": "7–11"
+  },
+  "current_map_source": {
+    "library_file_id": "libfile_ddb498a85b608191b42cdfc59883c53e",
+    "app_version": "0.22",
+    "library_version": 21
+  },
+  "development_handoff": {
+    "library_file_id": "libfile_a75e646d4bb881918c486ab373241b25",
+    "file": "planet-codex-handoff-20261013.zip"
+  },
+  "files": {
+    "WORLD_HANDOFF.html": "b03f402737048545f40b448107fa49538080c4a7c4f53a4a47bbcfb75c972cb3",
+    "NEXT_SESSION_PROMPT.txt": "2413ac8c889f25aa18cf66cb31e02ae736fc12b14399eb7dd802ab1ec36e0ff9",
+    "WORLD_HANDOFF.md": "53fea88b4a820aa3aef7d79e795386146b98d9c536fccfbd4db4a0bc44fc19e9",
+    "README.txt": "eba37dced0a594f5863afd1a99aeb528dd23651fa2133e781a92bfe4076d892e",
+    "sources/current-country-drafts.json": "d121ab048e65813cb77fb5c6c5390dddfcbe85453466f0a51e301fa4f6f37762",
+    "sources/previous-lore-source.md": "d5861f9f1783efe6ea42f55d4c687421c28e598e3954e95cf643a3d75d05e224"
+  }
+}
