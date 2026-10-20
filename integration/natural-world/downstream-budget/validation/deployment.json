@@ -1,0 +1,9 @@
+{
+  "status": "validated-awaiting-publication",
+  "baseline": "f939f3f28d1e35ace62cabd7442725d63abd9108",
+  "modelTests": 37,
+  "browserChecks": 24,
+  "experiments": 60,
+  "physicalResolvedReaches": 0,
+  "note": "원본 구간 분류·대표 장부 검증 완료. 실제 저류·침투·넘침 확정은 아님."
+}

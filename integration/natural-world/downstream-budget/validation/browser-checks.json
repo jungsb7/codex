@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "direct shared address restores representative and every assumption after verified async load",
+    "exclusive category counts and physical-unresolved status are shown",
+    "all 60 representative scenarios and six actual JSON downloads match the tested model",
+    "reload and back restore inputs and results together",
+    "share link opens identical evidence and experiment in a fresh page",
+    "boundary and reach lookup distinguish known, ocean-connected and invalid inputs",
+    "map link selects the exact source terminal in drainage mode",
+    "desktop and 390/320px fit with usable selectors and source/assumption distinctions",
+    "review page never requests full map or seasonal arrays",
+    "http failure hides results and retry restores the requested comparison",
+    "hash failure hides results and retry restores the requested comparison",
+    "schema failure hides results and retry restores the requested comparison"
+  ],
+  "pageErrors": [],
+  "scenarioComparisons": 60,
+  "jsonDownloads": 6
+}

@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../../..'),baseline='f939f3f28d1e35ace62cabd7442725d63abd9108';
+const allowed=new Set(['NEXT_SESSION_PROMPT.txt','handoff/CURRENT_STATE.md','handoff/NEXT_GOALS.md','integration/natural-world/unified-atlas/index.html']);
+let preserved=0;const changed=[];
+const rows=cp.execFileSync('git',['ls-tree','-r',baseline],{cwd:root,encoding:'utf8'}).trim().split('\n');
+for(const row of rows){
+  const [meta,file]=row.split('\t'),b=fs.readFileSync(path.join(root,file)),hash=crypto.createHash('sha1').update('blob '+b.length+'\0').update(b).digest('hex');
+  if(hash===meta.split(' ')[2])preserved++;else{assert(allowed.has(file),'Unexpected change: '+file);changed.push(file);}
+}
+const manifest=JSON.parse(fs.readFileSync(path.join(__dirname,'output/manifest.json'))),bytes=fs.readFileSync(path.join(__dirname,'output',manifest.file));
+assert.equal(bytes.length,manifest.bytes);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),manifest.sha256);
+for(const page of ['index.html','../unified-atlas/index.html']){
+  const file=path.resolve(__dirname,page),html=fs.readFileSync(file,'utf8');
+  for(const [,href]of html.matchAll(/(?:href|src)="([^"#]+)"/g))if(!/^(?:\w+:|\/)/.test(href))assert(fs.existsSync(path.resolve(path.dirname(file),href)),href);
+}
+const result={status:'passed',baseline,baselineFiles:rows.length,byteIdenticalFiles:preserved,changedAllowedFiles:changed,newPayloadBytes:bytes.length,newPayloadSha256:manifest.sha256,physicalInputsAndClosedReviewUnchanged:true};
+fs.writeFileSync(path.join(__dirname,'validation/package-checks.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));
