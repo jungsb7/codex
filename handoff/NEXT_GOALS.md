@@ -1,6 +1,6 @@
 # 후속23 결과와 다음 물리 검증
 
-사용자 요청에 따라 미정23,022구간 분류와 대표6유역 조건부 장부 검증을 진행했다. [현재 구현·검증·배포 상태](CURRENT_STATE.md), [결과와 한계](../integration/natural-world/downstream-budget/REPORT.md)를 확인한다. **실제 저류·침투·넘침은 아직 미정이며 분류 완료를 물리 해결로 읽지 않는다.**
+사용자 요청에 따라 미정23,022구간 분류와 대표6유역 조건부 장부 검증·[PR #3](https://github.com/jungsb7/codex/pull/3) 병합·Pages 배포를 완료했다. [현재 구현·검증·배포 상태](CURRENT_STATE.md), [결과와 한계](../integration/natural-world/downstream-budget/REPORT.md)를 확인한다. **실제 저류·침투·넘침은 아직 미정이며 분류 완료를 물리 해결로 읽지 않는다.**
 
 ## 다음 권장 목표: D298591 한 유역의 동적 수면 전환 장부
 

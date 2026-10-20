@@ -1,9 +1,40 @@
 {
-  "status": "validated-awaiting-publication",
+  "status": "deployed",
   "baseline": "f939f3f28d1e35ace62cabd7442725d63abd9108",
+  "featureCommit": "563e9e94be3426a1e3183135fc736cb00e10060f",
+  "mergeCommit": "ae427f0700fd9567cb89fc3afdcf084311eef4db",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/3",
+  "pagesRun": {
+    "id": 39417479845,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39417479845",
+    "headSha": "ae427f0700fd9567cb89fc3afdcf084311eef4db",
+    "jobs": [
+      {
+        "id": 118609920635,
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "id": 118610129974,
+        "name": "report-build-status",
+        "conclusion": "success"
+      },
+      {
+        "id": 118610130083,
+        "name": "deploy",
+        "conclusion": "success"
+      }
+    ]
+  },
   "modelTests": 37,
   "browserChecks": 24,
   "experiments": 60,
   "physicalResolvedReaches": 0,
-  "note": "원본 구간 분류·대표 장부 검증 완료. 실제 저류·침투·넘침 확정은 아님."
+  "remainingPhysicallyUnresolvedReaches": 23022,
+  "liveBrowserVerified": false,
+  "liveOriginAttempt": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/downstream-budget/index.html",
+    "result": "Environment proxy tunnel rejected access: 403 Forbidden"
+  },
+  "note": "기능 병합의 Pages 작업 성공을 확인했다. 최종 인계 문서 커밋은 이 기능 커밋보다 최신일 수 있다. 공개 도메인 직접 확인과 로컬 브라우저 검증을 구분한다. 실제 저류·침투·넘침 확정은 아님."
 }
