@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "shared address restores all assumptions and selected year after verified loading",
+    "36 scenario/year comparisons, actual wet-grid counts and 12 JSON downloads match model results",
+    "reload and back preserve complete evidence with matching assumptions",
+    "shared comparison opens identically in another page",
+    "1440/390/320px fit with keyboard controls, labeled plots and visible conditional status",
+    "comparison loads only its compressed review, without original simulator or full seasonal arrays",
+    "invalid shared values safely restore explicit defaults",
+    "http failure hides results and retry preserves requested scenario/year",
+    "hash failure hides results and retry preserves requested scenario/year",
+    "schema failure hides results and retry preserves requested scenario/year",
+    "previous downstream review links to the new working page"
+  ],
+  "pageErrors": [],
+  "scenarioYearComparisons": 36,
+  "jsonDownloads": 12
+}

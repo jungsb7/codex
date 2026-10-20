@@ -1,0 +1,9 @@
+{
+  "status": "ready-for-publication",
+  "baseline": "7f803eb5f3fd17d4ce3edbf887f9deb2646fd675",
+  "featureCommit": null,
+  "mergeCommit": null,
+  "pagesRun": null,
+  "publicOriginVerified": false,
+  "scope": "D298591 conditional dynamic surface budget; no physical adoption"
+}

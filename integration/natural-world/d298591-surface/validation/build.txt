@@ -1,0 +1,376 @@
+Simulating {"initialFraction":0,"evaporationMPerYear":0.5,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0,"evaporationMPerYear":0.5,"netGroundLossMPerYear":0.25}
+Simulating {"initialFraction":0,"evaporationMPerYear":1,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0,"evaporationMPerYear":1,"netGroundLossMPerYear":0.25}
+Simulating {"initialFraction":0,"evaporationMPerYear":2,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0,"evaporationMPerYear":2,"netGroundLossMPerYear":0.25}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":0.5,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":0.5,"netGroundLossMPerYear":0.25}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":1,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":1,"netGroundLossMPerYear":0.25}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":2,"netGroundLossMPerYear":0}
+Simulating {"initialFraction":0.5,"evaporationMPerYear":2,"netGroundLossMPerYear":0.25}
+Refining 0 60
+Refining 0 120
+Refining 0 60
+Refining 0 120
+Refining 0.5 60
+Refining 0.5 120
+Refining 0.5 60
+Refining 0.5 120
+{
+  "localPonds": 5,
+  "sourceAnnual": {
+    "precipitationM3": 204783940247.40292,
+    "evaporationM3": 111115993557.15094,
+    "runoffM3": 87660045867.17834,
+    "snowChangeM3": 6007900419.893773,
+    "shallowStoreChangeM3": 403.1797630786896
+  },
+  "convergence": [
+    {
+      "initialFraction": 0,
+      "evaporationMPerYear": 1,
+      "netGroundLossMPerYear": 0.25,
+      "runs": [
+        {
+          "substeps": 30,
+          "firstExcess": {
+            "year": 8,
+            "period": 6,
+            "substep": 21,
+            "elapsedYears": 7.475
+          },
+          "finalPoolM3": 407803095119.7676,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3508133848797.1904,
+          "maxPeriodResidualM3": 0.0006566047668457031,
+          "totalResidualM3": -0.05126953125
+        },
+        {
+          "substeps": 60,
+          "firstExcess": {
+            "year": 8,
+            "period": 6,
+            "substep": 43,
+            "elapsedYears": 7.476388888888889
+          },
+          "finalPoolM3": 407855192206.90625,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3508094187033.858,
+          "maxPeriodResidualM3": 0.0011796951293945312,
+          "totalResidualM3": 0.06524658203125
+        },
+        {
+          "substeps": 120,
+          "firstExcess": {
+            "year": 8,
+            "period": 6,
+            "substep": 88,
+            "elapsedYears": 7.477777777777778
+          },
+          "finalPoolM3": 407881240750.4746,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3508071810972.038,
+          "maxPeriodResidualM3": 0.00301361083984375,
+          "totalResidualM3": -0.13873291015625
+        }
+      ],
+      "relative60to120": {
+        "pool": 0.00006386305857173468,
+        "excess": 0.000006378450335548896
+      }
+    },
+    {
+      "initialFraction": 0,
+      "evaporationMPerYear": 2,
+      "netGroundLossMPerYear": 0.25,
+      "runs": [
+        {
+          "substeps": 30,
+          "firstExcess": null,
+          "finalPoolM3": 279581686374.0447,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.0009906291961669922,
+          "totalResidualM3": -0.107421875
+        },
+        {
+          "substeps": 60,
+          "firstExcess": null,
+          "finalPoolM3": 279602331643.0116,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.0015409588813781738,
+          "totalResidualM3": -0.02386474609375
+        },
+        {
+          "substeps": 120,
+          "firstExcess": null,
+          "finalPoolM3": 279610988677.2348,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.003268718719482422,
+          "totalResidualM3": -0.120361328125
+        }
+      ],
+      "relative60to120": {
+        "pool": 0.00003096099428766978,
+        "excess": 0
+      }
+    },
+    {
+      "initialFraction": 0.5,
+      "evaporationMPerYear": 1,
+      "netGroundLossMPerYear": 0.25,
+      "runs": [
+        {
+          "substeps": 30,
+          "firstExcess": {
+            "year": 5,
+            "period": 4,
+            "substep": 17,
+            "elapsedYears": 4.2972222222222225
+          },
+          "finalPoolM3": 407803095119.7676,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3626145094573.2715,
+          "maxPeriodResidualM3": 0.0008640289306640625,
+          "totalResidualM3": -0.0491943359375
+        },
+        {
+          "substeps": 60,
+          "firstExcess": {
+            "year": 5,
+            "period": 4,
+            "substep": 34,
+            "elapsedYears": 4.2972222222222225
+          },
+          "finalPoolM3": 407855192206.90625,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3626089199773.6113,
+          "maxPeriodResidualM3": 0.0017099380493164062,
+          "totalResidualM3": 0.0673828125
+        },
+        {
+          "substeps": 120,
+          "firstExcess": {
+            "year": 5,
+            "period": 4,
+            "substep": 69,
+            "elapsedYears": 4.297916666666667
+          },
+          "finalPoolM3": 407881240750.4746,
+          "finalAreaM2": 60015844382.56692,
+          "totalExcessM3": 3626063280418.302,
+          "maxPeriodResidualM3": 0.0021562576293945312,
+          "totalResidualM3": -0.157745361328125
+        }
+      ],
+      "relative60to120": {
+        "pool": 0.00006386305857173468,
+        "excess": 0.000007148070318999028
+      }
+    },
+    {
+      "initialFraction": 0.5,
+      "evaporationMPerYear": 2,
+      "netGroundLossMPerYear": 0.25,
+      "runs": [
+        {
+          "substeps": 30,
+          "firstExcess": null,
+          "finalPoolM3": 279581690645.447,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.000993967056274414,
+          "totalResidualM3": -0.1142120361328125
+        },
+        {
+          "substeps": 60,
+          "firstExcess": null,
+          "finalPoolM3": 279602359114.494,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.0014225244522094727,
+          "totalResidualM3": -0.037628173828125
+        },
+        {
+          "substeps": 120,
+          "firstExcess": null,
+          "finalPoolM3": 279611011911.23676,
+          "finalAreaM2": 47589970764.1442,
+          "totalExcessM3": 0,
+          "maxPeriodResidualM3": 0.0024476051330566406,
+          "totalResidualM3": -0.069000244140625
+        }
+      ],
+      "relative60to120": {
+        "pool": 0.000030945836802320466,
+        "excess": 0
+      }
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "E0.5-G0-I0",
+      "first": {
+        "year": 5,
+        "period": 11,
+        "substep": 3,
+        "elapsedYears": 4.841666666666667
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.865611624334,
+      "excessKm3": 7896.870367612347,
+      "residual": -0.09075927734375,
+      "wetTransitions": 121,
+      "dryTransitions": 0
+    },
+    {
+      "id": "E0.5-G0.25-I0",
+      "first": {
+        "year": 6,
+        "period": 5,
+        "substep": 12,
+        "elapsedYears": 5.366666666666667
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.8447727894785,
+      "excessKm3": 6425.958655609478,
+      "residual": -0.0770263671875,
+      "wetTransitions": 121,
+      "dryTransitions": 0
+    },
+    {
+      "id": "E1-G0-I0",
+      "first": {
+        "year": 7,
+        "period": 3,
+        "substep": 11,
+        "elapsedYears": 6.197222222222222
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.82393395462304,
+      "excessKm3": 4961.887271960777,
+      "residual": -0.04949951171875,
+      "wetTransitions": 122,
+      "dryTransitions": 1
+    },
+    {
+      "id": "E1-G0.25-I0",
+      "first": {
+        "year": 8,
+        "period": 6,
+        "substep": 21,
+        "elapsedYears": 7.475
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.8030951197676,
+      "excessKm3": 3508.1338487971902,
+      "residual": -0.05126953125,
+      "wetTransitions": 126,
+      "dryTransitions": 5
+    },
+    {
+      "id": "E2-G0-I0",
+      "first": null,
+      "areaKm2": 54485.47524013501,
+      "poolKm3": 354.2651752917352,
+      "excessKm3": 0,
+      "residual": -0.12872314453125,
+      "wetTransitions": 456,
+      "dryTransitions": 346
+    },
+    {
+      "id": "E2-G0.25-I0",
+      "first": null,
+      "areaKm2": 47589.9707641442,
+      "poolKm3": 279.5816863740447,
+      "excessKm3": 0,
+      "residual": -0.107421875,
+      "wetTransitions": 393,
+      "dryTransitions": 297
+    },
+    {
+      "id": "E0.5-G0-I0.5",
+      "first": {
+        "year": 3,
+        "period": 5,
+        "substep": 9,
+        "elapsedYears": 2.3583333333333334
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.865611624334,
+      "excessKm3": 8095.310127394187,
+      "residual": -0.088714599609375,
+      "wetTransitions": 121,
+      "dryTransitions": 0
+    },
+    {
+      "id": "E0.5-G0.25-I0.5",
+      "first": {
+        "year": 3,
+        "period": 11,
+        "substep": 23,
+        "elapsedYears": 2.897222222222222
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.8447727894785,
+      "excessKm3": 6602.230959775326,
+      "residual": -0.079559326171875,
+      "wetTransitions": 121,
+      "dryTransitions": 0
+    },
+    {
+      "id": "E1-G0-I0.5",
+      "first": {
+        "year": 4,
+        "period": 5,
+        "substep": 15,
+        "elapsedYears": 3.375
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.82393395462304,
+      "excessKm3": 5111.670259033278,
+      "residual": -0.049072265625,
+      "wetTransitions": 122,
+      "dryTransitions": 1
+    },
+    {
+      "id": "E1-G0.25-I0.5",
+      "first": {
+        "year": 5,
+        "period": 4,
+        "substep": 17,
+        "elapsedYears": 4.2972222222222225
+      },
+      "areaKm2": 60015.84438256692,
+      "poolKm3": 407.8030951197676,
+      "excessKm3": 3626.1450945732713,
+      "residual": -0.0491943359375,
+      "wetTransitions": 123,
+      "dryTransitions": 2
+    },
+    {
+      "id": "E2-G0-I0.5",
+      "first": null,
+      "areaKm2": 54485.47524013501,
+      "poolKm3": 354.26517529608583,
+      "excessKm3": 0,
+      "residual": -0.11871337890625,
+      "wetTransitions": 471,
+      "dryTransitions": 361
+    },
+    {
+      "id": "E2-G0.25-I0.5",
+      "first": null,
+      "areaKm2": 47589.9707641442,
+      "poolKm3": 279.581690645447,
+      "excessKm3": 0,
+      "residual": -0.1142120361328125,
+      "wetTransitions": 402,
+      "dryTransitions": 306
+    }
+  ]
+}

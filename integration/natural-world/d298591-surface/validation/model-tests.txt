@@ -1,0 +1,21 @@
+✔ original 7,428 probe rows close per cell; monthly source state and all fluxes reproduce the archive (27.887666ms)
+✔ probe world hashes, bit-identical global runoff evidence and committed provenance remain bound (151.436399ms)
+✔ source phase averaging matches earlier transported boundary inflow within Float32 rounding (0.33373ms)
+✔ 619 deliveries independently follow canonical routing to original physical entries and sphere areas (551.061246ms)
+✔ all local pond merge thresholds agree with independent native-cell minimax paths (6.025365ms)
+✔ fill and dry across every local saddle conserve independently integrated column volumes (4.510518ms)
+✔ wet conversion retains shallow inventory and routes rain/snow exactly once, with no land ET/runoff (1.977924ms)
+✔ submerged shallow storage survives and resumes on drying; snow carries across both switches (0.199458ms)
+✔ all 12 century scenarios conserve external water and internal delivery with independent end inventories (8.440329ms)
+✔ saved annual wet masks and areas equal native elevation tests for each active pool (21.299814ms)
+✔ wet/dry and overflowing cases pass 30/60/120 refinement without declaring universal convergence (0.269683ms)
+✔ free-flow rating requires positive head and reverses to required width, without actual outlet assignment (0.69214ms)
+✔ UI and AI expose every scenario/year and preserve physical null values; invalid selections fail (2.965513ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 849.432234
