@@ -1,0 +1,23 @@
+✔ all physical assumptions and force components are explicit typed values (1.608437ms)
+✔ parallel equal-speed analytic case has depth5, zero net force and zero loss within tolerance (1.001309ms)
+✔ symmetric angled solution agrees with an independent cubic Newton solve (1.414992ms)
+✔ integrated hydrostatic pressure and independent vector fluxes balance (4.71713ms)
+✔ a target-stage manufactured force fixture recovers6m without fitting forces (1.622762ms)
+✔ longitudinal root alone does not pass an unbalanced transverse force (3.016922ms)
+✔ energy feasibility is independent of force balance and does not clamp negative dissipation (0.538162ms)
+✔ horizontal bed pressure, wall and friction are separate signed force components (0.525007ms)
+✔ datum translation changes elevation only; density scaling changes forces and power only (0.82832ms)
+✔ reflection and inlet permutation preserve physical results and transverse signs (0.755597ms)
+✔ boundary and shared-domain failures leave no trial or accepted water surface (0.6103ms)
+✔ different inlet beds share stage under the explicit closure, not depth (0.310974ms)
+✔ phase29 prescribed energy relation is reproduced without overriding its unequal surfaces (18.805482ms)
+✔ 13 scenarios preserve actual nulls and prior unresolved states, including comparisons (9.78261ms)
+✔ provenance, payload integrity and CLI complete/error states are reproducible (156.46578ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 260.528834

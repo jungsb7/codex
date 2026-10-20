@@ -1,0 +1,13 @@
+PASS initial state has no implicit assumed force or geometry
+PASS all13 examples and13 downloaded JSON outputs preserve completed and held diagnostics
+PASS full assumptions survive sharing, reload and history
+PASS editing clears stale results and custom input computes only after submission
+PASS transverse imbalance retains trial only and never fills missing forces
+PASS energy contradiction and phase29 unequal-surface comparison are distinguished from momentum acceptance
+PASS missing force and missing/zero/reverse flow remain invalid instead of inheriting defaults
+PASS clear and incomplete shared inputs leave results empty
+PASS 1440/390/320px and force editor fit viewport without original climate or geometry downloads
+PASS http failure hides results and retry restores complete requested assumptions
+PASS hash failure hides results and retry restores complete requested assumptions
+PASS schema failure hides results and retry restores complete requested assumptions
+PASS previous stage links to this candidate without preselecting assumptions

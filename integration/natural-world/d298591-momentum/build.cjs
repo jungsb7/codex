@@ -1,0 +1,14 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto'),M=require('./core.js'),C=require('../d298591-confluence/core.js'),{examples,copy}=require('./examples.cjs');
+const root=path.resolve(__dirname,'..'),hash=f=>crypto.createHash('sha256').update(fs.readFileSync(path.join(root,f))).digest('hex'),prior=require('../d298591-confluence/output/catalog.json');
+// Transfer the explicitly assumed phase29 local junction only. Original route,
+// climate and flow ledgers are not imported as physical section data.
+const seed=prior.presets.find(p=>p.id==='junction-losses'),old=C.solve(seed.input),junction=old.junctions[0],p=copy(examples[0].input);
+p.inlets=junction.branches.map(b=>{const r=seed.input.reaches.find(r=>r.id===b.reachId),s=r.sections.at(-1);return {id:r.id,widthM:s.widthM,bedM:s.bedM,bankDepthM:s.bankDepthM,flowM3S:b.flowM3S,angleDeg:r.junctionAngleDeg,comparisonLossM:r.junctionLossM};});
+const downstream=seed.input.reaches.find(r=>r.id===junction.downstreamReachId),s=downstream.sections[0];
+p.outlet={id:downstream.id,widthM:s.widthM,bedM:s.bedM,bankDepthM:s.bankDepthM,flowM3S:null,angleDeg:0,depthM:old.reaches.find(r=>r.id===downstream.id).upstreamDepthM};
+examples.push({id:'phase29-comparison',label:'후속29 손실 가정 · 필요한 힘 비교',input:p,note:'후속29 junction-losses의 가정 단면·국지 경계만 대조. 실제 원본 하류 입력 아님.'});
+const presets=examples.map(p=>({...p,expected:M.solve(p.input)})),counts={};for(const p of presets)counts[p.expected.status]=(counts[p.expected.status]??0)+1;
+const catalog={schema:'d298591-momentum-catalog/1',provenance:{baseline:'29bd0df7145c347c0fc1e07b111d110cbab74a1d',inputs:{'d298591-confluence/output/catalog.json':hash('d298591-confluence/output/catalog.json'),'d298591-confluence/core.js':hash('d298591-confluence/core.js')},code:Object.fromEntries(['core.js','examples.cjs','build.cjs'].map(f=>['d298591-momentum/'+f,hash('d298591-momentum/'+f)]))},context:{allInputs:'explicit synthetic assumptions',sourceGeometryAdopted:false,sourceFlowAdopted:false,spatial2DSolver:false,priorTailwaterHeldCases:108,priorAlternateLimitCases:14},presets,counts,physicalResolvedReaches:0,unresolvedReaches:23022,automaticAdoption:false};
+const out=path.join(__dirname,'output');fs.mkdirSync(out,{recursive:true});const bytes=Buffer.from(JSON.stringify(catalog));fs.writeFileSync(path.join(out,'catalog.json'),bytes);fs.writeFileSync(path.join(out,'manifest.json'),JSON.stringify({schema:'d298591-momentum-manifest/1',file:'catalog.json',bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex')},null,2)+'\n');
+const summary={schema:'d298591-momentum-summary/1',presets:presets.length,counts,physicalResolvedReaches:0,unresolvedReaches:23022,automaticAdoption:false};fs.writeFileSync(path.join(out,'summary.json'),JSON.stringify(summary,null,2)+'\n');console.log(JSON.stringify(summary,null,2));

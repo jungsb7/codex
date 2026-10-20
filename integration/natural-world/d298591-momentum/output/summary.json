@@ -1,0 +1,14 @@
+{
+  "schema": "d298591-momentum-summary/1",
+  "presets": 13,
+  "counts": {
+    "completed": 7,
+    "held-momentum": 1,
+    "held-energy": 1,
+    "held-boundary": 2,
+    "held-domain": 2
+  },
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}
