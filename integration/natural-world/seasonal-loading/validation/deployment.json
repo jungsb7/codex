@@ -1,0 +1,57 @@
+{
+  "status": "deployed",
+  "repository": "jungsb7/codex",
+  "branch": "main",
+  "featureCommit": "3b17bb97ead2457ee811c1db73587856ca7e8533",
+  "treeSHA256Note": "Git tree uses SHA-1; payloads use SHA-256",
+  "verifiedGitTree": "4b4e03c0b0f8d525bdfa410b7c81a258b247a0c3",
+  "baselineCommit": "c3e35086a1cbdde37424225d117eb412d56fec83",
+  "changedFiles": 324,
+  "uploadedBinaryFilesVerified": 290,
+  "workflow": {
+    "id": 39374199800,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39374199800",
+    "status": "completed",
+    "conclusion": "success",
+    "headSHA": "3b17bb97ead2457ee811c1db73587856ca7e8533",
+    "jobs": [
+      {
+        "id": 118468550895,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118468692931,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 118468692932,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "directSiteCheck": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html",
+    "status": "not-verified",
+    "method": "HTTPS HEAD probe from managed environment; direct browser check not attempted after proxy denial",
+    "result": "Proxy CONNECT returned HTTP 403; this is not an HTTP response from the published site",
+    "observedAtUTC": "2026-10-20T05:08:57Z"
+  },
+  "localVerification": {
+    "modelTests": 18,
+    "browserTests": 25,
+    "landscapeViews": 72,
+    "beforeAfterCaptures": 144,
+    "coordinateFeatureSeasonExports": 12,
+    "tileHaloPairs": 56,
+    "tileHaloPixelDifferences": 0
+  },
+  "physicalDEMChanged": false,
+  "newPhysicalAdoptions": 0,
+  "previousNinePondReviewClosed": true
+}

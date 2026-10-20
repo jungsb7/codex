@@ -1,8 +1,21 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속19 완료 상태를 기록한다. 다음 목표는 [NEXT_GOALS.md](NEXT_GOALS.md)에 있으며 미착수 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속20 완료 상태를 기록한다. 계절 경량화·12경관 점검은 종료됐으며, [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 현재 완료
+## 후속20 완료 — 2026-10-20
+
+- 기간별 계절 로딩: 첫 선택 최대5.60MB(기존41.38MB), 인접 두 기간과 그래프 포함 상한9.47MB. 기온·강수·후보유량 전수 일치.
+- 3기간 캐시·인접 미리 읽기·취소 및 늦은 응답 방지, HTTP/해시/목록/그래프 오류·재시도·새로고침·뒤로 가기 대응.
+- 자연11권역+기존호수의 12대표 경관: 12/24/32배·데스크톱/390px 전후144장, 물길 대비·표시선 클릭·타일 이웃 여백·지명 겹침 개선.
+- 자료18검사·브라우저25검사·경관72조건·12곳 JSON 일치. 원본·경제·세계관·미정 상태 유지.
+
+기능 커밋: `3b17bb97ead2457ee811c1db73587856ca7e8533`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39374199800)의 build/deploy 결과와 실제 도메인 접속 제한은 [배포 기록](../integration/natural-world/seasonal-loading/validation/deployment.json)에 구분한다. 인계 문서 커밋은 기능 커밋보다 최신일 수 있다.
+
+[구현·재현·성능](../integration/natural-world/seasonal-loading/README.md) · [12경관 점검표](../integration/natural-world/seasonal-loading/QUALITY.md) · [전후 비교](../integration/natural-world/seasonal-loading/REVIEW.html) · [자료 검사](../integration/natural-world/seasonal-loading/validation/model-tests.txt) · [패키지·보존 검사](../integration/natural-world/seasonal-loading/validation/package-checks.json).
+
+로컬 3회 중앙값의 첫 계절 표시3.60초→1.20초, 추가 JS heap19.00MB→7.93MB, backing storage39.76MB→9.25MB. 전체 프로세스 RSS나 실제망 속도 보장이 아니다. 캐시 밖 전환은 추가 요청 때문에 이전 전체 선로딩보다 느릴 수 있다.
+
+## 후속19까지 완료한 기반 기능
 
 - 전 대륙268857개 육지·기존호수 격자, 자연11권역 통합 지도.
 - 12기간 기온·강수·상대강수 및 후보유량 표시.
@@ -10,7 +23,7 @@
 - 12배 이상 자연/지형/식생 보기의 보간 음영·등고선·계곡·숲/습지 패치. 명목3.26km 설계 표시이며 원본 약26km 물리자료를 변경하지 않는다.
 - 경관 후보6528연속군·대표30곳 초안. 실제 피복 채택0건.
 
-기능 기준 커밋: `376f07e035f771d2ddc4554011ca3e8bba115e83`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39357485994)의 build/deploy 성공. [지도](https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html).
+후속19 당시 기능 기준 커밋: `376f07e035f771d2ddc4554011ca3e8bba115e83`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39357485994)의 build/deploy 성공. [지도](https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html).
 
 49검사와 원본1663파일 보존은 **당시 검증 기록**이다. [validation/final-checks.json](validation/final-checks.json), [배포 기록](validation/deployment.json)을 보존했다. 현재 원격 main은 이 인계 문서 추가 등으로 위 기능 커밋보다 새로울 수 있다.
 
@@ -20,7 +33,7 @@
 git clone --depth 1 https://github.com/jungsb7/codex.git
 cd codex
 node handoff/restore-inputs.cjs
-node --test --test-isolation=none integration/natural-world/atlas-experience/test.cjs
+node --test --test-isolation=none integration/natural-world/atlas-experience/test.cjs integration/natural-world/seasonal-loading/test.cjs
 python3 -m http.server 8000 --bind 127.0.0.1
 ```
 
@@ -47,7 +60,7 @@ Playwright 및 Chromium을 준비한 뒤 저장소 루트에서:
 PLAYWRIGHT_MODULE=/opt/codex/cua_node/lib/node_modules/playwright CHROMIUM_PATH=/usr/bin/chromium node handoff/browser-check.cjs "$PWD"
 ```
 
-환경변수를 생략하면 `require('playwright')`, `/usr/bin/chromium`을 사용한다. 이 도구는 `/codex/` 경로로 로컬 서버를 열고 새기능12개 검사를 실행한다. 새 실행 결과는 `handoff/local-validation/`에 남기며 `handoff/validation/`의 과거 기록을 덮어쓰지 않는다. 원본 단계의 build/package/record 스크립트는 별도 전체소스 경로를 전제로 할 수 있으므로 무작정 실행하지 않는다.
+환경변수를 생략하면 `require('playwright')`, `/usr/bin/chromium`을 사용한다. 이 도구는 `/codex/` 경로로 로컬 서버를 열고 기존 기능12개 회귀검사를 실행한다. 후속20의 지연 로딩13검사와 경관 검사는 해당 단계 README의 명령을 따른다. 새 실행 결과는 `handoff/local-validation/`에 남기며 `handoff/validation/`의 과거 기록을 덮어쓰지 않는다. 원본 단계의 build/package/record 스크립트는 별도 전체소스 경로를 전제로 할 수 있으므로 무작정 실행하지 않는다.
 
 ## 저장소 범위와 보존 규칙
 

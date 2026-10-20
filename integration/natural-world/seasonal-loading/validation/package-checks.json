@@ -2,8 +2,11 @@
   "status": "passed",
   "baseline": "c3e35086a1cbdde37424225d117eb412d56fec83",
   "baselineFiles": 328,
-  "preservedFiles": 319,
+  "preservedFiles": 316,
   "changedExistingFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
     "handoff/browser-check.cjs",
     "integration/natural-world/atlas-experience/README.md",
     "integration/natural-world/atlas-experience/REPORT.md",
