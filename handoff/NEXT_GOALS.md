@@ -1,6 +1,6 @@
 # 후속28 결과와 다음 구현
 
-사용자 요청으로 명시적 단면·조도·경계 입력을 받는 직사각형 정상류 후보를 구현·검증했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-hydraulics/REPORT.md), [배포 기록](../integration/natural-world/d298591-hydraulics/validation/deployment.json)을 확인한다. 36가정 중17완료·17경계 보류·2구간 중단이며 실제 해결0구간·23,022구간 미정이다.
+사용자 요청으로 명시적 단면·조도·경계 입력을 받는 직사각형 정상류 후보를 구현·검증하고 [PR #8](https://github.com/jungsb7/codex/pull/8)을 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-hydraulics/REPORT.md), [배포 기록](../integration/natural-world/d298591-hydraulics/validation/deployment.json)을 확인한다. 36가정 중17완료·17경계 보류·2구간 중단이며 실제 해결0구간·23,022구간 미정이다.
 
 ## 다음 권장 목표: 단면 변화·측방 합류를 포함한 후보의 보존 검산
 

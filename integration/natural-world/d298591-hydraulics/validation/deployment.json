@@ -1,17 +1,36 @@
 {
-  "status": "validated-awaiting-publish",
+  "status": "deployed",
   "baseline": "8cef6a3351af308525920dcc997233783fd37f4d",
-  "pullRequest": null,
-  "featureCommit": null,
-  "mergeCommit": null,
-  "pagesRun": null,
-  "pagesJobs": [],
+  "pullRequest": "https://github.com/jungsb7/codex/pull/8",
+  "featureCommit": "5a22af211a4f6fd382db0d41c0cd700fcbc1b720",
+  "mergeCommit": "60223e492d58b6e0ab5500ed05688351644735fd",
+  "pagesRun": "https://github.com/jungsb7/codex/actions/runs/39441134590",
+  "pagesRunId": 39441134590,
+  "pagesJobs": [
+    {
+      "name": "build",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39441134590/job/118690976003"
+    },
+    {
+      "name": "deploy",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39441134590/job/118691280702"
+    },
+    {
+      "name": "report-build-status",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39441134590/job/118691280817"
+    }
+  ],
   "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/d298591-hydraulics/index.html",
   "originVerified": false,
+  "originLimitation": "Environment CONNECT proxy returned HTTP 403 (envoy); public origin response not observed.",
   "previousFinalDocsRun": {
     "url": "https://github.com/jungsb7/codex/actions/runs/39435536377",
     "statusAtStart": "queued",
-    "initialFailure": "updating_pages timeout after 600000ms; failed-job retry requested in prior session"
+    "initialFailure": "updating_pages timeout after 600000ms; failed-job retry requested in prior session",
+    "contentIncludedInSuccessfulMerge": "60223e492d58b6e0ab5500ed05688351644735fd"
   },
   "tests": {
     "status": "passed",

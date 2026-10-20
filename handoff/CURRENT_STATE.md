@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속28 D298591 가정 수로 후보의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속28 D298591 명시적 가정 수로 후보 구현·검증 완료 — 2026-10-20
+## 후속28 D298591 명시적 가정 수로 후보 구현·검증·배포 완료 — 2026-10-20
 
-기준 main `8cef6a3351af308525920dcc997233783fd37f4d`. [화면](../integration/natural-world/d298591-hydraulics/index.html) · [결과](../integration/natural-world/d298591-hydraulics/REPORT.md) · [재현·AI](../integration/natural-world/d298591-hydraulics/README.md). 배포 상태는 [기록](../integration/natural-world/d298591-hydraulics/validation/deployment.json)에 갱신한다.
+기준 main `8cef6a3351af308525920dcc997233783fd37f4d`. [화면](../integration/natural-world/d298591-hydraulics/index.html) · [결과](../integration/natural-world/d298591-hydraulics/REPORT.md) · [재현·AI](../integration/natural-world/d298591-hydraulics/README.md). [PR #8](https://github.com/jungsb7/codex/pull/8)을 main에 병합했다. 기능 커밋 `5a22af211a4f6fd382db0d41c0cd700fcbc1b720`, 병합 커밋 `60223e492d58b6e0ab5500ed05688351644735fd`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39441134590)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 접속은 환경 프록시403으로 확인하지 못했다. 후속27의 대기했던 문서 내용도 이번 배포에 포함됐다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-hydraulics/validation/deployment.json).
 
 - 실제 단면이 없는 상황에서 폭·둑·조도·유량·하상 경사·하류 수심·길이·중력을 명시하는 별도 가정 입력 계약을 구현했다. 초기 화면은 빈 값이며 입력을 바꾸면 이전 결과를 지운다.
 - 일정한 직사각형 단면의 정상·점변·1차원 후보를 상류 방향으로 적분한다. 수면과 에너지선, 마찰 경사와 하상 경사를 구분한다. Fr≥0.98,급격한 수심 변화,가정 둑 한계에서 보류/중단하고 그 뒤를 계산하지 않는다.

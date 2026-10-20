@@ -1,6 +1,6 @@
 # 후속28 — 가정 단면을 명시한 수리 후보
 
-기준 main `8cef6a3351af308525920dcc997233783fd37f4d`. 사용자의 다음 단계 요청에 따라 일정한 직사각형 단면의 정상류 후보와 입력 계약·검산·화면·AI 조회를 구현했다. 배포 상태는 [기록](validation/deployment.json)에 남긴다.
+기준 main `8cef6a3351af308525920dcc997233783fd37f4d`. 사용자의 다음 단계 요청에 따라 일정한 직사각형 단면의 정상류 후보와 입력 계약·검산·화면·AI 조회를 구현했다. [PR #8](https://github.com/jungsb7/codex/pull/8) 병합·배포 완료. 기능 커밋 `5a22af211a4f6fd382db0d41c0cd700fcbc1b720`, 병합 커밋 `60223e492d58b6e0ab5500ed05688351644735fd`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39441134590)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 확인은 환경 프록시403으로 제한됐다. 후속27의 대기했던 문서 내용도 이 배포에 포함됐다. [배포 기록](validation/deployment.json). 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 결과
 
