@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "ac7f9e0a270a50875fc552504f39af8cf0a9f5f4",
+  "baselineFiles": 808,
+  "byteIdenticalFiles": 804,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/d298591-routing/index.html"
+  ],
+  "newPayloadBytes": 73686,
+  "newPayloadSha256": "31d2bea0fe673d2a46705639bd3a15f4134cacf8f4a1a154708038d9afa73e2f",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

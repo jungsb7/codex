@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "shared route, period and zoom restore with explicit outside-profile selection",
+    "62 stations across3 periods match AI results and62 downloaded JSON files",
+    "reload and history retain station and period",
+    "route point click and shared fresh page select the same station",
+    "1440/390/320px keep route, profile, cut tables and unknown-state notices readable",
+    "browser loads only compressed review, without global arrays or collector inputs",
+    "invalid controls restore explicit valid defaults",
+    "http failure hides results and retry keeps requested station",
+    "hash failure hides results and retry keeps requested station",
+    "schema failure hides results and retry keeps requested station",
+    "previous routing page links to working downstream evidence"
+  ],
+  "pageErrors": [],
+  "stationPeriodComparisons": 186,
+  "jsonDownloads": 62,
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}
