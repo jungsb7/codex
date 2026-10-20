@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "shared URL restores all outlet and loss assumptions with selected time",
+    "all36 free-flow cases and3 tailwater guards match snapshots, partial ledgers and downloaded JSON",
+    "reload and history preserve held state without fabricating later years",
+    "shared held condition restores in a fresh page",
+    "1440/390/320px show completed, limit and tailwater states with usable controls and11 extra cells",
+    "page loads only bound compressed evidence without global seasonal arrays",
+    "invalid shared controls restore explicit valid defaults",
+    "http failure hides results and retry retains requested condition",
+    "hash failure hides results and retry retains requested condition",
+    "schema failure hides results and retry retains requested condition",
+    "previous constraints review links to functioning outlet page"
+  ],
+  "pageErrors": [],
+  "scenarioTimeComparisons": 111,
+  "jsonDownloads": 39,
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

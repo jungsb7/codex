@@ -1,0 +1,21 @@
+✔ source, prior domain and calculation hashes bind every reused byte (115.398623ms)
+✔ 132 columns and 619 deliveries preserve original graph entry, source identity and spherical area (445.027988ms)
+✔ independent minimax connectivity and direct column integrals match expanded five-pool geometry (7.695158ms)
+✔ exact drainage matches independent constant-area solution and crosses area knots without overdrawing (20.503442ms)
+✔ rating uses SI head, zero crest flow and null for unsupported tailwater (0.446537ms)
+✔ wet source rain replaces land runoff once and submerged stores survive (2.674185ms)
+✔ zero-width boundary fixture stops inside its first source period and preserves all water (0.94633ms)
+✔ 144 cases close independent final-cell inventories and keep internal delivery separate (10.92958ms)
+✔ all saved wet masks and model area equal independent native-level comparisons (63.582425ms)
+✔ 108 high-tailwater cases hold original stores without starting forcing or inventing zero release rate (0.857807ms)
+✔ upstream persistent SWE is carried for the processed duration, including a partial stop year (3.810747ms)
+✔ six 30/60/120 refinements retain termination class and bound reported numerical differences (0.431159ms)
+✔ UI and CLI preserve provenance, partial-period semantics, nulls and available time range (183.046072ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1029.348557

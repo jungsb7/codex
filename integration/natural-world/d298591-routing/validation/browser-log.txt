@@ -1,0 +1,11 @@
+PASS shared URL restores all outlet and loss assumptions with selected time
+PASS all36 free-flow cases and3 tailwater guards match snapshots, partial ledgers and downloaded JSON
+PASS reload and history preserve held state without fabricating later years
+PASS shared held condition restores in a fresh page
+PASS 1440/390/320px show completed, limit and tailwater states with usable controls and11 extra cells
+PASS page loads only bound compressed evidence without global seasonal arrays
+PASS invalid shared controls restore explicit valid defaults
+PASS http failure hides results and retry retains requested condition
+PASS hash failure hides results and retry retains requested condition
+PASS schema failure hides results and retry retains requested condition
+PASS previous constraints review links to functioning outlet page
