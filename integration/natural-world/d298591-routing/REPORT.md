@@ -48,6 +48,8 @@
 
 원본 세계·경제·지형·기후·수계·해양/호수·구 지도·전체 아카이브·종료된9곳 검토는 보존한다. 기준 main `4ba6823884181b0598ac6be86df4ee456c44e0fc`. [배포 기록](validation/deployment.json).
 
+[PR #6](https://github.com/jungsb7/codex/pull/6)를 main에 병합했다. 기능 커밋 `fb0a38e99ae2c26036ca21927a074bfe67c4598e`, 병합 커밋 `8dc0c59f936dd53257bf66da8bce4f98db5b04c7`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39430939458)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 확인하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
+
 ## 다음 범위
 
 다음은 출구 바로 아래 원본 경로와 지형의 제어 문턱을 추적해 하류 수위·잠김의 근거와 미정 항을 분리하는 작업이다. 원본 해수면0m를 출구의 실제 하류 수위로 대체하지 않는다. 약26km 격자에서 실제 소하천 단면·조도·폭이 얻어지지 않으면null을 유지한다. 이번 후보 결과를 다른1,183경계에 자동 일반화하지 않는다.

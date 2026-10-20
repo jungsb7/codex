@@ -1,6 +1,6 @@
 # 후속26 결과와 다음 구현
 
-사용자 요청으로132격자 동적 장부와 제한된 출구 방류를 구현·검증했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-routing/REPORT.md), [배포 기록](../integration/natural-world/d298591-routing/validation/deployment.json)을 확인한다.36자유 월류 가정 중22완료·14우회상한 중단,108하류 수위 조합 보류다. 실제 물리 해결0구간·23,022구간 미정은 유지한다.
+사용자 요청으로132격자 동적 장부와 제한된 출구 방류를 구현·검증하고 [PR #6](https://github.com/jungsb7/codex/pull/6)를 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-routing/REPORT.md), [배포 기록](../integration/natural-world/d298591-routing/validation/deployment.json)을 확인한다.36자유 월류 가정 중22완료·14우회상한 중단,108하류 수위 조합 보류다. 실제 물리 해결0구간·23,022구간 미정은 유지한다.
 
 ## 다음 권장 목표: 출구 하류의 원본 경로와 잠김 조건 근거
 

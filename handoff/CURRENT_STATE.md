@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속26 D298591 132격자 조건부 출구 방류의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속26 D298591 132격자 조건부 출구 방류 구현·검증 완료 — 배포 준비, 2026-10-20
+## 후속26 D298591 132격자 조건부 출구 방류 구현·검증·배포 완료 — 2026-10-20
 
-사용자가 다음 단계 진행을 요청해132기둥 동적 물수지와 제한된 출구 방류를 구현했다. 기준 main `4ba6823884181b0598ac6be86df4ee456c44e0fc`. [화면](../integration/natural-world/d298591-routing/index.html) · [결과](../integration/natural-world/d298591-routing/REPORT.md) · [재현·AI](../integration/natural-world/d298591-routing/README.md). 최신 배포 상태는 [이 단계 기록](../integration/natural-world/d298591-routing/validation/deployment.json)에 갱신한다.
+사용자가 다음 단계 진행을 요청해132기둥 동적 물수지와 제한된 출구 방류를 구현했다. 기준 main `4ba6823884181b0598ac6be86df4ee456c44e0fc`. [화면](../integration/natural-world/d298591-routing/index.html) · [결과](../integration/natural-world/d298591-routing/REPORT.md) · [재현·AI](../integration/natural-world/d298591-routing/README.md). [PR #6](https://github.com/jungsb7/codex/pull/6)를 main에 병합했다. 기능 커밋 `fb0a38e99ae2c26036ca21927a074bfe67c4598e`, 병합 커밋 `8dc0c59f936dd53257bf66da8bce4f98db5b04c7`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39430939458)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 확인하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-routing/validation/deployment.json).
 
 - 기존121+11원본 기둥,619원본 입력과5웅덩이의 진입점을 연결했다. 출구 아래 모든 국지 웅덩이가 합류함을 검사하고 수두 양수에서 조건부 자유 월류를 적분했다. 실제 출구 형상·폭을 채택하지 않았다.
 - 증발3×외부 손실2×초기 재고2×가정 폭3의36조건 중22개100년 완료,14개우회 상한 중단. 원래 문턱175.2985076904297m,배타적 상한176.24058532714844m. 하류 수위+0.05/+0.5/+1m의108조합은 시작부터 보류했다.
