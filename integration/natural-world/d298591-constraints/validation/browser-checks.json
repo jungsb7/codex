@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": [
+    "shared URL restores all six selectors after hash/schema verification",
+    "36 snow selections across all causes and12 assumptions match source-linked AI results",
+    "native-grid click selects the exact source cell",
+    "all12 energy masks and actual JSON downloads preserve source, assumptions and unknowns",
+    "all25 stage/tailwater cases display the tested routing guard without invented discharge",
+    "reload, history and fresh shared page preserve complete selected evidence",
+    "1440/390/320px layouts fit with usable labeled controls and conditional maps",
+    "review loads only its compressed evidence, without global climate or terrain arrays",
+    "http failure hides unverified values and retry restores requested assumptions",
+    "hash failure hides unverified values and retry restores requested assumptions",
+    "schema failure hides unverified values and retry restores requested assumptions",
+    "existing dynamic surface page links to working new review"
+  ],
+  "pageErrors": [],
+  "snowComparisons": 36,
+  "energyComparisons": 12,
+  "outletComparisons": 25,
+  "jsonDownloads": 12
+}

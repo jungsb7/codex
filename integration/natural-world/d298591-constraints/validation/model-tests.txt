@@ -1,0 +1,20 @@
+✔ all input/code fingerprints and original world identity match current main and fixed archive evidence (51.182656ms)
+✔ all619 snow cells independently reconcile source storage, snowfall/melt and asymptotic imbalance (2.3305ms)
+✔ 200 independent annual repetitions confirm all12 sensitivity balances instead of a spinup fix (95.65072ms)
+✔ zero/positive-temperature snow switches, finite storage and warming discontinuity preserve water (2.009355ms)
+✔ diagnostic wind interpolation reproduces source grid centres and stays distinct from measured 2m wind (109.078553ms)
+✔ solar flux agrees with independent hourly insolation quadrature and latent-unit conversion (16.214258ms)
+✔ all12 fixed surface masks and144 energy periods match prior model and independent area weighting (8.010247ms)
+✔ native connectivity wraps longitude, stops at marine/lake masks and blocks exactly one undirected edge (0.788314ms)
+✔ all saved open/held components are complete and witness paths respect native elevations and deleted gate (98.36423ms)
+✔ independent sorted-height union-find proves the first alternate marine threshold exactly (227.912713ms)
+✔ all25 outlet guards preserve unknown routing, distinguish stage from energy head and flag tailwater (0.609756ms)
+✔ AI/UI selections bind source, diagnostic assumptions and null values; malformed queries and payloads fail (105.75476ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1176.893244
