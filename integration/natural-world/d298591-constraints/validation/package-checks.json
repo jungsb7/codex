@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "5bcce093daca1bc9cf4687fbb9d3f7ffd0fe8078",
+  "baselineFiles": 754,
+  "byteIdenticalFiles": 750,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/d298591-surface/index.html"
+  ],
+  "newPayloadBytes": 620242,
+  "newPayloadSha256": "ee1ba65a09ad4acc679de36bb687cb27ef21a8a4d50ee44717cb2b9584f5163c",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

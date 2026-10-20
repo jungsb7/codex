@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>D298591 · 적설·에너지·출구 조건</title><link rel="stylesheet" href="style.css"><script defer src="view.js"></script><script defer src="app.js"></script></head>
+<body><header><a href="../d298591-surface/index.html">← 동적 수면 장부</a><span>PLANET ATLAS · 후속25</span></header><main>
+<p class="eyebrow">D298591 · 원본의 원인과 계산 범위</p><h1>눈이 남는 곳,<br>물이 빠져나가는 문턱.</h1>
+<p class="intro">계속 쌓이는 눈은 어디서 생기는지, 수면 증발에 어떤 에너지가 필요한지, 수위를 높이면 기존 계산 영역이 유지되는지 살펴봅니다.</p>
+<p class="notice"><strong>실제 물리 채택 0건.</strong> 원본 진단과 가정 민감도입니다. 실제 적설 깊이·결빙·증발·침투·하폭·방류는 미정입니다.</p>
+<p id="status" role="status">검증된 자료를 읽는 중…</p><button id="retry" hidden>자료 다시 읽기</button>
+<div id="content" hidden>
+<section><h2>01 · 눈은 상류 31격자에서 누적됩니다</h2>
+<p>18격자는 12기간 내내 양의 기온이 없고, 13격자는 강설량이 원본 온도식의 융설 능력을 넘습니다. 모두 이전 수면 영역121격자 밖에 있습니다. 반복 연수를 늘리는 것만으로 이 누적이 사라지지 않습니다.</p>
+<div class="controls"><label>원본 격자<select id="cell"></select></label><label>기온 변화 가정<select id="warming"><option value="0">원본 +0℃</option><option value="1">+1℃</option><option value="2">+2℃</option><option value="5">+5℃</option></select></label><label>융설 계수 가정<select id="factor"><option value="22.5">원본의 0.5배</option><option value="45" selected>원본 45 mm/(℃·기간)</option><option value="90">원본의 2배</option></select></label></div>
+<p class="note">기온과 융설 계수를 바꾸는 민감도이며 원본 기후·유량에 적용하지 않습니다. 눈의 mm는 물당량(SWE)으로 실제 눈 두께가 아닙니다.</p>
+<div id="snow-metrics" class="metrics"></div>
+<div class="visuals"><figure><figcaption>619집수격자 · 선택 가정의 누적 원인</figcaption><svg id="snow-map" viewBox="0 0 500 350" role="img" aria-label="격자별 가정 적설 누적 원인"></svg><p class="legend"><span class="gold">■</span> 양의 기온 없음 <span class="pink">■</span> 융설 능력 부족 <span class="muted">■</span> 지속 누적 없음</p></figure><div><h3 id="cell-title"></h3><p id="cell-detail"></p><div class="table-wrap"><table><thead><tr><th>공전 기간</th><th>원본 ℃</th><th>강수 mm</th></tr></thead><tbody id="cell-periods"></tbody></table></div></div></div>
+</section>
+<section><h2>02 · 증발률과 일사만으로는 열수지가 닫히지 않습니다</h2>
+<label>이전100년 실험의 마지막 수면을 고정해 비교<select id="energy"></select></label>
+<p class="note">선택된 마지막 수면의 면적을 고정한 별도 진단입니다. 움직이는 수면이나 눈 민감도를 다시 계산한 것이 아닙니다. 원본 육지 기온을 수면 온도로 사용하지 않습니다.</p>
+<p id="energy-result"></p><svg id="energy-chart" viewBox="0 0 900 280" role="img" aria-label="공전 기간별 대기권 상단 일사와 가정 증발의 잠열 요구"></svg>
+<p class="legend"><span class="aqua">━</span> 대기권 상단 일사 <span class="gold">━</span> 가정 증발의 잠열 요구 · W/m²</p>
+<div class="table-wrap"><table><thead><tr><th>기간</th><th>일사 W/m²</th><th>요구/일사</th><th>진단 바람 m/s</th></tr></thead><tbody id="energy-periods"></tbody></table></div>
+<p class="note">대기권 상단 일사는 지표 순복사가 아닙니다. 요구량이 이를 넘으면 지역 단파만으로 부족하지만, 이류·저장열 등도 있어 증발 불가능을 뜻하지는 않습니다. 아래에 있어도 물리적으로 가능한 증발률이라는 뜻이 아닙니다.</p>
+</section>
+<section><h2>03 · 수위를 올리면 다른 연결이 열립니다</h2>
+<div class="controls two"><label>문턱 위 수위 상승 가정<select id="rise"><option value="0">0 m</option><option value="0.05">0.05 m</option><option value="0.1" selected>0.1 m</option><option value="0.5">0.5 m</option><option value="1">1 m</option></select></label><label>문턱 기준 하류 수위 가정<select id="tailwater"><option value="-1">−1 m</option><option value="0" selected>0 m</option><option value="0.05">+0.05 m</option><option value="0.5">+0.5 m</option><option value="1">+1 m</option></select></label></div>
+<p>기존 출구의 격자 연결 하나(303194 ↔ 301657)를 막았다고 가정해 범위를 검사합니다. 실제 댐이나 출구 단면을 만든 것이 아닙니다.</p>
+<p>우회 연결이 열리기 직전의 후보 영역은132격자입니다. 추가11격자도 기존619격자 장부에 포함되어 있어 다음 동적 모델에 연결할 원본 입력은 확보돼 있습니다. 아직 실제 수면으로 채택하지 않았습니다.</p>
+<div id="outlet-metrics" class="metrics"></div><p id="outlet-result"></p>
+<div class="visuals"><figure><figcaption>출구 주변만 확대 · 전체 탐색은 원본 격자 전체</figcaption><svg id="outlet-map" viewBox="0 0 500 350" role="img" aria-label="출구 연결 차단 가정에서 기존 영역 밖 연결"></svg><p class="legend"><span class="aqua">■</span> 기존 영역 <span class="pink">■</span> 밖으로 연결된 칸 · 빨간 선: 차단 가정 연결</p></figure><div><h3>자동 방류를 보류하는 이유</h3><p id="guard"></p><p>해양에 연결된 영역은 일정 수위의 닫힌 저수지가 아닙니다. 연결 격자 수를 실제 침수 면적이나 저류 용량으로 해석하지 않습니다.</p><p class="note">수위 상승과 에너지 수두는 다릅니다. 접근 유속을 무시할 때만 둘이 같다는 가정을 둘 수 있습니다. 원본 해수면0m도 출구 바로 아래의 실제 하류 수위가 아닙니다.</p></div></div>
+</section>
+<section><h2>계산에 쓸 수 있는 자료와 남은 입력</h2><div class="table-wrap"><table><thead><tr><th>항목</th><th>상태</th><th>사용 범위</th></tr></thead><tbody id="availability"></tbody></table></div><div class="actions"><button id="download">현재 검토 JSON 저장 ↓</button><a id="share-link">현재 검토 주소</a><a id="map-link">선택 격자의 원본 지도 ↗</a></div></section>
+</div></main><footer><a href="REPORT.md">결과 보고서</a><a href="README.md">재현·AI 안내</a><a href="output/summary.json">구조화 요약</a></footer></body></html>
