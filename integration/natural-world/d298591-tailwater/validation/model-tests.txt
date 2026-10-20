@@ -1,0 +1,20 @@
+✔ payload and retained inputs/code hashes match provenance (141.999341ms)
+✔ route independently follows adjacent original receivers to first sea (1.708018ms)
+✔ disjoint source catchments are exhaustive and exclude D298591 (37.832155ms)
+✔ independent recursive accumulation reproduces every f64 station and period (76.264027ms)
+✔ station ledger closes without summing successive total flows (7.255847ms)
+✔ map log-encoded flows stay within quantization bound (0.693278ms)
+✔ distance and slope use independent great-circle meters (0.78164ms)
+✔ shallow profile is linked to archived terrain design, never actual width (0.610902ms)
+✔ native cuts retain original masks/heights, not invented cross sections (2.594498ms)
+✔ held tailwater and unknown physical outputs remain explicit in all744 queries (4.391546ms)
+✔ synthetic merge graph, phase wrap, missing receivers and cycles (1.161972ms)
+✔ query and validator reject fabricated actual values and invalid selection (125.487086ms)
+ℹ tests 12
+ℹ suites 0
+ℹ pass 12
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1330.767381

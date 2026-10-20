@@ -1,0 +1,118 @@
+{
+  "schema": "d298591-tailwater-summary/1",
+  "provenance": {
+    "baseline": "ac7f9e0a270a50875fc552504f39af8cf0a9f5f4",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "archiveCommit": "4afae5da3a7730b79ced1d2b9b7a8bc3041689c0",
+    "inputs": {
+      "d298591-tailwater/inputs/evidence.json.gz": "b957dad3254f61c5e69d6e6db5b6e4d728b5d275645d3702dd2185400f2ecfb9",
+      "d298591-tailwater/inputs/source-audit.json": "437f8a263439e50fdc2684517dea194bc0972d761d84581a926c61d5e3c1ea57",
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "stage5/output/foundation-fc5d72cbbab3.json.gz": "189ff903825c7ba4e89997ae264b9b07d3436ecc1e14a8e2761928e19d7663bf",
+      "d298591-routing/output/review.json.gz": "a3f552ea7c857bbd19c57db285175be91bacc193dc407805a7edab833d0b61d0"
+    },
+    "code": {
+      "d298591-tailwater/core.cjs": "c241aa3c0031f2d08230076a8b52a4565c17466f6bf23fe50d8ba45b4bd5d268",
+      "d298591-tailwater/build.cjs": "2d34610e82e0da5f244f1dba5c6464c0f13744162758ce0d6fe8dab131f83433",
+      "d298591-tailwater/collect.cjs": "9ade3d9ba7be22229ed6c955bd67e013e0604d24efb212037a50080289f6ffde"
+    }
+  },
+  "route": {
+    "start": 301657,
+    "mouth": 352309,
+    "cells": 62,
+    "landCells": 61,
+    "lengthKm": 1473.1497897458435,
+    "reachCount": 35,
+    "sideInputLocations": 54,
+    "sideInputEdges": 120,
+    "uphillEdges": 0,
+    "pathLakeCells": 0,
+    "pathDepressionCells": 0,
+    "maximumNativeBarrierM": 175.2985076904297,
+    "maximumNativeBarrierCell": 301657,
+    "shallowPrefix": {
+      "startCell": 301657,
+      "endCell": 320078,
+      "edges": 20,
+      "dropM": 1,
+      "lengthKm": 487.0563661590521,
+      "meanGeometricSlope": 0.000002053150455430947,
+      "meaning": "Native centerline height pattern; not measured bed or hydraulic friction slope."
+    },
+    "authoredOverlapCells": 62,
+    "pinnedPathEdges": 38
+  },
+  "baselineFlow": {
+    "ownSourceCells": 621,
+    "excludedOriginCells": 619,
+    "intersectionCells": 0,
+    "sourceCatchmentAreaKm2": 307555.7432499374,
+    "startMeanM3S": 892.4266250779232,
+    "mouthMeanM3S": 2676.063066060344,
+    "maxReconstructionErrorM3S": 0,
+    "maximumLedgerResidualM3S": 0,
+    "maxMapRelativeError": 0.00024384058974816453,
+    "meaning": "Existing source-graph baseline, excludes all619 D298591 source cells. Never sum successive station flows as separate inflows."
+  },
+  "designAudit": {
+    "riverId": "west-main",
+    "valleyWidthParameterKm": 29.055,
+    "minimumProfileDropM": 0.05,
+    "actualWidthM": null,
+    "meaning": "Source terrain-shaping parameter, not hydraulic channel width. Derived from archived app.js and geography.js; do not use as weir width."
+  },
+  "requirements": [
+    {
+      "id": "route",
+      "label": "원본 경로·고도·마스크",
+      "status": "available-design-grid",
+      "detail": "62격자 연결과 기둥 고도. 실제 하상·제방·단면 아님."
+    },
+    {
+      "id": "base-flow",
+      "label": "기존 하류 발생·합류 장부",
+      "status": "available-model-baseline",
+      "detail": "12원본 인접 위상 평균 유량. D298591 방류 제외, 실제 동시 수문곡선 아님."
+    },
+    {
+      "id": "cross-section",
+      "label": "하상 단면·하폭·수심·둑",
+      "status": "missing",
+      "detail": "좌우 3칸 격자 표본과 설계 골짜기 폭으로 대체할 수 없음."
+    },
+    {
+      "id": "roughness",
+      "label": "조도·수축/확대·구조물",
+      "status": "missing",
+      "detail": "수리 저항·에너지 손실 계수를 이 경로에서 확정할 입력 없음."
+    },
+    {
+      "id": "tailwater",
+      "label": "출구 하류 수위·경계 조건",
+      "status": "missing",
+      "detail": "해양 기준0m는 약1500km 떨어진 첫 해양 격자. 출구 하류 수위가 아님."
+    },
+    {
+      "id": "coupling",
+      "label": "동시 유량·하류 저류·역수위",
+      "status": "missing",
+      "detail": "분할 물수지의 조건부 방류와 기존12위상 유량을 합쳐 수위를 구하지 않음."
+    }
+  ],
+  "decision": {
+    "status": "insufficient-hydraulic-inputs",
+    "coupledRoutingReady": false,
+    "submergenceCorrection": null,
+    "actualTailwaterM": null,
+    "actualDischargeM3S": null,
+    "reason": "Native connectivity and synthetic baseline flow do not determine local water level or submergence without channel geometry, roughness and boundary conditions.",
+    "priorFreeFlowCases": 36,
+    "priorTailwaterHeldCases": 108,
+    "priorAlternateLimitCases": 14
+  },
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

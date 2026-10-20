@@ -1,0 +1,28 @@
+{
+  "pathCells": 62,
+  "ownCells": 621,
+  "originCells": 619,
+  "nodes": 622,
+  "receipts": {
+    "integration/natural-world/stage3/inputs/hydrology.json": {
+      "bytes": 26469104,
+      "sha256": "59ec33f53b014d6da7ed2e4353a4b2c86d3dff8078ace78bda524adfdb7fe5a8"
+    },
+    "integration/natural-world/stage3/output/flow-ledger.bin": {
+      "bytes": 23604384,
+      "sha256": "0918b45f5556e3c0caf34646fbc7ccfab4789db908031c393d0c7e0ab4da8b9c"
+    },
+    "application/source/app.js": {
+      "bytes": 4401408,
+      "sha256": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6"
+    },
+    "application/source/geography.js": {
+      "bytes": 4444,
+      "sha256": "1e7581b1d0498fef65d2edf33ce3aeeea789f948ab06da25f100d633c8d519c4"
+    },
+    "integration/natural-world/stage3/build.cjs": {
+      "bytes": 16295,
+      "sha256": "679b3cac2a62697fef8441b53c10123d8e0f255c34bb948c23beeb6a7cbaf330"
+    }
+  }
+}

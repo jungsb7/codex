@@ -1,0 +1,48 @@
+{
+  "route": {
+    "start": 301657,
+    "mouth": 352309,
+    "cells": 62,
+    "landCells": 61,
+    "lengthKm": 1473.1497897458435,
+    "reachCount": 35,
+    "sideInputLocations": 54,
+    "sideInputEdges": 120,
+    "uphillEdges": 0,
+    "pathLakeCells": 0,
+    "pathDepressionCells": 0,
+    "maximumNativeBarrierM": 175.2985076904297,
+    "maximumNativeBarrierCell": 301657,
+    "shallowPrefix": {
+      "startCell": 301657,
+      "endCell": 320078,
+      "edges": 20,
+      "dropM": 1,
+      "lengthKm": 487.0563661590521,
+      "meanGeometricSlope": 0.000002053150455430947,
+      "meaning": "Native centerline height pattern; not measured bed or hydraulic friction slope."
+    },
+    "authoredOverlapCells": 62,
+    "pinnedPathEdges": 38
+  },
+  "baselineFlow": {
+    "ownSourceCells": 621,
+    "excludedOriginCells": 619,
+    "intersectionCells": 0,
+    "sourceCatchmentAreaKm2": 307555.7432499374,
+    "startMeanM3S": 892.4266250779232,
+    "mouthMeanM3S": 2676.063066060344,
+    "maxReconstructionErrorM3S": 0,
+    "maximumLedgerResidualM3S": 0,
+    "maxMapRelativeError": 0.00024384058974816453,
+    "meaning": "Existing source-graph baseline, excludes all619 D298591 source cells. Never sum successive station flows as separate inflows."
+  },
+  "designAudit": {
+    "riverId": "west-main",
+    "valleyWidthParameterKm": 29.055,
+    "minimumProfileDropM": 0.05,
+    "actualWidthM": null,
+    "meaning": "Source terrain-shaping parameter, not hydraulic channel width. Derived from archived app.js and geography.js; do not use as weir width."
+  },
+  "bytes": 73686
+}

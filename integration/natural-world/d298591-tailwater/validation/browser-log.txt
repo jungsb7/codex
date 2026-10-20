@@ -1,0 +1,11 @@
+PASS shared route, period and zoom restore with explicit outside-profile selection
+PASS 62 stations across3 periods match AI results and62 downloaded JSON files
+PASS reload and history retain station and period
+PASS route point click and shared fresh page select the same station
+PASS 1440/390/320px keep route, profile, cut tables and unknown-state notices readable
+PASS browser loads only compressed review, without global arrays or collector inputs
+PASS invalid controls restore explicit valid defaults
+PASS http failure hides results and retry keeps requested station
+PASS hash failure hides results and retry keeps requested station
+PASS schema failure hides results and retry keeps requested station
+PASS previous routing page links to working downstream evidence

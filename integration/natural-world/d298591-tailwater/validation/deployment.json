@@ -1,0 +1,31 @@
+{
+  "status": "validated-awaiting-publish",
+  "baseline": "ac7f9e0a270a50875fc552504f39af8cf0a9f5f4",
+  "pullRequest": null,
+  "featureCommit": null,
+  "mergeCommit": null,
+  "pagesRun": null,
+  "pagesJobs": [],
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/d298591-tailwater/index.html",
+  "originVerified": false,
+  "tests": {
+    "status": "passed",
+    "modelTests": 12,
+    "regressionTests": 75,
+    "browserChecks": 11,
+    "atlasBrowserChecks": 12,
+    "aiSelections": 744,
+    "browserSelections": 186,
+    "jsonDownloads": 62,
+    "viewports": [
+      1440,
+      390,
+      320
+    ],
+    "visualReview": "All three screenshots inspected; controls, tables, profile and unknown states readable.",
+    "baseline": "ac7f9e0a270a50875fc552504f39af8cf0a9f5f4",
+    "physicalResolvedReaches": 0,
+    "unresolvedReaches": 23022,
+    "automaticAdoption": false
+  }
+}
