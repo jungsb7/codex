@@ -1,6 +1,6 @@
 # 후속24 결과와 다음 검토
 
-사용자 요청에 따라 D298591 원본619격자 장부·5국지 웅덩이·동적 육지/수면 전환·12조건·시간 간격 민감도와 비교 화면을 구현·검증했다. [현재 상태](CURRENT_STATE.md), [결과와 한계](../integration/natural-world/d298591-surface/REPORT.md), [배포 기록](../integration/natural-world/d298591-surface/validation/deployment.json)을 확인한다. **실제 저류·침투·방류 채택은0이며 미정23,022구간은 유지했다.**
+사용자 요청에 따라 D298591 원본619격자 장부·5국지 웅덩이·동적 육지/수면 전환·12조건·시간 간격 민감도와 비교 화면을 구현·검증하고 [PR #4](https://github.com/jungsb7/codex/pull/4) 병합·Pages 배포를 완료했다. [현재 상태](CURRENT_STATE.md), [결과와 한계](../integration/natural-world/d298591-surface/REPORT.md), [배포 기록](../integration/natural-world/d298591-surface/validation/deployment.json)을 확인한다. **실제 저류·침투·방류 채택은0이며 미정23,022구간은 유지했다.**
 
 ## 다음 권장 목표: 같은 유역의 적설·에너지 조건과 출구 자료 범위
 

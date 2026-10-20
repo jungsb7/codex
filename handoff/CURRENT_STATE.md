@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속24 D298591 동적 수면 전환 장부의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속24 D298591 동적 수면 전환 구현·검증 완료 — 배포 준비, 2026-10-20
+## 후속24 D298591 동적 수면 전환 구현·검증·배포 완료 — 2026-10-20
 
-사용자가 다음 목표 진행을 요청해 D298591 한 유역의 육지/수면 전환 장부를 구현했다. 기준 main `7f803eb5f3fd17d4ce3edbf887f9deb2646fd675`. [검토 화면](../integration/natural-world/d298591-surface/index.html) · [결과와 한계](../integration/natural-world/d298591-surface/REPORT.md) · [방법·재현·AI](../integration/natural-world/d298591-surface/README.md). 배포 상태는 [새 단계 기록](../integration/natural-world/d298591-surface/validation/deployment.json)에 갱신한다.
+사용자가 다음 목표 진행을 요청해 D298591 한 유역의 육지/수면 전환 장부를 구현했다. 기준 main `7f803eb5f3fd17d4ce3edbf887f9deb2646fd675`. [검토 화면](../integration/natural-world/d298591-surface/index.html) · [결과와 한계](../integration/natural-world/d298591-surface/REPORT.md) · [방법·재현·AI](../integration/natural-world/d298591-surface/README.md). [PR #4](https://github.com/jungsb7/codex/pull/4)를 main에 병합했다. 기능 커밋 `ba70c9fa300cc7dee5b00e63bab8390fad1e9e40`, 병합 커밋 `c2e493f7af0f12e95bbe2b7bc87dffd49f18c176`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39421522548)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 확인하지 못했다. [배포 기록](../integration/natural-world/d298591-surface/validation/deployment.json). 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 - 고정 전체 아카이브3,044파일을 별도 복원·해시 검증하고619격자×12기간 원본 강수·증발산·유출·눈·얕은 저장을 계측했다. 계측 전후 전체268,857격자 유출은 비트 동일하고 세계/지형·전역 물수지도 동일하다.
 - 121원본 기둥을5국지 웅덩이로 나누고619물리 진입점을 보존했다. 잠긴 칸의 육지 유출·증발산을 끄고 수면 강수·융설을 한 번 넣는다. 눈·얕은 저장은 잠김/노출 중 보존·진화한다.

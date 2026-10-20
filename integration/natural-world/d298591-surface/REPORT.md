@@ -50,6 +50,10 @@ D298591의 원본619격자를 계측하고,121개 지형 기둥을5국지 웅덩
 
 [새 자료 검사](validation/model-tests.txt) · [기존 자료 검사](validation/regression-model-tests.txt) · [새 화면 검사](validation/browser-checks.json) · [기존 지도 검사](validation/regression-browser-checks.json) · [보존 검사](validation/package-checks.json) · [배포 기록](validation/deployment.json)
 
+## 배포
+
+[PR #4](https://github.com/jungsb7/codex/pull/4)를 main에 병합했다. 기능 `ba70c9fa300cc7dee5b00e63bab8390fad1e9e40`, 병합 `c2e493f7af0f12e95bbe2b7bc87dffd49f18c176`. [Pages 실행39421522548](https://github.com/jungsb7/codex/actions/runs/39421522548)의 build/deploy/report-build-status 모두 성공했다. 공개 페이지 직접 접속은 환경 프록시403으로 확인하지 못했으며, 로컬 브라우저 검증·배포 작업 성공과 구분한다.
+
 ## 다음 검토의 기준
 
 D298591을 실제 처리로 채택하려면 지속 적설의 원인과 수면 에너지·결빙 조건을 검토하고, 출구 주변에서 문턱 위 수두를 허용하는 지형 범위·단면·하류 수위를 확보해야 한다. 없는 자료는null로 유지하고 설계 가정은 별도 후보로 표시한다. 물리적으로 일관된 출구·열수지와 현재 장부가 연결되기 전에는 다른1,183경계로 결과를 일반화하거나 해결 구간 수를 늘리지 않는다. 종료된9곳 검토는 재개하지 않았다.
