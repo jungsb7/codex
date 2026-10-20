@@ -1,6 +1,6 @@
 # 후속27 결과와 다음 구현
 
-사용자 요청으로 출구 하류의 원본 경로·설계 근거·기존 유량을 구현·검증했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-tailwater/REPORT.md), [배포 기록](../integration/natural-world/d298591-tailwater/validation/deployment.json)을 확인한다. 실제 해결0구간·23,022구간 미정은 유지한다.
+사용자 요청으로 출구 하류의 원본 경로·설계 근거·기존 유량을 구현·검증하고 [PR #7](https://github.com/jungsb7/codex/pull/7)을 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-tailwater/REPORT.md), [배포 기록](../integration/natural-world/d298591-tailwater/validation/deployment.json)을 확인한다. 실제 해결0구간·23,022구간 미정은 유지한다.
 
 ## 다음 권장 목표: 명시적인 가정 단면을 받는 수리 후보의 적용성 검산
 

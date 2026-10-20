@@ -1,6 +1,6 @@
 # 후속27 결과 — 출구 아래 경로와 잠김 근거
 
-기준 main `ac7f9e0a270a50875fc552504f39af8cf0a9f5f4`. 사용자의 다음 단계 요청에 따라 후속26의 출구 하류 근거를 조사하고 지도·장부·AI 조회를 구현했다. 기능 구현과 로컬 검증 완료; 배포 상태는 `validation/deployment.json`에 기록한다.
+기준 main `ac7f9e0a270a50875fc552504f39af8cf0a9f5f4`. 사용자의 다음 단계 요청에 따라 후속26의 출구 하류 근거를 조사하고 지도·장부·AI 조회를 구현했다. [PR #7](https://github.com/jungsb7/codex/pull/7) 병합·배포 완료. 기능 커밋 `fe40da3f02d3ed0b985d782ac9471523cec05611`, 병합 커밋 `27360632be2432d2857b3d811be24382fb751c23`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39435159114)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 미확인이다. [배포 기록](validation/deployment.json). 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 확인한 것
 

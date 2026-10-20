@@ -1,13 +1,31 @@
 {
-  "status": "validated-awaiting-publish",
+  "status": "deployed",
   "baseline": "ac7f9e0a270a50875fc552504f39af8cf0a9f5f4",
-  "pullRequest": null,
-  "featureCommit": null,
-  "mergeCommit": null,
-  "pagesRun": null,
-  "pagesJobs": [],
+  "pullRequest": "https://github.com/jungsb7/codex/pull/7",
+  "featureCommit": "fe40da3f02d3ed0b985d782ac9471523cec05611",
+  "mergeCommit": "27360632be2432d2857b3d811be24382fb751c23",
+  "pagesRun": "https://github.com/jungsb7/codex/actions/runs/39435159114",
+  "pagesRunId": 39435159114,
+  "pagesJobs": [
+    {
+      "name": "build",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39435159114/job/118670149918"
+    },
+    {
+      "name": "deploy",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39435159114/job/118670479368"
+    },
+    {
+      "name": "report-build-status",
+      "conclusion": "success",
+      "url": "https://github.com/jungsb7/codex/actions/runs/39435159114/job/118670480445"
+    }
+  ],
   "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/d298591-tailwater/index.html",
   "originVerified": false,
+  "originLimitation": "Environment CONNECT proxy returned HTTP 403 (envoy); public origin response not observed.",
   "tests": {
     "status": "passed",
     "modelTests": 12,

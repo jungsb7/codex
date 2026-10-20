@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속27 D298591 출구 아래 경로·잠김 근거의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속27 D298591 출구 하류 근거 구현·검증 완료 — 2026-10-20
+## 후속27 D298591 출구 하류 근거 구현·검증·배포 완료 — 2026-10-20
 
-기준 main `ac7f9e0a270a50875fc552504f39af8cf0a9f5f4`. [화면](../integration/natural-world/d298591-tailwater/index.html) · [결과](../integration/natural-world/d298591-tailwater/REPORT.md) · [재현·AI](../integration/natural-world/d298591-tailwater/README.md). 배포 상태는 [기록](../integration/natural-world/d298591-tailwater/validation/deployment.json)에 갱신한다.
+기준 main `ac7f9e0a270a50875fc552504f39af8cf0a9f5f4`. [화면](../integration/natural-world/d298591-tailwater/index.html) · [결과](../integration/natural-world/d298591-tailwater/REPORT.md) · [재현·AI](../integration/natural-world/d298591-tailwater/README.md). [PR #7](https://github.com/jungsb7/codex/pull/7)을 main에 병합했다. 기능 커밋 `fe40da3f02d3ed0b985d782ac9471523cec05611`, 병합 커밋 `27360632be2432d2857b3d811be24382fb751c23`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39435159114)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 확인하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-tailwater/validation/deployment.json).
 
 - 출구301657→첫 해양352309,62셀·1473.149790km. 경로 위 호수·미정 저지·오르막0이나 실제 배수·수위 계산의 증거는 아니다.
 - 전62셀은기존 설계 하천west-main과 겹친다. 첫20연결487.056km에서1m하강은 원본의0.05m최소 내리막 생성 규칙과 일치한다. 골짜기 폭29.055km도 지형 가공 변수로서 실제 하폭·월류 폭이 아니다.
