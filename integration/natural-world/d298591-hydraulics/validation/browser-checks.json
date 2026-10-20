@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial page supplies no implicit physical or assumed numeric inputs",
+    "expandable comparison table loads an explicit example",
+    "all36 presets and downloaded JSON match independently tested core, including held and stopped cases",
+    "full explicit input and selected numerical station survive sharing, reload and history",
+    "editing clears stale results and explicit custom submission computes the new assumption",
+    "missing, zero and reverse-flow inputs never inherit a previous result or default",
+    "clear and incomplete shared input retain missing values instead of guessing",
+    "1440/390/320px show completed, bank-stop and held-boundary states with usable inputs",
+    "candidate browser loads no original climate, full terrain or downstream flow arrays",
+    "http failure hides candidate results and retry preserves complete requested assumptions",
+    "hash failure hides candidate results and retry preserves complete requested assumptions",
+    "schema failure hides candidate results and retry preserves complete requested assumptions",
+    "source evidence page links to the candidate without pre-adopting assumptions"
+  ],
+  "pageErrors": [],
+  "presetComparisons": 36,
+  "jsonDownloads": 36,
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

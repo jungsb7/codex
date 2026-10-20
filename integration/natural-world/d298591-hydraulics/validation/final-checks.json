@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "modelTests": 13,
+  "regressionTests": 87,
+  "browserChecks": 13,
+  "atlasBrowserChecks": 12,
+  "presetComparisons": 36,
+  "jsonDownloads": 36,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "visualReview": "All three screenshots inspected; input, relative-datum profile, held/stopped states and collapsible comparison table checked.",
+  "baseline": "8cef6a3351af308525920dcc997233783fd37f4d",
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

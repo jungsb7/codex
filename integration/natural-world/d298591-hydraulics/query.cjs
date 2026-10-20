@@ -1,0 +1,3 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),V=require('./view.js');
+try{const d=V.validate(JSON.parse(fs.readFileSync(path.join(__dirname,'output/catalog.json'))));let input;if(process.argv[2]==='--input'&&process.argv[3])input=JSON.parse(fs.readFileSync(process.argv[3]));else{const p=d.presets.find(p=>p.id===process.argv[2]);if(!p)throw Error('Usage: query.cjs W1000-N0.05-D10 | --input INPUT.json');input=p.input;}const result=V.result(d,input);console.log(JSON.stringify(result,null,2));if(result.candidate.status==='invalid-input')process.exitCode=2;}catch(e){console.error(e.message);process.exitCode=1;}

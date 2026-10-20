@@ -1,0 +1,13 @@
+PASS initial page supplies no implicit physical or assumed numeric inputs
+PASS expandable comparison table loads an explicit example
+PASS all36 presets and downloaded JSON match independently tested core, including held and stopped cases
+PASS full explicit input and selected numerical station survive sharing, reload and history
+PASS editing clears stale results and explicit custom submission computes the new assumption
+PASS missing, zero and reverse-flow inputs never inherit a previous result or default
+PASS clear and incomplete shared input retain missing values instead of guessing
+PASS 1440/390/320px show completed, bank-stop and held-boundary states with usable inputs
+PASS candidate browser loads no original climate, full terrain or downstream flow arrays
+PASS http failure hides candidate results and retry preserves complete requested assumptions
+PASS hash failure hides candidate results and retry preserves complete requested assumptions
+PASS schema failure hides candidate results and retry preserves complete requested assumptions
+PASS source evidence page links to the candidate without pre-adopting assumptions
