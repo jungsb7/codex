@@ -1,0 +1,13 @@
+PASS initial state supplies no implicit assumptions
+PASS 10 examples, every reach state and 10 downloaded JSON outputs agree with CLI core
+PASS full assumptions, selected reach and position survive sharing, reload and history
+PASS editing clears stale output and computes explicitly submitted custom input
+PASS missing and zero/reverse flow never inherit previous values
+PASS unsupported angle visibly blocks upstream results without extending a profile
+PASS clear and malformed shared assumptions retain the empty result
+PASS 1440/390/320px completed, stopped, held and editable geometry states fit the viewport
+PASS 12-phase audit is separate and no original terrain/climate payload is fetched
+PASS http failure hides output; retry retains requested complete assumptions
+PASS hash failure hides output; retry retains requested complete assumptions
+PASS schema failure hides output; retry retains requested complete assumptions
+PASS previous candidate links to the new stage without adopting a preset

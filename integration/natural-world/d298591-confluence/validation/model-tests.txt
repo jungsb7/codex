@@ -1,0 +1,21 @@
+✔ mandatory typed assumptions, geometry and loss values; no automatic values (7.814396ms)
+✔ tree topology rejects duplicate IDs, cycles, absent links and station totals (28.870021ms)
+✔ analytic uniform rectangular flow preserves normal depth and bed-drop energy (23.188958ms)
+✔ constant-section limit agrees with independently integrated phase28 GVF (480.743915ms)
+✔ variable geometry and losses converge to independent differential-energy RK4 (47.629317ms)
+✔ two tributaries and nested tributary sum each leaf exactly once (31.135929ms)
+✔ independent energy-flux accounting includes every reach and prescribed junction loss (12.795835ms)
+✔ four variable/loss networks are stable on halving numerical spacing (64.598688ms)
+✔ unmodeled angles and insufficient junction energy atomically block upstream computation (4.263558ms)
+✔ bank, steep geometry, critical and rapid-change guards leave valid prefixes only (3.998591ms)
+✔ 10 stored scenarios reproduce outputs and retain all actual/prior guards (24.539488ms)
+✔ original 12-phase increment ledger reconstructs mouth without station-total duplication (8.570968ms)
+✔ code/input SHA receipts, manifest integrity, and explicit CLI output agree (203.422206ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1003.64568

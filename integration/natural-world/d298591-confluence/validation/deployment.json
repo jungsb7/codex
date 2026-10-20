@@ -1,0 +1,11 @@
+{
+  "stage": "29",
+  "status": "local-validation-complete-pending-publication",
+  "baseline": "7269a80db5e1cca1fbabe96dc7a634cb012acc00",
+  "modelTests": 113,
+  "browserTests": 25,
+  "actualPublicOriginVerified": false,
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

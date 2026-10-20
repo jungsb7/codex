@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "baseline": "7269a80db5e1cca1fbabe96dc7a634cb012acc00",
+  "newModelTests": 13,
+  "regressionModelTests": 100,
+  "newBrowserTests": 13,
+  "atlasBrowserTests": 12,
+  "explicitPresets": 10,
+  "presetStatuses": {
+    "completed": 5,
+    "stopped": 4,
+    "held-boundary": 1
+  },
+  "independentChecks": [
+    "uniform analytic depth",
+    "phase28 RK4 constant-section limit",
+    "variable-section differential-energy RK4",
+    "independent section and junction energy flux",
+    "nested leaf-only mass sum",
+    "original 12-phase source increments"
+  ],
+  "screenshotsReviewed": [
+    "1440",
+    "390",
+    "320",
+    "editor320"
+  ],
+  "maxRefinementDepthDifferenceM": 1.1190078197387265e-07,
+  "maxGlobalEnergyResidualM4S": 5.687508775054084e-08,
+  "nodeChromiumMaxNumericDifference": 1.7053025658242404e-13,
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

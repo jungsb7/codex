@@ -1,50 +1,48 @@
-GitHub 기반 최신 인수인계 — 후속28 가정 수로 후보 구현·검증·배포 완료, 2026-10-20
+GitHub 기반 최신 인수인계 — 후속29 변단면·합류 검산 구현·검증 완료, 2026-10-20
 
 jungsb7/codex 최신 main에서 시작한다. 과거 고정 커밋으로 되돌리지 않는다.
-사용자가 다음 진행을 요청해 명시적 단면·조도 입력을 받는 별도 정상류 후보를 구현했다.
-새13+기존87자료 검사, 새13+기존12브라우저 검사. 배포 기록:
-integration/natural-world/d298591-hydraulics/validation/deployment.json
-PR #8 병합60223e492d58b6e0ab5500ed05688351644735fd, Pages 실행39441134590의3작업 성공.
-공개 도메인 직접 확인은 환경 프록시403으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
-후속27의 대기 중인 문서 내용도 이번 성공한 배포에 포함됐다.
+사용자가 다음 진행을 요청해 변단면·두 지류·중첩 합류의 별도 가정 수리 후보를 구현했다.
+새13+기존100자료 검사, 새13+기존12브라우저 검사. 배포 기록:
+integration/natural-world/d298591-confluence/validation/deployment.json
 현재 사용자 요청을 우선하며 NEXT_GOALS 제안을 새 요청 없이 자동 수행하지 않는다.
 
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/d298591-hydraulics/README.md 및 REPORT.md
-4. integration/natural-world/d298591-tailwater/README.md 및 REPORT.md
-5. integration/natural-world/d298591-routing/README.md 및 REPORT.md
-6. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
+3. integration/natural-world/d298591-confluence/README.md 및 REPORT.md
+4. integration/natural-world/d298591-hydraulics/README.md 및 REPORT.md
+5. integration/natural-world/d298591-tailwater/README.md 및 REPORT.md
+6. integration/natural-world/d298591-routing/README.md 및 REPORT.md
+7. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속28 완료 범위:
--입력 계약: 폭·둑 높이·Manning n·양의 일정 유량·하상 경사·하류 수심·길이·중력8값을 명시한다.
--누락/null/문자열/무한대/범위 밖은 계산 불가. 화면의 초기 입력은 비어 있다. 실제값으로 채택하지 않는다.
--일정한 직사각형 수로·정상·점변·1차원·alpha1 가정. 상류 방향 dy/ds=(Sf−S0)/(1−Fr²).
--RK4단계 이중화로 수심과 마찰 손실을 함께 적분. 에너지선·수면·가상 바닥을 구별한다.
--Fr>=.98,abs(dy/ds)>.05,가정 둑 한계에서 보류/중단. 구현의 보수적 적용 범위이며 실제 임계값 인증 아님.
--경계 보류 profile:[],중단은 유효 지점만 남기며 상류 끝 수심null. 실제 홍수·범람·역류 미계산.
--첫21원본 셀 경로 길이487056.3661590521m만 예제에 재사용한다.
--예제S0=.00001,Q1000m³/s,둑20m,g9.80665는 별도 가정. 원본 하강1m·골짜기 폭·기존 유량 미채택.
--폭100/1000/5000 × n .025/.05/.08 × 하류 수심.5/2/10/30의36가정.
--17완료·17경계 보류·2구간 중단. 폭100,n.05/.08,D10은408.382/117.147km에서 둑 한계로 중단.
--균일 수로 해·독립 수심 적분·별도 에너지 단계법·4조건 단계 세분화로 검산했다.
--새13+기존87자료 검사, 새13+기존12브라우저 검사.36예제 대조·36JSON 저장·1440/390/320px 확인.
--화면 입력 수정시 이전 결과 제거, 공유/이력/오류 복구와 AI 조회를 제공한다.
+후속29 완료 범위:
+-명시적 가정 구간별 직사각형 단면·폭·바닥·둑·조도·길이·수축/확대 손실계수.
+-최상류만 유량 입력,합류 뒤 inflowM3S:null. 유일 말단·순환/분기 없음,원천ID로 중복합산 방지.
+-구간 내 일정Q 표준단계 에너지식. 기본50m,단면 간 선형 보간,상류로 아임계 유일해 탐색.
+-Fr<min(.98,sqrt(.99/(1+Cmax))),하상/반폭/수심 변화율 한계·둑 한계에서 보류/중단.
+-합류는 별도 지류 손실수두를 입력해 Ei=Eout+hi. 각도0°만 지원,운동량 미계산.
+-비0° 합류/수두 부족은 상류 전체보류. 미완료구간끝 수심과 전체 에너지잔차null.
+-10명시가정:5완료·4중간중단·1경계보류. 실제 형상·손실을 채택한 결과가 아님.
+-원본62지점×12위상의 첫지점+이후 자체발생/옆합류만 더해 각 지점/하구 유량 일치.
+-원본 장부는 hydraulicInputReady:false. 실제 단면/각도/국지수위/동시유량 근거 없음.
+-새 예제는 원본 길이·고도·폭·유량을 사용하지 않은 별도 가정. 실제값 자동 보충 없음.
+-등류 해석해·후속28 RK4·독립 변단면 미분식·에너지 플럭스·세분화 검산.
+-새13+기존100자료 검사, 새13+기존12브라우저 검사.10예제·10JSON·1440/390/320px확인.
+-입력 편집시 이전 결과 제거,구간/지점 선택·전체입력 공유·이력·오류 복구·AI 조회.
 
 실제 물리 해결0구간·23022구간 미정·1184경계 유지.
-원본 12위상 유량·측방 합류·100년 방류 실험과 결합하지 않았다.
+실제 소하천/피복/습지/침수/강폭/적설/결빙/저류/침투/넘침 해결 아님.
 기존108하류 수위 보류·14우회 상한 중단,적설/열수지 공백 유지.
-AI 자료: integration/natural-world/d298591-hydraulics/output/catalog.json
-AI 계산: node integration/natural-world/d298591-hydraulics/query.cjs W1000-N0.05-D10
-다음 권장 목표는 단면 변화·측방 유입이 있는 구간에서 필요한 가정과 합류 보존을 검산하는 것이다.
+AI 자료: integration/natural-world/d298591-confluence/output/catalog.json
+AI 계산: node integration/natural-world/d298591-confluence/query.cjs two-branches
+다음 권장 목표는 합류 운동량·손실 가정의 검증 범위다.
 
 재현:
-node integration/natural-world/d298591-hydraulics/build.cjs
-node --test --test-isolation=none integration/natural-world/d298591-hydraulics/test.cjs
-node integration/natural-world/d298591-hydraulics/query.cjs W1000-N0.05-D10
+node integration/natural-world/d298591-confluence/build.cjs
+node --test --test-isolation=none integration/natural-world/d298591-confluence/test.cjs
+node integration/natural-world/d298591-confluence/query.cjs two-branches
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/d298591-hydraulics/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/d298591-confluence/index.html
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
 새 후보에는 전체 아카이브/원본 기후 복원이 필요 없다. 기존 회귀에는 handoff/restore-inputs.cjs 사용.
 

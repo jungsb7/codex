@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial state supplies no implicit assumptions",
+    "10 examples, every reach state and 10 downloaded JSON outputs agree with CLI core",
+    "full assumptions, selected reach and position survive sharing, reload and history",
+    "editing clears stale output and computes explicitly submitted custom input",
+    "missing and zero/reverse flow never inherit previous values",
+    "unsupported angle visibly blocks upstream results without extending a profile",
+    "clear and malformed shared assumptions retain the empty result",
+    "1440/390/320px completed, stopped, held and editable geometry states fit the viewport",
+    "12-phase audit is separate and no original terrain/climate payload is fetched",
+    "http failure hides output; retry retains requested complete assumptions",
+    "hash failure hides output; retry retains requested complete assumptions",
+    "schema failure hides output; retry retains requested complete assumptions",
+    "previous candidate links to the new stage without adopting a preset"
+  ],
+  "pageErrors": [],
+  "presetComparisons": 10,
+  "jsonDownloads": 10,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "maxNumericDifference": 1.7053025658242404e-13,
+  "numericTolerance": "absolute 1e-8 + relative 1e-11; keys/strings/null/flags exact; download exact to browser result"
+}
