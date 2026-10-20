@@ -1,9 +1,38 @@
 {
-  "status": "validated-awaiting-publication",
+  "status": "deployed",
   "baseline": "27f189f7f7983b4a17191ec48b510c12d7ecfc10",
+  "featureCommit": "2d35eb24abffd5a2fa20b41c447873ccf2ffd90f",
+  "mergeCommit": "3866a998d804a9b9af64b2024d8ba83c89f112fd",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/2",
+  "pagesRun": {
+    "id": 39414495555,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39414495555",
+    "headSha": "3866a998d804a9b9af64b2024d8ba83c89f112fd",
+    "jobs": [
+      {
+        "id": 118600085831,
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "id": 118600300054,
+        "name": "report-build-status",
+        "conclusion": "success"
+      },
+      {
+        "id": 118600300084,
+        "name": "deploy",
+        "conclusion": "success"
+      }
+    ]
+  },
   "modelTests": 28,
   "browserChecks": 47,
   "periodPairs": 4320,
   "liveBrowserVerified": false,
-  "note": "로컬 검증 완료. 기능 반영 후 정확한 커밋과 Pages 작업 결과를 기록한다."
+  "liveOriginAttempt": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/landscape-compare/core.js",
+    "result": "Environment proxy tunnel rejected access: 403 Forbidden"
+  },
+  "note": "기능 병합의 Pages 작업 성공을 확인했다. 최종 인계 문서 커밋은 이 기능 커밋보다 최신일 수 있다. 공개 도메인 직접 확인과 로컬 브라우저 검증을 구분한다."
 }

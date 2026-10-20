@@ -23,6 +23,19 @@
 - 표시 물길 ID가 없는6곳의 유량과 차이는null이다. 실제 산림·습지 면적·강폭·침수·얼음 두께·적설 경계·서사 역할도null을 유지한다.
 - 해양·기존 호수·다른 육지 격자에서는 비교를 숨기고 JSON에null을 기록한다. 이웃 대표점의 설명을 가져오지 않는다.
 
+## AI·스크립트에서 사용
+
+비교 JSON의 스키마는 `landscape-period-comparison/1`이다. `left`/`right`는 원본 표본, `difference`는 B − A, `periodA`/`periodB`는1~12의 공전 위상 번호다. `existing`/`candidate`/`creative`/`unknown`과 `provenance`를 함께 읽어 기존 설정·계산 후보·미채택 초안을 구분한다. 유량null을0으로 바꾸지 않는다.
+
+브라우저 없이 저장소의 동일 자료를 비교할 수도 있다.
+
+```js
+const C = require('./integration/natural-world/landscape-compare/core.js');
+const catalog = require('./integration/natural-world/landscape-notes/output/catalog.json');
+const result = C.compare(catalog, 290975, 'forest', 1, 7);
+console.log(JSON.stringify(result, null, 2));
+```
+
 ## 로딩과 주소
 
 비교 자체는 추가 기후 배열을 요청하지 않는다. B만 바꾸면 비교 DOM과 주소만 갱신하고 지도 렌더링·선택 기간·계절 캐시는 유지한다. A 변경과 지도 보기에서는 기존3기간 캐시·인접 미리 읽기·오류 처리를 사용한다. 설명 catalog 오류 시 비교도 숨기며 기존 다시 읽기 버튼으로 복구한다. 설명의 검증된 표본과 지도 계절 배열의 로딩 상태는 독립적이므로, 지도가 로딩 중이어도 설명 표본을 읽을 수 있다.

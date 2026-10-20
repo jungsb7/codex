@@ -1,8 +1,10 @@
-GitHub 기반 최신 인수인계 — 후속22 두 기간 비교, 2026-10-20
+GitHub 기반 최신 인수인계 — 후속22 배포 완료, 2026-10-20
 
 jungsb7/codex의 최신 main에서 시작한다. 고정 과거 커밋으로 되돌리지 않는다.
 후속22 기준 main: 27f189f7f7983b4a17191ec48b510c12d7ecfc10
-후속22는 구현·검증 완료, 배포 확인 진행 중이다.
+후속22는 구현·검증·PR #2 병합·Pages 배포 완료다.
+기능 병합: 3866a998d804a9b9af64b2024d8ba83c89f112fd
+Pages build/deploy 성공: https://github.com/jungsb7/codex/actions/runs/39414495555
 최종 반영 상태는 integration/natural-world/landscape-compare/validation/deployment.json에서 확인한다.
 현재 사용자 요청을 우선하며 과거 문서의 제안을 새 작업 지시로 오인하지 않는다.
 

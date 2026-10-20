@@ -1,6 +1,6 @@
 # 후속22 완료 범위와 다음 선택지
 
-대표30경관의 두 공전 위상 나란히 비교를 구현했다. A/B 선택·교환·기온/강수/후보유량 차이·공유 주소·지도 연결·비교 JSON을 제공한다. [사용·검증](../integration/natural-world/landscape-compare/README.md), [현재 반영 상태](CURRENT_STATE.md)를 확인한다. 아래는 새 사용자 요청이 있을 때만 진행할 별도 제안이다.
+대표30경관의 두 공전 위상 나란히 비교를 구현·검증하고 [PR #2](https://github.com/jungsb7/codex/pull/2) 병합·Pages 배포까지 완료했다. A/B 선택·교환·기온/강수/후보유량 차이·공유 주소·지도 연결·비교 JSON을 제공한다. [사용·검증](../integration/natural-world/landscape-compare/README.md), [현재 반영 상태](CURRENT_STATE.md)를 확인한다. 아래는 새 사용자 요청이 있을 때만 진행할 별도 제안이다.
 
 ## 다음 권장 목표: 대표 경관 찾기 개선
 

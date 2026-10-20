@@ -1,10 +1,10 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속22 두 기간 비교 구현 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속22 두 기간 비교 배포 완료 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속22 두 기간 비교 — 2026-10-20
+## 후속22 두 기간 비교 배포 완료 — 2026-10-20
 
-사용자가 다음 목표 진행을 요청해 기존 대표30곳에 두 공전 위상 비교 화면을 추가했다. 구현·자료28검사·브라우저47검사를 완료했으며 배포 확인을 진행 중이다. 배포 결과는 이 단계 `validation/deployment.json`에 기록한다.
+사용자가 다음 목표 진행을 요청해 기존 대표30곳에 두 공전 위상 비교 화면을 추가했다. 구현·자료28검사·브라우저47검사와 main 반영·Pages 배포를 완료했다. [PR #2](https://github.com/jungsb7/codex/pull/2), 기능 커밋 `2d35eb24abffd5a2fa20b41c447873ccf2ffd90f`, 병합 커밋 `3866a998d804a9b9af64b2024d8ba83c89f112fd`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39414495555)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 작업 환경 프록시403으로 확인하지 못했으며, 로컬 브라우저 검증과 구분한다. [배포 기록](../integration/natural-world/landscape-compare/validation/deployment.json). 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 - 같은 원본 대표 격자의 A/B 기온·강수·후보유량과 기존 모습 초안을 나란히 표시한다. 차이는 B − A이며 추세나 누적량이 아니다.
 - 기간 교환·공유 주소·새로고침·뒤로 가기·클립보드 실패 안내·비교 JSON 저장을 제공한다. 좌표 JSON에도 `landscapeComparison`을 추가했다.
