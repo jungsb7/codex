@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "direct period 4 loads without whole climate/water payloads",
+    "all twelve periods match point chart with at most three cached periods",
+    "aborted late responses cannot overwrite rapid period selection",
+    "HTTP failure exposes null in JSON and retry restores selected period",
+    "hash mismatch cannot display corrupt data and retry fetches verified bytes",
+    "reload and browser back synchronize period URL, values and screen",
+    "chart-only failure leaves selected map valid and retries without fabricated bars",
+    "natural-feature lookup loads metadata without period arrays",
+    "manifest-http fails explicitly and retries",
+    "manifest-version fails explicitly and retries",
+    "metadata-http fails explicitly and retries",
+    "failed adjacent prefetch retries on explicit selection",
+    "mobile 320px and 390px period controls and chart fit"
+  ],
+  "errors": []
+}

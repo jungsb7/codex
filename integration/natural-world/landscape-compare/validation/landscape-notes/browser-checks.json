@@ -1,0 +1,258 @@
+{
+  "status": "passed",
+  "checks": [
+    "all 30 selections, 360 period queries, twelve phase controls and 60 real JSON downloads match catalog and map",
+    "description-only browsing does not request seasonal arrays or metadata",
+    "reload and browser back preserve representative cell and phase",
+    "chosen phase opens lazy season map with equal live values and bounded cache",
+    "original-only view labels notes as hidden candidates and unadopted prose",
+    "320px and 390px forest, grass and wetland cards fit and controls work",
+    "other land, lake and ocean selections clear representative description",
+    "http failure preserves working map and retry restores checked descriptions",
+    "hash failure preserves working map and retry restores checked descriptions",
+    "version failure preserves working map and retry restores checked descriptions"
+  ],
+  "views": [
+    {
+      "id": "forest-290975",
+      "cell": 290975,
+      "periodQueries": 12,
+      "periodControls": 12,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-240147",
+      "cell": 240147,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-901342",
+      "cell": 901342,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-513423",
+      "cell": 513423,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-256182",
+      "cell": 256182,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-123950",
+      "cell": 123950,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-274633",
+      "cell": 274633,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-518102",
+      "cell": 518102,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-491148",
+      "cell": 491148,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-263161",
+      "cell": 263161,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "forest-317360",
+      "cell": 317360,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-164753",
+      "cell": 164753,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-536431",
+      "cell": 536431,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-128264",
+      "cell": 128264,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-760022",
+      "cell": 760022,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-263039",
+      "cell": 263039,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-274203",
+      "cell": 274203,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-448127",
+      "cell": 448127,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-280312",
+      "cell": 280312,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-302007",
+      "cell": 302007,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "grass-314292",
+      "cell": 314292,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-631816",
+      "cell": 631816,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-641780",
+      "cell": 641780,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-298586",
+      "cell": 298586,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-363292",
+      "cell": 363292,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-632368",
+      "cell": 632368,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-489597",
+      "cell": 489597,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-241490",
+      "cell": 241490,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-151639",
+      "cell": 151639,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    },
+    {
+      "id": "wetland-306158",
+      "cell": 306158,
+      "periodQueries": 12,
+      "periodControls": 1,
+      "coordinateExport": true,
+      "descriptionExport": true
+    }
+  ],
+  "errors": []
+}
