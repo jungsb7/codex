@@ -1,0 +1,170 @@
+[
+  {
+    "id": "polar",
+    "name": "한랭 고산초지",
+    "regionId": 1,
+    "regionName": "북부 설원권",
+    "cell": 138969,
+    "coordinates": [
+      -9.0234375,
+      68.7890625
+    ],
+    "reason": "한랭권과 산지 음영",
+    "biome": "툰드라·고산초지 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "steppe",
+    "name": "대초원 물길",
+    "regionId": 2,
+    "regionName": "북방 내륙·대초원권",
+    "cell": 215825,
+    "coordinates": [
+      4.1015625,
+      57.0703125
+    ],
+    "reason": "초원·하천 후보 밀도",
+    "biome": "초원·반건조지 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "western-dry",
+    "name": "서부 건조 전이",
+    "regionId": 3,
+    "regionName": "서부 사막권",
+    "cell": 298428,
+    "coordinates": [
+      -75.8203125,
+      44.4140625
+    ],
+    "reason": "설정 사막과 실제 초원 후보를 구별",
+    "biome": "초원·반건조지 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "west",
+    "name": "온대림 습지",
+    "regionId": 4,
+    "regionName": "서대륙 중남부",
+    "cell": 306265,
+    "coordinates": [
+      -39.0234375,
+      43.2421875
+    ],
+    "reason": "온대림·습지 가장자리",
+    "biome": "온대림 후보",
+    "wetness": "하천 습지 검토 후보"
+  },
+  {
+    "id": "headwaters",
+    "name": "수원 고산 계곡",
+    "regionId": 5,
+    "regionName": "북방 수원 산지",
+    "cell": 308266,
+    "coordinates": [
+      69.9609375,
+      43.0078125
+    ],
+    "reason": "산지 등고선·계곡",
+    "biome": "사막·건조 관목지 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "basin",
+    "name": "분지 건조 산록",
+    "regionId": 6,
+    "regionName": "제국 분지·대호수",
+    "cell": 334234,
+    "coordinates": [
+      36.2109375,
+      39.0234375
+    ],
+    "reason": "분지의 건조 후보와 기존 호수 구별",
+    "biome": "사막·건조 관목지 후보",
+    "wetness": "일반 육지 · 습윤 미정"
+  },
+  {
+    "id": "east",
+    "name": "동부 건조 내륙",
+    "regionId": 7,
+    "regionName": "동대륙 내륙·연안",
+    "cell": 420327,
+    "coordinates": [
+      54.2578125,
+      25.8984375
+    ],
+    "reason": "건조지와 미정 수계",
+    "biome": "사막·건조 관목지 후보",
+    "wetness": "일반 육지 · 습윤 미정"
+  },
+  {
+    "id": "bridge",
+    "name": "남동 연결 해안",
+    "regionId": 8,
+    "regionName": "남동 연결부",
+    "cell": 475773,
+    "coordinates": [
+      89.4140625,
+      17.4609375
+    ],
+    "reason": "좁은 육지·해안 마스크",
+    "biome": "건조 숲초원 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "southeast",
+    "name": "남동 습윤 열대림",
+    "regionId": 9,
+    "regionName": "남동대륙",
+    "cell": 567838,
+    "coordinates": [
+      67.1484375,
+      3.3984375
+    ],
+    "reason": "열대림 후보 패치",
+    "biome": "습윤 열대림 후보",
+    "wetness": "범람원 검토 후보"
+  },
+  {
+    "id": "southwest",
+    "name": "남서 계절림 습지",
+    "regionId": 10,
+    "regionName": "남서대륙",
+    "cell": 567200,
+    "coordinates": [
+      -82.3828125,
+      3.3984375
+    ],
+    "reason": "열대 계절림·습지",
+    "biome": "열대 계절림·사바나 후보",
+    "wetness": "하천 습지 검토 후보"
+  },
+  {
+    "id": "islands",
+    "name": "섬 연안",
+    "regionId": 11,
+    "regionName": "섬·분리 육지",
+    "cell": 696413,
+    "coordinates": [
+      -38.0859375,
+      -16.2890625
+    ],
+    "reason": "섬과 바다 경계",
+    "biome": "열대 계절림·사바나 후보",
+    "wetness": "하천 주변 후보"
+  },
+  {
+    "id": "original-lake",
+    "name": "기존 대호수 북안",
+    "regionId": 6,
+    "regionName": "제국 분지·대호수",
+    "cell": 343445,
+    "coordinates": [
+      35.0390625,
+      37.6171875
+    ],
+    "reason": "원본 호수 마스크·호안과 유입 연결",
+    "biome": "기존 호수",
+    "wetness": "기존 호수"
+  }
+]

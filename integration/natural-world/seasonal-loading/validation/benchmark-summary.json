@@ -1,0 +1,28 @@
+[
+  {
+    "stage": "before",
+    "firstMedianMs": 3595.654971,
+    "chartMedianMs": 3601.7326810000004,
+    "bytesIncludingPrefetch": 41379030,
+    "heapIncreaseMedianBytes": 19003912,
+    "backingIncreaseMedianBytes": 39763904,
+    "switchMedianMs": [
+      355.6054870000007,
+      354.207699999999,
+      43.18002599999818
+    ]
+  },
+  {
+    "stage": "after",
+    "firstMedianMs": 1201.4651719999965,
+    "chartMedianMs": 1265.0265269999945,
+    "bytesIncludingPrefetch": 9444919,
+    "heapIncreaseMedianBytes": 7931176,
+    "backingIncreaseMedianBytes": 9252153,
+    "switchMedianMs": [
+      367.23994400000083,
+      718.9842480000007,
+      652.2680239999991
+    ]
+  }
+]

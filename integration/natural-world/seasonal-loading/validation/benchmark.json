@@ -1,0 +1,418 @@
+{
+  "baseline": "c3e35086a1cbdde37424225d117eb412d56fec83",
+  "environment": "local HTTP, Chromium, 1500x1080, cache disabled, no network throttling; GC before heap samples; includes adjacent prefetch and chart; three cold browser contexts per implementation",
+  "browser": "154.0.8037.57",
+  "runs": [
+    {
+      "trial": 1,
+      "stage": "before",
+      "selectedMs": 3595.654971,
+      "withChartMs": 3601.7326810000004,
+      "baseHeap": {
+        "usedSize": 45833996,
+        "totalSize": 47288320,
+        "embedderHeapUsedSize": 2397248,
+        "backingStorageSize": 30840832
+      },
+      "loadedHeap": {
+        "usedSize": 64837956,
+        "totalSize": 65552384,
+        "embedderHeapUsedSize": 2586600,
+        "backingStorageSize": 70604736
+      },
+      "resources": [
+        {
+          "file": "water-3775f512672b-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "water-3775f512672b-part01.bin",
+          "encodedBodySize": 4774415,
+          "transferSize": 4774715
+        },
+        {
+          "file": "climate-1369f5b0c513-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part01.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part03.bin",
+          "encodedBodySize": 604615,
+          "transferSize": 604915
+        },
+        {
+          "file": "climate-1369f5b0c513-part02.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        }
+      ],
+      "encodedBytes": 41379030,
+      "transferBytes": 41380830,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 371.99975599999925
+        },
+        {
+          "period": 7,
+          "ms": 335.9256869999999
+        },
+        {
+          "period": 2,
+          "ms": 48.90686800000003
+        }
+      ]
+    },
+    {
+      "trial": 1,
+      "stage": "after",
+      "selectedMs": 932.9517529999994,
+      "withChartMs": 966.1154109999989,
+      "baseHeap": {
+        "usedSize": 45845056,
+        "totalSize": 47288320,
+        "embedderHeapUsedSize": 2500712,
+        "backingStorageSize": 30848408
+      },
+      "loadedHeap": {
+        "usedSize": 53776416,
+        "totalSize": 54280192,
+        "embedderHeapUsedSize": 2312624,
+        "backingStorageSize": 40100561
+      },
+      "resources": [
+        {
+          "file": "manifest.json",
+          "encodedBodySize": 34906,
+          "transferSize": 35206
+        },
+        {
+          "file": "rain-range-422c5d515d87.gz",
+          "encodedBodySize": 1837008,
+          "transferSize": 1837308
+        },
+        {
+          "file": "water-metadata-7911b64d2f2f.gz",
+          "encodedBodySize": 1700685,
+          "transferSize": 1700985
+        },
+        {
+          "file": "period-01-e6a9d3db8dc7.gz",
+          "encodedBodySize": 1928765,
+          "transferSize": 1929065
+        },
+        {
+          "file": "chart-066-30d2a9910640.gz",
+          "encodedBodySize": 80570,
+          "transferSize": 80870
+        },
+        {
+          "file": "period-02-6d57cedf8cf4.gz",
+          "encodedBodySize": 1934332,
+          "transferSize": 1934632
+        },
+        {
+          "file": "period-12-4e95f0b570c7.gz",
+          "encodedBodySize": 1928653,
+          "transferSize": 1928953
+        }
+      ],
+      "encodedBytes": 9444919,
+      "transferBytes": 9447019,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 350.52142099999946
+        },
+        {
+          "period": 7,
+          "ms": 718.9842480000007
+        },
+        {
+          "period": 2,
+          "ms": 652.2680239999991
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "stage": "before",
+      "selectedMs": 3276.7517900000003,
+      "withChartMs": 3283.5508530000025,
+      "baseHeap": {
+        "usedSize": 45833316,
+        "totalSize": 47026176,
+        "embedderHeapUsedSize": 2398480,
+        "backingStorageSize": 30840832
+      },
+      "loadedHeap": {
+        "usedSize": 64837228,
+        "totalSize": 65552384,
+        "embedderHeapUsedSize": 2571792,
+        "backingStorageSize": 70604736
+      },
+      "resources": [
+        {
+          "file": "water-3775f512672b-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "water-3775f512672b-part01.bin",
+          "encodedBodySize": 4774415,
+          "transferSize": 4774715
+        },
+        {
+          "file": "climate-1369f5b0c513-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part01.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part02.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part03.bin",
+          "encodedBodySize": 604615,
+          "transferSize": 604915
+        }
+      ],
+      "encodedBytes": 41379030,
+      "transferBytes": 41380830,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 338.2073690000034
+        },
+        {
+          "period": 7,
+          "ms": 354.207699999999
+        },
+        {
+          "period": 2,
+          "ms": 43.18002599999818
+        }
+      ]
+    },
+    {
+      "trial": 2,
+      "stage": "after",
+      "selectedMs": 1396.2520859999968,
+      "withChartMs": 1431.5077009999986,
+      "baseHeap": {
+        "usedSize": 45844148,
+        "totalSize": 47026176,
+        "embedderHeapUsedSize": 2401608,
+        "backingStorageSize": 30848408
+      },
+      "loadedHeap": {
+        "usedSize": 53775324,
+        "totalSize": 54280192,
+        "embedderHeapUsedSize": 2249672,
+        "backingStorageSize": 40100561
+      },
+      "resources": [
+        {
+          "file": "manifest.json",
+          "encodedBodySize": 34906,
+          "transferSize": 35206
+        },
+        {
+          "file": "rain-range-422c5d515d87.gz",
+          "encodedBodySize": 1837008,
+          "transferSize": 1837308
+        },
+        {
+          "file": "water-metadata-7911b64d2f2f.gz",
+          "encodedBodySize": 1700685,
+          "transferSize": 1700985
+        },
+        {
+          "file": "period-01-e6a9d3db8dc7.gz",
+          "encodedBodySize": 1928765,
+          "transferSize": 1929065
+        },
+        {
+          "file": "chart-066-30d2a9910640.gz",
+          "encodedBodySize": 80570,
+          "transferSize": 80870
+        },
+        {
+          "file": "period-02-6d57cedf8cf4.gz",
+          "encodedBodySize": 1934332,
+          "transferSize": 1934632
+        },
+        {
+          "file": "period-12-4e95f0b570c7.gz",
+          "encodedBodySize": 1928653,
+          "transferSize": 1928953
+        }
+      ],
+      "encodedBytes": 9444919,
+      "transferBytes": 9447019,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 371.10949400000027
+        },
+        {
+          "period": 7,
+          "ms": 1056.7541090000013
+        },
+        {
+          "period": 2,
+          "ms": 798.9429520000012
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "stage": "before",
+      "selectedMs": 5332.867072000001,
+      "withChartMs": 5339.4887119999985,
+      "baseHeap": {
+        "usedSize": 45834784,
+        "totalSize": 47026176,
+        "embedderHeapUsedSize": 2395192,
+        "backingStorageSize": 30840832
+      },
+      "loadedHeap": {
+        "usedSize": 64837288,
+        "totalSize": 65814528,
+        "embedderHeapUsedSize": 2535792,
+        "backingStorageSize": 70604736
+      },
+      "resources": [
+        {
+          "file": "water-3775f512672b-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "water-3775f512672b-part01.bin",
+          "encodedBodySize": 4774415,
+          "transferSize": 4774715
+        },
+        {
+          "file": "climate-1369f5b0c513-part00.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part01.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part02.bin",
+          "encodedBodySize": 9000000,
+          "transferSize": 9000300
+        },
+        {
+          "file": "climate-1369f5b0c513-part03.bin",
+          "encodedBodySize": 604615,
+          "transferSize": 604915
+        }
+      ],
+      "encodedBytes": 41379030,
+      "transferBytes": 41380830,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 355.6054870000007
+        },
+        {
+          "period": 7,
+          "ms": 445.0456800000029
+        },
+        {
+          "period": 2,
+          "ms": 30.420531999996456
+        }
+      ]
+    },
+    {
+      "trial": 3,
+      "stage": "after",
+      "selectedMs": 1201.4651719999965,
+      "withChartMs": 1265.0265269999945,
+      "baseHeap": {
+        "usedSize": 45846720,
+        "totalSize": 46764032,
+        "embedderHeapUsedSize": 2260000,
+        "backingStorageSize": 30848408
+      },
+      "loadedHeap": {
+        "usedSize": 53777608,
+        "totalSize": 54280192,
+        "embedderHeapUsedSize": 2249120,
+        "backingStorageSize": 40100561
+      },
+      "resources": [
+        {
+          "file": "manifest.json",
+          "encodedBodySize": 34906,
+          "transferSize": 35206
+        },
+        {
+          "file": "rain-range-422c5d515d87.gz",
+          "encodedBodySize": 1837008,
+          "transferSize": 1837308
+        },
+        {
+          "file": "water-metadata-7911b64d2f2f.gz",
+          "encodedBodySize": 1700685,
+          "transferSize": 1700985
+        },
+        {
+          "file": "period-01-e6a9d3db8dc7.gz",
+          "encodedBodySize": 1928765,
+          "transferSize": 1929065
+        },
+        {
+          "file": "chart-066-30d2a9910640.gz",
+          "encodedBodySize": 80570,
+          "transferSize": 80870
+        },
+        {
+          "file": "period-02-6d57cedf8cf4.gz",
+          "encodedBodySize": 1934332,
+          "transferSize": 1934632
+        },
+        {
+          "file": "period-12-4e95f0b570c7.gz",
+          "encodedBodySize": 1928653,
+          "transferSize": 1928953
+        }
+      ],
+      "encodedBytes": 9444919,
+      "transferBytes": 9447019,
+      "switches": [
+        {
+          "period": 2,
+          "ms": 367.23994400000083
+        },
+        {
+          "period": 7,
+          "ms": 713.5453560000024
+        },
+        {
+          "period": 2,
+          "ms": 626.6262690000003
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,660 @@
+{
+  "status": "passed",
+  "tileHalo": {
+    "pairs": 56,
+    "differences": 0
+  },
+  "views": 72,
+  "coordinateFeatureSeasonExports": 12,
+  "results": [
+    {
+      "id": "polar",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": false
+    },
+    {
+      "id": "polar",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": true
+    },
+    {
+      "id": "polar",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": false
+    },
+    {
+      "id": "steppe",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "steppe",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:8496",
+      "exportChecked": true
+    },
+    {
+      "id": "steppe",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:9335",
+      "exportChecked": false
+    },
+    {
+      "id": "western-dry",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": false
+    },
+    {
+      "id": "western-dry",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": true
+    },
+    {
+      "id": "western-dry",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": false
+    },
+    {
+      "id": "west",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "west",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-south",
+      "exportChecked": true
+    },
+    {
+      "id": "west",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-south",
+      "exportChecked": false
+    },
+    {
+      "id": "headwaters",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "headwaters",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": true
+    },
+    {
+      "id": "headwaters",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "basin",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "basin",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": true
+    },
+    {
+      "id": "basin",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:basin-arc",
+      "exportChecked": false
+    },
+    {
+      "id": "east",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": null,
+      "exportChecked": false
+    },
+    {
+      "id": "east",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": null,
+      "exportChecked": true
+    },
+    {
+      "id": "east",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": null,
+      "exportChecked": false
+    },
+    {
+      "id": "bridge",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": false
+    },
+    {
+      "id": "bridge",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": true
+    },
+    {
+      "id": "bridge",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": false
+    },
+    {
+      "id": "southeast",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": false
+    },
+    {
+      "id": "southeast",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": true
+    },
+    {
+      "id": "southeast",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": false
+    },
+    {
+      "id": "southwest",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:30752",
+      "exportChecked": false
+    },
+    {
+      "id": "southwest",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:32484",
+      "exportChecked": true
+    },
+    {
+      "id": "southwest",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:32609",
+      "exportChecked": false
+    },
+    {
+      "id": "islands",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38479",
+      "exportChecked": false
+    },
+    {
+      "id": "islands",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38479",
+      "exportChecked": true
+    },
+    {
+      "id": "islands",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38518",
+      "exportChecked": false
+    },
+    {
+      "id": "original-lake",
+      "width": 1500,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "original-lake",
+      "width": 1500,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:basin-arc",
+      "exportChecked": true
+    },
+    {
+      "id": "original-lake",
+      "width": 1500,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:basin-arc",
+      "exportChecked": false
+    },
+    {
+      "id": "polar",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": false
+    },
+    {
+      "id": "polar",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": false
+    },
+    {
+      "id": "polar",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:snow-north",
+      "exportChecked": false
+    },
+    {
+      "id": "steppe",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "steppe",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:6353",
+      "exportChecked": false
+    },
+    {
+      "id": "steppe",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:8086",
+      "exportChecked": false
+    },
+    {
+      "id": "western-dry",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": false
+    },
+    {
+      "id": "western-dry",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": false
+    },
+    {
+      "id": "western-dry",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-desert",
+      "exportChecked": false
+    },
+    {
+      "id": "west",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "west",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "west",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:west-south",
+      "exportChecked": false
+    },
+    {
+      "id": "headwaters",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "headwaters",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "headwaters",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:basin-inlet-east",
+      "exportChecked": false
+    },
+    {
+      "id": "basin",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "basin",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "basin",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "east",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:27852",
+      "exportChecked": false
+    },
+    {
+      "id": "east",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": null,
+      "exportChecked": false
+    },
+    {
+      "id": "east",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": null,
+      "exportChecked": false
+    },
+    {
+      "id": "bridge",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": false
+    },
+    {
+      "id": "bridge",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": false
+    },
+    {
+      "id": "bridge",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-south",
+      "exportChecked": false
+    },
+    {
+      "id": "southeast",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": false
+    },
+    {
+      "id": "southeast",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": false
+    },
+    {
+      "id": "southeast",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:east-peninsula",
+      "exportChecked": false
+    },
+    {
+      "id": "southwest",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:southwest-main",
+      "exportChecked": false
+    },
+    {
+      "id": "southwest",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:31414",
+      "exportChecked": false
+    },
+    {
+      "id": "southwest",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:32240",
+      "exportChecked": false
+    },
+    {
+      "id": "islands",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38479",
+      "exportChecked": false
+    },
+    {
+      "id": "islands",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38479",
+      "exportChecked": false
+    },
+    {
+      "id": "islands",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "reach:38479",
+      "exportChecked": false
+    },
+    {
+      "id": "original-lake",
+      "width": 390,
+      "zoom": 12,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "original-lake",
+      "width": 390,
+      "zoom": 24,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:northern",
+      "exportChecked": false
+    },
+    {
+      "id": "original-lake",
+      "width": 390,
+      "zoom": 32,
+      "grid": true,
+      "originalOnlyHidesCandidates": true,
+      "selection": "feature:basin-arc",
+      "exportChecked": false
+    }
+  ],
+  "errors": []
+}

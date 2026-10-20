@@ -1,0 +1,26 @@
+✔ all 268857 cells and twelve original temperatures / rain samples remain exact (318.320777ms)
+✔ all 45824 reaches use their own period node values, including zero and unresolved flows (59.993911ms)
+✔ source mismatch and malformed arrays fail explicitly without inferred data (16.007892ms)
+✔ state round trip preserves periods, features, display settings and rejects invalid periods (3.537287ms)
+✔ object summaries distinguish existing designs and computed graph, no invented hydrology on ridges (13.090207ms)
+✔ hit testing respects hidden layers and uses screen-distance projection (0.501563ms)
+✔ designed detail is deterministic for all eleven regions, preserves ocean and lake masks (2.87816ms)
+✔ detail cannot invent forests or wetlands outside candidates, held flags or original-only (300.999819ms)
+✔ interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates (5.493995ms)
+✔ season changes never change source arrays or physical adoption and files retain original hashes (263.577354ms)
+✔ rounded display paths preserve confluence endpoints and never add lake or sea interior vertices (222.712241ms)
+✔ published split climate and water payloads reconstruct the exact original gzip hash (67.731893ms)
+✔ every cell temperature/rain and all reach flow values equal the original twelve periods (433.59475ms)
+✔ all point-chart blocks and rain ranges retain exact source samples (529.472226ms)
+✔ metadata preserves reach IDs, topology, catchments, trunks, lake and unresolved endpoints (150.165261ms)
+✔ first selection including chart stays below 10 MB and references bind to exact atlas/source bytes (180.331012ms)
+✔ a missing or mismatched active period yields no stale climate values or colors (25.500954ms)
+✔ twelve fixed landscapes cover every region plus an original lake without adopting new geometry (1.378904ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4724.181992

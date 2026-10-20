@@ -1,0 +1,21 @@
+{
+  "firstSelectionWorstCaseBytes": 5599964,
+  "withTwoAdjacentPeriods": 9471804,
+  "statsBytes": 1837008,
+  "metadataBytes": 1700685,
+  "periodBytes": [
+    1928765,
+    1934332,
+    1932927,
+    1924639,
+    1918153,
+    1922005,
+    1937508,
+    1930174,
+    1930222,
+    1927394,
+    1932644,
+    1928653
+  ],
+  "chartMaxBytes": 89857
+}
