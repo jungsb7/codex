@@ -1,6 +1,6 @@
 # 후속30 — 두 지류 합류의 운동량·에너지 장부
 
-기준 main `29bd0df7145c347c0fc1e07b111d110cbab74a1d`. 사용자 다음 진행 요청에 따라 두 유입·한 유출의 수평 운동량 검산을 구현했다. [화면](index.html) · [방법·입력·기술 근거](README.md). 배포 상태는 [기록](validation/deployment.json)에 남긴다.
+기준 main `29bd0df7145c347c0fc1e07b111d110cbab74a1d`. 사용자 다음 진행 요청에 따라 두 유입·한 유출의 수평 운동량 검산을 구현했다. [화면](index.html) · [방법·입력·기술 근거](README.md). [PR #10](https://github.com/jungsb7/codex/pull/10)을 main에 병합·배포했다. 기능 커밋 `08eb8da78f76419042ece69af38f63678b6ccbef`, 병합 커밋 `eb82590a5113d1a2058e96ff25e73ac0806dff97`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39451834339)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 확인은 기존 환경 프록시403 제한으로 수행하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](validation/deployment.json).
 
 ## 결과
 

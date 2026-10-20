@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속30 D298591 합류 운동량 장부의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속30 D298591 합류 운동량 장부 구현·검증 완료 — 2026-10-21
+## 후속30 D298591 합류 운동량 장부 구현·검증·배포 완료 — 2026-10-21
 
-기준 main `29bd0df7145c347c0fc1e07b111d110cbab74a1d`. [화면](../integration/natural-world/d298591-momentum/index.html) · [결과](../integration/natural-world/d298591-momentum/REPORT.md) · [방법·AI](../integration/natural-world/d298591-momentum/README.md). [배포 기록](../integration/natural-world/d298591-momentum/validation/deployment.json).
+기준 main `29bd0df7145c347c0fc1e07b111d110cbab74a1d`. [화면](../integration/natural-world/d298591-momentum/index.html) · [결과](../integration/natural-world/d298591-momentum/REPORT.md) · [방법·AI](../integration/natural-world/d298591-momentum/README.md). [PR #10](https://github.com/jungsb7/codex/pull/10)을 main에 병합·배포했다. 기능 커밋 `08eb8da78f76419042ece69af38f63678b6ccbef`, 병합 커밋 `eb82590a5113d1a2058e96ff25e73ac0806dff97`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39451834339)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 확인은 기존 환경 프록시403 제한으로 수행하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-momentum/validation/deployment.json).
 
 - 두 유입·한 유출의 정수압·유속항·각도·벽/바닥 압력/마찰을 명시하는 수평 운동량 장부다. 공간2차원 흐름이나 실제 외력을 푼 것이 아니다.
 - 공통 유입 수면이라는 별도 근사로x방정식을 풀고y운동량과 에너지 필요조건을 검사한다. 부족한 외력을 자동으로 채우지 않는다. 보류 시trial만 남고accepted:null이며 실제값은항상null이다.

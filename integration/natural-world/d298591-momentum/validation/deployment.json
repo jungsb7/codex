@@ -1,10 +1,56 @@
 {
   "stage": "30",
-  "status": "local-validation-complete-pending-publication",
+  "status": "merged-and-pages-jobs-succeeded",
+  "userDate": "2026-10-21",
+  "userTimezone": "Asia/Seoul",
   "baseline": "29bd0df7145c347c0fc1e07b111d110cbab74a1d",
-  "modelTests": 128,
-  "browserTests": 25,
+  "pullRequest": "https://github.com/jungsb7/codex/pull/10",
+  "featureCommit": "08eb8da78f76419042ece69af38f63678b6ccbef",
+  "mergeCommit": "eb82590a5113d1a2058e96ff25e73ac0806dff97",
+  "pagesRun": {
+    "id": 39451834339,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39451834339",
+    "headSha": "eb82590a5113d1a2058e96ff25e73ac0806dff97",
+    "jobs": [
+      {
+        "id": 118728382928,
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "id": 118728677143,
+        "name": "deploy",
+        "conclusion": "success"
+      },
+      {
+        "id": 118728676956,
+        "name": "report-build-status",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/d298591-momentum/index.html",
   "actualPublicOriginVerified": false,
+  "originCheck": {
+    "status": "not-repeated-under-known-proxy-restriction",
+    "priorObservationUtc": "2026-10-20T15:23:19Z",
+    "priorStage": "d298591-confluence",
+    "detail": "Same public host was denied by environment envoy proxy with CONNECT403; no new direct origin verification or policy bypass. Local browser and GitHub deployment checks are separate."
+  },
+  "localValidation": {
+    "modelTests": 128,
+    "browserTests": 25,
+    "screenshots": [
+      1440,
+      390,
+      320
+    ],
+    "presets": 13,
+    "downloadedJSON": 13,
+    "preservedBaselineFiles": 893,
+    "baselineFiles": 897
+  },
+  "handoffCommitNote": "A subsequent documentation commit records this confirmed feature deployment; its SHA is discoverable from main history.",
   "physicalResolvedReaches": 0,
   "unresolvedReaches": 23022,
   "automaticAdoption": false

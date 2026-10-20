@@ -1,6 +1,6 @@
 # 후속30 결과와 다음 구현
 
-사용자 요청으로 두 유입·한 유출의 수평 운동량·에너지 장부를 구현했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-momentum/REPORT.md), [배포 기록](../integration/natural-world/d298591-momentum/validation/deployment.json)을 확인한다. 13가정 중7장부통과·6보류. 실제 해결0구간·23,022구간 미정이다.
+사용자 요청으로 두 유입·한 유출의 수평 운동량·에너지 장부를 구현하고 [PR #10](https://github.com/jungsb7/codex/pull/10)을 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-momentum/REPORT.md), [배포 기록](../integration/natural-world/d298591-momentum/validation/deployment.json)을 확인한다. 13가정 중7장부통과·6보류. 실제 해결0구간·23,022구간 미정이다.
 
 ## 다음 권장 목표: 외력 가정의 형상 근거 검산
 
