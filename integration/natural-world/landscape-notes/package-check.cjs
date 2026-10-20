@@ -1,0 +1,11 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),cp=require('node:child_process'),assert=require('node:assert/strict'),crypto=require('node:crypto');
+const root=path.resolve(__dirname,'../../..'),baseline='9df7ff0cd9205342f0ee8449c7807a965acaab51',allow=new Set(['NEXT_SESSION_PROMPT.txt','handoff/CURRENT_STATE.md','handoff/NEXT_GOALS.md','integration/natural-world/unified-atlas/app.js','integration/natural-world/unified-atlas/index.html']);
+const rows=cp.execFileSync('git',['ls-tree','-r',baseline],{cwd:root,encoding:'utf8'}).trim().split('\n'),changed=[],hashes={};let unchanged=0;
+for(const row of rows){const [meta,file]=row.split('\t'),sha=meta.split(' ')[2];assert(fs.existsSync(path.join(root,file)),file+' missing');const bytes=fs.readFileSync(path.join(root,file)),actual=crypto.createHash('sha1').update(Buffer.from('blob '+bytes.length+'\0')).update(bytes).digest('hex');if(sha===actual)unchanged++;else{assert(allow.has(file),'Unexpected baseline change: '+file);changed.push(file);}}
+const html=fs.readFileSync(path.join(root,'integration/natural-world/unified-atlas/index.html'),'utf8');
+for(const [,file]of html.matchAll(/(?:src|href)="([^"#]+)"/g)){if(!/^(?:\w+:|\/)/.test(file))assert(fs.existsSync(path.resolve(root,'integration/natural-world/unified-atlas',file)),file);}
+const catalog=require('./output/catalog.json');for(const e of catalog.entries){assert.equal(e.automaticAdoption,false);assert(Object.values(e.unknown).every(v=>v===null));}
+for(const file of ['core.js','ui.js','style.css','prose.json','build.cjs','output/catalog.json','output/manifest.json'])hashes[file]=crypto.createHash('sha256').update(fs.readFileSync(path.join(__dirname,file))).digest('hex');
+const result={status:'passed',baseline,baselineFiles:rows.length,unchangedFiles:unchanged,allowedChangedFiles:changed,newStep:'integration/natural-world/landscape-notes',hashes,originalInputsAndWorldLoreUnchanged:true,archiveBranchTouched:false,representatives:catalog.entries.length,actualCoverAdoptions:0};
+fs.mkdirSync(path.join(__dirname,'validation'),{recursive:true});fs.writeFileSync(path.join(__dirname,'validation/package-checks.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result,null,2));

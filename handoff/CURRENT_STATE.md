@@ -1,6 +1,20 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속20 완료 상태를 기록한다. 계절 경량화·12경관 점검은 종료됐으며, [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속21 구현·검증 완료와 main 반영 대기 상태를 기록한다., [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속21 구현·검증 완료 / 반영 대기 — 2026-10-20
+
+기능 커밋: `25525ca79f9de4b807e9b177f945867df845a066`. [초안 PR #1](https://github.com/jungsb7/codex/pull/1), 브랜치 `codex/landscape-notes-30`. main 직접 갱신은 자동 승인 검토에서 명시적 승인 부족을 이유로 거절됐다. main은 후속20 상태이며 후속21의 공개 Pages 배포는 하지 않았다. 사용자 승인 후 반영·배포를 확인해야 한다. [정확한 상태 기록](../integration/natural-world/landscape-notes/validation/deployment.json).
+
+- 기존 대표30연속군의 개별 설명 초안, 원본 좌표·고도·후보 지형/식생·수계 연결·연속군 보류 근거를 연결했다.
+- 30대표점×12기간의 기온·강수·유량 표본과 계절 색조 제안을 제공한다. 대표 한 점의 값과 연속군 전체를 구분한다.
+- 지도 **대표 경관 30곳** 선택·정보창·기간 비교·계절 지도 연결·설명/좌표 JSON 저장을 구현했다. 설명만 탐색할 때 전 대륙 계절 배열은 요청하지 않는다.
+- 기존 권역/분류명을 표제로 유지하고 새 고유 지명·정치/문화/서사 설정은 정하지 않았다. 실제 피복 채택0건, 실제 면적·강폭·침수·결빙 등은 null이다.
+- 설명 자료 약224KB에 크기·해시·지도 버전 검증과 실패 재시도를 적용했다. 기존3기간 캐시·모바일 접근성을 유지한다.
+
+[사용·재현·검증](../integration/natural-world/landscape-notes/README.md) · [30설명](../integration/natural-world/landscape-notes/CATALOG.md) · [AI용 구조화 자료](../integration/natural-world/landscape-notes/output/catalog.json).
+
+검증 기록은 `integration/natural-world/landscape-notes/validation/`에 있다. 자료24검사(새6+기존18), 원본360표본·30연속군·수계·null 대조를 통과했다. 브라우저35검사(새10+기존25), 30선택·360기간 조회·60실제 JSON 저장·320/390px 표시·오류 복구를 통과했다. 30개별 문단과 모바일6장·데스크톱2장을 검토했다. 기능 커밋과 Pages 결과는 이 단계 `validation/deployment.json`에 기록한다.
 
 ## 후속20 완료 — 2026-10-20
 

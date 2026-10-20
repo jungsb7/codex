@@ -1,6 +1,9 @@
-GitHub 기반 최신 인수인계 — 후속20 완료, 2026-10-20
+GitHub 기반 최신 인수인계 — 후속21 구현·검증 완료 / main 반영 대기, 2026-10-20
 
-jungsb7/codex의 최신 main에서 시작한다. 고정 과거 커밋으로 되돌리지 않는다.
+jungsb7/codex의 최신 main과 PR #1 상태를 먼저 확인한다. 고정 과거 커밋으로 되돌리지 않는다.
+후속21은 codex/landscape-notes-30 브랜치와 https://github.com/jungsb7/codex/pull/1 에 있다.
+main 직접 갱신은 자동 승인 검토에서 명시적 승인 부족으로 거절됐으며 공개 배포는 하지 않았다.
+PR이 미병합이면 이 브랜치에서 이어가고, main 반영·Pages 배포는 사용자 명시적 승인 후 진행한다.
 현재 사용자 요청을 우선하며 과거 문서의 제안을 새 작업 지시로 오인하지 않는다.
 
 먼저 읽기:
@@ -8,30 +11,28 @@ jungsb7/codex의 최신 main에서 시작한다. 고정 과거 커밋으로 되�
 2. handoff/CURRENT_STATE.md
 3. handoff/NEXT_GOALS.md
 4. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
-5. integration/natural-world/seasonal-loading/README.md 및 QUALITY.md
+5. integration/natural-world/landscape-notes/README.md 및 CATALOG.md
+6. 계절 런타임을 수정하면 integration/natural-world/seasonal-loading/README.md
 
-이번 기능 커밋: 3b17bb97ead2457ee811c1db73587856ca7e8533
-Pages 실행: https://github.com/jungsb7/codex/actions/runs/39374199800
-정확한 배포·공개 도메인 접속 결과: integration/natural-world/seasonal-loading/validation/deployment.json
-
-완료: 기간별 계절 지연 로딩, 3기간 캐시·인접 미리 읽기·실패 복구, 자연11권역+기존호수 12대표의 12/24/32배·데스크톱/390px 품질 점검.
-첫 선택 추가 자료 최대5.60MB(기존41.38MB), 인접 두 기간 포함 상한9.47MB. 기본 지도는 별도다.
-새 검증: 자료18개, 브라우저25개, 경관72조건·전후144장, 12지점 JSON 일치. 이전49검사 기록과 구분한다.
-현재 단계는 종료됐다. 다음 권장 선택지는 handoff/NEXT_GOALS.md에 있으며 새 요청 없이 자동 착수하지 않는다.
+완료: 기존 대표30경관 설명·계절 모습 초안, 360개 원본 계절 표본·좌표·수계 근거 연결, 지도 선택·정보창·기간·JSON 저장.
+AI용 자료: integration/natural-world/landscape-notes/output/catalog.json
+구현·검증은 완료됐다. main 반영·Pages 확인이 승인 대기다. 다음 별도 제안은 handoff/NEXT_GOALS.md이며 새 요청 없이 착수하지 않는다.
+검증·배포 기록: integration/natural-world/landscape-notes/validation/
 
 재현:
+node integration/natural-world/landscape-notes/build.cjs
 node handoff/restore-inputs.cjs
-node integration/natural-world/seasonal-loading/build.cjs
-node --test --test-isolation=none integration/natural-world/atlas-experience/test.cjs integration/natural-world/seasonal-loading/test.cjs
+node --test --test-isolation=none integration/natural-world/landscape-notes/test.cjs integration/natural-world/atlas-experience/test.cjs integration/natural-world/seasonal-loading/test.cjs
 python3 -m http.server 8000 --bind 127.0.0.1
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
-화면 비교: http://127.0.0.1:8000/integration/natural-world/seasonal-loading/REVIEW.html
 
 유지 사항:
 - 기존 세계·경제·원본 고도 약26km·기온/강수 Float32·로그 양자화 유량을 보존한다.
 - 확대 약3.26km 형태는 설계 표시이며 새 물리DEM·실제 숲/습지 경계가 아니다.
-- 12기간은 공전 위상이며 지구 달력 월이 아니다.
+- 12기간은 공전 위상이며 지구 달력 월이 아니다. 대표 한 격자 표본과 전체 연속군의 환경을 구분한다.
+- 설명의 색조·장면은 미채택 창작 초안이다. 기존 권역·후보 분류 표제는 정식 고유 지명이 아니다.
 - unknown=null, 원본 해안/호수 마스크, 수계 연결을 유지한다. 미정 경계1184곳·집수권168576격자·하류미정23022구간을 자동 확정하지 않는다.
+- 현재 계절 지연 로딩·3기간 캐시·미리 읽기·오류 처리를 유지한다. 설명 목록만 탐색할 때 전 대륙 계절 배열은 읽지 않는다.
 - 앞선9곳 국지 수문 검토는 종료됐다.
-- 제공된 전체 원본3044파일은 별도 archive/full-handoff-20261020 브랜치에 있으며 main에 병합하지 않는다. 구 행성 시뮬레이터 복원은 handoff/FULL_ARCHIVE.md를 따른다.
+- 전체 원본3044파일은 archive/full-handoff-20261020 브랜치에 있으며 main에 병합하지 않는다. 구 시뮬레이터 복원은 handoff/FULL_ARCHIVE.md를 따른다.
 - 이전 build/record/package 스크립트를 무작정 실행하지 않는다. 새 작업은 자체 단계와 검증 기록을 남긴다.

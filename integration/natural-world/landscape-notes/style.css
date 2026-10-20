@@ -1,0 +1,8 @@
+#landscape-notes-tools{margin:22px 0;padding-top:18px;border-top:1px solid #ffffff20}
+.landscape-note-card p{line-height:1.65;overflow-wrap:anywhere}
+.landscape-note-card h4{margin:18px 0 6px;color:#e0d4ad}
+.landscape-note-card h3{overflow-wrap:anywhere}
+.landscape-note-card details{margin:16px 0}
+.landscape-note-card summary{cursor:pointer}
+.landscape-note-card .feature-actions{flex-wrap:wrap;align-items:center}
+.landscape-note-card select{width:100%;max-width:100%}

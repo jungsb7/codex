@@ -1,0 +1,32 @@
+✔ all 268857 cells and twelve original temperatures / rain samples remain exact (227.11761ms)
+✔ all 45824 reaches use their own period node values, including zero and unresolved flows (54.400984ms)
+✔ source mismatch and malformed arrays fail explicitly without inferred data (14.216482ms)
+✔ state round trip preserves periods, features, display settings and rejects invalid periods (3.389195ms)
+✔ object summaries distinguish existing designs and computed graph, no invented hydrology on ridges (21.299992ms)
+✔ hit testing respects hidden layers and uses screen-distance projection (0.52797ms)
+✔ designed detail is deterministic for all eleven regions, preserves ocean and lake masks (6.152619ms)
+✔ detail cannot invent forests or wetlands outside candidates, held flags or original-only (373.360527ms)
+✔ interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates (6.269606ms)
+✔ season changes never change source arrays or physical adoption and files retain original hashes (274.344308ms)
+✔ rounded display paths preserve confluence endpoints and never add lake or sea interior vertices (240.584451ms)
+✔ published split climate and water payloads reconstruct the exact original gzip hash (169.310877ms)
+✔ catalog hash, atlas identity and all 30 original representative groups match (18.031441ms)
+✔ 360 temperatures, rainfall and quantized flows match restored original inputs, plus exact hydrology (786.624202ms)
+✔ extrema preserve exact ties, phase identity and representative-point scope (1.192079ms)
+✔ all map links resolve to the original grid and all per-period exports keep evidence and nulls (2.157029ms)
+✔ non-representative land, ocean and original lakes do not borrow adjacent descriptions (1.853837ms)
+✔ wrong atlas, source coordinate, unit and corrupt period data are rejected (5.987051ms)
+✔ every cell temperature/rain and all reach flow values equal the original twelve periods (470.313915ms)
+✔ all point-chart blocks and rain ranges retain exact source samples (727.184538ms)
+✔ metadata preserves reach IDs, topology, catchments, trunks, lake and unresolved endpoints (151.626887ms)
+✔ first selection including chart stays below 10 MB and references bind to exact atlas/source bytes (178.625ms)
+✔ a missing or mismatched active period yields no stale climate values or colors (54.858781ms)
+✔ twelve fixed landscapes cover every region plus an original lake without adopting new geometry (1.375041ms)
+ℹ tests 24
+ℹ suites 0
+ℹ pass 24
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8901.66752
