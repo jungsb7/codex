@@ -1,10 +1,134 @@
 {
-  "status": "ready-for-publication",
+  "status": "deployed",
   "baseline": "5bcce093daca1bc9cf4687fbb9d3f7ffd0fe8078",
-  "featureCommit": null,
-  "mergeCommit": null,
-  "pagesRun": null,
+  "featureCommit": "efd2e51c828ec2827a5b42d396d928cb1d563d35",
+  "mergeCommit": "f948a08db538f368735ae3332485d5001b049479",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/5",
+  "pagesRun": {
+    "id": 39426035205,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39426035205",
+    "headSha": "f948a08db538f368735ae3332485d5001b049479",
+    "jobs": [
+      {
+        "id": 118638725256,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 39426035205,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Checkout",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Upload artifact",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Post Checkout",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          }
+        ]
+      },
+      {
+        "id": 118639033951,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 39426035205,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Deploy to GitHub Pages",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          }
+        ]
+      },
+      {
+        "id": 118639033963,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 39426035205,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Report Build Status",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          }
+        ]
+      }
+    ]
+  },
+  "url": "https://jungsb7.github.io/codex/integration/natural-world/d298591-constraints/index.html",
+  "validation": {
+    "newModelTests": 12,
+    "regressionModelTests": 50,
+    "newBrowserChecks": 12,
+    "regressionBrowserChecks": 12,
+    "jsonDownloads": 12,
+    "viewports": [
+      1440,
+      390,
+      320
+    ],
+    "baselineFiles": 754,
+    "byteIdenticalBaselineFiles": 750
+  },
   "publicOriginVerified": false,
+  "publicOriginAttempt": {
+    "result": "CONNECT tunnel failed, response403",
+    "server": "envoy",
+    "meaning": "Environment proxy denied the connection; not a GitHub Pages application response."
+  },
   "physicalResolvedReaches": 0,
-  "unresolvedReaches": 23022
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
 }

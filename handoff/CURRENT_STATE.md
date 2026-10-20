@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속25 D298591 적설·에너지·출구 범위 검토의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속25 D298591 적설·에너지·출구 범위 구현·검증 완료 — 배포 준비, 2026-10-20
+## 후속25 D298591 적설·에너지·출구 범위 구현·검증·배포 완료 — 2026-10-20
 
-사용자가 다음 단계 진행을 요청해 같은 유역의 지속 적설 원인과 에너지·출구 조건을 구현했다. 기준 main `5bcce093daca1bc9cf4687fbb9d3f7ffd0fe8078`. [검토 화면](../integration/natural-world/d298591-constraints/index.html) · [결과](../integration/natural-world/d298591-constraints/REPORT.md) · [재현·AI](../integration/natural-world/d298591-constraints/README.md). 최신 배포 상태는 [이 단계 기록](../integration/natural-world/d298591-constraints/validation/deployment.json)에 갱신한다.
+사용자가 다음 단계 진행을 요청해 같은 유역의 지속 적설 원인과 에너지·출구 조건을 구현했다. 기준 main `5bcce093daca1bc9cf4687fbb9d3f7ffd0fe8078`. [검토 화면](../integration/natural-world/d298591-constraints/index.html) · [결과](../integration/natural-world/d298591-constraints/REPORT.md) · [재현·AI](../integration/natural-world/d298591-constraints/README.md). [PR #5](https://github.com/jungsb7/codex/pull/5)를 main에 병합했다. 기능 커밋 `efd2e51c828ec2827a5b42d396d928cb1d563d35`, 병합 커밋 `f948a08db538f368735ae3332485d5001b049479`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39426035205)의 build/deploy/report-build-status 모두 성공했다. 공개 도메인 직접 접속은 환경 프록시403으로 확인하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-constraints/validation/deployment.json).
 
 - 지속 적설31격자 중18곳은 양의 기온이 없고13곳은 강설이 잠재 융설을 넘는다. 합계6.007900km³/년이며 모두 기존121수면 기둥 밖이다.619격자와12기온/계수 민감도의 독립200년 반복을 검산했다. 원본 기후·유량에는 적용하지 않았다.
 - 이전12조건의 마지막 수면을 고정해144에너지 기간을 진단했다. 연2m 증발 잠열은9·10공전 기간에서 TOA 일사보다 크다. 이류·저장열 등 미정 항이 있어 증발 불가능 판정은 아니다. 실제 순복사·습도·수온·결빙은null이다. 원본4도 바람은 진단값이며2m 측정값이 아니다.

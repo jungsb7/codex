@@ -1,6 +1,6 @@
 # 후속25 결과와 다음 구현
 
-사용자 요청에 따라 D298591 적설 원인·에너지 입력·출구 범위 진단과 조회 화면을 구현·검증했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-constraints/REPORT.md), [배포 기록](../integration/natural-world/d298591-constraints/validation/deployment.json)을 확인한다. 실제 물리 해결0구간·23,022구간 미정은 유지했다.
+사용자 요청에 따라 D298591 적설 원인·에너지 입력·출구 범위 진단과 조회 화면을 구현·검증하고 [PR #5](https://github.com/jungsb7/codex/pull/5)를 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-constraints/REPORT.md), [배포 기록](../integration/natural-world/d298591-constraints/validation/deployment.json)을 확인한다. 실제 물리 해결0구간·23,022구간 미정은 유지했다.
 
 ## 다음 권장 목표:132기둥 동적 장부와 제한된 출구 방류 후보
 
