@@ -51,3 +51,11 @@ python3 -m http.server 8000 --bind 127.0.0.1
 전체 압축본 SHA-256: `4b5d51a88f0616e0cd695bad69679799babf1b4234593de7b3a260cf3011b3ae`.
 
 원격 보관본 재다운로드·전체 원본 해시 검증 결과는 [validation/full-archive-remote.json](validation/full-archive-remote.json)에 기록합니다. 이는 기능 검사가 아니라 보관본의 바이트 보존 검사입니다. 현재 main의 최신 실행·인계 문서는 별도로 계속 관리하며, 이 보관본은 2026-10-20 원본 스냅샷으로 고정합니다.
+
+## 공개본 간소화의 의미와 당시 사유
+
+초기 공개 패키지의 [deployment-manifest.json](../deployment-manifest.json) `omittedSources`에는 v0.107 `application/planet-observatory.html` 제외 사유가 **당시 자동 공개 승인 검토의 거절**로 기록돼 있다. GitHub 파일 용량 한도 초과로 제외했다고 기록된 것은 아니다. 초기 통합 화면과 1차 지형 화면도 공개 범위를 줄이면서 최신 대체 화면으로 안내했다.
+
+이후 전체 원본을 이 문서의 별도 보관 브랜치에 보존하고 전3044파일의 복원 해시를 검증했다. 따라서 원본 보존과 공개 사이트에서 즉시 실행할 수 있는 기능 범위는 구분해야 한다. v0.107 전체 기능은 보관본을 복원해 실행하며 공개 Pages의 안내 화면 자체가 그 실행 파일은 아니다. v0.77 공개 실행본도 최신 v0.107과 동일하다고 보장하지 않는다.
+
+2026-10-20 후속21 병합 시 main의 추적 파일 합계는 203,875,024바이트(약204MB), 가장 큰 단일 파일은 10,874,995바이트다. 이는 Git 이력·별도 보관 브랜치·개발 시 복원한 입력을 제외한 파일 합계다. GitHub Pages의 [공개 사이트 한도1GB](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) 및 일반 Git 저장소의 [단일 파일100MiB 한도](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github)와 별개로, 공개 범위에서 빠진 기능이 있는지 판단해야 한다. 용량 최적화가 원본 삭제나 계산 모형 축소를 의미하지 않는다.

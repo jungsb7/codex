@@ -1,21 +1,28 @@
 {
-  "status": "implementation-verified-awaiting-main-approval",
+  "status": "merged-and-pages-deployed",
   "baseMain": "9df7ff0cd9205342f0ee8449c7807a965acaab51",
   "featureCommit": "25525ca79f9de4b807e9b177f945867df845a066",
   "featureTree": "5f214954ee8e6aa40b4bb5f0404d53ecfe984be0",
   "reviewBranch": "codex/landscape-notes-30",
   "pullRequest": "https://github.com/jungsb7/codex/pull/1",
-  "draft": true,
+  "draft": false,
   "mainUpdate": {
-    "attempted": true,
-    "applied": false,
-    "blockedBy": "automatic approval review",
-    "reason": "Direct update of the default main branch could publish changes and trigger deployment; explicit user approval for direct main publication was not established."
+    "applied": true,
+    "method": "pull-request-merge",
+    "pullRequest": 1,
+    "approvedHead": "5ba01e908ee899cb953d19384fb5ea147dfc814f"
   },
   "pages": {
-    "deployed": false,
-    "runId": null,
-    "reason": "Main was not updated. No public deployment was triggered for this feature."
+    "deployed": true,
+    "runId": 39405351952,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39405351952",
+    "headSha": "c42718db1763650d03cb66250ac570c221c166de",
+    "jobs": {
+      "build": "success",
+      "deploy": "success",
+      "report-build-status": "success"
+    },
+    "publicBrowserCheck": "Not repeated in this deployment; the execution environment previously blocked direct access to the Pages domain at its proxy. Deployment success is confirmed by GitHub Actions."
   },
   "validation": {
     "modelChecks": 24,
@@ -25,5 +32,11 @@
     "realJsonDownloads": 60,
     "mobileScreensReviewed": 6,
     "desktopScreensReviewed": 2
+  },
+  "mergeCommit": "c42718db1763650d03cb66250ac570c221c166de",
+  "approvalHistory": {
+    "initialAutomaticReview": "Direct main publication rejected before explicit user approval.",
+    "userApproval": "배포 진행해.",
+    "resolved": true
   }
 }

@@ -2,10 +2,11 @@
   "status": "passed",
   "baseline": "9df7ff0cd9205342f0ee8449c7807a965acaab51",
   "baselineFiles": 644,
-  "unchangedFiles": 639,
+  "unchangedFiles": 638,
   "allowedChangedFiles": [
     "NEXT_SESSION_PROMPT.txt",
     "handoff/CURRENT_STATE.md",
+    "handoff/FULL_ARCHIVE.md",
     "handoff/NEXT_GOALS.md",
     "integration/natural-world/unified-atlas/app.js",
     "integration/natural-world/unified-atlas/index.html"

@@ -47,8 +47,8 @@ node integration/natural-world/landscape-notes/package-check.cjs
 
 - `model-tests.txt`: 새6검사 + 기존18검사. 30원본 연속군·360표본·정확한 수계·좌표 링크·동률 극값·null을 검증한다.
 - `browser-checks.json`: 30선택·360기간 조회·12기간 선택 조작·60실제 JSON 다운로드, 주소 복원, 실제 계절값 일치, 비대표점 해제, HTTP/해시/버전 오류와 재시도, 320/390px 화면을 검사한다.
-- `package-checks.json`: 기준 main의 모든 파일을 대조해 허용된 런타임2파일·인계문서3파일 이외의 기존 파일 보존을 검사한다.
+- `package-checks.json`: 기준 main의 모든 파일을 대조해 허용된 런타임2파일·인계문서4파일 이외의 기존 파일 보존을 검사한다.
 - `regression-browser-checks.json`, `seasonal-browser-checks.json`: 기존 지도12검사와 지연 로딩13검사의 이번 회귀 결과. 새10개와 합계35개다.
 - `content-review.json`: 30개별 설명의 내용 검토와 모바일6장·데스크톱 상하2장 시각 확인. 수치 검증과 시각 확인을 구분한다. 데스크톱 캡처만 재생성하려면 브라우저 도구에 `--desktop-only`를 전달한다.
 
-기능 커밋 `25525ca79f9de4b807e9b177f945867df845a066`은 [초안 PR #1](https://github.com/jungsb7/codex/pull/1)에 있다. main 직접 갱신은 자동 승인 검토에서 명시적 승인 부족으로 거절됐으며 공개 Pages에는 아직 반영하지 않았다. 위 지도 상대 링크는 해당 브랜치를 로컬 실행할 때 새 기능을 보여 준다. 정확한 반영 상태는 `validation/deployment.json`과 루트 인계 문서를 따른다.
+기능 커밋 `25525ca79f9de4b807e9b177f945867df845a066`은 사용자 승인 후 [PR #1](https://github.com/jungsb7/codex/pull/1)로 main에 병합됐다. 병합 커밋 `c42718db1763650d03cb66250ac570c221c166de`의 [Pages build/deploy](https://github.com/jungsb7/codex/actions/runs/39405351952)가 모두 성공했다. 공개 도메인의 직접 브라우저 확인은 이 환경의 기존 프록시 접근 제한으로 이번 배포에서 재실행하지 않았다. 정확한 기록은 `validation/deployment.json`을 따른다.

@@ -1,10 +1,10 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속21 구현·검증 완료와 main 반영 대기 상태를 기록한다., [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속21 배포 완료 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속21 구현·검증 완료 / 반영 대기 — 2026-10-20
+## 후속21 배포 완료 — 2026-10-20
 
-기능 커밋: `25525ca79f9de4b807e9b177f945867df845a066`. [초안 PR #1](https://github.com/jungsb7/codex/pull/1), 브랜치 `codex/landscape-notes-30`. main 직접 갱신은 자동 승인 검토에서 명시적 승인 부족을 이유로 거절됐다. main은 후속20 상태이며 후속21의 공개 Pages 배포는 하지 않았다. 사용자 승인 후 반영·배포를 확인해야 한다. [정확한 상태 기록](../integration/natural-world/landscape-notes/validation/deployment.json).
+기능 커밋: `25525ca79f9de4b807e9b177f945867df845a066`. 사용자 배포 승인 후 [PR #1](https://github.com/jungsb7/codex/pull/1)을 main에 병합했다. 병합 커밋 `c42718db1763650d03cb66250ac570c221c166de`의 [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39405351952)에서 build/deploy/report-build-status 모두 성공했다. 최초 자동 승인 거절은 이후 사용자 명시적 승인으로 해소된 과거 이력이다. [정확한 상태 기록](../integration/natural-world/landscape-notes/validation/deployment.json). 인계 문서 갱신 커밋은 기능 병합 커밋보다 최신일 수 있다.
 
 - 기존 대표30연속군의 개별 설명 초안, 원본 좌표·고도·후보 지형/식생·수계 연결·연속군 보류 근거를 연결했다.
 - 30대표점×12기간의 기온·강수·유량 표본과 계절 색조 제안을 제공한다. 대표 한 점의 값과 연속군 전체를 구분한다.
