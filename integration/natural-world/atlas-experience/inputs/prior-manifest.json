@@ -1,0 +1,22 @@
+{
+  "format": "handoff-test-baseline-subset/1",
+  "meaning": "Three immutable inputs required by the published followup19 model tests; not a complete source manifest",
+  "sourceManifestSHA256": "d0d0790e85e3cb97a7b7abb1ccaeaf5f7fd87861cce536d7e0d7fb1a866cf372",
+  "files": [
+    {
+      "path": "natural-world/stage2/inputs/seasonal.json",
+      "bytes": 36367847,
+      "sha256": "03b8a48ee6142b07fe1d08ef76110d6cfa4150f7d8f5c02c39c9a6c92681a1a0"
+    },
+    {
+      "path": "natural-world/stage3/output/waterways.json",
+      "bytes": 83065336,
+      "sha256": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77"
+    },
+    {
+      "path": "natural-world/unified-atlas/output/atlas.json.gz",
+      "bytes": 9883227,
+      "sha256": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4"
+    }
+  ]
+}

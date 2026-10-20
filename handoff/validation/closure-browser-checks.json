@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "root": "/workspace/planet-nature-pages",
+  "checks": [
+    "closed-status-eight-evidence-decisions-and-three-explicit-holds",
+    "complete-decision-export-preserves-nulls-and-cited-evidence",
+    "outside-coordinate-zero-preserved-without-applying-nine-pond-decision",
+    "atlas-coordinate-selection-and-final-review-json",
+    "all-member-upstream-selection-layer-regression-and-stale-export-clearing",
+    "same-cell-atlas-status-connection-roundtrip-and-existing-dynamic-thermal",
+    "connection-outside-selection-status-reload-and-history",
+    "320-390px-decision-disclosures-and-atlas-mobile-layout",
+    "unavailable-and-invalid-register-do-not-fabricate-final-data"
+  ],
+  "errors": []
+}

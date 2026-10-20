@@ -1,3 +1,9 @@
+# 최신 인수인계 · ZIP 없이 GitHub에서 이어가기
+
+다음 세션은 [NEXT_SESSION_PROMPT.txt](NEXT_SESSION_PROMPT.txt)부터 읽으세요. [현재 상태·복원·실행](handoff/CURRENT_STATE.md) · [다음 권장 목표](handoff/NEXT_GOALS.md). 계절 지도 개발 입력은 저장소의 기존 압축 자료에서 해시 검증 후 복원할 수 있습니다.
+
+이하 내용은 기존 시뮬레이터 안내입니다.
+
 # Planet Atlas · 왕국과 제국
 
 [시뮬레이터 실행](https://jungsb7.github.io/codex/)

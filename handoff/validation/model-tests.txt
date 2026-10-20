@@ -1,0 +1,82 @@
+TAP version 13
+# Subtest: all 268857 cells and twelve original temperatures / rain samples remain exact
+ok 1 - all 268857 cells and twelve original temperatures / rain samples remain exact
+  ---
+  duration_ms: 436.149861
+  type: 'test'
+  ...
+# Subtest: all 45824 reaches use their own period node values, including zero and unresolved flows
+ok 2 - all 45824 reaches use their own period node values, including zero and unresolved flows
+  ---
+  duration_ms: 103.933992
+  type: 'test'
+  ...
+# Subtest: source mismatch and malformed arrays fail explicitly without inferred data
+ok 3 - source mismatch and malformed arrays fail explicitly without inferred data
+  ---
+  duration_ms: 23.780495
+  type: 'test'
+  ...
+# Subtest: state round trip preserves periods, features, display settings and rejects invalid periods
+ok 4 - state round trip preserves periods, features, display settings and rejects invalid periods
+  ---
+  duration_ms: 6.713308
+  type: 'test'
+  ...
+# Subtest: object summaries distinguish existing designs and computed graph, no invented hydrology on ridges
+ok 5 - object summaries distinguish existing designs and computed graph, no invented hydrology on ridges
+  ---
+  duration_ms: 29.538012
+  type: 'test'
+  ...
+# Subtest: hit testing respects hidden layers and uses screen-distance projection
+ok 6 - hit testing respects hidden layers and uses screen-distance projection
+  ---
+  duration_ms: 0.683525
+  type: 'test'
+  ...
+# Subtest: designed detail is deterministic for all eleven regions, preserves ocean and lake masks
+ok 7 - designed detail is deterministic for all eleven regions, preserves ocean and lake masks
+  ---
+  duration_ms: 4.717522
+  type: 'test'
+  ...
+# Subtest: detail cannot invent forests or wetlands outside candidates, held flags or original-only
+ok 8 - detail cannot invent forests or wetlands outside candidates, held flags or original-only
+  ---
+  duration_ms: 431.634644
+  type: 'test'
+  ...
+# Subtest: interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates
+ok 9 - interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates
+  ---
+  duration_ms: 10.147172
+  type: 'test'
+  ...
+# Subtest: season changes never change source arrays or physical adoption and files retain original hashes
+ok 10 - season changes never change source arrays or physical adoption and files retain original hashes
+  ---
+  duration_ms: 957.699453
+  type: 'test'
+  ...
+# Subtest: rounded display paths preserve confluence endpoints and never add lake or sea interior vertices
+ok 11 - rounded display paths preserve confluence endpoints and never add lake or sea interior vertices
+  ---
+  duration_ms: 413.29504
+  type: 'test'
+  ...
+# Subtest: published split climate and water payloads reconstruct the exact original gzip hash
+ok 12 - published split climate and water payloads reconstruct the exact original gzip hash
+  ---
+  duration_ms: 225.536987
+  type: 'test'
+  ...
+1..12
+# tests 12
+# suites 0
+# pass 12
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7385.6438

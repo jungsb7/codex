@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "restoredOrVerified": [
+    {
+      "path": "integration/natural-world/stage5/output/climate-1369f5b0c513.json.gz",
+      "bytes": 27604615,
+      "sha256": "d091b038ef003bfb4d57b655299f05dba4b69600acf9009bb3d855444afe8702"
+    },
+    {
+      "path": "integration/natural-world/stage2/output/diagnostics.json",
+      "bytes": 40862316,
+      "sha256": "1369f5b0c513f03e763159246d951e941dc708a121ed7c397b8e2794617a488a"
+    },
+    {
+      "path": "integration/natural-world/stage2/inputs/seasonal.json",
+      "bytes": 36367847,
+      "sha256": "03b8a48ee6142b07fe1d08ef76110d6cfa4150f7d8f5c02c39c9a6c92681a1a0"
+    },
+    {
+      "path": "integration/natural-world/stage5/output/water-3775f512672b.json.gz",
+      "bytes": 13774415,
+      "sha256": "7eacc9c27cca5086f37d4bc0fda6b2acb6181baec11ae8b44c91366eeab9fce0"
+    },
+    {
+      "path": "integration/natural-world/stage3/output/waterways.json",
+      "bytes": 83065336,
+      "sha256": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77"
+    }
+  ],
+  "networkRequired": false,
+  "originalValuesChanged": false
+}
