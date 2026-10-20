@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "review": "직접 화면 검토: 숲·초원·습지 각 1500/390/320px에서 두 기간 열, 기간 선택기, 수치·단위, null 표시, 설명과 버튼 줄바꿈을 확인했다.",
+  "screenshots": [
+    {
+      "path": "forest-290975-1500.png",
+      "sha256": "6c45e27070623cb3241b76a981cbd92cebd131f49638f6e950355b8bbf7cc5dc"
+    },
+    {
+      "path": "forest-290975-320.png",
+      "sha256": "446969dc56c16997ee75e070f9a33d643d58cf1e6ae6d80531a3447cb2c69c72"
+    },
+    {
+      "path": "forest-290975-390.png",
+      "sha256": "f81e95eb1d4b5c95fd543653b81aea57c81c1a628717f16388fb6fa361741022"
+    },
+    {
+      "path": "grass-164753-1500.png",
+      "sha256": "0ae32734ec9f7ce46fa348785d60d87724afc19c963c6697c96f10e12eaf96d6"
+    },
+    {
+      "path": "grass-164753-320.png",
+      "sha256": "53fb5362ebae34041fcdc8457e527595e733d91016dd0192a4b333ccc4345df3"
+    },
+    {
+      "path": "grass-164753-390.png",
+      "sha256": "dff94e43535788bccca612cacccfdbb8e74d41c748cab639377bbcd8b6193d51"
+    },
+    {
+      "path": "wetland-489597-1500.png",
+      "sha256": "ea9d4d42d8d776fe89d7c1687503f029bd56d1c0a1c0a4f23e1919bb26fdf238"
+    },
+    {
+      "path": "wetland-489597-320.png",
+      "sha256": "232093367243af64b301e5201bb769a03639fa005ed81f204ba453ea3f195179"
+    },
+    {
+      "path": "wetland-489597-390.png",
+      "sha256": "fe059e0916f79f349a037342798e8ce1ee83a360beb3576e070859e2665d52bb"
+    }
+  ]
+}

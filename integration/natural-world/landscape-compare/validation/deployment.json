@@ -1,0 +1,9 @@
+{
+  "status": "validated-awaiting-publication",
+  "baseline": "27f189f7f7983b4a17191ec48b510c12d7ecfc10",
+  "modelTests": 28,
+  "browserChecks": 47,
+  "periodPairs": 4320,
+  "liveBrowserVerified": false,
+  "note": "로컬 검증 완료. 기능 반영 후 정확한 커밋과 Pages 작업 결과를 기록한다."
+}

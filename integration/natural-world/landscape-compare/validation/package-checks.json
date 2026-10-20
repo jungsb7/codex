@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "baseline": "27f189f7f7983b4a17191ec48b510c12d7ecfc10",
+  "baselineFiles": 671,
+  "preservedFiles": 665,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/landscape-notes/ui.js",
+    "integration/natural-world/unified-atlas/app.js",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "originalCatalogSha256": "95f7fd1c75b5f39c19d33179cb2dd9e8bb0b7940ce506e2cfbfa0ecd38dbe7c1",
+  "runtimeSha256": {
+    "core.js": "310dc807525cd34cf08d0dbe40d3cfa4aca765993cc7ecc5f70c68dd37eb6f3d",
+    "ui.js": "9cde861c7b5964ce73e0509d7a118ee9423177eea7ce6a2b2cf98aeb8b455893",
+    "style.css": "cffad1106e9670e69df55c05bf7dd30659cc18450668cf305d165b43def7d76e"
+  },
+  "newSeasonalPayloadFiles": 0,
+  "originalWorldAndEconomyAndArchiveUnchanged": true
+}

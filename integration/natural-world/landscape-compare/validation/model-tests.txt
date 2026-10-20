@@ -1,0 +1,36 @@
+✔ all 268857 cells and twelve original temperatures / rain samples remain exact (365.906819ms)
+✔ all 45824 reaches use their own period node values, including zero and unresolved flows (70.234695ms)
+✔ source mismatch and malformed arrays fail explicitly without inferred data (15.836016ms)
+✔ state round trip preserves periods, features, display settings and rejects invalid periods (4.202813ms)
+✔ object summaries distinguish existing designs and computed graph, no invented hydrology on ridges (17.376463ms)
+✔ hit testing respects hidden layers and uses screen-distance projection (0.555476ms)
+✔ designed detail is deterministic for all eleven regions, preserves ocean and lake masks (2.447014ms)
+✔ detail cannot invent forests or wetlands outside candidates, held flags or original-only (306.312809ms)
+✔ interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates (6.30189ms)
+✔ season changes never change source arrays or physical adoption and files retain original hashes (251.497787ms)
+✔ rounded display paths preserve confluence endpoints and never add lake or sea interior vertices (230.225168ms)
+✔ published split climate and water payloads reconstruct the exact original gzip hash (54.341968ms)
+✔ all 4320 representative/period pairs preserve source samples, B-minus-A and unknown flow (65.281819ms)
+✔ swap reverses finite differences and same-period comparisons retain unknowns (0.515962ms)
+✔ comparison links round-trip both phases, family and exact cell center through real map state parser (7.526207ms)
+✔ missing catalog, non-representative cells and invalid periods never borrow or fabricate samples (0.286035ms)
+✔ catalog hash, atlas identity and all 30 original representative groups match (15.833898ms)
+✔ 360 temperatures, rainfall and quantized flows match restored original inputs, plus exact hydrology (756.330293ms)
+✔ extrema preserve exact ties, phase identity and representative-point scope (0.960799ms)
+✔ all map links resolve to the original grid and all per-period exports keep evidence and nulls (2.127009ms)
+✔ non-representative land, ocean and original lakes do not borrow adjacent descriptions (1.825791ms)
+✔ wrong atlas, source coordinate, unit and corrupt period data are rejected (6.393176ms)
+✔ every cell temperature/rain and all reach flow values equal the original twelve periods (431.695602ms)
+✔ all point-chart blocks and rain ranges retain exact source samples (725.781851ms)
+✔ metadata preserves reach IDs, topology, catchments, trunks, lake and unresolved endpoints (220.747857ms)
+✔ first selection including chart stays below 10 MB and references bind to exact atlas/source bytes (190.921403ms)
+✔ a missing or mismatched active period yields no stale climate values or colors (50.648319ms)
+✔ twelve fixed landscapes cover every region plus an original lake without adopting new geometry (1.656696ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11564.520409

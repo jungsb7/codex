@@ -1,7 +1,7 @@
 (function(root){
 'use strict';
 const $=id=>document.getElementById(id),esc=x=>String(x??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),fmt=v=>Number.isFinite(v)?v.toLocaleString('ko-KR',{maximumFractionDigits:1}):'미정';
-function mount({model,getState,update}){
+function mount({model,getState,update,onLoad=()=>{}}){
   let catalog=null,pending=false,error='';
   $('landscape-notes-tools').innerHTML='<div class="section-label">LANDSCAPE STORIES</div><h2>대표 경관 30곳</h2><label for="landscape-note-select">설명·계절 모습 초안</label><select id="landscape-note-select" disabled><option value="">자료 읽는 중…</option></select><p id="landscape-notes-status" class="hint" role="status"></p><button id="landscape-notes-retry" hidden>경관 설명 다시 읽기</button><a href="../landscape-notes/CATALOG.md">30경관 설명·근거 ↗</a>';
   async function load(){
@@ -14,7 +14,7 @@ function mount({model,getState,update}){
       catalog=LandscapeNotes.validate(JSON.parse(new TextDecoder().decode(bytes)),model);
       $('landscape-note-select').innerHTML='<option value="">대표 지점 선택</option>'+catalog.entries.map(e=>`<option value="${esc(e.id)}">${esc(e.title)}</option>`).join('');
       root.natureDebug.landscapeCatalog=catalog;
-    }catch(e){error=e.message;catalog=null;}finally{pending=false;refresh();}
+    }catch(e){error=e.message;catalog=null;}finally{pending=false;model.landscapeCatalog=catalog;refresh();onLoad();}
   }
   function refresh(){
     const s=getState(),q=catalog?LandscapeNotes.query(catalog,s.cell,s.draftFamily,s.period):null;
