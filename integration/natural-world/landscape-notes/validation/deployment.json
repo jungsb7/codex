@@ -1,0 +1,29 @@
+{
+  "status": "implementation-verified-awaiting-main-approval",
+  "baseMain": "9df7ff0cd9205342f0ee8449c7807a965acaab51",
+  "featureCommit": "25525ca79f9de4b807e9b177f945867df845a066",
+  "featureTree": "5f214954ee8e6aa40b4bb5f0404d53ecfe984be0",
+  "reviewBranch": "codex/landscape-notes-30",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/1",
+  "draft": true,
+  "mainUpdate": {
+    "attempted": true,
+    "applied": false,
+    "blockedBy": "automatic approval review",
+    "reason": "Direct update of the default main branch could publish changes and trigger deployment; explicit user approval for direct main publication was not established."
+  },
+  "pages": {
+    "deployed": false,
+    "runId": null,
+    "reason": "Main was not updated. No public deployment was triggered for this feature."
+  },
+  "validation": {
+    "modelChecks": 24,
+    "browserChecks": 35,
+    "representatives": 30,
+    "periodQueries": 360,
+    "realJsonDownloads": 60,
+    "mobileScreensReviewed": 6,
+    "desktopScreensReviewed": 2
+  }
+}

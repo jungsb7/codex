@@ -51,4 +51,4 @@ node integration/natural-world/landscape-notes/package-check.cjs
 - `regression-browser-checks.json`, `seasonal-browser-checks.json`: 기존 지도12검사와 지연 로딩13검사의 이번 회귀 결과. 새10개와 합계35개다.
 - `content-review.json`: 30개별 설명의 내용 검토와 모바일6장·데스크톱 상하2장 시각 확인. 수치 검증과 시각 확인을 구분한다. 데스크톱 캡처만 재생성하려면 브라우저 도구에 `--desktop-only`를 전달한다.
 
-기능 완료 뒤의 커밋·Pages 결과는 `validation/deployment.json`과 루트 인계 문서에 기록한다.
+기능 커밋 `25525ca79f9de4b807e9b177f945867df845a066`은 [초안 PR #1](https://github.com/jungsb7/codex/pull/1)에 있다. main 직접 갱신은 자동 승인 검토에서 명시적 승인 부족으로 거절됐으며 공개 Pages에는 아직 반영하지 않았다. 위 지도 상대 링크는 해당 브랜치를 로컬 실행할 때 새 기능을 보여 준다. 정확한 반영 상태는 `validation/deployment.json`과 루트 인계 문서를 따른다.

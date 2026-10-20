@@ -1,6 +1,6 @@
-# 후속21 종료와 다음 선택지
+# 후속21 구현 완료와 다음 선택지
 
-상태: **대표30경관 설명·계절 모습 초안 완료**. [결과·재현](../integration/natural-world/landscape-notes/README.md), [30설명](../integration/natural-world/landscape-notes/CATALOG.md), [구조화 JSON](../integration/natural-world/landscape-notes/output/catalog.json)을 제공한다. 아래 제안은 새 사용자 요청이 있을 때만 진행한다.
+상태: **대표30경관 설명·계절 모습의 구현·검증 완료, main 반영·Pages 배포 승인 대기**. [PR #1](https://github.com/jungsb7/codex/pull/1)을 먼저 확인한다. [결과·재현](../integration/natural-world/landscape-notes/README.md), [30설명](../integration/natural-world/landscape-notes/CATALOG.md), [구조화 JSON](../integration/natural-world/landscape-notes/output/catalog.json)을 제공한다. 아래 제안은 새 사용자 요청이 있을 때만 진행한다.
 
 ## 다음 권장 목표: 대표 경관의 두 기간 비교
 
