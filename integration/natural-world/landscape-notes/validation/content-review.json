@@ -1,0 +1,65 @@
+{
+  "status": "reviewed",
+  "scope": "30 manually authored overviews and 360 data-bound seasonal suggestions",
+  "reviewedIds": [
+    "forest-290975",
+    "forest-240147",
+    "forest-901342",
+    "forest-513423",
+    "forest-256182",
+    "forest-123950",
+    "forest-274633",
+    "forest-518102",
+    "forest-491148",
+    "forest-263161",
+    "forest-317360",
+    "grass-164753",
+    "grass-536431",
+    "grass-128264",
+    "grass-760022",
+    "grass-263039",
+    "grass-274203",
+    "grass-448127",
+    "grass-280312",
+    "grass-302007",
+    "grass-314292",
+    "wetland-631816",
+    "wetland-641780",
+    "wetland-298586",
+    "wetland-363292",
+    "wetland-632368",
+    "wetland-489597",
+    "wetland-241490",
+    "wetland-151639",
+    "wetland-306158"
+  ],
+  "sourceCases": [
+    "All original titles are region/class labels, not newly adopted proper place names.",
+    "Representative point values are distinct from group-wide flags, counts and area.",
+    "Northern and southern warm/cold periods follow exact samples, not calendar months.",
+    "forest-317360 retains 4549m source elevation and cold-forest candidate without inventing tree line.",
+    "wetland-489597 retains dry-shrub candidate, wetland screening and transition flags together.",
+    "wetland-151639 retains wetland candidate with no display reach ID or fabricated flow.",
+    "All six missing display reach IDs have null seasonal flow.",
+    "Unresolved group drainage counts and large virtual fills remain warnings, not adopted water bodies.",
+    "No countries, religions, cultures, Leonhardt history or political roles added."
+  ],
+  "visualReview": {
+    "screens": [
+      "forest-317360-320.png",
+      "forest-317360-390.png",
+      "grass-164753-320.png",
+      "grass-164753-390.png",
+      "wetland-489597-320.png",
+      "wetland-489597-390.png",
+      "wetland-desktop-bottom.png",
+      "wetland-desktop.png"
+    ],
+    "result": "Reviewed six complete mobile cards (320/390px) and desktop upper/lower viewport captures. No horizontal clipping; desktop inspector scroll reaches period selector, evidence and JSON controls."
+  },
+  "limitations": [
+    "Seasonal color prose is a creative suggestion, not physical snow, vegetation phenology, flood or ice prediction.",
+    "No separate new AI session was launched; source data, reproduction instructions and structured JSON are provided."
+  ],
+  "actualCoverAdoptions": 0
+}
