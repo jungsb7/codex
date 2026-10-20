@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "baseline": "29bd0df7145c347c0fc1e07b111d110cbab74a1d",
+  "newModelTests": 15,
+  "regressionModelTests": 113,
+  "newBrowserTests": 13,
+  "atlasBrowserTests": 12,
+  "explicitPresets": 13,
+  "presetStatuses": {
+    "completed": 7,
+    "held-momentum": 1,
+    "held-energy": 1,
+    "held-boundary": 2,
+    "held-domain": 2
+  },
+  "independentChecks": [
+    "parallel-flow analytic depth",
+    "symmetric-junction cubic Newton roots",
+    "hydrostatic midpoint integral and separate vector balance",
+    "manufactured stage6 force fixture",
+    "datum/density/reflection/order invariants",
+    "phase29 local energy relation"
+  ],
+  "screenshotsReviewed": [
+    "1440",
+    "390",
+    "320",
+    "force-editor320"
+  ],
+  "maxCompletedMomentumComponentResidualN": 0.00015822052955627441,
+  "nodeChromiumMaxNumericDifference": 0,
+  "physicalResolvedReaches": 0,
+  "unresolvedReaches": 23022,
+  "automaticAdoption": false
+}

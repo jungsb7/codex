@@ -1,50 +1,50 @@
-GitHub 기반 최신 인수인계 — 후속29 변단면·합류 검산 구현·검증·배포 완료, 2026-10-20
+GitHub 기반 최신 인수인계 — 후속30 합류 운동량 장부 구현·검증 완료, 2026-10-21
 
 jungsb7/codex 최신 main에서 시작한다. 과거 고정 커밋으로 되돌리지 않는다.
-사용자가 다음 진행을 요청해 변단면·두 지류·중첩 합류의 별도 가정 수리 후보를 구현했다.
-새13+기존100자료 검사, 새13+기존12브라우저 검사. 배포 기록:
-integration/natural-world/d298591-confluence/validation/deployment.json
-PR #9 병합fdbd5ade962e34b9aa5af57fd316965afb2eda6e, Pages 실행39447838367의3작업 성공.
-공개 도메인 직접 확인은 환경 프록시403으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
+사용자가 다음 진행을 요청해 단순 두 유입·한 유출의 수평 운동량 장부를 구현했다.
+새15+기존113자료 검사, 새13+기존12브라우저 검사. 배포 기록:
+integration/natural-world/d298591-momentum/validation/deployment.json
 현재 사용자 요청을 우선하며 NEXT_GOALS 제안을 새 요청 없이 자동 수행하지 않는다.
 
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/d298591-confluence/README.md 및 REPORT.md
-4. integration/natural-world/d298591-hydraulics/README.md 및 REPORT.md
-5. integration/natural-world/d298591-tailwater/README.md 및 REPORT.md
-6. integration/natural-world/d298591-routing/README.md 및 REPORT.md
-7. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
+3. integration/natural-world/d298591-momentum/README.md 및 REPORT.md
+4. integration/natural-world/d298591-confluence/README.md 및 REPORT.md
+5. integration/natural-world/d298591-hydraulics/README.md 및 REPORT.md
+6. integration/natural-world/d298591-tailwater/README.md 및 REPORT.md
+7. integration/natural-world/d298591-routing/README.md 및 REPORT.md
+8. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속29 완료 범위:
--명시적 가정 구간별 직사각형 단면·폭·바닥·둑·조도·길이·수축/확대 손실계수.
--최상류만 유량 입력,합류 뒤 inflowM3S:null. 유일 말단·순환/분기 없음,원천ID로 중복합산 방지.
--구간 내 일정Q 표준단계 에너지식. 기본50m,단면 간 선형 보간,상류로 아임계 유일해 탐색.
--Fr<min(.98,sqrt(.99/(1+Cmax))),하상/반폭/수심 변화율 한계·둑 한계에서 보류/중단.
--합류는 별도 지류 손실수두를 입력해 Ei=Eout+hi. 각도0°만 지원,운동량 미계산.
--비0° 합류/수두 부족은 상류 전체보류. 미완료구간끝 수심과 전체 에너지잔차null.
--10명시가정:5완료·4중간중단·1경계보류. 실제 형상·손실을 채택한 결과가 아님.
--원본62지점×12위상의 첫지점+이후 자체발생/옆합류만 더해 각 지점/하구 유량 일치.
--원본 장부는 hydraulicInputReady:false. 실제 단면/각도/국지수위/동시유량 근거 없음.
--새 예제는 원본 길이·고도·폭·유량을 사용하지 않은 별도 가정. 실제값 자동 보충 없음.
--등류 해석해·후속28 RK4·독립 변단면 미분식·에너지 플럭스·세분화 검산.
--새13+기존100자료 검사, 새13+기존12브라우저 검사.10예제·10JSON·1440/390/320px확인.
--입력 편집시 이전 결과 제거,구간/지점 선택·전체입력 공유·이력·오류 복구·AI 조회.
+후속30 완료 범위:
+-두 유입·한 유출,명시적 단면·바닥·둑·양의 유량·각도·밀도·중력·alpha=beta=1.
+-벽/바닥 압력/마찰의x/y힘을 모두 명시한다. 누락/null을0으로 보충하지 않는다.
+-수평 평면 중력성분0,정지 경계,외부 기계 일률0. 실제 형상에서 외력을 계산하지 않았다.
+-정수압P=rho*g*b*y²/2,운동량유속항J=rho*Q²/A,두 성분 방향 투영.
+-두 유입의 공통 수면 근사로x방정식만 먼저 풀고y운동량과 전체 에너지 필요조건을 검사.
+-Fr<.98·둑 범위 교집합의 단조 근을 이분법으로 계산. 도수·사류로 전환하지 않는다.
+-힘 부족/필요소산 음수/경계/해 범위 밖이면 보류. 시험값trial과 장부통과값accepted 구분.
+-부족한 힘은진단이며입력에자동적용하지않는다. actual항목은모두null.
+-13가정:7장부통과·6보류(외력1,에너지1,경계2,해범위2).
+-후속29의 Ei=Eout+가정손실 수면을 별도로 재현하며서로다른수면을그대로비교.
+-후속29의가정단면/국지경계만재사용. 원본지형·12위상유량·D298591방류와미결합.
+-해석적평행흐름·독립3차식Newton·별도압력적분·제작해·기준높이/밀도/반사불변량검증.
+-새15+기존113자료 검사,새13+기존12브라우저 검사.13예제/JSON·1440/390/320px확인.
+-입력수정시이전결과제거,전체입력공유·이력·오류복구·AI조회.
 
 실제 물리 해결0구간·23022구간 미정·1184경계 유지.
 실제 소하천/피복/습지/침수/강폭/적설/결빙/저류/침투/넘침 해결 아님.
 기존108하류 수위 보류·14우회 상한 중단,적설/열수지 공백 유지.
-AI 자료: integration/natural-world/d298591-confluence/output/catalog.json
-AI 계산: node integration/natural-world/d298591-confluence/query.cjs two-branches
-다음 권장 목표는 합류 운동량·손실 가정의 검증 범위다.
+AI 자료: integration/natural-world/d298591-momentum/output/catalog.json
+AI 계산: node integration/natural-world/d298591-momentum/query.cjs symmetric-30
+다음 권장 목표는 외력 가정의 형상 근거 검산이다. 실제 공간2차원해로 오인하지 않는다.
 
 재현:
-node integration/natural-world/d298591-confluence/build.cjs
-node --test --test-isolation=none integration/natural-world/d298591-confluence/test.cjs
-node integration/natural-world/d298591-confluence/query.cjs two-branches
+node integration/natural-world/d298591-momentum/build.cjs
+node --test --test-isolation=none integration/natural-world/d298591-momentum/test.cjs
+node integration/natural-world/d298591-momentum/query.cjs symmetric-30
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/d298591-confluence/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/d298591-momentum/index.html
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
 새 후보에는 전체 아카이브/원본 기후 복원이 필요 없다. 기존 회귀에는 handoff/restore-inputs.cjs 사용.
 
