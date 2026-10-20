@@ -1,10 +1,53 @@
 {
   "stage": "29",
-  "status": "local-validation-complete-pending-publication",
+  "status": "merged-and-pages-jobs-succeeded",
   "baseline": "7269a80db5e1cca1fbabe96dc7a634cb012acc00",
-  "modelTests": 113,
-  "browserTests": 25,
+  "pullRequest": "https://github.com/jungsb7/codex/pull/9",
+  "featureCommit": "5384dd34fe73c1718588742169e9866e669866be",
+  "mergeCommit": "fdbd5ade962e34b9aa5af57fd316965afb2eda6e",
+  "pagesRun": {
+    "id": 39447838367,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39447838367",
+    "headSha": "fdbd5ade962e34b9aa5af57fd316965afb2eda6e",
+    "jobs": [
+      {
+        "id": 118714404198,
+        "name": "build",
+        "conclusion": "success"
+      },
+      {
+        "id": 118714847532,
+        "name": "deploy",
+        "conclusion": "success"
+      },
+      {
+        "id": 118714847246,
+        "name": "report-build-status",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/d298591-confluence/index.html",
   "actualPublicOriginVerified": false,
+  "originCheck": {
+    "atUtc": "2026-10-20T15:23:19Z",
+    "status": "environment-proxy-403",
+    "detail": "CONNECT tunnel rejected by envoy; no origin response obtained. No network-policy bypass attempted."
+  },
+  "localValidation": {
+    "modelTests": 113,
+    "browserTests": 25,
+    "screenshots": [
+      1440,
+      390,
+      320
+    ],
+    "presets": 10,
+    "downloadedJSON": 10,
+    "preservedBaselineFiles": 864,
+    "baselineFiles": 868
+  },
+  "handoffCommitNote": "A subsequent documentation commit records this confirmed feature deployment; its SHA is discoverable from main history.",
   "physicalResolvedReaches": 0,
   "unresolvedReaches": 23022,
   "automaticAdoption": false

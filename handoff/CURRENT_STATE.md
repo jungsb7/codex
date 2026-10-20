@@ -2,9 +2,9 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속29 D298591 변단면·합류 후보의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속29 D298591 변단면·합류 검산 구현·검증 완료 — 2026-10-20
+## 후속29 D298591 변단면·합류 검산 구현·검증·배포 완료 — 2026-10-20
 
-기준 main `7269a80db5e1cca1fbabe96dc7a634cb012acc00`. [화면](../integration/natural-world/d298591-confluence/index.html) · [결과](../integration/natural-world/d298591-confluence/REPORT.md) · [방법·AI](../integration/natural-world/d298591-confluence/README.md). [배포 기록](../integration/natural-world/d298591-confluence/validation/deployment.json).
+기준 main `7269a80db5e1cca1fbabe96dc7a634cb012acc00`. [화면](../integration/natural-world/d298591-confluence/index.html) · [결과](../integration/natural-world/d298591-confluence/REPORT.md) · [방법·AI](../integration/natural-world/d298591-confluence/README.md). [PR #9](https://github.com/jungsb7/codex/pull/9)을 main에 병합·배포했다. 기능 커밋 `5384dd34fe73c1718588742169e9866e669866be`, 병합 커밋 `fdbd5ade962e34b9aa5af57fd316965afb2eda6e`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39447838367)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 확인은 환경 프록시403으로 제한됐다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](../integration/natural-world/d298591-confluence/validation/deployment.json).
 
 - 구간별 폭·바닥·둑·조도·길이와 수축/확대 손실을 명시하는 직사각형 정상류 후보를 구현했다. 합류 없는 일정 단면은 후속28과 비교하고, 변단면은 별도 미분 에너지식으로 검산했다.
 - 두 지류와 중첩 지류의 원천 유량을 한 번씩만 합산한다. 합류에서 일정Q의 미분식을 그대로 잇지 않고, 명시한 지류별 손실수두로 에너지 경계를 푼다. 운동량은 미계산이며 비0° 합류는 보류한다.

@@ -1,6 +1,6 @@
 # 후속29 — 변단면·합류 후보의 유량·에너지 검산
 
-기준 main `7269a80db5e1cca1fbabe96dc7a634cb012acc00`. 사용자의 다음 진행 요청으로 별도 가정 수로의 변단면과 합류 검산을 구현했다. [화면](index.html) · [입력·방정식·재현](README.md). 배포 상태는 [기록](validation/deployment.json)에 남긴다.
+기준 main `7269a80db5e1cca1fbabe96dc7a634cb012acc00`. 사용자의 다음 진행 요청으로 별도 가정 수로의 변단면과 합류 검산을 구현했다. [화면](index.html) · [입력·방정식·재현](README.md). [PR #9](https://github.com/jungsb7/codex/pull/9)을 main에 병합·배포했다. 기능 커밋 `5384dd34fe73c1718588742169e9866e669866be`, 병합 커밋 `fdbd5ade962e34b9aa5af57fd316965afb2eda6e`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39447838367)의 build/deploy/report-build-status 모두 성공했다. 공개 주소 직접 확인은 환경 프록시403으로 제한됐다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](validation/deployment.json).
 
 ## 결과
 

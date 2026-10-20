@@ -1,6 +1,6 @@
 # 후속29 결과와 다음 구현
 
-사용자 요청으로 변단면·합류 가정의 유량/에너지 검산을 구현했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-confluence/REPORT.md), [배포 기록](../integration/natural-world/d298591-confluence/validation/deployment.json)을 확인한다. 10가정 중5완료·4중간 중단·1경계 보류. 실제 해결0구간·23,022구간 미정이다.
+사용자 요청으로 변단면·합류 가정의 유량/에너지 검산을 구현하고 [PR #9](https://github.com/jungsb7/codex/pull/9)을 main에 병합·배포했다. [현재 상태](CURRENT_STATE.md), [결과](../integration/natural-world/d298591-confluence/REPORT.md), [배포 기록](../integration/natural-world/d298591-confluence/validation/deployment.json)을 확인한다. 10가정 중5완료·4중간 중단·1경계 보류. 실제 해결0구간·23,022구간 미정이다.
 
 ## 다음 권장 목표: 합류 운동량·손실 가정의 검증 범위
 
