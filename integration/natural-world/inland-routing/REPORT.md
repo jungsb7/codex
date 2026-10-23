@@ -18,4 +18,6 @@
 
 기준 main `be7d54ba577d2c93888f3a3aa82371902e07ad84`. 기존952파일 중947바이트 보존. 기존 변경은 지도 링크,후속31연결 링크,인계3개뿐이다. [배포 기록](validation/deployment.json).
 
+[PR #12](https://github.com/jungsb7/codex/pull/12) 병합·배포 완료. 기능 커밋 `10d29eeec2249d261b89be666f540b65767bf862`, 병합 커밋 `3373d77bc3fef479773793fcb3be09cf5145dd0d`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39961356486)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
+
 다음은 추가 순손실 하나로 묶인 항목을 원본 수분 장부와 연결해 저장/침투/증발을 분리하는 작업이다. 계산에 필요한 자료가 없는 곳은 미정으로 두고, 물리 해결 수를 조건부 처리 수와 구분해 보고한다. 추상 합류/외력 검산으로 자동 복귀하지 않는다.

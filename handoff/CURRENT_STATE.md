@@ -2,9 +2,11 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속32 내륙 경계 전달·수신의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속32 내륙 경계 전달·수신 구현·검증 — 2026-10-23
+## 후속32 내륙 경계 전달·수신 구현·검증·배포 완료 — 2026-10-23
 
 사용자가 다음 진행을 요청해 내륙740연결을 추가했다. **949경계·20,255구간의 조건부 전달/수신**을 계산하며 보류 경계의 수신 미배분량도 보존한다. [화면](../integration/natural-world/inland-routing/index.html) · [결과](../integration/natural-world/inland-routing/REPORT.md) · [방법·AI](../integration/natural-world/inland-routing/README.md) · [배포 기록](../integration/natural-world/inland-routing/validation/deployment.json). 기준 main `be7d54ba577d2c93888f3a3aa82371902e07ad84`.
+
+[PR #12](https://github.com/jungsb7/codex/pull/12) 병합·배포 완료. 기능 커밋 `10d29eeec2249d261b89be666f540b65767bf862`, 병합 커밋 `3373d77bc3fef479773793fcb3be09cf5145dd0d`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39961356486)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 - 전체23,022구간:가정 해양 경로13,598·계산 후 보류 경계로 이어지는6,657·자체 처리 보류2,767. 조건부 계산 대상은앞두수의합20,255이며실제해결수가아니다.
 - 상류부터 계산해 다음 경계의 원본 자체 유입에 수신량을 한 번만 더한다.740내부송신/수신은전역장부에서상쇄하며해양도착/미배분/종료재고/추가순손실을분리한다.

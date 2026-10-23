@@ -1,1 +1,51 @@
-{"status":"validated-awaiting-publication","baseline":"be7d54ba577d2c93888f3a3aa82371902e07ad84","dateKST":"2026-10-23","conditionalModelledReaches":20255,"physicalResolvedReaches":0,"physicallyUnresolvedReaches":23022,"publicOrigin":{"verified":false,"newRequestAttempted":false,"reason":"Current environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."}}
+{
+  "status": "deployed",
+  "dateKST": "2026-10-23",
+  "baseline": "be7d54ba577d2c93888f3a3aa82371902e07ad84",
+  "featureCommit": "10d29eeec2249d261b89be666f540b65767bf862",
+  "mergeCommit": "3373d77bc3fef479773793fcb3be09cf5145dd0d",
+  "pr": "https://github.com/jungsb7/codex/pull/12",
+  "pages": {
+    "runId": 39961356486,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39961356486",
+    "jobs": [
+      {
+        "id": 120439867535,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120440161053,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120440161345,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/inland-routing/index.html",
+  "publicOrigin": {
+    "verified": false,
+    "newRequestAttempted": false,
+    "reason": "Current environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."
+  },
+  "validation": {
+    "modelTests": 155,
+    "browserTests": 27,
+    "baselineFiles": 952,
+    "byteIdenticalFiles": 947,
+    "conditionalModelledBoundaries": 949,
+    "conditionalModelledReaches": 20255,
+    "reachesWithOceanPath": 13598,
+    "modelledReachesEndingHeld": 6657,
+    "heldReaches": 2767,
+    "physicalResolvedReaches": 0,
+    "physicallyUnresolvedReaches": 23022
+  }
+}
