@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "review": "Inspected1440/390/320 screenshots and held320 receipt view: conditional counts, original/received/held budgets, controls and links fit; actual null remains distinct from unallocated ledger."
+}
