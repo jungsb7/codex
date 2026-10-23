@@ -1,8 +1,8 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속35 큰 유역 수분 장부 연결의 로컬 검증 상태와 배포 대기를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속35 큰 유역 수분 장부 연결의 배포 완료 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속35 큰 유역 수분 장부 구현·로컬 검증 완료, 배포 대기 — 2026-10-24
+## 후속35 큰 유역 수분 장부 구현·검증·배포 완료 — 2026-10-24
 
 D186192 연결망57경계·2,637구간을 추가해 원본 수분 장부 연결190→2,827구간으로 확대했다. 기존망과 합쳐60경계·12,045격자·144,540원본 계측행이다. [화면](../integration/natural-world/basin-water-budget/index.html) · [결과](../integration/natural-world/basin-water-budget/REPORT.md) · [방법/AI](../integration/natural-world/basin-water-budget/README.md) · [완료 기준](../integration/natural-world/basin-water-budget/COMPLETION.md). 기준main `728952243bf370954deb452940eb3c87ca26d398`.
 
@@ -13,7 +13,9 @@ D186192 연결망57경계·2,637구간을 추가해 원본 수분 장부 연결1
 - 실제 침투·출구·역수위·열수지·적설두께·결빙 미정, 기존108보류·14중단과 종료대상 유지. 조건부 연결 증가를 실제 해결로 보고하지 않는다.
 - 기존1043파일 중1038보존. 기존 변경은 지도/후속34링크와 인계3개. 원본·경제·구지도·전체아카이브 보존.
 
-**게시 승인 후 배포 진행:** 자동 승인 검토가10,207,089바이트 원본 계측gzip의 조각 업로드를 게시 권한 확인 부족으로 거절했다. 기존 공개 원본과 동일한 앱 해시·숫자 전수·출처 검증 후 재시도도 거절됐다. 추가 업로드 우회 금지. [배포 기록](../integration/natural-world/basin-water-budget/validation/deployment.json). 사용자가2026-10-24 해당10.2MB 자료를 포함한 배포를 명시 승인했고, 승인 후 이전에 거절된 동일 조각의 업로드가 성공했다. 로컬 구현·검증을 완료해 PR·병합·배포를 진행한다.
+[PR #15](https://github.com/jungsb7/codex/pull/15) 병합·배포 완료. 기능 커밋 `b4662f3e5895fbd68f4ab62eeebe43021609dd57`, 병합 커밋 `4bf097024e773a8ad4de3ca97c2af668fef25afe`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39979434913)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
+
+계측 자료10.2MB의 최초 게시 시도는 자동 승인 검토에서 거절됐으나, 사용자가2026-10-24 자료별 게시/배포를 명시 승인했고 이후 동일 파일 업로드와 배포를 완료했다. [배포 기록](../integration/natural-world/basin-water-budget/validation/deployment.json).
 
 사용자는 ‘언제 해결되나’, ‘가정이 없어서 대부분 미정인가’를 물었다. 기존 계산 가정은 있으나 미정 물리 입력/모델과 세계 설정 채택이 남았음을 설명했다. 특정 새 가정의 채택 결정은 아직 없다. 다음은 작은 연결망 반복보다 침투·저장·출구의 최소 작동 모델과 완료 판정 조건을 구체화하는 작업이다.
 

@@ -1,19 +1,43 @@
 {
-  "status": "user-approved-awaiting-publication",
+  "status": "deployed",
   "baseline": "728952243bf370954deb452940eb3c87ca26d398",
   "dateKST": "2026-10-24",
-  "featureCommit": null,
-  "pullRequest": null,
-  "pagesDeployment": null,
+  "featureCommit": "b4662f3e5895fbd68f4ab62eeebe43021609dd57",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/15",
+  "pagesDeployment": {
+    "runId": 39979434913,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39979434913",
+    "jobs": [
+      {
+        "id": 120502518155,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120502840415,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120502840703,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
   "localImplementation": "validated",
   "dynamicReaches": 2827,
   "newDynamicReaches": 2637,
   "physicalResolvedReaches": 0,
   "physicallyUnresolvedReaches": 23022,
   "publicOrigin": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/basin-water-budget/index.html",
     "verified": false,
     "newRequestAttempted": false,
-    "reason": "No deployment for this stage; environment policy also excludes jungsb7.github.io."
+    "reason": "Environment policy excludes jungsb7.github.io; deployment verified through GitHub Actions."
   },
   "publicationAuthorization": {
     "dateKST": "2026-10-24",
@@ -29,5 +53,7 @@
     "reason": "Automatic review requires explicit authorization for publication of this specific opaque binary payload despite general deployment authorization. Source/content verification followed by retry was also rejected.",
     "verification": "source-publication-check.json",
     "resolvedBy": "Explicit user approval; the formerly rejected flux-01.bin upload succeeded afterward."
-  }
+  },
+  "mergeCommit": "4bf097024e773a8ad4de3ca97c2af668fef25afe",
+  "documentationCommitNote": "Final handoff commit may be newer than feature merge; final Pages run recorded in PR."
 }
