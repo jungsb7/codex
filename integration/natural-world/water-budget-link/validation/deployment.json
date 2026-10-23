@@ -1,1 +1,51 @@
-{"status":"validated-awaiting-publication","baseline":"110b1b5b7cfc20ddd62c92fdba5e6dcca1c76721","dateKST":"2026-10-23","dynamicReaches":171,"networkModelledReaches":20255,"physicalResolvedReaches":0,"physicallyUnresolvedReaches":23022,"publicOrigin":{"verified":false,"newRequestAttempted":false,"reason":"Environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."}}
+{
+  "status": "deployed",
+  "dateKST": "2026-10-23",
+  "baseline": "110b1b5b7cfc20ddd62c92fdba5e6dcca1c76721",
+  "featureCommit": "9f672a20f79a7f2b1981e12fbd44e5965e7a4bff",
+  "mergeCommit": "fb6f2758057e147a1afc94d303abd5efdffab620",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/13",
+  "pages": {
+    "runId": 39970030707,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39970030707",
+    "jobs": [
+      {
+        "id": 120469964792,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120470286674,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120470286847,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "checks": {
+    "model": 168,
+    "browser": 23,
+    "aiSelections": 300,
+    "downloads": 9,
+    "baselineFiles": 979,
+    "byteIdenticalFiles": 974
+  },
+  "dynamicReaches": 171,
+  "networkModelledReaches": 20255,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "publicOrigin": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/water-budget-link/index.html",
+    "verified": false,
+    "newRequestAttempted": false,
+    "reason": "Environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."
+  },
+  "documentationCommitNote": "Final handoff commit may be newer than feature merge; final Pages run recorded in pull request."
+}

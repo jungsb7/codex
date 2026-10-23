@@ -19,3 +19,5 @@ D301678/D307820에서받은100년상류물량1,026.997564km³를원본진입3032
 기준main `110b1b5b7cfc20ddd62c92fdba5e6dcca1c76721`. 기존979파일중974바이트보존. 기존수정은지도/후속32링크와인계3개. 원본세계/경제/지형/기후/수계/마스크/구지도/전체아카이브/종료대상보존. [배포 기록](validation/deployment.json).
 
 다음은같은모델을복사해다른경계값을꾸미는것이아니라,대상경계의원본기후/저장계측과진입점자료를확보해검증된교체방식을확장하는것이다. 외력형상/추상합류검산으로자동복귀하지않는다.
+
+[PR #13](https://github.com/jungsb7/codex/pull/13) 병합·배포 완료. 기능 커밋 `9f672a20f79a7f2b1981e12fbd44e5965e7a4bff`, 병합 커밋 `fb6f2758057e147a1afc94d303abd5efdffab620`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39970030707)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
