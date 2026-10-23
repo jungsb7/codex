@@ -1,1 +1,49 @@
-{"status":"validated-awaiting-publication","baseline":"3cd5fdf286b78e33d214c2f2c6c2695eb5808d24","dateKST":"2026-10-23","physicalResolvedReaches":0,"physicallyUnresolvedReaches":23022,"conditionalModelledReaches":4891,"publicOrigin":{"verified":false,"reason":"Environment policy does not allow jungsb7.github.io; prior same-host CONNECT403, not retried this stage."}}
+{
+  "status": "deployed",
+  "dateKST": "2026-10-23",
+  "baseline": "3cd5fdf286b78e33d214c2f2c6c2695eb5808d24",
+  "featureCommit": "29ee40167649e7a6f631a062230e84e59e7c15b8",
+  "mergeCommit": "7af0264851cd45bb3265b2626c1ab527500a1abc",
+  "pr": "https://github.com/jungsb7/codex/pull/11",
+  "pages": {
+    "runId": 39949616304,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39949616304",
+    "jobs": [
+      {
+        "id": 120400598379,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120400834921,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120400834959,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/downstream-routing/index.html",
+  "publicOrigin": {
+    "verified": false,
+    "newRequestAttempted": false,
+    "reason": "Current environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."
+  },
+  "validation": {
+    "modelTests": 141,
+    "browserTests": 25,
+    "baselineFiles": 927,
+    "byteIdenticalFiles": 923,
+    "conditionalModelledBoundaries": 209,
+    "conditionalModelledReaches": 4891,
+    "modelHeldReaches": 18131,
+    "physicalResolvedReaches": 0,
+    "physicallyUnresolvedReaches": 23022
+  }
+}

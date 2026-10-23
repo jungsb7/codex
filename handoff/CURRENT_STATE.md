@@ -2,9 +2,11 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속31 해양 경계 하류 처리의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속31 해양 경계 하류 처리 구현·검증 — 2026-10-23
+## 후속31 해양 경계 하류 처리 구현·검증·배포 완료 — 2026-10-23
 
 사용자가23,022구간의 실제 하류 처리를 우선하도록 지시했다. 외력 형상 검산 제안을 보류하고 **해양209경계·4,891구간의 조건부 저장/초과 전달을 원본 하류 경로에 연결**했다. [화면](../integration/natural-world/downstream-routing/index.html) · [결과](../integration/natural-world/downstream-routing/REPORT.md) · [방법·AI](../integration/natural-world/downstream-routing/README.md) · [배포 기록](../integration/natural-world/downstream-routing/validation/deployment.json). 기준 main `3cd5fdf286b78e33d214c2f2c6c2695eb5808d24`.
+
+[PR #11](https://github.com/jungsb7/codex/pull/11) 병합·배포 완료. 기능 커밋 `29ee40167649e7a6f631a062230e84e59e7c15b8`, 병합 커밋 `7af0264851cd45bb3265b2626c1ab527500a1abc`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39949616304)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 접속은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 - 기존 해양 후보4,921구간에서 이전 보류D14475830구간을 제외했다. flags 없는209곳/4,891구간만 계산하고975경계/18,131구간은 사유와 함께 보류한다.
 - 원본 문턱 기둥체적을 집계 저장 상한으로 사용한다. 명시한 추가 순손실/초기재고/반복기간에 따라 초과분을 원본 receiver 경로로 전달하고151해양 종착점에서 한 번만 집계한다. 경로 합류 중복 없음.
