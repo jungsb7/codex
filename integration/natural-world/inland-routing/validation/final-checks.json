@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "modelTests": 155,
+  "newModelTests": 14,
+  "priorModelTests": 141,
+  "browserTests": 27,
+  "newBrowserTests": 15,
+  "priorBrowserTests": 12,
+  "conditionalModelledBoundaries": 949,
+  "conditionalModelledReaches": 20255,
+  "reachesWithOceanPath": 13598,
+  "modelledReachesEndingHeld": 6657,
+  "heldReaches": 2767,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "baselineFiles": 952,
+  "byteIdenticalFiles": 947,
+  "publicOriginVerified": false,
+  "cliHeldReceiptVerified": true
+}

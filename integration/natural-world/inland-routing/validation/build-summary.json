@@ -1,0 +1,95 @@
+{
+  "bytes": 2341053,
+  "examples": [
+    {
+      "input": {
+        "years": 100,
+        "lossMPerYear": 0,
+        "initialFraction": 0
+      },
+      "summary": {
+        "modelledBoundaries": 949,
+        "modelledReaches": 20255,
+        "heldBoundaries": 235,
+        "heldReaches": 2767,
+        "reachesWithOceanPath": 13598,
+        "modelledReachesEndingHeld": 6657,
+        "releasingBoundaries": 708,
+        "heldBoundariesReceiving": 14,
+        "internalEdges": 740,
+        "oceanMouths": 151,
+        "initialInventoryM3": 0,
+        "totalSourceInflowM3": 578640219077790.4,
+        "totalNetLossM3": 0,
+        "totalOceanDeliveryM3": 268562856277313.6,
+        "totalUnallocatedM3": 215914029631309.22,
+        "finalInventoryM3": 94163333169168.14,
+        "cumulativeResidualM3": -0.609375,
+        "maxAbsPeriodResidualM3": 0.04931640625,
+        "maxAbsTransferResidualM3": 0.00146484375,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      }
+    },
+    {
+      "input": {
+        "years": 100,
+        "lossMPerYear": 0.5,
+        "initialFraction": 0
+      },
+      "summary": {
+        "modelledBoundaries": 949,
+        "modelledReaches": 20255,
+        "heldBoundaries": 235,
+        "heldReaches": 2767,
+        "reachesWithOceanPath": 13598,
+        "modelledReachesEndingHeld": 6657,
+        "releasingBoundaries": 539,
+        "heldBoundariesReceiving": 12,
+        "internalEdges": 740,
+        "oceanMouths": 151,
+        "initialInventoryM3": 0,
+        "totalSourceInflowM3": 578640219077790.4,
+        "totalNetLossM3": 228955292691775,
+        "totalOceanDeliveryM3": 175619700112977.25,
+        "totalUnallocatedM3": 139060711269157.44,
+        "finalInventoryM3": 35004515003880.74,
+        "cumulativeResidualM3": -0.05078125,
+        "maxAbsPeriodResidualM3": 0.029876708984375,
+        "maxAbsTransferResidualM3": 0.0006103515625,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      }
+    },
+    {
+      "input": {
+        "years": 100,
+        "lossMPerYear": 2,
+        "initialFraction": 0.5
+      },
+      "summary": {
+        "modelledBoundaries": 949,
+        "modelledReaches": 20255,
+        "heldBoundaries": 235,
+        "heldReaches": 2767,
+        "reachesWithOceanPath": 13598,
+        "modelledReachesEndingHeld": 6657,
+        "releasingBoundaries": 330,
+        "heldBoundariesReceiving": 9,
+        "internalEdges": 740,
+        "oceanMouths": 151,
+        "initialInventoryM3": 68935789865450.42,
+        "totalSourceInflowM3": 578640219077790.4,
+        "totalNetLossM3": 417614698001091.5,
+        "totalOceanDeliveryM3": 94396655528544.14,
+        "totalUnallocatedM3": 129963452854427.11,
+        "finalInventoryM3": 5601202559178.755,
+        "cumulativeResidualM3": -0.7548828125,
+        "maxAbsPeriodResidualM3": 0.061981201171875,
+        "maxAbsTransferResidualM3": 0.00018310546875,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      }
+    }
+  ]
+}
