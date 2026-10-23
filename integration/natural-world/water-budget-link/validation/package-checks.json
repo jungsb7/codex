@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "baseline": "110b1b5b7cfc20ddd62c92fdba5e6dcca1c76721",
+  "baselineFiles": 979,
+  "byteIdenticalFiles": 974,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/inland-routing/index.html",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "newPayloadBytes": 54563,
+  "newPayloadSha256": "e790771402832642eae30b3f68fc5658cb89e6274b3385f489f5c92c1b0adb94",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

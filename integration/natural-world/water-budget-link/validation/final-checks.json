@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "modelChecks": 168,
+  "newModelChecks": 13,
+  "browserChecks": 23,
+  "newBrowserChecks": 11,
+  "downloadedJsonChecks": 9,
+  "aiSelections": 300,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "networkModelledReaches": 20255,
+  "dynamicReaches": 171,
+  "automaticAdoption": false
+}

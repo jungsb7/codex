@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "screenshots": [
+    "budget-1440.png",
+    "budget-390.png",
+    "budget-320.png"
+  ],
+  "review": "Local selected-year and global 100-year ledgers are distinguished; all table values, assumptions, navigation and download controls remain readable without clipping."
+}

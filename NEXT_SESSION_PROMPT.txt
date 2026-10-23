@@ -1,4 +1,4 @@
-GitHub 기반 최신 인수인계 — 후속32 내륙 경계 전달·수신 배포 완료, 2026-10-23
+GitHub 기반 최신 인수인계 — 후속33 원본 수분 장부 연결, 2026-10-23
 
 jungsb7/codex 최신 main을 받아 시작한다. 과거 커밋으로 되돌리지 않는다.
 사용자의23,022구간 하류 처리 우선 지시를 유지한다. 추상 합류/외력 검산은 보류한다.
@@ -6,43 +6,38 @@ jungsb7/codex 최신 main을 받아 시작한다. 과거 커밋으로 되돌리�
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/inland-routing/README.md 및 REPORT.md
-4. integration/natural-world/downstream-routing/README.md
+3. integration/natural-world/water-budget-link/README.md 및 REPORT.md
+4. integration/natural-world/inland-routing/README.md
 5. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속32:
--내륙740연결추가.949경계·20,255구간의조건부전달/수신.
--23,022구간=가정해양경로13,598+하류보류종착6,657+자체처리보류2,767.
--상류부터계산해원본자체유입+상류수신을한번씩넣음.740내부송수신전수보존.
--보류235경계의자체유입/상류수신은미배분장부에남김.실제저장량/침수량아님.
--100년·추가손실0·초기0에서708경계초과전달·14보류경계상류수신.
--기존해양209곳만분리하면후속31의3가정결과재현.
--런타임순환/목적경계누락/경로충돌거부.기존수위결합/고온/극지/종료대상보류유지.
--새14+기존141자료155검사,새15+기존12브라우저27검사.1440/390/320px및보류수신화면.
--실제해결0·미정23,022유지.조건부계산수와구분.actual항목null·automaticAdoption:false.
--집계용량·추가순손실·같은기간내손실0/지연0가정.수면전환/침투/증발/출구/역수위미계산.
--후속24~26 D298591동적모델을대체하지않고108보류·14중단유지.
--기존952파일중947보존.기존수정은지도/후속31링크와인계3개.
+후속33:
+- D298591 한 경계619격자·171구간을 원본 강수/눈/얕은 저장/육지·수면 증발 장부로 교체.
+- 상류D301678/D307820의1,200기간 수신을 원본 진입점303208/304744로 넣음.
+- 기존 집계 유입/손실/재고/방류를 제거하고 새 장부 적용. 상류 수신을 전역 외부 유입에 중복 가산하지 않음.
+- 원본35%얕은 저장 유입은 내부 이동, 실제 침투율 아님. 토양/대수층 임의 분할 없음. 실제 침투null.
+- 다른948계산 경계·235보류 경계 유지. 조건부20,255중171구간만 이번 연결. 실제 해결0·미정23,022 유지.
+- 원시 지역 위상과 인접 위상 평균 상류 유입의 번호 대응은 혼합 강제력 가정. 같은 기간 초과 전달은 실제 수리 방류 아님.
+- 기존108보류·14중단, 연간 약6.008km³ 눈 누적 문제 유지. 보류 미배분량은 실제 저장량 아님.
+- 새13+기존155자료168검사, 새11+기존12브라우저23검사. 1440/390/320px·AI300조회·9JSON 확인.
+- 기존979파일 중974보존. 기존 수정은 지도/후속32링크 및 인계3개.
 
-배포 기록: integration/natural-world/inland-routing/validation/deployment.json
-PR #12 병합 3373d77bc3fef479773793fcb3be09cf5145dd0d. Pages 실행 39961356486의3작업성공.
-공개주소직접응답은환경도메인제한으로미확인.최종인계문서커밋은기능병합보다최신일수있음.
-다음:원본수분장부와저장/손실처리연결.후속24기존계측/전환모델재사용.추상검산자동복귀금지.
+배포 기록: integration/natural-world/water-budget-link/validation/deployment.json
+배포 대기. 배포 완료 후 기록 갱신.
+공개주소 직접응답은 환경 도메인 제한으로 미확인. 최종 인계문서 커밋은 기능병합보다 최신일 수 있음.
+다음: 다른 경계의 원본 기후/저장 계측·진입점 근거를 확보해 동일 교체 방식을 확장. D298591값 복사 금지.
 
 재현:
 node handoff/restore-inputs.cjs
-node integration/natural-world/inland-routing/build.cjs
-node --test --test-isolation=none integration/natural-world/inland-routing/test.cjs
-node integration/natural-world/inland-routing/query.cjs D200327
-가정.json예: {"years":100,"lossMPerYear":0,"initialFraction":0}
-node integration/natural-world/inland-routing/query.cjs D126467 --input 가정.json
+node integration/natural-world/water-budget-link/build.cjs
+node --test --test-isolation=none integration/natural-world/water-budget-link/test.cjs
+node integration/natural-world/water-budget-link/query.cjs E1-G0.25 7
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/inland-routing/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/water-budget-link/index.html
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
 
-보류경계도유효가정이있으면수신/미배분result반환.재고/손실/방류null이며수리계산완료아님.
-원본세계/경제/약26km지형/기후/수계/마스크/구지도/전체아카이브유지.
-실제세부하도/피복/침수/강폭/적설/결빙/저류/침투/넘침미정.
-종료9곳및D126467/D147845/D144758내부물리계산재개금지.12위상은지구달력월아님.
-전체3044원본은 archive/full-handoff-20261020에별도보관,main에병합하지않음.
-옛build/record/package스크립트로최신기록덮어쓰지않음.최신사용자요청우선.
+AI: annual은 선택연도, global은100년. 상세 periods:[]는 미저장이지 물량0 아님. actual:null·automaticAdoption:false 유지.
+원본세계/경제/약26km지형/기후/수계/마스크/구지도/전체아카이브 유지.
+실제세부하도/피복/침수/강폭/적설/결빙/저류/침투/넘침 미정.
+종료9곳 및D126467/D147845/D144758 내부물리계산 재개 금지.12위상은 지구 달력 월 아님.
+전체3044원본은 archive/full-handoff-20261020에 별도 보관,main에 병합하지 않음.
+옛build/record/package스크립트로 최신 기록 덮어쓰지 않음. 최신 사용자 요청 우선.
