@@ -1,0 +1,12 @@
+PASS initial state requires explicit scenario selection
+PASS 27 case/boundary/year views and downloaded JSON exactly match Node selection
+PASS complete condition/boundary/year survive reload and history
+PASS annual local and100y global scopes, internal recharge and actual infiltration remain distinct
+PASS invalid year or shared condition clears stale output
+PASS 1440/390/320 layouts keep tables and controls within viewport
+PASS http failure hides output; retry restores exact requested selection
+PASS hash failure hides output; retry restores exact requested selection
+PASS schema failure hides output; retry restores exact requested selection
+PASS original map selection and return link preserve unresolved physical state
+PASS prior single-boundary view links to source budget without implicit selection
+PASS boundary changes update own source and unknown boundary clears stale result

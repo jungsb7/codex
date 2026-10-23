@@ -1,0 +1,22 @@
+✔ fresh probes preserve entire-world runoff and old619 source values bit for bit (22.826797ms)
+✔ new71 cells reproduce own original monthly land arithmetic rather than downstream climate (13.873283ms)
+✔ source domains and native capacity columns are disjoint with original crest volumes (1.172505ms)
+✔ every upstream period sends its own dynamic excess to correct physical recipient entry (0.298531ms)
+✔ each donor without receipts matches the original shared surface engine independently (78.292066ms)
+✔ every local period balances external supply and internal shallow store movements (0.443246ms)
+✔ connected chain independent inventory balance cancels both internal transfers (0.245012ms)
+✔ global replacement subtracts three original sources but only the ocean-bound release (62.652711ms)
+✔ all route-node changes equal sum of replacements that visit that cell (43.811269ms)
+✔ incomplete chain, held nodes, overlap, unknown source/entry and invalid assumptions fail closed (40.28312ms)
+✔ explicit separate initial stocks and nonzero network loss retain replacement closure (72.659033ms)
+✔ new donor60-to120 step refinement stays within0.5percent in cumulative excess (6852.876664ms)
+✔ all saved cases retain null actuals, local and chain balances and hashed dependencies (3.296086ms)
+✔ AI900 selections keep boundary annual, receipt and100year global scopes distinct (3.106526ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 14
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 7793.271232

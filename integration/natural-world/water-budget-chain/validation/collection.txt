@@ -1,0 +1,4 @@
+Booting original simulator with read-only flux probes for 690 cells.
+Browser: Failed to load resource: the server responded with a status of 404 (Not Found)
+World ready; collecting sixth-cycle source states and validating unchanged runoff.
+{"status":"passed","cells":690,"rows":8280,"allLocalRunoffBitIdentical":true}

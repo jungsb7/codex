@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "root": "/workspace/codex",
+  "checks": [
+    "designed-detail-tiles-render-on-world-terrain",
+    "existing-river-object-selection-loads-its-own-connected-source",
+    "twelve-period-original-climate-and-water-layer-switching",
+    "all-twelve-period-values-match-source-and-chart",
+    "coordinate-and-object-downloads-match-visible-state",
+    "reload-and-back-preserve-season-feature-and-detail",
+    "ridge-inspector-shows-design-climate-without-invented-catchment",
+    "pointer-selects-visible-river-geometry",
+    "candidate-object-preserves-unresolved-boundary-and-original-only-hides-it",
+    "detail-toggle-and-new-coordinate-clear-old-object",
+    "320-390px-season-controls-and-object-inspector-fit",
+    "climate-failure-does-not-fabricate-values-and-retry-recovers"
+  ],
+  "errors": []
+}

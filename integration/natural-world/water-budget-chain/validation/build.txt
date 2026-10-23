@@ -1,0 +1,100 @@
+Computing E0.5-G0
+Computing E1-G0.25
+Computing E2-G0.25
+{
+  "bytes": 94931,
+  "selection": {
+    "dynamicBoundaries": 3,
+    "dynamicReaches": 190,
+    "sourceCells": 690,
+    "networkModelledReaches": 20255,
+    "physicalResolvedReaches": 0,
+    "physicallyUnresolvedReaches": 23022
+  },
+  "scenarios": [
+    {
+      "id": "E0.5-G0",
+      "edges": [
+        {
+          "from": "D301678",
+          "to": "D298591",
+          "entryCell": 303208,
+          "sentM3": 842797821166.9852,
+          "receivedM3": 842797821166.9852
+        },
+        {
+          "from": "D307820",
+          "to": "D298591",
+          "entryCell": 304744,
+          "sentM3": 171404116503.89542,
+          "receivedM3": 171404116503.8943
+        }
+      ],
+      "chainResidual": -0.0916748046875,
+      "globalResidual": -0.703125,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 8923008877777.746,
+        "newReceivedM3": 1014201937670.8812,
+        "newExcessM3": 8910224895574.791
+      }
+    },
+    {
+      "id": "E1-G0.25",
+      "edges": [
+        {
+          "from": "D301678",
+          "to": "D298591",
+          "entryCell": 303208,
+          "sentM3": 769449982585.1105,
+          "receivedM3": 769449982585.1056
+        },
+        {
+          "from": "D307820",
+          "to": "D298591",
+          "entryCell": 304744,
+          "sentM3": 134155199781.89746,
+          "receivedM3": 134155199781.89682
+        }
+      ],
+      "chainResidual": -0.0782470703125,
+      "globalResidual": -0.703125,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 4518569206390.566,
+        "newReceivedM3": 903605182367.0087,
+        "newExcessM3": 4396947441199.04
+      }
+    },
+    {
+      "id": "E2-G0.25",
+      "edges": [
+        {
+          "from": "D301678",
+          "to": "D298591",
+          "entryCell": 303208,
+          "sentM3": 671652864475.2128,
+          "receivedM3": 671652864475.2097
+        },
+        {
+          "from": "D307820",
+          "to": "D298591",
+          "entryCell": 304744,
+          "sentM3": 84489977487.36539,
+          "receivedM3": 84489977487.36525
+        }
+      ],
+      "chainResidual": -0.0980224609375,
+      "globalResidual": -0.640625,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 0,
+        "newReceivedM3": 756142841962.5787,
+        "newExcessM3": 0
+      }
+    }
+  ]
+}
