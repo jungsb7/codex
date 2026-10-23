@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "newModelTests": 15,
+  "priorModelTests": 195,
+  "newBrowserChecks": 12,
+  "priorBrowserChecks": 12,
+  "aiSelections": 17100,
+  "downloads": 9,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "originalFiles": 1101,
+  "unchangedFiles": 1096,
+  "refinement": {
+    "status": "passed",
+    "substeps": [
+      60,
+      120
+    ],
+    "maxGlobalPercent": 0.6245818093531654,
+    "maxLocalSupplyPercent": 0.1841791999428676
+  },
+  "worldAdoption": false,
+  "actualPhysicalCompletion": false
+}

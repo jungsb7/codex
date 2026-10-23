@@ -1,0 +1,10 @@
+{
+  "schema": "finite-water-assumptions/1",
+  "status": "designed-candidate-not-adopted",
+  "common": {"years": 100, "substeps": 60, "soilCapacityMm": 200, "aquiferCapacityMm": 1000, "infiltrationMmPerYear": 1200, "soilDrainYears": 0.25, "groundwaterReturnYears": 2, "evaporationMPerYear": 0.5, "widthScale": 4, "outletCoefficient": 1.5, "maxSurchargeM": 5},
+  "scenarios": [
+    {"id": "reference", "label": "기준 후보", "changes": {}},
+    {"id": "low-infiltration", "label": "침투 능력 1/4", "changes": {"infiltrationMmPerYear": 300}},
+    {"id": "slow-return", "label": "지하수 복귀 4배 느림", "changes": {"groundwaterReturnYears": 8}}
+  ]
+}

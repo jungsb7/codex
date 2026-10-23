@@ -1,0 +1,383 @@
+{
+  "status": "outside-tolerance",
+  "scope": "all57-boundaries100-years",
+  "coarseSubsteps": 30,
+  "fineSubsteps": 60,
+  "criterion": "each cumulative selected flux/final total <1%; each boundary release difference <1% of its total supply; finite and conservative",
+  "comparisons": {
+    "infiltrationM3": {
+      "coarse": 24679465432185.195,
+      "fine": 24481618914114.992,
+      "relativeDifference": 0.008081431165327625
+    },
+    "rechargeM3": {
+      "coarse": 11995015808763.473,
+      "fine": 11893710979321.373,
+      "relativeDifference": 0.008517512290169995
+    },
+    "groundwaterReturnM3": {
+      "coarse": 11779916450944.787,
+      "fine": 11680494118968.861,
+      "relativeDifference": 0.008511825866550126
+    },
+    "oceanDeliveryM3": {
+      "coarse": 4572905256637.855,
+      "fine": 4631034855678.044,
+      "relativeDifference": 0.012552183443170726
+    },
+    "finalInventoryM3": {
+      "coarse": 13210691601514.574,
+      "fine": 13250674308318.242,
+      "relativeDifference": 0.003017409218077938
+    }
+  },
+  "boundaryComparisons": [
+    {
+      "id": "D166244",
+      "releaseDifferenceM3": 4955239.341781616,
+      "releaseDifferenceRelativeToLocalSupply": 0.000046137577602526866,
+      "finalInventoryDifferenceM3": -4747800.947128296
+    },
+    {
+      "id": "D170859",
+      "releaseDifferenceM3": 5150060.297775269,
+      "releaseDifferenceRelativeToLocalSupply": 0.000030256057289705755,
+      "finalInventoryDifferenceM3": -6037677.038528442
+    },
+    {
+      "id": "D177037",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 46304668.220523834
+    },
+    {
+      "id": "D183131",
+      "releaseDifferenceM3": 30074389.828063965,
+      "releaseDifferenceRelativeToLocalSupply": 0.000048671274876347516,
+      "finalInventoryDifferenceM3": -22764826.766006947
+    },
+    {
+      "id": "D183240",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 27212161.481230736
+    },
+    {
+      "id": "D184773",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 29497383.363271713
+    },
+    {
+      "id": "D184793",
+      "releaseDifferenceM3": 6572677.354148865,
+      "releaseDifferenceRelativeToLocalSupply": 0.00008514010619028343,
+      "finalInventoryDifferenceM3": -3126667.9628572464
+    },
+    {
+      "id": "D186342",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 13918113.37978363
+    },
+    {
+      "id": "D187853",
+      "releaseDifferenceM3": 97771082.54632568,
+      "releaseDifferenceRelativeToLocalSupply": 0.0005165722084992538,
+      "finalInventoryDifferenceM3": -11909274.571968079
+    },
+    {
+      "id": "D187898",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 2525397.846069336
+    },
+    {
+      "id": "D187932",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 365613.24925994873
+    },
+    {
+      "id": "D189297",
+      "releaseDifferenceM3": 1179758670.5061646,
+      "releaseDifferenceRelativeToLocalSupply": 0.0015781546885376744,
+      "finalInventoryDifferenceM3": -25170799.792603016
+    },
+    {
+      "id": "D189301",
+      "releaseDifferenceM3": 599290821.5891953,
+      "releaseDifferenceRelativeToLocalSupply": 0.001824201475722659,
+      "finalInventoryDifferenceM3": -6956021.416471958
+    },
+    {
+      "id": "D198665",
+      "releaseDifferenceM3": 428547927.71325684,
+      "releaseDifferenceRelativeToLocalSupply": 0.0009109561655711209,
+      "finalInventoryDifferenceM3": -23237040.99483359
+    },
+    {
+      "id": "D201662",
+      "releaseDifferenceM3": 1796622598.9811096,
+      "releaseDifferenceRelativeToLocalSupply": 0.002251239543873141,
+      "finalInventoryDifferenceM3": -29434764.01533127
+    },
+    {
+      "id": "D206165",
+      "releaseDifferenceM3": 4158677.4753723145,
+      "releaseDifferenceRelativeToLocalSupply": 0.00003137774812583787,
+      "finalInventoryDifferenceM3": -3883349.527994871
+    },
+    {
+      "id": "D206171",
+      "releaseDifferenceM3": 593402106.7718506,
+      "releaseDifferenceRelativeToLocalSupply": 0.00035313866567601157,
+      "finalInventoryDifferenceM3": -44087944.448028564
+    },
+    {
+      "id": "D209268",
+      "releaseDifferenceM3": 478911029.51068115,
+      "releaseDifferenceRelativeToLocalSupply": 0.0015091139924945118,
+      "finalInventoryDifferenceM3": -3676937.391146779
+    },
+    {
+      "id": "D217109",
+      "releaseDifferenceM3": 190610025.41705704,
+      "releaseDifferenceRelativeToLocalSupply": 0.0009494730279078057,
+      "finalInventoryDifferenceM3": -1381849.7631917
+    },
+    {
+      "id": "D221625",
+      "releaseDifferenceM3": 207717755.56585693,
+      "releaseDifferenceRelativeToLocalSupply": 0.002272479249292742,
+      "finalInventoryDifferenceM3": -1568835.145433545
+    },
+    {
+      "id": "D221709",
+      "releaseDifferenceM3": 224423104.46381378,
+      "releaseDifferenceRelativeToLocalSupply": 0.001595403404398044,
+      "finalInventoryDifferenceM3": -4167792.8715397716
+    },
+    {
+      "id": "D223089",
+      "releaseDifferenceM3": 372684955.21022797,
+      "releaseDifferenceRelativeToLocalSupply": 0.0022099863093865894,
+      "finalInventoryDifferenceM3": -2381304.009082079
+    },
+    {
+      "id": "D224645",
+      "releaseDifferenceM3": 2927902218.121216,
+      "releaseDifferenceRelativeToLocalSupply": 0.001990071673563436,
+      "finalInventoryDifferenceM3": -37925793.54988384
+    },
+    {
+      "id": "D227752",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 461883.8400294781
+    },
+    {
+      "id": "D235439",
+      "releaseDifferenceM3": 1256150806.6952667,
+      "releaseDifferenceRelativeToLocalSupply": 0.001834698191496415,
+      "finalInventoryDifferenceM3": -20164113.735725403
+    },
+    {
+      "id": "D246198",
+      "releaseDifferenceM3": 463743715.65966797,
+      "releaseDifferenceRelativeToLocalSupply": 0.0005847234426644577,
+      "finalInventoryDifferenceM3": -9490768.341731548
+    },
+    {
+      "id": "D253936",
+      "releaseDifferenceM3": 922157215.6766357,
+      "releaseDifferenceRelativeToLocalSupply": 0.000787371744890276,
+      "finalInventoryDifferenceM3": -20920392.55224228
+    },
+    {
+      "id": "D258447",
+      "releaseDifferenceM3": 45244435.82430363,
+      "releaseDifferenceRelativeToLocalSupply": 0.0007624429873477027,
+      "finalInventoryDifferenceM3": -674322.0432926863
+    },
+    {
+      "id": "D266213",
+      "releaseDifferenceM3": 630592943.6408539,
+      "releaseDifferenceRelativeToLocalSupply": 0.0022281737568362013,
+      "finalInventoryDifferenceM3": -9589068.49779892
+    },
+    {
+      "id": "D275366",
+      "releaseDifferenceM3": 137386189.05741215,
+      "releaseDifferenceRelativeToLocalSupply": 0.0022531795601862894,
+      "finalInventoryDifferenceM3": -1467849.8292292356
+    },
+    {
+      "id": "D275390",
+      "releaseDifferenceM3": 193502460.4079895,
+      "releaseDifferenceRelativeToLocalSupply": 0.0012986703839853887,
+      "finalInventoryDifferenceM3": -2842587.7487913966
+    },
+    {
+      "id": "D275397",
+      "releaseDifferenceM3": 123596931.21775055,
+      "releaseDifferenceRelativeToLocalSupply": 0.0012500216947282765,
+      "finalInventoryDifferenceM3": -1891104.4725118876
+    },
+    {
+      "id": "D275417",
+      "releaseDifferenceM3": 452916037.93105316,
+      "releaseDifferenceRelativeToLocalSupply": 0.0020343999760828744,
+      "finalInventoryDifferenceM3": -6317772.075547457
+    },
+    {
+      "id": "D278480",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 66535780.71600819
+    },
+    {
+      "id": "D281541",
+      "releaseDifferenceM3": 599028270.830307,
+      "releaseDifferenceRelativeToLocalSupply": 0.0018424163247700415,
+      "finalInventoryDifferenceM3": -6679282.035900325
+    },
+    {
+      "id": "D284554",
+      "releaseDifferenceM3": 19303573.556785583,
+      "releaseDifferenceRelativeToLocalSupply": 0.00018419231829436795,
+      "finalInventoryDifferenceM3": -5792742.6075286865
+    },
+    {
+      "id": "D293823",
+      "releaseDifferenceM3": 74895659.51372528,
+      "releaseDifferenceRelativeToLocalSupply": 0.0006013786235945282,
+      "finalInventoryDifferenceM3": -1114315.9384813905
+    },
+    {
+      "id": "D164704",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 8654255.308486938
+    },
+    {
+      "id": "D186313",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 71180761.84887505
+    },
+    {
+      "id": "D218543",
+      "releaseDifferenceM3": 3560156326.911682,
+      "releaseDifferenceRelativeToLocalSupply": 0.0040010417084823955,
+      "finalInventoryDifferenceM3": -23997067.759515762
+    },
+    {
+      "id": "D221548",
+      "releaseDifferenceM3": 1587520036.939972,
+      "releaseDifferenceRelativeToLocalSupply": 0.0036713034756080116,
+      "finalInventoryDifferenceM3": -9744830.989923239
+    },
+    {
+      "id": "D235520",
+      "releaseDifferenceM3": 2820255818.6660156,
+      "releaseDifferenceRelativeToLocalSupply": 0.0007046904975652774,
+      "finalInventoryDifferenceM3": -57770852.22027111
+    },
+    {
+      "id": "D278432",
+      "releaseDifferenceM3": 3603957853.746338,
+      "releaseDifferenceRelativeToLocalSupply": 0.001171937746232811,
+      "finalInventoryDifferenceM3": -75292595.82163602
+    },
+    {
+      "id": "D233951",
+      "releaseDifferenceM3": 5381902250.950195,
+      "releaseDifferenceRelativeToLocalSupply": 0.0012064244567956644,
+      "finalInventoryDifferenceM3": -72980694.13135433
+    },
+    {
+      "id": "D243078",
+      "releaseDifferenceM3": 1527357210.2593994,
+      "releaseDifferenceRelativeToLocalSupply": 0.0007058312758736252,
+      "finalInventoryDifferenceM3": -29181351.34014815
+    },
+    {
+      "id": "D278454",
+      "releaseDifferenceM3": 5117521908.455322,
+      "releaseDifferenceRelativeToLocalSupply": 0.0016707305151071636,
+      "finalInventoryDifferenceM3": -72400840.95887184
+    },
+    {
+      "id": "D267668",
+      "releaseDifferenceM3": 6535599014.800781,
+      "releaseDifferenceRelativeToLocalSupply": 0.001390464986649766,
+      "finalInventoryDifferenceM3": -69624713.63670367
+    },
+    {
+      "id": "D227711",
+      "releaseDifferenceM3": 4336929744.66626,
+      "releaseDifferenceRelativeToLocalSupply": 0.0016168842471204442,
+      "finalInventoryDifferenceM3": -50840167.22328335
+    },
+    {
+      "id": "D236990",
+      "releaseDifferenceM3": 14101855899.580566,
+      "releaseDifferenceRelativeToLocalSupply": 0.0018521029231883509,
+      "finalInventoryDifferenceM3": -112547336.75754353
+    },
+    {
+      "id": "D255382",
+      "releaseDifferenceM3": 8099177753.654785,
+      "releaseDifferenceRelativeToLocalSupply": 0.0016690477722811207,
+      "finalInventoryDifferenceM3": -36653069.36861706
+    },
+    {
+      "id": "D235458",
+      "releaseDifferenceM3": 14412146649.93164,
+      "releaseDifferenceRelativeToLocalSupply": 0.0035200932604834813,
+      "finalInventoryDifferenceM3": -16802632.756976157
+    },
+    {
+      "id": "D252317",
+      "releaseDifferenceM3": 8424792223.13916,
+      "releaseDifferenceRelativeToLocalSupply": 0.0021621029406176193,
+      "finalInventoryDifferenceM3": -17395017.486646652
+    },
+    {
+      "id": "D233927",
+      "releaseDifferenceM3": 15408798498.975098,
+      "releaseDifferenceRelativeToLocalSupply": 0.0031512948323478757,
+      "finalInventoryDifferenceM3": -35763721.53435966
+    },
+    {
+      "id": "D233891",
+      "releaseDifferenceM3": 13637254201.094238,
+      "releaseDifferenceRelativeToLocalSupply": 0.0019357416711236156,
+      "finalInventoryDifferenceM3": -105783376.97128654
+    },
+    {
+      "id": "D200167",
+      "releaseDifferenceM3": 0,
+      "releaseDifferenceRelativeToLocalSupply": 0,
+      "finalInventoryDifferenceM3": 41607488694.61863
+    },
+    {
+      "id": "D203170",
+      "releaseDifferenceM3": 32943490117.487305,
+      "releaseDifferenceRelativeToLocalSupply": 0.0029887757382608886,
+      "finalInventoryDifferenceM3": -214718832.33716893
+    },
+    {
+      "id": "D186192",
+      "releaseDifferenceM3": 58129599040.18848,
+      "releaseDifferenceRelativeToLocalSupply": 0.002611263548444449,
+      "finalInventoryDifferenceM3": -570537808.8171583
+    }
+  ],
+  "maximumGlobalRelativeDifference": 0.012552183443170726,
+  "maximumLocalSupplyRelativeDifference": 0.0040010417084823955,
+  "fineResidualM3": 9.11328125,
+  "fineUnresolvedM3": 0,
+  "limitations": "Two resolutions are a stability screen, not a convergence proof or physical calibration."
+}

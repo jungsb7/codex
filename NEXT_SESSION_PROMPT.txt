@@ -1,53 +1,42 @@
-GitHub 기반 인수인계 — 후속35 구현·검증·배포 완료, 2026-10-24
+GitHub 기반 인수인계 — 후속36 침투·유한 저장·출구 작동 후보, 2026-10-24
 
-jungsb7/codex 최신 main과 로컬 변경을 먼저 확인한다. 후속35 작업 기준은728952243bf370954deb452940eb3c87ca26d398이며 최신main은 더 새롭다.
-후속35 계측 자료10.2MB에 대해 사용자가2026-10-24 게시/배포를 명시 승인했다. 이전 자동 거절은 승인 후 동일 조각 업로드와 배포 성공으로 해소됐다.
+jungsb7/codex 최신 main을 받고 로컬 변경을 보존한다. 후속36 기준은ffddacdf0e9fbc9d34497d3d118696014331b823이며 최신main은 더 새로울 수 있다.
 
 먼저 읽기:
-1. AGENTS.md
-2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/basin-water-budget/README.md, REPORT.md, COMPLETION.md
-4. integration/natural-world/basin-water-budget/validation/deployment.json
-5. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
+1. AGENTS.md, handoff/CURRENT_STATE.md, handoff/NEXT_GOALS.md
+2. integration/natural-world/finite-water-model/README.md, REPORT.md
+3. integration/natural-world/finite-water-model/validation/deployment.json
+4. integration/natural-world/finite-water-model/output/coverage.json
+5. worldbuilding/WORLD_HANDOFF.md, handoff/FULL_ARCHIVE.md
 
-사용자 최신 의도:
--23,022구간을 실제로 끝내려 한다. ‘언제 해결되나’, ‘가정이 없어서 대부분 미정인가’를 질문.
--이미 계산 가정은 있으나 미정 물리 모델/입력과 세계 설정 채택이 남았음을 설명.
--특정 새 물리 가정 채택은 아직 결정하지 않음. 임의로 actual:null을 숫자로 바꾸지 않는다.
--연결/검사 숫자만 늘리는 진행에서 침투·저장·출구 모델과 완료 판정 조건으로 전환.
+사용자 의도:23,022구간을 실제로 끝내고 싶으며 연결/검사 수 증가만 반복하는 것에 불만.
+이제 침투·유한 저장·지하수 복귀·출구 방류가 함께 작동하는 별도 후보를 구현했다.
+새 가정 구현은 진행하되 세계 설정 채택 여부는 아직 결정하지 않았으므로 actual:null 유지.
 
-후속35:
--D186192의57경계·2637구간 추가. 기존망 포함60경계·12045격자·2827구간.
--144540원본 계측행,2186기둥·105웅덩이·58내부 송수신. 원본 세계/기하/전268857유출 비트·전역 물수지 보존.
--기존690계측과3경계100년 결과 정확히 재현. 후속34 core·후속33 surface·원본 step 재사용.
--0.5/0가정 새 유역 첫초과23년차3위상,100년 해양10033.367235km³.1/0.25·2/0.25는100년 내 초과 없음.
--원본장부2827 / 집계만17428 / 자체보류2767 =23022. 실제 물리 채택 완료0은 별도.
--새13+기존182자료195검사,새13+기존12브라우저25검사,AI18000조회·27JSON·60경계·1440/390/320px.
--전역 잔차13.157m³ 미만. 큰 연결망 전체 시간 간격 수렴 검사는 미수행.
--기존1043파일 중1038보존. 기존변경 지도/후속34링크 및 인계3개.
-
-배포 기록: integration/natural-world/basin-water-budget/validation/deployment.json
-PR #15 병합4bf097024e773a8ad4de3ca97c2af668fef25afe,Pages 실행39979434913의3작업성공.
-공개주소 직접응답은 환경 제한으로 미확인. 최종 인계문서 커밋은 기능병합보다 최신일 수 있음.
-
-게시 승인 이력:
--자동 승인 검토가10,207,089바이트 계측gzip의 바이너리 조각 게시 권한 확인 부족으로 거절.
--같은 저장소 고정아카이브 원본 수치임을 전수 확인했으나 재시도도 거절. source-publication-check.json 참조.
--사용자가 해당 자료 게시를 명시 승인했고 업로드·PR #15 병합·Pages 배포 완료. 같은 승인 질문 반복 금지.
--계측은18조각 flux-00.bin…17.bin과manifest로 보존. source.cjs는 조각/전체 해시 확인 후 메모리 해제.
--중복 inputs/fluxes.json.gz는Git무시. 원본 아카이브나 큰 ZIP 재업로드 필요 없음.
+후속36:
+-새15+기존195=210모델검사,새12+기존12=24브라우저,AI17100조회/9JSON.
+-30→60간격비교1.2552%실패후기본60으로올림.60→120주요누적차이최대0.624582%,경계공급대비최대0.184180%통과.
+-세조건모두100년미처리0.실제설정채택/전체완료아님.
+-D186192 상류57경계·11355격자·2637구간. 후속35 원본 계측/기하 재사용,10.2MB 복제 없음.
+-토양200mm·대수층1000mm·침투1200mm/년·배수0.25년·복귀2년. 새 후보 가정.
+-침투1/4와복귀4배 민감도. 눈/융설/증발산의 기존 기온식은 유지하며 빙설 열수지 완성 아님.
+-출구폭은 원본 상류 누적유량을 기준으로 설계. 문턱 위5m 가상 수직기둥, 단방향 수위 함수/하류 진입 수위 대용값.
+-실제 침수/다른출구/역류 아님. 범위 초과는 미처리량+실패상태. 전달 중 물도 재고 보존.
+-다른20385구간에는 새 모델 미적용. 기존 원본장부2827 / 집계17428 / 자체보류2767 분류와 다른 지표.
+-검증/배포 최종 수치·PR·Pages는REPORT 및validation에 기록. 실패/미완료 숨기지 않는다.
 
 재현:
-node handoff/restore-inputs.cjs
-node integration/natural-world/basin-water-budget/build.cjs
-node --test --test-isolation=none integration/natural-world/basin-water-budget/test.cjs
-node integration/natural-world/basin-water-budget/query.cjs E1-G0.25 D186192 100
-python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/basin-water-budget/index.html
-AI annual은 선택경계/연도,chain/global은100년. periods:[]는 상세 미저장. actual:null·automaticAdoption:false.
+node integration/natural-world/finite-water-model/build.cjs
+node --test --test-isolation=none integration/natural-world/finite-water-model/test.cjs
+node integration/natural-world/finite-water-model/convergence.cjs 120
+node integration/natural-world/finite-water-model/query.cjs reference D186192 100
+화면 integration/natural-world/finite-water-model/index.html
+annual은선택경계/연도, localTotals는경계100년,chain은57경계100년,global은전체혼합망100년.
+AI/화면/JSON은같은view.js.query. 가정/범위/한계/actual:null/automaticAdoption:false 함께 제공.
 
-다음:COMPLETION.md 판정 조건에 따라 침투·유한 저장·출구/역수위 후보를 구체화하고 전역 적용/예외/보존 검증.
-완료 날짜/남은회차 근거 없이 약속 금지. 계산가능·조건부처리·세계설정채택을 분리한다.
-종료9곳 및D126467/D147845/D144758 내부계산 재개 금지.108보류·14중단·빙설/열수지 공백 유지.
-원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브 보존.12위상은 지구 달력 월 아님.
-전체3044원본은 archive/full-handoff-20261020에 별도 보관,main에 병합하지 않음. 최신 사용자 요청 우선.
+다음은새모델일괄입력/전체적용,가상수직기둥을실제주변지형/대체출구로교체,고온·극지/빙설열수지공백해소.
+작은연결숫자반복으로회귀하지않는다. 완료날짜/남은회차근거없이약속금지.
+기존108보류·14중단,종료9곳및D193196/D126467/D147845/D144758내부계산재개금지.
+원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브 보존.
+전체3044원본은archive/full-handoff-20261020의4afae5da3a7730b79ced1d2b9b7a8bc3041689c0에별도보관,main병합금지.
+후속35 계측10.2MB 게시/배포는사용자명시승인으로완료. 과거자동거절해소,같은승인질문반복금지.

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "explicit assumption selection",
+    "nine downloads and UI equal the AI query including assumptions and actual:null",
+    "selection, reload and history",
+    "annual stocks, three sensitivity cases and100-year scope are distinct",
+    "all57 boundary options",
+    "invalid selections clear stale output",
+    "desktop/mobile tables and stock charts fit",
+    "http failure and recovery",
+    "hash failure and recovery",
+    "schema failure and recovery",
+    "previous report links to new candidate",
+    "native map location and return link"
+  ],
+  "downloads": 9,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}
