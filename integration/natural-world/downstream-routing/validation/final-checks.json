@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "modelTests": 141,
+  "newModelTests": 13,
+  "priorModelTests": 128,
+  "browserTests": 25,
+  "newBrowserTests": 13,
+  "priorBrowserTests": 12,
+  "conditionalModelledBoundaries": 209,
+  "conditionalModelledReaches": 4891,
+  "modelHeldReaches": 18131,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "baselinePreservedFiles": 923,
+  "baselineFiles": 927,
+  "publicOriginVerified": false
+}

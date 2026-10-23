@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "baseline": "3cd5fdf286b78e33d214c2f2c6c2695eb5808d24",
+  "baselineFiles": 927,
+  "byteIdenticalFiles": 923,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "newPayloadBytes": 1066599,
+  "newPayloadSha256": "3c65f016e1e6571e7e7fd0fcc44e0f0b355fa40ca61026004ebf21282a717022",
+  "physicalInputsAndClosedReviewUnchanged": true
+}

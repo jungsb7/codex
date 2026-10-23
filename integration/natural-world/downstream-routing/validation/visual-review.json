@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "review": "Rendered screenshots inspected: explicit assumptions, conditional vs physical counts, water budget, original boundary lookup and native map link visible; no horizontal overflow."
+}

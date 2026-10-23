@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial inputs empty; loading an example does not silently run it",
+    "all209 boundary and every routed node equal Node output",
+    "full JSON download includes assumptions, all increments and null actual fields",
+    "boundary lookup routes to native ocean and downloads its exact result",
+    "boundary link selects exact original map cell and atlas links back without assumed calculation",
+    "share reload/history preserve parameters and held study remains uncomputed",
+    "reach ID maps to original boundary and unknown ID clears old detail",
+    "edits clear stale results; empty assumptions fail without zero fallback",
+    "incomplete shared assumptions fail closed",
+    "desktop390320 layouts have no document overflow",
+    "http error hides content and retry restores full result",
+    "hash error hides content and retry restores full result",
+    "schema error hides content and retry restores full result"
+  ],
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "fullResultMatchesNode": true
+}
