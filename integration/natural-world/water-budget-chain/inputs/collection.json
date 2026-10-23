@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "completedAt": "2026-10-23T14:36:20.994Z",
+  "provenance": {
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "applicationVersion": "0.107",
+    "sourceHashes": {
+      "application/planet-observatory.html": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+      "application/source/app.js": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+      "integration/natural-world/water-budget-chain/collect.cjs": "20f1020c79f7dfb6352b540fb489f6a589ac0a7d03672cd8c79208e861c8b4ef"
+    },
+    "servedInstrumentedHtmlSha256": "659a27284b4ea932fdf5203c612c6112cb1c9d0008d1bfcb56ea221fac8b566b",
+    "instrumentation": "One selected-branch guard, one start-state snapshot and one read-only flux observer in createHydrology; original arithmetic unchanged."
+  },
+  "cells": 690,
+  "rows": 8280,
+  "fullWorldLocalDischargeSha256": "ae161aa66e9b58703d9b9030083f0048573e4bcba263609bd83c39a294c87eb1",
+  "allSourceCells": 268857,
+  "worldUnchanged": true,
+  "allLocalRunoffBitIdentical": true,
+  "globalBudgetsIdentical": true,
+  "errors": []
+}

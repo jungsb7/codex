@@ -1,0 +1,15 @@
+{
+  "status": "validated-awaiting-publication",
+  "baseline": "90cabecdd84a6239fe24d38a4809d9ca20812319",
+  "dateKST": "2026-10-23",
+  "dynamicReaches": 190,
+  "newDynamicReaches": 19,
+  "networkModelledReaches": 20255,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "publicOrigin": {
+    "verified": false,
+    "newRequestAttempted": false,
+    "reason": "Environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."
+  }
+}

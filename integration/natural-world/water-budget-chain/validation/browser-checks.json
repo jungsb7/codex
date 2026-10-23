@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial state requires explicit scenario selection",
+    "27 case/boundary/year views and downloaded JSON exactly match Node selection",
+    "complete condition/boundary/year survive reload and history",
+    "annual local and100y global scopes, internal recharge and actual infiltration remain distinct",
+    "invalid year or shared condition clears stale output",
+    "1440/390/320 layouts keep tables and controls within viewport",
+    "http failure hides output; retry restores exact requested selection",
+    "hash failure hides output; retry restores exact requested selection",
+    "schema failure hides output; retry restores exact requested selection",
+    "original map selection and return link preserve unresolved physical state",
+    "prior single-boundary view links to source budget without implicit selection",
+    "boundary changes update own source and unknown boundary clears stale result"
+  ],
+  "errors": [],
+  "downloads": 27,
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}
