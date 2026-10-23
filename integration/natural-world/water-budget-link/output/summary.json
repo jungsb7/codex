@@ -1,0 +1,405 @@
+{
+  "provenance": {
+    "baseline": "110b1b5b7cfc20ddd62c92fdba5e6dcca1c76721",
+    "archiveCommit": "4afae5da3a7730b79ced1d2b9b7a8bc3041689c0",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "inputs": {
+      "inland-routing/output/catalog.json": "d64957bb2e8c25a1db217f03bdeda9f42507c640af070a20935e365036570268",
+      "d298591-surface/output/model.json": "f69938af75570b9cd8b942a497c93ab174a81ae3dca501a29efcb61957ebbe74",
+      "d298591-surface/inputs/fluxes.json.gz": "c682260b0ce4f994bab93ea523569473c39d7a07721756c9ac7f7da955e8146b",
+      "d298591-surface/inputs/collection.json": "ba658d1fd2f550e91d9377af9431dceb03475055699dfe6cd32a8c335eb4bd3d"
+    },
+    "code": {
+      "water-budget-link/core.cjs": "37f5706407f5e2fbc8816422b0666263d4ca933387ed5f7dc39cc358d88c32e9",
+      "water-budget-link/surface.cjs": "34d3d8fc17083a9168fe2d56121507fd0ae390ac908218c7f09ec0cfdcaa066f",
+      "water-budget-link/build.cjs": "211d85ea88d0241983e6979c7327859df1d6b38809f1b4c0c6df040e213070ee",
+      "inland-routing/core.js": "abb3677f809c6ce918a83f2e3c4b5ec7a6c336f66874155065435ee3762f13af",
+      "downstream-routing/core.js": "60f5be05b4e826ff3ad9d6234e5a95e3321b5c9bf4d3b9f6f656b99a3061ba26",
+      "d298591-surface/core.cjs": "7dcf38191cfe24556ae3b30544449c173c9c7e4d8112b9dd3a2bb1fb872755f7",
+      "pond-budget/core.js": "78e90d97d45f64ec39f13dbd58b781789a0d76cc9919631c87edcc5c05e3a3fd",
+      "retention-review/core.js": "d7d78b9babc0f992ab1ca2b6787a8f589fc378e682e7b9c3a9eddd8e88d3891c",
+      "retention-chain/core.js": "97bfacd7d77d31c5e3d963887b025f71955225a5d4dd5b8ecb2e49375c022226"
+    }
+  },
+  "sourcePeriods": [
+    {
+      "period": 1,
+      "precipitationM3": 17585648092.931324,
+      "evaporationM3": 6776468731.987993,
+      "runoffM3": 12731362748.626629,
+      "snowChangeM3": -3761178665.139335,
+      "shallowStoreChangeM3": 1838995277.456052,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 2,
+      "precipitationM3": 18526685540.5692,
+      "evaporationM3": 9898735475.753225,
+      "runoffM3": 9789187267.71422,
+      "snowChangeM3": -1329629249.0274892,
+      "shallowStoreChangeM3": 168392046.1292498,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 3,
+      "precipitationM3": 18942065713.194336,
+      "evaporationM3": 12918634397.867764,
+      "runoffM3": 7677480384.823023,
+      "snowChangeM3": -1013734582.3494452,
+      "shallowStoreChangeM3": -640314487.1470243,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 4,
+      "precipitationM3": 19169907770.948227,
+      "evaporationM3": 15028182611.46059,
+      "runoffM3": 6224952644.043249,
+      "snowChangeM3": -1142967356.502933,
+      "shallowStoreChangeM3": -940260128.0526906,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 5,
+      "precipitationM3": 18923792418.557877,
+      "evaporationM3": 15530276498.724174,
+      "runoffM3": 4950341631.471356,
+      "snowChangeM3": -481622724.2128265,
+      "shallowStoreChangeM3": -1075202987.4248316,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 6,
+      "precipitationM3": 18363350791.453705,
+      "evaporationM3": 14290076125.758253,
+      "runoffM3": 4419876404.366585,
+      "snowChangeM3": 552935316.901207,
+      "shallowStoreChangeM3": -899537055.5723507,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 7,
+      "precipitationM3": 17444567201.55992,
+      "evaporationM3": 11728244342.878954,
+      "runoffM3": 5132672628.170163,
+      "snowChangeM3": 924552340.1285138,
+      "shallowStoreChangeM3": -340902109.6177362,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 8,
+      "precipitationM3": 16064720539.063402,
+      "evaporationM3": 8570255564.922368,
+      "runoffM3": 6197057085.783549,
+      "snowChangeM3": 1143901255.5644305,
+      "shallowStoreChangeM3": 153506632.79304084,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 9,
+      "precipitationM3": 15417543168.51324,
+      "evaporationM3": 5612913468.965892,
+      "runoffM3": 7405919935.125919,
+      "snowChangeM3": 1866966060.775346,
+      "shallowStoreChangeM3": 531743703.64607483,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 10,
+      "precipitationM3": 14193429350.449604,
+      "evaporationM3": 3521761819.5908046,
+      "runoffM3": 6902263232.302615,
+      "snowChangeM3": 3597180337.828932,
+      "shallowStoreChangeM3": 172223960.72724268,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 11,
+      "precipitationM3": 14552169433.171957,
+      "evaporationM3": 3016285770.5758557,
+      "runoffM3": 7073524298.600803,
+      "snowChangeM3": 4287559078.2220063,
+      "shallowStoreChangeM3": 174800285.77329573,
+      "shallowEvaporationM3": 0
+    },
+    {
+      "period": 12,
+      "precipitationM3": 15600060226.990122,
+      "evaporationM3": 4224158748.6650653,
+      "runoffM3": 9155407606.150244,
+      "snowChangeM3": 1363938607.7053668,
+      "shallowStoreChangeM3": 856555264.4694406,
+      "shallowEvaporationM3": 0
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "E0.5-G0",
+      "summary": {
+        "dynamicBoundary": "D298591",
+        "dynamicReaches": 171,
+        "sourceCells": 619,
+        "donorBoundaries": 2,
+        "networkModelledReaches": 20255,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      },
+      "assumptions": {
+        "network": {
+          "years": 100,
+          "lossMPerYear": 0,
+          "initialFraction": 0
+        },
+        "surface": {
+          "evaporationMPerYear": 0.5,
+          "netGroundLossMPerYear": 0,
+          "initialFraction": 0,
+          "substeps": 30
+        },
+        "temporalConvention": "Original network adjacent-phase averaged inflow and raw local source phases are aligned by index as an explicit mixed-forcing experiment; not simultaneous observed hydrographs.",
+        "outlet": "Capacity excess routed with same-period zero-loss zero-delay network assumption; no hydraulic adoption."
+      },
+      "global": {
+        "initialInventoryM3": 48096824320.574066,
+        "externalInputM3": 590352608518201.9,
+        "otherNetworkLossM3": 0,
+        "landEvaporationM3": 8619625263835.586,
+        "waterEvaporationM3": 2953260685555.165,
+        "externalGroundLossM3": 0,
+        "oceanDeliveryM3": 268100770295714.4,
+        "unallocatedM3": 215914029631309.22,
+        "finalInventoryM3": 94813019466108.67,
+        "residualM3": -0.515625
+      },
+      "replacement": {
+        "replacedBoundary": "D298591",
+        "removed": {
+          "sourceInflowM3": 8766004584328.766,
+          "additionalNetLossM3": 0,
+          "initialPoolM3": 0,
+          "finalPoolM3": 407907289294.04944,
+          "oceanDeliveryM3": 9385094859376.926
+        },
+        "added": {
+          "precipitationM3": 20478394024740.246,
+          "initialSnowM3": 40153929503.011475,
+          "initialShallowM3": 7942894817.562594,
+          "initialPoolM3": 0,
+          "finalSnowM3": 640943971492.388,
+          "finalShallowM3": 8784003117.853407,
+          "finalPoolM3": 407865611624.334,
+          "landEvaporationM3": 8619625263835.586,
+          "waterEvaporationM3": 2953260685555.165,
+          "externalGroundLossM3": 0,
+          "oceanDeliveryM3": 8923008877777.746
+        },
+        "upstreamReceivedM3": 1026997564342.1604,
+        "upstreamCountedAsExternalInput": false
+      },
+      "local": {
+        "precipitationM3": 20478394024740.246,
+        "landEvaporationM3": 8619625263835.586,
+        "waterEvaporationM3": 2953260685555.165,
+        "netGroundLossM3": 0,
+        "boundaryExcessM3": 8923008877777.746,
+        "landRunoffM3": 7198028061424.054,
+        "directWaterM3": 4059109549191.0127,
+        "wetPrecipitationM3": 4059109549191.0127,
+        "snowChangeM3": 600790041989.3765,
+        "shallowChangeM3": 841108300.2908125,
+        "poolChangeM3": 407865611624.334,
+        "upstreamReceivedM3": 1026997564342.1602,
+        "shallowRechargeM3": 2519604209403.5107,
+        "shallowReturnM3": 2518763101103.2236,
+        "shallowEvaporationM3": 0,
+        "directRunoffM3": 4679264960320.816,
+        "residualM3": -0.09112548828125
+      },
+      "maxPeriodResidualM3": 0.0009565353393554688,
+      "firstExcess": {
+        "year": 5,
+        "period": 3,
+        "substep": 25,
+        "elapsedYears": 4.236111111111111
+      }
+    },
+    {
+      "id": "E1-G0.25",
+      "summary": {
+        "dynamicBoundary": "D298591",
+        "dynamicReaches": 171,
+        "sourceCells": 619,
+        "donorBoundaries": 2,
+        "networkModelledReaches": 20255,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      },
+      "assumptions": {
+        "network": {
+          "years": 100,
+          "lossMPerYear": 0,
+          "initialFraction": 0
+        },
+        "surface": {
+          "evaporationMPerYear": 1,
+          "netGroundLossMPerYear": 0.25,
+          "initialFraction": 0,
+          "substeps": 30
+        },
+        "temporalConvention": "Original network adjacent-phase averaged inflow and raw local source phases are aligned by index as an explicit mixed-forcing experiment; not simultaneous observed hydrographs.",
+        "outlet": "Capacity excess routed with same-period zero-loss zero-delay network assumption; no hydraulic adoption."
+      },
+      "global": {
+        "initialInventoryM3": 48096824320.574066,
+        "externalInputM3": 590352608518201.9,
+        "otherNetworkLossM3": 0,
+        "landEvaporationM3": 8632874508827.209,
+        "waterEvaporationM3": 5875645593467.301,
+        "externalGroundLossM3": 1468876032230.3281,
+        "oceanDeliveryM3": 263696330624327.22,
+        "unallocatedM3": 215914029631309.22,
+        "finalInventoryM3": 94812948952361.73,
+        "residualM3": -0.578125
+      },
+      "replacement": {
+        "replacedBoundary": "D298591",
+        "removed": {
+          "sourceInflowM3": 8766004584328.766,
+          "additionalNetLossM3": 0,
+          "initialPoolM3": 0,
+          "finalPoolM3": 407907289294.04944,
+          "oceanDeliveryM3": 9385094859376.926
+        },
+        "added": {
+          "precipitationM3": 20478394024740.246,
+          "initialSnowM3": 40153929503.011475,
+          "initialShallowM3": 7942894817.562594,
+          "initialPoolM3": 0,
+          "finalSnowM3": 640943971492.388,
+          "finalShallowM3": 8776005875.48164,
+          "finalPoolM3": 407803095119.7676,
+          "landEvaporationM3": 8632874508827.209,
+          "waterEvaporationM3": 5875645593467.301,
+          "externalGroundLossM3": 1468876032230.3281,
+          "oceanDeliveryM3": 4518569206390.566
+        },
+        "upstreamReceivedM3": 1026997564342.1604,
+        "upstreamCountedAsExternalInput": false
+      },
+      "local": {
+        "precipitationM3": 20478394024740.246,
+        "landEvaporationM3": 8632874508827.209,
+        "waterEvaporationM3": 5875645593467.301,
+        "netGroundLossM3": 1468876032230.3281,
+        "boundaryExcessM3": 4518569206390.566,
+        "landRunoffM3": 7206347018867.456,
+        "directWaterM3": 4037549343998.3594,
+        "wetPrecipitationM3": 4037549343998.3594,
+        "snowChangeM3": 600790041989.3765,
+        "shallowChangeM3": 833111057.9190454,
+        "poolChangeM3": 407803095119.7676,
+        "upstreamReceivedM3": 1026997564342.1602,
+        "shallowRechargeM3": 2522513045473.8716,
+        "shallowReturnM3": 2521679934415.956,
+        "shallowEvaporationM3": 0,
+        "directRunoffM3": 4684667084451.486,
+        "residualM3": -0.0611572265625
+      },
+      "maxPeriodResidualM3": 0.000620715320110321,
+      "firstExcess": {
+        "year": 7,
+        "period": 3,
+        "substep": 8,
+        "elapsedYears": 6.188888888888889
+      }
+    },
+    {
+      "id": "E2-G0.25",
+      "summary": {
+        "dynamicBoundary": "D298591",
+        "dynamicReaches": 171,
+        "sourceCells": 619,
+        "donorBoundaries": 2,
+        "networkModelledReaches": 20255,
+        "physicalResolvedReaches": 0,
+        "physicallyUnresolvedReaches": 23022
+      },
+      "assumptions": {
+        "network": {
+          "years": 100,
+          "lossMPerYear": 0,
+          "initialFraction": 0
+        },
+        "surface": {
+          "evaporationMPerYear": 2,
+          "netGroundLossMPerYear": 0.25,
+          "initialFraction": 0,
+          "substeps": 30
+        },
+        "temporalConvention": "Original network adjacent-phase averaged inflow and raw local source phases are aligned by index as an explicit mixed-forcing experiment; not simultaneous observed hydrographs.",
+        "outlet": "Capacity excess routed with same-period zero-loss zero-delay network assumption; no hydraulic adoption."
+      },
+      "global": {
+        "initialInventoryM3": 48096824320.574066,
+        "externalInputM3": 590352608518201.9,
+        "otherNetworkLossM3": 0,
+        "landEvaporationM3": 8926707305682.219,
+        "waterEvaporationM3": 10337545980530.738,
+        "externalGroundLossM3": 1291457344781.6597,
+        "oceanDeliveryM3": 259177761417936.66,
+        "unallocatedM3": 215914029631309.22,
+        "finalInventoryM3": 94753203662282.52,
+        "residualM3": -0.484375
+      },
+      "replacement": {
+        "replacedBoundary": "D298591",
+        "removed": {
+          "sourceInflowM3": 8766004584328.766,
+          "additionalNetLossM3": 0,
+          "initialPoolM3": 0,
+          "finalPoolM3": 407907289294.04944,
+          "oceanDeliveryM3": 9385094859376.926
+        },
+        "added": {
+          "precipitationM3": 20478394024740.246,
+          "initialSnowM3": 40153929503.011475,
+          "initialShallowM3": 7942894817.562594,
+          "initialPoolM3": 0,
+          "finalSnowM3": 640943971492.388,
+          "finalShallowM3": 8983015860.371864,
+          "finalPoolM3": 347850795055.6605,
+          "landEvaporationM3": 8926707305682.219,
+          "waterEvaporationM3": 10337545980530.738,
+          "externalGroundLossM3": 1291457344781.6597,
+          "oceanDeliveryM3": 0
+        },
+        "upstreamReceivedM3": 1026997564342.1604,
+        "upstreamCountedAsExternalInput": false
+      },
+      "local": {
+        "precipitationM3": 20478394024740.246,
+        "landEvaporationM3": 8926707305682.219,
+        "waterEvaporationM3": 10337545980530.738,
+        "netGroundLossM3": 1291457344781.6597,
+        "boundaryExcessM3": 0,
+        "landRunoffM3": 7403809216659.938,
+        "directWaterM3": 3546047339365.9805,
+        "wetPrecipitationM3": 3546047339365.9805,
+        "snowChangeM3": 600790041989.3765,
+        "shallowChangeM3": 1040121042.8092699,
+        "poolChangeM3": 347850795055.6605,
+        "upstreamReceivedM3": 1026997564342.1602,
+        "shallowRechargeM3": 2591697268195.948,
+        "shallowReturnM3": 2590657147153.1426,
+        "shallowEvaporationM3": 0,
+        "directRunoffM3": 4813152069506.778,
+        "residualM3": -0.05670166015625
+      },
+      "maxPeriodResidualM3": 0.001007080078125,
+      "firstExcess": null
+    }
+  ],
+  "payloadBytes": 54563,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022
+}
