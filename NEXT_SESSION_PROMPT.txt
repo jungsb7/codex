@@ -1,62 +1,44 @@
-GitHub 기반 최신 인수인계 — 후속30 합류 운동량 장부 구현·검증·배포 완료, 2026-10-21
+GitHub 기반 최신 인수인계 — 후속31 해양 경계 하류 처리, 2026-10-23
 
-jungsb7/codex 최신 main에서 시작한다. 과거 고정 커밋으로 되돌리지 않는다.
-사용자가 다음 진행을 요청해 단순 두 유입·한 유출의 수평 운동량 장부를 구현했다.
-새15+기존113자료 검사, 새13+기존12브라우저 검사. 배포 기록:
-integration/natural-world/d298591-momentum/validation/deployment.json
-PR #10 병합eb82590a5113d1a2058e96ff25e73ac0806dff97, Pages 실행39451834339의3작업 성공.
-공개 도메인 직접 확인은 기존 환경 프록시403 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
-현재 사용자 요청을 우선하며 NEXT_GOALS 제안을 새 요청 없이 자동 수행하지 않는다.
+jungsb7/codex 최신 main을 받아 시작한다. 과거 커밋으로 되돌리지 않는다.
+사용자는23,022구간의 하류 처리를 우선하도록 지시했다. 추상 합류/외력 검산은 보류한다.
 
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/d298591-momentum/README.md 및 REPORT.md
-4. integration/natural-world/d298591-confluence/README.md 및 REPORT.md
-5. integration/natural-world/d298591-hydraulics/README.md 및 REPORT.md
-6. integration/natural-world/d298591-tailwater/README.md 및 REPORT.md
-7. integration/natural-world/d298591-routing/README.md 및 REPORT.md
-8. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
+3. integration/natural-world/downstream-routing/README.md 및 REPORT.md
+4. integration/natural-world/downstream-budget/README.md
+5. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속30 완료 범위:
--두 유입·한 유출,명시적 단면·바닥·둑·양의 유량·각도·밀도·중력·alpha=beta=1.
--벽/바닥 압력/마찰의x/y힘을 모두 명시한다. 누락/null을0으로 보충하지 않는다.
--수평 평면 중력성분0,정지 경계,외부 기계 일률0. 실제 형상에서 외력을 계산하지 않았다.
--정수압P=rho*g*b*y²/2,운동량유속항J=rho*Q²/A,두 성분 방향 투영.
--두 유입의 공통 수면 근사로x방정식만 먼저 풀고y운동량과 전체 에너지 필요조건을 검사.
--Fr<.98·둑 범위 교집합의 단조 근을 이분법으로 계산. 도수·사류로 전환하지 않는다.
--힘 부족/필요소산 음수/경계/해 범위 밖이면 보류. 시험값trial과 장부통과값accepted 구분.
--부족한 힘은진단이며입력에자동적용하지않는다. actual항목은모두null.
--13가정:7장부통과·6보류(외력1,에너지1,경계2,해범위2).
--후속29의 Ei=Eout+가정손실 수면을 별도로 재현하며서로다른수면을그대로비교.
--후속29의가정단면/국지경계만재사용. 원본지형·12위상유량·D298591방류와미결합.
--해석적평행흐름·독립3차식Newton·별도압력적분·제작해·기준높이/밀도/반사불변량검증.
--새15+기존113자료 검사,새13+기존12브라우저 검사.13예제/JSON·1440/390/320px확인.
--입력수정시이전결과제거,전체입력공유·이력·오류복구·AI조회.
+후속31:
+-해양209경계·4,891구간의 집계 재고/초과 물량을 원본 하류 경로에 연결했다.
+-해양후보4,921중이전보류D14475830구간제외.975경계/18,131구간은모형처리보류.
+-원본 기둥체적 상한, 명시한 추가 순손실·초기재고·반복기간의 조건부 계산.
+-초과분은 같은 기간 내 하도 손실0·지연0 가정으로151해양종착점에 전달.
+-합류 경로 증분 합산, 해양 도착만 전역 유출로 집계. 기존 하류 유량은 증분에 포함하지 않음.
+-100년·손실0·초기0에서154경계 초과전달. 실제 수리방류·수면·침투·증발 아님.
+-새13+기존128자료,새13+기존12브라우저 검사.1440/390/320px·공유/JSON/AI/보류/오류복구.
+-조건부처리4,891은실제해결수가아님. 실제해결0·미정23,022유지.
+-actual항목null,automaticAdoption:false,sourceGraphChanged:false.
+-후속24~26 D298591동적수면/출구를이집계모형으로대체하지않음.108보류·14중단유지.
+-원본927파일 중923보존. 기존 수정은 지도링크와인계3개.
 
-실제 물리 해결0구간·23022구간 미정·1184경계 유지.
-실제 소하천/피복/습지/침수/강폭/적설/결빙/저류/침투/넘침 해결 아님.
-기존108하류 수위 보류·14우회 상한 중단,적설/열수지 공백 유지.
-AI 자료: integration/natural-world/d298591-momentum/output/catalog.json
-AI 계산: node integration/natural-world/d298591-momentum/query.cjs symmetric-30
-다음 권장 목표는 외력 가정의 형상 근거 검산이다. 실제 공간2차원해로 오인하지 않는다.
+배포 기록: integration/natural-world/downstream-routing/validation/deployment.json
+다음은내륙경계간전달/수신및보류장부연결. 외력형상검산으로자동복귀하지않음.
 
 재현:
-node integration/natural-world/d298591-momentum/build.cjs
-node --test --test-isolation=none integration/natural-world/d298591-momentum/test.cjs
-node integration/natural-world/d298591-momentum/query.cjs symmetric-30
+node handoff/restore-inputs.cjs
+node integration/natural-world/downstream-routing/build.cjs
+node --test --test-isolation=none integration/natural-world/downstream-routing/test.cjs
+node integration/natural-world/downstream-routing/query.cjs D298591
+가정.json예: {"years":100,"lossMPerYear":0,"initialFraction":0}
+node integration/natural-world/downstream-routing/query.cjs --input 가정.json
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/d298591-momentum/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/downstream-routing/index.html
 지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
-새 후보에는 전체 아카이브/원본 기후 복원이 필요 없다. 기존 회귀에는 handoff/restore-inputs.cjs 사용.
 
-유지 사항:
--기존 세계·경제·약26km 원본 지형·기후·수계·해안/호수 마스크 보존.
--약3.26km 확대 형태는 설계 표시이며 새 물리DEM·실제 피복 경계가 아님.
--12기간은 공전 위상이며 지구 달력 월이 아님. SWE와 실제 눈 두께 구분.
--이전 연2m 고정 마스크 에너지 경고 유지. 동적 수면 열수지·결빙 미계산.
--기존 경관 비교·계절 지연 로딩·3기간 캐시·미리 읽기·오류 처리 유지.
--권역/후보 표제와 설명 초안을 정식 지명·정설로 승격하지 않음.
--종료된9곳 국지 검토와 D126467/D147845/D144758 보류를 자동 재개하지 않음.
--전체3044원본은 archive/full-handoff-20261020에 별도 보관, main에 병합하지 않음.
--옛 build/record/package 스크립트로 최신 기록을 덮어쓰지 않음. 새 작업 자체 검증 유지.
+유지: 원본세계/경제/약26km지형/기후/수계/마스크·구지도·전체아카이브.
+실제세부하도/피복/침수/강폭/적설/결빙/저류/침투/넘침미정.
+종료9곳및D126467/D147845/D144758재개금지. 12위상은지구달력월이아님.
+전체3044원본은 archive/full-handoff-20261020에별도보관,main에병합하지않음.
+옛build/record/package스크립트로최신기록덮어쓰지않음. 최신사용자요청우선.
