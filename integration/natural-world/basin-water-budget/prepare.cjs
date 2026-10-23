@@ -1,0 +1,21 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),z=require('node:zlib'),crypto=require('node:crypto');
+const Codec=require('../stage5/codec.js'),C=require('../core.js'),P=require('../pond-budget/core.js'),N=require('../inland-routing/core.js');
+const base=path.resolve(__dirname,'..'),read=p=>JSON.parse(fs.readFileSync(path.join(base,p))),hash=p=>crypto.createHash('sha256').update(fs.readFileSync(path.join(base,p))).digest('hex');
+const network=read('inland-routing/output/catalog.json'),water=read('stage3/output/waterways.json'),atlas=JSON.parse(z.gunzipSync(fs.readFileSync(path.join(base,'unified-atlas/output/atlas.json.gz')))),w=atlas.width,h=atlas.height,n=w*h;
+const plan=N.plan(network),selected=plan.order.filter(id=>{let g=plan.by.get(id);while(g.target.kind==='unresolved'&&plan.by.get(g.target.id)?.status==='eligible')g=plan.by.get(g.target.id);return g.id==='D186192'||['D301678','D307820','D298591'].includes(id);}),a=Object.fromEntries(['canonical','receiver','entry','terminal'].map(k=>[k,Codec.decode(water.fields[k].data,n,water.fields[k].type)])),cells=Codec.decode(atlas.fields.cells.data,atlas.count,atlas.fields.cells.type);
+assert.equal(hash('stage3/output/waterways.json'),network.provenance.inputs['stage3/output/waterways.json']);
+const by=new Map(selected.map(id=>[plan.by.get(id).node,[]]));for(const cell of cells)by.get(a.terminal[a.canonical[cell]])?.push(cell);
+const models=selected.map(id=>{const g=plan.by.get(id);assert.equal(g.status,'eligible');const sourceCells=by.get(g.node),partition=P.partition(g.columns,w,h,(i,j)=>C.distance(C.ll(w,h,i),C.ll(w,h,j)));
+ assert(g.columns.every(c=>sourceCells.includes(c.cell)));
+ const assignments=sourceCells.map(cell=>{if(partition.labels.has(cell))return {cell,leaf:partition.labels.get(cell),entryCell:cell};let i=a.canonical[cell],last=-1,seen=new Set();while(i!==g.node){assert(i>=0&&!seen.has(i));seen.add(i);last=i;i=a.receiver[i];}const entryCell=a.entry[last],leaf=partition.labels.get(entryCell);assert(leaf!==undefined);return {cell,leaf,entryCell};});
+ const model={id,node:g.node,width:w,height:h,crestM:g.crestM,columns:g.columns.map(c=>({...c,leaf:partition.labels.get(c.cell)})),partition:{groups:partition.groups,edges:partition.edges},assignments,initialLeaf:partition.labels.get(g.node)};
+ const capacity=P.hierarchy(model.partition,model.crestM).root.capacityM3;assert(Math.abs(capacity-g.capacityM3)<=Math.max(.01,128*Number.EPSILON*Math.max(capacity,g.capacityM3)),JSON.stringify({id,capacity,prior:g.capacityM3,difference:capacity-g.capacityM3}));
+ return model;
+});
+for(const g of plan.active)if(selected.includes(g.target.id))assert(selected.includes(g.id),'Missing upstream '+g.id);
+for(const id of selected){const g=plan.by.get(id);assert(g.target.kind==='ocean'||selected.includes(g.target.id));if(g.target.kind!=='ocean')assert(models.find(m=>m.id===g.target.id).assignments.some(a=>a.cell===g.target.entryCell));}
+const all=models.flatMap(m=>m.assignments.map(a=>a.cell));assert.equal(new Set(all).size,all.length);
+const old=read('d298591-surface/output/model.json'),m=models.find(m=>m.id===old.id);for(const k of ['columns','partition','assignments','initialLeaf','crestM'])assert.deepEqual(m[k],old[k]);
+const out={schema:'basin-water-budget-models/1',selected,models,provenance:{baseline:'728952243bf370954deb452940eb3c87ca26d398',worldHash:network.provenance.worldHash,geometryHash:network.provenance.geometryHash,inputs:Object.fromEntries(['inland-routing/output/catalog.json','stage3/output/waterways.json','unified-atlas/output/atlas.json.gz','d298591-surface/output/model.json'].map(p=>[p,hash(p)]))}};
+fs.writeFileSync(path.join(__dirname,'inputs/models.json'),JSON.stringify(out)+'\n');console.log(JSON.stringify(models.map(m=>({id:m.id,cells:m.assignments.length,columns:m.columns.length,ponds:m.partition.groups.length,reaches:plan.by.get(m.id).reachCount})),null,2));

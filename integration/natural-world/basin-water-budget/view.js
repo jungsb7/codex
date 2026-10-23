@@ -1,0 +1,6 @@
+(function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.WaterBudgetView=factory();})(globalThis,function(){
+'use strict';
+function validate(d){if(d?.schema!=='basin-water-budget/1'||d.scenarios?.length!==3||d.automaticAdoption!==false)throw Error('자료 형식이 다릅니다.');for(const s of d.scenarios)if(s.boundaries.length!==60||s.summary.dynamicReaches!==2827||s.summary.physicalResolvedReaches!==0||s.boundaries.some(b=>b.dynamic.annual.length!==100||b.receipts.length!==1200))throw Error('계산 범위가 다릅니다.');return d;}
+function query(d,id,boundaryId,year){validate(d);const s=d.scenarios.find(s=>s.id===id),b=s?.boundaries.find(b=>b.id===boundaryId);if(!s||!b||!Number.isInteger(year)||year<1||year>100)throw Error('조건·경계 또는 연도가 잘못됐습니다.');return {schema:'basin-water-budget-selection/1',id,boundaryId,selectedYear:year,reachCount:b.reachCount,sourceCells:b.sourceCells,assumptions:s.assumptions,annual:b.dynamic.annual[year-1],receipts:b.receipts.slice((year-1)*12,year*12),periods:b.dynamic.periods.filter(p=>p.year===year),globalHorizonYears:100,chain:s.chain,edges:s.edges,global:s.global,localTotals:b.dynamic.totals,replacement:s.replacement,routed:s.routed,previousSingleBoundary:s.previousSingleBoundary,summary:s.summary,provenance:d.provenance,actual:s.actual,automaticAdoption:false};}
+return {validate,query};
+});

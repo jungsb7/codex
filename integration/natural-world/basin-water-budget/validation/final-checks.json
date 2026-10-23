@@ -1,0 +1,14 @@
+{
+  "status": "passed-local-validation-publication-approved",
+  "modelChecks": 195,
+  "newModelChecks": 13,
+  "browserChecks": 25,
+  "newBrowserChecks": 13,
+  "aiSelections": 18000,
+  "jsonDownloads": 27,
+  "boundariesSelected": 60,
+  "dynamicReaches": 2827,
+  "newDynamicReaches": 2637,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022
+}

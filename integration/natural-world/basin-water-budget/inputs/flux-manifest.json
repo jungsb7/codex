@@ -1,0 +1,97 @@
+{
+  "schema": "basin-flux-parts/1",
+  "bytes": 10207089,
+  "sha256": "e843955e17ba824d01fdcd7a68a53a8972b3f5c43bdf828eae45ef049bf604f8",
+  "parts": [
+    {
+      "file": "flux-00.bin",
+      "bytes": 600000,
+      "sha256": "76d6bce0578c682293cbb2e013bbd859a2a0d8d52cbc34f1de8c7781a194114e"
+    },
+    {
+      "file": "flux-01.bin",
+      "bytes": 600000,
+      "sha256": "07063d2901dde08a87e6e696848445de7d9711bb46b30bcaa0a000a735880410"
+    },
+    {
+      "file": "flux-02.bin",
+      "bytes": 600000,
+      "sha256": "a20c6af6c093c61106e1989a8abd5ea3ff5c40ac095620958b31cdef09ae8dd7"
+    },
+    {
+      "file": "flux-03.bin",
+      "bytes": 600000,
+      "sha256": "ecf824701eabad3d1317e0f94f71ff80c11650c9fe51f8bd4e20c815ad05c4d4"
+    },
+    {
+      "file": "flux-04.bin",
+      "bytes": 600000,
+      "sha256": "0e7edfd3c713feeaf16744ab4664283f85b1ff28a52bedcfa40f66ef735c7adc"
+    },
+    {
+      "file": "flux-05.bin",
+      "bytes": 600000,
+      "sha256": "004a4142d2d96ac4a95578ac659a6602f1c9a331483f267691abed7965d9e377"
+    },
+    {
+      "file": "flux-06.bin",
+      "bytes": 600000,
+      "sha256": "2da5365f83436bd9f131b24d69315a5ff308387a82914f861d4ffd7fc1682944"
+    },
+    {
+      "file": "flux-07.bin",
+      "bytes": 600000,
+      "sha256": "0186281f1505501c9d1009e3fa214df3d4f5f9bbc09493f657d858c3ff453e0b"
+    },
+    {
+      "file": "flux-08.bin",
+      "bytes": 600000,
+      "sha256": "ed01e3c55e55b2dfe9d3032ae1ea1549a0ab5dc8c3796cfd9d4f19fb4a0c662d"
+    },
+    {
+      "file": "flux-09.bin",
+      "bytes": 600000,
+      "sha256": "bf5f94ba403238594fb028e5e0ba025ef242901b31f5b4041e833515da3334d0"
+    },
+    {
+      "file": "flux-10.bin",
+      "bytes": 600000,
+      "sha256": "154d44406c822d6b95a71745ec749588fc10f7010bcc4d04f6c098b4e7fd0864"
+    },
+    {
+      "file": "flux-11.bin",
+      "bytes": 600000,
+      "sha256": "b688756eb081e98a370345b3fc61c7595b1e5308c40b2c9d389ff89c2b6b9d07"
+    },
+    {
+      "file": "flux-12.bin",
+      "bytes": 600000,
+      "sha256": "47e9a6887d856526659207317f5d493651a0debc6757ebd6c045e3a205027c00"
+    },
+    {
+      "file": "flux-13.bin",
+      "bytes": 600000,
+      "sha256": "5127ddd00cd3c8ac80d021613f61c95975b6f1f070af014ae4986f1ba187c2fe"
+    },
+    {
+      "file": "flux-14.bin",
+      "bytes": 600000,
+      "sha256": "17cc81f9d9d9fcdfeedc4a903ffe2decfbdb3cbbe7918067627bb86489b7f25b"
+    },
+    {
+      "file": "flux-15.bin",
+      "bytes": 600000,
+      "sha256": "bec58eabc22edeb7a87f0cd90e8c1987246dcc887756ad4994e5c15d99d031eb"
+    },
+    {
+      "file": "flux-16.bin",
+      "bytes": 600000,
+      "sha256": "1051b219dce1b8e2125f22db41a021119582693bda06f4816b91b075c8e70abf"
+    },
+    {
+      "file": "flux-17.bin",
+      "bytes": 7089,
+      "sha256": "9b68d8d153a1acb73560718787314c09784374a1af47224ecbe9771f58cd997d"
+    }
+  ]
+}

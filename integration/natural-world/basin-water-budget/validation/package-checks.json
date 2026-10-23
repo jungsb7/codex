@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "baseline": "728952243bf370954deb452940eb3c87ca26d398",
+  "baselineFiles": 1043,
+  "byteIdenticalFiles": 1038,
+  "changedAllowedFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/unified-atlas/index.html",
+    "integration/natural-world/water-budget-chain/index.html"
+  ],
+  "newPayloadBytes": 1706005,
+  "newPayloadSha256": "72b6c395542423ad7e36e2142441555fa8b596092cb85ec4f259e270f9dade94",
+  "physicalInputsAndClosedReviewUnchanged": true
+}
