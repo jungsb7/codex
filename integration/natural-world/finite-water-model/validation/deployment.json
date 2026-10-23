@@ -1,0 +1,11 @@
+{
+  "status": "verified-locally-awaiting-publication",
+  "baseCommit": "ffddacdf0e9fbc9d34497d3d118696014331b823",
+  "repository": "jungsb7/codex",
+  "feature": "finite-water-model",
+  "localModelTests": 210,
+  "browserChecks": 24,
+  "refinementStatus": "passed",
+  "publicOriginCheck": "not attempted: existing environment domain restriction",
+  "previousSourcePublicationApproval": "resolved; reused existing parts without republication"
+}

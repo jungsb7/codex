@@ -1,0 +1,23 @@
+✔ finite infiltration, saturation runoff and separate recharge conserve a storm (0.964758ms)
+✔ random wet/dry/frozen cells preserve water and both finite limits (8.50096ms)
+✔ isolated aquifer follows the analytical exponential and returns to surface (0.428033ms)
+✔ saturated aquifer rejects recharge into finite soil instead of losing water (0.128931ms)
+✔ wet precipitation bypasses soil; original snow remains an explicit stock (0.568832ms)
+✔ designed outlet is one-way, stage-dependent and tailwater-suppressed (0.198804ms)
+✔ implicit finite outlet converges to independently integrated free drainage (1.570855ms)
+✔ finite outlet over-capacity water is unallocated, never silently released (0.223391ms)
+✔ two connected boundaries conserve transit and are independent of iteration order (27.604231ms)
+✔ original initial mixed storage is conservatively split, with excess to surface (2.998797ms)
+✔ a blocked undersized outlet flags an incomplete candidate without mass loss (3.403857ms)
+✔ invalid and nonfinite parameters are rejected (5.064856ms)
+✔ saved real basin has independent finite stocks, full horizon and balanced global replacement (71.361759ms)
+✔ AI annual/local/global scopes and unadopted values survive every saved selection (99.835051ms)
+✔ cached affine outlet matches the full column hypsometry equation (0.793584ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 239.899502
