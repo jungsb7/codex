@@ -1,15 +1,54 @@
 {
-  "status": "validated-awaiting-publication",
-  "baseline": "90cabecdd84a6239fe24d38a4809d9ca20812319",
+  "status": "deployed",
   "dateKST": "2026-10-23",
+  "baseline": "90cabecdd84a6239fe24d38a4809d9ca20812319",
+  "featureCommit": "982811299fd0049808b566e377732374d692a341",
+  "mergeCommit": "8f78a46993cc0c508da887b0078213f202b9f162",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/14",
+  "pages": {
+    "runId": 39972569620,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39972569620",
+    "jobs": [
+      {
+        "id": 120478797036,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120479125338,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120479125885,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "checks": {
+    "model": 182,
+    "browser": 24,
+    "aiSelections": 900,
+    "downloads": 27,
+    "baselineFiles": 1007,
+    "byteIdenticalFiles": 1002
+  },
+  "dynamicBoundaries": 3,
   "dynamicReaches": 190,
   "newDynamicReaches": 19,
+  "sourceCells": 690,
   "networkModelledReaches": 20255,
   "physicalResolvedReaches": 0,
   "physicallyUnresolvedReaches": 23022,
   "publicOrigin": {
+    "url": "https://jungsb7.github.io/codex/integration/natural-world/water-budget-chain/index.html",
     "verified": false,
     "newRequestAttempted": false,
     "reason": "Environment policy excludes jungsb7.github.io; prior same-host CONNECT403, not retried or bypassed."
-  }
+  },
+  "documentationCommitNote": "Final handoff commit may be newer than feature merge; final Pages run recorded in pull request."
 }

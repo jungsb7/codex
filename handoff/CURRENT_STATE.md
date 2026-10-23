@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속34 세 경계 수분 장부 연결의 최신 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속34 세 경계 수분 장부 연결 구현·검증 완료 — 2026-10-23
+## 후속34 세 경계 수분 장부 연결 구현·검증·배포 완료 — 2026-10-23
 
 상류D301678(16구간)과D307820(3구간)을 추가해 **원본 수분 장부 연결171→190구간**으로 확대했다. [화면](../integration/natural-world/water-budget-chain/index.html) · [결과](../integration/natural-world/water-budget-chain/REPORT.md) · [방법·AI](../integration/natural-world/water-budget-chain/README.md) · [배포 기록](../integration/natural-world/water-budget-chain/validation/deployment.json). 기준 main `90cabecdd84a6239fe24d38a4809d9ca20812319`.
 
@@ -14,7 +14,7 @@
 - 새14+기존168자료182검사, 새12+기존12브라우저24검사. AI900조회·27JSON·1440/390/320px. 새 상류60→120단계 누적 초과량 상대차0.000407% 미만.
 - 기존1007파일 중1002바이트 보존. 기존 수정은 지도/후속33링크 및 인계3개. 세계·경제·원본 입력·구지도·아카이브·종료대상 보존.
 
-배포 대기. 완료 후 기록 갱신.
+[PR #14](https://github.com/jungsb7/codex/pull/14) 병합·배포 완료. 기능 커밋 `982811299fd0049808b566e377732374d692a341`, 병합 커밋 `8f78a46993cc0c508da887b0078213f202b9f162`. [Pages 실행](https://github.com/jungsb7/codex/actions/runs/39972569620)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 후속33 원본 수분 장부 연결 구현·검증·배포 완료 — 2026-10-23
 
