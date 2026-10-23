@@ -1,0 +1,6 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),z=require('node:zlib'),crypto=require('node:crypto'),assert=require('node:assert/strict');
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+function read(){const dir=path.join(__dirname,'inputs'),m=JSON.parse(fs.readFileSync(path.join(dir,'flux-manifest.json'))),parts=m.parts.map(p=>{assert(/^flux-\d\d\.bin$/.test(p.file));const b=fs.readFileSync(path.join(dir,p.file));assert.equal(b.length,p.bytes);assert.equal(hash(b),p.sha256);return b;}),b=Buffer.concat(parts);assert.equal(b.length,m.bytes);assert.equal(hash(b),m.sha256);return JSON.parse(z.gunzipSync(b));}
+module.exports={read};
+if(require.main===module){const dir=path.join(__dirname,'inputs'),b=fs.readFileSync(path.join(dir,'fluxes.json.gz')),parts=[];for(let i=0;i<b.length;i+=600000){const file='flux-'+String(parts.length).padStart(2,'0')+'.bin',part=b.subarray(i,i+600000);fs.writeFileSync(path.join(dir,file),part);parts.push({file,bytes:part.length,sha256:hash(part)});}fs.writeFileSync(path.join(dir,'flux-manifest.json'),JSON.stringify({schema:'basin-flux-parts/1',bytes:b.length,sha256:hash(b),parts},null,2)+'\n');console.log({bytes:b.length,parts:parts.length});}

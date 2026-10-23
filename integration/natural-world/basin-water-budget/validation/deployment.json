@@ -1,0 +1,33 @@
+{
+  "status": "user-approved-awaiting-publication",
+  "baseline": "728952243bf370954deb452940eb3c87ca26d398",
+  "dateKST": "2026-10-24",
+  "featureCommit": null,
+  "pullRequest": null,
+  "pagesDeployment": null,
+  "localImplementation": "validated",
+  "dynamicReaches": 2827,
+  "newDynamicReaches": 2637,
+  "physicalResolvedReaches": 0,
+  "physicallyUnresolvedReaches": 23022,
+  "publicOrigin": {
+    "verified": false,
+    "newRequestAttempted": false,
+    "reason": "No deployment for this stage; environment policy also excludes jungsb7.github.io."
+  },
+  "publicationAuthorization": {
+    "dateKST": "2026-10-24",
+    "userReply": "진행해",
+    "scope": "Publish the verified10.2MB numeric probe dataset in jungsb7/codex and deploy the prepared change.",
+    "explicitPayloadApproval": true
+  },
+  "approvalReviewHistory": {
+    "destination": "jungsb7/codex",
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-01.bin",
+    "payloadTotalBytes": 10207089,
+    "parts": 18,
+    "reason": "Automatic review requires explicit authorization for publication of this specific opaque binary payload despite general deployment authorization. Source/content verification followed by retry was also rejected.",
+    "verification": "source-publication-check.json",
+    "resolvedBy": "Explicit user approval; the formerly rejected flux-01.bin upload succeeded afterward."
+  }
+}

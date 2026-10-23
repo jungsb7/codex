@@ -1,0 +1,128 @@
+{
+  "status": "verified",
+  "destination": "jungsb7/codex",
+  "authorization": "User explicitly approved publication of the verified10.2MB source probes in jungsb7/codex with 진행해 on2026-10-24, replying to the dataset-specific deployment question.",
+  "source": "Same repository archive/full-handoff-20261020 pinned4afae5da3a7730b79ced1d2b9b7a8bc3041689c0, not an external private dataset.",
+  "contents": "Original fictional-world simulator numeric cell/phase fields and public source hash/method metadata only. No account credentials, environment variables, contact fields or user messages are collected.",
+  "schemaKeys": [
+    "schema",
+    "cells",
+    "fields",
+    "areaM2",
+    "rainFactor",
+    "rows",
+    "allSourceCells",
+    "fullWorldLocalDischargeSha256",
+    "worldHash",
+    "geometryHash",
+    "globalBudgets",
+    "maxCellRunoffRoundingMm",
+    "sourceBranch",
+    "soilStorageMm",
+    "groundwaterStorageMm",
+    "shallowStoreMeaning",
+    "calendar",
+    "provenance"
+  ],
+  "fields": [
+    {
+      "name": "precipitationMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 3.686302777143588,
+      "max": 95.335432036313
+    },
+    {
+      "name": "evaporationMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 56.35631358582561
+    },
+    {
+      "name": "snowChangeMm",
+      "type": "f64",
+      "count": 144540,
+      "min": -282.687548211143,
+      "max": 62.42868969789285
+    },
+    {
+      "name": "shallowStoreChangeMm",
+      "type": "f64",
+      "count": 144540,
+      "min": -26.09605099357765,
+      "max": 81.83077867194054
+    },
+    {
+      "name": "runoffMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 236.6083223937658
+    },
+    {
+      "name": "snowStartMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 3371.9162283784303
+    },
+    {
+      "name": "snowEndMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 3412.69720446413
+    },
+    {
+      "name": "shallowStartMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 112.42591621835744
+    },
+    {
+      "name": "shallowEndMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 112.42591621835744
+    },
+    {
+      "name": "snowfallMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 62.42868969789285
+    },
+    {
+      "name": "meltMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 282.687548211143
+    },
+    {
+      "name": "shallowEvaporationMm",
+      "type": "f64",
+      "count": 144540,
+      "min": 0,
+      "max": 0
+    },
+    {
+      "name": "temperatureC",
+      "type": "f64",
+      "count": 144540,
+      "min": -43.89847286720952,
+      "max": 23.178156792912805
+    }
+  ],
+  "sourceApplicationHashes": {
+    "application/planet-observatory.html": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+    "application/source/app.js": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+    "integration/natural-world/basin-water-budget/collect.cjs": "877e635ad7197b4b0d4d96862f64c40a43bc7eb6b783678daa0f6e0948043691"
+  },
+  "existingPublishedCollection": "integration/natural-world/water-budget-chain/inputs/collection.json",
+  "fullWorldRunoffUnchanged": true,
+  "partsVerifiedBySha256": true
+}

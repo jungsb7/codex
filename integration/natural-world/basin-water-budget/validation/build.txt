@@ -1,0 +1,55 @@
+Computing E0.5-G0
+Computing E1-G0.25
+Computing E2-G0.25
+{
+  "bytes": 1706005,
+  "selection": {
+    "dynamicBoundaries": 60,
+    "dynamicReaches": 2827,
+    "sourceCells": 12045,
+    "networkModelledReaches": 20255,
+    "physicalResolvedReaches": 0,
+    "physicallyUnresolvedReaches": 23022
+  },
+  "scenarios": [
+    {
+      "id": "E0.5-G0",
+      "edgeCount": 58,
+      "chainResidual": 13.265625,
+      "globalResidual": 13.15625,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 8923008877777.746,
+        "newReceivedM3": 1014201937670.8812,
+        "newExcessM3": 8910224895574.791
+      }
+    },
+    {
+      "id": "E1-G0.25",
+      "edgeCount": 58,
+      "chainResidual": -4.7041015625,
+      "globalResidual": -4.953125,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 4518569206390.566,
+        "newReceivedM3": 903605182367.0087,
+        "newExcessM3": 4396947441199.04
+      }
+    },
+    {
+      "id": "E2-G0.25",
+      "edgeCount": 58,
+      "chainResidual": -0.462890625,
+      "globalResidual": -0.65625,
+      "comparison": {
+        "dynamicReaches": 171,
+        "downstreamReceivedM3": 1026997564342.1602,
+        "downstreamExcessM3": 0,
+        "newReceivedM3": 756142841962.5787,
+        "newExcessM3": 0
+      }
+    }
+  ]
+}

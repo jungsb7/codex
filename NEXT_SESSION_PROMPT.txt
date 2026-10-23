@@ -1,47 +1,49 @@
-GitHub 기반 최신 인수인계 — 후속34 세 경계 수분 장부 연결 배포 완료, 2026-10-23
+GitHub 기반 인수인계 — 후속35 로컬 검증 완료·배포 대기, 2026-10-24
 
-jungsb7/codex 최신 main을 받아 시작한다. 과거 커밋으로 되돌리지 않는다.
-사용자의23,022구간 하류 처리 우선 지시를 유지한다. 추상 합류/외력 검산으로 자동 복귀하지 않는다.
+jungsb7/codex 최신 main과 로컬 변경을 먼저 확인한다. 현재 원격 기준728952243bf370954deb452940eb3c87ca26d398.
+후속35 계측 자료10.2MB에 대해 사용자가2026-10-24 게시/배포를 명시 승인했다. 이전 자동 거절은 승인 후 동일 조각 업로드 성공으로 해소되어 배포 진행 중이다.
 
 먼저 읽기:
 1. AGENTS.md
 2. handoff/CURRENT_STATE.md 및 handoff/NEXT_GOALS.md
-3. integration/natural-world/water-budget-chain/README.md 및 REPORT.md
-4. integration/natural-world/water-budget-link/README.md
+3. integration/natural-world/basin-water-budget/README.md, REPORT.md, COMPLETION.md
+4. integration/natural-world/basin-water-budget/validation/deployment.json
 5. worldbuilding/WORLD_HANDOFF.md 및 handoff/FULL_ARCHIVE.md
 
-후속34:
-- D301678의59격자·16구간, D307820의12격자·3구간을 직접 계측해 추가.
-- 기존D298591과 합쳐3경계·690격자·190구간. 후속33의171구간에서19구간 증가.
-- 전268,857원본 유출 비트·전역 물수지·세계/기하 해시 보존. 기존619계측 정확히 재현.
-- 세 경계 각자의 원시12위상 사용. 상류 기간 초과량을 진입303208/304744로 하류 같은 기간30단계에 균등 배분.
-- 세 경계의 기존 자체 유입/손실/재고를 교체. 해양방류는D298591만 교체. 내부 송수신 이중 가산 없음.
-- 증발1/손실0.25m/년:100년 상류 수신1026.997564→903.605182km³, 해양 초과4518.569206→4396.947441km³.
-- 다른946계산·235보류 경계 유지. 조건부20,255중190원본 연결. 실제 해결0·미정23,022 유지.
-- 실제 침투/열수지/빙설/출구/역수위 미정. 기존108보류·14중단·연6.008km³ 눈 누적 유지.
-- 새14+기존168자료182검사, 새12+기존12브라우저24검사. AI900조회·27JSON·1440/390/320px.
-- 새 상류60→120단계 누적 초과량 상대차0.000407% 미만. 물리 정확도 인증 아님.
-- 기존1007파일 중1002보존. 기존 수정은 지도/후속33링크 및 인계3개.
+사용자 최신 의도:
+-23,022구간을 실제로 끝내려 한다. ‘언제 해결되나’, ‘가정이 없어서 대부분 미정인가’를 질문.
+-이미 계산 가정은 있으나 미정 물리 모델/입력과 세계 설정 채택이 남았음을 설명.
+-특정 새 물리 가정 채택은 아직 결정하지 않음. 임의로 actual:null을 숫자로 바꾸지 않는다.
+-연결/검사 숫자만 늘리는 진행에서 침투·저장·출구 모델과 완료 판정 조건으로 전환.
 
-배포 기록: integration/natural-world/water-budget-chain/validation/deployment.json
-PR #14 병합 8f78a46993cc0c508da887b0078213f202b9f162. Pages 실행39972569620의3작업성공.
-공개주소 직접응답은 환경 도메인 제한으로 미확인. 최종 인계문서 커밋은 기능병합보다 최신일 수 있음.
-다음: 구간 수가 큰 완결 연결망 우선. 기존 그래프 후보D186192(57경계·2637구간),D327739(21경계·976구간).
-후보는 원본 계측/기후분기/형상 검증 전 적용 완료로 세지 않음. 기존 prepare/collect/core/surface 재사용, 값 복사 금지.
+후속35:
+-D186192의57경계·2637구간 추가. 기존망 포함60경계·12045격자·2827구간.
+-144540원본 계측행,2186기둥·105웅덩이·58내부 송수신. 원본 세계/기하/전268857유출 비트·전역 물수지 보존.
+-기존690계측과3경계100년 결과 정확히 재현. 후속34 core·후속33 surface·원본 step 재사용.
+-0.5/0가정 새 유역 첫초과23년차3위상,100년 해양10033.367235km³.1/0.25·2/0.25는100년 내 초과 없음.
+-원본장부2827 / 집계만17428 / 자체보류2767 =23022. 실제 물리 채택 완료0은 별도.
+-새13+기존182자료195검사,새13+기존12브라우저25검사,AI18000조회·27JSON·60경계·1440/390/320px.
+-전역 잔차13.157m³ 미만. 큰 연결망 전체 시간 간격 수렴 검사는 미수행.
+-기존1043파일 중1038보존. 기존변경 지도/후속34링크 및 인계3개.
+
+게시 승인:
+-자동 승인 검토가10,207,089바이트 계측gzip의 바이너리 조각 게시 권한 확인 부족으로 거절.
+-같은 저장소 고정아카이브 원본 수치임을 전수 확인했으나 재시도도 거절. source-publication-check.json 참조.
+-사용자가 해당 자료 게시를 명시 승인했고 이전 거절된 조각 업로드가 성공함. 원격 최신HEAD 확인 후 PR·병합·배포 완료.
+-계측은18조각 flux-00.bin…17.bin과manifest로 보존. source.cjs는 조각/전체 해시 확인 후 메모리 해제.
+-중복 inputs/fluxes.json.gz는Git무시. 원본 아카이브나 큰 ZIP 재업로드 필요 없음.
 
 재현:
 node handoff/restore-inputs.cjs
-node integration/natural-world/water-budget-chain/build.cjs
-node --test --test-isolation=none integration/natural-world/water-budget-chain/test.cjs
-node integration/natural-world/water-budget-chain/query.cjs E1-G0.25 D301678 7
+node integration/natural-world/basin-water-budget/build.cjs
+node --test --test-isolation=none integration/natural-world/basin-water-budget/test.cjs
+node integration/natural-world/basin-water-budget/query.cjs E1-G0.25 D186192 100
 python3 -m http.server 8000 --bind 127.0.0.1
-검토: http://127.0.0.1:8000/integration/natural-world/water-budget-chain/index.html
-지도: http://127.0.0.1:8000/integration/natural-world/unified-atlas/index.html
+검토: http://127.0.0.1:8000/integration/natural-world/basin-water-budget/index.html
+AI annual은 선택경계/연도,chain/global은100년. periods:[]는 상세 미저장. actual:null·automaticAdoption:false.
 
-AI: annual은 선택경계/연도, chain/global은100년. periods:[]는 상세 미저장이지 물량0 아님.
-원본35%얕은 저장 유입은 내부 이동. 실제 침투율 아님. actual:null·automaticAdoption:false 유지.
-원본세계/경제/약26km지형/기후/수계/마스크/구지도/전체아카이브 유지.
-실제세부하도/피복/침수/강폭/적설/결빙/저류/침투/넘침 미정.
-종료9곳 및D126467/D147845/D144758 내부물리계산 재개 금지.12위상은 지구 달력 월 아님.
-전체3044원본은 archive/full-handoff-20261020에 별도 보관,main에 병합하지 않음.
-옛build/record/package스크립트로 최신 기록 덮어쓰지 않음. 최신 사용자 요청 우선.
+다음:COMPLETION.md 판정 조건에 따라 침투·유한 저장·출구/역수위 후보를 구체화하고 전역 적용/예외/보존 검증.
+완료 날짜/남은회차 근거 없이 약속 금지. 계산가능·조건부처리·세계설정채택을 분리한다.
+종료9곳 및D126467/D147845/D144758 내부계산 재개 금지.108보류·14중단·빙설/열수지 공백 유지.
+원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브 보존.12위상은 지구 달력 월 아님.
+전체3044원본은 archive/full-handoff-20261020에 별도 보관,main에 병합하지 않음. 최신 사용자 요청 우선.

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "screenshots": [
+    "budget-1440.png",
+    "budget-390.png",
+    "budget-320.png"
+  ],
+  "review": "New D186192100-year view is legible at all widths; selected-boundary annual,60-boundary and global totals are distinct. Model-connected count is distinguished from world-physics adoption."
+}

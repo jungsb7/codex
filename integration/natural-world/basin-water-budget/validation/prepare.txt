@@ -1,0 +1,422 @@
+[
+  {
+    "id": "D166244",
+    "cells": 13,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D170859",
+    "cells": 23,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D177037",
+    "cells": 23,
+    "columns": 4,
+    "ponds": 2,
+    "reaches": 4
+  },
+  {
+    "id": "D183131",
+    "cells": 65,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 22
+  },
+  {
+    "id": "D183240",
+    "cells": 7,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 1
+  },
+  {
+    "id": "D184773",
+    "cells": 9,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 1
+  },
+  {
+    "id": "D184793",
+    "cells": 14,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 4
+  },
+  {
+    "id": "D186342",
+    "cells": 42,
+    "columns": 12,
+    "ponds": 1,
+    "reaches": 6
+  },
+  {
+    "id": "D187853",
+    "cells": 35,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D187898",
+    "cells": 9,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 0
+  },
+  {
+    "id": "D187932",
+    "cells": 22,
+    "columns": 3,
+    "ponds": 1,
+    "reaches": 3
+  },
+  {
+    "id": "D189297",
+    "cells": 125,
+    "columns": 3,
+    "ponds": 1,
+    "reaches": 36
+  },
+  {
+    "id": "D189301",
+    "cells": 60,
+    "columns": 4,
+    "ponds": 1,
+    "reaches": 8
+  },
+  {
+    "id": "D198665",
+    "cells": 88,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 17
+  },
+  {
+    "id": "D201662",
+    "cells": 161,
+    "columns": 6,
+    "ponds": 1,
+    "reaches": 26
+  },
+  {
+    "id": "D206165",
+    "cells": 11,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 2
+  },
+  {
+    "id": "D206171",
+    "cells": 139,
+    "columns": 21,
+    "ponds": 2,
+    "reaches": 25
+  },
+  {
+    "id": "D209268",
+    "cells": 39,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 6
+  },
+  {
+    "id": "D217109",
+    "cells": 22,
+    "columns": 5,
+    "ponds": 1,
+    "reaches": 6
+  },
+  {
+    "id": "D221625",
+    "cells": 12,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 2
+  },
+  {
+    "id": "D221709",
+    "cells": 14,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 4
+  },
+  {
+    "id": "D223089",
+    "cells": 16,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 1
+  },
+  {
+    "id": "D224645",
+    "cells": 160,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 45
+  },
+  {
+    "id": "D227752",
+    "cells": 16,
+    "columns": 3,
+    "ponds": 1,
+    "reaches": 2
+  },
+  {
+    "id": "D235439",
+    "cells": 81,
+    "columns": 10,
+    "ponds": 1,
+    "reaches": 19
+  },
+  {
+    "id": "D246198",
+    "cells": 90,
+    "columns": 3,
+    "ponds": 1,
+    "reaches": 36
+  },
+  {
+    "id": "D253936",
+    "cells": 102,
+    "columns": 13,
+    "ponds": 1,
+    "reaches": 40
+  },
+  {
+    "id": "D258447",
+    "cells": 6,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 1
+  },
+  {
+    "id": "D266213",
+    "cells": 33,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 12
+  },
+  {
+    "id": "D275366",
+    "cells": 7,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 1
+  },
+  {
+    "id": "D275390",
+    "cells": 18,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 6
+  },
+  {
+    "id": "D275397",
+    "cells": 12,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D275417",
+    "cells": 28,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 8
+  },
+  {
+    "id": "D278480",
+    "cells": 61,
+    "columns": 15,
+    "ponds": 2,
+    "reaches": 12
+  },
+  {
+    "id": "D281541",
+    "cells": 40,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 16
+  },
+  {
+    "id": "D284554",
+    "cells": 8,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D293823",
+    "cells": 15,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 4
+  },
+  {
+    "id": "D301678",
+    "cells": 59,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 16
+  },
+  {
+    "id": "D307820",
+    "cells": 12,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 3
+  },
+  {
+    "id": "D164704",
+    "cells": 31,
+    "columns": 10,
+    "ponds": 2,
+    "reaches": 6
+  },
+  {
+    "id": "D186313",
+    "cells": 10,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 2
+  },
+  {
+    "id": "D218543",
+    "cells": 112,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 24
+  },
+  {
+    "id": "D221548",
+    "cells": 37,
+    "columns": 4,
+    "ponds": 1,
+    "reaches": 8
+  },
+  {
+    "id": "D235520",
+    "cells": 250,
+    "columns": 6,
+    "ponds": 1,
+    "reaches": 118
+  },
+  {
+    "id": "D278432",
+    "cells": 258,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 78
+  },
+  {
+    "id": "D233951",
+    "cells": 474,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 184
+  },
+  {
+    "id": "D243078",
+    "cells": 202,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 68
+  },
+  {
+    "id": "D278454",
+    "cells": 330,
+    "columns": 4,
+    "ponds": 1,
+    "reaches": 95
+  },
+  {
+    "id": "D298591",
+    "cells": 619,
+    "columns": 121,
+    "ponds": 5,
+    "reaches": 171
+  },
+  {
+    "id": "D267668",
+    "cells": 278,
+    "columns": 4,
+    "ponds": 1,
+    "reaches": 95
+  },
+  {
+    "id": "D227711",
+    "cells": 180,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 61
+  },
+  {
+    "id": "D236990",
+    "cells": 670,
+    "columns": 4,
+    "ponds": 1,
+    "reaches": 241
+  },
+  {
+    "id": "D255382",
+    "cells": 213,
+    "columns": 10,
+    "ponds": 1,
+    "reaches": 78
+  },
+  {
+    "id": "D235458",
+    "cells": 22,
+    "columns": 1,
+    "ponds": 1,
+    "reaches": 5
+  },
+  {
+    "id": "D252317",
+    "cells": 57,
+    "columns": 2,
+    "ponds": 1,
+    "reaches": 23
+  },
+  {
+    "id": "D233927",
+    "cells": 105,
+    "columns": 12,
+    "ponds": 3,
+    "reaches": 25
+  },
+  {
+    "id": "D233891",
+    "cells": 398,
+    "columns": 51,
+    "ponds": 2,
+    "reaches": 109
+  },
+  {
+    "id": "D200167",
+    "cells": 3075,
+    "columns": 1184,
+    "ponds": 20,
+    "reaches": 479
+  },
+  {
+    "id": "D203170",
+    "cells": 1070,
+    "columns": 84,
+    "ponds": 4,
+    "reaches": 230
+  },
+  {
+    "id": "D186192",
+    "cells": 1957,
+    "columns": 542,
+    "ponds": 13,
+    "reaches": 307
+  }
+]
