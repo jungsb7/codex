@@ -23,5 +23,10 @@
     "maxLocalSupplyPercent": 0.1841791999428676
   },
   "worldAdoption": false,
-  "actualPhysicalCompletion": false
+  "actualPhysicalCompletion": false,
+  "featureDeployment": {
+    "status": "success",
+    "runId": 39984782208,
+    "pullRequest": 16
+  }
 }

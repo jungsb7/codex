@@ -1,11 +1,38 @@
 {
-  "status": "verified-locally-awaiting-publication",
-  "baseCommit": "ffddacdf0e9fbc9d34497d3d118696014331b823",
+  "status": "deployed",
   "repository": "jungsb7/codex",
-  "feature": "finite-water-model",
+  "baseCommit": "ffddacdf0e9fbc9d34497d3d118696014331b823",
+  "featureCommit": "3508bb8c6a6be70d83400451fcb418adf79e6494",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/16",
+  "mergeCommit": "5dec78fb3299e31bce93d61c0a0d013052c200ce",
+  "pagesRun": {
+    "id": 39984782208,
+    "url": "https://github.com/jungsb7/codex/actions/runs/39984782208",
+    "jobs": [
+      {
+        "id": 120521030052,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120521342261,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120521342362,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/finite-water-model/",
+  "publicOriginCheck": "not attempted: existing environment domain restriction",
   "localModelTests": 210,
   "browserChecks": 24,
   "refinementStatus": "passed",
-  "publicOriginCheck": "not attempted: existing environment domain restriction",
-  "previousSourcePublicationApproval": "resolved; reused existing parts without republication"
+  "previousSourcePublicationApproval": "resolved; reused existing10.2MB parts without republication"
 }

@@ -45,4 +45,4 @@ D223089에서 하류 수위가 출구 문턱보다 높은 단계가 발생하며
 
 ## 배포
 
-검증 완료, GitHub 병합·Pages 배포 진행 전. 최종 기록은 [deployment.json](validation/deployment.json)에 남긴다.
+[PR #16](https://github.com/jungsb7/codex/pull/16) 병합·Pages 배포 완료. 기능 커밋 `3508bb8c6a6be70d83400451fcb418adf79e6494`, 병합 `5dec78fb3299e31bce93d61c0a0d013052c200ce`. [Pages 실행39984782208](https://github.com/jungsb7/codex/actions/runs/39984782208)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. [배포 기록](validation/deployment.json).

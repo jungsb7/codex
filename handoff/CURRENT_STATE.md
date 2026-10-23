@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속36 침투·유한 저장·출구 작동 후보와 이전 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속36 침투·유한 저장·출구 작동 후보 — 2026-10-24
+## 후속36 침투·유한 저장·출구 작동 후보 구현·검증·배포 완료 — 2026-10-24
 
 사용자가 진행을 요청해 D186192의57경계·11,355격자·2,637구간에 **유한 토양/대수층·제한 침투·지하수 복귀·수위별 방류**를 함께 계산하는 별도 후보를 구현했다. [화면](../integration/natural-world/finite-water-model/index.html) · [방법/AI](../integration/natural-world/finite-water-model/README.md) · [결과](../integration/natural-world/finite-water-model/REPORT.md). 기준main `ffddacdf0e9fbc9d34497d3d118696014331b823`.
 
@@ -12,6 +12,8 @@
 - 나머지20,385구간에는 이 새 모델을 적용하지 않았다. 새 가정은 세계 설정으로 자동 채택하지 않으며 `actual:null`을 유지한다. 기존108보류·14중단·종료대상·원본/경제/기후/수계/구지도/아카이브 보존.
 - 새15+기존195=210모델검사, 새12+기존12=24브라우저, AI17,100조회/9JSON 통과. 최초30→60의1.2552%차이로 기본60단계로 높였으며60→120 주요누적 최대0.624582%로 기준 통과. 세 조건100년 미처리0, 실제 설정 채택/전체 완료는 별도.
 - 검증과 배포의 최종 상태는 새 REPORT.md와 validation/deployment.json을 확인한다. 고온·극지/빙설 열수지, 실제 범람 및 대체 출구, 일반 역류는 남은 작업이다.
+
+[PR #16](https://github.com/jungsb7/codex/pull/16) 병합 `5dec78fb3299e31bce93d61c0a0d013052c200ce`, [Pages 실행39984782208](https://github.com/jungsb7/codex/actions/runs/39984782208)의3작업 성공. [배포 기록](../integration/natural-world/finite-water-model/validation/deployment.json). 공개 주소 직접 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 후속35 큰 유역 수분 장부 구현·검증·배포 완료 — 2026-10-24
 
