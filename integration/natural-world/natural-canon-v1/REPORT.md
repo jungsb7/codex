@@ -39,4 +39,4 @@
 - 새 브라우저12개+기존지도12개, 총24개 통과. 새 검사 결과는 [browser-checks.json](validation/browser-checks.json), 기존지도 회귀12개는 [atlas/browser-checks.json](validation/atlas/browser-checks.json). 기간별 화면/AI 일치, JSON/GeoJSON4다운로드, 공유URL·뒤로가기·오류 복구·늦은 응답·1440/390/320px를 검사한다.
 - 원본 파일 보존은 [preservation.json](validation/preservation.json), 배포는 [deployment.json](validation/deployment.json). `WORLD_HANDOFF.md`, 과거 연구 결과, 경제·구지도, 보관 브랜치는 변경하지 않는다.
 
-검증을 완료했으며 게시·배포 결과는 아래에 실제 커밋과 Pages 결과로 기록한다.
+[PR #24](https://github.com/jungsb7/codex/pull/24) 병합 `70d460eea022fe27fc27669a0981f8defe89801a`. [Pages40128391015](https://github.com/jungsb7/codex/actions/runs/40128391015)의 build/deploy/report 모두 성공. 공개 URL 직접 HTTP 응답은 환경 네트워크 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.

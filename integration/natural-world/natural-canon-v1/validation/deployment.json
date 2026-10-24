@@ -1,8 +1,32 @@
 {
   "phase": 44,
   "version": "natural-canon-v1",
+  "status": "deployed",
   "baseCommit": "00b24d0063a3d5a10cb0940c576d238875fd36c8",
-  "status": "validated-awaiting-publication",
+  "featureCommit": "78f6c72549eb9803ed390403868e63527adb6562",
+  "featureTree": "e0b7f5b8941f781c02d2efceb9aea22b0929f3e7",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/24",
+  "mergeCommit": "70d460eea022fe27fc27669a0981f8defe89801a",
+  "pagesRun": 40128391015,
+  "pagesUrl": "https://github.com/jungsb7/codex/actions/runs/40128391015",
+  "jobs": {
+    "build": "success",
+    "deploy": "success",
+    "report-build-status": "success"
+  },
+  "canonicalAtlas": "https://jungsb7.github.io/codex/integration/natural-world/unified-atlas/index.html#mode=canon",
   "authorization": "Explicit user adoption and standing public GitHub/Pages deployment authorization",
-  "directPublicHttpVerification": "Unavailable: jungsb7.github.io is outside environment allowlist; Pages jobs will be checked via GitHub"
+  "tests": {
+    "model": 18,
+    "browser": 24,
+    "canonicalPointReachQueries": 3776172,
+    "canonicalBoundaryQueries": 1184,
+    "downloads": 4
+  },
+  "preservation": {
+    "unchangedOriginalFiles": 1565,
+    "allowedChangedOriginalFiles": 7
+  },
+  "directPublicHttpVerification": "Not performed: jungsb7.github.io is outside the environment network allowlist. GitHub Pages build/deploy/report jobs all succeeded.",
+  "finalDocumentationDeployment": "Recorded in PR body after documentation commit to avoid an infinite self-recording commit chain."
 }

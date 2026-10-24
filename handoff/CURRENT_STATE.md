@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속44 자연환경 정설 v1과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속44 자연환경 정설 v1 채택 — 2026-10-25 Asia/Seoul
+## 후속44 자연환경 정설 v1 채택·배포 완료 — 2026-10-25 Asia/Seoul
 
 사용자가 **“확정되게 진행해봐.”**라고 지시하여 네 자연환경 항목의 세계 설정을 채택했다. [정설 문서](../worldbuilding/NATURAL_CANON_V1.md), [방법·AI](../integration/natural-world/natural-canon-v1/README.md), [결과](../integration/natural-world/natural-canon-v1/REPORT.md), [배포](../integration/natural-world/natural-canon-v1/validation/deployment.json)가 현재 기준이다. 기준main00b24d0063a3d5a10cb0940c576d238875fd36c8.
 
@@ -12,9 +12,11 @@
 - 눈물량은 최대2m 표층 눈+압밀 얼음으로 나눔(최대127.422m). 빙원 이동0m/년은 채택 규칙. 얼음>=1cm의 피복 Manning 단면은 n=.045로 계산.
 - 통합지도 기본 `mode=canon`, 명시된 기존 연구 URL은 유지. 같은 버전의 화면·AI·JSON·GeoJSON 제공. 연구의 `actual:null`은 보존하며 정설 `status=adopted-world-definition`과 구분.
 - 세계 설정의 확정 범위는 원본 격자(0.234375°,남북 약26km) 경계·500m 이하 경로 표본·12개 지정 기간. 모든 동적 물리 피드백이나 관측 검증 완료를 뜻하지 않는다. 새 물리 연구가 필요해도 이번 설정 채택을 ‘미완료’로 바꾸지 않는다.
-- 모델18검사(새8+기존10), AI3,776,172개 지점/물길+1,184장부, 기존지도 회귀12검사 통과. 새 브라우저 결과는 위 검증 기록 참조.
+- 모델18검사(새8+기존10), AI3,776,172개 지점/물길+1,184장부, 기존지도 회귀12검사 통과. 새 브라우저12+기존지도12=24검사 통과.
 
 아래 후속43 이전의 ‘최종채택 미정’은 당시 연구 상태다. 해당 네 항목의 현재 설정은 후속44가 우선한다. 원본세계/경제/기후/구지도/마스크/연결과 별도 아카이브는 보존한다. 기존 공개GitHub/Pages 승인 유효, 동일 승인 재질문 금지.
+
+[PR #24](https://github.com/jungsb7/codex/pull/24) 병합 `70d460eea022fe27fc27669a0981f8defe89801a`. [Pages40128391015](https://github.com/jungsb7/codex/actions/runs/40128391015)의 build/deploy/report 모두 성공. 공개 URL 직접 HTTP 응답은 환경 네트워크 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.
 
 ## 후속43 강폭·적설·결빙 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 
