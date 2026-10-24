@@ -1,9 +1,38 @@
 {
-  "status": "verified-locally-awaiting-publication",
-  "baseCommit": "1cc0326686a4cfe63fffddd5ae260a9079e547bc",
+  "status": "deployed",
   "repository": "jungsb7/codex",
+  "baseCommit": "1cc0326686a4cfe63fffddd5ae260a9079e547bc",
+  "featureCommit": "13173995304636f95b658a193f91b786a55781e7",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/17",
+  "mergeCommit": "fb29fdf6b7ec390b3c340e5a4e2e6af44927c189",
+  "pagesRun": {
+    "id": 40093144618,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40093144618",
+    "jobs": [
+      {
+        "id": 120869786306,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120869913500,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120869913558,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/terrain-water-model/",
+  "publicOriginCheck": "not attempted: environment domain restriction",
   "modelTests": 228,
   "browserChecks": 24,
-  "publicOriginCheck": "not attempted: environment domain restriction",
+  "scope": "946 geometry/source assignments;57 dynamic boundaries stopped at first different-target contact",
   "sourceDataset": "Existing10.2MB reused; no new forcing publication"
 }

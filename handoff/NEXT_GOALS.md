@@ -1,6 +1,6 @@
 # 다음 목표: 확인된 다른 하류 접촉을 결합 처리하고 나머지 강제력 일괄 준비
 
-후속37은 원본 지형·여러 출구를 계산한다. [방법](../integration/natural-world/terrain-water-model/README.md), [결과](../integration/natural-world/terrain-water-model/REPORT.md), [배포 기록](../integration/natural-world/terrain-water-model/validation/deployment.json)을 먼저 읽는다.
+후속37은 원본 지형·여러 출구를 계산하며 PR #17 병합과 Pages 실행40093144618 배포를 완료했다. [방법](../integration/natural-world/terrain-water-model/README.md), [결과](../integration/natural-world/terrain-water-model/REPORT.md), [배포 기록](../integration/natural-world/terrain-water-model/validation/deployment.json)을 먼저 읽는다.
 
 1. 기준 후보는 D221625에서 원본 D218543행 외에 D200167과 접촉해 약2.179년에 멈춘다. 저침투는 D258447에서 D243078과 접촉해 약0.132년에 멈춘다. 이 추가 경로와 양쪽 수위를 원본과 구분한 후보로 결합 계산해야 한다. 단순히 중단 상한을 높이거나 초과량을 기존 하류에 자동 배분하지 않는다.
 2. 946경계·20,065구간의 지형/출구/117,320격자 원본 유입 배정을 준비했다. 그중57경계·2,637구간만 동적 계산한다. 나머지889경계·17,428구간의 원본 강수·기온·초기저장을 일괄 계측해 연결한다. 작은 일부 경계 연결 반복을 목표로 삼지 않는다.

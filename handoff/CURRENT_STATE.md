@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속37 원본 지형·여러 출구 후보와 이전 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속37 원본 지형·여러 출구 후보 — 2026-10-24
+## 후속37 원본 지형·여러 출구 구현·검증·배포 완료 — 2026-10-24
 
 946경계·20,065구간·117,320격자의 지형/원본 유입 배정을 일괄 준비하고, 같은 하류의5,274출구 면과4,186추가 원본 기둥을 구성했다. 원본 기후가 있는57경계·2,637구간에는210기둥을 추가해 변수 면적과 여러 출구로 다시 계산한다. [화면](../integration/natural-world/terrain-water-model/index.html) · [방법/AI](../integration/natural-world/terrain-water-model/README.md) · [결과](../integration/natural-world/terrain-water-model/REPORT.md). 기준main `1cc0326686a4cfe63fffddd5ae260a9079e547bc`.
 
@@ -12,6 +12,8 @@
 - 나머지889경계/17,428구간은지형·배정준비만완료,원본기후/초기저장미수집. 낮은출구9곳과문턱이하접촉D567047은현재엔진적용전. D298591망190구간과기존보류2767구간보존.
 -새18+기존210=228모델검사,새12+기존12=24브라우저,AI2838조건/경계조회·9JSON검증.
 - 전체/실제완료와자동채택아님. 기존원본/경제/기후/수계/마스크/구지도/아카이브/종료대상보존. 최종검증·배포는새REPORT와validation에기록.
+
+[PR #17](https://github.com/jungsb7/codex/pull/17) 병합 `fb29fdf6b7ec390b3c340e5a4e2e6af44927c189`, [Pages 실행40093144618](https://github.com/jungsb7/codex/actions/runs/40093144618)의3작업 성공. [배포 기록](../integration/natural-world/terrain-water-model/validation/deployment.json). 공개 주소 직접 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 더 최신일 수 있다.
 
 ## 후속36 침투·유한 저장·출구 작동 후보 구현·검증·배포 완료 — 2026-10-24
 

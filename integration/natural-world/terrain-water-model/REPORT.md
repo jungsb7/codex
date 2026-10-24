@@ -40,4 +40,4 @@
 
 ## 배포
 
-로컬 검증 후 GitHub 병합·Pages 결과를 [배포 기록](validation/deployment.json)에 기록한다.
+[PR #17](https://github.com/jungsb7/codex/pull/17) 병합·Pages 배포 완료. 기능 `13173995304636f95b658a193f91b786a55781e7`, 병합 `fb29fdf6b7ec390b3c340e5a4e2e6af44927c189`. [Pages 실행40093144618](https://github.com/jungsb7/codex/actions/runs/40093144618)의 build/deploy/report-build-status 모두 성공. 공개 주소 직접 응답은 환경 도메인 제한으로 미확인. 최종 인계 문서 커밋은 더 최신일 수 있다. [배포 기록](validation/deployment.json).
