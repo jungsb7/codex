@@ -1,0 +1,5935 @@
+{
+  "coarseSteps": 60,
+  "fineSteps": 120,
+  "completedYears": [
+    100,
+    100
+  ],
+  "oceanRelativeDifference": 0.00021786579783757886,
+  "inwardOceanRelativeDifference": 0,
+  "oceanTolerance": 0.01,
+  "status": "passed-global-ocean-check",
+  "scope": "Reference100-year aggregate outward and inward ocean volume only. Per-boundary storage and release differences reported separately; no all-state convergence claim.",
+  "boundaries": [
+    {
+      "id": "D80393",
+      "releaseRelativeDifference": 0.0000151225017512011,
+      "finalStorageRelativeDifference": 0.00005823519061702631
+    },
+    {
+      "id": "D88075",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 9.893239721356444e-7
+    },
+    {
+      "id": "D91134",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.073132461572152e-7
+    },
+    {
+      "id": "D91378",
+      "releaseRelativeDifference": 0.000007700367763529268,
+      "finalStorageRelativeDifference": 0.0000035665355403226084
+    },
+    {
+      "id": "D92902",
+      "releaseRelativeDifference": 0.000015854723499281493,
+      "finalStorageRelativeDifference": 0.000010354472505523558
+    },
+    {
+      "id": "D94198",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000006982730617530296
+    },
+    {
+      "id": "D95753",
+      "releaseRelativeDifference": 0.00002859872981780954,
+      "finalStorageRelativeDifference": 0.00004307456363834062
+    },
+    {
+      "id": "D95767",
+      "releaseRelativeDifference": 0.00003955288096387111,
+      "finalStorageRelativeDifference": 0.00005853768746716512
+    },
+    {
+      "id": "D95989",
+      "releaseRelativeDifference": 0.0000074713762124223195,
+      "finalStorageRelativeDifference": 0.00001054713504164307
+    },
+    {
+      "id": "D98810",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000003560448786645922
+    },
+    {
+      "id": "D98818",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 9.02963841253566e-7
+    },
+    {
+      "id": "D100336",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00002216423259724023
+    },
+    {
+      "id": "D100369",
+      "releaseRelativeDifference": 0.00019595083512261203,
+      "finalStorageRelativeDifference": 0.00009398714686894465
+    },
+    {
+      "id": "D101919",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.448886085911941e-7
+    },
+    {
+      "id": "D102110",
+      "releaseRelativeDifference": 0.00007467065476615253,
+      "finalStorageRelativeDifference": 0.000003257926898564247
+    },
+    {
+      "id": "D103415",
+      "releaseRelativeDifference": 0.00010443880601083917,
+      "finalStorageRelativeDifference": 0.000010545156942772129
+    },
+    {
+      "id": "D103654",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 7.860440084364532e-7
+    },
+    {
+      "id": "D103663",
+      "releaseRelativeDifference": 0.00001594866400208588,
+      "finalStorageRelativeDifference": 0.000049071373414060894
+    },
+    {
+      "id": "D106547",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000001950955790620108
+    },
+    {
+      "id": "D106731",
+      "releaseRelativeDifference": 0.000015509133657944003,
+      "finalStorageRelativeDifference": 0.0000207069137430434
+    },
+    {
+      "id": "D108064",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000059003672194921637
+    },
+    {
+      "id": "D108074",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 6.329256051940802e-7
+    },
+    {
+      "id": "D109576",
+      "releaseRelativeDifference": 0.00021670344105257337,
+      "finalStorageRelativeDifference": 0.0004393570983390998
+    },
+    {
+      "id": "D109637",
+      "releaseRelativeDifference": 0.00001459466470001439,
+      "finalStorageRelativeDifference": 0.000014533679881706373
+    },
+    {
+      "id": "D109775",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 7.094610382382296e-7
+    },
+    {
+      "id": "D109786",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 8.573594444014006e-7
+    },
+    {
+      "id": "D109801",
+      "releaseRelativeDifference": 0.000017372649762154938,
+      "finalStorageRelativeDifference": 0.00001461838409262913
+    },
+    {
+      "id": "D111083",
+      "releaseRelativeDifference": 0.000027564886585882026,
+      "finalStorageRelativeDifference": 0.000046134038973378414
+    },
+    {
+      "id": "D112699",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 3.976955578238456e-7
+    },
+    {
+      "id": "D112702",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000001226718400481988
+    },
+    {
+      "id": "D112705",
+      "releaseRelativeDifference": 0.000010577789521447908,
+      "finalStorageRelativeDifference": 0.000001047974755189711
+    },
+    {
+      "id": "D114147",
+      "releaseRelativeDifference": 0.000028111913872679326,
+      "finalStorageRelativeDifference": 0.000007466137076034795
+    },
+    {
+      "id": "D114155",
+      "releaseRelativeDifference": 0.000052025044189218064,
+      "finalStorageRelativeDifference": 0.00006418378774190447
+    },
+    {
+      "id": "D114167",
+      "releaseRelativeDifference": 0.00046921641552820847,
+      "finalStorageRelativeDifference": 0.00020598435549233634
+    },
+    {
+      "id": "D114196",
+      "releaseRelativeDifference": 0.0009607593408019296,
+      "finalStorageRelativeDifference": 0.00043207184804129877
+    },
+    {
+      "id": "D114388",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000052700026094859225
+    },
+    {
+      "id": "D114414",
+      "releaseRelativeDifference": 0.000020281246156552127,
+      "finalStorageRelativeDifference": 0.00014681449572530216
+    },
+    {
+      "id": "D115660",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000010039824501629036
+    },
+    {
+      "id": "D115913",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000005021950217389543
+    },
+    {
+      "id": "D117295",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000005168688045981899
+    },
+    {
+      "id": "D117298",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 2.04897029212544e-7
+    },
+    {
+      "id": "D117455",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.63609338009273e-7
+    },
+    {
+      "id": "D117490",
+      "releaseRelativeDifference": 0.000022343930255052998,
+      "finalStorageRelativeDifference": 0.00012513978109452808
+    },
+    {
+      "id": "D118969",
+      "releaseRelativeDifference": 0.000046189914507810565,
+      "finalStorageRelativeDifference": 0.00002414928785642428
+    },
+    {
+      "id": "D120265",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000039712711151720255
+    },
+    {
+      "id": "D120280",
+      "releaseRelativeDifference": 0.00007817155630196186,
+      "finalStorageRelativeDifference": 0.000054546656983433865
+    },
+    {
+      "id": "D120291",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 2.5243987118799977e-7
+    },
+    {
+      "id": "D120364",
+      "releaseRelativeDifference": 0.00011481239447629886,
+      "finalStorageRelativeDifference": 0.00006019186315832765
+    },
+    {
+      "id": "D120377",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.6157607390988188e-7
+    },
+    {
+      "id": "D120385",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000013646904561603248
+    },
+    {
+      "id": "D120513",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 7.594068198532747e-7
+    },
+    {
+      "id": "D121929",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000017638103147872024
+    },
+    {
+      "id": "D123341",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000033093163819657224
+    },
+    {
+      "id": "D123421",
+      "releaseRelativeDifference": 0.009143010708972584,
+      "finalStorageRelativeDifference": 0.00005335829745275941
+    },
+    {
+      "id": "D123492",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000003017566730796801
+    },
+    {
+      "id": "D124869",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000013220541530777981
+    },
+    {
+      "id": "D124981",
+      "releaseRelativeDifference": 0.00003861096965056719,
+      "finalStorageRelativeDifference": 0.00002176124182188256
+    },
+    {
+      "id": "D124994",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000037385995188573585
+    },
+    {
+      "id": "D125117",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 3.7255809789696684e-7
+    },
+    {
+      "id": "D125132",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000017842018302964288
+    },
+    {
+      "id": "D126403",
+      "releaseRelativeDifference": 0.000028811446912989508,
+      "finalStorageRelativeDifference": 0.00004432425242866391
+    },
+    {
+      "id": "D126467",
+      "releaseRelativeDifference": 0.0020286670602656692,
+      "finalStorageRelativeDifference": 0.0024364525860777818
+    },
+    {
+      "id": "D126544",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 5.99433440810395e-7
+    },
+    {
+      "id": "D126571",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000010952683138169898
+    },
+    {
+      "id": "D126609",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000020569877208203546
+    },
+    {
+      "id": "D126735",
+      "releaseRelativeDifference": 0.002131613722366993,
+      "finalStorageRelativeDifference": 0.00006102350481439141
+    },
+    {
+      "id": "D126767",
+      "releaseRelativeDifference": 0.00003157583612481493,
+      "finalStorageRelativeDifference": 0.0007275530367851584
+    },
+    {
+      "id": "D126771",
+      "releaseRelativeDifference": 0.00003642929297378865,
+      "finalStorageRelativeDifference": 0.001426226306871722
+    },
+    {
+      "id": "D127925",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000005452047432414054
+    },
+    {
+      "id": "D127956",
+      "releaseRelativeDifference": 0.014030683620883546,
+      "finalStorageRelativeDifference": 0.0008610447177306663
+    },
+    {
+      "id": "D128095",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000013336886921004637
+    },
+    {
+      "id": "D128117",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000014470910875438214
+    },
+    {
+      "id": "D128178",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 5.010208751961974e-7
+    },
+    {
+      "id": "D128197",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000004310364599826814
+    },
+    {
+      "id": "D129613",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 2.2654876888409326e-7
+    },
+    {
+      "id": "D129669",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000023329463202975098
+    },
+    {
+      "id": "D129710",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000008824237213935983
+    },
+    {
+      "id": "D129794",
+      "releaseRelativeDifference": 0.00004092899790799453,
+      "finalStorageRelativeDifference": 0.0013425001368776825
+    },
+    {
+      "id": "D129855",
+      "releaseRelativeDifference": 0.0004764462858770358,
+      "finalStorageRelativeDifference": 0.0004219152809581534
+    },
+    {
+      "id": "D131156",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000007016790963639807
+    },
+    {
+      "id": "D131183",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.2643593028598443e-7
+    },
+    {
+      "id": "D131194",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000010161250434908296
+    },
+    {
+      "id": "D131332",
+      "releaseRelativeDifference": 0.0016823407630264112,
+      "finalStorageRelativeDifference": 0.000472140430594228
+    },
+    {
+      "id": "D131362",
+      "releaseRelativeDifference": 0.000026165648611796187,
+      "finalStorageRelativeDifference": 0.0010802948104503014
+    },
+    {
+      "id": "D132512",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000003373324662421513
+    },
+    {
+      "id": "D132521",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000014545976822776316
+    },
+    {
+      "id": "D132677",
+      "releaseRelativeDifference": 0.00007088136529035253,
+      "finalStorageRelativeDifference": 0.000014301350299420124
+    },
+    {
+      "id": "D132754",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000008404121349541999
+    },
+    {
+      "id": "D132865",
+      "releaseRelativeDifference": 0.0016991615345854632,
+      "finalStorageRelativeDifference": 0.0015822520609012208
+    },
+    {
+      "id": "D132875",
+      "releaseRelativeDifference": 0.0018976706033405864,
+      "finalStorageRelativeDifference": 0.00017553769722880661
+    },
+    {
+      "id": "D133204",
+      "releaseRelativeDifference": 0.00016494687908451256,
+      "finalStorageRelativeDifference": 0.0008270758345094557
+    },
+    {
+      "id": "D134288",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00042294351730536603
+    },
+    {
+      "id": "D134423",
+      "releaseRelativeDifference": 0.0013200802939083692,
+      "finalStorageRelativeDifference": 0.0006586727641502442
+    },
+    {
+      "id": "D134465",
+      "releaseRelativeDifference": 0.0000504859040851788,
+      "finalStorageRelativeDifference": 0.0006931501868450863
+    },
+    {
+      "id": "D134754",
+      "releaseRelativeDifference": 0.000020359922050041587,
+      "finalStorageRelativeDifference": 0.0009588971585184943
+    },
+    {
+      "id": "D135562",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000225332740818581
+    },
+    {
+      "id": "D135826",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004369945488242884
+    },
+    {
+      "id": "D135858",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.053798815396196e-7
+    },
+    {
+      "id": "D135942",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.002039492503394205
+    },
+    {
+      "id": "D135962",
+      "releaseRelativeDifference": 0.0014188462030156432,
+      "finalStorageRelativeDifference": 0.0002738041913984777
+    },
+    {
+      "id": "D137463",
+      "releaseRelativeDifference": 0.002161906356200493,
+      "finalStorageRelativeDifference": 0.0002730150700897282
+    },
+    {
+      "id": "D137517",
+      "releaseRelativeDifference": 0.0011624950979060324,
+      "finalStorageRelativeDifference": 0.0004453802435269479
+    },
+    {
+      "id": "D138644",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00033966177064526136
+    },
+    {
+      "id": "D139338",
+      "releaseRelativeDifference": 0.00002961662059359342,
+      "finalStorageRelativeDifference": 0.000985212551971574
+    },
+    {
+      "id": "D140612",
+      "releaseRelativeDifference": 0.0021643587402401286,
+      "finalStorageRelativeDifference": 0.001661739329738889
+    },
+    {
+      "id": "D141975",
+      "releaseRelativeDifference": 0.001981508483034835,
+      "finalStorageRelativeDifference": 0.00010895811057143156
+    },
+    {
+      "id": "D141982",
+      "releaseRelativeDifference": 0.0008052662558120174,
+      "finalStorageRelativeDifference": 0.0001450620639772872
+    },
+    {
+      "id": "D143595",
+      "releaseRelativeDifference": 0.002461106054222952,
+      "finalStorageRelativeDifference": 0.00018208846040953928
+    },
+    {
+      "id": "D144758",
+      "releaseRelativeDifference": 0.0032997009022768856,
+      "finalStorageRelativeDifference": 0.0000880862199205345
+    },
+    {
+      "id": "D145154",
+      "releaseRelativeDifference": 0.0015926602369238905,
+      "finalStorageRelativeDifference": 0.0006123695613251168
+    },
+    {
+      "id": "D145203",
+      "releaseRelativeDifference": 0.0020974275006706198,
+      "finalStorageRelativeDifference": 0.0014432872241258103
+    },
+    {
+      "id": "D145358",
+      "releaseRelativeDifference": 0.0013080885746943186,
+      "finalStorageRelativeDifference": 0.001205794188924522
+    },
+    {
+      "id": "D145447",
+      "releaseRelativeDifference": 0.0063767802285172705,
+      "finalStorageRelativeDifference": 0.00012849985416600707
+    },
+    {
+      "id": "D145466",
+      "releaseRelativeDifference": 0.00004485830408836686,
+      "finalStorageRelativeDifference": 0.00019087835400432025
+    },
+    {
+      "id": "D146478",
+      "releaseRelativeDifference": 0.002274210118525224,
+      "finalStorageRelativeDifference": 0.00010066314021560689
+    },
+    {
+      "id": "D146748",
+      "releaseRelativeDifference": 0.0022546905120857433,
+      "finalStorageRelativeDifference": 0.0012673865576078756
+    },
+    {
+      "id": "D146953",
+      "releaseRelativeDifference": 0.0010110420236857703,
+      "finalStorageRelativeDifference": 0.0007969117050248581
+    },
+    {
+      "id": "D147033",
+      "releaseRelativeDifference": 0.000026034737644871432,
+      "finalStorageRelativeDifference": 0.0010795291560289839
+    },
+    {
+      "id": "D147845",
+      "releaseRelativeDifference": 0.0037729406294423774,
+      "finalStorageRelativeDifference": 0.00019820681729207287
+    },
+    {
+      "id": "D148192",
+      "releaseRelativeDifference": 0.00612647701706811,
+      "finalStorageRelativeDifference": 0.0028860674718057203
+    },
+    {
+      "id": "D150065",
+      "releaseRelativeDifference": 0.00003112240774633863,
+      "finalStorageRelativeDifference": 0.0012146613560611705
+    },
+    {
+      "id": "D151095",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0013570398568199396
+    },
+    {
+      "id": "D151105",
+      "releaseRelativeDifference": 0.17026610030282296,
+      "finalStorageRelativeDifference": 0.0028226167995754814
+    },
+    {
+      "id": "D151470",
+      "releaseRelativeDifference": 0.0026899572761059157,
+      "finalStorageRelativeDifference": 0.0009965657898037411
+    },
+    {
+      "id": "D151571",
+      "releaseRelativeDifference": 0.014511149274980924,
+      "finalStorageRelativeDifference": 0.0008245786713511556
+    },
+    {
+      "id": "D151644",
+      "releaseRelativeDifference": 0.000017804605939016052,
+      "finalStorageRelativeDifference": 0.00040547583902987593
+    },
+    {
+      "id": "D152727",
+      "releaseRelativeDifference": 0.0058468953505509255,
+      "finalStorageRelativeDifference": 0.00021150863123789755
+    },
+    {
+      "id": "D152767",
+      "releaseRelativeDifference": 0.0006837340305659901,
+      "finalStorageRelativeDifference": 0.0001105782153657911
+    },
+    {
+      "id": "D152791",
+      "releaseRelativeDifference": 0.006892072097434378,
+      "finalStorageRelativeDifference": 0.0025028327954102533
+    },
+    {
+      "id": "D152993",
+      "releaseRelativeDifference": 0.002539875800934165,
+      "finalStorageRelativeDifference": 0.00016416178092628115
+    },
+    {
+      "id": "D153009",
+      "releaseRelativeDifference": 0.0018176189069279158,
+      "finalStorageRelativeDifference": 0.00035647054516417304
+    },
+    {
+      "id": "D154345",
+      "releaseRelativeDifference": 0.005122293163193778,
+      "finalStorageRelativeDifference": 0.002958622863226783
+    },
+    {
+      "id": "D154369",
+      "releaseRelativeDifference": 0.0023966146056221553,
+      "finalStorageRelativeDifference": 0.00022287085350843806
+    },
+    {
+      "id": "D154397",
+      "releaseRelativeDifference": 0.0016788723489390208,
+      "finalStorageRelativeDifference": 0.0012926280072902661
+    },
+    {
+      "id": "D154538",
+      "releaseRelativeDifference": 0.00979026626539613,
+      "finalStorageRelativeDifference": 0.00015254722860443231
+    },
+    {
+      "id": "D154704",
+      "releaseRelativeDifference": 0.000329913238235004,
+      "finalStorageRelativeDifference": 0.001648683063900674
+    },
+    {
+      "id": "D155805",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0005660909978192314
+    },
+    {
+      "id": "D155815",
+      "releaseRelativeDifference": 0.001355616092016645,
+      "finalStorageRelativeDifference": 0.0002177748166129363
+    },
+    {
+      "id": "D155920",
+      "releaseRelativeDifference": 0.002813165403802077,
+      "finalStorageRelativeDifference": 0.0013086302330341778
+    },
+    {
+      "id": "D155947",
+      "releaseRelativeDifference": 0.0025309679264139567,
+      "finalStorageRelativeDifference": 0.001400817658549389
+    },
+    {
+      "id": "D157364",
+      "releaseRelativeDifference": 0.0009313504151877132,
+      "finalStorageRelativeDifference": 0.00043194462739917615
+    },
+    {
+      "id": "D157757",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.002532982307316937
+    },
+    {
+      "id": "D158546",
+      "releaseRelativeDifference": 0.000020617277288378334,
+      "finalStorageRelativeDifference": 0.00011540071466085721
+    },
+    {
+      "id": "D159204",
+      "releaseRelativeDifference": 0.015112248286776276,
+      "finalStorageRelativeDifference": 0.0007367221907330395
+    },
+    {
+      "id": "D160406",
+      "releaseRelativeDifference": 0.005990939948276897,
+      "finalStorageRelativeDifference": 0.0017610345966090127
+    },
+    {
+      "id": "D160559",
+      "releaseRelativeDifference": 0.002559089485609968,
+      "finalStorageRelativeDifference": 0.0008304946795540387
+    },
+    {
+      "id": "D160686",
+      "releaseRelativeDifference": 0.002199320744019194,
+      "finalStorageRelativeDifference": 0.0014832174103027427
+    },
+    {
+      "id": "D160744",
+      "releaseRelativeDifference": 0.0029446572271040004,
+      "finalStorageRelativeDifference": 0.002442017218769735
+    },
+    {
+      "id": "D160819",
+      "releaseRelativeDifference": 0.029414398049243826,
+      "finalStorageRelativeDifference": 0.001135720400457331
+    },
+    {
+      "id": "D162014",
+      "releaseRelativeDifference": 0.0057477750835177414,
+      "finalStorageRelativeDifference": 0.002105326775798584
+    },
+    {
+      "id": "D162144",
+      "releaseRelativeDifference": 0.0021680456797952574,
+      "finalStorageRelativeDifference": 0.0018366494993961988
+    },
+    {
+      "id": "D162153",
+      "releaseRelativeDifference": 0.0024795969456912117,
+      "finalStorageRelativeDifference": 0.0029903883836951434
+    },
+    {
+      "id": "D162171",
+      "releaseRelativeDifference": 0.0018204487820741916,
+      "finalStorageRelativeDifference": 0.0021902780226149355
+    },
+    {
+      "id": "D162176",
+      "releaseRelativeDifference": 0.0016550560807049185,
+      "finalStorageRelativeDifference": 0.002364508379077016
+    },
+    {
+      "id": "D162237",
+      "releaseRelativeDifference": 0.0017510354263443608,
+      "finalStorageRelativeDifference": 0.001264853814203069
+    },
+    {
+      "id": "D162283",
+      "releaseRelativeDifference": 0.01232039999746892,
+      "finalStorageRelativeDifference": 0.0006775495626842751
+    },
+    {
+      "id": "D162384",
+      "releaseRelativeDifference": 0.0027139518519989792,
+      "finalStorageRelativeDifference": 0.0014606997417536346
+    },
+    {
+      "id": "D163176",
+      "releaseRelativeDifference": 0.00010705298210107953,
+      "finalStorageRelativeDifference": 0.000036449477095912625
+    },
+    {
+      "id": "D163387",
+      "releaseRelativeDifference": 0.04255360040333462,
+      "finalStorageRelativeDifference": 0.0028240973652268664
+    },
+    {
+      "id": "D164704",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000015524495901391005
+    },
+    {
+      "id": "D165097",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012208054165087322
+    },
+    {
+      "id": "D165125",
+      "releaseRelativeDifference": 0.0000675866697394179,
+      "finalStorageRelativeDifference": 0.00008497285265230679
+    },
+    {
+      "id": "D165228",
+      "releaseRelativeDifference": 0.0014262604878045473,
+      "finalStorageRelativeDifference": 0.0017921270795872273
+    },
+    {
+      "id": "D165422",
+      "releaseRelativeDifference": 0.0017630154307482144,
+      "finalStorageRelativeDifference": 0.0016039183420081934
+    },
+    {
+      "id": "D166244",
+      "releaseRelativeDifference": 0.00010053966886909125,
+      "finalStorageRelativeDifference": 0.00006824744833427496
+    },
+    {
+      "id": "D166271",
+      "releaseRelativeDifference": 0.0013214376133656354,
+      "finalStorageRelativeDifference": 0.0003047416471126698
+    },
+    {
+      "id": "D167091",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.371658229813689e-7
+    },
+    {
+      "id": "D168152",
+      "releaseRelativeDifference": 0.005832650298655786,
+      "finalStorageRelativeDifference": 0.0001740321223746567
+    },
+    {
+      "id": "D168173",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007637096291059791
+    },
+    {
+      "id": "D168186",
+      "releaseRelativeDifference": 0.0029297989680286346,
+      "finalStorageRelativeDifference": 0.001168765908396022
+    },
+    {
+      "id": "D168224",
+      "releaseRelativeDifference": 0.045225523866175094,
+      "finalStorageRelativeDifference": 0.0002978284993072175
+    },
+    {
+      "id": "D168482",
+      "releaseRelativeDifference": 0.004101091131126443,
+      "finalStorageRelativeDifference": 0.0020823267501590827
+    },
+    {
+      "id": "D169337",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000025957684074906295
+    },
+    {
+      "id": "D169346",
+      "releaseRelativeDifference": 0.005560340161298067,
+      "finalStorageRelativeDifference": 0.00028727080389392675
+    },
+    {
+      "id": "D169733",
+      "releaseRelativeDifference": 0.002921433005791331,
+      "finalStorageRelativeDifference": 0.00023029644795869353
+    },
+    {
+      "id": "D169878",
+      "releaseRelativeDifference": 0.0026374513073314895,
+      "finalStorageRelativeDifference": 0.00024708457462621885
+    },
+    {
+      "id": "D170032",
+      "releaseRelativeDifference": 0.0025832127848159736,
+      "finalStorageRelativeDifference": 0.001188679099167251
+    },
+    {
+      "id": "D170859",
+      "releaseRelativeDifference": 0.00006884279912620678,
+      "finalStorageRelativeDifference": 0.00010528099961866312
+    },
+    {
+      "id": "D171204",
+      "releaseRelativeDifference": 0.0011899395546829236,
+      "finalStorageRelativeDifference": 0.0012538956874063039
+    },
+    {
+      "id": "D171211",
+      "releaseRelativeDifference": 0.004930788475669139,
+      "finalStorageRelativeDifference": 0.000044548350066661214
+    },
+    {
+      "id": "D171242",
+      "releaseRelativeDifference": 0.0034019875460985487,
+      "finalStorageRelativeDifference": 0.0008150420793688151
+    },
+    {
+      "id": "D171251",
+      "releaseRelativeDifference": 0.006445417032952095,
+      "finalStorageRelativeDifference": 0.0008627904408157895
+    },
+    {
+      "id": "D171275",
+      "releaseRelativeDifference": 0.0013103774284008187,
+      "finalStorageRelativeDifference": 0.0003673094599016231
+    },
+    {
+      "id": "D171492",
+      "releaseRelativeDifference": 0.001322020921602681,
+      "finalStorageRelativeDifference": 0.0015364989491322965
+    },
+    {
+      "id": "D171530",
+      "releaseRelativeDifference": 0.0027854396563380033,
+      "finalStorageRelativeDifference": 0.0018660256958113579
+    },
+    {
+      "id": "D171587",
+      "releaseRelativeDifference": 0.003357499350452013,
+      "finalStorageRelativeDifference": 0.0007006075318641495
+    },
+    {
+      "id": "D171735",
+      "releaseRelativeDifference": 0.0007027411972595271,
+      "finalStorageRelativeDifference": 0.00028784224395501815
+    },
+    {
+      "id": "D172860",
+      "releaseRelativeDifference": 0.0038814137080707837,
+      "finalStorageRelativeDifference": 0.004330313334865232
+    },
+    {
+      "id": "D172866",
+      "releaseRelativeDifference": 0.0032600237582089183,
+      "finalStorageRelativeDifference": 0.002799733841228917
+    },
+    {
+      "id": "D173154",
+      "releaseRelativeDifference": 0.005163033722210106,
+      "finalStorageRelativeDifference": 0.0014825003916407176
+    },
+    {
+      "id": "D173947",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00006417236520402358
+    },
+    {
+      "id": "D174277",
+      "releaseRelativeDifference": 0.006242941768216421,
+      "finalStorageRelativeDifference": 0.00026953929316696006
+    },
+    {
+      "id": "D174327",
+      "releaseRelativeDifference": 0.0033695437176185852,
+      "finalStorageRelativeDifference": 0.0034678817545039154
+    },
+    {
+      "id": "D175489",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.009007203495202952
+    },
+    {
+      "id": "D175967",
+      "releaseRelativeDifference": 0.004953777119999344,
+      "finalStorageRelativeDifference": 0.006681573941149128
+    },
+    {
+      "id": "D176197",
+      "releaseRelativeDifference": 0.0035781046100299032,
+      "finalStorageRelativeDifference": 0.0012315908925555293
+    },
+    {
+      "id": "D177037",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00030881445754023316
+    },
+    {
+      "id": "D177045",
+      "releaseRelativeDifference": 0.012124807819762435,
+      "finalStorageRelativeDifference": 0.00011019817384971254
+    },
+    {
+      "id": "D177052",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000036626383492822186
+    },
+    {
+      "id": "D177067",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000533422585875951
+    },
+    {
+      "id": "D177139",
+      "releaseRelativeDifference": 0.000948468676386031,
+      "finalStorageRelativeDifference": 0.0019371850115962055
+    },
+    {
+      "id": "D177251",
+      "releaseRelativeDifference": 0.0003744369812060085,
+      "finalStorageRelativeDifference": 0.0007637885805865286
+    },
+    {
+      "id": "D177392",
+      "releaseRelativeDifference": 0.003587078111645326,
+      "finalStorageRelativeDifference": 0.00017760800353886663
+    },
+    {
+      "id": "D177821",
+      "releaseRelativeDifference": 0.000512547320228864,
+      "finalStorageRelativeDifference": 0.00008196442012610477
+    },
+    {
+      "id": "D177856",
+      "releaseRelativeDifference": 0.00013345386328480975,
+      "finalStorageRelativeDifference": 0.000008652634119592989
+    },
+    {
+      "id": "D178961",
+      "releaseRelativeDifference": 0.0020914230660217035,
+      "finalStorageRelativeDifference": 0.0019182550026604996
+    },
+    {
+      "id": "D179000",
+      "releaseRelativeDifference": 0.0024149030268114597,
+      "finalStorageRelativeDifference": 0.002027186617486153
+    },
+    {
+      "id": "D179078",
+      "releaseRelativeDifference": 0.0013153089505660547,
+      "finalStorageRelativeDifference": 0.001043039629877486
+    },
+    {
+      "id": "D180233",
+      "releaseRelativeDifference": 0.00035474350374891674,
+      "finalStorageRelativeDifference": 0.0013736879988744208
+    },
+    {
+      "id": "D180323",
+      "releaseRelativeDifference": 0.0003397111208849763,
+      "finalStorageRelativeDifference": 0.0001295322610688372
+    },
+    {
+      "id": "D180931",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000005868059319831401
+    },
+    {
+      "id": "D181687",
+      "releaseRelativeDifference": 0.00015657123409622801,
+      "finalStorageRelativeDifference": 0.0017319082217906012
+    },
+    {
+      "id": "D181970",
+      "releaseRelativeDifference": 0.009542074879951835,
+      "finalStorageRelativeDifference": 0.0007346653145212812
+    },
+    {
+      "id": "D181979",
+      "releaseRelativeDifference": 0.006019667212089854,
+      "finalStorageRelativeDifference": 0.000019901512300358908
+    },
+    {
+      "id": "D182043",
+      "releaseRelativeDifference": 0.00024052427793984344,
+      "finalStorageRelativeDifference": 0.00015691184534923425
+    },
+    {
+      "id": "D182087",
+      "releaseRelativeDifference": 0.0036700767948327816,
+      "finalStorageRelativeDifference": 0.0034353609135208676
+    },
+    {
+      "id": "D182100",
+      "releaseRelativeDifference": 0.0024578601988868086,
+      "finalStorageRelativeDifference": 0.0032044246249569104
+    },
+    {
+      "id": "D182153",
+      "releaseRelativeDifference": 0.0260692728630707,
+      "finalStorageRelativeDifference": 0.00040624445673630735
+    },
+    {
+      "id": "D182159",
+      "releaseRelativeDifference": 0.002659815438315419,
+      "finalStorageRelativeDifference": 0.0017195405738208724
+    },
+    {
+      "id": "D182164",
+      "releaseRelativeDifference": 0.002190749380340172,
+      "finalStorageRelativeDifference": 0.0016075192410338593
+    },
+    {
+      "id": "D182349",
+      "releaseRelativeDifference": 0.038308897554271505,
+      "finalStorageRelativeDifference": 0.0009619111673493148
+    },
+    {
+      "id": "D182365",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0005320258516098329
+    },
+    {
+      "id": "D183131",
+      "releaseRelativeDifference": 0.000045731430790997357,
+      "finalStorageRelativeDifference": 0.0016350741387719042
+    },
+    {
+      "id": "D183240",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012056709630405944
+    },
+    {
+      "id": "D183279",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00008428293630498534
+    },
+    {
+      "id": "D183357",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000011003321752654208
+    },
+    {
+      "id": "D183365",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00002942863315452456
+    },
+    {
+      "id": "D183379",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00007364399861961582
+    },
+    {
+      "id": "D183477",
+      "releaseRelativeDifference": 0.004969471804172156,
+      "finalStorageRelativeDifference": 0.00009010146863896976
+    },
+    {
+      "id": "D183521",
+      "releaseRelativeDifference": 0.0033542399601541955,
+      "finalStorageRelativeDifference": 0.0021742136389615845
+    },
+    {
+      "id": "D184773",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0028712145001802405
+    },
+    {
+      "id": "D184793",
+      "releaseRelativeDifference": 0.00021682579886785075,
+      "finalStorageRelativeDifference": 0.000420956311133512
+    },
+    {
+      "id": "D185162",
+      "releaseRelativeDifference": 0.007013592300864979,
+      "finalStorageRelativeDifference": 0.0021414573016036273
+    },
+    {
+      "id": "D185177",
+      "releaseRelativeDifference": 0.00175155170383273,
+      "finalStorageRelativeDifference": 0.001597979190723255
+    },
+    {
+      "id": "D185284",
+      "releaseRelativeDifference": 0.003447943268820706,
+      "finalStorageRelativeDifference": 0.00012365240344616054
+    },
+    {
+      "id": "D185355",
+      "releaseRelativeDifference": 0.002800174455068044,
+      "finalStorageRelativeDifference": 0.0014820730147600577
+    },
+    {
+      "id": "D185415",
+      "releaseRelativeDifference": 0.003571051904614108,
+      "finalStorageRelativeDifference": 0.0011235501186338034
+    },
+    {
+      "id": "D185423",
+      "releaseRelativeDifference": 0.01156994016287067,
+      "finalStorageRelativeDifference": 0.0007496266684195967
+    },
+    {
+      "id": "D185445",
+      "releaseRelativeDifference": 0.0140489559414271,
+      "finalStorageRelativeDifference": 0.0027398466520527826
+    },
+    {
+      "id": "D185453",
+      "releaseRelativeDifference": 0.017392393100873673,
+      "finalStorageRelativeDifference": 0.0007851770147089752
+    },
+    {
+      "id": "D185509",
+      "releaseRelativeDifference": 0.00045200100256764266,
+      "finalStorageRelativeDifference": 0.000020760147514510672
+    },
+    {
+      "id": "D185570",
+      "releaseRelativeDifference": 0.0005586627282254256,
+      "finalStorageRelativeDifference": 0.00010784362744490691
+    },
+    {
+      "id": "D186192",
+      "releaseRelativeDifference": 0.007457333515197272,
+      "finalStorageRelativeDifference": 0.0012875214567563
+    },
+    {
+      "id": "D186313",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0015259703356745099
+    },
+    {
+      "id": "D186342",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00008204252098884022
+    },
+    {
+      "id": "D186422",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00006594352489292024
+    },
+    {
+      "id": "D186593",
+      "releaseRelativeDifference": 0.003259726966876086,
+      "finalStorageRelativeDifference": 0.000013853631098902439
+    },
+    {
+      "id": "D186629",
+      "releaseRelativeDifference": 0.001790656447681032,
+      "finalStorageRelativeDifference": 0.0013952362405426273
+    },
+    {
+      "id": "D186833",
+      "releaseRelativeDifference": 0.0018423901505611674,
+      "finalStorageRelativeDifference": 0.0017032736742534085
+    },
+    {
+      "id": "D187853",
+      "releaseRelativeDifference": 0.0028500855180088316,
+      "finalStorageRelativeDifference": 0.00011424257567180627
+    },
+    {
+      "id": "D187898",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00018251349705960133
+    },
+    {
+      "id": "D187932",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00002198562537863099
+    },
+    {
+      "id": "D187951",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00004909695474659035
+    },
+    {
+      "id": "D187969",
+      "releaseRelativeDifference": 0.0003208120665184884,
+      "finalStorageRelativeDifference": 0.0000776981431634932
+    },
+    {
+      "id": "D187984",
+      "releaseRelativeDifference": 0.00012540980283206314,
+      "finalStorageRelativeDifference": 0.00030207910267051344
+    },
+    {
+      "id": "D188110",
+      "releaseRelativeDifference": 0.08415298295648982,
+      "finalStorageRelativeDifference": 0.0006306685857474592
+    },
+    {
+      "id": "D188170",
+      "releaseRelativeDifference": 0.001962324832715958,
+      "finalStorageRelativeDifference": 0.0012572123705681102
+    },
+    {
+      "id": "D188421",
+      "releaseRelativeDifference": 0.002007769257598293,
+      "finalStorageRelativeDifference": 0.00043618804161952234
+    },
+    {
+      "id": "D188432",
+      "releaseRelativeDifference": 0.005170688528223918,
+      "finalStorageRelativeDifference": 0.0015991076383374393
+    },
+    {
+      "id": "D189297",
+      "releaseRelativeDifference": 0.0013501380941191706,
+      "finalStorageRelativeDifference": 0.001855540242771497
+    },
+    {
+      "id": "D189301",
+      "releaseRelativeDifference": 0.0054997907079488,
+      "finalStorageRelativeDifference": 0.0011021527379307461
+    },
+    {
+      "id": "D189662",
+      "releaseRelativeDifference": 0.005936744025176419,
+      "finalStorageRelativeDifference": 0.002856696354659285
+    },
+    {
+      "id": "D190014",
+      "releaseRelativeDifference": 0.0041234738894260934,
+      "finalStorageRelativeDifference": 0.0007437053962870275
+    },
+    {
+      "id": "D190037",
+      "releaseRelativeDifference": 0.007982539830502091,
+      "finalStorageRelativeDifference": 0.0017938160028165577
+    },
+    {
+      "id": "D190050",
+      "releaseRelativeDifference": 0.011512417646742462,
+      "finalStorageRelativeDifference": 0.002972894220044965
+    },
+    {
+      "id": "D191291",
+      "releaseRelativeDifference": 0.0027399931228664436,
+      "finalStorageRelativeDifference": 0.003781420992221476
+    },
+    {
+      "id": "D191408",
+      "releaseRelativeDifference": 0.004192976440162974,
+      "finalStorageRelativeDifference": 0.0034524248290511103
+    },
+    {
+      "id": "D191471",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0018634264961928512
+    },
+    {
+      "id": "D191651",
+      "releaseRelativeDifference": 0.0011761520115722,
+      "finalStorageRelativeDifference": 0.00014216631508005495
+    },
+    {
+      "id": "D191657",
+      "releaseRelativeDifference": 0.00035903767573905454,
+      "finalStorageRelativeDifference": 0.00028043042747775954
+    },
+    {
+      "id": "D192548",
+      "releaseRelativeDifference": 0.00010499493288888554,
+      "finalStorageRelativeDifference": 0.0013889322262041848
+    },
+    {
+      "id": "D192645",
+      "releaseRelativeDifference": 0.003218188544874321,
+      "finalStorageRelativeDifference": 0.00022640399502300794
+    },
+    {
+      "id": "D192911",
+      "releaseRelativeDifference": 0.0027578801523621254,
+      "finalStorageRelativeDifference": 0.0018846586207992213
+    },
+    {
+      "id": "D192936",
+      "releaseRelativeDifference": 0.006929141699725814,
+      "finalStorageRelativeDifference": 0.0047998613286816235
+    },
+    {
+      "id": "D193064",
+      "releaseRelativeDifference": 0.012306426311298297,
+      "finalStorageRelativeDifference": 0.0002491822483088203
+    },
+    {
+      "id": "D193133",
+      "releaseRelativeDifference": 0.013376041064567756,
+      "finalStorageRelativeDifference": 0.0010730086118754308
+    },
+    {
+      "id": "D193196",
+      "releaseRelativeDifference": 0.00042233539478398944,
+      "finalStorageRelativeDifference": 0.00003960197647383865
+    },
+    {
+      "id": "D194286",
+      "releaseRelativeDifference": 0.0028341718466210484,
+      "finalStorageRelativeDifference": 0.00029931687953670865
+    },
+    {
+      "id": "D194361",
+      "releaseRelativeDifference": 0.0024449436995030304,
+      "finalStorageRelativeDifference": 0.0017073669924928773
+    },
+    {
+      "id": "D194486",
+      "releaseRelativeDifference": 0.005582651422229182,
+      "finalStorageRelativeDifference": 0.004286936342182879
+    },
+    {
+      "id": "D194619",
+      "releaseRelativeDifference": 0.0033368824698209944,
+      "finalStorageRelativeDifference": 0.0013366059687021997
+    },
+    {
+      "id": "D194680",
+      "releaseRelativeDifference": 0.033160488660902376,
+      "finalStorageRelativeDifference": 0.00030605828503232733
+    },
+    {
+      "id": "D195988",
+      "releaseRelativeDifference": 0.0027633681397871783,
+      "finalStorageRelativeDifference": 0.0022039605042081497
+    },
+    {
+      "id": "D196112",
+      "releaseRelativeDifference": 0.004504492429828592,
+      "finalStorageRelativeDifference": 0.0011523237560617937
+    },
+    {
+      "id": "D196202",
+      "releaseRelativeDifference": 0.008197811111906341,
+      "finalStorageRelativeDifference": 0.00034541625542342777
+    },
+    {
+      "id": "D196226",
+      "releaseRelativeDifference": 0.013944358977131286,
+      "finalStorageRelativeDifference": 0.0020675666580828654
+    },
+    {
+      "id": "D197235",
+      "releaseRelativeDifference": 0.0010678758850640455,
+      "finalStorageRelativeDifference": 0.0020858703703146215
+    },
+    {
+      "id": "D197573",
+      "releaseRelativeDifference": 0.004499373688361029,
+      "finalStorageRelativeDifference": 0.0011912156694557428
+    },
+    {
+      "id": "D198481",
+      "releaseRelativeDifference": 0.0022390443901287877,
+      "finalStorageRelativeDifference": 0.0003351633627680249
+    },
+    {
+      "id": "D198665",
+      "releaseRelativeDifference": 0.001311171107995411,
+      "finalStorageRelativeDifference": 0.0032100297933645165
+    },
+    {
+      "id": "D198783",
+      "releaseRelativeDifference": 0.013800440554049567,
+      "finalStorageRelativeDifference": 0.009294584912561759
+    },
+    {
+      "id": "D198894",
+      "releaseRelativeDifference": 0.0028495776076623153,
+      "finalStorageRelativeDifference": 0.0014044665245250114
+    },
+    {
+      "id": "D198986",
+      "releaseRelativeDifference": 0.008934946039203235,
+      "finalStorageRelativeDifference": 0.0003910020931542124
+    },
+    {
+      "id": "D199055",
+      "releaseRelativeDifference": 0.004754775499267008,
+      "finalStorageRelativeDifference": 0.0018527785912111306
+    },
+    {
+      "id": "D199136",
+      "releaseRelativeDifference": 0.004976349415638528,
+      "finalStorageRelativeDifference": 0.00014882976951850155
+    },
+    {
+      "id": "D199182",
+      "releaseRelativeDifference": 0.004441306028842315,
+      "finalStorageRelativeDifference": 0.0023285249834456697
+    },
+    {
+      "id": "D199230",
+      "releaseRelativeDifference": 0.008307573825209367,
+      "finalStorageRelativeDifference": 0.0020536205321898125
+    },
+    {
+      "id": "D199248",
+      "releaseRelativeDifference": 0.008101822277768398,
+      "finalStorageRelativeDifference": 0.0009113051120725903
+    },
+    {
+      "id": "D199286",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0014639210456169152
+    },
+    {
+      "id": "D200167",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0025315365393035697
+    },
+    {
+      "id": "D200315",
+      "releaseRelativeDifference": 0.0020243166415088486,
+      "finalStorageRelativeDifference": 0.0016589237652074346
+    },
+    {
+      "id": "D200327",
+      "releaseRelativeDifference": 0.0045986778073350415,
+      "finalStorageRelativeDifference": 0.00032592561733839554
+    },
+    {
+      "id": "D200480",
+      "releaseRelativeDifference": 0.0052237748576748535,
+      "finalStorageRelativeDifference": 0.00004891402621928905
+    },
+    {
+      "id": "D200533",
+      "releaseRelativeDifference": 0.0026367620991146956,
+      "finalStorageRelativeDifference": 0.0016153489439293162
+    },
+    {
+      "id": "D200657",
+      "releaseRelativeDifference": 0.002803997155089305,
+      "finalStorageRelativeDifference": 0.0020002324784012173
+    },
+    {
+      "id": "D200726",
+      "releaseRelativeDifference": 0.00900631763012656,
+      "finalStorageRelativeDifference": 0.00014186208792456949
+    },
+    {
+      "id": "D201548",
+      "releaseRelativeDifference": 0.00003303461082756684,
+      "finalStorageRelativeDifference": 0.001649148101220233
+    },
+    {
+      "id": "D201662",
+      "releaseRelativeDifference": 0.0059837532389112194,
+      "finalStorageRelativeDifference": 0.0014554338303563266
+    },
+    {
+      "id": "D201893",
+      "releaseRelativeDifference": 0.0027831583569067563,
+      "finalStorageRelativeDifference": 0.001999030579042802
+    },
+    {
+      "id": "D202025",
+      "releaseRelativeDifference": 0.004040108522446936,
+      "finalStorageRelativeDifference": 0.0006158838651901222
+    },
+    {
+      "id": "D202064",
+      "releaseRelativeDifference": 0.0035898449419338014,
+      "finalStorageRelativeDifference": 0.00016917785663613132
+    },
+    {
+      "id": "D202088",
+      "releaseRelativeDifference": 0.008012859104406817,
+      "finalStorageRelativeDifference": 0.00034945099268700346
+    },
+    {
+      "id": "D202109",
+      "releaseRelativeDifference": 0.021077758881124065,
+      "finalStorageRelativeDifference": 0.0000885092641428518
+    },
+    {
+      "id": "D202133",
+      "releaseRelativeDifference": 0.003194785103902061,
+      "finalStorageRelativeDifference": 0.0019349113320091126
+    },
+    {
+      "id": "D202142",
+      "releaseRelativeDifference": 0.005818338737539615,
+      "finalStorageRelativeDifference": 0.00016033762438469838
+    },
+    {
+      "id": "D202267",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.008566508768713033
+    },
+    {
+      "id": "D202290",
+      "releaseRelativeDifference": 0.07067845434486048,
+      "finalStorageRelativeDifference": 0.00031771835925478275
+    },
+    {
+      "id": "D202347",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0032675808972973176
+    },
+    {
+      "id": "D203170",
+      "releaseRelativeDifference": 0.0037188317049800827,
+      "finalStorageRelativeDifference": 0.00023322211777454237
+    },
+    {
+      "id": "D203385",
+      "releaseRelativeDifference": 0.003570729371135641,
+      "finalStorageRelativeDifference": 0.004838021700310061
+    },
+    {
+      "id": "D203463",
+      "releaseRelativeDifference": 0.0036413437544565155,
+      "finalStorageRelativeDifference": 0.0021546273103211114
+    },
+    {
+      "id": "D203852",
+      "releaseRelativeDifference": 0.007113011212536237,
+      "finalStorageRelativeDifference": 0.0018205194639770877
+    },
+    {
+      "id": "D204977",
+      "releaseRelativeDifference": 0.005712492294450166,
+      "finalStorageRelativeDifference": 0.0014953744348056837
+    },
+    {
+      "id": "D205049",
+      "releaseRelativeDifference": 0.0019795477934270033,
+      "finalStorageRelativeDifference": 0.002107233289860639
+    },
+    {
+      "id": "D205130",
+      "releaseRelativeDifference": 0.005908522865342038,
+      "finalStorageRelativeDifference": 0.00027331166110294825
+    },
+    {
+      "id": "D205290",
+      "releaseRelativeDifference": 0.029915994902077834,
+      "finalStorageRelativeDifference": 0.00018771770851499085
+    },
+    {
+      "id": "D205397",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004564856500535505
+    },
+    {
+      "id": "D205436",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00631403134105253
+    },
+    {
+      "id": "D206165",
+      "releaseRelativeDifference": 0.000051871485614010204,
+      "finalStorageRelativeDifference": 0.0011108501511821378
+    },
+    {
+      "id": "D206171",
+      "releaseRelativeDifference": 0.0009504347456481025,
+      "finalStorageRelativeDifference": 0.0006132516310393424
+    },
+    {
+      "id": "D206690",
+      "releaseRelativeDifference": 0.007522179274269415,
+      "finalStorageRelativeDifference": 0.005149640743477322
+    },
+    {
+      "id": "D206706",
+      "releaseRelativeDifference": 0.0034973116455331325,
+      "finalStorageRelativeDifference": 0.0015808756955514988
+    },
+    {
+      "id": "D206711",
+      "releaseRelativeDifference": 0.004400037409591827,
+      "finalStorageRelativeDifference": 0.0013302243189747727
+    },
+    {
+      "id": "D206796",
+      "releaseRelativeDifference": 0.002724446080061269,
+      "finalStorageRelativeDifference": 0.002519577159471693
+    },
+    {
+      "id": "D206849",
+      "releaseRelativeDifference": 0.003435391049801838,
+      "finalStorageRelativeDifference": 0.0007060254167908546
+    },
+    {
+      "id": "D206967",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.007784208923266601
+    },
+    {
+      "id": "D206982",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004589037850603217
+    },
+    {
+      "id": "D206988",
+      "releaseRelativeDifference": 0.012803533986556358,
+      "finalStorageRelativeDifference": 0.00031157553217340086
+    },
+    {
+      "id": "D207968",
+      "releaseRelativeDifference": 0.006489129673917976,
+      "finalStorageRelativeDifference": 0.0027017804300431426
+    },
+    {
+      "id": "D208220",
+      "releaseRelativeDifference": 0.0041169322349931484,
+      "finalStorageRelativeDifference": 0.00039128876038966643
+    },
+    {
+      "id": "D208375",
+      "releaseRelativeDifference": 0.005794660790358315,
+      "finalStorageRelativeDifference": 0.0006935823432759269
+    },
+    {
+      "id": "D208461",
+      "releaseRelativeDifference": 0.008627200304024082,
+      "finalStorageRelativeDifference": 0.001190866404639868
+    },
+    {
+      "id": "D209268",
+      "releaseRelativeDifference": 0.0023076392985962183,
+      "finalStorageRelativeDifference": 0.0054343104394865595
+    },
+    {
+      "id": "D209445",
+      "releaseRelativeDifference": 0.0019545828580419793,
+      "finalStorageRelativeDifference": 0.0027139604271212555
+    },
+    {
+      "id": "D209627",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012638290656149112
+    },
+    {
+      "id": "D209672",
+      "releaseRelativeDifference": 0.020353862225612602,
+      "finalStorageRelativeDifference": 0.003882767232492547
+    },
+    {
+      "id": "D209742",
+      "releaseRelativeDifference": 0.0031926016111514274,
+      "finalStorageRelativeDifference": 0.0022392598401155604
+    },
+    {
+      "id": "D209747",
+      "releaseRelativeDifference": 0.003461572224245548,
+      "finalStorageRelativeDifference": 0.000391659017085182
+    },
+    {
+      "id": "D209807",
+      "releaseRelativeDifference": 0.0031847046986407898,
+      "finalStorageRelativeDifference": 0.001136009039608158
+    },
+    {
+      "id": "D209838",
+      "releaseRelativeDifference": 0.0034621717415410716,
+      "finalStorageRelativeDifference": 0.00011395587033562172
+    },
+    {
+      "id": "D209900",
+      "releaseRelativeDifference": 0.0078011766001122905,
+      "finalStorageRelativeDifference": 0.0036448376264543187
+    },
+    {
+      "id": "D210054",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00012210552272863128
+    },
+    {
+      "id": "D210141",
+      "releaseRelativeDifference": 0.00007020035228889613,
+      "finalStorageRelativeDifference": 0.000014447543135789566
+    },
+    {
+      "id": "D211043",
+      "releaseRelativeDifference": 0.009626209242218735,
+      "finalStorageRelativeDifference": 0.003196195888920291
+    },
+    {
+      "id": "D211094",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0037078353567942188
+    },
+    {
+      "id": "D211125",
+      "releaseRelativeDifference": 0.009186026682840787,
+      "finalStorageRelativeDifference": 0.000023043174990115022
+    },
+    {
+      "id": "D211141",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006877756847691161
+    },
+    {
+      "id": "D211148",
+      "releaseRelativeDifference": 0.010555593186204488,
+      "finalStorageRelativeDifference": 0.0008478252299968268
+    },
+    {
+      "id": "D211233",
+      "releaseRelativeDifference": 0.0038084337863854897,
+      "finalStorageRelativeDifference": 0.001127222687548157
+    },
+    {
+      "id": "D211268",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0017539371172392664
+    },
+    {
+      "id": "D211473",
+      "releaseRelativeDifference": 0.005635813306056683,
+      "finalStorageRelativeDifference": 0.00024271451778032913
+    },
+    {
+      "id": "D211579",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.005060425674715147
+    },
+    {
+      "id": "D211645",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006310165116574435
+    },
+    {
+      "id": "D212511",
+      "releaseRelativeDifference": 0.0013269365976835358,
+      "finalStorageRelativeDifference": 0.002662378458570597
+    },
+    {
+      "id": "D212754",
+      "releaseRelativeDifference": 0.008514633954908308,
+      "finalStorageRelativeDifference": 0.0065328135357486765
+    },
+    {
+      "id": "D212785",
+      "releaseRelativeDifference": 0.003321932755901066,
+      "finalStorageRelativeDifference": 0.0011612526360418255
+    },
+    {
+      "id": "D212831",
+      "releaseRelativeDifference": 0.00652144473541581,
+      "finalStorageRelativeDifference": 0.0034631402563903217
+    },
+    {
+      "id": "D212900",
+      "releaseRelativeDifference": 0.002046503709895092,
+      "finalStorageRelativeDifference": 0.0017068134658119014
+    },
+    {
+      "id": "D212920",
+      "releaseRelativeDifference": 0.003794729494058299,
+      "finalStorageRelativeDifference": 0.00171247606367593
+    },
+    {
+      "id": "D212963",
+      "releaseRelativeDifference": 0.004067200042508857,
+      "finalStorageRelativeDifference": 0.00038389831387456824
+    },
+    {
+      "id": "D213047",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00029216483611884915
+    },
+    {
+      "id": "D213213",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000026299845590662307
+    },
+    {
+      "id": "D214353",
+      "releaseRelativeDifference": 0.003561391221590643,
+      "finalStorageRelativeDifference": 0.00043426650878467584
+    },
+    {
+      "id": "D214378",
+      "releaseRelativeDifference": 0.006459778826844791,
+      "finalStorageRelativeDifference": 0.000054577998050700945
+    },
+    {
+      "id": "D214460",
+      "releaseRelativeDifference": 0.003292301851746672,
+      "finalStorageRelativeDifference": 0.0015664141233850517
+    },
+    {
+      "id": "D214467",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.005638947837546346
+    },
+    {
+      "id": "D214535",
+      "releaseRelativeDifference": 0.00551232408975713,
+      "finalStorageRelativeDifference": 0.00029146070860203995
+    },
+    {
+      "id": "D215587",
+      "releaseRelativeDifference": 0.0017331421803122716,
+      "finalStorageRelativeDifference": 0.0011843496617728476
+    },
+    {
+      "id": "D215759",
+      "releaseRelativeDifference": 0.0060380713697482016,
+      "finalStorageRelativeDifference": 0.002313072039231331
+    },
+    {
+      "id": "D215810",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0011174431770736267
+    },
+    {
+      "id": "D215861",
+      "releaseRelativeDifference": 0.0018116196007063677,
+      "finalStorageRelativeDifference": 0.00024293391797396269
+    },
+    {
+      "id": "D217109",
+      "releaseRelativeDifference": 0.009230366425555253,
+      "finalStorageRelativeDifference": 0.0006150848467373236
+    },
+    {
+      "id": "D217314",
+      "releaseRelativeDifference": 0.000003190261041400188,
+      "finalStorageRelativeDifference": 0.00009506015722754208
+    },
+    {
+      "id": "D217796",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.01898400172508241
+    },
+    {
+      "id": "D218465",
+      "releaseRelativeDifference": 0.003718183129564599,
+      "finalStorageRelativeDifference": 0.0001077985907328243
+    },
+    {
+      "id": "D218543",
+      "releaseRelativeDifference": 0.0036827643147011777,
+      "finalStorageRelativeDifference": 0.0017747528853059096
+    },
+    {
+      "id": "D219062",
+      "releaseRelativeDifference": 0.0034191615937571047,
+      "finalStorageRelativeDifference": 0.0005829785557916007
+    },
+    {
+      "id": "D219081",
+      "releaseRelativeDifference": 0.0039036532871524502,
+      "finalStorageRelativeDifference": 0.0024378004034350167
+    },
+    {
+      "id": "D219204",
+      "releaseRelativeDifference": 0.0025263844514685357,
+      "finalStorageRelativeDifference": 0.0012338755624210765
+    },
+    {
+      "id": "D219336",
+      "releaseRelativeDifference": 0.0019164747299412485,
+      "finalStorageRelativeDifference": 0.00014832790306676386
+    },
+    {
+      "id": "D219360",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000049172221976772964
+    },
+    {
+      "id": "D220400",
+      "releaseRelativeDifference": 0.004556271741044579,
+      "finalStorageRelativeDifference": 0.0002744412000111095
+    },
+    {
+      "id": "D220557",
+      "releaseRelativeDifference": 0.0041211164421854915,
+      "finalStorageRelativeDifference": 0.0003443199511615832
+    },
+    {
+      "id": "D220571",
+      "releaseRelativeDifference": 0.005294908537511465,
+      "finalStorageRelativeDifference": 0.0004437124103144246
+    },
+    {
+      "id": "D221548",
+      "releaseRelativeDifference": 0.003695071271015982,
+      "finalStorageRelativeDifference": 0.0005798431489268945
+    },
+    {
+      "id": "D221625",
+      "releaseRelativeDifference": 0.0037036574466875766,
+      "finalStorageRelativeDifference": 0.0007052659443636664
+    },
+    {
+      "id": "D221709",
+      "releaseRelativeDifference": 0.0030310431151895838,
+      "finalStorageRelativeDifference": 0.0019359371454629837
+    },
+    {
+      "id": "D221900",
+      "releaseRelativeDifference": 0.004348305511273711,
+      "finalStorageRelativeDifference": 0.004093929846197144
+    },
+    {
+      "id": "D221948",
+      "releaseRelativeDifference": 0.0032932593500975297,
+      "finalStorageRelativeDifference": 0.0031962257861804268
+    },
+    {
+      "id": "D222044",
+      "releaseRelativeDifference": 0.0036181529563750515,
+      "finalStorageRelativeDifference": 0.0002999581172998713
+    },
+    {
+      "id": "D222062",
+      "releaseRelativeDifference": 0.00650586390207863,
+      "finalStorageRelativeDifference": 0.00006858128062351173
+    },
+    {
+      "id": "D222160",
+      "releaseRelativeDifference": 0.0040714085034971184,
+      "finalStorageRelativeDifference": 0.0006187085356394756
+    },
+    {
+      "id": "D222189",
+      "releaseRelativeDifference": 0.002300515133155192,
+      "finalStorageRelativeDifference": 0.0005206061253377671
+    },
+    {
+      "id": "D222249",
+      "releaseRelativeDifference": 0.001935026580125871,
+      "finalStorageRelativeDifference": 0.0014866680375743967
+    },
+    {
+      "id": "D222282",
+      "releaseRelativeDifference": 0.0030870399134637536,
+      "finalStorageRelativeDifference": 0.0009617580820667223
+    },
+    {
+      "id": "D222338",
+      "releaseRelativeDifference": 0.0014644458669205481,
+      "finalStorageRelativeDifference": 0.00022541811006147446
+    },
+    {
+      "id": "D223089",
+      "releaseRelativeDifference": 0.005394207465094967,
+      "finalStorageRelativeDifference": 0.0008293809107357328
+    },
+    {
+      "id": "D223965",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000027761120851055712
+    },
+    {
+      "id": "D224645",
+      "releaseRelativeDifference": 0.004433733475648274,
+      "finalStorageRelativeDifference": 0.0018167357967340317
+    },
+    {
+      "id": "D225128",
+      "releaseRelativeDifference": 0.001923542979355227,
+      "finalStorageRelativeDifference": 0.000716928786270363
+    },
+    {
+      "id": "D225356",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.008965561992457016
+    },
+    {
+      "id": "D225378",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0009558511160045927
+    },
+    {
+      "id": "D226335",
+      "releaseRelativeDifference": 0.0013883985903215066,
+      "finalStorageRelativeDifference": 0.00036249674041069203
+    },
+    {
+      "id": "D226882",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.005272727702901681
+    },
+    {
+      "id": "D227711",
+      "releaseRelativeDifference": 0.0017646635795659801,
+      "finalStorageRelativeDifference": 0.001651039323848009
+    },
+    {
+      "id": "D227752",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0005277628729040814
+    },
+    {
+      "id": "D227861",
+      "releaseRelativeDifference": 0.0012982947668512279,
+      "finalStorageRelativeDifference": 0.0013519457341015098
+    },
+    {
+      "id": "D228038",
+      "releaseRelativeDifference": 0.007444076427298323,
+      "finalStorageRelativeDifference": 0.0005049961036063347
+    },
+    {
+      "id": "D228065",
+      "releaseRelativeDifference": 0.01002600454201397,
+      "finalStorageRelativeDifference": 0.002299663504731419
+    },
+    {
+      "id": "D228194",
+      "releaseRelativeDifference": 0.004475980337079125,
+      "finalStorageRelativeDifference": 0.0008220565578158044
+    },
+    {
+      "id": "D228218",
+      "releaseRelativeDifference": 0.005750592412081717,
+      "finalStorageRelativeDifference": 0.0027757455660437215
+    },
+    {
+      "id": "D228305",
+      "releaseRelativeDifference": 0.002927063983292105,
+      "finalStorageRelativeDifference": 0.0005999774932705838
+    },
+    {
+      "id": "D228351",
+      "releaseRelativeDifference": 0.005289722295652924,
+      "finalStorageRelativeDifference": 0.00005727351863048824
+    },
+    {
+      "id": "D228401",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003891796057314949
+    },
+    {
+      "id": "D229804",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0020759347093777295
+    },
+    {
+      "id": "D229859",
+      "releaseRelativeDifference": 0.0038349096099505042,
+      "finalStorageRelativeDifference": 0.00046328485360766763
+    },
+    {
+      "id": "D231194",
+      "releaseRelativeDifference": 0.0024526701620774046,
+      "finalStorageRelativeDifference": 0.001517368093301344
+    },
+    {
+      "id": "D231234",
+      "releaseRelativeDifference": 0.0035185175886847213,
+      "finalStorageRelativeDifference": 0.000561347650218558
+    },
+    {
+      "id": "D231441",
+      "releaseRelativeDifference": 0.002540034353868357,
+      "finalStorageRelativeDifference": 0.0012561496622635398
+    },
+    {
+      "id": "D232711",
+      "releaseRelativeDifference": 0.004487050616613769,
+      "finalStorageRelativeDifference": 0.0017959214920369212
+    },
+    {
+      "id": "D232713",
+      "releaseRelativeDifference": 0.002946488510449785,
+      "finalStorageRelativeDifference": 0.0024480464764528903
+    },
+    {
+      "id": "D232789",
+      "releaseRelativeDifference": 0.0036253104307668463,
+      "finalStorageRelativeDifference": 0.00045387883614630476
+    },
+    {
+      "id": "D232848",
+      "releaseRelativeDifference": 0.007832972401385304,
+      "finalStorageRelativeDifference": 0.0003470226653131741
+    },
+    {
+      "id": "D233891",
+      "releaseRelativeDifference": 0.0020404220529335847,
+      "finalStorageRelativeDifference": 0.000040293864310375605
+    },
+    {
+      "id": "D233927",
+      "releaseRelativeDifference": 0.0021447839630512446,
+      "finalStorageRelativeDifference": 0.0008230852674326848
+    },
+    {
+      "id": "D233951",
+      "releaseRelativeDifference": 0.001378210395669679,
+      "finalStorageRelativeDifference": 0.001208468815250098
+    },
+    {
+      "id": "D234278",
+      "releaseRelativeDifference": 0.0014853445221816675,
+      "finalStorageRelativeDifference": 0.00011396256493767763
+    },
+    {
+      "id": "D234540",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0033667428357926515
+    },
+    {
+      "id": "D235439",
+      "releaseRelativeDifference": 0.0224220658531241,
+      "finalStorageRelativeDifference": 0.0007477767957513947
+    },
+    {
+      "id": "D235458",
+      "releaseRelativeDifference": 0.0012925977822589728,
+      "finalStorageRelativeDifference": 0.0022863479989769266
+    },
+    {
+      "id": "D235520",
+      "releaseRelativeDifference": 0.0008220913477542632,
+      "finalStorageRelativeDifference": 0.001109099553362979
+    },
+    {
+      "id": "D236990",
+      "releaseRelativeDifference": 0.0020313604075875183,
+      "finalStorageRelativeDifference": 0.0013317330912877433
+    },
+    {
+      "id": "D237098",
+      "releaseRelativeDifference": 0.0004594500427597894,
+      "finalStorageRelativeDifference": 0.0002580975466945723
+    },
+    {
+      "id": "D237227",
+      "releaseRelativeDifference": 0.002866048926183132,
+      "finalStorageRelativeDifference": 0.002001140279438775
+    },
+    {
+      "id": "D237326",
+      "releaseRelativeDifference": 0.002259304824710866,
+      "finalStorageRelativeDifference": 0.00005499176735625698
+    },
+    {
+      "id": "D237444",
+      "releaseRelativeDifference": 0.004037244168646831,
+      "finalStorageRelativeDifference": 0.00039381569044448007
+    },
+    {
+      "id": "D238961",
+      "releaseRelativeDifference": 0.0037374675794657553,
+      "finalStorageRelativeDifference": 0.0019185291862002527
+    },
+    {
+      "id": "D239063",
+      "releaseRelativeDifference": 0.0031947151997745397,
+      "finalStorageRelativeDifference": 0.0022024865506369345
+    },
+    {
+      "id": "D239090",
+      "releaseRelativeDifference": 0.0032229022558817595,
+      "finalStorageRelativeDifference": 0.0018068512099227055
+    },
+    {
+      "id": "D240140",
+      "releaseRelativeDifference": 0.0005232040213592994,
+      "finalStorageRelativeDifference": 0.0010377575320113005
+    },
+    {
+      "id": "D240215",
+      "releaseRelativeDifference": 0.00010504851544293578,
+      "finalStorageRelativeDifference": 0.00004334390351465277
+    },
+    {
+      "id": "D240487",
+      "releaseRelativeDifference": 0.023807628666365495,
+      "finalStorageRelativeDifference": 0.0005408308692085393
+    },
+    {
+      "id": "D240494",
+      "releaseRelativeDifference": 0.004147751298985671,
+      "finalStorageRelativeDifference": 0.00023927828694771897
+    },
+    {
+      "id": "D240629",
+      "releaseRelativeDifference": 0.005402411872827797,
+      "finalStorageRelativeDifference": 0.00017409943715942166
+    },
+    {
+      "id": "D240705",
+      "releaseRelativeDifference": 0.00009844502448672276,
+      "finalStorageRelativeDifference": 0.0005979350519309206
+    },
+    {
+      "id": "D241505",
+      "releaseRelativeDifference": 0.00045064862084616804,
+      "finalStorageRelativeDifference": 0.0017511736954430208
+    },
+    {
+      "id": "D241868",
+      "releaseRelativeDifference": 0.005014160058907959,
+      "finalStorageRelativeDifference": 0.0012469022254594797
+    },
+    {
+      "id": "D242063",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000776345271894346
+    },
+    {
+      "id": "D242195",
+      "releaseRelativeDifference": 0.024248061040010434,
+      "finalStorageRelativeDifference": 0.000029359230466689533
+    },
+    {
+      "id": "D243078",
+      "releaseRelativeDifference": 0.0010930347546170452,
+      "finalStorageRelativeDifference": 0.0012379483184499827
+    },
+    {
+      "id": "D243222",
+      "releaseRelativeDifference": 0.00016263628188025367,
+      "finalStorageRelativeDifference": 0.000437419497673805
+    },
+    {
+      "id": "D243228",
+      "releaseRelativeDifference": 0.0005271342977041254,
+      "finalStorageRelativeDifference": 0.0008266121855224924
+    },
+    {
+      "id": "D246198",
+      "releaseRelativeDifference": 0.0016486216076970323,
+      "finalStorageRelativeDifference": 0.000929654412753649
+    },
+    {
+      "id": "D246870",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00033013366603407027
+    },
+    {
+      "id": "D246998",
+      "releaseRelativeDifference": 0.000036800892523812974,
+      "finalStorageRelativeDifference": 0.000022973674412765446
+    },
+    {
+      "id": "D247021",
+      "releaseRelativeDifference": 0.0000882863304225792,
+      "finalStorageRelativeDifference": 0.000003387620975953053
+    },
+    {
+      "id": "D248165",
+      "releaseRelativeDifference": 0.011031544107946092,
+      "finalStorageRelativeDifference": 0.00017565347646112016
+    },
+    {
+      "id": "D248174",
+      "releaseRelativeDifference": 0.0034828659236465533,
+      "finalStorageRelativeDifference": 0.0032018574156044933
+    },
+    {
+      "id": "D248378",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00007968308444282964
+    },
+    {
+      "id": "D249394",
+      "releaseRelativeDifference": 0.00020074006556954733,
+      "finalStorageRelativeDifference": 0.00022075893553790153
+    },
+    {
+      "id": "D249477",
+      "releaseRelativeDifference": 0.004025056410763275,
+      "finalStorageRelativeDifference": 0.00012508490124441462
+    },
+    {
+      "id": "D249541",
+      "releaseRelativeDifference": 0.0006567697172689139,
+      "finalStorageRelativeDifference": 0.0009398958101781254
+    },
+    {
+      "id": "D249548",
+      "releaseRelativeDifference": 0.0005679285798666673,
+      "finalStorageRelativeDifference": 0.00004920267793555646
+    },
+    {
+      "id": "D250088",
+      "releaseRelativeDifference": 0.00006560551734868258,
+      "finalStorageRelativeDifference": 0.0000012298238957445718
+    },
+    {
+      "id": "D251449",
+      "releaseRelativeDifference": 0.00021748182178251075,
+      "finalStorageRelativeDifference": 0.000007997926243454463
+    },
+    {
+      "id": "D252317",
+      "releaseRelativeDifference": 0.0015497869061345498,
+      "finalStorageRelativeDifference": 0.0013069889945477333
+    },
+    {
+      "id": "D252426",
+      "releaseRelativeDifference": 0.0005562024592141994,
+      "finalStorageRelativeDifference": 0.0004596472255092258
+    },
+    {
+      "id": "D252549",
+      "releaseRelativeDifference": 0.00016980334068384626,
+      "finalStorageRelativeDifference": 0.000052148977686454964
+    },
+    {
+      "id": "D252936",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000361599316084884
+    },
+    {
+      "id": "D252941",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D253936",
+      "releaseRelativeDifference": 0.001643817237923631,
+      "finalStorageRelativeDifference": 0.00026046590324038617
+    },
+    {
+      "id": "D254459",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003629214259286823
+    },
+    {
+      "id": "D254655",
+      "releaseRelativeDifference": 0.000018381256569840327,
+      "finalStorageRelativeDifference": 0.00001845762943097365
+    },
+    {
+      "id": "D254688",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000011450343019206049
+    },
+    {
+      "id": "D255382",
+      "releaseRelativeDifference": 0.0015338580029094226,
+      "finalStorageRelativeDifference": 0.0011650350340824485
+    },
+    {
+      "id": "D257019",
+      "releaseRelativeDifference": 0.0008692207439482749,
+      "finalStorageRelativeDifference": 0.0005049162336075339
+    },
+    {
+      "id": "D257046",
+      "releaseRelativeDifference": 0.0012226182393486212,
+      "finalStorageRelativeDifference": 0.002000681365897418
+    },
+    {
+      "id": "D257622",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D257738",
+      "releaseRelativeDifference": 0.0000038699904843151835,
+      "finalStorageRelativeDifference": 0.0000021555150716343096
+    },
+    {
+      "id": "D258447",
+      "releaseRelativeDifference": 0.005458284688584907,
+      "finalStorageRelativeDifference": 0.0011864130064746844
+    },
+    {
+      "id": "D259118",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D259294",
+      "releaseRelativeDifference": 0.00019033854998775311,
+      "finalStorageRelativeDifference": 0.00000732270066061141
+    },
+    {
+      "id": "D260105",
+      "releaseRelativeDifference": 0.0007068676754513576,
+      "finalStorageRelativeDifference": 0.0010013456027526063
+    },
+    {
+      "id": "D260129",
+      "releaseRelativeDifference": 0.00043954677256316657,
+      "finalStorageRelativeDifference": 0.001227825717962305
+    },
+    {
+      "id": "D260690",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00008001014693958112
+    },
+    {
+      "id": "D260696",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D260741",
+      "releaseRelativeDifference": 0.0000010879769307451217,
+      "finalStorageRelativeDifference": 0.00019810378253239425
+    },
+    {
+      "id": "D261938",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000010496477190819054
+    },
+    {
+      "id": "D262250",
+      "releaseRelativeDifference": 0.0004437762002730119,
+      "finalStorageRelativeDifference": 0.00025176220525524986
+    },
+    {
+      "id": "D262271",
+      "releaseRelativeDifference": 0.00001234075176704607,
+      "finalStorageRelativeDifference": 0.000566710472741099
+    },
+    {
+      "id": "D263464",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 7.994218631671317e-13
+    },
+    {
+      "id": "D263717",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D263732",
+      "releaseRelativeDifference": 0.00011018394505350947,
+      "finalStorageRelativeDifference": 0.00005890986108143453
+    },
+    {
+      "id": "D263780",
+      "releaseRelativeDifference": 0.0006924086745278085,
+      "finalStorageRelativeDifference": 0.0002774115342798278
+    },
+    {
+      "id": "D263880",
+      "releaseRelativeDifference": 0.000004203818367840855,
+      "finalStorageRelativeDifference": 0.00001639129994339142
+    },
+    {
+      "id": "D264698",
+      "releaseRelativeDifference": 0.0014094751072547095,
+      "finalStorageRelativeDifference": 0.0005781600059420891
+    },
+    {
+      "id": "D264944",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00157433781259403
+    },
+    {
+      "id": "D264964",
+      "releaseRelativeDifference": 0.00018516099871644987,
+      "finalStorageRelativeDifference": 0.0000052682564597809565
+    },
+    {
+      "id": "D264980",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000002289636731918086
+    },
+    {
+      "id": "D265006",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.2292496072779232e-7
+    },
+    {
+      "id": "D265400",
+      "releaseRelativeDifference": 0.000002806137363053198,
+      "finalStorageRelativeDifference": 7.958799063622234e-7
+    },
+    {
+      "id": "D266213",
+      "releaseRelativeDifference": 0.0005417626387504898,
+      "finalStorageRelativeDifference": 0.0003354787124303003
+    },
+    {
+      "id": "D266264",
+      "releaseRelativeDifference": 0.0005856558122440285,
+      "finalStorageRelativeDifference": 0.0008560006266970767
+    },
+    {
+      "id": "D266309",
+      "releaseRelativeDifference": 0.000013141380185383751,
+      "finalStorageRelativeDifference": 0.0000017763228807281358
+    },
+    {
+      "id": "D266496",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00001905820070069762
+    },
+    {
+      "id": "D266527",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.9593104412415566e-7
+    },
+    {
+      "id": "D266947",
+      "releaseRelativeDifference": 0.0000024877494069239946,
+      "finalStorageRelativeDifference": 0.000004215336777803596
+    },
+    {
+      "id": "D267668",
+      "releaseRelativeDifference": 0.0013815660524876953,
+      "finalStorageRelativeDifference": 0.0013344291239009449
+    },
+    {
+      "id": "D269322",
+      "releaseRelativeDifference": 0.0007220373775572921,
+      "finalStorageRelativeDifference": 0.0013729331184533272
+    },
+    {
+      "id": "D269434",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 9.987069000898724e-7
+    },
+    {
+      "id": "D269509",
+      "releaseRelativeDifference": 0.00002083544779913732,
+      "finalStorageRelativeDifference": 0.000007424185748015327
+    },
+    {
+      "id": "D269542",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 6.231052458319516e-7
+    },
+    {
+      "id": "D269557",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.4369171708748324e-13
+    },
+    {
+      "id": "D269620",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 8.688403437772596e-7
+    },
+    {
+      "id": "D269831",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D269850",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D269854",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D269882",
+      "releaseRelativeDifference": 0.0005796785665912359,
+      "finalStorageRelativeDifference": 0.00022227461117685878
+    },
+    {
+      "id": "D269989",
+      "releaseRelativeDifference": 8.295987704685513e-7,
+      "finalStorageRelativeDifference": 0.000001442129698243869
+    },
+    {
+      "id": "D270889",
+      "releaseRelativeDifference": 0.0007077271497802575,
+      "finalStorageRelativeDifference": 0.00010790464486597776
+    },
+    {
+      "id": "D270955",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 1.081289210909006e-7
+    },
+    {
+      "id": "D271082",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.1051640106453504e-7
+    },
+    {
+      "id": "D272396",
+      "releaseRelativeDifference": 0.0013371897675303996,
+      "finalStorageRelativeDifference": 0.0014417634050184853
+    },
+    {
+      "id": "D272408",
+      "releaseRelativeDifference": 0.0010380720572733297,
+      "finalStorageRelativeDifference": 0.001566350742492927
+    },
+    {
+      "id": "D272514",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 5.386262757602932e-7
+    },
+    {
+      "id": "D272526",
+      "releaseRelativeDifference": 0.000008945087798831373,
+      "finalStorageRelativeDifference": 0.000006430956874566375
+    },
+    {
+      "id": "D272551",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 4.7617320586552303e-7
+    },
+    {
+      "id": "D272574",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 8.977220401336947e-7
+    },
+    {
+      "id": "D272900",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D272951",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D273783",
+      "releaseRelativeDifference": 0.00006955135052550077,
+      "finalStorageRelativeDifference": 0.00016188331797229043
+    },
+    {
+      "id": "D273950",
+      "releaseRelativeDifference": 0.0008709527801879722,
+      "finalStorageRelativeDifference": 0.0013524808917508091
+    },
+    {
+      "id": "D274120",
+      "releaseRelativeDifference": 0.000006998109684403397,
+      "finalStorageRelativeDifference": 0.000004645631715413067
+    },
+    {
+      "id": "D274172",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007730015234291727
+    },
+    {
+      "id": "D275366",
+      "releaseRelativeDifference": 0.0036596000853498616,
+      "finalStorageRelativeDifference": 0.0018627946545468278
+    },
+    {
+      "id": "D275390",
+      "releaseRelativeDifference": 0.0039651998547905395,
+      "finalStorageRelativeDifference": 0.0016875186717902437
+    },
+    {
+      "id": "D275397",
+      "releaseRelativeDifference": 0.006602242876187617,
+      "finalStorageRelativeDifference": 0.0024260573131909915
+    },
+    {
+      "id": "D275417",
+      "releaseRelativeDifference": 0.0017976151024658954,
+      "finalStorageRelativeDifference": 0.0008086815599397791
+    },
+    {
+      "id": "D275472",
+      "releaseRelativeDifference": 0.0010953081512326914,
+      "finalStorageRelativeDifference": 0.001859430424167611
+    },
+    {
+      "id": "D275711",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0002542784345586754
+    },
+    {
+      "id": "D275779",
+      "releaseRelativeDifference": 0.00009502257013959679,
+      "finalStorageRelativeDifference": 0.00003251310774139872
+    },
+    {
+      "id": "D275953",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D275993",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000019928540431543276
+    },
+    {
+      "id": "D275999",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00010198625431438491
+    },
+    {
+      "id": "D276062",
+      "releaseRelativeDifference": 0.0002809807422929125,
+      "finalStorageRelativeDifference": 0.0001633590294691187
+    },
+    {
+      "id": "D278432",
+      "releaseRelativeDifference": 0.0011397926689770362,
+      "finalStorageRelativeDifference": 0.0014419175634064107
+    },
+    {
+      "id": "D278454",
+      "releaseRelativeDifference": 0.002125629801284658,
+      "finalStorageRelativeDifference": 0.001362319270302461
+    },
+    {
+      "id": "D278480",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003260204949585445
+    },
+    {
+      "id": "D278538",
+      "releaseRelativeDifference": 0.0014589480818633278,
+      "finalStorageRelativeDifference": 0.001381950037547442
+    },
+    {
+      "id": "D278554",
+      "releaseRelativeDifference": 0.0008175366096904308,
+      "finalStorageRelativeDifference": 0.0009942266844393454
+    },
+    {
+      "id": "D278669",
+      "releaseRelativeDifference": 0.000012211102622425007,
+      "finalStorageRelativeDifference": 0.000023940377972927826
+    },
+    {
+      "id": "D278690",
+      "releaseRelativeDifference": 0.000035083574325219045,
+      "finalStorageRelativeDifference": 0.0000011091741990962871
+    },
+    {
+      "id": "D278699",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 7.420619485577515e-7
+    },
+    {
+      "id": "D278706",
+      "releaseRelativeDifference": 0.000016022268427940415,
+      "finalStorageRelativeDifference": 0.0000015245184789087758
+    },
+    {
+      "id": "D278788",
+      "releaseRelativeDifference": 0.19549195235706324,
+      "finalStorageRelativeDifference": 0.00011278359152080454
+    },
+    {
+      "id": "D279105",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D279137",
+      "releaseRelativeDifference": 0.00026139661611443096,
+      "finalStorageRelativeDifference": 0.0004555251341873875
+    },
+    {
+      "id": "D279275",
+      "releaseRelativeDifference": 0.000542344282115572,
+      "finalStorageRelativeDifference": 0.0007848106195015044
+    },
+    {
+      "id": "D279278",
+      "releaseRelativeDifference": 0.0017808091705609867,
+      "finalStorageRelativeDifference": 0.00035704707599603915
+    },
+    {
+      "id": "D280805",
+      "releaseRelativeDifference": 0.00023066254254528593,
+      "finalStorageRelativeDifference": 0.00001560143905105356
+    },
+    {
+      "id": "D281541",
+      "releaseRelativeDifference": 0.002344797608475655,
+      "finalStorageRelativeDifference": 0.0012762362106975126
+    },
+    {
+      "id": "D281568",
+      "releaseRelativeDifference": 0.0018907315618636171,
+      "finalStorageRelativeDifference": 0.0011697119383849177
+    },
+    {
+      "id": "D281642",
+      "releaseRelativeDifference": 0.0006983786994759329,
+      "finalStorageRelativeDifference": 0.00002432462380343679
+    },
+    {
+      "id": "D281933",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006479772083473434
+    },
+    {
+      "id": "D281940",
+      "releaseRelativeDifference": 0.0007801759927493989,
+      "finalStorageRelativeDifference": 0.00023593057079903624
+    },
+    {
+      "id": "D283341",
+      "releaseRelativeDifference": 0.000024864350339872572,
+      "finalStorageRelativeDifference": 0.000015047309250371893
+    },
+    {
+      "id": "D283371",
+      "releaseRelativeDifference": 0.0009940441507635355,
+      "finalStorageRelativeDifference": 0.0000372529902815695
+    },
+    {
+      "id": "D283877",
+      "releaseRelativeDifference": 0.0007152470407287887,
+      "finalStorageRelativeDifference": 0.00004328377458453261
+    },
+    {
+      "id": "D284554",
+      "releaseRelativeDifference": 0.00005049221305567182,
+      "finalStorageRelativeDifference": 0.00015053182595044348
+    },
+    {
+      "id": "D284655",
+      "releaseRelativeDifference": 0.0025327050613122115,
+      "finalStorageRelativeDifference": 0.0011651405710288738
+    },
+    {
+      "id": "D285063",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000802885115484343
+    },
+    {
+      "id": "D285075",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007274050187046602
+    },
+    {
+      "id": "D287770",
+      "releaseRelativeDifference": 0.00017612737497315064,
+      "finalStorageRelativeDifference": 0.0008734424386934446
+    },
+    {
+      "id": "D287777",
+      "releaseRelativeDifference": 0.000016182547325209042,
+      "finalStorageRelativeDifference": 0.0005021656294918671
+    },
+    {
+      "id": "D289239",
+      "releaseRelativeDifference": 0.0034376355227309116,
+      "finalStorageRelativeDifference": 0.00007312540996848787
+    },
+    {
+      "id": "D290858",
+      "releaseRelativeDifference": 0.0006382483389249303,
+      "finalStorageRelativeDifference": 0.0001328259866290293
+    },
+    {
+      "id": "D291095",
+      "releaseRelativeDifference": 0.00941738721995836,
+      "finalStorageRelativeDifference": 0.000031081089276520864
+    },
+    {
+      "id": "D291474",
+      "releaseRelativeDifference": 0.000002793344554848991,
+      "finalStorageRelativeDifference": 0.00009371872270230249
+    },
+    {
+      "id": "D293823",
+      "releaseRelativeDifference": 0.00437322604251983,
+      "finalStorageRelativeDifference": 0.0021842561823261423
+    },
+    {
+      "id": "D293865",
+      "releaseRelativeDifference": 0.0029991200810234857,
+      "finalStorageRelativeDifference": 0.0014877909245705058
+    },
+    {
+      "id": "D293942",
+      "releaseRelativeDifference": 0.0005713916673221316,
+      "finalStorageRelativeDifference": 0.0006998929675844981
+    },
+    {
+      "id": "D294152",
+      "releaseRelativeDifference": 0.0029864592586782593,
+      "finalStorageRelativeDifference": 0.00015636688296459555
+    },
+    {
+      "id": "D294161",
+      "releaseRelativeDifference": 0.0029845307423883743,
+      "finalStorageRelativeDifference": 0.00011693437163901194
+    },
+    {
+      "id": "D294250",
+      "releaseRelativeDifference": 0.0001923167933899848,
+      "finalStorageRelativeDifference": 0.0003878044442459638
+    },
+    {
+      "id": "D294314",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0009192853297593339
+    },
+    {
+      "id": "D294524",
+      "releaseRelativeDifference": 0.000010832799344311176,
+      "finalStorageRelativeDifference": 0.00001767737331920549
+    },
+    {
+      "id": "D294618",
+      "releaseRelativeDifference": 0.000009641887320819161,
+      "finalStorageRelativeDifference": 0.00021076857684003644
+    },
+    {
+      "id": "D295365",
+      "releaseRelativeDifference": 0.0019883130114135765,
+      "finalStorageRelativeDifference": 0.0009260142680803378
+    },
+    {
+      "id": "D295370",
+      "releaseRelativeDifference": 0.0018581162147343626,
+      "finalStorageRelativeDifference": 0.0011369896151042778
+    },
+    {
+      "id": "D295508",
+      "releaseRelativeDifference": 0.000023040110017968487,
+      "finalStorageRelativeDifference": 0.0010692121794451997
+    },
+    {
+      "id": "D295670",
+      "releaseRelativeDifference": 0.0013474375795520701,
+      "finalStorageRelativeDifference": 0.0005347154561534376
+    },
+    {
+      "id": "D295675",
+      "releaseRelativeDifference": 0.002263552804737116,
+      "finalStorageRelativeDifference": 0.0007601077971697352
+    },
+    {
+      "id": "D295730",
+      "releaseRelativeDifference": 0.0017544019229891548,
+      "finalStorageRelativeDifference": 0.00033975653195817275
+    },
+    {
+      "id": "D295800",
+      "releaseRelativeDifference": 0.00007592716741873577,
+      "finalStorageRelativeDifference": 0.000002230367137211815
+    },
+    {
+      "id": "D297203",
+      "releaseRelativeDifference": 0.0012718860244789448,
+      "finalStorageRelativeDifference": 0.0012286430044195415
+    },
+    {
+      "id": "D297382",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000595174690237441
+    },
+    {
+      "id": "D297401",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00022726046624750698
+    },
+    {
+      "id": "D298461",
+      "releaseRelativeDifference": 0.0031440590414152907,
+      "finalStorageRelativeDifference": 0.001114348637477462
+    },
+    {
+      "id": "D298498",
+      "releaseRelativeDifference": 0.0019410273153542751,
+      "finalStorageRelativeDifference": 0.00037146713011040655
+    },
+    {
+      "id": "D298572",
+      "releaseRelativeDifference": 0.00002028952249295217,
+      "finalStorageRelativeDifference": 0.0009632971416431332
+    },
+    {
+      "id": "D298584",
+      "releaseRelativeDifference": 0.000014147817161487821,
+      "finalStorageRelativeDifference": 0.00006522654493079534
+    },
+    {
+      "id": "D298591",
+      "releaseRelativeDifference": 0.00016173846760740798,
+      "finalStorageRelativeDifference": 0.00005489807886115712
+    },
+    {
+      "id": "D298619",
+      "releaseRelativeDifference": 0.000013363412817136517,
+      "finalStorageRelativeDifference": 0.00004826421047003716
+    },
+    {
+      "id": "D298719",
+      "releaseRelativeDifference": 0.00038640566879935133,
+      "finalStorageRelativeDifference": 0.0000680187847842526
+    },
+    {
+      "id": "D298745",
+      "releaseRelativeDifference": 0.00237569399578788,
+      "finalStorageRelativeDifference": 0.001186043464665586
+    },
+    {
+      "id": "D298785",
+      "releaseRelativeDifference": 0.004720833965569926,
+      "finalStorageRelativeDifference": 0.00004893300095991782
+    },
+    {
+      "id": "D298790",
+      "releaseRelativeDifference": 0.0020101120101086636,
+      "finalStorageRelativeDifference": 0.000037615858430861407
+    },
+    {
+      "id": "D298795",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0008808705226789539
+    },
+    {
+      "id": "D298808",
+      "releaseRelativeDifference": 0.03468141117190567,
+      "finalStorageRelativeDifference": 0.0038813117209097873
+    },
+    {
+      "id": "D300113",
+      "releaseRelativeDifference": 0.000039061143496072376,
+      "finalStorageRelativeDifference": 0.00007597537741710801
+    },
+    {
+      "id": "D300469",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00015836074245140414
+    },
+    {
+      "id": "D300499",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004397976329311271
+    },
+    {
+      "id": "D301678",
+      "releaseRelativeDifference": 0.000011912362533408274,
+      "finalStorageRelativeDifference": 0.000496855217113471
+    },
+    {
+      "id": "D301808",
+      "releaseRelativeDifference": 0.0012742482457095802,
+      "finalStorageRelativeDifference": 0.0006191950640038602
+    },
+    {
+      "id": "D301964",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0008339635881159125
+    },
+    {
+      "id": "D301970",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D302020",
+      "releaseRelativeDifference": 0.000054950569157115786,
+      "finalStorageRelativeDifference": 0.0003169316712657947
+    },
+    {
+      "id": "D302044",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0002464871701962569
+    },
+    {
+      "id": "D302065",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000717281008120671
+    },
+    {
+      "id": "D302184",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000018786992264419627
+    },
+    {
+      "id": "D303221",
+      "releaseRelativeDifference": 0.000008572375051457278,
+      "finalStorageRelativeDifference": 0.0002723018170075992
+    },
+    {
+      "id": "D303327",
+      "releaseRelativeDifference": 0.0004609603456460753,
+      "finalStorageRelativeDifference": 0.00020118758843729813
+    },
+    {
+      "id": "D303526",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00035420737665388386
+    },
+    {
+      "id": "D303548",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012024859562531948
+    },
+    {
+      "id": "D304605",
+      "releaseRelativeDifference": 0.0025908153795589804,
+      "finalStorageRelativeDifference": 0.0014536428227274298
+    },
+    {
+      "id": "D304905",
+      "releaseRelativeDifference": 0.0024759361662336186,
+      "finalStorageRelativeDifference": 0.0010052974009660146
+    },
+    {
+      "id": "D304925",
+      "releaseRelativeDifference": 0.004695848612838346,
+      "finalStorageRelativeDifference": 0.00011262362499123827
+    },
+    {
+      "id": "D304935",
+      "releaseRelativeDifference": 0.004699380779517964,
+      "finalStorageRelativeDifference": 0.00005033085409886096
+    },
+    {
+      "id": "D305046",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000019358099354620387
+    },
+    {
+      "id": "D305130",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00011239911330457057
+    },
+    {
+      "id": "D305168",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00022435202211020086
+    },
+    {
+      "id": "D305176",
+      "releaseRelativeDifference": 0.00022165076589313255,
+      "finalStorageRelativeDifference": 0.000023002631831353548
+    },
+    {
+      "id": "D305227",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D306541",
+      "releaseRelativeDifference": 0.0009228335972170366,
+      "finalStorageRelativeDifference": 0.00002242945092878982
+    },
+    {
+      "id": "D306570",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000762603671269224
+    },
+    {
+      "id": "D306589",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000024174180601430423
+    },
+    {
+      "id": "D307755",
+      "releaseRelativeDifference": 0.0006677033663119882,
+      "finalStorageRelativeDifference": 0.0007153523308192794
+    },
+    {
+      "id": "D307759",
+      "releaseRelativeDifference": 0.001837084706480349,
+      "finalStorageRelativeDifference": 0.0002157934113749295
+    },
+    {
+      "id": "D307820",
+      "releaseRelativeDifference": 0.000008248778414533131,
+      "finalStorageRelativeDifference": 0.0002804758049620021
+    },
+    {
+      "id": "D307977",
+      "releaseRelativeDifference": 0.0023612922934706042,
+      "finalStorageRelativeDifference": 0.0002787633362925698
+    },
+    {
+      "id": "D308026",
+      "releaseRelativeDifference": 0.0022715684365338822,
+      "finalStorageRelativeDifference": 0.0006463993998856797
+    },
+    {
+      "id": "D308032",
+      "releaseRelativeDifference": 0.004567654346705072,
+      "finalStorageRelativeDifference": 0.00012051437646375683
+    },
+    {
+      "id": "D308115",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012291075285736327
+    },
+    {
+      "id": "D308175",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000292008865718831
+    },
+    {
+      "id": "D309172",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007833461659607277
+    },
+    {
+      "id": "D309282",
+      "releaseRelativeDifference": 0.0016930651382422144,
+      "finalStorageRelativeDifference": 0.0006181142618872546
+    },
+    {
+      "id": "D309530",
+      "releaseRelativeDifference": 0.004637941073750228,
+      "finalStorageRelativeDifference": 0.0011083993514689674
+    },
+    {
+      "id": "D309692",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.007536977702849848
+    },
+    {
+      "id": "D309723",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00410252214535121
+    },
+    {
+      "id": "D309796",
+      "releaseRelativeDifference": 0.0000022111465483448082,
+      "finalStorageRelativeDifference": 0.00002178949396051349
+    },
+    {
+      "id": "D309820",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00012994836163508723
+    },
+    {
+      "id": "D309829",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0001800713123591196
+    },
+    {
+      "id": "D310851",
+      "releaseRelativeDifference": 0.000009380975765393664,
+      "finalStorageRelativeDifference": 0.00025244032107767333
+    },
+    {
+      "id": "D311116",
+      "releaseRelativeDifference": 0.0032138288432069593,
+      "finalStorageRelativeDifference": 0.000014153049457790493
+    },
+    {
+      "id": "D311158",
+      "releaseRelativeDifference": 0.00020470707647651839,
+      "finalStorageRelativeDifference": 0.000007767042020684672
+    },
+    {
+      "id": "D311175",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000835096428766377
+    },
+    {
+      "id": "D311329",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00043408711903639683
+    },
+    {
+      "id": "D312255",
+      "releaseRelativeDifference": 0.00006964820878267676,
+      "finalStorageRelativeDifference": 0.0001546530890347379
+    },
+    {
+      "id": "D312330",
+      "releaseRelativeDifference": 0.0012687863508172846,
+      "finalStorageRelativeDifference": 0.00012323811609290709
+    },
+    {
+      "id": "D312731",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000017510515850587652
+    },
+    {
+      "id": "D312742",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00007852459221844567
+    },
+    {
+      "id": "D312794",
+      "releaseRelativeDifference": 0.004534059260638017,
+      "finalStorageRelativeDifference": 0.000004855123663994798
+    },
+    {
+      "id": "D312802",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000013658117769604477
+    },
+    {
+      "id": "D312836",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00025881298641791786
+    },
+    {
+      "id": "D312839",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00008046541796655688
+    },
+    {
+      "id": "D312883",
+      "releaseRelativeDifference": 0.00042239808149459866,
+      "finalStorageRelativeDifference": 0.00004731324011179054
+    },
+    {
+      "id": "D312918",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000033003258176275743
+    },
+    {
+      "id": "D313899",
+      "releaseRelativeDifference": 0.0006224789318261404,
+      "finalStorageRelativeDifference": 0.00020803271334767572
+    },
+    {
+      "id": "D314298",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00004056613667597449
+    },
+    {
+      "id": "D314353",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000058118159589432166
+    },
+    {
+      "id": "D316942",
+      "releaseRelativeDifference": 0.0006601621701609318,
+      "finalStorageRelativeDifference": 0.000014285615683254402
+    },
+    {
+      "id": "D316955",
+      "releaseRelativeDifference": 0.0006526743786663592,
+      "finalStorageRelativeDifference": 0.0004456079079803273
+    },
+    {
+      "id": "D317216",
+      "releaseRelativeDifference": 0.004356429336344467,
+      "finalStorageRelativeDifference": 0.00007553529208572625
+    },
+    {
+      "id": "D317234",
+      "releaseRelativeDifference": 0.09575013566300294,
+      "finalStorageRelativeDifference": 0.0008603864758373836
+    },
+    {
+      "id": "D317462",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0017838999917300059
+    },
+    {
+      "id": "D317477",
+      "releaseRelativeDifference": 0.000021174779471820064,
+      "finalStorageRelativeDifference": 0.00002242785497636613
+    },
+    {
+      "id": "D317503",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000842038542986757
+    },
+    {
+      "id": "D318414",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0010179471036077558
+    },
+    {
+      "id": "D320473",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.001087615204832844
+    },
+    {
+      "id": "D320571",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00047865154808796696
+    },
+    {
+      "id": "D321511",
+      "releaseRelativeDifference": 0.0000426064426340938,
+      "finalStorageRelativeDifference": 0.00048275839372898866
+    },
+    {
+      "id": "D321905",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00023188274212312398
+    },
+    {
+      "id": "D321912",
+      "releaseRelativeDifference": 0.00004955307011171123,
+      "finalStorageRelativeDifference": 0.00007388597988148452
+    },
+    {
+      "id": "D322090",
+      "releaseRelativeDifference": 0.00001929884796590942,
+      "finalStorageRelativeDifference": 0.00016422184343592086
+    },
+    {
+      "id": "D322115",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00004603292793755476
+    },
+    {
+      "id": "D323635",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006985141876028172
+    },
+    {
+      "id": "D324927",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D326169",
+      "releaseRelativeDifference": 0.000006197936973112918,
+      "finalStorageRelativeDifference": 0.00023238192116360265
+    },
+    {
+      "id": "D326459",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0010167353389859833
+    },
+    {
+      "id": "D326467",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D326481",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D327739",
+      "releaseRelativeDifference": 0.00039003432720956515,
+      "finalStorageRelativeDifference": 0.00018631661738419074
+    },
+    {
+      "id": "D327772",
+      "releaseRelativeDifference": 0.000008187002584282807,
+      "finalStorageRelativeDifference": 0.00031362808514550267
+    },
+    {
+      "id": "D329566",
+      "releaseRelativeDifference": 0.00007246420259388938,
+      "finalStorageRelativeDifference": 0.00014918894061264487
+    },
+    {
+      "id": "D331088",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D332325",
+      "releaseRelativeDifference": 0.0000067727679895504406,
+      "finalStorageRelativeDifference": 0.00027541371257789205
+    },
+    {
+      "id": "D332343",
+      "releaseRelativeDifference": 0.0003660147051176889,
+      "finalStorageRelativeDifference": 0.00009563040291947566
+    },
+    {
+      "id": "D332611",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D332926",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0014573316480441946
+    },
+    {
+      "id": "D334177",
+      "releaseRelativeDifference": 0.00007078139479857012,
+      "finalStorageRelativeDifference": 0.000024689024463413527
+    },
+    {
+      "id": "D335411",
+      "releaseRelativeDifference": 0.0004713403343036389,
+      "finalStorageRelativeDifference": 0.0002654127871198506
+    },
+    {
+      "id": "D335988",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D336008",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D339078",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D340265",
+      "releaseRelativeDifference": 0.007570396800801947,
+      "finalStorageRelativeDifference": 0.0020910269409544287
+    },
+    {
+      "id": "D340524",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D341863",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D342125",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D342152",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D344919",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D344924",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D346127",
+      "releaseRelativeDifference": 0.000007159858491960816,
+      "finalStorageRelativeDifference": 0.00025024951583799295
+    },
+    {
+      "id": "D346450",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D346638",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D346758",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D347970",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D348136",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0010094510943667767
+    },
+    {
+      "id": "D349829",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D351353",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D351360",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D352586",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D352607",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D354268",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0017559946588009028
+    },
+    {
+      "id": "D355667",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D355673",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D357314",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0027310546888389925
+    },
+    {
+      "id": "D357318",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.002777770633310487
+    },
+    {
+      "id": "D357330",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0009062053425342967
+    },
+    {
+      "id": "D357476",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D357511",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D357519",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D358873",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D360421",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D361943",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D363508",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D363601",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0012834356186711784
+    },
+    {
+      "id": "D363656",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D364980",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D365039",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D366554",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D366569",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D366617",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D366649",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D366676",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D368081",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D368176",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D368252",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D369701",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D369756",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D369773",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D371076",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.008286920474128595
+    },
+    {
+      "id": "D371273",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D371351",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D371369",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D374143",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D374259",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D374402",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D374444",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00033170733843147174
+    },
+    {
+      "id": "D377171",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377223",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377252",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000543239954690095
+    },
+    {
+      "id": "D377309",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377369",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377411",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377462",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377499",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D377512",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0004194373773630606
+    },
+    {
+      "id": "D377523",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00020358315576267592
+    },
+    {
+      "id": "D377528",
+      "releaseRelativeDifference": 0.0008315491747721075,
+      "finalStorageRelativeDifference": 0.000870728532241906
+    },
+    {
+      "id": "D378770",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0027073277881286685
+    },
+    {
+      "id": "D378776",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D378850",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D380420",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D381842",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000977608793078162
+    },
+    {
+      "id": "D381961",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383471",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383481",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383511",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383555",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383565",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D383643",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D385132",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D386613",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D386642",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D386674",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D386733",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00010170235894970489
+    },
+    {
+      "id": "D387998",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D389581",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D390987",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D391037",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003973604567875842
+    },
+    {
+      "id": "D391058",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D391085",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D391289",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D392637",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D392696",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D392762",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D394123",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D394329",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D395594",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D395638",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D397358",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D397392",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D397398",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D398720",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D398765",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D398897",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D400268",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D400442",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D400457",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D401764",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00039382103568261884
+    },
+    {
+      "id": "D401771",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D401789",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D403284",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D403385",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D403542",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D403608",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D404867",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D405183",
+      "releaseRelativeDifference": 0.00002252310739161726,
+      "finalStorageRelativeDifference": 0.00005813876133332562
+    },
+    {
+      "id": "D406487",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D406513",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D406652",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D406683",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D407966",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D408011",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D408138",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D409418",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D409701",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D410960",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D410969",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D412544",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D412755",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D412787",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D412829",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D414075",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D414258",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D414335",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0022302615556137055
+    },
+    {
+      "id": "D415718",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D415745",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D417369",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D418838",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D420209",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003488592094334669
+    },
+    {
+      "id": "D420308",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D420368",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D420413",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D420465",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D421722",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D421772",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D421854",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D421973",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D421996",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D423497",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D423528",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D423539",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D424823",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0014774484244937554
+    },
+    {
+      "id": "D424943",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D429440",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00008327455890186059
+    },
+    {
+      "id": "D429633",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D429725",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432530",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432551",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432615",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432716",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432732",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D432740",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D435620",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D435647",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D435805",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D438638",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00025064290456777174
+    },
+    {
+      "id": "D438749",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D440402",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D441749",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D441804",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D441825",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D441904",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D443442",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003428261978222313
+    },
+    {
+      "id": "D444983",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0002836336401491363
+    },
+    {
+      "id": "D445045",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00015757965905743946
+    },
+    {
+      "id": "D446361",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000020678364970473634
+    },
+    {
+      "id": "D446396",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D446525",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D448063",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00025759449980800096
+    },
+    {
+      "id": "D448085",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00033492148185726715
+    },
+    {
+      "id": "D449429",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D449479",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D449489",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D449687",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00022307970285996638
+    },
+    {
+      "id": "D451004",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D452683",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D454014",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00020721744185449417
+    },
+    {
+      "id": "D454211",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0004196919788779854
+    },
+    {
+      "id": "D455602",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D455608",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D455622",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D455754",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D455770",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000014739249405851685
+    },
+    {
+      "id": "D455832",
+      "releaseRelativeDifference": 0.0003141233865993476,
+      "finalStorageRelativeDifference": 0.0010699982051353538
+    },
+    {
+      "id": "D461741",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D463240",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00017933540088264783
+    },
+    {
+      "id": "D469434",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D471168",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000028779071239674448
+    },
+    {
+      "id": "D474929",
+      "releaseRelativeDifference": 0.000011419409067164775,
+      "finalStorageRelativeDifference": 0.0001617840726097439
+    },
+    {
+      "id": "D475569",
+      "releaseRelativeDifference": 0.000004438190287395294,
+      "finalStorageRelativeDifference": 0.0002073125625327653
+    },
+    {
+      "id": "D475783",
+      "releaseRelativeDifference": 0.00003515162673818488,
+      "finalStorageRelativeDifference": 0.00003125775033394338
+    },
+    {
+      "id": "D478647",
+      "releaseRelativeDifference": 0.0000049282226180787455,
+      "finalStorageRelativeDifference": 0.00024033990678811308
+    },
+    {
+      "id": "D484148",
+      "releaseRelativeDifference": 0.000007899517074090202,
+      "finalStorageRelativeDifference": 0.000312299595934071
+    },
+    {
+      "id": "D484805",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00000875761584986958
+    },
+    {
+      "id": "D500145",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000026560379088552737
+    },
+    {
+      "id": "D505625",
+      "releaseRelativeDifference": 0.0000035225445609422107,
+      "finalStorageRelativeDifference": 0.0001787081871275492
+    },
+    {
+      "id": "D507864",
+      "releaseRelativeDifference": 0.00001072039546560476,
+      "finalStorageRelativeDifference": 0.00003536586403603353
+    },
+    {
+      "id": "D511784",
+      "releaseRelativeDifference": 0.000004828313422362894,
+      "finalStorageRelativeDifference": 0.000016316283309312602
+    },
+    {
+      "id": "D517092",
+      "releaseRelativeDifference": 9.352474424317378e-7,
+      "finalStorageRelativeDifference": 0.00005951181120074295
+    },
+    {
+      "id": "D517906",
+      "releaseRelativeDifference": 0.000083244908014586,
+      "finalStorageRelativeDifference": 0.000024128653940134428
+    },
+    {
+      "id": "D520136",
+      "releaseRelativeDifference": 0.0000032312791541339153,
+      "finalStorageRelativeDifference": 0.000011749674493941284
+    },
+    {
+      "id": "D529367",
+      "releaseRelativeDifference": 0.000014600842286241794,
+      "finalStorageRelativeDifference": 0.00009206007658990119
+    },
+    {
+      "id": "D533309",
+      "releaseRelativeDifference": 0.0009467386868877877,
+      "finalStorageRelativeDifference": 0.0006761252663283107
+    },
+    {
+      "id": "D533373",
+      "releaseRelativeDifference": 0.0000049816558902186446,
+      "finalStorageRelativeDifference": 0.0002973206574783771
+    },
+    {
+      "id": "D536327",
+      "releaseRelativeDifference": 0.0005399441019133569,
+      "finalStorageRelativeDifference": 0.00011882010898593364
+    },
+    {
+      "id": "D537246",
+      "releaseRelativeDifference": 1.412707621101583e-7,
+      "finalStorageRelativeDifference": 3.6209498232324974e-7
+    },
+    {
+      "id": "D539451",
+      "releaseRelativeDifference": 0.000016682013879812478,
+      "finalStorageRelativeDifference": 0.00018874563851959368
+    },
+    {
+      "id": "D542512",
+      "releaseRelativeDifference": 0.000025655189594313042,
+      "finalStorageRelativeDifference": 0.0000829123853313299
+    },
+    {
+      "id": "D542601",
+      "releaseRelativeDifference": 0.00003047001931040363,
+      "finalStorageRelativeDifference": 0.00011352872378093146
+    },
+    {
+      "id": "D544008",
+      "releaseRelativeDifference": 0.0006173602186958064,
+      "finalStorageRelativeDifference": 0.00009714473011022226
+    },
+    {
+      "id": "D545650",
+      "releaseRelativeDifference": 0.00000776280830957227,
+      "finalStorageRelativeDifference": 0.00004812492518798659
+    },
+    {
+      "id": "D547139",
+      "releaseRelativeDifference": 0.000014106756363273196,
+      "finalStorageRelativeDifference": 0.0002782953153971175
+    },
+    {
+      "id": "D547833",
+      "releaseRelativeDifference": 0.0000017107355384409882,
+      "finalStorageRelativeDifference": 0.000007535450666140965
+    },
+    {
+      "id": "D550271",
+      "releaseRelativeDifference": 0.0000031580828264621417,
+      "finalStorageRelativeDifference": 0.000037239177818645076
+    },
+    {
+      "id": "D550283",
+      "releaseRelativeDifference": 0.0000033248450833309117,
+      "finalStorageRelativeDifference": 0.00017241797778835542
+    },
+    {
+      "id": "D550289",
+      "releaseRelativeDifference": 0.00000645225934239238,
+      "finalStorageRelativeDifference": 0.00020804867276001432
+    },
+    {
+      "id": "D551814",
+      "releaseRelativeDifference": 0.000009514727272754861,
+      "finalStorageRelativeDifference": 0.00019599652150218512
+    },
+    {
+      "id": "D553223",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00044689433849475114
+    },
+    {
+      "id": "D553329",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00045604976789477087
+    },
+    {
+      "id": "D556340",
+      "releaseRelativeDifference": 0.00014547417173898998,
+      "finalStorageRelativeDifference": 0.00010913171723825088
+    },
+    {
+      "id": "D558740",
+      "releaseRelativeDifference": 0.000005522682140429821,
+      "finalStorageRelativeDifference": 0.00019393967403673486
+    },
+    {
+      "id": "D562490",
+      "releaseRelativeDifference": 0.000012984558068019042,
+      "finalStorageRelativeDifference": 0.00016162940306750612
+    },
+    {
+      "id": "D562506",
+      "releaseRelativeDifference": 0.00002676990419204654,
+      "finalStorageRelativeDifference": 0.000011236885892590531
+    },
+    {
+      "id": "D562558",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00012925776819483505
+    },
+    {
+      "id": "D564905",
+      "releaseRelativeDifference": 0.00001308695707116091,
+      "finalStorageRelativeDifference": 0.000017741948716971806
+    },
+    {
+      "id": "D565495",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003622704900037952
+    },
+    {
+      "id": "D567047",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00017904706657492252
+    },
+    {
+      "id": "D568618",
+      "releaseRelativeDifference": 6.282739067034078e-7,
+      "finalStorageRelativeDifference": 0.00016161043096603697
+    },
+    {
+      "id": "D570198",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00036297912744322317
+    },
+    {
+      "id": "D574091",
+      "releaseRelativeDifference": 0.00000779416228273854,
+      "finalStorageRelativeDifference": 0.00021584989115453913
+    },
+    {
+      "id": "D574123",
+      "releaseRelativeDifference": 0.000008253793631230257,
+      "finalStorageRelativeDifference": 0.00005239955205972722
+    },
+    {
+      "id": "D574846",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000500193532109943
+    },
+    {
+      "id": "D576248",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003869331125874707
+    },
+    {
+      "id": "D576257",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00048668949031385403
+    },
+    {
+      "id": "D576306",
+      "releaseRelativeDifference": 0.0013215404369531132,
+      "finalStorageRelativeDifference": 0.000160205371727708
+    },
+    {
+      "id": "D576311",
+      "releaseRelativeDifference": 0.0005792053018516345,
+      "finalStorageRelativeDifference": 0.00006319056775360824
+    },
+    {
+      "id": "D576340",
+      "releaseRelativeDifference": 0.000006818661516098188,
+      "finalStorageRelativeDifference": 0.00009036713172368873
+    },
+    {
+      "id": "D576351",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0026983568456312302
+    },
+    {
+      "id": "D577200",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000023497446172652493
+    },
+    {
+      "id": "D579437",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0020045715725801627
+    },
+    {
+      "id": "D582482",
+      "releaseRelativeDifference": 0.0004727740174597362,
+      "finalStorageRelativeDifference": 0.000006760311429032371
+    },
+    {
+      "id": "D583995",
+      "releaseRelativeDifference": 0.0005808020052284559,
+      "finalStorageRelativeDifference": 0.000009468528251320519
+    },
+    {
+      "id": "D585562",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D585568",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D588659",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D590094",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00006705172618236785
+    },
+    {
+      "id": "D590147",
+      "releaseRelativeDifference": 0.00003393371168733321,
+      "finalStorageRelativeDifference": 0.0002044178820011758
+    },
+    {
+      "id": "D590153",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0001811662912486391
+    },
+    {
+      "id": "D594689",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D597796",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000002666078824063611
+    },
+    {
+      "id": "D600819",
+      "releaseRelativeDifference": 0.000016907409837488273,
+      "finalStorageRelativeDifference": 0.00012139420331694435
+    },
+    {
+      "id": "D607076",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D610032",
+      "releaseRelativeDifference": 0.000009682433300936059,
+      "finalStorageRelativeDifference": 0.0002553461331306705
+    },
+    {
+      "id": "D610982",
+      "releaseRelativeDifference": 0.00006823773404931926,
+      "finalStorageRelativeDifference": 0.00010767434240209795
+    },
+    {
+      "id": "D613130",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D613245",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007573760476333756
+    },
+    {
+      "id": "D616187",
+      "releaseRelativeDifference": 0.00001564688201547357,
+      "finalStorageRelativeDifference": 0.00008718596611605711
+    },
+    {
+      "id": "D616195",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D622362",
+      "releaseRelativeDifference": 0.000008904738792161657,
+      "finalStorageRelativeDifference": 0.00019138174037787827
+    },
+    {
+      "id": "D626340",
+      "releaseRelativeDifference": 0.00007856286524873541,
+      "finalStorageRelativeDifference": 0.000013153299307355224
+    },
+    {
+      "id": "D626951",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D630008",
+      "releaseRelativeDifference": 0.000015722482400594805,
+      "finalStorageRelativeDifference": 0.00010519230480301897
+    },
+    {
+      "id": "D634088",
+      "releaseRelativeDifference": 0.00011148842776867564,
+      "finalStorageRelativeDifference": 0.00004894842266158929
+    },
+    {
+      "id": "D634713",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D634751",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D635569",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00002350158857566875
+    },
+    {
+      "id": "D635618",
+      "releaseRelativeDifference": 0.000008674758733595106,
+      "finalStorageRelativeDifference": 0.00026639135805992876
+    },
+    {
+      "id": "D636188",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D636260",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D640778",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D642335",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00007068393713469211
+    },
+    {
+      "id": "D646330",
+      "releaseRelativeDifference": 0.000014211956243271171,
+      "finalStorageRelativeDifference": 0.00016545853232407957
+    },
+    {
+      "id": "D646932",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D647850",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00033586458132198296
+    },
+    {
+      "id": "D648452",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0002746406913759123
+    },
+    {
+      "id": "D649373",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00000670093015232432
+    },
+    {
+      "id": "D650093",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D650111",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D650976",
+      "releaseRelativeDifference": 0.000031756048236234016,
+      "finalStorageRelativeDifference": 0.00022062811177302484
+    },
+    {
+      "id": "D656283",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.001208457625635152
+    },
+    {
+      "id": "D659312",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D659432",
+      "releaseRelativeDifference": 0.00003562152727794091,
+      "finalStorageRelativeDifference": 0.000014082230026834279
+    },
+    {
+      "id": "D660843",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D661675",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00014966860621250027
+    },
+    {
+      "id": "D662441",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D663262",
+      "releaseRelativeDifference": 0.000025291562072610164,
+      "finalStorageRelativeDifference": 0.000016547520920585336
+    },
+    {
+      "id": "D663965",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0007002007332003286
+    },
+    {
+      "id": "D665433",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000800028242606979
+    },
+    {
+      "id": "D665556",
+      "releaseRelativeDifference": 0.0001044595776220115,
+      "finalStorageRelativeDifference": 0.00003651095187680265
+    },
+    {
+      "id": "D667023",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D668603",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00039229925653946483
+    },
+    {
+      "id": "D670904",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0005931448663776331
+    },
+    {
+      "id": "D673942",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00039198734548449453
+    },
+    {
+      "id": "D674767",
+      "releaseRelativeDifference": 0.0000068243518228074335,
+      "finalStorageRelativeDifference": 0.0003183250910591714
+    },
+    {
+      "id": "D676267",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D676283",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D677106",
+      "releaseRelativeDifference": 0.00005896939554435126,
+      "finalStorageRelativeDifference": 0.00019234503625049245
+    },
+    {
+      "id": "D680941",
+      "releaseRelativeDifference": 0.003309354112663739,
+      "finalStorageRelativeDifference": 0.000009149366719409663
+    },
+    {
+      "id": "D682349",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D682406",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D683804",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D684737",
+      "releaseRelativeDifference": 0.000006986258403719312,
+      "finalStorageRelativeDifference": 0.00022291055897221532
+    },
+    {
+      "id": "D687017",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D687065",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0004630347637410945
+    },
+    {
+      "id": "D688459",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00034904886647143786
+    },
+    {
+      "id": "D688499",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D688559",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D689944",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D690145",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003881098653969187
+    },
+    {
+      "id": "D691581",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D691657",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D693020",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D694602",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00828692047412284
+    },
+    {
+      "id": "D694709",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D694737",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D697678",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003037792394530326
+    },
+    {
+      "id": "D697836",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00026297927077101714
+    },
+    {
+      "id": "D699246",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004381618409729471
+    },
+    {
+      "id": "D700697",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D703805",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0017116364721155106
+    },
+    {
+      "id": "D703974",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00009602176519369741
+    },
+    {
+      "id": "D706237",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000136675795823594
+    },
+    {
+      "id": "D706847",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D708517",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D708558",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D709292",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D710027",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0019035218224265605
+    },
+    {
+      "id": "D711614",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D713873",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D716060",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D718477",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D718564",
+      "releaseRelativeDifference": 0.000040177956007674464,
+      "finalStorageRelativeDifference": 0.00010357957462551848
+    },
+    {
+      "id": "D720670",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D720877",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000988366687636825
+    },
+    {
+      "id": "D722343",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.007400666574790829
+    },
+    {
+      "id": "D722382",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D723065",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D723157",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0001755176780262314
+    },
+    {
+      "id": "D723770",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D724662",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D725421",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0011021544328328405
+    },
+    {
+      "id": "D725431",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D728498",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00007780281392457928
+    },
+    {
+      "id": "D729929",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D729964",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004050579082984189
+    },
+    {
+      "id": "D730092",
+      "releaseRelativeDifference": 0.0009669349320028699,
+      "finalStorageRelativeDifference": 0.002290550100220438
+    },
+    {
+      "id": "D730803",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D730812",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D730821",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0021404800764689767
+    },
+    {
+      "id": "D731426",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D733004",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D734519",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0009490990871757886
+    },
+    {
+      "id": "D734699",
+      "releaseRelativeDifference": 0.00272823704969057,
+      "finalStorageRelativeDifference": 0.000007899261420957354
+    },
+    {
+      "id": "D735389",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0005609072980417542
+    },
+    {
+      "id": "D736049",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D736070",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D736157",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D736940",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D736951",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D737573",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D737618",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0013079016361712038
+    },
+    {
+      "id": "D739194",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.005271174680956336
+    },
+    {
+      "id": "D741487",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D741561",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D742191",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D742232",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00032722534508853137
+    },
+    {
+      "id": "D743030",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.006903974506134493
+    },
+    {
+      "id": "D743741",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D743926",
+      "releaseRelativeDifference": 0.000023424912851762338,
+      "finalStorageRelativeDifference": 0.0004215874161247117
+    },
+    {
+      "id": "D746847",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00814741392490255
+    },
+    {
+      "id": "D748340",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0025003231730442435
+    },
+    {
+      "id": "D749120",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.001317772390536454
+    },
+    {
+      "id": "D749195",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00045155652004318005
+    },
+    {
+      "id": "D750017",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00014581385513825896
+    },
+    {
+      "id": "D750035",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D750661",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D750681",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D755305",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003978874248730466
+    },
+    {
+      "id": "D756815",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D759255",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00019344325650139406
+    },
+    {
+      "id": "D759289",
+      "releaseRelativeDifference": 0.000025077901318311172,
+      "finalStorageRelativeDifference": 0.0006680123662283198
+    },
+    {
+      "id": "D760049",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0024279005422588257
+    },
+    {
+      "id": "D761536",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0004801277707788956
+    },
+    {
+      "id": "D762966",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0009194867259854832
+    },
+    {
+      "id": "D763043",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006209283056793648
+    },
+    {
+      "id": "D763080",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.002445682124243286
+    },
+    {
+      "id": "D763718",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.008286920474129104
+    },
+    {
+      "id": "D763735",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000796257644821505
+    },
+    {
+      "id": "D763761",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003636859778592144
+    },
+    {
+      "id": "D763808",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.018677483737064075
+    },
+    {
+      "id": "D764483",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006217940803798452
+    },
+    {
+      "id": "D764508",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D766841",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00040412307010371666
+    },
+    {
+      "id": "D766958",
+      "releaseRelativeDifference": 0.010208221999558502,
+      "finalStorageRelativeDifference": 0.0012665140530223624
+    },
+    {
+      "id": "D767603",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000023918993887183437
+    },
+    {
+      "id": "D768371",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D769225",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006217821763804326
+    },
+    {
+      "id": "D769872",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D769893",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0
+    },
+    {
+      "id": "D771457",
+      "releaseRelativeDifference": 0.017828615428593982,
+      "finalStorageRelativeDifference": 0.0037002250456196267
+    },
+    {
+      "id": "D771499",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0013899073571207036
+    },
+    {
+      "id": "D772995",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0035535095572943026
+    },
+    {
+      "id": "D773113",
+      "releaseRelativeDifference": 0.00022975647104486385,
+      "finalStorageRelativeDifference": 0.00023793880244563905
+    },
+    {
+      "id": "D774583",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.002856809201663022
+    },
+    {
+      "id": "D774651",
+      "releaseRelativeDifference": 0.0002738637942042077,
+      "finalStorageRelativeDifference": 0.00047178300529739217
+    },
+    {
+      "id": "D776901",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003124713605011438
+    },
+    {
+      "id": "D778364",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00046781776605315124
+    },
+    {
+      "id": "D782923",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000005765299963753229
+    },
+    {
+      "id": "D782929",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000007957995826129133
+    },
+    {
+      "id": "D783872",
+      "releaseRelativeDifference": 0.00035995671915481337,
+      "finalStorageRelativeDifference": 0.0020467276908733446
+    },
+    {
+      "id": "D784529",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0004020759079797626
+    },
+    {
+      "id": "D785978",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003695265372812034
+    },
+    {
+      "id": "D785990",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.00039745032851951594
+    },
+    {
+      "id": "D788481",
+      "releaseRelativeDifference": 0.0005035975488776962,
+      "finalStorageRelativeDifference": 0.0008310219074967724
+    },
+    {
+      "id": "D790713",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003711710647331735
+    },
+    {
+      "id": "D791414",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003981827456198931
+    },
+    {
+      "id": "D795192",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.001738246899943265
+    },
+    {
+      "id": "D795378",
+      "releaseRelativeDifference": 0.007655123498560381,
+      "finalStorageRelativeDifference": 0.000914224033085234
+    },
+    {
+      "id": "D798302",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.000014342359931144567
+    },
+    {
+      "id": "D802830",
+      "releaseRelativeDifference": 0.000023329876203129962,
+      "finalStorageRelativeDifference": 0.0003544353950402646
+    },
+    {
+      "id": "D802898",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004101764241572751
+    },
+    {
+      "id": "D802905",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0006062616786140987
+    },
+    {
+      "id": "D804449",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.013635224997628552
+    },
+    {
+      "id": "D806913",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.010554243817924651
+    },
+    {
+      "id": "D807575",
+      "releaseRelativeDifference": 0.03252053975198938,
+      "finalStorageRelativeDifference": 0.005253593323789954
+    },
+    {
+      "id": "D809127",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003329128303477654
+    },
+    {
+      "id": "D810740",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.02238452627750846
+    },
+    {
+      "id": "D812058",
+      "releaseRelativeDifference": 0.000929057239027901,
+      "finalStorageRelativeDifference": 0.000669520592861388
+    },
+    {
+      "id": "D812102",
+      "releaseRelativeDifference": 0.0023725082979069666,
+      "finalStorageRelativeDifference": 0.001859584382404082
+    },
+    {
+      "id": "D813697",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.005834142064789419
+    },
+    {
+      "id": "D816640",
+      "releaseRelativeDifference": 0.0006582780126602026,
+      "finalStorageRelativeDifference": 0.00011791367307710357
+    },
+    {
+      "id": "D816891",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0026782213801638944
+    },
+    {
+      "id": "D819738",
+      "releaseRelativeDifference": 0.0011165356630222524,
+      "finalStorageRelativeDifference": 0.0021093135226996408
+    },
+    {
+      "id": "D822264",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0003068530409282879
+    },
+    {
+      "id": "D822899",
+      "releaseRelativeDifference": 0.003798974140667379,
+      "finalStorageRelativeDifference": 0.0048171088560523215
+    },
+    {
+      "id": "D824328",
+      "releaseRelativeDifference": 0.0006729737942678444,
+      "finalStorageRelativeDifference": 0.00117110932413288
+    },
+    {
+      "id": "D824536",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.003935216401520801
+    },
+    {
+      "id": "D826013",
+      "releaseRelativeDifference": 0.007772787628125075,
+      "finalStorageRelativeDifference": 0.000745384883046719
+    },
+    {
+      "id": "D830468",
+      "releaseRelativeDifference": 0.000691516901298907,
+      "finalStorageRelativeDifference": 0.0006550845980431244
+    },
+    {
+      "id": "D831998",
+      "releaseRelativeDifference": 0.0005257000077632324,
+      "finalStorageRelativeDifference": 0.001565861461063275
+    },
+    {
+      "id": "D841458",
+      "releaseRelativeDifference": 0.08606908247119296,
+      "finalStorageRelativeDifference": 0.0009392813431670905
+    },
+    {
+      "id": "D844313",
+      "releaseRelativeDifference": 0.0009157627924191322,
+      "finalStorageRelativeDifference": 0.0023717250080021904
+    },
+    {
+      "id": "D849098",
+      "releaseRelativeDifference": 0.011646562047015281,
+      "finalStorageRelativeDifference": 0.0002598077980646106
+    },
+    {
+      "id": "D850580",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.004447047750678147
+    },
+    {
+      "id": "D852162",
+      "releaseRelativeDifference": 0.003231234715256687,
+      "finalStorageRelativeDifference": 0.0034486391690249935
+    },
+    {
+      "id": "D856758",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.007725030605005706
+    },
+    {
+      "id": "D856796",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.001119785534183913
+    },
+    {
+      "id": "D858218",
+      "releaseRelativeDifference": 0.0028143222141765608,
+      "finalStorageRelativeDifference": 0.0016386764875219175
+    },
+    {
+      "id": "D859760",
+      "releaseRelativeDifference": 0.0038816944889501627,
+      "finalStorageRelativeDifference": 0.00014070698464163542
+    },
+    {
+      "id": "D859821",
+      "releaseRelativeDifference": 0.004674609769998359,
+      "finalStorageRelativeDifference": 0.0019434594668993888
+    },
+    {
+      "id": "D861308",
+      "releaseRelativeDifference": 0.002408955002771127,
+      "finalStorageRelativeDifference": 0.001592950370701539
+    },
+    {
+      "id": "D862910",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0008561323036423844
+    },
+    {
+      "id": "D864347",
+      "releaseRelativeDifference": 0.0021040259599408276,
+      "finalStorageRelativeDifference": 0.0032273213644474813
+    },
+    {
+      "id": "D864384",
+      "releaseRelativeDifference": 0.003413732698164532,
+      "finalStorageRelativeDifference": 0.002614243714219799
+    },
+    {
+      "id": "D864387",
+      "releaseRelativeDifference": 0.06841895483897992,
+      "finalStorageRelativeDifference": 0.00047865454607783444
+    },
+    {
+      "id": "D876714",
+      "releaseRelativeDifference": 0.003906831757363764,
+      "finalStorageRelativeDifference": 0.0012913034241509062
+    },
+    {
+      "id": "D878225",
+      "releaseRelativeDifference": 0.006591134796249203,
+      "finalStorageRelativeDifference": 0.011031273882492008
+    },
+    {
+      "id": "D884363",
+      "releaseRelativeDifference": 0.012297482062823073,
+      "finalStorageRelativeDifference": 0.00010127134181282033
+    },
+    {
+      "id": "D890597",
+      "releaseRelativeDifference": 0.0018088470700392831,
+      "finalStorageRelativeDifference": 0.00006194541892534116
+    },
+    {
+      "id": "D907493",
+      "releaseRelativeDifference": 0.000019157061058070085,
+      "finalStorageRelativeDifference": 0.000021008020353762705
+    },
+    {
+      "id": "D915173",
+      "releaseRelativeDifference": 0,
+      "finalStorageRelativeDifference": 0.0000029061260071444124
+    },
+    {
+      "id": "D944345",
+      "releaseRelativeDifference": 0.0000459716790197402,
+      "finalStorageRelativeDifference": 0.0021853978043867577
+    }
+  ]
+}

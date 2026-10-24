@@ -1,0 +1,18 @@
+{
+  "status": "validated-ready-for-deployment",
+  "baseCommit": "c88e27e1daa64795200415f6a7043162a656fb08",
+  "site": "https://jungsb7.github.io/codex/integration/natural-world/pond-network-model/",
+  "modelTests": 290,
+  "browserTests": 23,
+  "boundaryQueries": 3552,
+  "reachQueries": 69066,
+  "jsonDownloads": 18,
+  "allThreeCases": {
+    "years": 100,
+    "boundaries": 1184,
+    "reaches": 23022,
+    "unresolvedM3": 0
+  },
+  "actual": null,
+  "automaticAdoption": false
+}

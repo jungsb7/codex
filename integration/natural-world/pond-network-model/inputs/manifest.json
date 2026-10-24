@@ -1,0 +1,92 @@
+{
+  "schema": "coupled-water-forcing/1",
+  "bytes": 9835947,
+  "sha256": "0f0fa22727f354ca44ae20cff5906ecc76a1662bf016927f673fffa034cf702b",
+  "parts": [
+    {
+      "file": "forcing-00.bin",
+      "bytes": 600000,
+      "sha256": "c9db8545a267c3d3794e02e53be465febefe94c1f8da7742456c4449b5aff971"
+    },
+    {
+      "file": "forcing-01.bin",
+      "bytes": 600000,
+      "sha256": "9f119af806d8ab0ad4b3ecda057d3fe478596216dab478d4570c3caee29a05c3"
+    },
+    {
+      "file": "forcing-02.bin",
+      "bytes": 600000,
+      "sha256": "b951481ef9871bcdbf06a6489724baf2816b8583fb7cf89996afed8cdf8ba185"
+    },
+    {
+      "file": "forcing-03.bin",
+      "bytes": 600000,
+      "sha256": "0984fd77e52190359a01f76fa4671f05eee8b2189b64738db9153c8f398b34f1"
+    },
+    {
+      "file": "forcing-04.bin",
+      "bytes": 600000,
+      "sha256": "f162f356294e8b0ef84ba1286a2e77ef8db7526518b166aa8501688a23868759"
+    },
+    {
+      "file": "forcing-05.bin",
+      "bytes": 600000,
+      "sha256": "84ec66898b90e121809a5d0bcbdf9292e233cbe6b5e71eea7c551b424f5ecf69"
+    },
+    {
+      "file": "forcing-06.bin",
+      "bytes": 600000,
+      "sha256": "9bce85863b3c150b8d00494a8b5e0a74735f395de6a4820b4723dc074f39f582"
+    },
+    {
+      "file": "forcing-07.bin",
+      "bytes": 600000,
+      "sha256": "ab1dcec45c603c4a9f75e7700f5303a23e3846ec0b1c7694fe9327c5bad4d02d"
+    },
+    {
+      "file": "forcing-08.bin",
+      "bytes": 600000,
+      "sha256": "7eabb5ab1f5badbc84a133a0e4302ce1c458956bf26158bb83f82edfdf319482"
+    },
+    {
+      "file": "forcing-09.bin",
+      "bytes": 600000,
+      "sha256": "b70711239aff5767d2b389847af7a42c90b5fd5c67b6fb913f321a6177fb5776"
+    },
+    {
+      "file": "forcing-10.bin",
+      "bytes": 600000,
+      "sha256": "2df8ecafe461420083b01789c7f1655ba0e4f6222832824e0ba0f888d5aca0f3"
+    },
+    {
+      "file": "forcing-11.bin",
+      "bytes": 600000,
+      "sha256": "b58bb8cfa45564ab50a90ed0d63571f9493aae53cd8a9b41ac572c48d8db3f7d"
+    },
+    {
+      "file": "forcing-12.bin",
+      "bytes": 600000,
+      "sha256": "aaa072d3cfbed69e95948935edb7521b22473a1290b8d45621573f9bd8a565c0"
+    },
+    {
+      "file": "forcing-13.bin",
+      "bytes": 600000,
+      "sha256": "d27433e823bc83b4d5ce466f48faec803f9618283ace82a519a627a0583a8164"
+    },
+    {
+      "file": "forcing-14.bin",
+      "bytes": 600000,
+      "sha256": "0d675c2f82c05facc40fd3c725057ce9eddc02193276c302ec8185ff1b6d25b8"
+    },
+    {
+      "file": "forcing-15.bin",
+      "bytes": 600000,
+      "sha256": "41e479eae854ec8bbb2173f6319bfbab8dc8a2e1b6b152642a28238645fdfb15"
+    },
+    {
+      "file": "forcing-16.bin",
+      "bytes": 235947,
+      "sha256": "778d74bb6073a3f1f6e140ea90535fa4f3d7624028b4d5c97b5e4e948817f0ec"
+    }
+  ]
+}

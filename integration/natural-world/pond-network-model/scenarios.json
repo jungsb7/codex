@@ -1,0 +1,14 @@
+{
+ "status":"explicit-candidate-not-world-adoption",
+ "common":{"years":100,"substeps":60,"soilCapacityMm":200,"aquiferCapacityMm":1000,"infiltrationMmPerYear":1200,"soilDrainYears":0.25,"groundwaterReturnYears":2,"evaporationMPerYear":0.5,"widthFraction":0.02,"outletCoefficient":1.5},
+ "scenarios":[
+  {"id":"reference","label":"기준 후보","changes":{}},
+  {"id":"low-infiltration","label":"침투 능력 1/4","changes":{"infiltrationMmPerYear":300}},
+  {"id":"slow-return","label":"지하수 복귀 4배 느림","changes":{"groundwaterReturnYears":8}}
+ ],
+ "surface":"Native monotone drainage leaves within original target owners. Every adjacent leaf pair has its lowest native saddle; one declared effective spill width per pair. No 5m cap, no dropping held receivers.",
+ "background":"Original local runoff from non-target land is a prescribed external source, not recalculated precipitation. Its original routing and source records are retained separately.",
+ "ocean":"Fixed sea level 0m; signed transfer, including sea ingress where a native coast is below 0m, appears explicitly in the water ledger.",
+ "lake":"Existing original bed/initial storage, phase rain/evaporation, and designed350m outlet along the existing ocean path are retained; native bank contacts also exchange with neighbouring ponds.",
+ "actual":null,"automaticAdoption":false
+}
