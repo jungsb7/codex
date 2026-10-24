@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속42 숲·습지·침수 경계 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속42 숲·습지·침수 경계 후보 구현·검증 완료 — 2026-10-25 Asia/Seoul
+## 후속42 숲·습지·침수 경계 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 
 [방법](../integration/natural-world/cover-boundary-model/README.md) · [결과](../integration/natural-world/cover-boundary-model/REPORT.md) · [화면](../integration/natural-world/cover-boundary-model/index.html). 기준main9e72677782c305d37af4150950488a29e8b83066.
 
@@ -13,7 +13,9 @@
 - 경계는0.234375°원본격자(남북약26km). 실제미세경계/지속침수/수목생존확정아님. 집수권절단선과분류경계를분리한다. 후속41계곡절개는수문지형에적용하지않았다.
 - 후속40의23,022구간100년·미처리0과후속41세부물길후보는보존. actual:null,automaticAdoption:false.
 
-기존 사용자 게시·배포승인으로 진행한다. 원본/다른후보결과는보존한다. [배포 기록](../integration/natural-world/cover-boundary-model/validation/deployment.json)은 실제완료후기록한다.
+원본/다른후보결과를보존했다. [배포 기록](../integration/natural-world/cover-boundary-model/validation/deployment.json).
+
+[PR #22](https://github.com/jungsb7/codex/pull/22) 병합 `b957157122b1d323c36c401b862bee6157327a98`. [Pages40122526033](https://github.com/jungsb7/codex/actions/runs/40122526033)의 build/deploy/report 세 작업 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.
 
 ## 후속41 세부 물길·계곡 단면 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 

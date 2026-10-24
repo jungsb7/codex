@@ -1,0 +1,52 @@
+{
+  "schema": "cover-boundary-deployment/1",
+  "baseCommit": "9e72677782c305d37af4150950488a29e8b83066",
+  "featureCommit": "8f1cf58df9ec9a073c9ff556069db73a6df2605c",
+  "mergeCommit": "b957157122b1d323c36c401b862bee6157327a98",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/22",
+  "pagesUrl": "https://jungsb7.github.io/codex/integration/natural-world/cover-boundary-model/index.html",
+  "featureDeployment": {
+    "runId": 40122526033,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40122526033",
+    "jobs": [
+      {
+        "name": "build",
+        "id": 120956974554,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T18:51:02Z"
+      },
+      {
+        "name": "deploy",
+        "id": 120957170331,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T18:51:25Z"
+      },
+      {
+        "name": "report-build-status",
+        "id": 120957170377,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T18:51:08Z"
+      }
+    ]
+  },
+  "validation": {
+    "modelTests": 9,
+    "pondRegressionTests": 22,
+    "browserTests": 14,
+    "atlasRegressionTests": 12,
+    "downloads": 12,
+    "scopeQueries": 3558,
+    "pointQueries": 806571,
+    "protectedFiles": 1487
+  },
+  "directPublicHttpVerification": {
+    "status": "not-performed",
+    "reason": "Managed environment network policy does not allow the github.io host; deployment confirmed through GitHub build/deploy/report jobs and local Chromium UI checks."
+  },
+  "handoffDeployment": "The follow-up documentation commit and its final Pages run are recorded in the merged pull request body to avoid self-referential deployment commits.",
+  "actual": null,
+  "automaticAdoption": false
+}

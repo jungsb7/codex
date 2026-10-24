@@ -38,4 +38,6 @@
 
 ## 게시·배포
 
-검증 후 기존 사용자 승인에 따라 공개 GitHub/Pages에 게시한다. 실제 커밋과 Pages 결과는 배포 후 이 절과 validation/deployment.json에 기록한다.
+[PR #22](https://github.com/jungsb7/codex/pull/22) 병합 `b957157122b1d323c36c401b862bee6157327a98`. [Pages40122526033](https://github.com/jungsb7/codex/actions/runs/40122526033)의 build/deploy/report 세 작업 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.
+
+기능 커밋 `8f1cf58df9ec9a073c9ff556069db73a6df2605c`, 로컬과 원격 Git tree `09016e9ed1ca5ae84347c77fa0d6f149a716a273` 일치. [배포 기록](validation/deployment.json). 기존 파일1,487개 보존 검증 통과.
