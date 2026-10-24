@@ -35,3 +35,5 @@
 - 입력과 실행 코드/결과 해시는 [summary](output/summary.json)와 [manifest](output/manifest.json)에 고정했다.
 
 배포 상태는 [deployment.json](validation/deployment.json)에 기록한다.
+
+[PR #20](https://github.com/jungsb7/codex/pull/20) 병합 `4e86a6ffb78076b6297ef74ba9521f95da550b95`. [Pages40117024404](https://github.com/jungsb7/codex/actions/runs/40117024404)의 build/deploy/report 세 작업 모두 성공. 공개 주소의 직접 HTTP 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.

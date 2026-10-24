@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속40 전체23,022구간 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속40 전체23,022구간 후보 계산 완료 — 2026-10-25 Asia/Seoul
+## 후속40 전체23,022구간 후보 계산·배포 완료 — 2026-10-25 Asia/Seoul
 
 [방법](../integration/natural-world/pond-network-model/README.md) · [결과](../integration/natural-world/pond-network-model/REPORT.md) · [화면](../integration/natural-world/pond-network-model/index.html). 기준main c88e27e1daa64795200415f6a7043162a656fb08.
 
@@ -14,6 +14,8 @@
 - 완료는 명시한 가정 아래 **집수권의 저류·침투·넘침 처리**다. 개별하도 실측유량/미세침수/숲·습지경계/강폭/눈두께·결빙·열수지/세계최종채택은 별도. actual:null,automaticAdoption:false.
 
 사용자가 전체해결 진행을 명시했으므로 과거보류를 새 후보에 포함했다. 과거연구를 수정하거나 세계설정으로 자동채택한 것은 아니다. 이전39의부분완료/중단은 아래 역사기록으로 보존한다. 이번 게시·배포도 기존명시승인 범위에서 진행하며 같은승인을 재질문하지 않는다. 배포결과는 [기록](../integration/natural-world/pond-network-model/validation/deployment.json) 확인.
+
+[PR #20](https://github.com/jungsb7/codex/pull/20) 병합 `4e86a6ffb78076b6297ef74ba9521f95da550b95`. [Pages40117024404](https://github.com/jungsb7/codex/actions/runs/40117024404)의 build/deploy/report 세 작업 모두 성공. 공개 주소의 직접 HTTP 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 후속39 전체 연결망 동적 계산 구현·검증·배포 완료 — 2026-10-25 Asia/Seoul
 

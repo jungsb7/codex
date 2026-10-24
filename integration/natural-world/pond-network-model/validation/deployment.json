@@ -1,5 +1,5 @@
 {
-  "status": "validated-ready-for-deployment",
+  "status": "deployed",
   "baseCommit": "c88e27e1daa64795200415f6a7043162a656fb08",
   "site": "https://jungsb7.github.io/codex/integration/natural-world/pond-network-model/",
   "modelTests": 290,
@@ -14,5 +14,35 @@
     "unresolvedM3": 0
   },
   "actual": null,
-  "automaticAdoption": false
+  "automaticAdoption": false,
+  "featureCommit": "ac87778a6611c3a461d7d3cdc2e70ec8a09f8d59",
+  "mergeCommit": "4e86a6ffb78076b6297ef74ba9521f95da550b95",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/20",
+  "pagesRun": {
+    "id": 40117024404,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40117024404",
+    "headSha": "4e86a6ffb78076b6297ef74ba9521f95da550b95",
+    "jobs": [
+      {
+        "name": "build",
+        "id": 120940307100,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40117024404/job/120940307100"
+      },
+      {
+        "name": "report-build-status",
+        "id": 120940494152,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40117024404/job/120940494152"
+      },
+      {
+        "name": "deploy",
+        "id": 120940494154,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40117024404/job/120940494154"
+      }
+    ]
+  },
+  "directPublicHttpChecked": false,
+  "directPublicHttpReason": "The environment network allowlist excludes jungsb7.github.io. Local served browser checks and GitHub Pages build/deploy/report jobs were verified; no direct HTTP success is claimed."
 }

@@ -43,5 +43,7 @@
   "existingInputBytesReused": 23484677,
   "authorizationContext": "User explicitly approved public GitHub jungsb7/codex publication and Pages deployment of simulator inputs and calculated results; subsequently requested full23022 reach resolution and said 진행. This supplement observes the missing cells of that same already-public fictional simulator. It contains no personal or credential fields.",
   "priorEvidence": "../coupled-water-model/validation/publication-check.json",
-  "publicationStatus": "validated-ready-for-deployment"
+  "publicationStatus": "published-and-deployed",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/20",
+  "mergeCommit": "4e86a6ffb78076b6297ef74ba9521f95da550b95"
 }
