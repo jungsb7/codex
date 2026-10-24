@@ -45,4 +45,4 @@
 
 우선 대상은 D567047·D688499·D730812의 웅덩이별 배수/접촉 처리와 큰 중단망의 수신 경계다. 기존 보류 연구와 108보류·14중단을 자동 재개하지 않는다. 실제 세밀한 물길·숲/습지/침수 범위·강폭·눈 두께·결빙 열수지는 아직 해결되지 않았다. `actual:null`, `automaticAdoption:false`다.
 
-배포 검증 중. 최종 커밋·PR·Pages 작업은 [배포 기록](validation/deployment.json)에 기록한다. 이전에 명시 승인한 공개 GitHub/Pages의 동일 프로젝트 결과이며 새 입력 공개 승인을 반복 요청하지 않는다.
+[PR #19](https://github.com/jungsb7/codex/pull/19) 병합 `94b6754be17cdae64e3a4e507cf38b1a6abfacd6`, [Pages40111630191](https://github.com/jungsb7/codex/actions/runs/40111630191)의 build/deploy/report-build-status 모두 성공. [배포 기록](validation/deployment.json). 직접 공개 HTTP 응답은 환경 도메인 제한으로 확인하지 못했다. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다. 이전에 명시 승인한 공개 GitHub/Pages의 동일 프로젝트 결과이며 새 입력 공개 승인을 반복 요청하지 않는다.

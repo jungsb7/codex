@@ -1,10 +1,48 @@
 {
-  "status": "validated-awaiting-publication",
+  "status": "deployed",
   "date": "2026-10-25",
   "timezone": "Asia/Seoul",
   "repository": "jungsb7/codex",
   "baseCommit": "f9bde616a76459f74b23bf73a7262dc90750c99d",
   "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/network-water-model/",
   "authorization": "User explicitly approved public repository and Pages publication of inputs and results; phase39 reuses the already public source unchanged.",
-  "newRawSourcePublished": false
+  "newRawSourcePublished": false,
+  "featureCommit": "7b443e157ae946feeabd810ca69cd0a90d497920",
+  "mergeCommit": "94b6754be17cdae64e3a4e507cf38b1a6abfacd6",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/19",
+  "pagesRun": {
+    "id": 40111630191,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40111630191",
+    "jobs": [
+      {
+        "id": 120924395090,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120924569220,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120924569248,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicOriginCheck": "Direct public HTTP not checked because environment domain policy excludes jungsb7.github.io. Pages build/deploy/report jobs all succeeded.",
+  "publication": {
+    "files": 58,
+    "largeBlobs": 19,
+    "largeBlobBytes": 16854859,
+    "remoteTree": "f3fde389542b416cd1318272e8572d25ded64d55",
+    "localValidatedTreeMatched": true,
+    "reusedSourceParts": 40,
+    "sourceInputCopiesAdded": 0
+  },
+  "finalDocumentationNote": "Deployment record commit may be newer than the feature merge. Final documentation Pages run is recorded in the PR description."
 }

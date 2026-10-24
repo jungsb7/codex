@@ -1,4 +1,4 @@
-GitHub 기반 인계 — 후속39 전체 연결망 구현·검증 완료, 배포 검증 중,2026-10-25 Asia/Seoul
+GitHub 기반 인계 — 후속39 전체 연결망 구현·검증·배포 완료,2026-10-25 Asia/Seoul
 
 jungsb7/codex 최신main 확인, 로컬 미게시 변경/브랜치를 보존한다.
 후속39 기준main f9bde616a76459f74b23bf73a7262dc90750c99d.
@@ -20,7 +20,8 @@ worldbuilding/WORLD_HANDOFF.md,handoff/FULL_ARCHIVE.md 준수.
 
 재현:node handoff/restore-inputs.cjs; 새prepare.cjs/build.cjs/refine.cjs/test*.cjs/query.cjs/browser-check.cjs.
 선택적네이티브가속은compile-native.cjs+공식Node헤더/g++로생성,바이너리미게시.기본JS참조와검증완료.
-배포최종커밋/PR/Pages는새validation/deployment.json확인.기존명시공개·배포승인은유효,동일승인재질문금지.
+PR#19 https://github.com/jungsb7/codex/pull/19 병합94b6754be17cdae64e3a4e507cf38b1a6abfacd6.
+Pages40111630191 build/deploy/report모두성공.최종문서커밋은더최신일수있음.새validation/deployment.json확인.기존명시공개·배포승인은유효,동일승인재질문금지.
 
 다음:지형대기1,081구간의웅덩이별배수/문턱접촉,대형중단망의수신경계,7망중단시점민감성.
 원본세계/경제/기후/지형/수계/구지도/마스크보존.108보류14중단,종료9곳/D193196/D126467/D147845/D144758자동재개금지.

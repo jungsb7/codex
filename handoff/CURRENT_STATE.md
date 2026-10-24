@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속39 전체 연결망 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속39 전체 연결망 동적 계산 구현·검증 완료 — 2026-10-25 Asia/Seoul
+## 후속39 전체 연결망 동적 계산 구현·검증·배포 완료 — 2026-10-25 Asia/Seoul
 
 [방법](../integration/natural-world/network-water-model/README.md) · [결과](../integration/natural-world/network-water-model/REPORT.md) · [화면](../integration/natural-world/network-water-model/index.html). 기준 main `f9bde616a76459f74b23bf73a7262dc90750c99d`.
 
@@ -12,7 +12,7 @@
 - 보류 수신 유역을 배수구로 만들지 않고 최초 접촉에서 연결망 중단. 이전57경계는 확대하면256경계·10,299구간망에 포함되며 D154345→보류D126467 접촉으로 약0.172222년에 중단한다. 이전57범위100년과 확대망 완료를 혼동하거나 구간 수를 더하지 않는다.
 - 누적 잔차 최대2.464844m³, 강수대비2.015e-12미만. 60/120기준194/204 통과. 100년완료160망의 바다전달량 차이 최대0.760017%, 모두1%통과. 실패10망120/240추가검사는3통과/7시점민감. 원래60단계표시 유지.
 - 새20+기존248=268모델검사, 새11+지도12=23브라우저, AI2,838조회/12JSON통과. 기존CLI8개는환경spawnSync차단후동일검사재실행통과.
-- 기존23.5MB공개입력재사용·복제없음. 배포 검증 중이며 최종 상태는 [배포 기록](../integration/natural-world/network-water-model/validation/deployment.json)을 확인한다. 기존 명시 공개·배포 승인은 유효하며 같은 승인을 재질문하지 않는다.
+- 기존23.5MB공개입력재사용·복제없음. [PR #19](https://github.com/jungsb7/codex/pull/19) 병합94b6754be17cdae64e3a4e507cf38b1a6abfacd6, [Pages40111630191](https://github.com/jungsb7/codex/actions/runs/40111630191) build/deploy/report 모두성공. [배포 기록](../integration/natural-world/network-water-model/validation/deployment.json). 공개HTTP직접확인은환경제한으로미실시. 기존 명시 공개·배포 승인은 유효하며 같은 승인을 재질문하지 않는다.
 
 ## 후속38 집수권 결합·전체 입력 구현·검증·배포 완료 — 2026-10-25
 

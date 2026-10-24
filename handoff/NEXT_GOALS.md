@@ -1,6 +1,6 @@
 # 다음 목표: 지형 대기와 큰 연결망의 수신 경계 처리
 
-후속39 [방법](../integration/natural-world/network-water-model/README.md), [결과](../integration/natural-world/network-water-model/REPORT.md), [배포](../integration/natural-world/network-water-model/validation/deployment.json)를 확인한다. 23.5MB 공개 입력은 재사용하며 동일 게시 승인을 다시 묻지 않는다.
+후속39 [방법](../integration/natural-world/network-water-model/README.md), [결과](../integration/natural-world/network-water-model/REPORT.md), [배포](../integration/natural-world/network-water-model/validation/deployment.json)를 확인한다. PR #19 병합과 Pages40111630191의3작업성공으로 배포완료했다. 23.5MB 공개 입력은 재사용하며 동일 게시 승인을 다시 묻지 않는다.
 
 1. 입력 확보 반복은 끝났다. 831경계·18,984구간을 실제 실행했고 북부69경계 네 저장도 결합했다. 기준/느린복귀3,519구간, 저침투3,335구간만100년완료다. 나머지 중단을 완료로 표시하지 않는다.
 2. D688499·D730812의 내부 웅덩이 연결 높이 아래 출구와 D567047의 기준 문턱 이하 접촉을 우선 처리한다. 현재 연결망 전체115경계·1,081구간이 대기다. 원본 지형·면적을 보존한 웅덩이별 배수와 양쪽 수위를 풀어야 한다.
