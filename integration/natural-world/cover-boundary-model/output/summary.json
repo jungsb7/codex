@@ -1,0 +1,473 @@
+{
+  "schema": "cover-boundary-build-summary/1",
+  "provenance": {
+    "baseCommit": "9e72677782c305d37af4150950488a29e8b83066",
+    "sourceSha256": {
+      "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+      "pond-network-model/output/geometry.json.gz": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff",
+      "pond-network-model/output/review.json.gz": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+      "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8"
+    },
+    "codeSha256": {
+      "core.js": "0efcc71fd03513120bc021e88f89bf20b57204d2a855afa5347d69a8e7b9ddcc",
+      "build.cjs": "1d6b51427dc9ba30d8603c77163f42930a0a4684e500e480532de2895e07303f"
+    },
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8"
+  },
+  "count": 268857,
+  "scenarios": [
+    {
+      "id": "reference",
+      "label": "기준 후보",
+      "global": {
+        "schema": "cover-boundary-summary/1",
+        "scenarioId": "reference",
+        "scope": "world",
+        "cells": 268857,
+        "totalAreaKm2": 133099571.78465576,
+        "classes": [
+          {
+            "id": "original-water",
+            "name": "기존 호수",
+            "color": "#5a9eae",
+            "cells": 209,
+            "areaKm2": 114033.57443391561
+          },
+          {
+            "id": "inundated",
+            "name": "최종 침수",
+            "color": "#377fd1",
+            "cells": 18746,
+            "areaKm2": 7775797.571231459
+          },
+          {
+            "id": "wetland",
+            "name": "수문 근거가 있는 습지 후보",
+            "color": "#50b9ac",
+            "cells": 448,
+            "areaKm2": 262012.98296392406
+          },
+          {
+            "id": "forest",
+            "name": "침수 이력 밖의 숲 후보",
+            "color": "#4e8c50",
+            "cells": 49761,
+            "areaKm2": 25372833.387294263
+          },
+          {
+            "id": "other",
+            "name": "그 밖의 육지",
+            "color": "#b5ad8c",
+            "cells": 159387,
+            "areaKm2": 79521751.03087364
+          },
+          {
+            "id": "held",
+            "name": "원본 식생 보류",
+            "color": "#ad8c9f",
+            "cells": 31171,
+            "areaKm2": 14964416.55843424
+          },
+          {
+            "id": "wetland-unconfirmed",
+            "name": "수문 근거 부족 습지 분류",
+            "color": "#bdab64",
+            "cells": 8690,
+            "areaKm2": 4869834.882817933
+          },
+          {
+            "id": "forest-exposed",
+            "name": "침수 이력 내 수목 생존 미검증",
+            "color": "#a5a36d",
+            "cells": 445,
+            "areaKm2": 218891.79660138098
+          }
+        ],
+        "peakLandInundation": {
+          "cells": 20069,
+          "areaKm2": 8360457.56232112,
+          "meaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map."
+        },
+        "surfaceStorageM3": 119723453587824.89,
+        "sourceEcologicalHold": {
+          "cells": 32777,
+          "areaKm2": 15650030.24418458,
+          "meaning": "Original hold flags persist even where a hydrological footprint is shown."
+        },
+        "snapshot": "End of the100th365-day year in the original phase40 candidate.",
+        "rules": {
+          "nativeGridDegrees": 0.234375,
+          "shoreBandM": 2,
+          "minimumFinalSoilFraction": 0.8,
+          "maximumWetlandSlopeDegrees": 2,
+          "forestBiomes": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "ecologyHoldBits": 7,
+          "wetlandSourceClass": 4,
+          "forestRule": "Original potential forest biome, no original ecological hold, never wet at a recorded phase40 step endpoint, and neither selected wetland nor unconfirmed wetness4.",
+          "wetlandRule": "Original wetness4, no ecological hold, dry at the final snapshot, slope<=2deg, plus historical inundation, within2m vertically above a nonempty native pond, or final model soil storage>=80% of its capacity. Soil criterion is a final snapshot, not hydroperiod or water table.",
+          "peakMeaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map.",
+          "coupling": "Read-only derivation from the published pond model and original atlas; no new hydrology or channel-valley DEM applied.",
+          "actual": null,
+          "automaticAdoption": false
+        },
+        "provenance": {
+          "baseCommit": "9e72677782c305d37af4150950488a29e8b83066",
+          "sourceSha256": {
+            "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+            "pond-network-model/output/geometry.json.gz": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff",
+            "pond-network-model/output/review.json.gz": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+            "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8"
+          },
+          "codeSha256": {
+            "core.js": "0efcc71fd03513120bc021e88f89bf20b57204d2a855afa5347d69a8e7b9ddcc",
+            "build.cjs": "1d6b51427dc9ba30d8603c77163f42930a0a4684e500e480532de2895e07303f"
+          },
+          "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+          "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8"
+        },
+        "actual": null,
+        "automaticAdoption": false
+      },
+      "sensitivity": [
+        {
+          "band": 1,
+          "slope": 1,
+          "soil": 0.9,
+          "wetlandCells": 289,
+          "wetlandAreaKm2": 166144.90997898666
+        },
+        {
+          "band": 2,
+          "slope": 2,
+          "soil": 0.8,
+          "wetlandCells": 448,
+          "wetlandAreaKm2": 262012.98296392406
+        },
+        {
+          "band": 5,
+          "slope": 5,
+          "soil": 0.7,
+          "wetlandCells": 816,
+          "wetlandAreaKm2": 469616.0405457026
+        }
+      ],
+      "maxVolumeResidualM3": 0.009765625
+    },
+    {
+      "id": "low-infiltration",
+      "label": "침투 능력 1/4",
+      "global": {
+        "schema": "cover-boundary-summary/1",
+        "scenarioId": "low-infiltration",
+        "scope": "world",
+        "cells": 268857,
+        "totalAreaKm2": 133099571.78465576,
+        "classes": [
+          {
+            "id": "original-water",
+            "name": "기존 호수",
+            "color": "#5a9eae",
+            "cells": 209,
+            "areaKm2": 114033.57443391561
+          },
+          {
+            "id": "inundated",
+            "name": "최종 침수",
+            "color": "#377fd1",
+            "cells": 20410,
+            "areaKm2": 8477251.403892389
+          },
+          {
+            "id": "wetland",
+            "name": "수문 근거가 있는 습지 후보",
+            "color": "#50b9ac",
+            "cells": 408,
+            "areaKm2": 230527.88559132177
+          },
+          {
+            "id": "forest",
+            "name": "침수 이력 밖의 숲 후보",
+            "color": "#4e8c50",
+            "cells": 49686,
+            "areaKm2": 25339673.054678664
+          },
+          {
+            "id": "other",
+            "name": "그 밖의 육지",
+            "color": "#b5ad8c",
+            "cells": 158217,
+            "areaKm2": 79039276.55297041
+          },
+          {
+            "id": "held",
+            "name": "원본 식생 보류",
+            "color": "#ad8c9f",
+            "cells": 30731,
+            "areaKm2": 14769945.804095216
+          },
+          {
+            "id": "wetland-unconfirmed",
+            "name": "수문 근거 부족 습지 분류",
+            "color": "#bdab64",
+            "cells": 8719,
+            "areaKm2": 4895308.504664225
+          },
+          {
+            "id": "forest-exposed",
+            "name": "침수 이력 내 수목 생존 미검증",
+            "color": "#a5a36d",
+            "cells": 477,
+            "areaKm2": 233555.004323292
+          }
+        ],
+        "peakLandInundation": {
+          "cells": 21929,
+          "areaKm2": 9142401.847417403,
+          "meaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map."
+        },
+        "surfaceStorageM3": 137952960552907.06,
+        "sourceEcologicalHold": {
+          "cells": 32777,
+          "areaKm2": 15650030.24418458,
+          "meaning": "Original hold flags persist even where a hydrological footprint is shown."
+        },
+        "snapshot": "End of the100th365-day year in the original phase40 candidate.",
+        "rules": {
+          "nativeGridDegrees": 0.234375,
+          "shoreBandM": 2,
+          "minimumFinalSoilFraction": 0.8,
+          "maximumWetlandSlopeDegrees": 2,
+          "forestBiomes": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "ecologyHoldBits": 7,
+          "wetlandSourceClass": 4,
+          "forestRule": "Original potential forest biome, no original ecological hold, never wet at a recorded phase40 step endpoint, and neither selected wetland nor unconfirmed wetness4.",
+          "wetlandRule": "Original wetness4, no ecological hold, dry at the final snapshot, slope<=2deg, plus historical inundation, within2m vertically above a nonempty native pond, or final model soil storage>=80% of its capacity. Soil criterion is a final snapshot, not hydroperiod or water table.",
+          "peakMeaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map.",
+          "coupling": "Read-only derivation from the published pond model and original atlas; no new hydrology or channel-valley DEM applied.",
+          "actual": null,
+          "automaticAdoption": false
+        },
+        "provenance": {
+          "baseCommit": "9e72677782c305d37af4150950488a29e8b83066",
+          "sourceSha256": {
+            "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+            "pond-network-model/output/geometry.json.gz": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff",
+            "pond-network-model/output/review.json.gz": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+            "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8"
+          },
+          "codeSha256": {
+            "core.js": "0efcc71fd03513120bc021e88f89bf20b57204d2a855afa5347d69a8e7b9ddcc",
+            "build.cjs": "1d6b51427dc9ba30d8603c77163f42930a0a4684e500e480532de2895e07303f"
+          },
+          "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+          "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8"
+        },
+        "actual": null,
+        "automaticAdoption": false
+      },
+      "sensitivity": [
+        {
+          "band": 1,
+          "slope": 1,
+          "soil": 0.9,
+          "wetlandCells": 281,
+          "wetlandAreaKm2": 153789.00435694715
+        },
+        {
+          "band": 2,
+          "slope": 2,
+          "soil": 0.8,
+          "wetlandCells": 408,
+          "wetlandAreaKm2": 230527.88559132177
+        },
+        {
+          "band": 5,
+          "slope": 5,
+          "soil": 0.7,
+          "wetlandCells": 746,
+          "wetlandAreaKm2": 422197.5432113735
+        }
+      ],
+      "maxVolumeResidualM3": 0.01220703125
+    },
+    {
+      "id": "slow-return",
+      "label": "지하수 복귀 4배 느림",
+      "global": {
+        "schema": "cover-boundary-summary/1",
+        "scenarioId": "slow-return",
+        "scope": "world",
+        "cells": 268857,
+        "totalAreaKm2": 133099571.78465576,
+        "classes": [
+          {
+            "id": "original-water",
+            "name": "기존 호수",
+            "color": "#5a9eae",
+            "cells": 209,
+            "areaKm2": 114033.57443391561
+          },
+          {
+            "id": "inundated",
+            "name": "최종 침수",
+            "color": "#377fd1",
+            "cells": 18677,
+            "areaKm2": 7746388.4834936075
+          },
+          {
+            "id": "wetland",
+            "name": "수문 근거가 있는 습지 후보",
+            "color": "#50b9ac",
+            "cells": 836,
+            "areaKm2": 461335.3301714267
+          },
+          {
+            "id": "forest",
+            "name": "침수 이력 밖의 숲 후보",
+            "color": "#4e8c50",
+            "cells": 49756,
+            "areaKm2": 25369810.63128394
+          },
+          {
+            "id": "other",
+            "name": "그 밖의 육지",
+            "color": "#b5ad8c",
+            "cells": 159446,
+            "areaKm2": 79548043.6854193
+          },
+          {
+            "id": "held",
+            "name": "원본 식생 보류",
+            "color": "#ad8c9f",
+            "cells": 31178,
+            "areaKm2": 14967218.789543634
+          },
+          {
+            "id": "wetland-unconfirmed",
+            "name": "수문 근거 부족 습지 분류",
+            "color": "#bdab64",
+            "cells": 8303,
+            "areaKm2": 4670651.918892444
+          },
+          {
+            "id": "forest-exposed",
+            "name": "침수 이력 내 수목 생존 미검증",
+            "color": "#a5a36d",
+            "cells": 452,
+            "areaKm2": 222089.37141282903
+          }
+        ],
+        "peakLandInundation": {
+          "cells": 20024,
+          "areaKm2": 8341456.797583597,
+          "meaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map."
+        },
+        "surfaceStorageM3": 118746513133886.52,
+        "sourceEcologicalHold": {
+          "cells": 32777,
+          "areaKm2": 15650030.24418458,
+          "meaning": "Original hold flags persist even where a hydrological footprint is shown."
+        },
+        "snapshot": "End of the100th365-day year in the original phase40 candidate.",
+        "rules": {
+          "nativeGridDegrees": 0.234375,
+          "shoreBandM": 2,
+          "minimumFinalSoilFraction": 0.8,
+          "maximumWetlandSlopeDegrees": 2,
+          "forestBiomes": [
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "ecologyHoldBits": 7,
+          "wetlandSourceClass": 4,
+          "forestRule": "Original potential forest biome, no original ecological hold, never wet at a recorded phase40 step endpoint, and neither selected wetland nor unconfirmed wetness4.",
+          "wetlandRule": "Original wetness4, no ecological hold, dry at the final snapshot, slope<=2deg, plus historical inundation, within2m vertically above a nonempty native pond, or final model soil storage>=80% of its capacity. Soil criterion is a final snapshot, not hydroperiod or water table.",
+          "peakMeaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map.",
+          "coupling": "Read-only derivation from the published pond model and original atlas; no new hydrology or channel-valley DEM applied.",
+          "actual": null,
+          "automaticAdoption": false
+        },
+        "provenance": {
+          "baseCommit": "9e72677782c305d37af4150950488a29e8b83066",
+          "sourceSha256": {
+            "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+            "pond-network-model/output/geometry.json.gz": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff",
+            "pond-network-model/output/review.json.gz": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+            "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8"
+          },
+          "codeSha256": {
+            "core.js": "0efcc71fd03513120bc021e88f89bf20b57204d2a855afa5347d69a8e7b9ddcc",
+            "build.cjs": "1d6b51427dc9ba30d8603c77163f42930a0a4684e500e480532de2895e07303f"
+          },
+          "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+          "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8"
+        },
+        "actual": null,
+        "automaticAdoption": false
+      },
+      "sensitivity": [
+        {
+          "band": 1,
+          "slope": 1,
+          "soil": 0.9,
+          "wetlandCells": 706,
+          "wetlandAreaKm2": 383253.0127724503
+        },
+        {
+          "band": 2,
+          "slope": 2,
+          "soil": 0.8,
+          "wetlandCells": 836,
+          "wetlandAreaKm2": 461335.3301714267
+        },
+        {
+          "band": 5,
+          "slope": 5,
+          "soil": 0.7,
+          "wetlandCells": 1168,
+          "wetlandAreaKm2": 646152.381504715
+        }
+      ],
+      "maxVolumeResidualM3": 0.0078125
+    }
+  ],
+  "rules": {
+    "nativeGridDegrees": 0.234375,
+    "shoreBandM": 2,
+    "minimumFinalSoilFraction": 0.8,
+    "maximumWetlandSlopeDegrees": 2,
+    "forestBiomes": [
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "ecologyHoldBits": 7,
+    "wetlandSourceClass": 4,
+    "forestRule": "Original potential forest biome, no original ecological hold, never wet at a recorded phase40 step endpoint, and neither selected wetland nor unconfirmed wetness4.",
+    "wetlandRule": "Original wetness4, no ecological hold, dry at the final snapshot, slope<=2deg, plus historical inundation, within2m vertically above a nonempty native pond, or final model soil storage>=80% of its capacity. Soil criterion is a final snapshot, not hydroperiod or water table.",
+    "peakMeaning": "Union of each pond maximum stage recorded at step endpoints over100years, including initial state. Not a simultaneous event, flood frequency, or return-period map.",
+    "coupling": "Read-only derivation from the published pond model and original atlas; no new hydrology or channel-valley DEM applied.",
+    "actual": null,
+    "automaticAdoption": false
+  },
+  "actual": null,
+  "automaticAdoption": false
+}

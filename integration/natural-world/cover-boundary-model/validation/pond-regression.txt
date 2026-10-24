@@ -1,0 +1,30 @@
+✔ All original 23,022 reach IDs and 1,184 owners are preserved, including every historical hold (51.794457ms)
+✔ Full native columns form disjoint ponds without a 5m search cap or unmodelled land (170.108888ms)
+✔ Every native inter-pond saddle has a real adjacent witness and every pond reaches the ocean graph (178.284383ms)
+✔ Native plateau partition never cycles and preserves owner boundaries (1.256762ms)
+✔ Original source forcing is reused without overlap and the additional public simulator observation is invariant (20.388534ms)
+✔ Target rainfall and prescribed background runoff occupy disjoint source cells (54.825185ms)
+✔ Original lake bed and outlet path are retained as an explicit separate reservoir (2007.577358ms)
+✔ All three cases complete every target owner for100years with finite nonnegative inventories (5.822784ms)
+✔ Local budgets independently reconcile rainfall, storage, transfers and separate ocean ingress (11.092816ms)
+✔ Whole-system ledger conserves target water, prescribed runoff, existing lake and ocean exchange (5.27775ms)
+✔ Every annual owner row and final source state is verified and retained (3284.353692ms)
+✔ AI query covers every boundary and all69,066 scenario/reach selections (499.253962ms)
+✔ Cell lookup returns four explicit stores and a candidate surface pond (774.566462ms)
+✔ Global refinement is narrowly labelled and local differences remain visible (0.464841ms)
+✔ Code, geometry, forcing and result manifests pin the calculation (5.222563ms)
+✔ Native piecewise terrain and outlet agree with direct-column bisection (19.266997ms)
+✔ Two connected ponds exchange exactly once and preserve water (142.402208ms)
+✔ Lower outlet drains its own leaf before a higher internal saddle connects (3.120063ms)
+✔ Signed coast ingress is an explicit source, not unprocessed or invented rainfall (1.944356ms)
+✔ No artificial head cap drops water from a closed storage example (0.448354ms)
+✔ Northern and legacy source equations match the existing four-store reference (9.945393ms)
+✔ Malformed geometry/forcing are rejected rather than reported complete (1.349461ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13655.238139

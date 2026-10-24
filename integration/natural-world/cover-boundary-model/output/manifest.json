@@ -1,0 +1,36 @@
+{
+  "schema": "cover-boundary-manifest/1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 3230550,
+    "sha256": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec"
+  },
+  "cases": [
+    {
+      "file": "case-reference.json.gz",
+      "bytes": 644388,
+      "sha256": "12d7eb4e70b8119c9a1a403ab7292f9dcb2a993cadbca936963d3ddd0643f25b",
+      "id": "reference",
+      "label": "기준 후보"
+    },
+    {
+      "file": "case-low-infiltration.json.gz",
+      "bytes": 610626,
+      "sha256": "41c546c2f4b5d3acdbba7b1308ebad115c47f0d74a3d110459a30684ebc207f8",
+      "id": "low-infiltration",
+      "label": "침투 능력 1/4"
+    },
+    {
+      "file": "case-slow-return.json.gz",
+      "bytes": 612447,
+      "sha256": "3fb9c751f7172aea48c63a7129c1582ef0d292bcc1d349b1b8b43c44ee7a53a7",
+      "id": "slow-return",
+      "label": "지하수 복귀 4배 느림"
+    }
+  ],
+  "scopeSummaries": {
+    "file": "scope-summaries.json.gz",
+    "bytes": 283538,
+    "sha256": "753746d76cbb9b3cdd43e59268819c953830864b3c30a201a088a727f46f22ef"
+  }
+}
