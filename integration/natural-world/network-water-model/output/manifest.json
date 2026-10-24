@@ -1,0 +1,33 @@
+{
+  "review": {
+    "file": "review.json.gz",
+    "bytes": 1050249,
+    "sha256": "d8976416e078367b8db50d6589e14c7b541a6f7a5c9ba093ec1a6f7eccc18649"
+  },
+  "histories": [
+    {
+      "file": "history-reference.json.gz",
+      "bytes": 1774142,
+      "sha256": "395aecb53d91120c7067ba531dac07742afcc2b7e78b4289fbadd8e58103760f",
+      "caseId": "reference"
+    },
+    {
+      "file": "history-low-infiltration.json.gz",
+      "bytes": 1691252,
+      "sha256": "915e8a12953e886d254a1e298879702f02960e7df5b54bae3b353a5bb44edab7",
+      "caseId": "low-infiltration"
+    },
+    {
+      "file": "history-slow-return.json.gz",
+      "bytes": 2257247,
+      "sha256": "decaff086edf32edf29fd456e75ddbdd4d2d1ee3293660d12951ccb7aec8a857",
+      "caseId": "slow-return"
+    },
+    {
+      "file": "history-reference-fine.json.gz",
+      "bytes": 1786017,
+      "sha256": "efe93eba4ca5069ee9bcc098cc62b123327807c57b336280e0e3e4975bea8a56",
+      "caseId": "reference-fine"
+    }
+  ]
+}

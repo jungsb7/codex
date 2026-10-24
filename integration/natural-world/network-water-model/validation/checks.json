@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "modelTests": {
+    "new": 20,
+    "previous": 248,
+    "total": 268,
+    "previousFirstPass": 240,
+    "cliSandboxBlockedThenRetried": 8,
+    "cliRetryPassed": 8
+  },
+  "browserTests": {
+    "new": 11,
+    "atlas": 12,
+    "total": 23,
+    "downloads": 12,
+    "aiQueries": 2838
+  },
+  "native": {
+    "runtime": "v24.19.0",
+    "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+    "flags": [
+      "-O3",
+      "-shared",
+      "-fPIC",
+      "-ffp-contract=off"
+    ],
+    "binarySha256": "37b328b655cd55dc4a3550f09f916bcc4c751420de1c5617e33cf8361aa94bd4",
+    "compiledBinaryPublished": false,
+    "referenceParity": "cell and full-network JS comparison passed"
+  },
+  "refinement": {
+    "basePassed": 194,
+    "baseTotal": 204,
+    "additionalPassed": 3,
+    "additionalTotal": 10,
+    "stillSensitive": 7
+  }
+}

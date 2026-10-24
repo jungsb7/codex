@@ -1,0 +1,16 @@
+✔ code/input SHA receipts, manifest integrity, and explicit CLI output agree (411.307617ms)
+✔ AI/UI selections bind source, diagnostic assumptions and null values; malformed queries and payloads fail (137.083314ms)
+✔ CLI requires explicit preset or complete input and agrees with browser-independent core (328.115226ms)
+✔ provenance, payload integrity and CLI complete/error states are reproducible (224.285989ms)
+✔ UI and CLI preserve provenance, partial-period semantics, nulls and available time range (192.781334ms)
+✔ query and validator reject fabricated actual values and invalid selection (181.284067ms)
+✔ CLI returns original boundary evidence and a source-linked reproducible experiment (203.013619ms)
+✔ AI lookup returns held without numerical fallback and invalid input exits nonzero (229.694331ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 11564.44966

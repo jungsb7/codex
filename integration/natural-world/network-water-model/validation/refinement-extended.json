@@ -1,0 +1,257 @@
+{
+  "schema": "network-water-refinement-extension/1",
+  "scope": "Only the ten first-stop comparisons that failed60/120; original60-step values remain unchanged",
+  "codeSha256": "dd7590b2eb4503f709c5cc5ec9148cd937d1f9eff451173ad0a5d0c55efba564",
+  "baseReviewSha256": "d8976416e078367b8db50d6589e14c7b541a6f7a5c9ba093ec1a6f7eccc18649",
+  "passed": 3,
+  "stillSensitive": 7,
+  "checks": [
+    {
+      "component": "D124981",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 14.597222222222223,
+      "fineYears": 14.592361111111112,
+      "sameStop": true,
+      "timeDifferenceYears": 0.004861111111111427,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 15,
+        "phase": 8,
+        "substep": 26,
+        "elapsedYears": 14.592361111111112,
+        "lowerTimeYears": 14.59201388888889,
+        "upperTimeYears": 14.592361111111112,
+        "boundaries": [
+          "D124981"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": -0.00140380859375
+    },
+    {
+      "component": "D127956",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 10.354861111111111,
+      "fineYears": 10.352777777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.002083333333333215,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 11,
+        "phase": 5,
+        "substep": 56,
+        "elapsedYears": 10.352777777777778,
+        "lowerTimeYears": 10.352430555555555,
+        "upperTimeYears": 10.352777777777778,
+        "boundaries": [
+          "D127956"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 8.344650268554688e-7
+    },
+    {
+      "component": "D169346",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 37.27013888888889,
+      "fineYears": 37.26770833333333,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0024305555555557135,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 38,
+        "phase": 4,
+        "substep": 51,
+        "elapsedYears": 37.26770833333333,
+        "lowerTimeYears": 37.267361111111114,
+        "upperTimeYears": 37.26770833333333,
+        "boundaries": [
+          "D169346"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 0.0003719329833984375
+    },
+    {
+      "component": "D177045",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 69.27291666666667,
+      "fineYears": 69.26979166666666,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0031250000000113687,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 70,
+        "phase": 4,
+        "substep": 57,
+        "elapsedYears": 69.26979166666666,
+        "lowerTimeYears": 69.26944444444445,
+        "upperTimeYears": 69.26979166666666,
+        "boundaries": [
+          "D177045"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 0.0016384124755859375
+    },
+    {
+      "component": "D228351",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 9.24375,
+      "fineYears": 9.226736111111112,
+      "sameStop": true,
+      "timeDifferenceYears": 0.017013888888888218,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 10,
+        "phase": 3,
+        "substep": 173,
+        "elapsedYears": 9.226736111111112,
+        "lowerTimeYears": 9.22638888888889,
+        "upperTimeYears": 9.226736111111112,
+        "boundaries": [
+          "D240629"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 0.001129150390625
+    },
+    {
+      "component": "D231441",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 66.09722222222223,
+      "fineYears": 66.01909722222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.078125,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 67,
+        "phase": 1,
+        "substep": 55,
+        "elapsedYears": 66.01909722222223,
+        "lowerTimeYears": 66.01875,
+        "upperTimeYears": 66.01909722222223,
+        "boundaries": [
+          "D242195"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": -0.003692626953125
+    },
+    {
+      "component": "D295508",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 1.0972222222222223,
+      "fineYears": 1.0958333333333334,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888888884,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "passed-additional-stop-check",
+      "fineStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 36,
+        "elapsedYears": 1.0958333333333334,
+        "lowerTimeYears": 1.0954861111111112,
+        "upperTimeYears": 1.0958333333333334,
+        "boundaries": [
+          "D300113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": -0.0045166015625
+    },
+    {
+      "component": "D306541",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 73.16388888888889,
+      "fineYears": 73.15520833333333,
+      "sameStop": true,
+      "timeDifferenceYears": 0.008680555555557135,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "stop-time-still-sensitive",
+      "fineStop": {
+        "year": 74,
+        "phase": 2,
+        "substep": 207,
+        "elapsedYears": 73.15520833333333,
+        "lowerTimeYears": 73.15486111111112,
+        "upperTimeYears": 73.15520833333333,
+        "boundaries": [
+          "D306541"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 0.0335693359375
+    },
+    {
+      "component": "D311158",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 25.561805555555555,
+      "fineYears": 25.56041666666667,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0013888888888864415,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "passed-additional-stop-check",
+      "fineStop": {
+        "year": 26,
+        "phase": 7,
+        "substep": 174,
+        "elapsedYears": 25.56041666666667,
+        "lowerTimeYears": 25.560069444444444,
+        "upperTimeYears": 25.56041666666667,
+        "boundaries": [
+          "D311158"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": -0.0061798095703125
+    },
+    {
+      "component": "D312883",
+      "coarseSteps": 120,
+      "fineSteps": 240,
+      "coarseYears": 23.225,
+      "fineYears": 23.22638888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0013888888888899942,
+      "timeToleranceYears": 0.001388888888888889,
+      "status": "passed-additional-stop-check",
+      "fineStop": {
+        "year": 24,
+        "phase": 3,
+        "substep": 172,
+        "elapsedYears": 23.22638888888889,
+        "lowerTimeYears": 23.226041666666667,
+        "upperTimeYears": 23.22638888888889,
+        "boundaries": [
+          "D312883"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineResidualM3": 0.019500732421875
+    }
+  ],
+  "history": {
+    "file": "history-reference-extended.json.gz",
+    "bytes": 48961,
+    "sha256": "333dcb3b682d01e28c356b271a75b18c356f25da8336844f1ff553b2534ce044"
+  },
+  "actual": null,
+  "automaticAdoption": false
+}

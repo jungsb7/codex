@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "946 boundary choices and three scenarios load with validated data",
+    "twelve downloads match shared AI query for completed/northern/held/stopped records",
+    "geometry-held component shows no invented dynamic results",
+    "expanded former 57-boundary network reports external held contact and partial period",
+    "northern travel store is visible and distinct from groundwater",
+    "completed selection survives reload and browser history",
+    "invalid selection clears stale results and completion count",
+    "1440/390/320 layouts fit controls and tables",
+    "integrity failure blocks stale UI and retry restores verified data",
+    "previous model links to new network candidate",
+    "original map selection and new navigation preserved"
+  ],
+  "downloads": 12,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

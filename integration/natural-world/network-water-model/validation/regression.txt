@@ -1,0 +1,414 @@
+✔ all 268857 cells and twelve original temperatures / rain samples remain exact (401.781619ms)
+✔ all 45824 reaches use their own period node values, including zero and unresolved flows (100.893992ms)
+✔ source mismatch and malformed arrays fail explicitly without inferred data (19.038802ms)
+✔ state round trip preserves periods, features, display settings and rejects invalid periods (7.524333ms)
+✔ object summaries distinguish existing designs and computed graph, no invented hydrology on ridges (52.079783ms)
+✔ hit testing respects hidden layers and uses screen-distance projection (1.276903ms)
+✔ designed detail is deterministic for all eleven regions, preserves ocean and lake masks (4.42924ms)
+✔ detail cannot invent forests or wetlands outside candidates, held flags or original-only (598.054322ms)
+✔ interpolated detail is continuous across tile boundaries on land, and stable at shared coordinates (13.703279ms)
+✔ season changes never change source arrays or physical adoption and files retain original hashes (621.449986ms)
+✔ rounded display paths preserve confluence endpoints and never add lake or sea interior vertices (643.912416ms)
+✔ published split climate and water payloads reconstruct the exact original gzip hash (249.304541ms)
+✔ 12045 unique source cells and144540 probes preserve full original-world runoff and budgets (13.769325ms)
+✔ all original690 cells are unchanged inside expanded probe collection (1277.22307ms)
+✔ every raw source phase reproduces original land runoff evaporation and states (595.850337ms)
+✔ selected60 boundary graph is closed upstream and to ocean with exactly2827 reaches (66.49852ms)
+✔ native columns remain inside disjoint own source domains and preserve independent capacity (56.354261ms)
+✔ all58 edges transport each of12 donor phase excesses to physical recipient entries (1.864373ms)
+✔ every boundary and period closes water budget and shallow internal transfers (2.504544ms)
+✔ combined independently summed inventories cancel internal transfers and replace only ocean releases (64.73608ms)
+✔ all node deltas include each visiting replaced boundary once (240.42705ms)
+✔ missing branch or unsupported assumptions fail before producing partial results (34.062253ms)
+✔ existing three-boundary100-year results are exactly preserved in all three expanded cases (47.826612ms)
+✔ all published local/global balances and hashed dependencies remain valid (5.957143ms)
+✔ AI18000 selections distinguish60 boundaries and annual versus100-year scopes (199.778087ms)
+✔ signed law has zero equal-stage flow and opposite signs under swap (0.317965ms)
+✔ two-pool implicit transfer matches independent scalar bisection and conserves volume (5.428007ms)
+✔ reverse flow moves water from receiver without overdrawing either pool (0.566862ms)
+✔ closed equal levels stay exactly balanced with large dt (0.23366ms)
+✔ three-pool multiple destinations use one simultaneous finite inventory (1.631771ms)
+✔ native cap excess stays in diagnostic ledger (0.853425ms)
+✔ all batch input cells and 12 phases are finite with explicit northern state distinction (0.192756ms)
+✔ batch forcing and initial legacy states exactly reproduce all overlapping prior probes (932.252103ms)
+✔ all 946 source assignments are disjoint and cover the batch exactly (39.954825ms)
+✔ new connectivity includes both stopped routes with native adjacent faces (23.573351ms)
+✔ native geometry does not alter original columns or source ownership (189.453483ms)
+✔ all 946 forcing summaries expose source collection separately from dynamic readiness (1749.91863ms)
+✔ unmodeled foreign contact remains a finite native bound (32.748599ms)
+✔ full land-storage-transfer simulation is array-order independent and closes independent inventories (199.964513ms)
+✔ geometry search keeps new candidate contacts as faces but still stops at outside-domain contacts (2.295331ms)
+✔ all three57-boundary candidates complete100 years with zero unresolved and closed inventories (99.359887ms)
+✔ both formerly blocked connections carry water while reverse capability is not mistaken for observed reverse (1.106618ms)
+✔ all2838 AI queries distinguish batch inputs, dynamic local results and57-boundary totals (130.311068ms)
+✔ reference horizon and ocean-delivery refinement pass explicit1% threshold (0.204576ms)
+✔ manifest, input receipts and every calculation code fingerprint match shipped bytes (26.781491ms)
+✔ mandatory typed assumptions, geometry and loss values; no automatic values (2.815442ms)
+✔ tree topology rejects duplicate IDs, cycles, absent links and station totals (34.920852ms)
+✔ analytic uniform rectangular flow preserves normal depth and bed-drop energy (30.415483ms)
+✔ constant-section limit agrees with independently integrated phase28 GVF (508.982047ms)
+✔ variable geometry and losses converge to independent differential-energy RK4 (76.264539ms)
+✔ two tributaries and nested tributary sum each leaf exactly once (25.729726ms)
+✔ independent energy-flux accounting includes every reach and prescribed junction loss (44.529176ms)
+✔ four variable/loss networks are stable on halving numerical spacing (224.665265ms)
+✔ unmodeled angles and insufficient junction energy atomically block upstream computation (5.580666ms)
+✔ bank, steep geometry, critical and rapid-change guards leave valid prefixes only (8.459365ms)
+✔ 10 stored scenarios reproduce outputs and retain all actual/prior guards (83.56938ms)
+✔ original 12-phase increment ledger reconstructs mouth without station-total duplication (18.826191ms)
+✖ code/input SHA receipts, manifest integrity, and explicit CLI output agree (294.622181ms)
+✔ all input/code fingerprints and original world identity match current main and fixed archive evidence (88.792155ms)
+✔ all619 snow cells independently reconcile source storage, snowfall/melt and asymptotic imbalance (4.802269ms)
+✔ 200 independent annual repetitions confirm all12 sensitivity balances instead of a spinup fix (195.614543ms)
+✔ zero/positive-temperature snow switches, finite storage and warming discontinuity preserve water (2.625803ms)
+✔ diagnostic wind interpolation reproduces source grid centres and stays distinct from measured 2m wind (775.503839ms)
+✔ solar flux agrees with independent hourly insolation quadrature and latent-unit conversion (200.803234ms)
+✔ all12 fixed surface masks and144 energy periods match prior model and independent area weighting (13.396427ms)
+✔ native connectivity wraps longitude, stops at marine/lake masks and blocks exactly one undirected edge (1.262944ms)
+✔ all saved open/held components are complete and witness paths respect native elevations and deleted gate (202.507068ms)
+✔ independent sorted-height union-find proves the first alternate marine threshold exactly (521.322281ms)
+✔ all25 outlet guards preserve unknown routing, distinguish stage from energy head and flag tailwater (1.748264ms)
+✖ AI/UI selections bind source, diagnostic assumptions and null values; malformed queries and payloads fail (245.640354ms)
+✔ contract rejects missing, nonfinite, zero/reverse flow, unsupported geometry and implicit actual inputs (1.645975ms)
+✔ uniform rectangular channel has analytically constant normal depth and linear energy loss (4.296064ms)
+✔ critical depth follows specific-energy minimum with SI gravity and velocity terms (0.403126ms)
+✔ independent depth quadrature reproduces upstream distance for rising and falling profiles (15.977145ms)
+✔ independent implicit energy steps converge toward adaptive GVF solution (16.327238ms)
+✔ held boundary contains no invented interior or upstream result (0.343549ms)
+✔ interior bank guard retains only valid prefix and reports no actual flood (2.186245ms)
+✔ steep-slope upstream integration stops before critical/rapid transition without jumping regimes (1.396165ms)
+✔ horizontal channel has no finite normal depth and still uses downstream boundary (0.240973ms)
+✔ 36 presets reproduce stored outcomes, conserve constant Q and preserve null and prior holds (57.345846ms)
+✔ step refinement preserves completed end depths and stopped-prefix locations (19.061324ms)
+✔ provenance hashes and source-only length reuse are explicit (1.815015ms)
+✖ CLI requires explicit preset or complete input and agrees with browser-independent core (117.805752ms)
+✔ all physical assumptions and force components are explicit typed values (1.63103ms)
+✔ parallel equal-speed analytic case has depth5, zero net force and zero loss within tolerance (2.693946ms)
+✔ symmetric angled solution agrees with an independent cubic Newton solve (2.480817ms)
+✔ integrated hydrostatic pressure and independent vector fluxes balance (4.286995ms)
+✔ a target-stage manufactured force fixture recovers6m without fitting forces (0.929102ms)
+✔ longitudinal root alone does not pass an unbalanced transverse force (0.425122ms)
+✔ energy feasibility is independent of force balance and does not clamp negative dissipation (0.605214ms)
+✔ horizontal bed pressure, wall and friction are separate signed force components (0.614971ms)
+✔ datum translation changes elevation only; density scaling changes forces and power only (0.810586ms)
+✔ reflection and inlet permutation preserve physical results and transverse signs (0.356539ms)
+✔ boundary and shared-domain failures leave no trial or accepted water surface (0.328318ms)
+✔ different inlet beds share stage under the explicit closure, not depth (0.272618ms)
+✔ phase29 prescribed energy relation is reproduced without overriding its unequal surfaces (48.633105ms)
+✔ 13 scenarios preserve actual nulls and prior unresolved states, including comparisons (3.905713ms)
+✖ provenance, payload integrity and CLI complete/error states are reproducible (199.44389ms)
+✔ source, prior domain and calculation hashes bind every reused byte (1973.942671ms)
+✔ 132 columns and 619 deliveries preserve original graph entry, source identity and spherical area (16036.198603ms)
+✔ independent minimax connectivity and direct column integrals match expanded five-pool geometry (107.364209ms)
+✔ exact drainage matches independent constant-area solution and crosses area knots without overdrawing (2272.835435ms)
+✔ rating uses SI head, zero crest flow and null for unsupported tailwater (0.806946ms)
+✔ wet source rain replaces land runoff once and submerged stores survive (5.85417ms)
+✔ zero-width boundary fixture stops inside its first source period and preserves all water (2.609111ms)
+✔ 144 cases close independent final-cell inventories and keep internal delivery separate (87.900611ms)
+✔ all saved wet masks and model area equal independent native-level comparisons (452.469352ms)
+✔ 108 high-tailwater cases hold original stores without starting forcing or inventing zero release rate (1.688004ms)
+✔ upstream persistent SWE is carried for the processed duration, including a partial stop year (7.831187ms)
+✔ six 30/60/120 refinements retain termination class and bound reported numerical differences (163.572519ms)
+✖ UI and CLI preserve provenance, partial-period semantics, nulls and available time range (4470.081376ms)
+✔ original 7,428 probe rows close per cell; monthly source state and all fluxes reproduce the archive (496.17798ms)
+✔ probe world hashes, bit-identical global runoff evidence and committed provenance remain bound (592.090289ms)
+✔ source phase averaging matches earlier transported boundary inflow within Float32 rounding (0.582577ms)
+✔ 619 deliveries independently follow canonical routing to original physical entries and sphere areas (5727.558326ms)
+✔ all local pond merge thresholds agree with independent native-cell minimax paths (5.338905ms)
+✔ fill and dry across every local saddle conserve independently integrated column volumes (206.204028ms)
+✔ wet conversion retains shallow inventory and routes rain/snow exactly once, with no land ET/runoff (382.930639ms)
+✔ submerged shallow storage survives and resumes on drying; snow carries across both switches (0.491609ms)
+✔ all 12 century scenarios conserve external water and internal delivery with independent end inventories (993.288668ms)
+✔ saved annual wet masks and areas equal native elevation tests for each active pool (682.434858ms)
+✔ wet/dry and overflowing cases pass 30/60/120 refinement without declaring universal convergence (0.769423ms)
+✔ free-flow rating requires positive head and reverses to required width, without actual outlet assignment (0.703375ms)
+✔ UI and AI expose every scenario/year and preserve physical null values; invalid selections fail (9.784407ms)
+✔ payload and retained inputs/code hashes match provenance (2903.176172ms)
+✔ route independently follows adjacent original receivers to first sea (9.455064ms)
+✔ disjoint source catchments are exhaustive and exclude D298591 (677.799116ms)
+✔ independent recursive accumulation reproduces every f64 station and period (220.822538ms)
+✔ station ledger closes without summing successive total flows (24.927864ms)
+✔ map log-encoded flows stay within quantization bound (0.774948ms)
+✔ distance and slope use independent great-circle meters (0.976753ms)
+✔ shallow profile is linked to archived terrain design, never actual width (0.64952ms)
+✔ native cuts retain original masks/heights, not invented cross sections (6.793812ms)
+✔ held tailwater and unknown physical outputs remain explicit in all744 queries (9.717845ms)
+✔ synthetic merge graph, phase wrap, missing receivers and cycles (2.490929ms)
+✖ query and validator reject fabricated actual values and invalid selection (181.376537ms)
+✔ all source hashes bind to exact main inputs and closed review stays excluded (543.979363ms)
+✔ 23022 unique reaches independently follow receiver graph to the same unresolved terminal (235.536254ms)
+✔ exclusive categories cover every boundary and reach without duplicate inflow aggregation (733.012035ms)
+✔ native geometry independently integrates spherical cell areas and is connected below the crest (275.774852ms)
+✔ zero loss exactly matches the closed-form inventory envelope and each period conserves water (54.964578ms)
+✔ 60 saved experiments match runtime, preserve null allocations, and clamp loss to available water (51.852296ms)
+✔ necessary loss bound is a total-volume condition, not an overflow guarantee (0.395114ms)
+✔ invalid inputs and non-unresolved queries fail without fabricating a boundary (3.400919ms)
+✖ CLI returns original boundary evidence and a source-linked reproducible experiment (417.854185ms)
+✔ all23022 reach IDs retain boundary correspondence and every excluded study stays held (5767.88581ms)
+✔ all209 routes independently follow source receiver to ocean without lake or depression crossing (1733.294918ms)
+✔ capacity domains are disjoint and capacity equals independent layer integration (29.808706ms)
+✔ zero-loss100y matches analytic fill-and-spill volumes for every boundary (2.059154ms)
+✔ shared downstream path merges once; only terminal receipts enter budget (0.539376ms)
+✔ all native terminal totals and path increments agree with independent boundary scatter (7.789342ms)
+✔ additional losses and initial stock match prior independent scalar budget for all209 (127.891267ms)
+✔ zero water, exhausted stock, saturated stock and seasonality conserve separately (5.341285ms)
+✔ result is invariant under source ordering and source objects are not mutated (452.006038ms)
+✔ missing assumptions, malformed inflows, cyclic paths and conflicting receivers fail closed (1.329564ms)
+✔ stored3examples reproduce their summaries and all1200 period balances close (1007.551287ms)
+✔ source hashes and payload manifest match exact files (292.820326ms)
+✖ AI lookup returns held without numerical fallback and invalid input exits nonzero (130.548859ms)
+✔ finite infiltration, saturation runoff and separate recharge conserve a storm (0.742842ms)
+✔ random wet/dry/frozen cells preserve water and both finite limits (102.920495ms)
+✔ isolated aquifer follows the analytical exponential and returns to surface (0.95792ms)
+✔ saturated aquifer rejects recharge into finite soil instead of losing water (0.208177ms)
+✔ wet precipitation bypasses soil; original snow remains an explicit stock (0.225156ms)
+✔ designed outlet is one-way, stage-dependent and tailwater-suppressed (0.245952ms)
+✔ implicit finite outlet converges to independently integrated free drainage (6.703118ms)
+✔ finite outlet over-capacity water is unallocated, never silently released (0.340367ms)
+✔ two connected boundaries conserve transit and are independent of iteration order (96.60481ms)
+✔ original initial mixed storage is conservatively split, with excess to surface (13.944028ms)
+✔ a blocked undersized outlet flags an incomplete candidate without mass loss (9.035461ms)
+✔ invalid and nonfinite parameters are rejected (24.122073ms)
+✔ saved real basin has independent finite stocks, full horizon and balanced global replacement (237.902224ms)
+✔ AI annual/local/global scopes and unadopted values survive every saved selection (733.042864ms)
+✔ cached affine outlet matches the full column hypsometry equation (2.576092ms)
+✔ two incoming boundaries merge before downstream storage; held receipt never forwards (0.88451ms)
+✔ native949 boundary zero-loss totals match independent recursive analytic volumes (10.173519ms)
+✔ all740 internal senders match recipient totals and last12 receipts exactly once (53.532635ms)
+✔ global source includes all1184 independent inputs, not internal transfers (46.124695ms)
+✔ every source reach and held flag retains original correspondence; old studies remain held (4062.055387ms)
+✔ every outgoing physical path independently follows native entries to exact target (2023.971216ms)
+✔ capacity geometry has no shared columns and matches independent layer integration (41.670957ms)
+✔ isolating prior ocean209 reproduces previous model under all3 examples (2498.527677ms)
+✔ active cycles and missing recipients fail closed; explicit held member breaks cycle without forwarding (7.428929ms)
+✔ input order invariance, no mutation, null actual and held storage remain distinct from zero (2103.859373ms)
+✔ empty forcing and exhausted inventory cannot generate water; excessive losses cap at availability (3.367106ms)
+✔ missing assumptions, malformed inputs and conflicting routes reject (0.949692ms)
+✔ 3 stored scenarios close all3600 period and internal transfer balances (6594.638664ms)
+✔ source inputs, runtime dependency hashes and published payload are exact (694.276136ms)
+✔ all 4320 representative/period pairs preserve source samples, B-minus-A and unknown flow (230.258859ms)
+✔ swap reverses finite differences and same-period comparisons retain unknowns (0.9425ms)
+✔ comparison links round-trip both phases, family and exact cell center through real map state parser (20.132309ms)
+✔ missing catalog, non-representative cells and invalid periods never borrow or fabricate samples (0.540972ms)
+✔ catalog hash, atlas identity and all 30 original representative groups match (44.412599ms)
+✔ 360 temperatures, rainfall and quantized flows match restored original inputs, plus exact hydrology (3339.730406ms)
+✔ extrema preserve exact ties, phase identity and representative-point scope (1.430989ms)
+✔ all map links resolve to the original grid and all per-period exports keep evidence and nulls (3.349894ms)
+✔ non-representative land, ocean and original lakes do not borrow adjacent descriptions (2.115579ms)
+✔ wrong atlas, source coordinate, unit and corrupt period data are rejected (9.571597ms)
+✔ every cell temperature/rain and all reach flow values equal the original twelve periods (1174.44056ms)
+✔ all point-chart blocks and rain ranges retain exact source samples (1332.077655ms)
+✔ metadata preserves reach IDs, topology, catchments, trunks, lake and unresolved endpoints (346.07042ms)
+✔ first selection including chart stays below 10 MB and references bind to exact atlas/source bytes (408.257859ms)
+✔ a missing or mismatched active period yields no stale climate values or colors (80.446466ms)
+✔ twelve fixed landscapes cover every region plus an original lake without adopting new geometry (1.170117ms)
+✔ same native downstream faces are collected without merging their catchment (10.394278ms)
+✔ independent flood proves the domain below and contact at the threshold (0.851395ms)
+✔ search ceiling means no contact found in range, never a permanently closed basin (0.331199ms)
+✔ lake and a different ocean contact stop without invented mask heights (0.471401ms)
+✔ D8 adjacency wraps longitude, clips latitude and has no duplicate/self edges (0.220938ms)
+✔ heap order is deterministic across ties (0.193248ms)
+✔ piecewise native expansion solves the independent layer-integrated outlet equation (4.746454ms)
+✔ multiple faces share total width, distinct crests and downstream suppression (0.448291ms)
+✔ fully blocked faces have exactly zero release and explicit excess inventory (0.144629ms)
+✔ all946 prepared geometries preserve original cells and disjoint source ownership (242.484567ms)
+✔ 946 domains have no foreign catchment cells; outlet faces retain original target (1858.117499ms)
+✔ full coverage partitions23022 reaches without calling geometry-only work simulated (0.657227ms)
+✔ component stops at first contact, preserves overshoot, and does not fabricate remaining100 years (21.460635ms)
+✔ independent initial/final/transit sum closes whole-component external balance (8.076426ms)
+✔ 60/120 steps bracket the same first event; this is not a100-year convergence claim (0.402675ms)
+✔ all2838 AI selections distinguish geometry-only from stopped dynamic results (382.076212ms)
+✔ nine lower-reference outlets remain explicit model incompatibilities (0.856648ms)
+✔ simultaneous multiple-face transfers are independent of boundary iteration order (211.549685ms)
+✔ fresh probes preserve entire-world runoff and old619 source values bit for bit (75.999037ms)
+✔ new71 cells reproduce own original monthly land arithmetic rather than downstream climate (28.556823ms)
+✔ source domains and native capacity columns are disjoint with original crest volumes (5.225215ms)
+✔ every upstream period sends its own dynamic excess to correct physical recipient entry (1.139945ms)
+✔ each donor without receipts matches the original shared surface engine independently (285.321136ms)
+✔ every local period balances external supply and internal shallow store movements (0.864596ms)
+✔ connected chain independent inventory balance cancels both internal transfers (0.331337ms)
+✔ global replacement subtracts three original sources but only the ocean-bound release (298.555852ms)
+✔ all route-node changes equal sum of replacements that visit that cell (184.480948ms)
+✔ incomplete chain, held nodes, overlap, unknown source/entry and invalid assumptions fail closed (123.087861ms)
+✔ explicit separate initial stocks and nonzero network loss retain replacement closure (180.483305ms)
+✔ new donor60-to120 step refinement stays within0.5percent in cumulative excess (31516.179422ms)
+✔ all saved cases retain null actuals, local and chain balances and hashed dependencies (5.225581ms)
+✔ AI900 selections keep boundary annual, receipt and100year global scopes distinct (9.013471ms)
+✔ new surface evolution with zero receipts exactly retains prior wet/dry physics (1057.811341ms)
+✔ 619x12 original one-step land flux and internal shallow transfers reconstruct raw records (44.593159ms)
+✔ shallow recharge/return are internal, with positive dry soil evaporation and wet store preservation (0.278493ms)
+✔ source entry mapping and sender totals/last phases match all-network run (85.941892ms)
+✔ global replacement removes old local generated flow and its loss/storage/release once (83.168344ms)
+✔ each downstream path receives only the replacement delta, including ocean receipt (0.647557ms)
+✔ pure external injection has analytic capacity/excess balance with no fictitious precipitation (29.206547ms)
+✔ submerged precipitation enters water once and is not land runoff or land ET (33.301959ms)
+✔ every dynamic period and independent final inventories close; internal recharge is not external loss (0.369869ms)
+✔ bad entry, missing assumptions, invalid receipts and changed donor topology fail closed (122.299774ms)
+✔ source rounding/phase averaging stays distinct from raw-phase dynamic forcing (80.371071ms)
+✔ published cases reproduce full replacements and input/dependency hashes (17.500507ms)
+✔ AI selection covers3casesx100years without changing100y global scope (16.183038ms)
+ℹ tests 248
+ℹ suites 0
+ℹ pass 240
+ℹ fail 8
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 175441.754702
+
+✖ failing tests:
+
+test at integration/natural-world/d298591-confluence/test.cjs:116:1
+✖ code/input SHA receipts, manifest integrity, and explicit CLI output agree (294.622181ms)
+  SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-confluence/test.cjs:119:182)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at integration/natural-world/d298591-constraints/test.cjs:92:1
+✖ AI/UI selections bind source, diagnostic assumptions and null values; malformed queries and payloads fail (245.640354ms)
+  <ref *1> Error: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node EPERM
+      at Object.spawnSync (node:internal/child_process:1160:20)
+      at spawnSync (node:child_process:928:24)
+      at Object.execFileSync (node:child_process:971:15)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-constraints/test.cjs:95:24)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    errno: -1,
+    code: 'EPERM',
+    syscall: 'spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    path: '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    spawnargs: [ '/workspace/codex/integration/natural-world/d298591-constraints/query.cjs', '274035', '2', '90', 'E1-G0-I0', '1', '.5' ],
+    error: [Circular *1],
+    status: 0,
+    signal: null,
+    output: [ null, '', '' ],
+    pid: 7771,
+    stdout: '',
+    stderr: ''
+  }
+
+test at integration/natural-world/d298591-hydraulics/test.cjs:18:1
+✖ CLI requires explicit preset or complete input and agrees with browser-independent core (117.805752ms)
+  SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-hydraulics/test.cjs:18:311)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at integration/natural-world/d298591-momentum/test.cjs:70:1
+✖ provenance, payload integrity and CLI complete/error states are reproducible (199.44389ms)
+  SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-momentum/test.cjs:73:176)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at integration/natural-world/d298591-routing/test.cjs:83:1
+✖ UI and CLI preserve provenance, partial-period semantics, nulls and available time range (4470.081376ms)
+  <ref *1> Error: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node EPERM
+      at Object.spawnSync (node:internal/child_process:1160:20)
+      at spawnSync (node:child_process:928:24)
+      at Object.execFileSync (node:child_process:971:15)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-routing/test.cjs:86:55)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    errno: -1,
+    code: 'EPERM',
+    syscall: 'spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    path: '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    spawnargs: [ '/workspace/codex/integration/natural-world/d298591-routing/query.cjs', 'E1-G0.25-I0-W100-C1.5-T0' ],
+    error: [Circular *1],
+    status: 0,
+    signal: null,
+    output: [ null, '', '' ],
+    pid: 7807,
+    stdout: '',
+    stderr: ''
+  }
+
+test at integration/natural-world/d298591-tailwater/test.cjs:17:1
+✖ query and validator reject fabricated actual values and invalid selection (181.376537ms)
+  SyntaxError: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/d298591-tailwater/test.cjs:17:589)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7)
+
+test at integration/natural-world/downstream-budget/test.cjs:81:1
+✖ CLI returns original boundary evidence and a source-linked reproducible experiment (417.854185ms)
+  <ref *1> Error: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node EPERM
+      at Object.spawnSync (node:internal/child_process:1160:20)
+      at spawnSync (node:child_process:928:24)
+      at Object.execFileSync (node:child_process:971:15)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/downstream-budget/test.cjs:82:25)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    errno: -1,
+    code: 'EPERM',
+    syscall: 'spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    path: '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    spawnargs: [ '/workspace/codex/integration/natural-world/downstream-budget/query.cjs', 'D298591', '.5', '10', '.5' ],
+    error: [Circular *1],
+    status: 0,
+    signal: null,
+    output: [ null, '', '' ],
+    pid: 7831,
+    stdout: '',
+    stderr: ''
+  }
+
+test at integration/natural-world/downstream-routing/test.cjs:18:1
+✖ AI lookup returns held without numerical fallback and invalid input exits nonzero (130.548859ms)
+  <ref *1> Error: spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node EPERM
+      at Object.spawnSync (node:internal/child_process:1160:20)
+      at spawnSync (node:child_process:928:24)
+      at Object.execFileSync (node:child_process:971:15)
+      at TestContext.<anonymous> (/workspace/codex/integration/natural-world/downstream-routing/test.cjs:18:158)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1382:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:960:18)
+      at Test.postRun (node:internal/test_runner/test:1522:19)
+      at Test.run (node:internal/test_runner/test:1447:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    errno: -1,
+    code: 'EPERM',
+    syscall: 'spawnSync /opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    path: '/opt/codex/runtimes/codex-primary-runtime/dependencies/node/bin/node',
+    spawnargs: [ '/workspace/codex/integration/natural-world/downstream-routing/query.cjs', 'D144758' ],
+    error: [Circular *1],
+    status: 0,
+    signal: null,
+    output: [ null, '', '' ],
+    pid: 7850,
+    stdout: '',
+    stderr: ''
+  }
