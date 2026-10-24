@@ -1,0 +1,191 @@
+{
+  "schema": "seasonal-physical-manifest/1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 5308979,
+    "rawBytes": 35186901,
+    "sha256": "e1a8a7fa4161d2508f3bda0b6cb66c9c7359f2a0500c54ba6b360fcf2d88119a"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "file": "period-01.bin.gz",
+      "bytes": 935255,
+      "rawBytes": 2630124,
+      "sha256": "d2e92d44a4e77d0ec948d8c19a08b906a21784eaab2daceb1c2c9b9702de7718",
+      "forcing": {
+        "period": 1,
+        "file": "period-01-e6a9d3db8dc7.gz",
+        "bytes": 1928765,
+        "rawBytes": 2242504,
+        "sha256": "e6a9d3db8dc76c0cc983aa94ba57f1b6a30d2b5e915c904ed62fef4ca1921e95",
+        "path": "../seasonal-loading/output/period-01-e6a9d3db8dc7.gz"
+      }
+    },
+    {
+      "period": 2,
+      "file": "period-02.bin.gz",
+      "bytes": 664956,
+      "rawBytes": 2630124,
+      "sha256": "18258ab0d35a93de7454fa5310a469b9744a204210464444b960d4399a866c72",
+      "forcing": {
+        "period": 2,
+        "file": "period-02-6d57cedf8cf4.gz",
+        "bytes": 1934332,
+        "rawBytes": 2242504,
+        "sha256": "6d57cedf8cf4c90704751afdba8446e07f6801c522b4bc1677095272e248ee95",
+        "path": "../seasonal-loading/output/period-02-6d57cedf8cf4.gz"
+      }
+    },
+    {
+      "period": 3,
+      "file": "period-03.bin.gz",
+      "bytes": 390451,
+      "rawBytes": 2630124,
+      "sha256": "79c10ec5cd5136fda3ce1ad7a63639b6ea89ab78367ae1cd254e331172b9e4a7",
+      "forcing": {
+        "period": 3,
+        "file": "period-03-403f222cdde5.gz",
+        "bytes": 1932927,
+        "rawBytes": 2242504,
+        "sha256": "403f222cdde5f8f496f8f0f9d88b38adbbd41a90e50794dfde2c4c58317465df",
+        "path": "../seasonal-loading/output/period-03-403f222cdde5.gz"
+      }
+    },
+    {
+      "period": 4,
+      "file": "period-04.bin.gz",
+      "bytes": 409047,
+      "rawBytes": 2630124,
+      "sha256": "aefa360e90a77a26995e9ca26adc9f83bb10b595cb7b9e6b1395cada2d90972b",
+      "forcing": {
+        "period": 4,
+        "file": "period-04-2343292de859.gz",
+        "bytes": 1924639,
+        "rawBytes": 2242504,
+        "sha256": "2343292de85989e48b65f4b78b9c5a4efe3e2ab662082d26840ca35196c00099",
+        "path": "../seasonal-loading/output/period-04-2343292de859.gz"
+      }
+    },
+    {
+      "period": 5,
+      "file": "period-05.bin.gz",
+      "bytes": 389569,
+      "rawBytes": 2630124,
+      "sha256": "9e9f433b23a770e92bd5e8dd1593f62872d05475d5a26bef9b660b05690d5339",
+      "forcing": {
+        "period": 5,
+        "file": "period-05-02bf55a96d60.gz",
+        "bytes": 1918153,
+        "rawBytes": 2242504,
+        "sha256": "02bf55a96d6021b202c90b64b3e1d0e1165ccebb79015f0a37db065576c9af60",
+        "path": "../seasonal-loading/output/period-05-02bf55a96d60.gz"
+      }
+    },
+    {
+      "period": 6,
+      "file": "period-06.bin.gz",
+      "bytes": 326312,
+      "rawBytes": 2630124,
+      "sha256": "1ec3af19c1ee475ac20b29f8e16f0d0150fb3a56add6addb2045713f15ac410d",
+      "forcing": {
+        "period": 6,
+        "file": "period-06-b99463e843e6.gz",
+        "bytes": 1922005,
+        "rawBytes": 2242504,
+        "sha256": "b99463e843e6162fd20a9ec9c3913cc172459b8ff4dd60c77c34df8aa1ff9e60",
+        "path": "../seasonal-loading/output/period-06-b99463e843e6.gz"
+      }
+    },
+    {
+      "period": 7,
+      "file": "period-07.bin.gz",
+      "bytes": 485370,
+      "rawBytes": 2630124,
+      "sha256": "12084a937d153631e72b6702fc9cc8ea0310efcfb35e6679685c98dea329569d",
+      "forcing": {
+        "period": 7,
+        "file": "period-07-6b0e817495a9.gz",
+        "bytes": 1937508,
+        "rawBytes": 2242504,
+        "sha256": "6b0e817495a96989e375a3cace3a443924775504bf4d0a53dc1c64e655e79f28",
+        "path": "../seasonal-loading/output/period-07-6b0e817495a9.gz"
+      }
+    },
+    {
+      "period": 8,
+      "file": "period-08.bin.gz",
+      "bytes": 963917,
+      "rawBytes": 2630124,
+      "sha256": "018b2364d4a56c4927c0c7a354dfaffcd9dab0f08e3d02244e1d57520b10ccc4",
+      "forcing": {
+        "period": 8,
+        "file": "period-08-d9ee83739a81.gz",
+        "bytes": 1930174,
+        "rawBytes": 2242504,
+        "sha256": "d9ee83739a81afee0e3502c79ef6f66ce404925bd5e1abd72d2abd6746d150a8",
+        "path": "../seasonal-loading/output/period-08-d9ee83739a81.gz"
+      }
+    },
+    {
+      "period": 9,
+      "file": "period-09.bin.gz",
+      "bytes": 1115444,
+      "rawBytes": 2630124,
+      "sha256": "dc7e16e9e5c4c0c74e74ca16ee6ba882c886340a891c8fc0d5aafd4285bace1a",
+      "forcing": {
+        "period": 9,
+        "file": "period-09-8666a5b27696.gz",
+        "bytes": 1930222,
+        "rawBytes": 2242504,
+        "sha256": "8666a5b27696f7552af1b1a6bebb9127eef2941978c182cabb31e4bbd681d0dc",
+        "path": "../seasonal-loading/output/period-09-8666a5b27696.gz"
+      }
+    },
+    {
+      "period": 10,
+      "file": "period-10.bin.gz",
+      "bytes": 1149246,
+      "rawBytes": 2630124,
+      "sha256": "64d3a79d25a196325200c43052baa00c73e0e882bf168b86fd5c5131a723ef4a",
+      "forcing": {
+        "period": 10,
+        "file": "period-10-02d36bdfc4ef.gz",
+        "bytes": 1927394,
+        "rawBytes": 2242504,
+        "sha256": "02d36bdfc4ef8b9f204165eb0cd97aad9a61321abd24de7fc095df86cc8d7796",
+        "path": "../seasonal-loading/output/period-10-02d36bdfc4ef.gz"
+      }
+    },
+    {
+      "period": 11,
+      "file": "period-11.bin.gz",
+      "bytes": 1139093,
+      "rawBytes": 2630124,
+      "sha256": "2ed9d951f32350ecff831475f458e3572a245e45113ed391f8877553c3ac584f",
+      "forcing": {
+        "period": 11,
+        "file": "period-11-c937cf997c6c.gz",
+        "bytes": 1932644,
+        "rawBytes": 2242504,
+        "sha256": "c937cf997c6cd5418a23811f5fe9fb97d5dd98710e32dd662c3b3bba57cffc8e",
+        "path": "../seasonal-loading/output/period-11-c937cf997c6c.gz"
+      }
+    },
+    {
+      "period": 12,
+      "file": "period-12.bin.gz",
+      "bytes": 1070197,
+      "rawBytes": 2630124,
+      "sha256": "2702009fa50a3163be906b4c71a51f0c5c511266dc62bc887a092de05d6305c4",
+      "forcing": {
+        "period": 12,
+        "file": "period-12-4e95f0b570c7.gz",
+        "bytes": 1928653,
+        "rawBytes": 2242504,
+        "sha256": "4e95f0b570c7f958d12c8a27bc2a81f7f50b119336e825db937eecdac873ea75",
+        "path": "../seasonal-loading/output/period-12-4e95f0b570c7.gz"
+      }
+    }
+  ]
+}

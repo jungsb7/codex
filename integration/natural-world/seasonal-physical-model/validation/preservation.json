@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "baseCommit": "6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1",
+  "protectedFiles": 1522,
+  "allowedChanges": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/unified-atlas/index.html",
+    "integration/natural-world/cover-boundary-model/index.html"
+  ],
+  "meaning": "Every pre-existing tracked file except three handoff documents and two navigation pages retains its exact Git blob."
+}

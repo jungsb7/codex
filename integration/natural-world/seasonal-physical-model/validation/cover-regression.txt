@@ -1,0 +1,17 @@
+✔ Every native column, ecology flag and source water mask matches immutable original inputs (236.623596ms)
+✔ All three cover partitions reconcile spherical area without double-counting and preserve source holds (188.544528ms)
+✔ Reconstructed final depth volumes and wet areas match all9696 published pond states (43.918787ms)
+✔ One-time soil snapshots are finite and missing background stores stay unknown (817.083993ms)
+✔ All3558 scope summaries reconcile and all806571 native-cell AI queries remain candidate-labelled (3535.995933ms)
+✔ Neighbour cancellation, holes and longitude seam edges are exact; scope cuts are not forest edges (0.668351ms)
+✔ Cell GeoJSON spherical areas independently match their ledger and boundaries name selection cuts (340.051218ms)
+✔ Wetland assumption sensitivity is nested and peak union is never described as a simultaneous flood (1.3637ms)
+✔ Generated scope archive and code/source hashes are pinned (153.480429ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 6202.896871

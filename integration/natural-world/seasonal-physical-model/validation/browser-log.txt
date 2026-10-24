@@ -1,0 +1,14 @@
+PASS verified initial native selection matches AI query
+PASS all36 scenario-period river results match CLI hydraulics and120-step ice
+PASS eight point and annual JSON downloads agree with shared heat and snow calculations
+PASS perennial accumulation, original-lake snow potential and numerical ranges are explicit
+PASS invalid identifiers clear stale point, annual data and downloads
+PASS ocean selection retains unknown inland snow and ice
+PASS period navigation, shared links, reload and browser history retain the same candidate
+PASS map selection, zoom and drag use original cells
+PASS map, thermal notes and hydraulic cross-section fit1440/390/320px
+PASS corrupt derived ice/snow is rejected and retry recovers
+PASS missing original forcing cannot display fabricated zero flow or temperature
+PASS late period and annual responses cannot overwrite a newer selection
+PASS original atlas period and selection deep link and return navigation work
+PASS existing valley geometry and cover boundaries remain separately accessible
