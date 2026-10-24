@@ -1,6 +1,18 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속45 채택 기준·미완료 범위 표시와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속46 기간별 침수 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속46 원본 격자의 기간별 침수 계산 — 2026-10-25 Asia/Seoul
+
+사용자의 “진행해.”에 따라 실제 남은 계산을 구현했다. [지도](../integration/natural-world/seasonal-inundation/index.html), [방법·AI](../integration/natural-world/seasonal-inundation/README.md), [결과](../integration/natural-world/seasonal-inundation/REPORT.md), [배포](../integration/natural-world/seasonal-inundation/validation/deployment.json)가 최신 인계다. 기준main5cc0cf8f26559eea6847b0922bb164ffeb5786e4.
+
+- 후속40 기준100년 끝의 눈·토양·지하수·이동·표면 저장에서101년차를 이어 계산했다. 원본268,857격자·3,232웅덩이·9,858연결,12기간×240단계. 원본 수식과 기후를 유지하고 시간별 관측·기간 장부를 추가했다.
+- 지도 ‘침수 변화’ 탭: 수심·잠긴 비율·기준 대비 침수/퇴수·최대 포락선, 지점12기간 표, JSON·GeoJSON. AI도 동일 core를 사용한다. 1,184집수권·23,022구간의 기간 장부 링크를 제공하며 개별 구간 유량은null이다.
+- 기간 끝 육지 침수는776.37만~797.76만km²(원본 호수 제외,1cm 이상).120/240단계 최대 수심 차이1.61cm, 분류 차이10격자·기간을 표시한다. 잠긴 시간 비율의 최대 차이18.75%p는 보존한다.
+- 새 모델8+기존 수식7검사,3,226,284지점·기간 대조. 새 브라우저12+정설12+원본지도12+상태8검사. 전체 기간 저장 연속성과 물수지를 검증했다.
+- natural-canon-v1 수치·채택 상태는 변경하지 않는다. 이번 결과는 simulated-continuation,101년차 한 해이며 평형 연주기가 아니다. 원본 약26km 격자보다 세밀한 경계·폭풍 사건·빙하 이동·전체 물리 연동·지하 압력은 여전히 남는다. 초기100년 계산의48경계 세분화 한계도 해소했다고 주장하지 않는다.
+
+게시/배포 결과는 후속46 배포 기록과 연결된 PR 본문에 기록한다. 아래 후속45의 ‘기간별 침수 미구현’ 중 원본 격자 수준은 이번 계산으로 대체됐으며, 세부 격자 내부·사건별 침수는 계속 남는다.
 
 ## 후속45 채택 기준과 실제 남은 작업의 구분 — 2026-10-25 Asia/Seoul
 

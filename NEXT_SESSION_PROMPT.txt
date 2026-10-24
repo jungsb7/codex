@@ -1,30 +1,27 @@
-GitHub 기반 인계 — 후속45 채택 기준·미완료 범위 구분,2026-10-25 Asia/Seoul
+GitHub 기반 인계 — 후속46 기간별 침수 계산,2026-10-25 Asia/Seoul
 
-먼저 최신main 확인, 로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
-handoff/NEXT_GOALS.md,integration/natural-world/natural-status/README.md,
-validation/deployment.json,worldbuilding/NATURAL_CANON_V1.md 읽기.
+최신main 확인, 로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
+handoff/NEXT_GOALS.md,integration/natural-world/seasonal-inundation/README.md,
+REPORT.md,validation/deployment.json,worldbuilding/NATURAL_CANON_V1.md 읽기.
 
-최근 지적: “여전히 미정인 것들이 많은 거 같은데”.
-후속44의 기준값 채택과 원래 요청의 모든 상세 구현 완료를 혼동하지 않는다.
-worldReferenceAdopted=true, allRequestedDetailImplemented=false가 정확한 상태다.
+최근 요청 “진행해.”에 따라 기준100년 끝에서101년차를 실제 이어 계산했다.
+268,857격자·3,232웅덩이·9,858연결,12기간×240단계.
+‘침수 변화’ 탭에서 수심·잠긴 비율·침수/퇴수·포락선·12기간 표와 장부,
+JSON·GeoJSON을 제공한다. AI조회는 seasonal-inundation/query.cjs.
+23,022구간은1,184집수권의 기간 장부에 연결; 개별 구간 유량은null.
 
-남은 일:격자 안의 미세 숲·습지·지류 경계,기간별 세부 침수,
-빙하 이동,지형·식생·빙설·유량 전체 연동,지하 통로 압력/손실수두.
-개별 화산 위치는 네 항목 밖의 미정 설정. 48경계의 수치 세분화 한계도 연구에 남음.
-이것들을 단순히 ‘범위 밖’으로 치부해 원래 요구가 모두 해결됐다고 말하거나,
-미정이라는 명칭만 바꾸어 완료 처리하지 않는다.
+120/240단계 최대 수심 차이1.61cm, 분류 차이10격자·기간을 표시.
+잠긴 비율 최대 차이18.75%p 및 초기100년 상태의48경계 수치 한계 유지.
+새8+기존수식7모델검사,AI3,226,284지점·기간,브라우저12+회귀32검사.
+기준판 natural-canon-v1 수치·채택과100년 장부 미처리0은 변경하지 않음.
+101년차 계산은 simulated-continuation이며 평형 연주기/사건 홍수 예측 아님.
 
-이미 완료한 범위:268,857격자 피복·45,824경로·12기간 빙설/강폭의 기준값 채택,
-1,184경계·23,022구간100년 장부 미처리0. 이 값과 채택 상태는 유지한다.
-후속45는 모든 지도 모드에 현재 채택값과 남은 작업을 함께 표시하고,
-AI/JSON에도같은범위를제공한다. 새 물리 계산을 해결한 작업은 아니다.
-mode=review 등 원본 연구 URL은 유지, ‘현재 기준 v1’이 첫탭.
-새조회3검사·268,857격자대조,새브라우저8+회귀24=32검사.근거는후속45validation.
+실제로 남은 일:약26km 격자 안의 미세 숲·습지·지류·침수 경계,
+개별 폭풍별 침수,빙하 이동,지형·식생·빙설·유량 전체 연동,
+지하 통로 압력/손실수두. 화산 개별 위치는 별도 미정.
+명칭 변경을 물리 완료로 보고하지 않음. allRequestedDetailImplemented=false.
 
-기존 원본세계/경제/기후/지형/마스크/수계/구지도/연구기록/별도아카이브 보존.
+원본세계/경제/기후/지형/마스크/수계/구지도/연구/별도아카이브 보존.
 아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0 main병합금지.
-현재 공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
-배포 결과와 최종커밋은후속45기록/PR본문확인.
-
-PR#25 https://github.com/jungsb7/codex/pull/25 병합45107976b338151a521052dee04eb38cd4198e0a.
-최종커밋/Pages build·deploy·report결과는PR본문에기록.
+공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
+최종커밋과Pages build·deploy·report결과는후속46배포기록/PR본문확인.

@@ -1,0 +1,26 @@
+{
+  "phase": 46,
+  "baseCommit": "5cc0cf8f26559eea6847b0922bb164ffeb5786e4",
+  "status": "validated-awaiting-publication",
+  "scope": "Model year101 twelve-period native-grid inundation, duration, water ledgers and atlas/AI queries",
+  "tests": {
+    "model": 8,
+    "engineRegression": 7,
+    "scopeRegression": 3,
+    "nativePointQueries": 3226284,
+    "periodBudgetQueries": 14244,
+    "linkedReaches": 23022,
+    "browser": 44,
+    "newDownloads": 4,
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ]
+  },
+  "outputBytes": 6245399,
+  "authorization": "Standing public GitHub/Pages publication authorization",
+  "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+}
