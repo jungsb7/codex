@@ -1,6 +1,19 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속41 세부 물길·계곡 단면 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속42 숲·습지·침수 경계 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속42 숲·습지·침수 경계 후보 구현·검증 완료 — 2026-10-25 Asia/Seoul
+
+[방법](../integration/natural-world/cover-boundary-model/README.md) · [결과](../integration/natural-world/cover-boundary-model/REPORT.md) · [화면](../integration/natural-world/cover-boundary-model/index.html). 기준main9e72677782c305d37af4150950488a29e8b83066.
+
+- 원본268,857격자를숲·습지·침수등8개배타분류로계산하고, 별도100년최대침수포락선을제공한다. 3수문조건·1,184집수권·배경/호수권역, 화면/AI/GeoJSON조회완료.
+- 기준후보:숲25,372,833.39km²,습지262,012.98km²,최종육지침수7,775,797.57km². 최대침수8,360,457.56km²는서로다른시점의최대를합한영역이며동시홍수/100년빈도홍수아님.
+- 새9+기존웅덩이22=31모델검사, 새14+원본지도12=26브라우저검사통과. AI3,558범위·806,571격자조회와12JSON/GeoJSON다운로드검증.
+- 원본호수209격자/생태보류플래그32,777격자보존. 기준수문근거부족습지8,690격자·침수이력내수목생존미검증445격자별도공개. 토양수분없는배경은null. 습지기준민감도공개.
+- 경계는0.234375°원본격자(남북약26km). 실제미세경계/지속침수/수목생존확정아님. 집수권절단선과분류경계를분리한다. 후속41계곡절개는수문지형에적용하지않았다.
+- 후속40의23,022구간100년·미처리0과후속41세부물길후보는보존. actual:null,automaticAdoption:false.
+
+기존 사용자 게시·배포승인으로 진행한다. 원본/다른후보결과는보존한다. [배포 기록](../integration/natural-world/cover-boundary-model/validation/deployment.json)은 실제완료후기록한다.
 
 ## 후속41 세부 물길·계곡 단면 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 

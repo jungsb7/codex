@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    "verified native catalogue and world summary match CLI with1187 selectable scopes",
+    "three scenario summaries and twelve JSON/GeoJSON downloads match AI queries",
+    "peak envelope stays separate from exclusive final areas and source holds persist",
+    "background soil unknown and original ocean remain explicit without fabricated stores",
+    "map zoom, selection and panning operate on original native cells",
+    "share URLs and history restore scenario, scope, layer and selected cell",
+    "invalid cell requests clear stale summaries, points and download controls",
+    "map, legend and area ledger fit1440/390/320 pixel widths",
+    "corrupt scenario data is rejected and a verified retry recovers",
+    "corrupt native geometry cannot display a candidate or coverage claim",
+    "invalid shared scope is rejected rather than silently replaced",
+    "water budget deep link retains both scenario and boundary and returns to cover map",
+    "original atlas selection and navigation remain usable",
+    "late scenario responses cannot replace a newer selection"
+  ],
+  "downloads": 12,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

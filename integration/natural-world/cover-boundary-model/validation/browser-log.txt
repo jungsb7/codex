@@ -1,0 +1,14 @@
+PASS verified native catalogue and world summary match CLI with1187 selectable scopes
+PASS three scenario summaries and twelve JSON/GeoJSON downloads match AI queries
+PASS peak envelope stays separate from exclusive final areas and source holds persist
+PASS background soil unknown and original ocean remain explicit without fabricated stores
+PASS map zoom, selection and panning operate on original native cells
+PASS share URLs and history restore scenario, scope, layer and selected cell
+PASS invalid cell requests clear stale summaries, points and download controls
+PASS map, legend and area ledger fit1440/390/320 pixel widths
+PASS corrupt scenario data is rejected and a verified retry recovers
+PASS corrupt native geometry cannot display a candidate or coverage claim
+PASS invalid shared scope is rejected rather than silently replaced
+PASS water budget deep link retains both scenario and boundary and returns to cover map
+PASS original atlas selection and navigation remain usable
+PASS late scenario responses cannot replace a newer selection
