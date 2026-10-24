@@ -40,3 +40,5 @@ node integration/natural-world/natural-status/atlas-regression.cjs
 ## 배포
 
 기준main `c9227d58b8cfa4c7ea2997ff1d434301cf954987`. 실제 게시·Pages 결과는 [deployment.json](validation/deployment.json)과 PR 본문에 기록한다. 공개 Pages 호스트에 대한 직접 HTTP 확인은 환경 네트워크 허용목록 밖이며, 로컬 Chromium 검사와 GitHub Pages 작업으로 확인한다.
+
+[PR #25](https://github.com/jungsb7/codex/pull/25) 병합 `45107976b338151a521052dee04eb38cd4198e0a`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다. 이번 게시 내용은 상태 표시·설명 정정이며 추가 물리 계산 완료가 아니다.

@@ -1,8 +1,31 @@
 {
   "phase": 45,
   "baseCommit": "c9227d58b8cfa4c7ea2997ff1d434301cf954987",
-  "status": "validated-awaiting-publication",
+  "status": "published",
   "scope": "Clarify adopted reference versus incomplete detail; no new physical computation",
+  "featureCommit": "720e54adffca443a72acfd94c29912f97199e87a",
+  "mergeCommit": "45107976b338151a521052dee04eb38cd4198e0a",
+  "featureTree": "a7b153e79f44ee9775bb5418fc5b9883640e122b",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/25",
+  "firstPagesRun": 40130563889,
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results are recorded in the PR body after completion; avoids infinite self-recording commits.",
+  "tests": {
+    "query": 3,
+    "nativeCellsCompared": 268857,
+    "browser": 32,
+    "downloads": 4,
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ]
+  },
+  "preservation": {
+    "unchangedOriginalFiles": 1612,
+    "changedUiAndHandoffFiles": 7,
+    "canonicalNumericDataAndModelCode": "byte-identical"
+  },
   "authorization": "Standing public GitHub/Pages publication authorization",
-  "directPublicHttpVerification": "Unavailable: Pages host outside network allowlist; local Chromium and GitHub Pages jobs used"
+  "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used"
 }

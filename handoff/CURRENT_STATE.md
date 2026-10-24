@@ -12,6 +12,8 @@
 - AI/다운로드 상태 `natural-scope-status/1`: worldReferenceAdopted=true, allRequestedDetailImplemented=false. 원본 계산 API와 모든 채택 데이터는 유지한다.
 - 새 조회3검사(268,857격자 대조), 새 브라우저8+기존24=32검사. 조회/보존/배포 근거는 위 기록 참조. 이번 작업은 표시·상태 조회 정정이며 새 물리 계산 완료가 아니다.
 
+[PR #25](https://github.com/jungsb7/codex/pull/25) 병합 `45107976b338151a521052dee04eb38cd4198e0a`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다. 이번 게시 내용은 상태 표시·설명 정정이며 추가 물리 계산 완료가 아니다.
+
 ## 후속44 자연환경 정설 v1 채택·배포 완료 — 2026-10-25 Asia/Seoul
 
 사용자가 **“확정되게 진행해봐.”**라고 지시하여 네 자연환경 항목의 세계 설정을 채택했다. [정설 문서](../worldbuilding/NATURAL_CANON_V1.md), [방법·AI](../integration/natural-world/natural-canon-v1/README.md), [결과](../integration/natural-world/natural-canon-v1/REPORT.md), [배포](../integration/natural-world/natural-canon-v1/validation/deployment.json)가 현재 기준이다. 기준main00b24d0063a3d5a10cb0940c576d238875fd36c8.
