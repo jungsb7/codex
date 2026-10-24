@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "periods": 12,
+  "pointAndReachQueries": 3776172,
+  "boundaryQueries": 1184,
+  "maximumSnowMassDifferenceMm": 0.0034942626953125,
+  "maximumManningRelativeResidual": 1.5886695564798967e-7,
+  "underIceFlowReachPeriods": 161871
+}

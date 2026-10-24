@@ -1,0 +1,34 @@
+{
+  "schema": "natural-canon-decisions/1",
+  "version": "natural-canon-v1",
+  "status": "adopted-world-definition",
+  "authority": {
+    "kind": "explicit-user-instruction",
+    "instruction": "확정되게 진행해봐.",
+    "scope": "Four requested natural-environment groups; authorial world-setting adoption."
+  },
+  "baselineCommit": "00b24d0063a3d5a10cb0940c576d238875fd36c8",
+  "rules": {
+    "hydrology": "Adopt phase40 reference100-year-end storage and cumulative budgets, including all23022 reaches, as the fixed reference hydrological state. Original ocean and lake masks remain original substrate classifications; additional retained water is an overlay.",
+    "season": "Adopt twelve prescribed representative periods. Cyclic lookup is a world-calendar prescription, not a time-integrated coupled simulation.",
+    "routes": "Adopt phase41 centreline and valley geometry. Three non-junction crossings become explicit independent subsurface passages on the lower bed, preserving graph connections. X2 includes a locally inverted conduit bed; its discharge is prescribed as a natural pressure passage. Surface Manning profiles do not certify conduit pressure or head loss.",
+    "cover": "Assign every native cell one land-cover class. Original lakes and reference retained water first; authored arid-conflict flags override terrestrial forest; perennial snow becomes stationary icefield; grounded wetland evidence becomes wetland; unsupported wetness4 becomes moist meadow; flood-exposed forest becomes flood-tolerant woodland; remaining holds use explicit biome/temperature/rainfall rules.",
+    "boundaries": "Native-cell polygons are the canonical forest/wetland/water boundaries. Grid0.234375deg is the resolution of this edition; display noise is not adopted.",
+    "snow": "Preserve phase43 tenth-year SWE mass. The top min(SWE,500mm) is snow at250kg/m3; remaining mass is compacted ice at917kg/m3. All perennial icefields are prescribed stationary, velocity0; this is an authored static-state rule, not a glacier-flow solution.",
+    "ice": "Adopt phase43 reference120-step ice thickness. Retain60/120 differences as research uncertainty without leaving a choice of canonical values.",
+    "channel": "Prescribe phase43 seasonal discharge. With ice>=1cm, solve a covered trapezoidal Manning section at n=.045 with fixed open-water bottom width; include the ice underside in wetted perimeter and ice displacement in stage. Open-water n=.035. Q=0 retains the mean-flow pool, while the one all-year-dry reach has no water. These are quasi-steady prescribed sections, not unsteady backwater feedback to basin storage.",
+    "coupling": "A multi-scale prescribed reference world: basin budgets, channel normal-flow profiles and thermal boundary states are fixed contracts. Full terrain/vegetation/glacier/ice feedback is outside this edition's simulator, and is not described as verified physics.",
+    "precedence": "This explicit adopted edition supersedes research hold labels for the four world-definition groups only. Historical research files, uncertainties, original inputs, economic and political records stay unchanged. Future changes require a new version."
+  },
+  "parameters": {
+    "snowCapSweMm": 500,
+    "snowDensityKgM3": 250,
+    "compactedIceDensityKgM3": 917,
+    "coveredManningN": 0.045,
+    "iceCoverThresholdM": 0.01,
+    "tunnelMinimumLengthM": 1000,
+    "tunnelClearanceM": 3
+  },
+  "physicalValidation": "Not a certification of fully coupled physical realism or observational accuracy.",
+  "automaticAdoption": false
+}

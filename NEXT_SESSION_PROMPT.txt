@@ -1,24 +1,28 @@
-GitHub 기반 인계 — 후속43 강폭·적설·결빙 후보 구현·배포 완료,2026-10-25 Asia/Seoul
+GitHub 기반 인계 — 후속44 자연환경 정설 v1,2026-10-25 Asia/Seoul
 
-jungsb7/codex 최신main 확인. 로컬미게시변경/브랜치 보존.
-읽기:AGENTS.md,handoff/CURRENT_STATE.md,handoff/NEXT_GOALS.md,
-integration/natural-world/seasonal-physical-model/README.md,REPORT.md,validation/deployment.json.
-worldbuilding/WORLD_HANDOFF.md,handoff/FULL_ARCHIVE.md 준수.
-기준main6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1.
+jungsb7/codex 최신main 확인. 로컬변경/브랜치 보존.
+먼저 AGENTS.md,handoff/CURRENT_STATE.md,handoff/NEXT_GOALS.md,
+worldbuilding/NATURAL_CANON_V1.md,
+integration/natural-world/natural-canon-v1/README.md,REPORT.md,validation/deployment.json 읽기.
+원본 WORLD_HANDOFF.md와 FULL_ARCHIVE.md 보존.
 
-- 원본268,857격자·45,824물길·12기간의강폭/적설/결빙후보와지도·AI조회구현. Manning개수로폭, 눈물량/밀도별깊이, 현열·잠열·단열·바닥열·하천이류를계산한다.
-- 원본호수209+기존기준최종침수18,746=18,955수면격자와45,824물길을3열교환가정으로계산한다. 수면열교환층은최대2m, 기존호수는2m가정이다. 후속40물수지/41계곡형상에는피드백하지않았다.
-- 120단계/기간결과를제공한다.60/120비교의전체결빙면적·하천길이는모든조건/기간1%이내. 지점두께최대차이0.269023m는숨기지않고조회범위로제공한다.1cm분류가다른414격자-기간·76물길-기간은황색표시.
-- 10년반복의눈축적이남는4,852격자와최대469.384m고정밀도환산값은빙하이동/압밀생략의축적기둥이다. 실제평형눈/빙하확정아님. 해당지점에연간물환산축적과빙하동역학미포함표시.
-- 새10+기존생태9=19모델검사, 새14+원본지도12=26브라우저검사. AI4,875,948조회·8JSON다운로드검증. 원본/후보/세계최종채택구분,actual:null,automaticAdoption:false.
+사용자 “확정되게 진행해봐.”는 네 자연환경 항목의 세계 설정 채택 승인이다.
+268,857격자 피복 미결정0,45,824물길 경로·12기간 강폭/눈/얼음,
+1,184경계·23,022구간100년 장부 미처리0을 natural-canon-v1으로 채택.
+통합지도 mode=canon과 AI/JSON/GeoJSON은 같은 버전을 사용한다.
+기존 명시된 연구 URL(mode=review 등)은 원래연구 보기이며 확정판 버튼으로 전환.
+32,777보류플래그/actual:null/수치오차 등 과거연구 기록은 보존한다.
+정설은 adopted-world-definition이며 자동연구채택이 아니라 사용자의 명시적 지시로 채택.
 
-원래4항목은후속40~43에서각각가정기반계산·화면·AI조회를갖췄다. 관측미세경계/세계최종채택을완료했다고표현하지않는다.
-특히23,022구간100년·미처리0은유지하며다시미정/입력수집과제로돌리지않는다.
-재현:README의C++컴파일후build.cjs,test.cjs,query.cjs,browser-check.cjs. SHA검증된동일네이티브계산캐시만재사용가능.
-다음은기존통합지도에서후속40~43선택·비교를일원화하는제안이다. 모델간피드백/실제채택은별도검증이며자동채택하지않는다.
-기존공개GitHub/Pages배포승인유효,동일승인재질문금지.
-원본세계/경제/기후/지형/수계/구지도/마스크,108보류14중단등기존연구기록보존.
+피복 경계0.234375°(남북약26km),경로500m이하 표본,12개 지정기간.
+눈물량 보존:표층눈최대2m+압밀얼음최대127.422m,빙원이동0규칙.
+얼음>=1cm:피복Manning n=.045. 3교차는 합류 없는 지하 통과;
+X2는 국지역경사 압력통로,압력/손실수두 모형은 범위밖.
+집수권/하도/열상태는 지정된 기준이며 모든 피드백을 결합한 관측 검증이 아님.
+이 한계를 이유로 완료한 세계 설정 채택/23,022구간을 미정으로 되돌리지 않는다.
+새 판이 필요하면 이유와 변경범위를 명시해버전을 올린다.
+
+원본세계/경제/정치/기후/지형/수계/구지도/마스크/역사연구보존.
 아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0별도브랜치/main병합금지.
-
-PR#23 https://github.com/jungsb7/codex/pull/23 병합9ce7d78fe8f207dccd913dbd24642aa632ca5d79.
-Pages40125795605 build/deploy/report모두성공.최종문서배포결과는PR본문참조.
+기존공개GitHub/Pages배포승인유효,동일승인재질문금지.
+재현/검사/최종배포커밋은후속44README/REPORT/deployment와PR본문확인.

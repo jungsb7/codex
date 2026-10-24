@@ -1,0 +1,12 @@
+PASS default atlas opens adopted edition and suppresses research hold labels
+PASS all12 periods match AI point and reach values, including covered-channel widths
+PASS all adopted map layers and selected fine geometry use canonical values
+PASS selection and subsurface geometry downloads match AI exactly
+PASS adopted23022-reach budget is linked and downloadable
+PASS native wetland boundary GeoJSON matches canonical area
+PASS shared URL, history and reload retain canonical selection
+PASS research modes remain available with explicit return to adopted edition
+PASS canonical controls and inspector fit1440/390/320px
+PASS ocean is explicitly outside inland coverage
+PASS corrupt canonical data fails closed and retry restores values
+PASS late responses cannot replace current period
