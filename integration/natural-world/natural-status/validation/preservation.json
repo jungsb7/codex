@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baseCommit": "c9227d58b8cfa4c7ea2997ff1d434301cf954987",
+  "originalFileCount": 1619,
+  "unchangedOriginalFiles": 1612,
+  "allowedChangedOriginalFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "worldbuilding/NATURAL_CANON_V1.md",
+    "integration/natural-world/natural-canon-v1/ui.js",
+    "integration/natural-world/unified-atlas/app.js",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "unexpectedChanges": [],
+  "allCanonicalNumericDataAndModelCode": "byte-identical",
+  "originalResearchAndWorldArchive": "unchanged"
+}

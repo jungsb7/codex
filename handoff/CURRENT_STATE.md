@@ -1,6 +1,16 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속44 자연환경 정설 v1과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속45 채택 기준·미완료 범위 표시와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속45 채택 기준과 실제 남은 작업의 구분 — 2026-10-25 Asia/Seoul
+
+사용자가 “여전히 미정인 것들이 많은 거 같은데”라고 지적했다. [상태 화면](../integration/natural-world/natural-status/index.html), [방법·검증](../integration/natural-world/natural-status/README.md), [배포](../integration/natural-world/natural-status/validation/deployment.json)를 현재 인계 기준으로 읽는다.
+
+- 후속44는 기준값의 채택이다. 원래 네 항목의 모든 세부 구현까지 완료된 것은 아니다. 격자 내부의 미세 경계·지류, 기간별 세부 침수, 빙하 이동, 지형·식생·빙설·유량 전체 연동은 아직 남아 있다. 이를 단순히 ‘판의 범위 밖’이라고만 설명하며 원래 요구가 전부 해결됐다고 주장하지 않는다.
+- 기준판의 채택과23,022구간100년 장부·미처리0은 그대로 유지한다. 기존 연구의 보류/미정은 현재 채택값과 구분한다. 남은 구현을 명칭 변경으로 완료 처리하지 않는다.
+- 현재 기준 탭을 첫 번째로 배치하고 모든 모드에 선택 지점의 채택 분류·장부 적용 범위를 표시한다. 별도 카드/상세 목록에서6분야의 남은 작업을 제공한다. 원본 review 주소와 좌표·기간은 보존한다.
+- AI/다운로드 상태 `natural-scope-status/1`: worldReferenceAdopted=true, allRequestedDetailImplemented=false. 원본 계산 API와 모든 채택 데이터는 유지한다.
+- 새 조회3검사(268,857격자 대조), 새 브라우저8+기존24=32검사. 조회/보존/배포 근거는 위 기록 참조. 이번 작업은 표시·상태 조회 정정이며 새 물리 계산 완료가 아니다.
 
 ## 후속44 자연환경 정설 v1 채택·배포 완료 — 2026-10-25 Asia/Seoul
 
