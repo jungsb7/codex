@@ -27,6 +27,7 @@ node integration/natural-world/natural-canon-v1/build.cjs
 node --test --test-isolation=none integration/natural-world/natural-canon-v1/test.cjs integration/natural-world/seasonal-physical-model/test.cjs
 node integration/natural-world/natural-canon-v1/browser-check.cjs
 node integration/natural-world/natural-canon-v1/atlas-browser.cjs
+node integration/natural-world/natural-canon-v1/minimap-check.cjs
 ```
 
 브라우저 검사는 `/usr/bin/chromium`, Playwright `/opt/codex/cua_node/lib/node_modules/playwright`를 사용한다. SHA는 출력 manifest, 전체 출처·코드 해시는 압축 base의 provenance 및 summary에 기록한다. 검사는 `validation/`에 별도로 보관한다. 후속40~43의 연구 파일과 원본은 수정하지 않는다.

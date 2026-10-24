@@ -28,5 +28,13 @@
     "allowedChangedOriginalFiles": 7
   },
   "directPublicHttpVerification": "Not performed: jungsb7.github.io is outside the environment network allowlist. GitHub Pages build/deploy/report jobs all succeeded.",
-  "finalDocumentationDeployment": "Recorded in PR body after documentation commit to avoid an infinite self-recording commit chain."
+  "finalDocumentationDeployment": "Recorded in PR body after documentation commit to avoid an infinite self-recording commit chain.",
+  "documentationCommit": "482ddee834644dbd404dd603e13d6ef09cd498eb",
+  "documentationPagesRun": 40128596793,
+  "documentationJobs": {
+    "build": "success",
+    "deploy": "success",
+    "report-build-status": "success"
+  },
+  "finalRuntimeAndDocumentationDeployment": "Minimap color follow-up commit and final Pages run recorded in PR body; no infinite self-recording commit chain."
 }

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "meaning": "All canonical layers match independently rasterized mini-map except viewport border;1024px layout fits",
+  "checks": [
+    {
+      "layer": "cover",
+      "mismatchPixels": 168,
+      "totalPixels": 16200,
+      "noHorizontalOverflow": true
+    },
+    {
+      "layer": "snow",
+      "mismatchPixels": 168,
+      "totalPixels": 16200,
+      "noHorizontalOverflow": true
+    },
+    {
+      "layer": "ice",
+      "mismatchPixels": 176,
+      "totalPixels": 16200,
+      "noHorizontalOverflow": true
+    }
+  ]
+}
