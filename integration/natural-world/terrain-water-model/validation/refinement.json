@@ -1,0 +1,39 @@
+{
+  "schema": "terrain-water-event-refinement/1",
+  "scope": "all57-boundaries until first native-domain event; not100-year convergence",
+  "coarse": {
+    "substeps": 60,
+    "stop": {
+      "year": 3,
+      "phase": 3,
+      "substep": 9,
+      "lowerTimeYears": 2.177777777777778,
+      "upperTimeYears": 2.1791666666666667,
+      "boundaries": [
+        "D221625"
+      ],
+      "reason": "native-domain-contact"
+    },
+    "unresolvedM3": 4594646.762043834,
+    "residualM3": 0.0576171875
+  },
+  "fine": {
+    "substeps": 120,
+    "stop": {
+      "year": 3,
+      "phase": 3,
+      "substep": 18,
+      "lowerTimeYears": 2.178472222222222,
+      "upperTimeYears": 2.1791666666666667,
+      "boundaries": [
+        "D221625"
+      ],
+      "reason": "native-domain-contact"
+    },
+    "unresolvedM3": 5259062.152185321,
+    "residualM3": 0.0965576171875
+  },
+  "eventUpperDifferenceYears": 0,
+  "sameTrigger": true,
+  "status": "passed"
+}

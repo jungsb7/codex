@@ -1,0 +1,9 @@
+{
+  "status": "verified-locally-awaiting-publication",
+  "baseCommit": "1cc0326686a4cfe63fffddd5ae260a9079e547bc",
+  "repository": "jungsb7/codex",
+  "modelTests": 228,
+  "browserChecks": 24,
+  "publicOriginCheck": "not attempted: environment domain restriction",
+  "sourceDataset": "Existing10.2MB reused; no new forcing publication"
+}
