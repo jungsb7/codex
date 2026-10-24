@@ -1,20 +1,58 @@
 {
-  "status": "all-blobs-verified-pending-merge",
+  "status": "deployed",
+  "date": "2026-10-25",
+  "timezone": "Asia/Seoul",
+  "repository": "jungsb7/codex",
   "baseCommit": "d929cb651881554c2e7b573337dd71dd97137c25",
+  "featureCommit": "956c3f295aa7652eb086027f0eb8b4f627afe92a",
+  "mergeCommit": "5199cb34e88a40ba070fad7a48e941c608a74b17",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/18",
+  "pagesRun": {
+    "id": 40108526074,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40108526074",
+    "jobs": [
+      {
+        "id": 120915167944,
+        "name": "build",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120915338910,
+        "name": "report-build-status",
+        "status": "completed",
+        "conclusion": "success"
+      },
+      {
+        "id": 120915338921,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success"
+      }
+    ]
+  },
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/coupled-water-model/",
+  "publicOriginCheck": "Direct HTTP response not checked: environment domain restriction. Pages build/deploy/report jobs all passed.",
   "newDatasetBytes": 23484677,
   "newDatasetParts": 40,
-  "requestedDestination": "jungsb7/codex",
-  "proposedPublicUrl": "https://jungsb7.github.io/codex/integration/natural-world/coupled-water-model/",
-  "pullRequest": null,
-  "featureCommit": null,
-  "pagesRun": null,
-  "remoteRefsCreated": false,
-  "someUnreferencedBlobsCreatedBeforeRejection": true,
-  "automaticReviewRejections": 2,
-  "reason": "Exact data and public destination explicitly approved in the user message; previously rejected forcing-35.bin and forcing-38.bin now uploaded successfully.",
-  "originalTenPointTwoMBDatasetApproval": "already authorized; not requested again",
-  "modelAndBrowserWork": "complete; all52binary/large blobs uploaded and matched; PR/merge pending",
-  "authorization": "2026-10-25 Asia/Seoul: 새 23.5MB 입력 자료와 계산 결과를 공개 GitHub jungsb7/codex에 게시하고 Pages로 배포하는 것을 승인합니다.",
-  "publicationProgress": "publication-progress.json",
-  "postApprovalAutomaticRejections": 3
+  "verifiedLargeBlobs": 52,
+  "modelTests": 248,
+  "browserChecks": 23,
+  "authorization": "새 23.5MB 입력 자료와 계산 결과를 공개 GitHub jungsb7/codex에 게시하고 Pages로 배포하는 것을 승인합니다.",
+  "priorRejectionsResolvedByUserApproval": true,
+  "dynamicScope": {
+    "boundaries": 57,
+    "reaches": 2637,
+    "years": 100,
+    "scenarios": 3,
+    "unresolvedM3": 0
+  },
+  "inputScope": {
+    "boundaries": 946,
+    "reaches": 20065,
+    "cells": 117320
+  },
+  "remainingDynamicReaches": 17428,
+  "whole23022Complete": false,
+  "automaticAdoption": false
 }

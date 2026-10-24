@@ -1,6 +1,6 @@
 # 후속38 결과: 57경계의 100년 후보 계산과 전체 입력 확보
 
-기준 main `d929cb651881554c2e7b573337dd71dd97137c25`, 2026-10-24. [화면](index.html) · [방법](README.md). **구현·검증 및 새 자료의 공개 게시 승인 완료. 배포 진행 중이며 최종 결과는 validation/deployment.json에 기록한다.**
+기준 main `d929cb651881554c2e7b573337dd71dd97137c25`, 2026-10-24. [화면](index.html) · [방법](README.md). **구현·검증·공개 게시·Pages 배포 완료 — 2026-10-25.**
 
 ## 해결한 범위
 
@@ -44,6 +44,8 @@
 
 새 전체 입력 gzip은 **23,484,677바이트**, 검증용 40개 조각이다. 공개 저장소의 고정 보관본 `4afae5da3a7730b79ced1d2b9b7a8bc3041689c0`과 원본 앱 해시가 일치하며, 공개 `SOURCE_MANIFEST.json`의 Git blob `12d2f693c151181b1dfd81dc763700438906a627`도 로컬과 일치한다. 격자별 기후·물 저장 수치와 출처 정보만 포함한다. [공개 원본 대조](validation/publication-check.json).
 
-이전 자동 승인 검토 거절 이후 사용자는2026-10-25에 "새23.5MB입력자료와계산결과를공개GitHub jungsb7/codex에게시하고Pages로배포하는것을승인합니다"라고자료명/목적지를명시해직접승인했다. 기존 거절은 해소됐고 전체40입력조각 게시가 성공했다. 같은 승인을 재요청하지 않는다. 최종 PR/병합/Pages 결과는 [배포 기록](validation/deployment.json)에 기록한다.
+사용자가 자료명과 공개 GitHub jungsb7/codex·Pages 목적지를 명시 승인한 뒤 전체52개 큰 파일과 전체 Git tree가 로컬 완성본과 일치함을 확인했다. 새23.5MB입력40조각과계산결과가모두게시됐다. 기존승인차단은해소됐으며같은승인을재요청하지않는다.
+
+[PR #18](https://github.com/jungsb7/codex/pull/18) 기능커밋 `956c3f295aa7652eb086027f0eb8b4f627afe92a`, 병합 `5199cb34e88a40ba070fad7a48e941c608a74b17`. [Pages 실행40108526074](https://github.com/jungsb7/codex/actions/runs/40108526074)의 build/deploy/report-build-status 모두성공. [공개 화면](https://jungsb7.github.io/codex/integration/natural-world/coupled-water-model/) · [배포 기록](validation/deployment.json). 공개 주소의 직접HTTP응답은환경제한으로미확인이다. 최종인계문서커밋은기능병합보다최신일수있다.
 
 기존 지도 회귀 도구는 예전의 12위상 동시 적재 배열을 가정하므로, 새 디렉터리의 `atlas-browser.cjs`에서 현재의 단일 위상 적재·null 실패 상태·기간 파일 경로에 맞춰 검사했다. 지도 제품 코드는 링크 추가 외에 변경하지 않았다.

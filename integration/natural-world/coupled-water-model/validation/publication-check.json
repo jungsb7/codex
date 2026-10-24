@@ -66,10 +66,12 @@
   "repositoryPublic": true,
   "publicArchiveManifestGitBlob": "12d2f693c151181b1dfd81dc763700438906a627",
   "publicArchiveManifestMatchesLocal": true,
-  "publicationStatus": "all-blobs-verified-pending-merge",
+  "publicationStatus": "published-and-deployed",
   "automaticReviewRejections": [
     "Unverified800KB binary payload; exact data egress not authorized",
     "Specific public payload requires authorization despite broad deployment approval and public source verification"
   ],
-  "priorRejectionsResolvedByUserApproval": true
+  "priorRejectionsResolvedByUserApproval": true,
+  "pullRequest": "https://github.com/jungsb7/codex/pull/18",
+  "mergeCommit": "5199cb34e88a40ba070fad7a48e941c608a74b17"
 }

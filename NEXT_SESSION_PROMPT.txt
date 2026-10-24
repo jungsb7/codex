@@ -1,4 +1,4 @@
-GitHub 기반 인계 — 후속38 구현·검증 완료, 신규자료 공개승인 완료·배포 진행,2026-10-24
+GitHub 기반 인계 — 후속38 구현·검증 완료, 신규자료 공개·Pages배포 완료,2026-10-25
 
 jungsb7/codex 최신main 확인, 로컬 미게시 변경/브랜치를 반드시 보존한다.
 후속38 기준main d929cb651881554c2e7b573337dd71dd97137c25.
@@ -16,10 +16,12 @@ worldbuilding/WORLD_HANDOFF.md,handoff/FULL_ARCHIVE.md 준수.
 -새20+기존228=248모델검사,새11+기존12=23브라우저,AI2,838조회/9JSON.
 -전체23,022구간완료/실제미세침수/실제강폭/빙설완료/세계채택아님.
 
-배포승인 완료 —2026-10-25 Asia/Seoul:
--사용자직접답변: 새23.5MB입력자료와계산결과를공개GitHub jungsb7/codex에게시하고Pages로배포하는것을승인합니다.
--동일자료/목적지승인완료.기존자동거절해소,forcing-35/38포함전체40조각게시성공.재질문금지.
--최종배포결과는validation/deployment.json및publication-progress.json확인.
+배포 완료 —2026-10-25 Asia/Seoul:
+-PR #18 https://github.com/jungsb7/codex/pull/18 병합5199cb34e88a40ba070fad7a48e941c608a74b17.
+-Pages40108526074의build/deploy/report-build-status모두성공.새23.5MB전체입력40조각/결과게시완료.
+-사용자가자료명과공개GitHub jungsb7/codex/Pages목적지를직접명시승인.이전자동거절해소,동일자료승인재질문금지.
+-최종기록validation/deployment.json및publication-progress.json.문서커밋은기능병합보다최신일수있음.
+-공개주소직접HTTP확인은환경제한으로미실시.실제Pages배포작업성공확인.
 
 재현:node handoff/restore-inputs.cjs; 새prepare.cjs/build.cjs/test.cjs/query.cjs/browser-check.cjs 사용.
 source.cjs로23.5MB검증/읽기.원본아카이브의collect.cjs재계측은선택,커밋된조각재사용가능.

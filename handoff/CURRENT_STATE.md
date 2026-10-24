@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속38 집수권 결합 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속38 집수권 결합·전체 입력 구현·검증 완료, 새 자료 공개 승인 완료·배포 진행 — 2026-10-24
+## 후속38 집수권 결합·전체 입력 구현·검증·배포 완료 — 2026-10-25
 
 [방법](../integration/natural-world/coupled-water-model/README.md) · [결과](../integration/natural-world/coupled-water-model/REPORT.md) · [화면](../integration/natural-world/coupled-water-model/index.html). 기준main `d929cb651881554c2e7b573337dd71dd97137c25`.
 
@@ -12,7 +12,7 @@
 - 나머지889경계/17,428구간은 입력 확보 완료, 동적 계산 전. 낮은출구9곳+D567047, 북부 저장 결합, 빙설/미세지형은 남음. D298591망190구간 및 기존보류2,767 유지. 전체23,022구간 해결/세계자동채택 아님.
 - 새20+기존228=248모델검사, 새11+기존12=23브라우저, AI2,838조회/9다운로드 검증.
 - 새23,484,677바이트 입력40조각과후속38결과의공개GitHub jungsb7/codex게시·Pages배포를사용자가2026-10-25에자료명/목적지를포함한문구로명시승인했다.이전자동거절해소,재질문금지. [승인 기록](../integration/natural-world/coupled-water-model/validation/publication-check.json).
-- 구현/검증완료본의PR게시·병합·Pages배포진행.최종결과는 [배포 기록](../integration/natural-world/coupled-water-model/validation/deployment.json) 확인.
+- [PR #18](https://github.com/jungsb7/codex/pull/18) 병합 `5199cb34e88a40ba070fad7a48e941c608a74b17`. [Pages40108526074](https://github.com/jungsb7/codex/actions/runs/40108526074)의3작업성공. 새23.5MB입력/결과공개완료. [배포 기록](../integration/natural-world/coupled-water-model/validation/deployment.json). 직접공개HTTP응답은환경제한으로미확인.
 
 ## 후속37 원본 지형·여러 출구 구현·검증·배포 완료 — 2026-10-24
 

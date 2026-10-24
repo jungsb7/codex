@@ -57,12 +57,15 @@
     "integration/natural-world/coupled-water-model/validation/coupled-390.png": "34a3aa6cb249f9cb2ecda30f2c9978033ccb38fa"
   },
   "pendingBlobs": [],
-  "remoteBranchCreated": false,
-  "pullRequest": null,
-  "pagesDeployed": false,
+  "remoteBranchCreated": true,
+  "pullRequest": "https://github.com/jungsb7/codex/pull/18",
+  "pagesDeployed": true,
   "userApprovalReceived": true,
   "automaticReviewStillBlocked": [],
   "automaticReviewReason": null,
   "authorization": "2026-10-25 Asia/Seoul: 새 23.5MB 입력 자료와 계산 결과를 공개 GitHub jungsb7/codex에 게시하고 Pages로 배포하는 것을 승인합니다.",
-  "status": "all52blobs-uploaded-and-hash-matched"
+  "status": "published-and-deployed",
+  "featureCommit": "956c3f295aa7652eb086027f0eb8b4f627afe92a",
+  "mergeCommit": "5199cb34e88a40ba070fad7a48e941c608a74b17",
+  "pagesRun": 40108526074
 }

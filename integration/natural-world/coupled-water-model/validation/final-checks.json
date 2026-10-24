@@ -27,5 +27,10 @@
   "allVariablesConvergenceClaimed": false,
   "whole23022Complete": false,
   "worldAdoption": false,
-  "deployment": "explicitly authorized; in progress"
+  "deployment": {
+    "status": "success",
+    "pullRequest": 18,
+    "mergeCommit": "5199cb34e88a40ba070fad7a48e941c608a74b17",
+    "pagesRun": 40108526074
+  }
 }
