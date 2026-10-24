@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속43 강폭·적설·결빙 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속43 강폭·적설·결빙 후보 구현·검증 완료 — 2026-10-25 Asia/Seoul
+## 후속43 강폭·적설·결빙 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 
 [방법](../integration/natural-world/seasonal-physical-model/README.md) · [결과](../integration/natural-world/seasonal-physical-model/REPORT.md) · [화면](../integration/natural-world/seasonal-physical-model/index.html). 기준main6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1.
 
@@ -12,7 +12,9 @@
 - 10년반복의눈축적이남는4,852격자와최대469.384m고정밀도환산값은빙하이동/압밀생략의축적기둥이다. 실제평형눈/빙하확정아님. 해당지점에연간물환산축적과빙하동역학미포함표시.
 - 새10+기존생태9=19모델검사, 새14+원본지도12=26브라우저검사. AI4,875,948조회·8JSON다운로드검증. 원본/후보/세계최종채택구분,actual:null,automaticAdoption:false.
 
-원래4항목은각각가정기반계산·화면·AI조회결과를갖췄다. 원본세계/모델결과/세계최종채택을구분한다. 기존사용자게시·배포승인에따라진행하며, [배포 기록](../integration/natural-world/seasonal-physical-model/validation/deployment.json)은 실제완료후기록한다.
+원래4항목은각각가정기반계산·화면·AI조회결과를갖췄다. 원본세계/모델결과/세계최종채택을구분한다. [배포 기록](../integration/natural-world/seasonal-physical-model/validation/deployment.json).
+
+[PR #23](https://github.com/jungsb7/codex/pull/23) 병합 `9ce7d78fe8f207dccd913dbd24642aa632ca5d79`. [Pages40125795605](https://github.com/jungsb7/codex/actions/runs/40125795605)의 build/deploy/report 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.
 
 ## 후속42 숲·습지·침수 경계 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 

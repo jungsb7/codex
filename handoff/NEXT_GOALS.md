@@ -16,4 +16,4 @@
 
 actual:null,automaticAdoption:false 유지. 기존공개GitHub/Pages배포승인유효,같은승인재질문금지. 원본세계/경제/구지도/기후/지형/수계/마스크/별도아카이브보존.
 
-배포결과는 실제완료후 기록한다.
+[PR #23](https://github.com/jungsb7/codex/pull/23) 병합 `9ce7d78fe8f207dccd913dbd24642aa632ca5d79`. [Pages40125795605](https://github.com/jungsb7/codex/actions/runs/40125795605)의 build/deploy/report 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 문서 커밋의 Pages 결과는 PR 본문에 기록한다.

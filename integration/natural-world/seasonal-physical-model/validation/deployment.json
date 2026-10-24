@@ -1,0 +1,54 @@
+{
+  "schema": "seasonal-physical-deployment/1",
+  "baseCommit": "6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1",
+  "featureCommit": "855a3d87987b0b2ae604c40920f8be5e52ac6c90",
+  "mergeCommit": "9ce7d78fe8f207dccd913dbd24642aa632ca5d79",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/23",
+  "pagesUrl": "https://jungsb7.github.io/codex/integration/natural-world/seasonal-physical-model/index.html",
+  "featureDeployment": {
+    "runId": 40125795605,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40125795605",
+    "jobs": [
+      {
+        "name": "build",
+        "id": 120966795367,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T19:33:48Z"
+      },
+      {
+        "name": "report-build-status",
+        "id": 120966991141,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T19:33:54Z"
+      },
+      {
+        "name": "deploy",
+        "id": 120966991187,
+        "status": "completed",
+        "conclusion": "success",
+        "completedAt": "2026-10-24T19:34:08Z"
+      }
+    ]
+  },
+  "validation": {
+    "newModelTests": 10,
+    "coverRegressionTests": 9,
+    "newBrowserTests": 14,
+    "atlasRegressionTests": 12,
+    "downloads": 8,
+    "aiQueries": 4875948,
+    "nativeReferenceValues": 972,
+    "protectedFiles": 1522,
+    "servedStepsPerPeriod": 120,
+    "comparisonStepsPerPeriod": 60
+  },
+  "directPublicHttpVerification": {
+    "status": "not-performed",
+    "reason": "Managed network policy does not allow the github.io host; GitHub Pages build/deploy/report jobs and local Chromium UI checks were verified."
+  },
+  "handoffDeployment": "The final documentation commit and its Pages run are recorded in the merged pull request body.",
+  "actual": null,
+  "automaticAdoption": false
+}
