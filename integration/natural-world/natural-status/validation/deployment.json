@@ -1,0 +1,8 @@
+{
+  "phase": 45,
+  "baseCommit": "c9227d58b8cfa4c7ea2997ff1d434301cf954987",
+  "status": "validated-awaiting-publication",
+  "scope": "Clarify adopted reference versus incomplete detail; no new physical computation",
+  "authorization": "Standing public GitHub/Pages publication authorization",
+  "directPublicHttpVerification": "Unavailable: Pages host outside network allowlist; local Chromium and GitHub Pages jobs used"
+}

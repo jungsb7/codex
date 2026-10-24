@@ -4,6 +4,10 @@
 
 [통합지도 확정판](../integration/natural-world/unified-atlas/index.html#mode=canon) · [기계 판독 규칙](../integration/natural-world/natural-canon-v1/decisions.json) · [재현·AI 조회](../integration/natural-world/natural-canon-v1/README.md) · [검증](../integration/natural-world/natural-canon-v1/REPORT.md)
 
+## 채택과 상세 구현의 구분 — 후속45 정정
+
+사용자의 “여전히 미정인 것들이 많은 거 같은데” 지적에 따라 범위를 더 명확히 한다. 이 판의 기준값은 채택됐지만, 원래 요청에 포함된 모든 상세 구현이 완료된 것은 아니다. 격자 내부의 미세 경계·지류, 기간별 세부 침수, 빙하 이동, 지형·식생·빙설·유량의 전체 연동은 남아 있다. 이 항목들을 명칭 변경으로 해결됐다고 표현하지 않는다. [현재 채택과 남은 작업](../integration/natural-world/natural-status/index.html)을 함께 읽는다. 이 정정은 기존 채택 수치·규칙을 바꾸지 않는다.
+
 ## 확정 범위
 
 | 항목 | 채택한 기준 |

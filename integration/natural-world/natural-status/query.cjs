@@ -1,0 +1,1 @@
+'use strict';const S=require('./core.js'),Q=require('../natural-canon-v1/query.cjs');function query(cell){return S.snapshot(cell===undefined?null:Q.model(),cell);}if(require.main===module){try{console.log(JSON.stringify(query(process.argv[2]===undefined?undefined:Number(process.argv[2])),null,2));}catch(e){console.error(e.message);process.exitCode=1;}}module.exports={query};
