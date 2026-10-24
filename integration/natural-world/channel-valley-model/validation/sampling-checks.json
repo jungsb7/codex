@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "reaches": 45824,
+  "spacingM": [
+    500,
+    250
+  ],
+  "maxLengthRelativeDifference": 0.00041390104259890687,
+  "maxSectionIntegralRelativeDifference": 0.0004382138516535261,
+  "tolerance": 0.001,
+  "meaning": "Numerical sampling of one prescribed geometry only, not physical convergence or validation of assumed morphology."
+}

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    "verified catalogue covers45824 original reaches and initial query matches CLI",
+    "eight geometry and section downloads match shared AI data across four regions",
+    "pre-existing crossing ambiguity is visible and does not invent a confluence",
+    "position slider produces the numerical parabolic valley section",
+    "map selection changes the corresponding profile and cross section",
+    "zoom and source overlay affect the view without changing geometry",
+    "shared reach URLs and browser history restore the same geometry",
+    "invalid and empty reach requests clear stale profiles and downloads",
+    "responsive canvases retain readable axes and no overflow at1440/390/320",
+    "corrupt geometry is rejected and verified retry recovers",
+    "corrupt catalogue cannot claim coverage or display a candidate",
+    "pond model retains completed budgets and links back to separate geometry",
+    "original atlas selection and navigation remain usable",
+    "late shard responses cannot replace the latest selected reach"
+  ],
+  "downloads": 8,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

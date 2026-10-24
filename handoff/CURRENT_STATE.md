@@ -1,6 +1,19 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속40 전체23,022구간 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속41 세부 물길·계곡 단면 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속41 세부 물길·계곡 단면 후보 — 2026-10-25 Asia/Seoul
+
+[방법](../integration/natural-world/channel-valley-model/README.md) · [결과](../integration/natural-world/channel-valley-model/REPORT.md) · [화면](../integration/natural-world/channel-valley-model/index.html). 기준main2016f33e1ee30a62d936aab65ffa7463c66c2d55.
+
+- 원본45,824개 물길 전체에 세부 중심선·내리막 종단·포물선 계곡 단면 후보를 구현했다. 원본126,727공유 지점/119,143연결, 상하류/끝점/격자 경계 통과점을 유지한다.
+- 약7,935,008개 표본을 검사했다. 간격 상한500m, 실제 최대466.686325m. 500/250m 비교의 경로 길이 차이 최대0.041390%, 단면 적분 최대0.043821%,0.1%기준 통과. 이는 정해진 형상의 표본 수렴 검사다.
+- 새모델9+기존웅덩이회귀22=31검사, 새브라우저14+원본지도12=26검사. AI전체45,824경로 조회와8JSON다운로드 검증.
+- 원본 대각선 교차3곳·6구간은 실제합류/분리미정으로 명시했다. 원본 고도보다 올린 지점0, 최대후보절개22.028269m. 실제침식속도/기간/퇴적물/고해상도DEM확정 아님.
+- 약12.296MB를90조각+목록으로 나눴다. 새고해상도관측자료수집이 아니라 기존공개자료에 명시한형태가정을 적용했다.
+- 이전23,022구간100년·미처리0은 그대로보존했다. 새계곡형상을 반영한 물수분 재계산은 하지않았고, 집수권결과는 reference-only 링크다. actual:null,automaticAdoption:false.
+
+배포는 [기록](../integration/natural-world/channel-valley-model/validation/deployment.json) 확인. 원본세계/경제/구지도/수계/마스크/아카이브와 이전후보·연구기록은 유지한다.
 
 ## 후속40 전체23,022구간 후보 계산·배포 완료 — 2026-10-25 Asia/Seoul
 

@@ -1,0 +1,17 @@
+✔ All original45,824 reaches and23,022 pond-budget associations are preserved (14.656443ms)
+✔ Every original coordinate, topology link and discharge stays source-labelled (945.53602ms)
+✔ Shared junctions have byte-identical anchor states and every native bed is nonincreasing (876.50568ms)
+✔ All fine paths stay in their source cell corridors, retain anchors and obey sampling bounds (6647.552067ms)
+✔ Narrow spokes stay separated inside each native cell; original diagonal ambiguities are explicit (41.780162ms)
+✔ Parabolic valley sections match an independent cut-area integral (1.396808ms)
+✔ 500/250m geometry sampling is stable for every reach, without claiming terrain accuracy (11602.802384ms)
+✔ AI query rejects invalid IDs and exports real candidate sections with no invented water discharge (29.328788ms)
+✔ Source and executable hashes pin all generated shards (135.560772ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 21736.413015
