@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "cells": 51256,
+  "boundaries": 1184,
+  "reaches": 23022,
+  "rows": 615072,
+  "northernCells": 4284,
+  "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+  "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+  "fullWorldLocalDischargeSha256": "ae161aa66e9b58703d9b9030083f0048573e4bcba263609bd83c39a294c87eb1",
+  "allLocalRunoffBitIdentical": true,
+  "globalBudgetsIdentical": true,
+  "provenance": {
+    "baseCommit": "c88e27e1daa64795200415f6a7043162a656fb08",
+    "applicationVersion": "0.107",
+    "sourceSha256": {
+      "html": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+      "app": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+      "collector": "68f0ec6183d7d633aebe441cc8331fe9ce2ea989b466b7bb6e68cdb9e7b1a1f0"
+    },
+    "instrumentedSha256": "869478c11aa74e4d5b0adc3db7797e13ce3477e200f8c8fbf1d6647317ee9f8c"
+  },
+  "bytes": 9835947,
+  "errors": []
+}

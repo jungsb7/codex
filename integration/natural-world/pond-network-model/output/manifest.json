@@ -1,0 +1,56 @@
+{
+  "review": {
+    "file": "review.json.gz",
+    "bytes": 1976975,
+    "sha256": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff"
+  },
+  "histories": [
+    {
+      "file": "history-reference.json.gz",
+      "bytes": 9239214,
+      "sha256": "4ac4d3ae0423d58a9830c5e2759506787ef6e6bd3ea46d9f6fcea692ca79f6ed"
+    },
+    {
+      "file": "history-low-infiltration.json.gz",
+      "bytes": 9364388,
+      "sha256": "f153c2873d0fe91a749ee61f56ab45697736cc838a8ced8b61b0648a8f1bf06c"
+    },
+    {
+      "file": "history-slow-return.json.gz",
+      "bytes": 9234469,
+      "sha256": "85af1b6f67ff97d943b75cd32e1ba55c4cb1c7e461c1c101da2c4e6a3aa019d1"
+    },
+    {
+      "file": "history-reference-fine.json.gz",
+      "bytes": 9257134,
+      "sha256": "85bfcc877d04fdf77dd05a89641705e225b5a81a57690c8bc65271b1040bf617"
+    }
+  ],
+  "states": [
+    {
+      "file": "states-reference.json.gz",
+      "bytes": 2457619,
+      "sha256": "bc15e8f15906136b561aac44b4815bc9124010368e19871afaf747ac88091631"
+    },
+    {
+      "file": "states-low-infiltration.json.gz",
+      "bytes": 2433635,
+      "sha256": "8ace5e1b6ac493e7b9f7388c7aca0caea973e385dd325d730efd6d4e2c784f70"
+    },
+    {
+      "file": "states-slow-return.json.gz",
+      "bytes": 2363756,
+      "sha256": "38930a57afacbd8f648ee7abd45a653a834071a0345965239bdbebb94b91733b"
+    },
+    {
+      "file": "states-reference-fine.json.gz",
+      "bytes": 2458881,
+      "sha256": "6035c57913c6e35214aef7481a0686fba6f91bd82b3169b960906637a5229e11"
+    }
+  ],
+  "geometry": {
+    "file": "geometry.json.gz",
+    "bytes": 3967060,
+    "sha256": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff"
+  }
+}

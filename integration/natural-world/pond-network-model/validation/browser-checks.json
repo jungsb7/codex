@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "all1184 owners and23022 completed-candidate metrics load only after verified payload",
+    "eighteen downloads exactly match shared AI query across former held/low-outlet/protected/large regions",
+    "historical held status and complete candidate are clearly separated from world adoption",
+    "three formerly incompatible geometries expose their own multiple native ponds",
+    "original reach lookup maps to the correct computed catchment and survives reload",
+    "unknown and empty reach selections clear stale results and completion metrics",
+    "browser history restores case and boundary exactly",
+    "1440/390/320 layouts fit budgets, pond tables and reach controls",
+    "invalid payload cannot display fake completion; verified retry recovers",
+    "prior incomplete model links to separately computed complete candidate",
+    "original map and source hydrological selection remain intact"
+  ],
+  "downloads": 18,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

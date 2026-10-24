@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "years": 1,
+  "substeps": 60,
+  "elapsedMs": 6805,
+  "maxIterations": 6,
+  "maxEquationResidualM3": 0.020608916878700256,
+  "maxAnnualResidualM3": 0.8426513671875,
+  "maxRelativeAnnualResidual": 4.733691629195489e-13,
+  "minimumSurface": 0,
+  "maximumStage": 5560.705078125,
+  "executedSteps": 720
+}

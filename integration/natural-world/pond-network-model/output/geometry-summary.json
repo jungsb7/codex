@@ -1,0 +1,78 @@
+{
+  "schema": "pond-network-geometry/1",
+  "provenance": {
+    "baseCommit": "c88e27e1daa64795200415f6a7043162a656fb08",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceSha256": {
+      "stage5/output/foundation-fc5d72cbbab3.json.gz": "189ff903825c7ba4e89997ae264b9b07d3436ecc1e14a8e2761928e19d7663bf",
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "inland-routing/output/catalog.json": "d64957bb2e8c25a1db217f03bdeda9f42507c640af070a20935e365036570268"
+    },
+    "codeSha256": {
+      "terrain.cjs": "45ce991a18283976137142db2cd6453aa9a5a1527e487b7e74e01f73b4dc5b51",
+      "prepare.cjs": "9adb1eb7b48be6c57932cdfa08b5c2ee51d6d1a0b39c66d785c12ed8d7058b74"
+    }
+  },
+  "cells": 268857,
+  "unknownSourceCells": 168576,
+  "backgroundSourceCells": 100072,
+  "ponds": 3232,
+  "edges": 9858,
+  "boundaries": 1184,
+  "reaches": 23022,
+  "allPondsHaveOceanConnectivity": true,
+  "lake": {
+    "pond": 1702,
+    "initialM3": 2058244033801.7827,
+    "rainMPerPhase": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "evaporationMPerPhase": [
+      0.1406793433686312,
+      0.18304024850753656,
+      0.21922446029518186,
+      0.2411602157879609,
+      0.2446797309896887,
+      0.22905362578783728,
+      0.19695176538282108,
+      0.15514714573443386,
+      0.11463978206892447,
+      0.08790730062703127,
+      0.08382257184342078,
+      0.103693809606532
+    ],
+    "original": {
+      "version": "lake-0.38",
+      "evaporation_m_year": 2,
+      "name": "동대륙 분지 호수",
+      "outlet_crest_m": 420,
+      "outlet_width_m": 350,
+      "weir_coefficient": 1.7,
+      "bed_center_m": 395,
+      "reference_level_m": 420,
+      "reference_area_km2": 104339.57917713324,
+      "min_level_m": 426.0883194126379,
+      "max_level_m": 427.7748096215516,
+      "spinup_years": 31,
+      "annual_storage_drift_m3": 717.35791015625,
+      "forcing": "Repeated seasonal equilibrium, daily steps; linear seasonal inflow; direct precipitation and evaporation scale with beginning-of-step inundated area; exposed lake-bed hydrology, snow on lake and groundwater seepage omitted",
+      "geometry": "Parabolic original lake bed, connected upstream bank elevations; volume uses spill-adjusted bed; banks above modeled envelope are vertical",
+      "routing": "Lake storage delays flow; overflow Q=1.7*350*max(stage-crest,0)^1.5 m3/s; ocean level remains 0 m"
+    }
+  },
+  "maximumSearchRiseM": null,
+  "geometryHeldBoundaries": 0,
+  "automaticAdoption": false
+}

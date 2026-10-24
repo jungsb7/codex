@@ -1,0 +1,15 @@
+{
+  "base": "c88e27e1daa64795200415f6a7043162a656fb08",
+  "unchangedOriginalFiles": 1292,
+  "originalTrackedBytes": 295580002,
+  "allowedNavigationAndHandoffFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/network-water-model/index.html",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "changedOtherOriginalFiles": [],
+  "status": "passed",
+  "meaning": "All1292 original tracked files outside the five explicitly allowed navigation/handoff files match the baseline Git blob exactly. New candidate artifacts are in their own directory; archive branch is separate."
+}
