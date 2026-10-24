@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "checks": [
+    "946 source-collected choices require explicit scenario",
+    "nine downloads exactly equal shared AI query, including northern input-only record",
+    "collected northern inputs are not mislabeled as dynamic results",
+    "formerly blocked extra route and both transfer directions visible",
+    "selection and year survive reload and browser history",
+    "uncomputed year and malformed selection hide stale results",
+    "1440/390/320 layouts fit tables and controls",
+    "payload integrity failure clears UI and retry restores it",
+    "all57 dynamic records render",
+    "previous model links to new candidate",
+    "original map selection and new navigation preserved"
+  ],
+  "downloads": 9,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

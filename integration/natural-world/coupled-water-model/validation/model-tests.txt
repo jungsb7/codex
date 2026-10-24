@@ -1,0 +1,28 @@
+✔ signed law has zero equal-stage flow and opposite signs under swap (1.431881ms)
+✔ two-pool implicit transfer matches independent scalar bisection and conserves volume (1.523153ms)
+✔ reverse flow moves water from receiver without overdrawing either pool (0.362975ms)
+✔ closed equal levels stay exactly balanced with large dt (0.215008ms)
+✔ three-pool multiple destinations use one simultaneous finite inventory (1.479408ms)
+✔ native cap excess stays in diagnostic ledger (0.312558ms)
+✔ all batch input cells and 12 phases are finite with explicit northern state distinction (0.152648ms)
+✔ batch forcing and initial legacy states exactly reproduce all overlapping prior probes (356.547653ms)
+✔ all 946 source assignments are disjoint and cover the batch exactly (26.376785ms)
+✔ new connectivity includes both stopped routes with native adjacent faces (32.328643ms)
+✔ native geometry does not alter original columns or source ownership (98.179576ms)
+✔ all 946 forcing summaries expose source collection separately from dynamic readiness (648.751891ms)
+✔ unmodeled foreign contact remains a finite native bound (6.096841ms)
+✔ full land-storage-transfer simulation is array-order independent and closes independent inventories (27.844111ms)
+✔ geometry search keeps new candidate contacts as faces but still stops at outside-domain contacts (0.809261ms)
+✔ all three57-boundary candidates complete100 years with zero unresolved and closed inventories (3.055901ms)
+✔ both formerly blocked connections carry water while reverse capability is not mistaken for observed reverse (0.529252ms)
+✔ all2838 AI queries distinguish batch inputs, dynamic local results and57-boundary totals (37.88985ms)
+✔ reference horizon and ocean-delivery refinement pass explicit1% threshold (0.137795ms)
+✔ manifest, input receipts and every calculation code fingerprint match shipped bytes (2.221451ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2200.491046

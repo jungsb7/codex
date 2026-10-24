@@ -1,0 +1,12 @@
+{
+  "coarseSteps": 60,
+  "fineSteps": 120,
+  "coarseStop": null,
+  "fineStop": null,
+  "elapsedDifferenceYears": 0,
+  "oceanRelativeDifference": 0.006661478836700097,
+  "fineResidualM3": 11.12109375,
+  "status": "passed-ocean-and-horizon-check",
+  "scope": "Reference100-year ocean delivery and horizon; not all states or sensitivity cases",
+  "oceanRelativeTolerance": 0.01
+}

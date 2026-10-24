@@ -1,40 +1,30 @@
-GitHub 기반 인수인계 — 후속37 원본 지형·여러 출구 구현·검증·배포 완료,2026-10-24
+GitHub 기반 인계 — 후속38 구현·검증 완료, 신규자료 공개승인 완료·배포 진행,2026-10-24
 
-jungsb7/codex 최신main을 받고 로컬변경을 보존한다. 후속37 기준1cc0326686a4cfe63fffddd5ae260a9079e547bc.
+jungsb7/codex 최신main 확인, 로컬 미게시 변경/브랜치를 반드시 보존한다.
+후속38 기준main d929cb651881554c2e7b573337dd71dd97137c25.
 읽기:AGENTS.md,handoff/CURRENT_STATE.md,handoff/NEXT_GOALS.md,
-integration/natural-world/terrain-water-model/README.md,REPORT.md,validation/deployment.json.
-worldbuilding/WORLD_HANDOFF.md와handoff/FULL_ARCHIVE.md도준수.
+integration/natural-world/coupled-water-model/README.md,REPORT.md,validation/deployment.json,validation/publication-check.json.
+worldbuilding/WORLD_HANDOFF.md,handoff/FULL_ARCHIVE.md 준수.
 
-사용자:23,022구간을끝내고싶으며연결숫자반복에불만.새가정후보구현/검증/배포진행허용,세계설정최종채택은별도.
+사용자23,022구간 해결 희망,단순 연결/감사 반복 지양. 새가정 후보 구현/검증/배포 진행,세계최종채택별도.
+후속38 완성:
+-57경계/2,637구간,원본지형+양쪽최종수위 동시결합.410고유면,추가77면/14쌍.
+-D221625→D200167,D258447→D243078누락해결.세조건모두100년미처리0.
+-최대총물수지잔차17.5m³,강수대비3e-13미만.기준60/120단계 바다전달량차0.666148%,1%기준통과.모든변수수렴검증아님.
+-946경계/20,065구간/117,320격자 P/T/초기저장일괄수집.기존57경계11,355격자정확일치,전체원본유출/물수지불변.
+-북부69경계2,241격자네저장별도.나머지889경계17,428구간은입력확보완료,동적계산전.
+-새20+기존228=248모델검사,새11+기존12=23브라우저,AI2,838조회/9JSON.
+-전체23,022구간완료/실제미세침수/실제강폭/빙설완료/세계채택아님.
 
-후속37:
--새18+기존210=228모델검사,새12+기존12=24브라우저,AI2838조건/경계조회·9JSON검증.
--946경계/20065구간/117320원본격자 지형·유입배정일괄준비.4186추가기둥/5274동일하류출구면.
--그중57경계/2637구간만원본기후로동적계산.210원본기둥추가.나머지889경계/17428구간은기후·초기저장계측전.
--가상5m수직기둥대신원본지형단계별면적.같은하류출구에는총설계폭을나눔.실제강폭/침수지도아님.
--다른집수권/호수/다른해양접촉에서57경계전체중단.미래강수와100년장부생성금지.
--기준2.177778~2.179167년D221625→D200167에서중단.저침투0.130556~0.131944년D258447→D243078.느린복귀2.179167~2.180556년D221625.
--기준60/120단계는같은접촉지점/상한시간.잔차0.061m³미만.마지막단계초과량은진단값,실제넘침량아님.
--9곳기준문턱보다낮은출구+D567047기준문턱이하접촉은현재엔진적용전.지형준비를물리완료로표시금지.
--D298591망3경계190구간/기존235보류2767구간보존.전체23,022구간완료아님.
--검증/배포최종기록은REPORT및validation확인.원본10.2MB재사용,복제/추가원본게시없음.
+배포승인 완료 —2026-10-25 Asia/Seoul:
+-사용자직접답변: 새23.5MB입력자료와계산결과를공개GitHub jungsb7/codex에게시하고Pages로배포하는것을승인합니다.
+-동일자료/목적지승인완료.기존자동거절해소,forcing-35/38포함전체40조각게시성공.재질문금지.
+-최종배포결과는validation/deployment.json및publication-progress.json확인.
 
-배포:PR #17 병합fb29fdf6b7ec390b3c340e5a4e2e6af44927c189,Pages40093144618의3작업성공.
-공개주소직접응답은환경제한으로미확인.최종인계문서커밋은더최신일수있음.
+재현:node handoff/restore-inputs.cjs; 새prepare.cjs/build.cjs/test.cjs/query.cjs/browser-check.cjs 사용.
+source.cjs로23.5MB검증/읽기.원본아카이브의collect.cjs재계측은선택,커밋된조각재사용가능.
+동적계산57곳은기존10.2MB소스재사용.북부초기저장에legacy모형자동치환금지.
 
-재현:
-node handoff/restore-inputs.cjs
-node integration/natural-world/terrain-water-model/prepare.cjs
-node integration/natural-world/terrain-water-model/build.cjs
-node --test --test-isolation=none integration/natural-world/terrain-water-model/test.cjs
-node integration/natural-world/terrain-water-model/query.cjs reference D221625 3
-AI/화면/JSON동일view.js.query.946조회가능하나computed:false는지역장부null.
-annual.complete:false는부분기간,stop/componentTotals는57경계공통.다른889경계결과로해석금지.
-
-다음:확인된D221625→D200167및D258447→D243078추가연결의양쪽수위/다중목적지후보계산;
-나머지889경계원본기후/초기저장일괄계측;낮은출구/기준문턱접촉10곳및고온극지/빙설공백해소.
-상한만높이거나원본수계자동수정금지.완료날짜/남은횟수근거없이약속금지.
-원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브보존.
-기존108보류·14중단,종료9곳/D193196/D126467/D147845/D144758내부계산재개금지.
-전체3044원본은archive/full-handoff-20261020의4afae5da3a7730b79ced1d2b9b7a8bc3041689c0에보존,main병합금지.
-후속35계측10.2MB게시승인/배포완료.과거자동거절해소,같은승인질문반복금지.
+다음기술목표:889경계연결망일괄계산;북부저장69경계/낮은출구9곳/D567047처리;빙설/미세지형공백.
+원본세계/경제/기후/지형/수계/구지도/마스크보존.108보류14중단,종료9곳/D193196/D126467/D147845/D144758재개금지.
+D298591망190구간·기존보류2,767유지.전체아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0은별도브랜치/main병합금지.

@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "baseCommit": "d929cb651881554c2e7b573337dd71dd97137c25",
+  "newModelTests": 20,
+  "priorModelTests": 228,
+  "newBrowserChecks": 11,
+  "priorBrowserChecks": 12,
+  "aiSelections": 2838,
+  "downloads": 9,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "sourceBoundaries": 946,
+  "sourceReaches": 20065,
+  "sourceCells": 117320,
+  "northernSeparateStoreBoundaries": 69,
+  "northernSeparateStoreCells": 2241,
+  "dynamicBoundaries": 57,
+  "dynamicReaches": 2637,
+  "allThreeCandidateYears": 100,
+  "allThreeUnresolvedM3": 0,
+  "maxTotalResidualM3": 17.5,
+  "referenceOceanRefinementRelativeDifference": 0.006661478836700097,
+  "referenceOceanRefinementTolerance": 0.01,
+  "allVariablesConvergenceClaimed": false,
+  "whole23022Complete": false,
+  "worldAdoption": false,
+  "deployment": "explicitly authorized; in progress"
+}
