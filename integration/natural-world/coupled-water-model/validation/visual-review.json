@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "screenshots": [
+    "coupled-1440.png",
+    "coupled-390.png",
+    "coupled-320.png"
+  ],
+  "inspected": "390px screenshot; numeric columns kept unbroken after refinement",
+  "browserOverflowChecks": "1440/390/320 passed",
+  "candidateScopeVisible": true
+}

@@ -1,0 +1,75 @@
+{
+  "status": "verified-public-simulator-derived",
+  "destination": "jungsb7/codex",
+  "publicSource": "https://github.com/jungsb7/codex/tree/4afae5da3a7730b79ced1d2b9b7a8bc3041689c0",
+  "sourceFilesMatchPublicArchiveManifest": true,
+  "sourceSha256": {
+    "html": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+    "app": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+    "collector": "1f5ddea402839b05678af2542966fdb00dd606dff3ce8f482eeb93a1082c6820"
+  },
+  "contents": "Generated fictional-world cell indices, precipitation, temperature, grid area, initial water stores, original simulator global budgets and provenance hashes. No account, message, credential, environment-variable or personal dataset fields are captured.",
+  "schemaKeys": [
+    "schema",
+    "cells",
+    "fields",
+    "worldHash",
+    "geometryHash",
+    "fullWorldLocalDischargeSha256",
+    "globalBudgets",
+    "northern",
+    "provenance",
+    "calendar",
+    "automaticAdoption"
+  ],
+  "numericFields": [
+    "p",
+    "t",
+    "area",
+    "snow",
+    "shallow"
+  ],
+  "cells": 117320,
+  "northernSeparateStates": 2241,
+  "fullWorldLocalDischargeSha256": "ae161aa66e9b58703d9b9030083f0048573e4bcba263609bd83c39a294c87eb1",
+  "sourceCollection": {
+    "status": "passed",
+    "cells": 117320,
+    "boundaries": 946,
+    "reaches": 20065,
+    "rows": 1407840,
+    "northernCells": 2241,
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "fullWorldLocalDischargeSha256": "ae161aa66e9b58703d9b9030083f0048573e4bcba263609bd83c39a294c87eb1",
+    "allLocalRunoffBitIdentical": true,
+    "globalBudgetsIdentical": true,
+    "provenance": {
+      "baseCommit": "d929cb651881554c2e7b573337dd71dd97137c25",
+      "applicationVersion": "0.107",
+      "sourceSha256": {
+        "html": "d792bfe047f9c07bfe0e0666d37082ed195fda510841b000256b793cda065480",
+        "app": "27b6e5130c0ef23021c565e4d5ec4bc6d68a2e4c074b745aa67d6f1625499ad6",
+        "collector": "1f5ddea402839b05678af2542966fdb00dd606dff3ce8f482eeb93a1082c6820"
+      },
+      "instrumentedSha256": "869478c11aa74e4d5b0adc3db7797e13ce3477e200f8c8fbf1d6647317ee9f8c"
+    },
+    "bytes": 23484677,
+    "errors": []
+  },
+  "rejectedPart": {
+    "file": "forcing-07.bin",
+    "bytes": 600000,
+    "sha256": "5c795e98b4c8519d21e9376ac746b8039244b5724fc348ad7baf6e9786844110"
+  },
+  "authorizationContext": "2026-10-25 Asia/Seoul: user answered the exact data/destination confirmation with: 새 23.5MB 입력 자료와 계산 결과를 공개 GitHub jungsb7/codex에 게시하고 Pages로 배포하는 것을 승인합니다.",
+  "repositoryPublic": true,
+  "publicArchiveManifestGitBlob": "12d2f693c151181b1dfd81dc763700438906a627",
+  "publicArchiveManifestMatchesLocal": true,
+  "publicationStatus": "all-blobs-verified-pending-merge",
+  "automaticReviewRejections": [
+    "Unverified800KB binary payload; exact data egress not authorized",
+    "Specific public payload requires authorization despite broad deployment approval and public source verification"
+  ],
+  "priorRejectionsResolvedByUserApproval": true
+}

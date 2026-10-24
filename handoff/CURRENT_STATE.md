@@ -1,6 +1,18 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속37 원본 지형·여러 출구 후보와 이전 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속38 집수권 결합 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속38 집수권 결합·전체 입력 구현·검증 완료, 새 자료 공개 승인 완료·배포 진행 — 2026-10-24
+
+[방법](../integration/natural-world/coupled-water-model/README.md) · [결과](../integration/natural-world/coupled-water-model/REPORT.md) · [화면](../integration/natural-world/coupled-water-model/index.html). 기준main `d929cb651881554c2e7b573337dd71dd97137c25`.
+
+- 57경계·2,637구간의 원본 지형과 양쪽 최종 수위를 결합. 410고유 출구 면 중 77면·14경계쌍이 추가 후보. 두 기존 중단 경로 D221625→D200167, D258447→D243078도 전달한다.
+- 세 조건 모두100년, 미처리0. 전체 잔차 최대17.5m³(강수 대비3e-13미만). 기준60/120단계의 바다 전달량 차이0.666148%,1%기준 통과. 모든 변수/민감도 수렴 검증은 아님.
+- 946경계·20,065구간·117,320격자의 원본 강수/기온/초기저장 수집 완료. 기존11,355격자 정확히 일치, 원본 전세계 지역유출/물수지 불변. 북부69경계/2,241격자 네 저장은 별도로 보존.
+- 나머지889경계/17,428구간은 입력 확보 완료, 동적 계산 전. 낮은출구9곳+D567047, 북부 저장 결합, 빙설/미세지형은 남음. D298591망190구간 및 기존보류2,767 유지. 전체23,022구간 해결/세계자동채택 아님.
+- 새20+기존228=248모델검사, 새11+기존12=23브라우저, AI2,838조회/9다운로드 검증.
+- 새23,484,677바이트 입력40조각과후속38결과의공개GitHub jungsb7/codex게시·Pages배포를사용자가2026-10-25에자료명/목적지를포함한문구로명시승인했다.이전자동거절해소,재질문금지. [승인 기록](../integration/natural-world/coupled-water-model/validation/publication-check.json).
+- 구현/검증완료본의PR게시·병합·Pages배포진행.최종결과는 [배포 기록](../integration/natural-world/coupled-water-model/validation/deployment.json) 확인.
 
 ## 후속37 원본 지형·여러 출구 구현·검증·배포 완료 — 2026-10-24
 
