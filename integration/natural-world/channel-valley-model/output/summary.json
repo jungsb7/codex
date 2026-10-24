@@ -1,0 +1,100 @@
+{
+  "schema": "channel-valley-summary/1",
+  "provenance": {
+    "baseCommit": "2016f33e1ee30a62d936aab65ffa7463c66c2d55",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceSha256": {
+      "stage5/output/foundation-fc5d72cbbab3.json.gz": "189ff903825c7ba4e89997ae264b9b07d3436ecc1e14a8e2761928e19d7663bf",
+      "stage3/output/waterways.json": "3775f512672b104dc05459ede7ee31b875a0f1130a318a581421b758fc468c77",
+      "inland-routing/output/catalog.json": "d64957bb2e8c25a1db217f03bdeda9f42507c640af070a20935e365036570268",
+      "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8"
+    },
+    "codeSha256": {
+      "core.js": "9b3c7455f654d1391e9e5f4a70b01c904f26617113bc46b52d316b5b17f3845b",
+      "build.cjs": "5295d71dcace922d840201357dc3efa93d9a819d4896bd5b47e5b31fa2e12ec3"
+    }
+  },
+  "assumptions": {
+    "maximumSamplingDistanceM": 500,
+    "maximumBendDegrees": 8,
+    "bendAngleMetric": "native longitude/latitude grid coordinates, not a physical bearing angle",
+    "incisionBaseM": 2,
+    "incisionLogCoefficientM": 2,
+    "maximumIncisionM": 40,
+    "valleyBaseHalfWidthM": 60,
+    "valleyWidthSqrtCoefficient": 18,
+    "maximumValleyHalfWidthM": 1200,
+    "minimumGrade": 0,
+    "erosionDurationYears": null,
+    "erodibility": null,
+    "sedimentTransport": null,
+    "meaning": "Separate geometric incised-valley candidate. Width describes the valley corridor, not the flowing river. Original flow is a design scale; no reach discharge is inferred from pond budgets."
+  },
+  "reaches": 45824,
+  "pondBudgetLinkedReaches": 23022,
+  "nativeNodes": 126727,
+  "nativeEdges": 119143,
+  "sourceCrossings": [
+    {
+      "id": "X0",
+      "edges": [
+        [
+          273072,
+          274609
+        ],
+        [
+          273073,
+          274608
+        ]
+      ],
+      "reaches": [
+        18946,
+        18947
+      ],
+      "meaning": "Original diagonal edges share a cell corner without a graph junction. Physical confluence or separation remains unknown."
+    },
+    {
+      "id": "X1",
+      "edges": [
+        [
+          280736,
+          282273
+        ],
+        [
+          280737,
+          282272
+        ]
+      ],
+      "reaches": [
+        20191,
+        20192
+      ],
+      "meaning": "Original diagonal edges share a cell corner without a graph junction. Physical confluence or separation remains unknown."
+    },
+    {
+      "id": "X2",
+      "edges": [
+        [
+          315527,
+          317064
+        ],
+        [
+          315528,
+          317063
+        ]
+      ],
+      "reaches": [
+        24715,
+        25130
+      ],
+      "meaning": "Original diagonal edges share a cell corner without a graph junction. Physical confluence or separation remains unknown."
+    }
+  ],
+  "maximumNativeConditioningFillM": 0,
+  "maximumNativeIncisionM": 22.028269369227644,
+  "bytes": 12296343,
+  "parts": 90,
+  "actual": null,
+  "automaticAdoption": false
+}

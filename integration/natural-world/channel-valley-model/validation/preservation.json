@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "baseCommit": "2016f33e1ee30a62d936aab65ffa7463c66c2d55",
+  "unchangedOriginalFiles": 1367,
+  "allowedNavigationAndHandoffFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/pond-network-model/index.html",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "changedOtherOriginalFiles": []
+}
