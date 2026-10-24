@@ -1,0 +1,26 @@
+✔ edition is explicitly authorized and pins every source and builder (31.530274ms)
+✔ all native cells have one adopted class; source masks and research flags remain exact (24.700399ms)
+✔ all23022 reaches retain exact boundary mapping and all1184 complete reference budgets (196.041926ms)
+✔ 12 prescribed periods conserve SWE and discharge, and satisfy covered/open Manning capacity (6134.75069ms)
+✔ three crossings are explicit non-junctions, keep endpoints and provide rock clearance (42.464569ms)
+✔ GIS boundaries are exact native polygons and reproduce adopted wetland area (5.358084ms)
+✔ ocean, background and dry reach use explicit applicability rather than invented zero values (1.995381ms)
+✔ invalid selections and corrupted blobs fail closed (8.155433ms)
+✔ Every original cell mask and fixed water footprint matches phase42/40 sources (202.366346ms)
+✔ All549888 reach-period Manning solutions invert discharge and roughness ranges are ordered (921.705397ms)
+✔ All3226284 snow values reproduce tenth-year mass balance and density conversion (1115.462717ms)
+✔ Sensible cooling, latent freezing, full ice cooling and equilibrium conserve enthalpy (1.270211ms)
+✔ Snow insulation and warm advection change freezing through the heat ledger (95.362565ms)
+✔ Independent JS reference matches native annual series and map floats across selected extremes (665.030354ms)
+✔ Every stored ice column is finite, bounded by its water mass, and reconciles published extent (248.39597ms)
+✔ Full-domain numerical refinement and heat residuals are published rather than hidden (0.60191ms)
+✔ All4875948 period point/reach AI queries preserve provenance, unknowns and candidate status (9614.681407ms)
+✔ Published input/code hashes and first-load budget are verified (48.664413ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 20214.491832

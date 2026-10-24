@@ -1,0 +1,908 @@
+{
+  "schema": "natural-canon-manifest/1",
+  "version": "natural-canon-v1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 5697771,
+    "rawBytes": 38104727,
+    "sha256": "149db6384b1c9ac78c67301b573be41eb485b8dd297270fe9c5f5dc902460633"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "file": "period-01.bin.gz",
+      "bytes": 1287317,
+      "rawBytes": 3509748,
+      "sha256": "9b4b0e93f84dc78712a7b68fcd2e4aa44ff2c0c65fbd801b9beb9ed73cd31645"
+    },
+    {
+      "period": 2,
+      "file": "period-02.bin.gz",
+      "bytes": 1187258,
+      "rawBytes": 3509748,
+      "sha256": "93ffc168199efaaa9938f89699851959ee81a27cde39169ea9e7a8a0d2220cf0"
+    },
+    {
+      "period": 3,
+      "file": "period-03.bin.gz",
+      "bytes": 974377,
+      "rawBytes": 3509748,
+      "sha256": "c6e57873daa682752c36130a3d0fc597216389b3ac4c61cbbb0f04ceca76db01"
+    },
+    {
+      "period": 4,
+      "file": "period-04.bin.gz",
+      "bytes": 954827,
+      "rawBytes": 3509748,
+      "sha256": "7a1fb4790a4f54ea67b921d994ddb67b673810d914229226bd569718a769ccfd"
+    },
+    {
+      "period": 5,
+      "file": "period-05.bin.gz",
+      "bytes": 951034,
+      "rawBytes": 3509748,
+      "sha256": "a147b1a17c5542162aa1e967e4737b3e2e9a2fa54a672d1d7403c69082e20603"
+    },
+    {
+      "period": 6,
+      "file": "period-06.bin.gz",
+      "bytes": 934389,
+      "rawBytes": 3509748,
+      "sha256": "d20ddc658f2754fee319857d95ef7446756d4fe57179658b934247e0233e4577"
+    },
+    {
+      "period": 7,
+      "file": "period-07.bin.gz",
+      "bytes": 1048976,
+      "rawBytes": 3509748,
+      "sha256": "0c6b708ff14a5c362e678d6d164fa029f768e1834bdf9e3ba2840f0c731eb005"
+    },
+    {
+      "period": 8,
+      "file": "period-08.bin.gz",
+      "bytes": 1274753,
+      "rawBytes": 3509748,
+      "sha256": "86a5b9f03434f752e61c5d7ac69dc7f8c047e5f2b9a0f4b2752070a9bb841e70"
+    },
+    {
+      "period": 9,
+      "file": "period-09.bin.gz",
+      "bytes": 1334928,
+      "rawBytes": 3509748,
+      "sha256": "eb79d20e37991eaa4dc4a5d0e768086f78d9cf7cda06c5faf621fd69e89ac0e0"
+    },
+    {
+      "period": 10,
+      "file": "period-10.bin.gz",
+      "bytes": 1354599,
+      "rawBytes": 3509748,
+      "sha256": "c3b4058d86a802cbac2f9aef64d5f36ce07caf06037aa65b586f2abec6479733"
+    },
+    {
+      "period": 11,
+      "file": "period-11.bin.gz",
+      "bytes": 1351111,
+      "rawBytes": 3509748,
+      "sha256": "9ee6b41a06c49c600b7f484f694ad20e9859180d6c530bb64de706a385b95857"
+    },
+    {
+      "period": 12,
+      "file": "period-12.bin.gz",
+      "bytes": 1328335,
+      "rawBytes": 3509748,
+      "sha256": "758b5d978173b119a1697e3a5e9a137daa8ac41703cacaa7a6c80136ec7e7ddb"
+    }
+  ],
+  "geometryParts": [
+    {
+      "file": "reaches-000.json.gz",
+      "bytes": 141321,
+      "sha256": "694cf5536cb42a50d14de2ad925fb14daef1685f4738a5d992d4d1f0448febdf",
+      "first": 0,
+      "last": 511,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-000.json.gz"
+    },
+    {
+      "file": "reaches-001.json.gz",
+      "bytes": 133241,
+      "sha256": "6272a7e6bdbcbd4a85c8b9ca31e87355386d18e1e5b507876759085a74943c36",
+      "first": 512,
+      "last": 1023,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-001.json.gz"
+    },
+    {
+      "file": "reaches-002.json.gz",
+      "bytes": 125617,
+      "sha256": "80a2fa3e78399c2a66c56c7273f5a319f3d2fe09b4ed702bd7bfff6b07ab8ce5",
+      "first": 1024,
+      "last": 1535,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-002.json.gz"
+    },
+    {
+      "file": "reaches-003.json.gz",
+      "bytes": 130277,
+      "sha256": "b8282cdb1da1f3966825ef703268ded8bd37e14aa01365293c4fbe98a1af21ef",
+      "first": 1536,
+      "last": 2047,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-003.json.gz"
+    },
+    {
+      "file": "reaches-004.json.gz",
+      "bytes": 140302,
+      "sha256": "582864e467cbfee22a8d7574818e67a82bb005d856c07c8b6b3168e574f942b9",
+      "first": 2048,
+      "last": 2559,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-004.json.gz"
+    },
+    {
+      "file": "reaches-005.json.gz",
+      "bytes": 124564,
+      "sha256": "715d235d950b24c792392dd9aaf60d8e15b780b7c54d7314c7de0170769b5198",
+      "first": 2560,
+      "last": 3071,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-005.json.gz"
+    },
+    {
+      "file": "reaches-006.json.gz",
+      "bytes": 120215,
+      "sha256": "813b0c02094d68b7949c7dc7fc4dad82844dbfa0ba4a021daa5e3692e37a2f86",
+      "first": 3072,
+      "last": 3583,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-006.json.gz"
+    },
+    {
+      "file": "reaches-007.json.gz",
+      "bytes": 124304,
+      "sha256": "de10ae545c1b515602e1b70476eb35d2a8f296130d68101a69d9506e8ba9a91c",
+      "first": 3584,
+      "last": 4095,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-007.json.gz"
+    },
+    {
+      "file": "reaches-008.json.gz",
+      "bytes": 129305,
+      "sha256": "11d59fe82dd072348dfbeb06125f3df5b3bb0733a461c026dbaf90ec33bc05aa",
+      "first": 4096,
+      "last": 4607,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-008.json.gz"
+    },
+    {
+      "file": "reaches-009.json.gz",
+      "bytes": 114758,
+      "sha256": "5c4eebc76d572fcae56338d486dce791afa1dfd74b76c3b6a039ede117cc5f32",
+      "first": 4608,
+      "last": 5119,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-009.json.gz"
+    },
+    {
+      "file": "reaches-010.json.gz",
+      "bytes": 120908,
+      "sha256": "7237abeb811d2b6930eb440d4394cf4a1dd7e97a9ebb4c8d205c8e1d44f83d01",
+      "first": 5120,
+      "last": 5631,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-010.json.gz"
+    },
+    {
+      "file": "reaches-011.json.gz",
+      "bytes": 117971,
+      "sha256": "0d880c8e6002dc5c2d11414db09619fe59eacd91f78f63f5f51ea9349f1fefc1",
+      "first": 5632,
+      "last": 6143,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-011.json.gz"
+    },
+    {
+      "file": "reaches-012.json.gz",
+      "bytes": 119285,
+      "sha256": "cf0b3b66ea28a7ab11e839ba7619d1eb2da363134a4f034b96a215578649f77c",
+      "first": 6144,
+      "last": 6655,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-012.json.gz"
+    },
+    {
+      "file": "reaches-013.json.gz",
+      "bytes": 125851,
+      "sha256": "f2622e18595373c307a02b6f1225678520ba63d004315a6bf34fbc3f7fe876ca",
+      "first": 6656,
+      "last": 7167,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-013.json.gz"
+    },
+    {
+      "file": "reaches-014.json.gz",
+      "bytes": 122784,
+      "sha256": "7f0570eb65eccb33164524a6e943da3859f4e30be5e7ece2e27ebe54df9db9cb",
+      "first": 7168,
+      "last": 7679,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-014.json.gz"
+    },
+    {
+      "file": "reaches-015.json.gz",
+      "bytes": 116770,
+      "sha256": "f364acdbc27b83b7e3e3401c01cb29c93fe8678e8d31f909d62be8ac18295e06",
+      "first": 7680,
+      "last": 8191,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-015.json.gz"
+    },
+    {
+      "file": "reaches-016.json.gz",
+      "bytes": 122549,
+      "sha256": "0e2d95f8b35d9f9d71f648e402cf4bbf8bcea8a941ef4c3fc77f2390275de20e",
+      "first": 8192,
+      "last": 8703,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-016.json.gz"
+    },
+    {
+      "file": "reaches-017.json.gz",
+      "bytes": 125766,
+      "sha256": "7ac15500b433f77a7981d4b6c42d36998d5f555f61f58f244185f43290c8dc62",
+      "first": 8704,
+      "last": 9215,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-017.json.gz"
+    },
+    {
+      "file": "reaches-018.json.gz",
+      "bytes": 122155,
+      "sha256": "e01c8b7b80d1480dcb744b08679d9e7046a33fed55db1109f4274b59cbcc604f",
+      "first": 9216,
+      "last": 9727,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-018.json.gz"
+    },
+    {
+      "file": "reaches-019.json.gz",
+      "bytes": 114041,
+      "sha256": "b6789130b977c9985210d1eeaac89ffcbc6748967415b56718e2209da56a1652",
+      "first": 9728,
+      "last": 10239,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-019.json.gz"
+    },
+    {
+      "file": "reaches-020.json.gz",
+      "bytes": 111368,
+      "sha256": "ac241b376cc7867dcecdf3f043d5a27faa742d4299c538b2737939e1fec64640",
+      "first": 10240,
+      "last": 10751,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-020.json.gz"
+    },
+    {
+      "file": "reaches-021.json.gz",
+      "bytes": 111225,
+      "sha256": "504c249462ac6b87847e5332d18024b7ca492ecdde82dca5c64e367f9610eb2e",
+      "first": 10752,
+      "last": 11263,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-021.json.gz"
+    },
+    {
+      "file": "reaches-022.json.gz",
+      "bytes": 110437,
+      "sha256": "f7a4709725e78bb80ba21bf838e083af13436d686a57a2dd796a4cd27dbc0747",
+      "first": 11264,
+      "last": 11775,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-022.json.gz"
+    },
+    {
+      "file": "reaches-023.json.gz",
+      "bytes": 110736,
+      "sha256": "0a6ccc5ba2dea8828253b2334434f250602a896b3428cf52511f6cac750d2a85",
+      "first": 11776,
+      "last": 12287,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-023.json.gz"
+    },
+    {
+      "file": "reaches-024.json.gz",
+      "bytes": 108285,
+      "sha256": "e096e10defe1ce7037e75e9f1287d423cc19102900e1a784f67f5e03ad74679d",
+      "first": 12288,
+      "last": 12799,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-024.json.gz"
+    },
+    {
+      "file": "reaches-025.json.gz",
+      "bytes": 116749,
+      "sha256": "35284630b0c42761cc01061907a0cfaf4172c40e50989f5f9b46eaaaad106589",
+      "first": 12800,
+      "last": 13311,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-025.json.gz"
+    },
+    {
+      "file": "reaches-026.json.gz",
+      "bytes": 110875,
+      "sha256": "fd1457292ef60605bbcf701857faebae124bab74b942d5cf39c7a21b2352afec",
+      "first": 13312,
+      "last": 13823,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-026.json.gz"
+    },
+    {
+      "file": "reaches-027.json.gz",
+      "bytes": 106841,
+      "sha256": "3beb24b181e0907e7b42f2a2582cccf5ee2added3a7d762a2154b7e6cdc684f5",
+      "first": 13824,
+      "last": 14335,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-027.json.gz"
+    },
+    {
+      "file": "reaches-028.json.gz",
+      "bytes": 106048,
+      "sha256": "50f31dd8f70285f7bda890c071629f6a4a155ecf58630f0ca0ae6885649d0bd3",
+      "first": 14336,
+      "last": 14847,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-028.json.gz"
+    },
+    {
+      "file": "reaches-029.json.gz",
+      "bytes": 113475,
+      "sha256": "825649c36faed8cdceb4b765d0d05c88cacaa701ad2c60cc06fd4414e7734c83",
+      "first": 14848,
+      "last": 15359,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-029.json.gz"
+    },
+    {
+      "file": "reaches-030.json.gz",
+      "bytes": 113611,
+      "sha256": "c0f63bfebbd2cc07d0e51aec22992ec21038bbab53f81245f71d943b081fac81",
+      "first": 15360,
+      "last": 15871,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-030.json.gz"
+    },
+    {
+      "file": "reaches-031.json.gz",
+      "bytes": 121590,
+      "sha256": "8c6a4d7355c68068f3999e29a5a92a2e8f8fd34c0a22df19d39b4cdaf1ca076d",
+      "first": 15872,
+      "last": 16383,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-031.json.gz"
+    },
+    {
+      "file": "reaches-032.json.gz",
+      "bytes": 123592,
+      "sha256": "17cea7470fe0e85905762b4c72ebb2ddddcffa75407451157c8a93d060404ea1",
+      "first": 16384,
+      "last": 16895,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-032.json.gz"
+    },
+    {
+      "file": "reaches-033.json.gz",
+      "bytes": 130368,
+      "sha256": "cd4ac5e7ce8d1ab374e6dca569deab26ce027f526002d363eb90511e5e2eaef0",
+      "first": 16896,
+      "last": 17407,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-033.json.gz"
+    },
+    {
+      "file": "reaches-034.json.gz",
+      "bytes": 122502,
+      "sha256": "2ed8dba84ad369298e4e3c1453a835d05df0211c839db7346345d4e42c03fbbe",
+      "first": 17408,
+      "last": 17919,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-034.json.gz"
+    },
+    {
+      "file": "reaches-035.json.gz",
+      "bytes": 118113,
+      "sha256": "a98f6cb4c2c374684738d828fcf5b28136a760d1fc62f28fa164db73c1dec89c",
+      "first": 17920,
+      "last": 18431,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-035.json.gz"
+    },
+    {
+      "file": "reaches-036.json.gz",
+      "bytes": 120888,
+      "sha256": "b76707aeeda971261487a4dca090fbb36f051e30d0ebf702e0c7f4710c389f7d",
+      "first": 18432,
+      "last": 18943,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-036.json.gz"
+    },
+    {
+      "file": "reaches-037.json.gz",
+      "bytes": 119155,
+      "sha256": "715b15c2a3baaa107dbbb1de7aedf44d5b41175b78ede9647dc334c4b1e44912",
+      "first": 18944,
+      "last": 19455,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-037.json.gz"
+    },
+    {
+      "file": "reaches-038.json.gz",
+      "bytes": 121172,
+      "sha256": "6764d25110509b0bfa17609e17d7138c3ba56ad72408fb278347e303268e878e",
+      "first": 19456,
+      "last": 19967,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-038.json.gz"
+    },
+    {
+      "file": "reaches-039.json.gz",
+      "bytes": 129308,
+      "sha256": "ad52086d1d29a69f4edbd8d9c699e4e8f6f1fe1715a637edb9b4e3f6cfd9e0b7",
+      "first": 19968,
+      "last": 20479,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-039.json.gz"
+    },
+    {
+      "file": "reaches-040.json.gz",
+      "bytes": 136348,
+      "sha256": "cb736111b353c49ffdf4121c0c07f18ee198019c213d4be650b1ea5912d8ecb3",
+      "first": 20480,
+      "last": 20991,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-040.json.gz"
+    },
+    {
+      "file": "reaches-041.json.gz",
+      "bytes": 131401,
+      "sha256": "f9d5e05a573ead59c3bfebbe44ccd25e3dd4a1ed97855cf4f387b95ffe6c153b",
+      "first": 20992,
+      "last": 21503,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-041.json.gz"
+    },
+    {
+      "file": "reaches-042.json.gz",
+      "bytes": 131488,
+      "sha256": "097ccac409ad88a764b9db577c76828c58f4b765b519023720789b62cac9ba58",
+      "first": 21504,
+      "last": 22015,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-042.json.gz"
+    },
+    {
+      "file": "reaches-043.json.gz",
+      "bytes": 122564,
+      "sha256": "3270b5010923237a19acbd349090b1efc367472f6f69326738099de07629adc1",
+      "first": 22016,
+      "last": 22527,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-043.json.gz"
+    },
+    {
+      "file": "reaches-044.json.gz",
+      "bytes": 124842,
+      "sha256": "8aac4c78befeee5b6e63b929e935de4eb921f5fbaf7fde592abdad6c65a36563",
+      "first": 22528,
+      "last": 23039,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-044.json.gz"
+    },
+    {
+      "file": "reaches-045.json.gz",
+      "bytes": 122046,
+      "sha256": "175a88632f1c3410c64b090a995a58e1e447d8aeed214ce77ef73aefbc0ebe6d",
+      "first": 23040,
+      "last": 23551,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-045.json.gz"
+    },
+    {
+      "file": "reaches-046.json.gz",
+      "bytes": 125271,
+      "sha256": "93d2ee4e789e3be0fe03b5985020a3264bdaacf71f3af174cc1d49f1f5401b75",
+      "first": 23552,
+      "last": 24063,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-046.json.gz"
+    },
+    {
+      "file": "reaches-047.json.gz",
+      "bytes": 127569,
+      "sha256": "ad4df593da01e856898cf94e04317ecb1e8f0f2fa6c54acccf698312afddd5e1",
+      "first": 24064,
+      "last": 24575,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-047.json.gz"
+    },
+    {
+      "file": "reaches-048.json.gz",
+      "bytes": 134236,
+      "sha256": "39718711da6fa6428886e98cc1e7f52ac019d4c94994563a4c3039ef02564a83",
+      "first": 24576,
+      "last": 25087,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-048.json.gz"
+    },
+    {
+      "file": "reaches-049.json.gz",
+      "bytes": 136378,
+      "sha256": "359769c3c390b0fac4e4b5f30d95a34f61d83f4beee743bf4aac30702365c2bd",
+      "first": 25088,
+      "last": 25599,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-049.json.gz"
+    },
+    {
+      "file": "reaches-050.json.gz",
+      "bytes": 126863,
+      "sha256": "f617017a0c2453feec561d42ccd95a9c4e6f4875827f9ab5410724770e2b71cf",
+      "first": 25600,
+      "last": 26111,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-050.json.gz"
+    },
+    {
+      "file": "reaches-051.json.gz",
+      "bytes": 131996,
+      "sha256": "6a1aae065f421a0eef113e45b2b93d33ba5b34d7eecd996839627adafeadbb0b",
+      "first": 26112,
+      "last": 26623,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-051.json.gz"
+    },
+    {
+      "file": "reaches-052.json.gz",
+      "bytes": 123272,
+      "sha256": "6c923d2244fa5a5e2af1537950bd2c3283945b5b9212aa941812c096f9cc49d5",
+      "first": 26624,
+      "last": 27135,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-052.json.gz"
+    },
+    {
+      "file": "reaches-053.json.gz",
+      "bytes": 120965,
+      "sha256": "98501a7274b5c3d1ec7a3d17a6817836b88e00a88e2f8300c15df8ab060b6621",
+      "first": 27136,
+      "last": 27647,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-053.json.gz"
+    },
+    {
+      "file": "reaches-054.json.gz",
+      "bytes": 138093,
+      "sha256": "9314487a6e498ead4e3d71a22affdcc86df5f28795cda81e75540e4f2c179696",
+      "first": 27648,
+      "last": 28159,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-054.json.gz"
+    },
+    {
+      "file": "reaches-055.json.gz",
+      "bytes": 104313,
+      "sha256": "077722e71577aae4907cfae6a452df2c0f99d2369c4752a6a216fde9746a00e2",
+      "first": 28160,
+      "last": 28671,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-055.json.gz"
+    },
+    {
+      "file": "reaches-056.json.gz",
+      "bytes": 126115,
+      "sha256": "89ee477d6588dfcfe1e521d339e1fa7c7db4b5cf7f4b5208593032d1b31f7dec",
+      "first": 28672,
+      "last": 29183,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-056.json.gz"
+    },
+    {
+      "file": "reaches-057.json.gz",
+      "bytes": 127010,
+      "sha256": "f27c5874d2f1c5394f321621726c4af8aaef825deab8e281dc474c5585a60d46",
+      "first": 29184,
+      "last": 29695,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-057.json.gz"
+    },
+    {
+      "file": "reaches-058.json.gz",
+      "bytes": 138533,
+      "sha256": "d44233fefec4d5131b5dda4dc3de45d96b2e114c851a6bf996ed75dc85938d53",
+      "first": 29696,
+      "last": 30207,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-058.json.gz"
+    },
+    {
+      "file": "reaches-059.json.gz",
+      "bytes": 137634,
+      "sha256": "6ee4788297297023f2c5294305f83abaa073561661eb2a6d64eaf00f2d75b9a3",
+      "first": 30208,
+      "last": 30719,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-059.json.gz"
+    },
+    {
+      "file": "reaches-060.json.gz",
+      "bytes": 120678,
+      "sha256": "2c3fcbfa9817b8e68b22af2b12fece3f57ed3f19dc9d6a3bce83df9268145244",
+      "first": 30720,
+      "last": 31231,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-060.json.gz"
+    },
+    {
+      "file": "reaches-061.json.gz",
+      "bytes": 122197,
+      "sha256": "5c07314613b0228e8875615e50d175ee6435e095f2558e3bd3fb5becd3c45480",
+      "first": 31232,
+      "last": 31743,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-061.json.gz"
+    },
+    {
+      "file": "reaches-062.json.gz",
+      "bytes": 120949,
+      "sha256": "1cfcb637fa20b0e410e67e3bf463363a9802c0c88f3375a72a1575398455a8bf",
+      "first": 31744,
+      "last": 32255,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-062.json.gz"
+    },
+    {
+      "file": "reaches-063.json.gz",
+      "bytes": 124234,
+      "sha256": "991d221e73d0b9df206296267b578460dfc71aedd59eff0241dac1584abcaf70",
+      "first": 32256,
+      "last": 32767,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-063.json.gz"
+    },
+    {
+      "file": "reaches-064.json.gz",
+      "bytes": 128074,
+      "sha256": "87fbd9f54cfed386a05170d2742a01d866f9422d03744ae1d58b8f4da46a6f80",
+      "first": 32768,
+      "last": 33279,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-064.json.gz"
+    },
+    {
+      "file": "reaches-065.json.gz",
+      "bytes": 124816,
+      "sha256": "19f6814bf64c998ab0eb3ce90f07c9f359f68ffc9046f45537670a366fef1612",
+      "first": 33280,
+      "last": 33791,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-065.json.gz"
+    },
+    {
+      "file": "reaches-066.json.gz",
+      "bytes": 115730,
+      "sha256": "49952cc1d7f8f5c1e706787ec67f9af2c88f304ba17a571a6208204b6030aa62",
+      "first": 33792,
+      "last": 34303,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-066.json.gz"
+    },
+    {
+      "file": "reaches-067.json.gz",
+      "bytes": 121012,
+      "sha256": "5830bea56682b0bdd9c66198ba473bd2b8a5054c283f6888103ab86c7d614f92",
+      "first": 34304,
+      "last": 34815,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-067.json.gz"
+    },
+    {
+      "file": "reaches-068.json.gz",
+      "bytes": 121699,
+      "sha256": "6572a474454e4a936629d4626fb29c3291eb051f99cd7789d5f2ca9f87042930",
+      "first": 34816,
+      "last": 35327,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-068.json.gz"
+    },
+    {
+      "file": "reaches-069.json.gz",
+      "bytes": 141122,
+      "sha256": "70870400a69e2a72f9e7d3b68391f6f72f8a7d4038be3f7cf99312bb73148cc9",
+      "first": 35328,
+      "last": 35839,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-069.json.gz"
+    },
+    {
+      "file": "reaches-070.json.gz",
+      "bytes": 147119,
+      "sha256": "e54d32c662f3d2b6fc428f2f2ebba97a8c7f49836098459015c3f704b1151f92",
+      "first": 35840,
+      "last": 36351,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-070.json.gz"
+    },
+    {
+      "file": "reaches-071.json.gz",
+      "bytes": 139569,
+      "sha256": "7cbea79c70be63cac74ecb63c4225856dcac4f820804356d79dffb975bc4ae93",
+      "first": 36352,
+      "last": 36863,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-071.json.gz"
+    },
+    {
+      "file": "reaches-072.json.gz",
+      "bytes": 124628,
+      "sha256": "abee3ad735ddc8e9f271429e45666695b8262e68c84a0be324921075bcbcd1f5",
+      "first": 36864,
+      "last": 37375,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-072.json.gz"
+    },
+    {
+      "file": "reaches-073.json.gz",
+      "bytes": 133353,
+      "sha256": "dd26480c94bfd26ef6f7f20454d4480685810b8c432188a9c7872754cd745e67",
+      "first": 37376,
+      "last": 37887,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-073.json.gz"
+    },
+    {
+      "file": "reaches-074.json.gz",
+      "bytes": 146229,
+      "sha256": "b0397f81d10be31ac8d728bcaf8b998f2468628c68f87a9e1519e9871b39a18e",
+      "first": 37888,
+      "last": 38399,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-074.json.gz"
+    },
+    {
+      "file": "reaches-075.json.gz",
+      "bytes": 143193,
+      "sha256": "778033795ebc61d31814194c7ff800d341a93f6da75e253620edb8072c5c4793",
+      "first": 38400,
+      "last": 38911,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-075.json.gz"
+    },
+    {
+      "file": "reaches-076.json.gz",
+      "bytes": 144514,
+      "sha256": "e4147e639c6dea363db527478ba72e98547066672f985236bc4f1444a8d42d9a",
+      "first": 38912,
+      "last": 39423,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-076.json.gz"
+    },
+    {
+      "file": "reaches-077.json.gz",
+      "bytes": 156291,
+      "sha256": "a7f52a6d498db161435f2993e45d3c059781e8d02309b5adece1a8d369794a76",
+      "first": 39424,
+      "last": 39935,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-077.json.gz"
+    },
+    {
+      "file": "reaches-078.json.gz",
+      "bytes": 187817,
+      "sha256": "1ef5fecdc39fb3914efe8b4d6415fd4ff11fb56aacce99bb1395ad7902a08747",
+      "first": 39936,
+      "last": 40447,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-078.json.gz"
+    },
+    {
+      "file": "reaches-079.json.gz",
+      "bytes": 162854,
+      "sha256": "1039c6592489935d69ef4f15693781e210484b5f94dd739e0305ca09c5992591",
+      "first": 40448,
+      "last": 40959,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-079.json.gz"
+    },
+    {
+      "file": "reaches-080.json.gz",
+      "bytes": 138942,
+      "sha256": "bba2f722e125e3a29d715e225436c3b7247c48d1f99653ed807a9ed41f6d6adf",
+      "first": 40960,
+      "last": 41471,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-080.json.gz"
+    },
+    {
+      "file": "reaches-081.json.gz",
+      "bytes": 144083,
+      "sha256": "5006b8e78c16c37455fd29850d7b083000f09c9d2bcdb82e0b3ac358f473eaf4",
+      "first": 41472,
+      "last": 41983,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-081.json.gz"
+    },
+    {
+      "file": "reaches-082.json.gz",
+      "bytes": 161367,
+      "sha256": "c3219c3d6405b2e03a92a3bb51a4679d5693986dcb2f31bd07a1cb8c690f9cbd",
+      "first": 41984,
+      "last": 42495,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-082.json.gz"
+    },
+    {
+      "file": "reaches-083.json.gz",
+      "bytes": 170806,
+      "sha256": "c995254bbac36f9137df888a4d3043a953e2eb23d1362e400e13b630385b15e0",
+      "first": 42496,
+      "last": 43007,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-083.json.gz"
+    },
+    {
+      "file": "reaches-084.json.gz",
+      "bytes": 144840,
+      "sha256": "4e1431b4f38c4f3c8a027d87115af47bd85eb60836a10f313e9dce2fec1985f6",
+      "first": 43008,
+      "last": 43519,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-084.json.gz"
+    },
+    {
+      "file": "reaches-085.json.gz",
+      "bytes": 136213,
+      "sha256": "9793a61f341da86f9fb661f7be79978fd88f47eb6f7c426c34b717ff5ceddd34",
+      "first": 43520,
+      "last": 44031,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-085.json.gz"
+    },
+    {
+      "file": "reaches-086.json.gz",
+      "bytes": 134147,
+      "sha256": "82b8ec99b5cf6db9e4df16e437e222d934584969f960e221b6dde6e639798562",
+      "first": 44032,
+      "last": 44543,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-086.json.gz"
+    },
+    {
+      "file": "reaches-087.json.gz",
+      "bytes": 139482,
+      "sha256": "d282edadd0096cd8bbd4a4054ce0b9887035f3f736713baef5b827bf17219124",
+      "first": 44544,
+      "last": 45055,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-087.json.gz"
+    },
+    {
+      "file": "reaches-088.json.gz",
+      "bytes": 165294,
+      "sha256": "31f7f7e8c13e1ceb591862388851598849b5953d783c78c39b43a769649d527c",
+      "first": 45056,
+      "last": 45567,
+      "count": 512,
+      "path": "../channel-valley-model/output/reaches-088.json.gz"
+    },
+    {
+      "file": "reaches-089.json.gz",
+      "bytes": 57122,
+      "sha256": "f9b4057b3c1962bb0c649275dbcf424b7b8ce0ddf8ac569478e73101f9f1a439",
+      "first": 45568,
+      "last": 45823,
+      "count": 256,
+      "path": "../channel-valley-model/output/reaches-089.json.gz"
+    }
+  ]
+}

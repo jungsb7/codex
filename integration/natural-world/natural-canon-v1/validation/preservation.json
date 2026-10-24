@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "baseCommit": "00b24d0063a3d5a10cb0940c576d238875fd36c8",
+  "originalFileCount": 1572,
+  "unchangedOriginalFiles": 1565,
+  "allowedChangedOriginalFiles": [
+    "AGENTS.md",
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/unified-atlas/app.js",
+    "integration/natural-world/unified-atlas/index.html",
+    "integration/natural-world/unified-atlas/render.js"
+  ],
+  "unexpectedChanges": [],
+  "originalWorldLoreAndResearchFiles": "byte-identical",
+  "archiveBranch": "not modified"
+}

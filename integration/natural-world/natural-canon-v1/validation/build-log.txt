@@ -1,0 +1,169 @@
+period 1
+period 2
+period 3
+period 4
+period 5
+period 6
+period 7
+period 8
+period 9
+period 10
+period 11
+period 12
+{
+  "classes": [
+    {
+      "id": "lake",
+      "name": "기존 호수",
+      "color": "#599ca7",
+      "cells": 209,
+      "areaKm2": 114033.57443391561
+    },
+    {
+      "id": "retained-water",
+      "name": "기준 저류 수면",
+      "color": "#427caa",
+      "cells": 18746,
+      "areaKm2": 7775797.571231459
+    },
+    {
+      "id": "wetland",
+      "name": "습지",
+      "color": "#58a99b",
+      "cells": 448,
+      "areaKm2": 262012.98296392406
+    },
+    {
+      "id": "forest",
+      "name": "숲",
+      "color": "#4c855d",
+      "cells": 49733,
+      "areaKm2": 25360009.18431469
+    },
+    {
+      "id": "grassland",
+      "name": "초원",
+      "color": "#b3b77f",
+      "cells": 76473,
+      "areaKm2": 35008692.749647714
+    },
+    {
+      "id": "arid",
+      "name": "사막·건조 관목지",
+      "color": "#c7a376",
+      "cells": 90485,
+      "areaKm2": 51535452.650031984
+    },
+    {
+      "id": "tundra",
+      "name": "툰드라·고산초지",
+      "color": "#aab6aa",
+      "cells": 18807,
+      "areaKm2": 6342653.618366357
+    },
+    {
+      "id": "icefield",
+      "name": "정지 빙원",
+      "color": "#e2eced",
+      "cells": 4821,
+      "areaKm2": 1612192.774224675
+    },
+    {
+      "id": "barren",
+      "name": "암석·한랭 불모지",
+      "color": "#a7a99e",
+      "cells": 0,
+      "areaKm2": 0
+    },
+    {
+      "id": "flood-woodland",
+      "name": "범람 적응 수림",
+      "color": "#6e9871",
+      "cells": 445,
+      "areaKm2": 218891.79660138098
+    },
+    {
+      "id": "moist-meadow",
+      "name": "습윤 초지",
+      "color": "#9ab98c",
+      "cells": 8690,
+      "areaKm2": 4869834.882817933
+    }
+  ],
+  "crossings": [
+    {
+      "id": "X0",
+      "reaches": [
+        18946,
+        18947
+      ],
+      "location": [
+        101.484375,
+        48.28125
+      ],
+      "lowerReach": 18946,
+      "upperReach": 18947,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 15719.679387163671,
+      "lengthM": 1000,
+      "additionalLoweringM": 0,
+      "originalLowerBedM": 2813.900253676614,
+      "upperBedM": 2994.7741651903693,
+      "maximumLowerWaterStageM": 3.4772032777360544,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    },
+    {
+      "id": "X1",
+      "reaches": [
+        20191,
+        20192
+      ],
+      "location": [
+        97.734375,
+        47.109375
+      ],
+      "lowerReach": 20191,
+      "upperReach": 20192,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 15831.519382120712,
+      "lengthM": 2404.4273112439614,
+      "additionalLoweringM": 0,
+      "originalLowerBedM": 2731.0899742179017,
+      "upperBedM": 2752.1263268684816,
+      "maximumLowerWaterStageM": 7.923049715900787,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    },
+    {
+      "id": "X2",
+      "reaches": [
+        24715,
+        25130
+      ],
+      "location": [
+        -28.125,
+        41.71875
+      ],
+      "lowerReach": 25130,
+      "upperReach": 24715,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 16338.233899207204,
+      "lengthM": 1000,
+      "additionalLoweringM": 6.698910853916914,
+      "originalLowerBedM": 97.93639332343125,
+      "upperBedM": 107.18273684936113,
+      "maximumLowerWaterStageM": 11.945254379846798,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    }
+  ],
+  "maxMassError": 0.0034942626953125,
+  "maxCapacityError": 1.2462587921387819e-15
+}

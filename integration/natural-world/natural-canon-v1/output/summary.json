@@ -1,0 +1,289 @@
+{
+  "schema": "natural-canon-build/1",
+  "version": "natural-canon-v1",
+  "status": "adopted-world-definition",
+  "nativeCells": 268857,
+  "reachCount": 45824,
+  "adoptedBoundaries": 1184,
+  "adoptedBudgetReaches": 23022,
+  "unprocessedM3": 0,
+  "undecidedCoverCells": 0,
+  "resolvedResearchHoldCells": 32777,
+  "classes": [
+    {
+      "id": "lake",
+      "name": "기존 호수",
+      "color": "#599ca7",
+      "cells": 209,
+      "areaKm2": 114033.57443391561
+    },
+    {
+      "id": "retained-water",
+      "name": "기준 저류 수면",
+      "color": "#427caa",
+      "cells": 18746,
+      "areaKm2": 7775797.571231459
+    },
+    {
+      "id": "wetland",
+      "name": "습지",
+      "color": "#58a99b",
+      "cells": 448,
+      "areaKm2": 262012.98296392406
+    },
+    {
+      "id": "forest",
+      "name": "숲",
+      "color": "#4c855d",
+      "cells": 49733,
+      "areaKm2": 25360009.18431469
+    },
+    {
+      "id": "grassland",
+      "name": "초원",
+      "color": "#b3b77f",
+      "cells": 76473,
+      "areaKm2": 35008692.749647714
+    },
+    {
+      "id": "arid",
+      "name": "사막·건조 관목지",
+      "color": "#c7a376",
+      "cells": 90485,
+      "areaKm2": 51535452.650031984
+    },
+    {
+      "id": "tundra",
+      "name": "툰드라·고산초지",
+      "color": "#aab6aa",
+      "cells": 18807,
+      "areaKm2": 6342653.618366357
+    },
+    {
+      "id": "icefield",
+      "name": "정지 빙원",
+      "color": "#e2eced",
+      "cells": 4821,
+      "areaKm2": 1612192.774224675
+    },
+    {
+      "id": "barren",
+      "name": "암석·한랭 불모지",
+      "color": "#a7a99e",
+      "cells": 0,
+      "areaKm2": 0
+    },
+    {
+      "id": "flood-woodland",
+      "name": "범람 적응 수림",
+      "color": "#6e9871",
+      "cells": 445,
+      "areaKm2": 218891.79660138098
+    },
+    {
+      "id": "moist-meadow",
+      "name": "습윤 초지",
+      "color": "#9ab98c",
+      "cells": 8690,
+      "areaKm2": 4869834.882817933
+    }
+  ],
+  "crossings": [
+    {
+      "id": "X0",
+      "reaches": [
+        18946,
+        18947
+      ],
+      "location": [
+        101.484375,
+        48.28125
+      ],
+      "lowerReach": 18946,
+      "upperReach": 18947,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 15719.679387163671,
+      "lengthM": 1000,
+      "additionalLoweringM": 0,
+      "originalLowerBedM": 2813.900253676614,
+      "upperBedM": 2994.7741651903693,
+      "maximumLowerWaterStageM": 3.4772032777360544,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    },
+    {
+      "id": "X1",
+      "reaches": [
+        20191,
+        20192
+      ],
+      "location": [
+        97.734375,
+        47.109375
+      ],
+      "lowerReach": 20191,
+      "upperReach": 20192,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 15831.519382120712,
+      "lengthM": 2404.4273112439614,
+      "additionalLoweringM": 0,
+      "originalLowerBedM": 2731.0899742179017,
+      "upperBedM": 2752.1263268684816,
+      "maximumLowerWaterStageM": 7.923049715900787,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    },
+    {
+      "id": "X2",
+      "reaches": [
+        24715,
+        25130
+      ],
+      "location": [
+        -28.125,
+        41.71875
+      ],
+      "lowerReach": 25130,
+      "upperReach": 24715,
+      "connection": "separate-no-confluence",
+      "medium": "natural-subsurface-passage",
+      "chainageM": 16338.233899207204,
+      "lengthM": 1000,
+      "additionalLoweringM": 6.698910853916914,
+      "originalLowerBedM": 97.93639332343125,
+      "upperBedM": 107.18273684936113,
+      "maximumLowerWaterStageM": 11.945254379846798,
+      "freeboardM": 1,
+      "minimumRockClearanceM": 3,
+      "authorialDecision": true
+    }
+  ],
+  "periods": [
+    {
+      "period": 1,
+      "underIceFlowReaches": 18188,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 115.17843627929688
+    },
+    {
+      "period": 2,
+      "underIceFlowReaches": 9789,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 116.19290924072266
+    },
+    {
+      "period": 3,
+      "underIceFlowReaches": 3079,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 117.88285827636719
+    },
+    {
+      "period": 4,
+      "underIceFlowReaches": 4071,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 120.21971130371094
+    },
+    {
+      "period": 5,
+      "underIceFlowReaches": 4297,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 122.62028503417969
+    },
+    {
+      "period": 6,
+      "underIceFlowReaches": 2905,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 124.5752182006836
+    },
+    {
+      "period": 7,
+      "underIceFlowReaches": 6371,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 125.88578033447266
+    },
+    {
+      "period": 8,
+      "underIceFlowReaches": 18264,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 126.52619934082031
+    },
+    {
+      "period": 9,
+      "underIceFlowReaches": 22286,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 126.7419204711914
+    },
+    {
+      "period": 10,
+      "underIceFlowReaches": 24507,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 126.89844512939453
+    },
+    {
+      "period": 11,
+      "underIceFlowReaches": 24922,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 127.11737823486328
+    },
+    {
+      "period": 12,
+      "underIceFlowReaches": 23192,
+      "maximumSnowLayerM": 2,
+      "maximumCompactedIceM": 127.4220199584961
+    }
+  ],
+  "maximumSnowIceFloat32MassDifferenceMm": 0.0034942626953125,
+  "maximumManningRelativeResidual": 1.2462587921387819e-15,
+  "provenance": {
+    "baseCommit": "00b24d0063a3d5a10cb0940c576d238875fd36c8",
+    "sourceSha256": {
+      "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+      "cover-boundary-model/output/manifest.json": "ded29c7e87538317fa6caf3521dedb71beedb8539df0545d9b24845da0b6abe6",
+      "cover-boundary-model/output/base.json.gz": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec",
+      "cover-boundary-model/output/case-reference.json.gz": "12d7eb4e70b8119c9a1a403ab7292f9dcb2a993cadbca936963d3ddd0643f25b",
+      "pond-network-model/output/manifest.json": "433a458a5a9a0fa39be4ea95d45ab0fea7c7e1f4bd8c14d20b10c172a1d772a8",
+      "pond-network-model/output/review.json.gz": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+      "seasonal-physical-model/output/manifest.json": "a5529fc4aff618143fe697485005cac5b327db9a7887c4a2f745ecd6a86b6c40",
+      "seasonal-physical-model/output/base.json.gz": "e1a8a7fa4161d2508f3bda0b6cb66c9c7359f2a0500c54ba6b360fcf2d88119a",
+      "channel-valley-model/output/manifest.json": "8f073be8b721525e47a9d02f380c183515c615b6a1ac6a64fed958d7166d495f",
+      "seasonal-physical-model/output/period-01.bin.gz": "d2e92d44a4e77d0ec948d8c19a08b906a21784eaab2daceb1c2c9b9702de7718",
+      "seasonal-physical-model/output/period-02.bin.gz": "18258ab0d35a93de7454fa5310a469b9744a204210464444b960d4399a866c72",
+      "seasonal-physical-model/output/period-03.bin.gz": "79c10ec5cd5136fda3ce1ad7a63639b6ea89ab78367ae1cd254e331172b9e4a7",
+      "seasonal-physical-model/output/period-04.bin.gz": "aefa360e90a77a26995e9ca26adc9f83bb10b595cb7b9e6b1395cada2d90972b",
+      "seasonal-physical-model/output/period-05.bin.gz": "9e9f433b23a770e92bd5e8dd1593f62872d05475d5a26bef9b660b05690d5339",
+      "seasonal-physical-model/output/period-06.bin.gz": "1ec3af19c1ee475ac20b29f8e16f0d0150fb3a56add6addb2045713f15ac410d",
+      "seasonal-physical-model/output/period-07.bin.gz": "12084a937d153631e72b6702fc9cc8ea0310efcfb35e6679685c98dea329569d",
+      "seasonal-physical-model/output/period-08.bin.gz": "018b2364d4a56c4927c0c7a354dfaffcd9dab0f08e3d02244e1d57520b10ccc4",
+      "seasonal-physical-model/output/period-09.bin.gz": "dc7e16e9e5c4c0c74e74ca16ee6ba882c886340a891c8fc0d5aafd4285bace1a",
+      "seasonal-physical-model/output/period-10.bin.gz": "64d3a79d25a196325200c43052baa00c73e0e882bf168b86fd5c5131a723ef4a",
+      "seasonal-physical-model/output/period-11.bin.gz": "2ed9d951f32350ecff831475f458e3572a245e45113ed391f8877553c3ac584f",
+      "seasonal-physical-model/output/period-12.bin.gz": "2702009fa50a3163be906b4c71a51f0c5c511266dc62bc887a092de05d6305c4"
+    },
+    "codeSha256": {
+      "core.js": "2c31009fffed017550167f03f380f7a6b7cd88b5bb99c119462d809f8579d5d9",
+      "build.cjs": "e33e7f512a804dad6cc0d19423c86e15caca3afb5e6a1bf325c22480e1951e60",
+      "decisions.json": "0a4e8ebed805ba2a608426fa50b8c6b3696543a1894b6f6f929e7b37e7d960dd"
+    }
+  },
+  "authority": {
+    "kind": "explicit-user-instruction",
+    "instruction": "확정되게 진행해봐.",
+    "scope": "Four requested natural-environment groups; authorial world-setting adoption."
+  },
+  "rules": {
+    "hydrology": "Adopt phase40 reference100-year-end storage and cumulative budgets, including all23022 reaches, as the fixed reference hydrological state. Original ocean and lake masks remain original substrate classifications; additional retained water is an overlay.",
+    "season": "Adopt twelve prescribed representative periods. Cyclic lookup is a world-calendar prescription, not a time-integrated coupled simulation.",
+    "routes": "Adopt phase41 centreline and valley geometry. Three non-junction crossings become explicit independent subsurface passages on the lower bed, preserving graph connections. X2 includes a locally inverted conduit bed; its discharge is prescribed as a natural pressure passage. Surface Manning profiles do not certify conduit pressure or head loss.",
+    "cover": "Assign every native cell one land-cover class. Original lakes and reference retained water first; authored arid-conflict flags override terrestrial forest; perennial snow becomes stationary icefield; grounded wetland evidence becomes wetland; unsupported wetness4 becomes moist meadow; flood-exposed forest becomes flood-tolerant woodland; remaining holds use explicit biome/temperature/rainfall rules.",
+    "boundaries": "Native-cell polygons are the canonical forest/wetland/water boundaries. Grid0.234375deg is the resolution of this edition; display noise is not adopted.",
+    "snow": "Preserve phase43 tenth-year SWE mass. The top min(SWE,500mm) is snow at250kg/m3; remaining mass is compacted ice at917kg/m3. All perennial icefields are prescribed stationary, velocity0; this is an authored static-state rule, not a glacier-flow solution.",
+    "ice": "Adopt phase43 reference120-step ice thickness. Retain60/120 differences as research uncertainty without leaving a choice of canonical values.",
+    "channel": "Prescribe phase43 seasonal discharge. With ice>=1cm, solve a covered trapezoidal Manning section at n=.045 with fixed open-water bottom width; include the ice underside in wetted perimeter and ice displacement in stage. Open-water n=.035. Q=0 retains the mean-flow pool, while the one all-year-dry reach has no water. These are quasi-steady prescribed sections, not unsteady backwater feedback to basin storage.",
+    "coupling": "A multi-scale prescribed reference world: basin budgets, channel normal-flow profiles and thermal boundary states are fixed contracts. Full terrain/vegetation/glacier/ice feedback is outside this edition's simulator, and is not described as verified physics.",
+    "precedence": "This explicit adopted edition supersedes research hold labels for the four world-definition groups only. Historical research files, uncertainties, original inputs, economic and political records stay unchanged. Future changes require a new version."
+  }
+}
