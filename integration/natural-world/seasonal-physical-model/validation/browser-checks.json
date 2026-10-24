@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "checks": [
+    "verified initial native selection matches AI query",
+    "all36 scenario-period river results match CLI hydraulics and120-step ice",
+    "eight point and annual JSON downloads agree with shared heat and snow calculations",
+    "perennial accumulation, original-lake snow potential and numerical ranges are explicit",
+    "invalid identifiers clear stale point, annual data and downloads",
+    "ocean selection retains unknown inland snow and ice",
+    "period navigation, shared links, reload and browser history retain the same candidate",
+    "map selection, zoom and drag use original cells",
+    "map, thermal notes and hydraulic cross-section fit1440/390/320px",
+    "corrupt derived ice/snow is rejected and retry recovers",
+    "missing original forcing cannot display fabricated zero flow or temperature",
+    "late period and annual responses cannot overwrite a newer selection",
+    "original atlas period and selection deep link and return navigation work",
+    "existing valley geometry and cover boundaries remain separately accessible"
+  ],
+  "downloads": 8,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}

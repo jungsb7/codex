@@ -1,0 +1,18 @@
+✔ Every original cell mask and fixed water footprint matches phase42/40 sources (206.409786ms)
+✔ All549888 reach-period Manning solutions invert discharge and roughness ranges are ordered (1293.7664ms)
+✔ All3226284 snow values reproduce tenth-year mass balance and density conversion (780.985633ms)
+✔ Sensible cooling, latent freezing, full ice cooling and equilibrium conserve enthalpy (1.146284ms)
+✔ Snow insulation and warm advection change freezing through the heat ledger (77.725171ms)
+✔ Independent JS reference matches native annual series and map floats across selected extremes (390.055098ms)
+✔ Every stored ice column is finite, bounded by its water mass, and reconciles published extent (134.731494ms)
+✔ Full-domain numerical refinement and heat residuals are published rather than hidden (0.516362ms)
+✔ All4875948 period point/reach AI queries preserve provenance, unknowns and candidate status (6651.641183ms)
+✔ Published input/code hashes and first-load budget are verified (84.375321ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10038.528009

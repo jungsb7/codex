@@ -1,0 +1,586 @@
+{
+  "schema": "seasonal-physical-summary/1",
+  "nativeExecution": {
+    "inputSha256": "121c5d6d9f4a5411b9b0e7976455b2d1342910176b6094c45f367e1747c1a057",
+    "sourceSha256": "1272f319ed0f2b814f57ae37520d251223be4625c69b29cab680531d631b4eef",
+    "binarySha256": "34256dc08ea2cb1b73fe5022c52c44fd5cb7dc6489241aabf6100e8a95f9d82a",
+    "outputs": {
+      "60": "5ea7e345fc377941511ba14388e7c08489be6d2b6e79981ae12d52754301a8e1",
+      "120": "f2b82236d472d4229fb96a8d4ffcc3417ad3180a24f04de961863eb10419d3fe"
+    }
+  },
+  "nativeCells": 268857,
+  "landCells": 268648,
+  "originalLakeCells": 209,
+  "thermalWaterCells": 18955,
+  "riverReaches": 45824,
+  "assumptions": {
+    "periodDays": 30.416666666666668,
+    "snowYears": 10,
+    "snowInitialSweMm": 0,
+    "snowfallThresholdC": 0,
+    "meltMmPerPositiveCPerPeriod": 45,
+    "snowDensityKgM3": 250,
+    "snowDensityRangeKgM3": [
+      100,
+      400
+    ],
+    "manningN": 0.035,
+    "manningRange": [
+      0.025,
+      0.05
+    ],
+    "bottomWidthDepthRatio": 8,
+    "sideSlope": 1.5,
+    "minimumEnergySlope": 0.00001,
+    "thermalYears": 10,
+    "thermalStepsPerPeriod": 120,
+    "maximumMixedDepthM": 2,
+    "originalLakeMixedDepthM": 2,
+    "airExchangeWm2K": 20,
+    "basalHeatWm2": 2,
+    "iceConductivityWmK": 2.2,
+    "snowConductivityWmK": 0.3,
+    "iceSnowRetentionRampM": 0.05,
+    "iceExtentThresholdM": 0.01,
+    "explicitRadiationWm2": 0,
+    "meaning": "Separate assumption-based open-water hydraulics, snow, and mixed-column enthalpy candidates. No feedback into phase40 water budgets or phase41 valley geometry.",
+    "actual": null,
+    "automaticAdoption": false
+  },
+  "scenarios": [
+    {
+      "id": "reference",
+      "name": "기준 열교환",
+      "periods": [
+        {
+          "period": 1,
+          "snowLandAreaKm2": 36501329.69713882,
+          "iceWaterAreaKm2": 4476158.692666164,
+          "iceWaterCells": 12629,
+          "iceReachLengthKm": 1043598.2762503882,
+          "iceReaches": 18188,
+          "coarseIceWaterAreaKm2": 4474941.566236518,
+          "coarseIceReachLengthKm": 1043786.9182894803
+        },
+        {
+          "period": 2,
+          "snowLandAreaKm2": 26777962.28227601,
+          "iceWaterAreaKm2": 4227885.8966868045,
+          "iceWaterCells": 12057,
+          "iceReachLengthKm": 708639.341147424,
+          "iceReaches": 9789,
+          "coarseIceWaterAreaKm2": 4223124.9900944345,
+          "coarseIceReachLengthKm": 708925.1776036065
+        },
+        {
+          "period": 3,
+          "snowLandAreaKm2": 11942912.537749698,
+          "iceWaterAreaKm2": 3938219.268808382,
+          "iceWaterCells": 11229,
+          "iceReachLengthKm": 346129.19165996934,
+          "iceReaches": 3079,
+          "coarseIceWaterAreaKm2": 3931954.565284247,
+          "coarseIceReachLengthKm": 346250.14329555305
+        },
+        {
+          "period": 4,
+          "snowLandAreaKm2": 12483663.923521265,
+          "iceWaterAreaKm2": 3440887.518400308,
+          "iceWaterCells": 9827,
+          "iceReachLengthKm": 429668.2597782288,
+          "iceReaches": 4071,
+          "coarseIceWaterAreaKm2": 3435657.324446701,
+          "coarseIceReachLengthKm": 429668.2597782288
+        },
+        {
+          "period": 5,
+          "snowLandAreaKm2": 13370627.102827558,
+          "iceWaterAreaKm2": 2940022.8285537134,
+          "iceWaterCells": 8452,
+          "iceReachLengthKm": 447239.1596983327,
+          "iceReaches": 4297,
+          "coarseIceWaterAreaKm2": 2918209.237524132,
+          "coarseIceReachLengthKm": 447239.1596983327
+        },
+        {
+          "period": 6,
+          "snowLandAreaKm2": 11648524.227965463,
+          "iceWaterAreaKm2": 2276993.7599082845,
+          "iceWaterCells": 6780,
+          "iceReachLengthKm": 352151.2477510353,
+          "iceReaches": 2905,
+          "coarseIceWaterAreaKm2": 2264569.935739511,
+          "coarseIceReachLengthKm": 352170.2324818055
+        },
+        {
+          "period": 7,
+          "snowLandAreaKm2": 16585441.749748548,
+          "iceWaterAreaKm2": 2089513.3792051473,
+          "iceWaterCells": 6427,
+          "iceReachLengthKm": 512178.0264226892,
+          "iceReaches": 6371,
+          "coarseIceWaterAreaKm2": 2083206.7542160107,
+          "coarseIceReachLengthKm": 512188.01504170557
+        },
+        {
+          "period": 8,
+          "snowLandAreaKm2": 30535724.382686105,
+          "iceWaterAreaKm2": 3791731.908342606,
+          "iceWaterCells": 10987,
+          "iceReachLengthKm": 1041260.8262403673,
+          "iceReaches": 18264,
+          "coarseIceWaterAreaKm2": 3789076.285793562,
+          "coarseIceReachLengthKm": 1041260.8262403673
+        },
+        {
+          "period": 9,
+          "snowLandAreaKm2": 35535276.826218136,
+          "iceWaterAreaKm2": 4361764.001059997,
+          "iceWaterCells": 12380,
+          "iceReachLengthKm": 1231212.5858707803,
+          "iceReaches": 22286,
+          "coarseIceWaterAreaKm2": 4361764.001059997,
+          "coarseIceReachLengthKm": 1231186.524559848
+        },
+        {
+          "period": 10,
+          "snowLandAreaKm2": 38991192.30534984,
+          "iceWaterAreaKm2": 4589494.229288539,
+          "iceWaterCells": 12903,
+          "iceReachLengthKm": 1358417.1659808937,
+          "iceReaches": 24507,
+          "coarseIceWaterAreaKm2": 4589084.077764597,
+          "coarseIceReachLengthKm": 1358417.1659808937
+        },
+        {
+          "period": 11,
+          "snowLandAreaKm2": 40312524.295454465,
+          "iceWaterAreaKm2": 4644962.644650082,
+          "iceWaterCells": 13021,
+          "iceReachLengthKm": 1376203.1033950816,
+          "iceReaches": 24922,
+          "coarseIceWaterAreaKm2": 4644586.46192479,
+          "coarseIceReachLengthKm": 1376203.1033950816
+        },
+        {
+          "period": 12,
+          "snowLandAreaKm2": 39578729.416089274,
+          "iceWaterAreaKm2": 4591294.24259899,
+          "iceWaterCells": 12895,
+          "iceReachLengthKm": 1277290.2656064727,
+          "iceReaches": 23192,
+          "coarseIceWaterAreaKm2": 4590886.309019079,
+          "coarseIceReachLengthKm": 1277322.270952181
+        }
+      ],
+      "maximumAnnualEnergyResidualJm2": 0.001210138201713562,
+      "maximumStepEnergyResidualJm2": 0.000012746750144287944,
+      "maximumYear10EnergyDriftJm2": 44839038.758618
+    },
+    {
+      "id": "bare-surface",
+      "name": "눈 단열 없음",
+      "periods": [
+        {
+          "period": 1,
+          "snowLandAreaKm2": 36501329.69713882,
+          "iceWaterAreaKm2": 4461868.894533231,
+          "iceWaterCells": 12599,
+          "iceReachLengthKm": 1169257.0434696376,
+          "iceReaches": 19859,
+          "coarseIceWaterAreaKm2": 4461050.809429377,
+          "coarseIceReachLengthKm": 1169419.1167485437
+        },
+        {
+          "period": 2,
+          "snowLandAreaKm2": 26777962.28227601,
+          "iceWaterAreaKm2": 4256454.486946439,
+          "iceWaterCells": 12121,
+          "iceReachLengthKm": 810108.5758589511,
+          "iceReaches": 11342,
+          "coarseIceWaterAreaKm2": 4254437.188757551,
+          "coarseIceReachLengthKm": 810517.8025874525
+        },
+        {
+          "period": 3,
+          "snowLandAreaKm2": 11942912.537749698,
+          "iceWaterAreaKm2": 4052890.164343745,
+          "iceWaterCells": 11473,
+          "iceReachLengthKm": 386003.8656317496,
+          "iceReaches": 3610,
+          "coarseIceWaterAreaKm2": 4050495.4340809877,
+          "coarseIceReachLengthKm": 385893.42136498657
+        },
+        {
+          "period": 4,
+          "snowLandAreaKm2": 12483663.923521265,
+          "iceWaterAreaKm2": 3758894.83854959,
+          "iceWaterCells": 10607,
+          "iceReachLengthKm": 432404.4157231019,
+          "iceReaches": 4120,
+          "coarseIceWaterAreaKm2": 3748490.716116387,
+          "coarseIceReachLengthKm": 432186.8135272991
+        },
+        {
+          "period": 5,
+          "snowLandAreaKm2": 13370627.102827558,
+          "iceWaterAreaKm2": 3371126.3804306467,
+          "iceWaterCells": 9547,
+          "iceReachLengthKm": 453513.71283130295,
+          "iceReaches": 4409,
+          "coarseIceWaterAreaKm2": 3362935.1170308557,
+          "coarseIceReachLengthKm": 453513.71283130295
+        },
+        {
+          "period": 6,
+          "snowLandAreaKm2": 11648524.227965463,
+          "iceWaterAreaKm2": 2835896.629082861,
+          "iceWaterCells": 8230,
+          "iceReachLengthKm": 396441.6910420626,
+          "iceReaches": 3390,
+          "coarseIceWaterAreaKm2": 2831256.906536916,
+          "coarseIceReachLengthKm": 396242.29271749634
+        },
+        {
+          "period": 7,
+          "snowLandAreaKm2": 16585441.749748548,
+          "iceWaterAreaKm2": 2615892.100133726,
+          "iceWaterCells": 7816,
+          "iceReachLengthKm": 578385.7131748549,
+          "iceReaches": 7350,
+          "coarseIceWaterAreaKm2": 2609280.1177291633,
+          "coarseIceReachLengthKm": 577485.8399439504
+        },
+        {
+          "period": 8,
+          "snowLandAreaKm2": 30535724.382686105,
+          "iceWaterAreaKm2": 3824425.2876367164,
+          "iceWaterCells": 11048,
+          "iceReachLengthKm": 1080476.6584773106,
+          "iceReaches": 18920,
+          "coarseIceWaterAreaKm2": 3821031.19068405,
+          "coarseIceReachLengthKm": 1080353.4331246798
+        },
+        {
+          "period": 9,
+          "snowLandAreaKm2": 35535276.826218136,
+          "iceWaterAreaKm2": 4364217.973086186,
+          "iceWaterCells": 12384,
+          "iceReachLengthKm": 1260074.2547902104,
+          "iceReaches": 22778,
+          "coarseIceWaterAreaKm2": 4364217.973086186,
+          "coarseIceReachLengthKm": 1260074.2547902104
+        },
+        {
+          "period": 10,
+          "snowLandAreaKm2": 38991192.30534984,
+          "iceWaterAreaKm2": 4593712.830459831,
+          "iceWaterCells": 12913,
+          "iceReachLengthKm": 1374886.161702264,
+          "iceReaches": 24887,
+          "coarseIceWaterAreaKm2": 4593712.830459831,
+          "coarseIceReachLengthKm": 1374886.161702264
+        },
+        {
+          "period": 11,
+          "snowLandAreaKm2": 40312524.295454465,
+          "iceWaterAreaKm2": 4648220.5185879655,
+          "iceWaterCells": 13029,
+          "iceReachLengthKm": 1395581.057674506,
+          "iceReaches": 25324,
+          "coarseIceWaterAreaKm2": 4648220.5185879655,
+          "coarseIceReachLengthKm": 1395581.057674506
+        },
+        {
+          "period": 12,
+          "snowLandAreaKm2": 39578729.416089274,
+          "iceWaterAreaKm2": 4595047.191994703,
+          "iceWaterCells": 12903,
+          "iceReachLengthKm": 1325460.7289458972,
+          "iceReaches": 23961,
+          "coarseIceWaterAreaKm2": 4595047.191994703,
+          "coarseIceReachLengthKm": 1325608.333883662
+        }
+      ],
+      "maximumAnnualEnergyResidualJm2": 0.001210138201713562,
+      "maximumStepEnergyResidualJm2": 0.000012746750144287944,
+      "maximumYear10EnergyDriftJm2": 11279501.972729981
+    },
+    {
+      "id": "warm-inflow",
+      "name": "유입 수온 하한 2°C",
+      "periods": [
+        {
+          "period": 1,
+          "snowLandAreaKm2": 36501329.69713882,
+          "iceWaterAreaKm2": 4476158.692666164,
+          "iceWaterCells": 12629,
+          "iceReachLengthKm": 731487.8053493139,
+          "iceReaches": 14176,
+          "coarseIceWaterAreaKm2": 4474941.566236518,
+          "coarseIceReachLengthKm": 732139.4555573361
+        },
+        {
+          "period": 2,
+          "snowLandAreaKm2": 26777962.28227601,
+          "iceWaterAreaKm2": 4227885.8966868045,
+          "iceWaterCells": 12057,
+          "iceReachLengthKm": 272040.0240680483,
+          "iceReaches": 3363,
+          "coarseIceWaterAreaKm2": 4223124.9900944345,
+          "coarseIceReachLengthKm": 272416.4210344064
+        },
+        {
+          "period": 3,
+          "snowLandAreaKm2": 11942912.537749698,
+          "iceWaterAreaKm2": 3938219.268808382,
+          "iceWaterCells": 11229,
+          "iceReachLengthKm": 263218.79504360125,
+          "iceReaches": 2063,
+          "coarseIceWaterAreaKm2": 3931954.565284247,
+          "coarseIceReachLengthKm": 263218.79504360125
+        },
+        {
+          "period": 4,
+          "snowLandAreaKm2": 12483663.923521265,
+          "iceWaterAreaKm2": 3440887.518400308,
+          "iceWaterCells": 9827,
+          "iceReachLengthKm": 400087.11412136804,
+          "iceReaches": 3504,
+          "coarseIceWaterAreaKm2": 3435657.324446701,
+          "coarseIceReachLengthKm": 399980.394936056
+        },
+        {
+          "period": 5,
+          "snowLandAreaKm2": 13370627.102827558,
+          "iceWaterAreaKm2": 2940022.8285537134,
+          "iceWaterCells": 8452,
+          "iceReachLengthKm": 411898.0460897938,
+          "iceReaches": 3664,
+          "coarseIceWaterAreaKm2": 2918209.237524132,
+          "coarseIceReachLengthKm": 411898.0460897938
+        },
+        {
+          "period": 6,
+          "snowLandAreaKm2": 11648524.227965463,
+          "iceWaterAreaKm2": 2276993.7599082845,
+          "iceWaterCells": 6780,
+          "iceReachLengthKm": 236023.47897816732,
+          "iceReaches": 1957,
+          "coarseIceWaterAreaKm2": 2264569.935739511,
+          "coarseIceReachLengthKm": 236259.04841702484
+        },
+        {
+          "period": 7,
+          "snowLandAreaKm2": 16585441.749748548,
+          "iceWaterAreaKm2": 2089513.3792051473,
+          "iceWaterCells": 6427,
+          "iceReachLengthKm": 239833.26615555992,
+          "iceReaches": 2754,
+          "coarseIceWaterAreaKm2": 2083206.7542160107,
+          "coarseIceReachLengthKm": 239763.8197626191
+        },
+        {
+          "period": 8,
+          "snowLandAreaKm2": 30535724.382686105,
+          "iceWaterAreaKm2": 3791731.908342606,
+          "iceWaterCells": 10987,
+          "iceReachLengthKm": 826045.3513691352,
+          "iceReaches": 14694,
+          "coarseIceWaterAreaKm2": 3789076.285793562,
+          "coarseIceReachLengthKm": 825991.4207544645
+        },
+        {
+          "period": 9,
+          "snowLandAreaKm2": 35535276.826218136,
+          "iceWaterAreaKm2": 4361764.001059997,
+          "iceWaterCells": 12380,
+          "iceReachLengthKm": 1102365.7358293026,
+          "iceReaches": 19619,
+          "coarseIceWaterAreaKm2": 4361764.001059997,
+          "coarseIceReachLengthKm": 1102365.7358293026
+        },
+        {
+          "period": 10,
+          "snowLandAreaKm2": 38991192.30534984,
+          "iceWaterAreaKm2": 4589494.229288539,
+          "iceWaterCells": 12903,
+          "iceReachLengthKm": 1255358.6792736186,
+          "iceReaches": 22132,
+          "coarseIceWaterAreaKm2": 4589084.077764597,
+          "coarseIceReachLengthKm": 1255358.6792736186
+        },
+        {
+          "period": 11,
+          "snowLandAreaKm2": 40312524.295454465,
+          "iceWaterAreaKm2": 4644962.644650082,
+          "iceWaterCells": 13021,
+          "iceReachLengthKm": 1284020.6390070005,
+          "iceReaches": 22818,
+          "coarseIceWaterAreaKm2": 4644586.46192479,
+          "coarseIceReachLengthKm": 1284020.6390070005
+        },
+        {
+          "period": 12,
+          "snowLandAreaKm2": 39578729.416089274,
+          "iceWaterAreaKm2": 4591294.24259899,
+          "iceWaterCells": 12895,
+          "iceReachLengthKm": 1148083.235922996,
+          "iceReaches": 21113,
+          "coarseIceWaterAreaKm2": 4590886.309019079,
+          "coarseIceReachLengthKm": 1148083.235922996
+        }
+      ],
+      "maximumAnnualEnergyResidualJm2": 0.001210138201713562,
+      "maximumStepEnergyResidualJm2": 0.000012746750144287944,
+      "maximumYear10EnergyDriftJm2": 44839038.758618
+    }
+  ],
+  "refinement": {
+    "coarseSteps": 60,
+    "fineSteps": 120,
+    "maximumIceDifferenceM": 0.26902303491711727,
+    "maximumRelativeIceDifferenceAbove1cm": 1,
+    "thresholdChangedCellPeriods": 414,
+    "thresholdChangedReachPeriods": 76,
+    "waterAreaDifferenceKm2": [
+      1217.1264296453446,
+      818.0851038536057,
+      1217.1264296453446,
+      4760.906592370011,
+      2017.2981888884678,
+      4760.906592370011,
+      6264.703524135053,
+      2394.730262757279,
+      6264.703524135053,
+      5230.193953607231,
+      10404.122433203273,
+      5230.193953607231,
+      21813.591029581614,
+      8191.2633997909725,
+      21813.591029581614,
+      12423.824168773368,
+      4639.722545945086,
+      12423.824168773368,
+      6306.624989136588,
+      6611.982404562645,
+      6306.624989136588,
+      2655.6225490439683,
+      3394.0969526665285,
+      2655.6225490439683,
+      0,
+      0,
+      0,
+      410.1515239421278,
+      0,
+      410.1515239421278,
+      376.18272529169917,
+      0,
+      376.18272529169917,
+      407.93357991054654,
+      0,
+      407.93357991054654
+    ],
+    "riverLengthDifferenceKm": [
+      188.6420390920248,
+      162.07327890605666,
+      651.6502080222126,
+      285.8364561825292,
+      409.2267285013804,
+      376.3969663581229,
+      120.95163558371132,
+      110.44426676305011,
+      0,
+      0,
+      217.602195802785,
+      106.71918531204574,
+      0,
+      0,
+      0,
+      18.984730770171154,
+      199.398324566253,
+      235.56943885752116,
+      9.98861901636701,
+      899.8732309044572,
+      69.44639294082299,
+      0,
+      123.22535263071768,
+      53.93061467073858,
+      26.061310932273045,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      32.00534570822492,
+      147.604937764816,
+      0
+    ],
+    "maximumWaterAreaDifferenceKm2": 21813.591029581614,
+    "maximumRiverLengthDifferenceKm": 899.8732309044572,
+    "meaning": "60/120-step numerical comparison, not physical validation. Threshold crossings and local differences remain published."
+  },
+  "presets": [
+    {
+      "type": "cell",
+      "id": 271529,
+      "label": "장기 적설 최대 후보"
+    },
+    {
+      "type": "cell",
+      "id": 343445,
+      "label": "기존 호수 열교환"
+    },
+    {
+      "type": "reach",
+      "id": 0,
+      "label": "계절 결빙 하천"
+    },
+    {
+      "type": "reach",
+      "id": 2269,
+      "label": "큰 유량 하천"
+    }
+  ],
+  "servedSteps": 120,
+  "minimumSlopeAssumedReaches": 138,
+  "perennialAccumulationCells": 4852,
+  "maximumSnowDepthM": 469.3839587402344,
+  "maximumSnowMassResidualMm": 0,
+  "provenance": {
+    "baseCommit": "6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1",
+    "worldHash": "46d7693258b0b14a6c6327937114d17c68a0399811731ca7689522a51178bdf7",
+    "geometryHash": "a16957a05558aed09a44ff1d23f41d02eab548af185fef19739aa96573e3e5a8",
+    "sourceSha256": {
+      "seasonal-loading/output/manifest.json": "9ea5e9c6afed208ae235c48239d8980ae293f13d15d1903bd652ceabcfa063f2",
+      "unified-atlas/output/atlas.json.gz": "db50a5583a615e3430ac8ab3ee5f45342f563860908b037327439034ae086fe4",
+      "seasonal-loading/output/water-metadata-7911b64d2f2f.gz": "7911b64d2f2fe7941193afbba7f62cd97718fcb451fe1450a3c89d8492b62f75",
+      "seasonal-loading/output/period-01-e6a9d3db8dc7.gz": "e6a9d3db8dc76c0cc983aa94ba57f1b6a30d2b5e915c904ed62fef4ca1921e95",
+      "seasonal-loading/output/period-02-6d57cedf8cf4.gz": "6d57cedf8cf4c90704751afdba8446e07f6801c522b4bc1677095272e248ee95",
+      "seasonal-loading/output/period-03-403f222cdde5.gz": "403f222cdde5f8f496f8f0f9d88b38adbbd41a90e50794dfde2c4c58317465df",
+      "seasonal-loading/output/period-04-2343292de859.gz": "2343292de85989e48b65f4b78b9c5a4efe3e2ab662082d26840ca35196c00099",
+      "seasonal-loading/output/period-05-02bf55a96d60.gz": "02bf55a96d6021b202c90b64b3e1d0e1165ccebb79015f0a37db065576c9af60",
+      "seasonal-loading/output/period-06-b99463e843e6.gz": "b99463e843e6162fd20a9ec9c3913cc172459b8ff4dd60c77c34df8aa1ff9e60",
+      "seasonal-loading/output/period-07-6b0e817495a9.gz": "6b0e817495a96989e375a3cace3a443924775504bf4d0a53dc1c64e655e79f28",
+      "seasonal-loading/output/period-08-d9ee83739a81.gz": "d9ee83739a81afee0e3502c79ef6f66ce404925bd5e1abd72d2abd6746d150a8",
+      "seasonal-loading/output/period-09-8666a5b27696.gz": "8666a5b27696f7552af1b1a6bebb9127eef2941978c182cabb31e4bbd681d0dc",
+      "seasonal-loading/output/period-10-02d36bdfc4ef.gz": "02d36bdfc4ef8b9f204165eb0cd97aad9a61321abd24de7fc095df86cc8d7796",
+      "seasonal-loading/output/period-11-c937cf997c6c.gz": "c937cf997c6cd5418a23811f5fe9fb97d5dd98710e32dd662c3b3bba57cffc8e",
+      "seasonal-loading/output/period-12-4e95f0b570c7.gz": "4e95f0b570c7f958d12c8a27bc2a81f7f50b119336e825db937eecdac873ea75",
+      "cover-boundary-model/output/manifest.json": "ded29c7e87538317fa6caf3521dedb71beedb8539df0545d9b24845da0b6abe6",
+      "cover-boundary-model/output/base.json.gz": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec",
+      "cover-boundary-model/output/case-reference.json.gz": "12d7eb4e70b8119c9a1a403ab7292f9dcb2a993cadbca936963d3ddd0643f25b"
+    },
+    "codeSha256": {
+      "core.js": "bfdd75eb646c18e5eec48f7b29bcc7a3f4054604ffd2e50f05be26b7f5e6ed13",
+      "build.cjs": "4ffdb0c5100c469533b92e1f7e60f60b1a5185f234f2482134ed7391d482fb3d",
+      "thermal.cpp": "1272f319ed0f2b814f57ae37520d251223be4625c69b29cab680531d631b4eef"
+    }
+  },
+  "actual": null,
+  "automaticAdoption": false
+}

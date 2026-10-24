@@ -1,6 +1,18 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속42 숲·습지·침수 경계 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속43 강폭·적설·결빙 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속43 강폭·적설·결빙 후보 구현·검증 완료 — 2026-10-25 Asia/Seoul
+
+[방법](../integration/natural-world/seasonal-physical-model/README.md) · [결과](../integration/natural-world/seasonal-physical-model/REPORT.md) · [화면](../integration/natural-world/seasonal-physical-model/index.html). 기준main6c63bfb3c64eb3191cb5c3b67c554ee5eafc53e1.
+
+- 원본268,857격자·45,824물길·12기간의강폭/적설/결빙후보와지도·AI조회구현. Manning개수로폭, 눈물량/밀도별깊이, 현열·잠열·단열·바닥열·하천이류를계산한다.
+- 원본호수209+기존기준최종침수18,746=18,955수면격자와45,824물길을3열교환가정으로계산한다. 수면열교환층은최대2m, 기존호수는2m가정이다. 후속40물수지/41계곡형상에는피드백하지않았다.
+- 120단계/기간결과를제공한다.60/120비교의전체결빙면적·하천길이는모든조건/기간1%이내. 지점두께최대차이0.269023m는숨기지않고조회범위로제공한다.1cm분류가다른414격자-기간·76물길-기간은황색표시.
+- 10년반복의눈축적이남는4,852격자와최대469.384m고정밀도환산값은빙하이동/압밀생략의축적기둥이다. 실제평형눈/빙하확정아님. 해당지점에연간물환산축적과빙하동역학미포함표시.
+- 새10+기존생태9=19모델검사, 새14+원본지도12=26브라우저검사. AI4,875,948조회·8JSON다운로드검증. 원본/후보/세계최종채택구분,actual:null,automaticAdoption:false.
+
+원래4항목은각각가정기반계산·화면·AI조회결과를갖췄다. 원본세계/모델결과/세계최종채택을구분한다. 기존사용자게시·배포승인에따라진행하며, [배포 기록](../integration/natural-world/seasonal-physical-model/validation/deployment.json)은 실제완료후기록한다.
 
 ## 후속42 숲·습지·침수 경계 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 
