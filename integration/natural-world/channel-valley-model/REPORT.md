@@ -28,3 +28,5 @@
 기존100년 물수분 계산의 토양·저장·흐름이나 해양/호수 마스크를 덮어쓰지 않았다. 새 절개형상을 그 계산에 대입하면 저장/연결 조건이 달라질 수 있으므로 자동결합하지 않는다. 단면의 폭은 실제강폭이 아니며, 단면적분의 합을 전세계침식량으로 쓰지 않는다. 숲·습지/침수경계·눈두께·결빙은 별도다.
 
 배포상태는 [deployment.json](validation/deployment.json)에 기록한다.
+
+[PR #21](https://github.com/jungsb7/codex/pull/21) 병합 `e76c4fce5f7f1657bb2bd40dc1454a0d3928103f`. [Pages40120099382](https://github.com/jungsb7/codex/actions/runs/40120099382)의 build/deploy/report 세 작업 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.

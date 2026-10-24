@@ -1,5 +1,5 @@
 {
-  "status": "validated-ready-for-deployment",
+  "status": "deployed",
   "baseCommit": "2016f33e1ee30a62d936aab65ffa7463c66c2d55",
   "site": "https://jungsb7.github.io/codex/integration/natural-world/channel-valley-model/",
   "newModelTests": 9,
@@ -9,5 +9,35 @@
   "aiReachQueries": 45824,
   "jsonDownloads": 8,
   "actual": null,
-  "automaticAdoption": false
+  "automaticAdoption": false,
+  "featureCommit": "5cb75e94ac7c2e2119c91758ba61683767c4382a",
+  "mergeCommit": "e76c4fce5f7f1657bb2bd40dc1454a0d3928103f",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/21",
+  "pagesRun": {
+    "id": 40120099382,
+    "url": "https://github.com/jungsb7/codex/actions/runs/40120099382",
+    "headSha": "e76c4fce5f7f1657bb2bd40dc1454a0d3928103f",
+    "jobs": [
+      {
+        "name": "build",
+        "id": 120949584377,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40120099382/job/120949584377"
+      },
+      {
+        "name": "report-build-status",
+        "id": 120949800967,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40120099382/job/120949800967"
+      },
+      {
+        "name": "deploy",
+        "id": 120949801092,
+        "conclusion": "success",
+        "url": "https://github.com/jungsb7/codex/actions/runs/40120099382/job/120949801092"
+      }
+    ]
+  },
+  "directPublicHttpChecked": false,
+  "directPublicHttpReason": "The environment network allowlist excludes jungsb7.github.io. Local served browser checks and GitHub Pages jobs were verified."
 }

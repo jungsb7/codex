@@ -11,3 +11,5 @@
 4. 원본보존·입력감사·이미통과한계산을목적없이반복하지않는다. 다음사용자요청의실제결과물을구현하고검증한다.
 
 actual:null,automaticAdoption:false 유지. 기존공개GitHub/Pages배포승인유효,같은승인재질문금지. 원본세계/경제/기후/지형/수계/마스크/구지도/아카이브,108보류14중단연구보존.
+
+[PR #21](https://github.com/jungsb7/codex/pull/21) 병합 `e76c4fce5f7f1657bb2bd40dc1454a0d3928103f`. [Pages40120099382](https://github.com/jungsb7/codex/actions/runs/40120099382)의 build/deploy/report 세 작업 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.

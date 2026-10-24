@@ -2,7 +2,7 @@
 
 큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속41 세부 물길·계곡 단면 후보와 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
 
-## 후속41 세부 물길·계곡 단면 후보 — 2026-10-25 Asia/Seoul
+## 후속41 세부 물길·계곡 단면 후보 구현·배포 완료 — 2026-10-25 Asia/Seoul
 
 [방법](../integration/natural-world/channel-valley-model/README.md) · [결과](../integration/natural-world/channel-valley-model/REPORT.md) · [화면](../integration/natural-world/channel-valley-model/index.html). 기준main2016f33e1ee30a62d936aab65ffa7463c66c2d55.
 
@@ -14,6 +14,8 @@
 - 이전23,022구간100년·미처리0은 그대로보존했다. 새계곡형상을 반영한 물수분 재계산은 하지않았고, 집수권결과는 reference-only 링크다. actual:null,automaticAdoption:false.
 
 배포는 [기록](../integration/natural-world/channel-valley-model/validation/deployment.json) 확인. 원본세계/경제/구지도/수계/마스크/아카이브와 이전후보·연구기록은 유지한다.
+
+[PR #21](https://github.com/jungsb7/codex/pull/21) 병합 `e76c4fce5f7f1657bb2bd40dc1454a0d3928103f`. [Pages40120099382](https://github.com/jungsb7/codex/actions/runs/40120099382)의 build/deploy/report 세 작업 모두 성공. 공개 URL 직접 HTTP 응답은 환경 제한으로 미확인. 최종 인계 문서 커밋은 기능 병합보다 최신일 수 있다.
 
 ## 후속40 전체23,022구간 후보 계산·배포 완료 — 2026-10-25 Asia/Seoul
 
