@@ -14,3 +14,5 @@
 natural-canon-v1의 기준 채택,23,022구간100년 장부 미처리0은 유지한다. 이번 기간별 계산을 포함해도 allRequestedDetailImplemented=false다. 이름·표시만 바꾸어 완료 처리하지 않는다. 원본·경제·구지도·연구·아카이브 보존과 공개GitHub/Pages승인은 계속 유효하며 동일 승인 재질문은 하지 않는다.
 
 후속46 게시와 최종Pages결과는 배포 기록·PR본문을 확인한다.
+
+[PR #26](https://github.com/jungsb7/codex/pull/26) 병합 `8a70de2c839cb8bf392f1a74ba4d9ff3767e1f8c`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다.

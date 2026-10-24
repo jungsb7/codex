@@ -1,7 +1,7 @@
 {
   "phase": 46,
   "baseCommit": "5cc0cf8f26559eea6847b0922bb164ffeb5786e4",
-  "status": "validated-awaiting-publication",
+  "status": "published",
   "scope": "Model year101 twelve-period native-grid inundation, duration, water ledgers and atlas/AI queries",
   "tests": {
     "model": 8,
@@ -22,5 +22,15 @@
   "outputBytes": 6245399,
   "authorization": "Standing public GitHub/Pages publication authorization",
   "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
-  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion.",
+  "featureCommit": "168822113a9c765b710351cbca8425707cca949f",
+  "mergeCommit": "8a70de2c839cb8bf392f1a74ba4d9ff3767e1f8c",
+  "featureTree": "12c3501e0bd42b548c7c344e511784d19cfe636c",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/26",
+  "firstPagesRun": 40133069341,
+  "preservation": {
+    "unchangedOriginalFiles": 1629,
+    "changedUiAndHandoffFiles": 10,
+    "canonicalNumericDataAndModelCode": "byte-identical"
+  }
 }

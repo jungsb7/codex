@@ -25,3 +25,6 @@ JSON·GeoJSON을 제공한다. AI조회는 seasonal-inundation/query.cjs.
 아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0 main병합금지.
 공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
 최종커밋과Pages build·deploy·report결과는후속46배포기록/PR본문확인.
+
+PR#26 https://github.com/jungsb7/codex/pull/26 병합8a70de2c839cb8bf392f1a74ba4d9ff3767e1f8c.
+최종커밋/Pages결과는PR본문참조.
