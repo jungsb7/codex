@@ -1,0 +1,28 @@
+✔ Legacy kernel matches existing independent cellStep through wet/dry and freeze/thaw cycles (8.421478ms)
+✔ Northern one-step dry year reproduces original four stores and all losses (0.783021ms)
+✔ Both models conserve independent four-store water balance over wet/dry 60/120 steps (6.872283ms)
+✔ Northern sensitivity preserves separate stores and changes water release (1.680342ms)
+✔ Native kernel matches JavaScript across source models/scenarios and twelve phases (22.214306ms)
+✔ Native kernel rejects malformed arrays and delivery indices (0.732541ms)
+✔ All 946 original sources are unique, finite, hash-compatible and partition 20,065 reaches (34.726445ms)
+✔ Connected components include every modelled face and original upstream/downstream dependency (3.473448ms)
+✔ Only three incompatible native components are held; lower reference crests are not blanket excluded (1.317918ms)
+✔ Held receivers are bounded contacts, never ocean outlets or hidden external sinks (232.954873ms)
+✔ Northern four initial stores and PET remain separate and finite (172.630666ms)
+✔ All cases classify every prepared reach and preserve actual=null (0.641908ms)
+✔ Independent local and whole-component mass balances include northern travel and terminal excess (7.836636ms)
+✔ Completed horizons have no domain stop; stopped components have no future forcing or annual rows (803.495007ms)
+✔ Every internal face appears once and transfers reconcile with ocean totals (24.379832ms)
+✔ Shared AI query covers all 2,838 case/boundary combinations without invented held results (222.513251ms)
+✔ Refinement result is computed per component, not hidden by global cancellation (0.428779ms)
+✔ Result provenance pins all executed code and shared forcing (4.648778ms)
+✔ Native and JavaScript full network paths agree on northern and legacy examples (83.759343ms)
+✔ Additional 120/240 checks preserve sensitive stop times and hash the independent history (2.308145ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2668.595845

@@ -1,0 +1,3977 @@
+{
+  "passed": 194,
+  "needsRefinement": [
+    {
+      "component": "D124981",
+      "coarseYears": 14.604166666666668,
+      "fineYears": 14.597222222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.006944444444444642,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 15,
+        "phase": 8,
+        "substep": 15,
+        "elapsedYears": 14.604166666666668,
+        "lowerTimeYears": 14.602777777777778,
+        "upperTimeYears": 14.604166666666668,
+        "boundaries": [
+          "D124981"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 15,
+        "phase": 8,
+        "substep": 20,
+        "elapsedYears": 14.597222222222223,
+        "lowerTimeYears": 14.596527777777778,
+        "upperTimeYears": 14.597222222222223,
+        "boundaries": [
+          "D124981"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000213623046875
+    },
+    {
+      "component": "D127956",
+      "coarseYears": 11.262500000000001,
+      "fineYears": 10.354861111111111,
+      "sameStop": true,
+      "timeDifferenceYears": 0.90763888888889,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 12,
+        "phase": 4,
+        "substep": 9,
+        "elapsedYears": 11.262500000000001,
+        "lowerTimeYears": 11.261111111111111,
+        "upperTimeYears": 11.262500000000001,
+        "boundaries": [
+          "D127956"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 11,
+        "phase": 5,
+        "substep": 31,
+        "elapsedYears": 10.354861111111111,
+        "lowerTimeYears": 10.354166666666668,
+        "upperTimeYears": 10.354861111111111,
+        "boundaries": [
+          "D127956"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00006306171417236328
+    },
+    {
+      "component": "D169346",
+      "coarseYears": 37.28472222222222,
+      "fineYears": 37.27013888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.01458333333333428,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 38,
+        "phase": 4,
+        "substep": 25,
+        "elapsedYears": 37.28472222222222,
+        "lowerTimeYears": 37.28333333333333,
+        "upperTimeYears": 37.28472222222222,
+        "boundaries": [
+          "D169346"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 38,
+        "phase": 4,
+        "substep": 29,
+        "elapsedYears": 37.27013888888889,
+        "lowerTimeYears": 37.269444444444446,
+        "upperTimeYears": 37.27013888888889,
+        "boundaries": [
+          "D169346"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0004673004150390625
+    },
+    {
+      "component": "D177045",
+      "coarseYears": 70.26527777777778,
+      "fineYears": 69.27291666666667,
+      "sameStop": true,
+      "timeDifferenceYears": 0.9923611111111086,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 71,
+        "phase": 4,
+        "substep": 11,
+        "elapsedYears": 70.26527777777778,
+        "lowerTimeYears": 70.26388888888889,
+        "upperTimeYears": 70.26527777777778,
+        "boundaries": [
+          "D177045"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 70,
+        "phase": 4,
+        "substep": 33,
+        "elapsedYears": 69.27291666666667,
+        "lowerTimeYears": 69.27222222222223,
+        "upperTimeYears": 69.27291666666667,
+        "boundaries": [
+          "D177045"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0006999969482421875
+    },
+    {
+      "component": "D228351",
+      "coarseYears": 9.28888888888889,
+      "fineYears": 9.24375,
+      "sameStop": true,
+      "timeDifferenceYears": 0.045138888888889284,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 10,
+        "phase": 4,
+        "substep": 28,
+        "elapsedYears": 9.28888888888889,
+        "lowerTimeYears": 9.2875,
+        "upperTimeYears": 9.28888888888889,
+        "boundaries": [
+          "D240629"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 10,
+        "phase": 3,
+        "substep": 111,
+        "elapsedYears": 9.24375,
+        "lowerTimeYears": 9.243055555555555,
+        "upperTimeYears": 9.24375,
+        "boundaries": [
+          "D240629"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000213623046875
+    },
+    {
+      "component": "D231441",
+      "coarseYears": 66.15833333333333,
+      "fineYears": 66.09722222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0611111111111029,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 67,
+        "phase": 2,
+        "substep": 54,
+        "elapsedYears": 66.15833333333333,
+        "lowerTimeYears": 66.15694444444445,
+        "upperTimeYears": 66.15833333333333,
+        "boundaries": [
+          "D242195"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 67,
+        "phase": 2,
+        "substep": 20,
+        "elapsedYears": 66.09722222222223,
+        "lowerTimeYears": 66.09652777777778,
+        "upperTimeYears": 66.09722222222223,
+        "boundaries": [
+          "D242195"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.016998291015625
+    },
+    {
+      "component": "D295508",
+      "coarseYears": 2.091666666666667,
+      "fineYears": 1.0972222222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.9944444444444445,
+      "oceanRelativeDifference": 1.5752128276364057,
+      "coarseStop": {
+        "year": 3,
+        "phase": 2,
+        "substep": 6,
+        "elapsedYears": 2.091666666666667,
+        "lowerTimeYears": 2.0902777777777777,
+        "upperTimeYears": 2.091666666666667,
+        "boundaries": [
+          "D300113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 20,
+        "elapsedYears": 1.0972222222222223,
+        "lowerTimeYears": 1.0965277777777778,
+        "upperTimeYears": 1.0972222222222223,
+        "boundaries": [
+          "D300113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000091552734375
+    },
+    {
+      "component": "D306541",
+      "coarseYears": 73.17222222222223,
+      "fineYears": 73.16388888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.008333333333339965,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 74,
+        "phase": 3,
+        "substep": 4,
+        "elapsedYears": 73.17222222222223,
+        "lowerTimeYears": 73.17083333333333,
+        "upperTimeYears": 73.17222222222223,
+        "boundaries": [
+          "D306541"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 74,
+        "phase": 2,
+        "substep": 116,
+        "elapsedYears": 73.16388888888889,
+        "lowerTimeYears": 73.16319444444444,
+        "upperTimeYears": 73.16388888888889,
+        "boundaries": [
+          "D306541"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0047607421875
+    },
+    {
+      "component": "D311158",
+      "coarseYears": 25.56527777777778,
+      "fineYears": 25.561805555555555,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0034722222222249854,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 26,
+        "phase": 7,
+        "substep": 47,
+        "elapsedYears": 25.56527777777778,
+        "lowerTimeYears": 25.56388888888889,
+        "upperTimeYears": 25.56527777777778,
+        "boundaries": [
+          "D311158"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 26,
+        "phase": 7,
+        "substep": 89,
+        "elapsedYears": 25.561805555555555,
+        "lowerTimeYears": 25.561111111111114,
+        "upperTimeYears": 25.561805555555555,
+        "boundaries": [
+          "D311158"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000152587890625
+    },
+    {
+      "component": "D312883",
+      "coarseYears": 23.220833333333335,
+      "fineYears": 23.225,
+      "sameStop": true,
+      "timeDifferenceYears": 0.00416666666666643,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 24,
+        "phase": 3,
+        "substep": 39,
+        "elapsedYears": 23.220833333333335,
+        "lowerTimeYears": 23.219444444444445,
+        "upperTimeYears": 23.220833333333335,
+        "boundaries": [
+          "D312883"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 24,
+        "phase": 3,
+        "substep": 84,
+        "elapsedYears": 23.225,
+        "lowerTimeYears": 23.224305555555556,
+        "upperTimeYears": 23.225,
+        "boundaries": [
+          "D312883"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.02392578125
+    }
+  ],
+  "checks": [
+    {
+      "component": "D118969",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00004795050997914113,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00453948974609375
+    },
+    {
+      "component": "D120385",
+      "coarseYears": 0.25416666666666665,
+      "fineYears": 0.2534722222222222,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444442,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 1,
+        "phase": 4,
+        "substep": 3,
+        "elapsedYears": 0.25416666666666665,
+        "lowerTimeYears": 0.25277777777777777,
+        "upperTimeYears": 0.25416666666666665,
+        "boundaries": [
+          "D146478"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 4,
+        "substep": 5,
+        "elapsedYears": 0.2534722222222222,
+        "lowerTimeYears": 0.25277777777777777,
+        "upperTimeYears": 0.2534722222222222,
+        "boundaries": [
+          "D146478"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000011444091796875
+    },
+    {
+      "component": "D121929",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.001739501953125
+    },
+    {
+      "component": "D123341",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.002105712890625
+    },
+    {
+      "component": "D123492",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0010986328125
+    },
+    {
+      "component": "D124869",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.005523681640625
+    },
+    {
+      "component": "D124981",
+      "coarseYears": 14.604166666666668,
+      "fineYears": 14.597222222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.006944444444444642,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 15,
+        "phase": 8,
+        "substep": 15,
+        "elapsedYears": 14.604166666666668,
+        "lowerTimeYears": 14.602777777777778,
+        "upperTimeYears": 14.604166666666668,
+        "boundaries": [
+          "D124981"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 15,
+        "phase": 8,
+        "substep": 20,
+        "elapsedYears": 14.597222222222223,
+        "lowerTimeYears": 14.596527777777778,
+        "upperTimeYears": 14.597222222222223,
+        "boundaries": [
+          "D124981"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000213623046875
+    },
+    {
+      "component": "D125117",
+      "coarseYears": 0.17222222222222222,
+      "fineYears": 0.17152777777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444442,
+      "oceanRelativeDifference": 0.04199228666107916,
+      "coarseStop": {
+        "year": 1,
+        "phase": 3,
+        "substep": 4,
+        "elapsedYears": 0.17222222222222222,
+        "lowerTimeYears": 0.17083333333333334,
+        "upperTimeYears": 0.17222222222222222,
+        "boundaries": [
+          "D154345"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 3,
+        "substep": 7,
+        "elapsedYears": 0.17152777777777778,
+        "lowerTimeYears": 0.17083333333333334,
+        "upperTimeYears": 0.17152777777777778,
+        "boundaries": [
+          "D154345"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00146484375
+    },
+    {
+      "component": "D125132",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0023040771484375
+    },
+    {
+      "component": "D126609",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.005123138427734375
+    },
+    {
+      "component": "D127925",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0125732421875
+    },
+    {
+      "component": "D127956",
+      "coarseYears": 11.262500000000001,
+      "fineYears": 10.354861111111111,
+      "sameStop": true,
+      "timeDifferenceYears": 0.90763888888889,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 12,
+        "phase": 4,
+        "substep": 9,
+        "elapsedYears": 11.262500000000001,
+        "lowerTimeYears": 11.261111111111111,
+        "upperTimeYears": 11.262500000000001,
+        "boundaries": [
+          "D127956"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 11,
+        "phase": 5,
+        "substep": 31,
+        "elapsedYears": 10.354861111111111,
+        "lowerTimeYears": 10.354166666666668,
+        "upperTimeYears": 10.354861111111111,
+        "boundaries": [
+          "D127956"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00006306171417236328
+    },
+    {
+      "component": "D128117",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.003437042236328125
+    },
+    {
+      "component": "D128178",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0107421875
+    },
+    {
+      "component": "D128197",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.001617431640625
+    },
+    {
+      "component": "D129669",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0055999755859375
+    },
+    {
+      "component": "D131362",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00002790175860165142,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.010362625122070312
+    },
+    {
+      "component": "D132512",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0012359619140625
+    },
+    {
+      "component": "D132521",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0016269683837890625
+    },
+    {
+      "component": "D133204",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000024865617415102697,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0054931640625
+    },
+    {
+      "component": "D134754",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00002031310172170536,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0066242218017578125
+    },
+    {
+      "component": "D135562",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00006961822509765625
+    },
+    {
+      "component": "D138644",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00223541259765625
+    },
+    {
+      "component": "D139338",
+      "coarseYears": 5.173611111111112,
+      "fineYears": 5.1722222222222225,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888889106,
+      "oceanRelativeDifference": 0.0022766417314549862,
+      "coarseStop": {
+        "year": 6,
+        "phase": 3,
+        "substep": 5,
+        "elapsedYears": 5.173611111111112,
+        "lowerTimeYears": 5.1722222222222225,
+        "upperTimeYears": 5.173611111111112,
+        "boundaries": [
+          "D206988"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 6,
+        "phase": 3,
+        "substep": 8,
+        "elapsedYears": 5.1722222222222225,
+        "lowerTimeYears": 5.171527777777778,
+        "upperTimeYears": 5.1722222222222225,
+        "boundaries": [
+          "D206988"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00726318359375
+    },
+    {
+      "component": "D145358",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0013312210887446948,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0173797607421875
+    },
+    {
+      "component": "D146953",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0009794425947324125,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0257110595703125
+    },
+    {
+      "component": "D147033",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0006017229419544071,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0035419464111328125
+    },
+    {
+      "component": "D151095",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0010018348693847656
+    },
+    {
+      "component": "D151470",
+      "coarseYears": 0.008333333333333333,
+      "fineYears": 0.008333333333333333,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 1,
+        "phase": 1,
+        "substep": 6,
+        "elapsedYears": 0.008333333333333333,
+        "lowerTimeYears": 0.006944444444444445,
+        "upperTimeYears": 0.008333333333333333,
+        "boundaries": [
+          "D239063"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 1,
+        "substep": 12,
+        "elapsedYears": 0.008333333333333333,
+        "lowerTimeYears": 0.0076388888888888895,
+        "upperTimeYears": 0.008333333333333333,
+        "boundaries": [
+          "D239063"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000030517578125
+    },
+    {
+      "component": "D154704",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000276599068384706,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0000057220458984375
+    },
+    {
+      "component": "D158546",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00002130624076334804,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.006107330322265625
+    },
+    {
+      "component": "D162144",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0030172091369366893,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0017828941345214844
+    },
+    {
+      "component": "D162153",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.002292916795920388,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0043354034423828125
+    },
+    {
+      "component": "D162171",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.002379053836945498,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.006264209747314453
+    },
+    {
+      "component": "D163176",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0001113943877657422,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.010406494140625
+    },
+    {
+      "component": "D166271",
+      "coarseYears": 28.26666666666667,
+      "fineYears": 28.26527777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0013888888888899942,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 29,
+        "phase": 4,
+        "substep": 12,
+        "elapsedYears": 28.26666666666667,
+        "lowerTimeYears": 28.26527777777778,
+        "upperTimeYears": 28.26666666666667,
+        "boundaries": [
+          "D166271"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 29,
+        "phase": 4,
+        "substep": 22,
+        "elapsedYears": 28.26527777777778,
+        "lowerTimeYears": 28.264583333333334,
+        "upperTimeYears": 28.26527777777778,
+        "boundaries": [
+          "D166271"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0005950927734375
+    },
+    {
+      "component": "D167091",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.005218505859375
+    },
+    {
+      "component": "D169346",
+      "coarseYears": 37.28472222222222,
+      "fineYears": 37.27013888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.01458333333333428,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 38,
+        "phase": 4,
+        "substep": 25,
+        "elapsedYears": 37.28472222222222,
+        "lowerTimeYears": 37.28333333333333,
+        "upperTimeYears": 37.28472222222222,
+        "boundaries": [
+          "D169346"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 38,
+        "phase": 4,
+        "substep": 29,
+        "elapsedYears": 37.27013888888889,
+        "lowerTimeYears": 37.269444444444446,
+        "upperTimeYears": 37.27013888888889,
+        "boundaries": [
+          "D169346"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0004673004150390625
+    },
+    {
+      "component": "D171735",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0007028712022272206,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.008032798767089844
+    },
+    {
+      "component": "D177045",
+      "coarseYears": 70.26527777777778,
+      "fineYears": 69.27291666666667,
+      "sameStop": true,
+      "timeDifferenceYears": 0.9923611111111086,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 71,
+        "phase": 4,
+        "substep": 11,
+        "elapsedYears": 70.26527777777778,
+        "lowerTimeYears": 70.26388888888889,
+        "upperTimeYears": 70.26527777777778,
+        "boundaries": [
+          "D177045"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 70,
+        "phase": 4,
+        "substep": 33,
+        "elapsedYears": 69.27291666666667,
+        "lowerTimeYears": 69.27222222222223,
+        "upperTimeYears": 69.27291666666667,
+        "boundaries": [
+          "D177045"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0006999969482421875
+    },
+    {
+      "component": "D177052",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00077056884765625
+    },
+    {
+      "component": "D177067",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0025787353515625
+    },
+    {
+      "component": "D177139",
+      "coarseYears": 2.1750000000000003,
+      "fineYears": 2.1743055555555557,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444553,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 3,
+        "phase": 3,
+        "substep": 6,
+        "elapsedYears": 2.1750000000000003,
+        "lowerTimeYears": 2.173611111111111,
+        "upperTimeYears": 2.1750000000000003,
+        "boundaries": [
+          "D177139"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 3,
+        "phase": 3,
+        "substep": 11,
+        "elapsedYears": 2.1743055555555557,
+        "lowerTimeYears": 2.173611111111111,
+        "upperTimeYears": 2.1743055555555557,
+        "boundaries": [
+          "D177139"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.0000762939453125
+    },
+    {
+      "component": "D177821",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0030649346201064875,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.01776123046875
+    },
+    {
+      "component": "D177856",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00014289354664558346,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0029144287109375
+    },
+    {
+      "component": "D180233",
+      "coarseYears": 4.190277777777778,
+      "fineYears": 4.188888888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888889106,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 5,
+        "phase": 3,
+        "substep": 17,
+        "elapsedYears": 4.190277777777778,
+        "lowerTimeYears": 4.188888888888889,
+        "upperTimeYears": 4.190277777777778,
+        "boundaries": [
+          "D180233"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 5,
+        "phase": 3,
+        "substep": 32,
+        "elapsedYears": 4.188888888888889,
+        "lowerTimeYears": 4.188194444444445,
+        "upperTimeYears": 4.188888888888889,
+        "boundaries": [
+          "D180233"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000064849853515625
+    },
+    {
+      "component": "D180931",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00934600830078125
+    },
+    {
+      "component": "D181687",
+      "coarseYears": 3.2861111111111114,
+      "fineYears": 3.2840277777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.002083333333333659,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 4,
+        "phase": 4,
+        "substep": 26,
+        "elapsedYears": 3.2861111111111114,
+        "lowerTimeYears": 3.2847222222222223,
+        "upperTimeYears": 3.2861111111111114,
+        "boundaries": [
+          "D181687"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 4,
+        "phase": 4,
+        "substep": 49,
+        "elapsedYears": 3.2840277777777778,
+        "lowerTimeYears": 3.2833333333333337,
+        "upperTimeYears": 3.2840277777777778,
+        "boundaries": [
+          "D181687"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00003910064697265625
+    },
+    {
+      "component": "D183279",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00147247314453125
+    },
+    {
+      "component": "D183357",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0014190673828125
+    },
+    {
+      "component": "D185162",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.006263828602932246,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0005741119384765625
+    },
+    {
+      "component": "D185570",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0005584729905350854,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.051239013671875
+    },
+    {
+      "component": "D186422",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.000823974609375
+    },
+    {
+      "component": "D201548",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00003432750001143551,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.006850242614746094
+    },
+    {
+      "component": "D210141",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00007256467186326957,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0118865966796875
+    },
+    {
+      "component": "D211645",
+      "coarseYears": 0.16805555555555557,
+      "fineYears": 0.16736111111111113,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444442,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 1,
+        "phase": 3,
+        "substep": 1,
+        "elapsedYears": 0.16805555555555557,
+        "lowerTimeYears": 0.16666666666666669,
+        "upperTimeYears": 0.16805555555555557,
+        "boundaries": [
+          "D219336"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 3,
+        "substep": 1,
+        "elapsedYears": 0.16736111111111113,
+        "lowerTimeYears": 0.16666666666666669,
+        "upperTimeYears": 0.16736111111111113,
+        "boundaries": [
+          "D219336"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000019073486328125
+    },
+    {
+      "component": "D222338",
+      "coarseYears": 0.09166666666666667,
+      "fineYears": 0.09097222222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444442,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 1,
+        "phase": 2,
+        "substep": 6,
+        "elapsedYears": 0.09166666666666667,
+        "lowerTimeYears": 0.09027777777777778,
+        "upperTimeYears": 0.09166666666666667,
+        "boundaries": [
+          "D222338"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 2,
+        "substep": 11,
+        "elapsedYears": 0.09097222222222223,
+        "lowerTimeYears": 0.09027777777777778,
+        "upperTimeYears": 0.09097222222222223,
+        "boundaries": [
+          "D222338"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 2.9802322387695312e-8
+    },
+    {
+      "component": "D223965",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00785064697265625
+    },
+    {
+      "component": "D225378",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.000882267951965332
+    },
+    {
+      "component": "D228351",
+      "coarseYears": 9.28888888888889,
+      "fineYears": 9.24375,
+      "sameStop": true,
+      "timeDifferenceYears": 0.045138888888889284,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 10,
+        "phase": 4,
+        "substep": 28,
+        "elapsedYears": 9.28888888888889,
+        "lowerTimeYears": 9.2875,
+        "upperTimeYears": 9.28888888888889,
+        "boundaries": [
+          "D240629"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 10,
+        "phase": 3,
+        "substep": 111,
+        "elapsedYears": 9.24375,
+        "lowerTimeYears": 9.243055555555555,
+        "upperTimeYears": 9.24375,
+        "boundaries": [
+          "D240629"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000213623046875
+    },
+    {
+      "component": "D231441",
+      "coarseYears": 66.15833333333333,
+      "fineYears": 66.09722222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0611111111111029,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 67,
+        "phase": 2,
+        "substep": 54,
+        "elapsedYears": 66.15833333333333,
+        "lowerTimeYears": 66.15694444444445,
+        "upperTimeYears": 66.15833333333333,
+        "boundaries": [
+          "D242195"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 67,
+        "phase": 2,
+        "substep": 20,
+        "elapsedYears": 66.09722222222223,
+        "lowerTimeYears": 66.09652777777778,
+        "upperTimeYears": 66.09722222222223,
+        "boundaries": [
+          "D242195"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.016998291015625
+    },
+    {
+      "component": "D242063",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0014748573303222656
+    },
+    {
+      "component": "D246870",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.005755871534347534
+    },
+    {
+      "component": "D246998",
+      "coarseYears": 39.461111111111116,
+      "fineYears": 39.461111111111116,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 40,
+        "phase": 6,
+        "substep": 32,
+        "elapsedYears": 39.461111111111116,
+        "lowerTimeYears": 39.459722222222226,
+        "upperTimeYears": 39.461111111111116,
+        "boundaries": [
+          "D246998"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 40,
+        "phase": 6,
+        "substep": 64,
+        "elapsedYears": 39.461111111111116,
+        "lowerTimeYears": 39.46041666666667,
+        "upperTimeYears": 39.461111111111116,
+        "boundaries": [
+          "D246998"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.068328857421875
+    },
+    {
+      "component": "D247021",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000885940002400653,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.555816650390625
+    },
+    {
+      "component": "D250088",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000662744019704758,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -5.681640625
+    },
+    {
+      "component": "D254655",
+      "coarseYears": 1.2875,
+      "fineYears": 1.2875,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 2,
+        "phase": 4,
+        "substep": 27,
+        "elapsedYears": 1.2875,
+        "lowerTimeYears": 1.2861111111111112,
+        "upperTimeYears": 1.2875,
+        "boundaries": [
+          "D254655"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 4,
+        "substep": 54,
+        "elapsedYears": 1.2875,
+        "lowerTimeYears": 1.2868055555555555,
+        "upperTimeYears": 1.2875,
+        "boundaries": [
+          "D254655"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0594482421875
+    },
+    {
+      "component": "D254688",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -2.239990234375
+    },
+    {
+      "component": "D259294",
+      "coarseYears": 1.3916666666666668,
+      "fineYears": 1.3909722222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444553,
+      "oceanRelativeDifference": 0.0031737264554867095,
+      "coarseStop": {
+        "year": 2,
+        "phase": 5,
+        "substep": 42,
+        "elapsedYears": 1.3916666666666668,
+        "lowerTimeYears": 1.3902777777777777,
+        "upperTimeYears": 1.3916666666666668,
+        "boundaries": [
+          "D283877"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 5,
+        "substep": 83,
+        "elapsedYears": 1.3909722222222223,
+        "lowerTimeYears": 1.3902777777777777,
+        "upperTimeYears": 1.3909722222222223,
+        "boundaries": [
+          "D283877"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.015380859375
+    },
+    {
+      "component": "D261938",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00640869140625
+    },
+    {
+      "component": "D263464",
+      "coarseYears": 1.088888888888889,
+      "fineYears": 1.0881944444444445,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444553,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 4,
+        "elapsedYears": 1.088888888888889,
+        "lowerTimeYears": 1.0875000000000001,
+        "upperTimeYears": 1.088888888888889,
+        "boundaries": [
+          "D309530"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 7,
+        "elapsedYears": 1.0881944444444445,
+        "lowerTimeYears": 1.0875000000000001,
+        "upperTimeYears": 1.0881944444444445,
+        "boundaries": [
+          "D309530"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00006103515625
+    },
+    {
+      "component": "D264980",
+      "coarseYears": 1.0972222222222223,
+      "fineYears": 1.0965277777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444553,
+      "oceanRelativeDifference": 0.0005864834840460719,
+      "coarseStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 10,
+        "elapsedYears": 1.0972222222222223,
+        "lowerTimeYears": 1.0958333333333334,
+        "upperTimeYears": 1.0972222222222223,
+        "boundaries": [
+          "D301808"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 19,
+        "elapsedYears": 1.0965277777777778,
+        "lowerTimeYears": 1.0958333333333334,
+        "upperTimeYears": 1.0965277777777778,
+        "boundaries": [
+          "D301808"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0001983642578125
+    },
+    {
+      "component": "D265400",
+      "coarseYears": 14.381944444444445,
+      "fineYears": 14.38263888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0006944444444449971,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 15,
+        "phase": 5,
+        "substep": 35,
+        "elapsedYears": 14.381944444444445,
+        "lowerTimeYears": 14.380555555555556,
+        "upperTimeYears": 14.381944444444445,
+        "boundaries": [
+          "D265400"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 15,
+        "phase": 5,
+        "substep": 71,
+        "elapsedYears": 14.38263888888889,
+        "lowerTimeYears": 14.381944444444445,
+        "upperTimeYears": 14.38263888888889,
+        "boundaries": [
+          "D265400"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 1.60205078125
+    },
+    {
+      "component": "D266947",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000025162193711853137,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 3.03466796875
+    },
+    {
+      "component": "D269989",
+      "coarseYears": 7.227777777777778,
+      "fineYears": 7.227777777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 8,
+        "phase": 3,
+        "substep": 44,
+        "elapsedYears": 7.227777777777778,
+        "lowerTimeYears": 7.226388888888889,
+        "upperTimeYears": 7.227777777777778,
+        "boundaries": [
+          "D269989"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 8,
+        "phase": 3,
+        "substep": 88,
+        "elapsedYears": 7.227777777777778,
+        "lowerTimeYears": 7.227083333333334,
+        "upperTimeYears": 7.227777777777778,
+        "boundaries": [
+          "D269989"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.381103515625
+    },
+    {
+      "component": "D270955",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.02154541015625
+    },
+    {
+      "component": "D272526",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000011973633394580136,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0908203125
+    },
+    {
+      "component": "D275779",
+      "coarseYears": 45.25972222222222,
+      "fineYears": 45.25972222222222,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 46,
+        "phase": 4,
+        "substep": 7,
+        "elapsedYears": 45.25972222222222,
+        "lowerTimeYears": 45.25833333333333,
+        "upperTimeYears": 45.25972222222222,
+        "boundaries": [
+          "D275779"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 46,
+        "phase": 4,
+        "substep": 14,
+        "elapsedYears": 45.25972222222222,
+        "lowerTimeYears": 45.25902777777778,
+        "upperTimeYears": 45.25972222222222,
+        "boundaries": [
+          "D275779"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.004486083984375
+    },
+    {
+      "component": "D278690",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00003771141512668914,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.10357666015625
+    },
+    {
+      "component": "D278699",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0272216796875
+    },
+    {
+      "component": "D278706",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000016940460573363333,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0089111328125
+    },
+    {
+      "component": "D281940",
+      "coarseYears": 8.205555555555556,
+      "fineYears": 8.203472222222222,
+      "sameStop": true,
+      "timeDifferenceYears": 0.002083333333333215,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 9,
+        "phase": 3,
+        "substep": 28,
+        "elapsedYears": 8.205555555555556,
+        "lowerTimeYears": 8.204166666666667,
+        "upperTimeYears": 8.205555555555556,
+        "boundaries": [
+          "D281940"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 9,
+        "phase": 3,
+        "substep": 53,
+        "elapsedYears": 8.203472222222222,
+        "lowerTimeYears": 8.202777777777778,
+        "upperTimeYears": 8.203472222222222,
+        "boundaries": [
+          "D281940"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0000476837158203125
+    },
+    {
+      "component": "D283341",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000024793276217448302,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0821533203125
+    },
+    {
+      "component": "D285063",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0010879933834075928
+    },
+    {
+      "component": "D285075",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00458197295665741
+    },
+    {
+      "component": "D291474",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000030222172846282736,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.02220916748046875
+    },
+    {
+      "component": "D294250",
+      "coarseYears": 5.223611111111111,
+      "fineYears": 5.222222222222222,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888889106,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 6,
+        "phase": 3,
+        "substep": 41,
+        "elapsedYears": 5.223611111111111,
+        "lowerTimeYears": 5.222222222222222,
+        "upperTimeYears": 5.223611111111111,
+        "boundaries": [
+          "D294250"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 6,
+        "phase": 3,
+        "substep": 80,
+        "elapsedYears": 5.222222222222222,
+        "lowerTimeYears": 5.221527777777778,
+        "upperTimeYears": 5.222222222222222,
+        "boundaries": [
+          "D294250"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0001010894775390625
+    },
+    {
+      "component": "D294314",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.002735137939453125
+    },
+    {
+      "component": "D294524",
+      "coarseYears": 0.5708333333333333,
+      "fineYears": 0.5708333333333333,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 1,
+        "phase": 7,
+        "substep": 51,
+        "elapsedYears": 0.5708333333333333,
+        "lowerTimeYears": 0.5694444444444444,
+        "upperTimeYears": 0.5708333333333333,
+        "boundaries": [
+          "D294524"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 7,
+        "substep": 102,
+        "elapsedYears": 0.5708333333333333,
+        "lowerTimeYears": 0.5701388888888889,
+        "upperTimeYears": 0.5708333333333333,
+        "boundaries": [
+          "D294524"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000255584716796875
+    },
+    {
+      "component": "D294618",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000009671990002628847,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.018001556396484375
+    },
+    {
+      "component": "D295508",
+      "coarseYears": 2.091666666666667,
+      "fineYears": 1.0972222222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.9944444444444445,
+      "oceanRelativeDifference": 1.5752128276364057,
+      "coarseStop": {
+        "year": 3,
+        "phase": 2,
+        "substep": 6,
+        "elapsedYears": 2.091666666666667,
+        "lowerTimeYears": 2.0902777777777777,
+        "upperTimeYears": 2.091666666666667,
+        "boundaries": [
+          "D300113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 2,
+        "substep": 20,
+        "elapsedYears": 1.0972222222222223,
+        "lowerTimeYears": 1.0965277777777778,
+        "upperTimeYears": 1.0972222222222223,
+        "boundaries": [
+          "D300113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000091552734375
+    },
+    {
+      "component": "D295800",
+      "coarseYears": 1.8819444444444444,
+      "fineYears": 1.8819444444444444,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 2,
+        "phase": 11,
+        "substep": 35,
+        "elapsedYears": 1.8819444444444444,
+        "lowerTimeYears": 1.8805555555555555,
+        "upperTimeYears": 1.8819444444444444,
+        "boundaries": [
+          "D295800"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 11,
+        "substep": 70,
+        "elapsedYears": 1.8819444444444444,
+        "lowerTimeYears": 1.88125,
+        "upperTimeYears": 1.8819444444444444,
+        "boundaries": [
+          "D295800"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000438690185546875
+    },
+    {
+      "component": "D297401",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00638580322265625
+    },
+    {
+      "component": "D298619",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000012692021923033675,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.12451171875
+    },
+    {
+      "component": "D298719",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00039646291347199844,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.10968017578125
+    },
+    {
+      "component": "D300499",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.01983642578125
+    },
+    {
+      "component": "D302020",
+      "coarseYears": 2.6833333333333336,
+      "fineYears": 2.685416666666667,
+      "sameStop": true,
+      "timeDifferenceYears": 0.002083333333333215,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 3,
+        "phase": 9,
+        "substep": 12,
+        "elapsedYears": 2.6833333333333336,
+        "lowerTimeYears": 2.6819444444444445,
+        "upperTimeYears": 2.6833333333333336,
+        "boundaries": [
+          "D302020"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 3,
+        "phase": 9,
+        "substep": 27,
+        "elapsedYears": 2.685416666666667,
+        "lowerTimeYears": 2.6847222222222222,
+        "upperTimeYears": 2.685416666666667,
+        "boundaries": [
+          "D302020"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00002288818359375
+    },
+    {
+      "component": "D302065",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0025527477264404297
+    },
+    {
+      "component": "D302184",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.000005841255187988281
+    },
+    {
+      "component": "D303548",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00028705596923828125
+    },
+    {
+      "component": "D304605",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0024894155708440474,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0005121231079101562
+    },
+    {
+      "component": "D305046",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00018839538097381592
+    },
+    {
+      "component": "D305168",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00009512901306152344
+    },
+    {
+      "component": "D305176",
+      "coarseYears": 9.15,
+      "fineYears": 9.15,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 10,
+        "phase": 2,
+        "substep": 48,
+        "elapsedYears": 9.15,
+        "lowerTimeYears": 9.148611111111112,
+        "upperTimeYears": 9.15,
+        "boundaries": [
+          "D305176"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 10,
+        "phase": 2,
+        "substep": 96,
+        "elapsedYears": 9.15,
+        "lowerTimeYears": 9.149305555555555,
+        "upperTimeYears": 9.15,
+        "boundaries": [
+          "D305176"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00197601318359375
+    },
+    {
+      "component": "D305227",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D306541",
+      "coarseYears": 73.17222222222223,
+      "fineYears": 73.16388888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.008333333333339965,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 74,
+        "phase": 3,
+        "substep": 4,
+        "elapsedYears": 73.17222222222223,
+        "lowerTimeYears": 73.17083333333333,
+        "upperTimeYears": 73.17222222222223,
+        "boundaries": [
+          "D306541"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 74,
+        "phase": 2,
+        "substep": 116,
+        "elapsedYears": 73.16388888888889,
+        "lowerTimeYears": 73.16319444444444,
+        "upperTimeYears": 73.16388888888889,
+        "boundaries": [
+          "D306541"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0047607421875
+    },
+    {
+      "component": "D309172",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0005035400390625
+    },
+    {
+      "component": "D309796",
+      "coarseYears": 24.119444444444447,
+      "fineYears": 24.12013888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0006944444444414444,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 25,
+        "phase": 2,
+        "substep": 26,
+        "elapsedYears": 24.119444444444447,
+        "lowerTimeYears": 24.118055555555557,
+        "upperTimeYears": 24.119444444444447,
+        "boundaries": [
+          "D309796"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 25,
+        "phase": 2,
+        "substep": 53,
+        "elapsedYears": 24.12013888888889,
+        "lowerTimeYears": 24.119444444444447,
+        "upperTimeYears": 24.12013888888889,
+        "boundaries": [
+          "D309796"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.0380859375
+    },
+    {
+      "component": "D309820",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0006122589111328125
+    },
+    {
+      "component": "D309829",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -2.4400651454925537e-7
+    },
+    {
+      "component": "D311158",
+      "coarseYears": 25.56527777777778,
+      "fineYears": 25.561805555555555,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0034722222222249854,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 26,
+        "phase": 7,
+        "substep": 47,
+        "elapsedYears": 25.56527777777778,
+        "lowerTimeYears": 25.56388888888889,
+        "upperTimeYears": 25.56527777777778,
+        "boundaries": [
+          "D311158"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 26,
+        "phase": 7,
+        "substep": 89,
+        "elapsedYears": 25.561805555555555,
+        "lowerTimeYears": 25.561111111111114,
+        "upperTimeYears": 25.561805555555555,
+        "boundaries": [
+          "D311158"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.000152587890625
+    },
+    {
+      "component": "D312255",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000668980410924967,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0006084442138671875
+    },
+    {
+      "component": "D312836",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0042572021484375
+    },
+    {
+      "component": "D312839",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00014124810695648193
+    },
+    {
+      "component": "D312883",
+      "coarseYears": 23.220833333333335,
+      "fineYears": 23.225,
+      "sameStop": true,
+      "timeDifferenceYears": 0.00416666666666643,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 24,
+        "phase": 3,
+        "substep": 39,
+        "elapsedYears": 23.220833333333335,
+        "lowerTimeYears": 23.219444444444445,
+        "upperTimeYears": 23.220833333333335,
+        "boundaries": [
+          "D312883"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 24,
+        "phase": 3,
+        "substep": 84,
+        "elapsedYears": 23.225,
+        "lowerTimeYears": 23.224305555555556,
+        "upperTimeYears": 23.225,
+        "boundaries": [
+          "D312883"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "needs-refinement",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.02392578125
+    },
+    {
+      "component": "D312918",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00011235475540161133
+    },
+    {
+      "component": "D317503",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.01824951171875
+    },
+    {
+      "component": "D318414",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.00350189208984375
+    },
+    {
+      "component": "D321511",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00004270845635266632,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.010223388671875
+    },
+    {
+      "component": "D321905",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0002636909484863281
+    },
+    {
+      "component": "D321912",
+      "coarseYears": 5.340277777777778,
+      "fineYears": 5.340972222222223,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0006944444444449971,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 6,
+        "phase": 5,
+        "substep": 5,
+        "elapsedYears": 5.340277777777778,
+        "lowerTimeYears": 5.3388888888888895,
+        "upperTimeYears": 5.340277777777778,
+        "boundaries": [
+          "D321912"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 6,
+        "phase": 5,
+        "substep": 11,
+        "elapsedYears": 5.340972222222223,
+        "lowerTimeYears": 5.340277777777778,
+        "upperTimeYears": 5.340972222222223,
+        "boundaries": [
+          "D321912"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00060272216796875
+    },
+    {
+      "component": "D324927",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0006031524681020528
+    },
+    {
+      "component": "D327772",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00000818771387597356,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.024076461791992188
+    },
+    {
+      "component": "D340265",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.007600172631624407,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.004724264144897461
+    },
+    {
+      "component": "D340524",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D346127",
+      "coarseYears": 0.9875,
+      "fineYears": 0.9854166666666667,
+      "sameStop": true,
+      "timeDifferenceYears": 0.002083333333333326,
+      "oceanRelativeDifference": 0.11904494899073188,
+      "coarseStop": {
+        "year": 1,
+        "phase": 12,
+        "substep": 51,
+        "elapsedYears": 0.9875,
+        "lowerTimeYears": 0.9861111111111112,
+        "upperTimeYears": 0.9875,
+        "boundaries": [
+          "D346127"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 12,
+        "substep": 99,
+        "elapsedYears": 0.9854166666666667,
+        "lowerTimeYears": 0.9847222222222223,
+        "upperTimeYears": 0.9854166666666667,
+        "boundaries": [
+          "D346127"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00007390975952148438
+    },
+    {
+      "component": "D371369",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.015872836112976074
+    },
+    {
+      "component": "D377528",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00014940549842283764,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0201873779296875
+    },
+    {
+      "component": "D405183",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000023596698837971418,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.005313873291015625
+    },
+    {
+      "component": "D406683",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D418838",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D420413",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D423497",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D429725",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D432530",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D432551",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D432615",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D432716",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.006870269775390625
+    },
+    {
+      "component": "D435647",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D438638",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0007193237543106079
+    },
+    {
+      "component": "D441749",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.01678466796875
+    },
+    {
+      "component": "D441804",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D445045",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.10866546630859375
+    },
+    {
+      "component": "D449489",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D449687",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.004710286855697632
+    },
+    {
+      "component": "D454014",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.001409769058227539
+    },
+    {
+      "component": "D455832",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0003181221536158009,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0010013580322265625
+    },
+    {
+      "component": "D463240",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0024837255477905273
+    },
+    {
+      "component": "D471168",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0043010711669921875
+    },
+    {
+      "component": "D474929",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000295739037195863,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0401153564453125
+    },
+    {
+      "component": "D475783",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00003561462038202373,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0171661376953125
+    },
+    {
+      "component": "D500145",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00250244140625
+    },
+    {
+      "component": "D505625",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000034722819805669162,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.07575225830078125
+    },
+    {
+      "component": "D507864",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000010344886347412084,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.1537322998046875
+    },
+    {
+      "component": "D511784",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000005862053280396468,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.004007816314697266
+    },
+    {
+      "component": "D517092",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 9.331354921109777e-7,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.13062286376953125
+    },
+    {
+      "component": "D517906",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00009532627016837907,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.041290283203125
+    },
+    {
+      "component": "D520136",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000030969791532239117,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.01275634765625
+    },
+    {
+      "component": "D533309",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000008072688692141965,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.02106475830078125
+    },
+    {
+      "component": "D533373",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000054982077883519464,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0070343017578125
+    },
+    {
+      "component": "D537246",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 1.6089244299981135e-7,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0536041259765625
+    },
+    {
+      "component": "D539451",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000067958851303099875,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.03900146484375
+    },
+    {
+      "component": "D542601",
+      "coarseYears": 4.565277777777778,
+      "fineYears": 4.564583333333333,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0006944444444449971,
+      "oceanRelativeDifference": 0.00013129705194698138,
+      "coarseStop": {
+        "year": 5,
+        "phase": 7,
+        "substep": 47,
+        "elapsedYears": 4.565277777777778,
+        "lowerTimeYears": 4.563888888888889,
+        "upperTimeYears": 4.565277777777778,
+        "boundaries": [
+          "D542601"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 5,
+        "phase": 7,
+        "substep": 93,
+        "elapsedYears": 4.564583333333333,
+        "lowerTimeYears": 4.563888888888889,
+        "upperTimeYears": 4.564583333333333,
+        "boundaries": [
+          "D542601"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.0036468505859375
+    },
+    {
+      "component": "D547833",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0000016957467393932822,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.027740478515625
+    },
+    {
+      "component": "D558740",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000005531222723623108,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.010223388671875
+    },
+    {
+      "component": "D562506",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000026794559678170967,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.072601318359375
+    },
+    {
+      "component": "D564905",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000013083618487682557,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00152587890625
+    },
+    {
+      "component": "D565495",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.006598919630050659
+    },
+    {
+      "component": "D570198",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0008671283721923828
+    },
+    {
+      "component": "D574091",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000008343392317283677,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.003833770751953125
+    },
+    {
+      "component": "D574123",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000008236222687381044,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.00380706787109375
+    },
+    {
+      "component": "D576248",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0023512840270996094
+    },
+    {
+      "component": "D577200",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0023193359375
+    },
+    {
+      "component": "D613245",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0010816417634487152
+    },
+    {
+      "component": "D634088",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000028356701083404663,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.1385345458984375
+    },
+    {
+      "component": "D634751",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0
+    },
+    {
+      "component": "D635618",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000023848716102512018,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 2.236083984375
+    },
+    {
+      "component": "D648452",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0005509480834007263
+    },
+    {
+      "component": "D656283",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0189304631203413
+    },
+    {
+      "component": "D659432",
+      "coarseYears": 2.8666666666666667,
+      "fineYears": 2.865277777777778,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888888662,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 3,
+        "phase": 11,
+        "substep": 24,
+        "elapsedYears": 2.8666666666666667,
+        "lowerTimeYears": 2.865277777777778,
+        "upperTimeYears": 2.8666666666666667,
+        "boundaries": [
+          "D773113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 3,
+        "phase": 11,
+        "substep": 46,
+        "elapsedYears": 2.865277777777778,
+        "lowerTimeYears": 2.8645833333333335,
+        "upperTimeYears": 2.865277777777778,
+        "boundaries": [
+          "D773113"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.003173828125
+    },
+    {
+      "component": "D749120",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.000020366860553622246
+    },
+    {
+      "component": "D756815",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.134033203125
+    },
+    {
+      "component": "D760049",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0020904541015625
+    },
+    {
+      "component": "D763718",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0038526544194610324
+    },
+    {
+      "component": "D763761",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.008358955383300781
+    },
+    {
+      "component": "D764483",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.004489310085773468
+    },
+    {
+      "component": "D771499",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.000484466552734375
+    },
+    {
+      "component": "D783872",
+      "coarseYears": 1.5027777777777778,
+      "fineYears": 1.5013888888888889,
+      "sameStop": true,
+      "timeDifferenceYears": 0.001388888888888884,
+      "oceanRelativeDifference": 0,
+      "coarseStop": {
+        "year": 2,
+        "phase": 7,
+        "substep": 2,
+        "elapsedYears": 1.5027777777777778,
+        "lowerTimeYears": 1.5013888888888889,
+        "upperTimeYears": 1.5027777777777778,
+        "boundaries": [
+          "D783872"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 7,
+        "substep": 2,
+        "elapsedYears": 1.5013888888888889,
+        "lowerTimeYears": 1.5006944444444446,
+        "upperTimeYears": 1.5013888888888889,
+        "boundaries": [
+          "D783872"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00003600120544433594
+    },
+    {
+      "component": "D785978",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0021381378173828125
+    },
+    {
+      "component": "D791414",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0005142800509929657
+    },
+    {
+      "component": "D795378",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.00474642726448036,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.013885498046875
+    },
+    {
+      "component": "D798302",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0006046295166015625
+    },
+    {
+      "component": "D802830",
+      "coarseYears": 1.325,
+      "fineYears": 1.3243055555555556,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444331,
+      "oceanRelativeDifference": 0.00014098984901031014,
+      "coarseStop": {
+        "year": 2,
+        "phase": 4,
+        "substep": 54,
+        "elapsedYears": 1.325,
+        "lowerTimeYears": 1.323611111111111,
+        "upperTimeYears": 1.325,
+        "boundaries": [
+          "D802830"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 4,
+        "substep": 107,
+        "elapsedYears": 1.3243055555555556,
+        "lowerTimeYears": 1.323611111111111,
+        "upperTimeYears": 1.3243055555555556,
+        "boundaries": [
+          "D802830"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.00010585784912109375
+    },
+    {
+      "component": "D806913",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0240478515625
+    },
+    {
+      "component": "D807575",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.164306640625
+    },
+    {
+      "component": "D812058",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.0008636946331113796,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.020599365234375
+    },
+    {
+      "component": "D844313",
+      "coarseYears": 5.544444444444444,
+      "fineYears": 5.543055555555556,
+      "sameStop": true,
+      "timeDifferenceYears": 0.0013888888888882178,
+      "oceanRelativeDifference": 0.00022021008619917557,
+      "coarseStop": {
+        "year": 6,
+        "phase": 7,
+        "substep": 32,
+        "elapsedYears": 5.544444444444444,
+        "lowerTimeYears": 5.543055555555556,
+        "upperTimeYears": 5.544444444444444,
+        "boundaries": [
+          "D844313"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 6,
+        "phase": 7,
+        "substep": 62,
+        "elapsedYears": 5.543055555555556,
+        "lowerTimeYears": 5.542361111111111,
+        "upperTimeYears": 5.543055555555556,
+        "boundaries": [
+          "D844313"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.000469207763671875
+    },
+    {
+      "component": "D849098",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.007561082523743978,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.0963134765625
+    },
+    {
+      "component": "D850580",
+      "coarseYears": 0.5875,
+      "fineYears": 0.5875,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.3423362267837309,
+      "coarseStop": {
+        "year": 1,
+        "phase": 8,
+        "substep": 3,
+        "elapsedYears": 0.5875,
+        "lowerTimeYears": 0.5861111111111111,
+        "upperTimeYears": 0.5875,
+        "boundaries": [
+          "D878225"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 1,
+        "phase": 8,
+        "substep": 6,
+        "elapsedYears": 0.5875,
+        "lowerTimeYears": 0.5868055555555556,
+        "upperTimeYears": 0.5875,
+        "boundaries": [
+          "D878225"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": 0.00014495849609375
+    },
+    {
+      "component": "D864347",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.002084452516252799,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.029684066772460938
+    },
+    {
+      "component": "D890597",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.001808932306182074,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": -0.0036773681640625
+    },
+    {
+      "component": "D907493",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0.000013962771553586928,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.001720428466796875
+    },
+    {
+      "component": "D915173",
+      "coarseYears": 100,
+      "fineYears": 100,
+      "sameStop": true,
+      "timeDifferenceYears": 0,
+      "oceanRelativeDifference": 0,
+      "coarseStop": null,
+      "fineStop": null,
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "100-year ocean cumulative within 1%; not all states",
+      "fineResidualM3": 0.01239013671875
+    },
+    {
+      "component": "D944345",
+      "coarseYears": 1.6736111111111112,
+      "fineYears": 1.6729166666666668,
+      "sameStop": true,
+      "timeDifferenceYears": 0.000694444444444331,
+      "oceanRelativeDifference": 0.005069711151292209,
+      "coarseStop": {
+        "year": 2,
+        "phase": 9,
+        "substep": 5,
+        "elapsedYears": 1.6736111111111112,
+        "lowerTimeYears": 1.6722222222222223,
+        "upperTimeYears": 1.6736111111111112,
+        "boundaries": [
+          "D944345"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "fineStop": {
+        "year": 2,
+        "phase": 9,
+        "substep": 9,
+        "elapsedYears": 1.6729166666666668,
+        "lowerTimeYears": 1.6722222222222223,
+        "upperTimeYears": 1.6729166666666668,
+        "boundaries": [
+          "D944345"
+        ],
+        "reason": "native-domain-limit"
+      },
+      "status": "passed-horizon-or-ocean-check",
+      "scope": "same first limit and time within two coarse steps",
+      "fineResidualM3": -0.0000011920928955078125
+    }
+  ]
+}

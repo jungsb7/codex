@@ -1,0 +1,7452 @@
+{
+  "components": [
+    {
+      "id": "D118969",
+      "ids": [
+        "D118969"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 30,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D120385",
+      "ids": [
+        "D120385",
+        "D124994",
+        "D146478"
+      ],
+      "boundaries": 3,
+      "reaches": 20,
+      "cells": 208,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D146478",
+          "from": 146478,
+          "to": 146477,
+          "crestM": 311.7973937988281,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 146478,
+          "to": 148013,
+          "crestM": 312.89520263671875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148014,
+          "to": 146477,
+          "crestM": 313.1871643066406,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148014,
+          "to": 148013,
+          "crestM": 313.1871643066406,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148014,
+          "to": 149549,
+          "crestM": 313.1871643066406,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148014,
+          "to": 149550,
+          "crestM": 314.39727783203125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148014,
+          "to": 149551,
+          "crestM": 316.25787353515625,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148015,
+          "to": 149550,
+          "crestM": 316.01300048828125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D146478",
+          "from": 148015,
+          "to": 149551,
+          "crestM": 316.25787353515625,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D121929",
+      "ids": [
+        "D121929",
+        "D126544",
+        "D129613"
+      ],
+      "boundaries": 3,
+      "reaches": 3,
+      "cells": 68,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D123341",
+      "ids": [
+        "D123341"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 9,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D123341",
+          "from": 123341,
+          "to": 124878,
+          "crestM": 2577.51611328125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D123341",
+          "from": 123342,
+          "to": 124878,
+          "crestM": 2577.51611328125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D123492",
+      "ids": [
+        "D123492",
+        "D126571",
+        "D128095"
+      ],
+      "boundaries": 3,
+      "reaches": 2,
+      "cells": 97,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D124869",
+      "ids": [
+        "D124869",
+        "D126403"
+      ],
+      "boundaries": 2,
+      "reaches": 6,
+      "cells": 48,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D124869",
+          "from": 124869,
+          "to": 126406,
+          "crestM": 1784.5040283203125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D124869",
+          "from": 124870,
+          "to": 126406,
+          "crestM": 1784.5040283203125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D124869",
+          "from": 124870,
+          "to": 126407,
+          "crestM": 1782.2052001953125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D124869",
+          "from": 124871,
+          "to": 126406,
+          "crestM": 1784.5040283203125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D124869",
+          "from": 124871,
+          "to": 126407,
+          "crestM": 1782.2052001953125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D124981",
+      "ids": [
+        "D124981"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 27,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D124981",
+          "from": 124981,
+          "to": 124980,
+          "crestM": 1599.28466796875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D125117",
+      "ids": [
+        "D125117",
+        "D126735",
+        "D126767",
+        "D126771",
+        "D129794",
+        "D129855",
+        "D131156",
+        "D131183",
+        "D131194",
+        "D131332",
+        "D132677",
+        "D132754",
+        "D132875",
+        "D134288",
+        "D134423",
+        "D134465",
+        "D135826",
+        "D135858",
+        "D135942",
+        "D135962",
+        "D137517",
+        "D140612",
+        "D141975",
+        "D141982",
+        "D145154",
+        "D145203",
+        "D146748",
+        "D148192",
+        "D151105",
+        "D152727",
+        "D152767",
+        "D152791",
+        "D154345",
+        "D154369",
+        "D154397",
+        "D155805",
+        "D155815",
+        "D155920",
+        "D155947",
+        "D157364",
+        "D160406",
+        "D160559",
+        "D162014",
+        "D163387",
+        "D164704",
+        "D165097",
+        "D165125",
+        "D166244",
+        "D168152",
+        "D168173",
+        "D168186",
+        "D168224",
+        "D169733",
+        "D170859",
+        "D171204",
+        "D171211",
+        "D171242",
+        "D171251",
+        "D171275",
+        "D172860",
+        "D172866",
+        "D174277",
+        "D174327",
+        "D177037",
+        "D177251",
+        "D177392",
+        "D178961",
+        "D179000",
+        "D180323",
+        "D181970",
+        "D181979",
+        "D182043",
+        "D182087",
+        "D183131",
+        "D183240",
+        "D183365",
+        "D183379",
+        "D183477",
+        "D183521",
+        "D184773",
+        "D184793",
+        "D186192",
+        "D186313",
+        "D186342",
+        "D186593",
+        "D186629",
+        "D187853",
+        "D187898",
+        "D187932",
+        "D187951",
+        "D187969",
+        "D187984",
+        "D188110",
+        "D188170",
+        "D189297",
+        "D189301",
+        "D189662",
+        "D191291",
+        "D192548",
+        "D192645",
+        "D194286",
+        "D194361",
+        "D197235",
+        "D198481",
+        "D198665",
+        "D198783",
+        "D198894",
+        "D200167",
+        "D200315",
+        "D200327",
+        "D200480",
+        "D201662",
+        "D201893",
+        "D202025",
+        "D203170",
+        "D203385",
+        "D203463",
+        "D204977",
+        "D205049",
+        "D206165",
+        "D206171",
+        "D207968",
+        "D209268",
+        "D209445",
+        "D209627",
+        "D209672",
+        "D211043",
+        "D211094",
+        "D211125",
+        "D211141",
+        "D211148",
+        "D211233",
+        "D212511",
+        "D212754",
+        "D212785",
+        "D215587",
+        "D215759",
+        "D215810",
+        "D215861",
+        "D217109",
+        "D217314",
+        "D218465",
+        "D218543",
+        "D220400",
+        "D221548",
+        "D221625",
+        "D221709",
+        "D221900",
+        "D221948",
+        "D223089",
+        "D224645",
+        "D226335",
+        "D227711",
+        "D227752",
+        "D227861",
+        "D228038",
+        "D228065",
+        "D231194",
+        "D232711",
+        "D232713",
+        "D233891",
+        "D233927",
+        "D233951",
+        "D234278",
+        "D235439",
+        "D235458",
+        "D235520",
+        "D236990",
+        "D237098",
+        "D237227",
+        "D237326",
+        "D240140",
+        "D240215",
+        "D241505",
+        "D241868",
+        "D243078",
+        "D243222",
+        "D243228",
+        "D246198",
+        "D249394",
+        "D249477",
+        "D249541",
+        "D249548",
+        "D252317",
+        "D252426",
+        "D252549",
+        "D253936",
+        "D255382",
+        "D257019",
+        "D257046",
+        "D258447",
+        "D260105",
+        "D260129",
+        "D264698",
+        "D264944",
+        "D264964",
+        "D266213",
+        "D266264",
+        "D266309",
+        "D266496",
+        "D266527",
+        "D267668",
+        "D269322",
+        "D269434",
+        "D269509",
+        "D269542",
+        "D269557",
+        "D270889",
+        "D271082",
+        "D272396",
+        "D272408",
+        "D272514",
+        "D272551",
+        "D272574",
+        "D273783",
+        "D273950",
+        "D274120",
+        "D275366",
+        "D275390",
+        "D275397",
+        "D275417",
+        "D275472",
+        "D278432",
+        "D278454",
+        "D278480",
+        "D278538",
+        "D278554",
+        "D281541",
+        "D281568",
+        "D281642",
+        "D284554",
+        "D284655",
+        "D287770",
+        "D287777",
+        "D289239",
+        "D290858",
+        "D293823",
+        "D293865",
+        "D293942",
+        "D295365",
+        "D295370",
+        "D298461",
+        "D298498",
+        "D307755",
+        "D307759",
+        "D309282",
+        "D310851",
+        "D312330",
+        "D313899",
+        "D316942",
+        "D316955",
+        "D326169",
+        "D327739",
+        "D332325",
+        "D332343",
+        "D335411"
+      ],
+      "boundaries": 256,
+      "reaches": 10299,
+      "cells": 41450,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D148192",
+          "from": 148194,
+          "to": 148195,
+          "crestM": 240.63037109375,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D148192",
+          "from": 149730,
+          "to": 148195,
+          "crestM": 240.81741333007812,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D148192",
+          "from": 149731,
+          "to": 148195,
+          "crestM": 244.29075622558594,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D148192",
+          "from": 149731,
+          "to": 148196,
+          "crestM": 244.29075622558594,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154343,
+          "to": 152807,
+          "crestM": 242.60260009765625,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154343,
+          "to": 152808,
+          "crestM": 242.60260009765625,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154344,
+          "to": 152807,
+          "crestM": 240.3487091064453,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154344,
+          "to": 152808,
+          "crestM": 239.219482421875,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154344,
+          "to": 152809,
+          "crestM": 239.219482421875,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154345,
+          "to": 152808,
+          "crestM": 238.04600524902344,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154345,
+          "to": 152809,
+          "crestM": 238.01905822753906,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154345,
+          "to": 152810,
+          "crestM": 240.25071716308594,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154346,
+          "to": 152809,
+          "crestM": 238.1654510498047,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D154345",
+          "from": 154346,
+          "to": 152810,
+          "crestM": 240.25071716308594,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        },
+        {
+          "id": "D163387",
+          "from": 163387,
+          "to": 163386,
+          "crestM": 289.7395935058594,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D125132",
+      "ids": [
+        "D125132"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 13,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D125132",
+          "from": 125132,
+          "to": 125131,
+          "crestM": 2099.798828125,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        }
+      ]
+    },
+    {
+      "id": "D126609",
+      "ids": [
+        "D126609"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 30,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D127925",
+      "ids": [
+        "D127925"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 57,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D127925",
+          "from": 129463,
+          "to": 130999,
+          "crestM": 2056.6201171875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D127956",
+      "ids": [
+        "D127956"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 9,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D127956",
+          "from": 127956,
+          "to": 127957,
+          "crestM": 980.8875732421875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D128117",
+      "ids": [
+        "D128117"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 19,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D128178",
+      "ids": [
+        "D128178",
+        "D129710"
+      ],
+      "boundaries": 2,
+      "reaches": 2,
+      "cells": 37,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D128197",
+      "ids": [
+        "D128197"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 22,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D128197",
+          "from": 128198,
+          "to": 128199,
+          "crestM": 2035.9532470703125,
+          "kind": "foreign-catchment",
+          "targetNode": 143595
+        }
+      ]
+    },
+    {
+      "id": "D129669",
+      "ids": [
+        "D129669"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 29,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D131362",
+      "ids": [
+        "D131362"
+      ],
+      "boundaries": 1,
+      "reaches": 12,
+      "cells": 59,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D132512",
+      "ids": [
+        "D132512"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 25,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D132521",
+      "ids": [
+        "D132521"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 9,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D133204",
+      "ids": [
+        "D133204"
+      ],
+      "boundaries": 1,
+      "reaches": 14,
+      "cells": 50,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D134754",
+      "ids": [
+        "D134754"
+      ],
+      "boundaries": 1,
+      "reaches": 17,
+      "cells": 54,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D135562",
+      "ids": [
+        "D135562"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D138644",
+      "ids": [
+        "D138644"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 28,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D139338",
+      "ids": [
+        "D139338",
+        "D145447",
+        "D145466",
+        "D150065",
+        "D151571",
+        "D157757",
+        "D160819",
+        "D162384",
+        "D165422",
+        "D168482",
+        "D170032",
+        "D171530",
+        "D171587",
+        "D173154",
+        "D176197",
+        "D182349",
+        "D182365",
+        "D185355",
+        "D185415",
+        "D185423",
+        "D185445",
+        "D185453",
+        "D188421",
+        "D188432",
+        "D190014",
+        "D190037",
+        "D190050",
+        "D193064",
+        "D193133",
+        "D194619",
+        "D194680",
+        "D196112",
+        "D196202",
+        "D196226",
+        "D199182",
+        "D199230",
+        "D199248",
+        "D199286",
+        "D200726",
+        "D202267",
+        "D202290",
+        "D202347",
+        "D203852",
+        "D205397",
+        "D205436",
+        "D206967",
+        "D206982",
+        "D206988",
+        "D208461",
+        "D210054",
+        "D211579",
+        "D213047",
+        "D219204",
+        "D222249",
+        "D222282",
+        "D225356",
+        "D226882",
+        "D228401",
+        "D240705",
+        "D248378"
+      ],
+      "boundaries": 60,
+      "reaches": 720,
+      "cells": 5197,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D202267",
+          "from": 206875,
+          "to": 208412,
+          "crestM": 448.93255615234375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 206876,
+          "to": 208412,
+          "crestM": 448.93255615234375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 206876,
+          "to": 208413,
+          "crestM": 450.87548828125,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 206877,
+          "to": 208412,
+          "crestM": 453.4302062988281,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 206877,
+          "to": 208413,
+          "crestM": 453.4302062988281,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 208410,
+          "to": 209947,
+          "crestM": 453.032958984375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 208411,
+          "to": 208412,
+          "crestM": 448.93255615234375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 208411,
+          "to": 209947,
+          "crestM": 453.032958984375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D202267",
+          "from": 208411,
+          "to": 209948,
+          "crestM": 450.1271057128906,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D205397",
+          "from": 216166,
+          "to": 217703,
+          "crestM": 311.24005126953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 216167,
+          "to": 217703,
+          "crestM": 311.24005126953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 216167,
+          "to": 217704,
+          "crestM": 313.4491271972656,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 216168,
+          "to": 217703,
+          "crestM": 315.0789794921875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 216168,
+          "to": 217704,
+          "crestM": 315.0789794921875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 217702,
+          "to": 217703,
+          "crestM": 311.24005126953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D205397",
+          "from": 217702,
+          "to": 219239,
+          "crestM": 313.42755126953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 205452,
+          "to": 205453,
+          "crestM": 310.454833984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 205452,
+          "to": 206989,
+          "crestM": 310.454833984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 206987,
+          "to": 208524,
+          "crestM": 309.6793518066406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 206988,
+          "to": 205453,
+          "crestM": 310.39642333984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 206988,
+          "to": 206989,
+          "crestM": 307.6490783691406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 206988,
+          "to": 208524,
+          "crestM": 309.6793518066406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D206988",
+          "from": 206988,
+          "to": 208525,
+          "crestM": 308.20147705078125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 210054,
+          "to": 210055,
+          "crestM": 333.4156799316406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 210054,
+          "to": 211591,
+          "crestM": 334.84881591796875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 211590,
+          "to": 210055,
+          "crestM": 335.2301330566406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 211590,
+          "to": 211591,
+          "crestM": 335.2301330566406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 211590,
+          "to": 213125,
+          "crestM": 335.2301330566406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 211590,
+          "to": 213126,
+          "crestM": 335.2301330566406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D210054",
+          "from": 211590,
+          "to": 213127,
+          "crestM": 335.2301330566406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214648,
+          "to": 216183,
+          "crestM": 313.02215576171875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214648,
+          "to": 216184,
+          "crestM": 312.3612365722656,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214648,
+          "to": 216185,
+          "crestM": 312.3612365722656,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214649,
+          "to": 216184,
+          "crestM": 312.14630126953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214649,
+          "to": 216185,
+          "crestM": 311.2671203613281,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214649,
+          "to": 216186,
+          "crestM": 310.5162658691406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214650,
+          "to": 216185,
+          "crestM": 311.2671203613281,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214650,
+          "to": 216186,
+          "crestM": 310.5162658691406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214650,
+          "to": 216187,
+          "crestM": 310.47418212890625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214651,
+          "to": 216186,
+          "crestM": 310.5162658691406,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214651,
+          "to": 216187,
+          "crestM": 310.47418212890625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214651,
+          "to": 216188,
+          "crestM": 310.23675537109375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214652,
+          "to": 216187,
+          "crestM": 310.47418212890625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214652,
+          "to": 216188,
+          "crestM": 310.23675537109375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214652,
+          "to": 216189,
+          "crestM": 309.3822326660156,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214653,
+          "to": 216188,
+          "crestM": 310.23675537109375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214653,
+          "to": 216189,
+          "crestM": 309.3822326660156,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214653,
+          "to": 216190,
+          "crestM": 310.8390197753906,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214654,
+          "to": 216189,
+          "crestM": 309.3822326660156,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214654,
+          "to": 216190,
+          "crestM": 310.8390197753906,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214654,
+          "to": 216191,
+          "crestM": 313.8299255371094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214655,
+          "to": 216190,
+          "crestM": 311.16131591796875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211579",
+          "from": 214655,
+          "to": 216191,
+          "crestM": 313.8299255371094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D248378",
+          "from": 248377,
+          "to": 249913,
+          "crestM": 352.4560852050781,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248377,
+          "to": 249914,
+          "crestM": 352.4560852050781,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248378,
+          "to": 249913,
+          "crestM": 352.03466796875,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248378,
+          "to": 249914,
+          "crestM": 349.92449951171875,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248378,
+          "to": 249915,
+          "crestM": 349.4819641113281,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248379,
+          "to": 249914,
+          "crestM": 349.92449951171875,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248379,
+          "to": 249915,
+          "crestM": 349.4819641113281,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248379,
+          "to": 249916,
+          "crestM": 350.2633361816406,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248380,
+          "to": 249915,
+          "crestM": 349.4819641113281,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248380,
+          "to": 249916,
+          "crestM": 350.2633361816406,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248380,
+          "to": 249917,
+          "crestM": 351.6958923339844,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248381,
+          "to": 249916,
+          "crestM": 351.6741638183594,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248381,
+          "to": 249917,
+          "crestM": 351.6958923339844,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        },
+        {
+          "id": "D248378",
+          "from": 248381,
+          "to": 249918,
+          "crestM": 352.8291015625,
+          "kind": "foreign-catchment",
+          "targetNode": 256059
+        }
+      ]
+    },
+    {
+      "id": "D145358",
+      "ids": [
+        "D145358"
+      ],
+      "boundaries": 1,
+      "reaches": 84,
+      "cells": 371,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D146953",
+      "ids": [
+        "D146953"
+      ],
+      "boundaries": 1,
+      "reaches": 51,
+      "cells": 211,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D147033",
+      "ids": [
+        "D147033",
+        "D151644"
+      ],
+      "boundaries": 2,
+      "reaches": 12,
+      "cells": 40,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D151095",
+      "ids": [
+        "D151095"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 25,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D151095",
+          "from": 151094,
+          "to": 152629,
+          "crestM": 292.8089294433594,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152630,
+          "to": 152629,
+          "crestM": 292.8089294433594,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152630,
+          "to": 154165,
+          "crestM": 290.5020446777344,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152630,
+          "to": 154166,
+          "crestM": 291.1187438964844,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152630,
+          "to": 154167,
+          "crestM": 294.8140563964844,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152631,
+          "to": 154166,
+          "crestM": 291.1187438964844,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152631,
+          "to": 154167,
+          "crestM": 294.8140563964844,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D151095",
+          "from": 152632,
+          "to": 154167,
+          "crestM": 295.1763610839844,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D151470",
+      "ids": [
+        "D151470",
+        "D152993",
+        "D153009",
+        "D154538",
+        "D159204",
+        "D160686",
+        "D160744",
+        "D162176",
+        "D162237",
+        "D162283",
+        "D169878",
+        "D171492",
+        "D179078",
+        "D182100",
+        "D182153",
+        "D182159",
+        "D182164",
+        "D185177",
+        "D185284",
+        "D186833",
+        "D191408",
+        "D191471",
+        "D192911",
+        "D192936",
+        "D194486",
+        "D195988",
+        "D197573",
+        "D198986",
+        "D199055",
+        "D199136",
+        "D200533",
+        "D200657",
+        "D202064",
+        "D202088",
+        "D202109",
+        "D202133",
+        "D202142",
+        "D205130",
+        "D205290",
+        "D206690",
+        "D206706",
+        "D206711",
+        "D206796",
+        "D206849",
+        "D208220",
+        "D208375",
+        "D209742",
+        "D209747",
+        "D209807",
+        "D209838",
+        "D209900",
+        "D211268",
+        "D211473",
+        "D212831",
+        "D212900",
+        "D212920",
+        "D212963",
+        "D214353",
+        "D214378",
+        "D214460",
+        "D214467",
+        "D214535",
+        "D219062",
+        "D219081",
+        "D220557",
+        "D220571",
+        "D222044",
+        "D222062",
+        "D222160",
+        "D222189",
+        "D225128",
+        "D228194",
+        "D228218",
+        "D228305",
+        "D229859",
+        "D231234",
+        "D232789",
+        "D232848",
+        "D237444",
+        "D238961",
+        "D239063",
+        "D240487",
+        "D240494",
+        "D248165",
+        "D248174"
+      ],
+      "boundaries": 85,
+      "reaches": 2165,
+      "cells": 7821,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D211473",
+          "from": 216084,
+          "to": 217621,
+          "crestM": 451.8205871582031,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D211473",
+          "from": 217619,
+          "to": 219156,
+          "crestM": 452.040771484375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D211473",
+          "from": 217620,
+          "to": 217621,
+          "crestM": 451.8205871582031,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D211473",
+          "from": 217620,
+          "to": 219156,
+          "crestM": 452.040771484375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D211473",
+          "from": 217620,
+          "to": 219157,
+          "crestM": 448.8248596191406,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D219062",
+          "from": 220597,
+          "to": 222132,
+          "crestM": 458.0462341308594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220597,
+          "to": 222133,
+          "crestM": 457.0948181152344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220597,
+          "to": 222134,
+          "crestM": 457.0948181152344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220598,
+          "to": 222133,
+          "crestM": 455.7118835449219,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220598,
+          "to": 222134,
+          "crestM": 453.766357421875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220598,
+          "to": 222135,
+          "crestM": 457.1650390625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220599,
+          "to": 222134,
+          "crestM": 456.8066101074219,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D219062",
+          "from": 220599,
+          "to": 222135,
+          "crestM": 457.1650390625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228254,
+          "to": 229790,
+          "crestM": 416.60296630859375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228254,
+          "to": 229791,
+          "crestM": 415.6069030761719,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228255,
+          "to": 229790,
+          "crestM": 416.60296630859375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228255,
+          "to": 229791,
+          "crestM": 415.06915283203125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228255,
+          "to": 229792,
+          "crestM": 415.2930603027344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228256,
+          "to": 229791,
+          "crestM": 415.06915283203125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228256,
+          "to": 229792,
+          "crestM": 415.2930603027344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228257,
+          "to": 229792,
+          "crestM": 415.2930603027344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228258,
+          "to": 229795,
+          "crestM": 416.8511962890625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228259,
+          "to": 229795,
+          "crestM": 416.8511962890625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 228259,
+          "to": 229796,
+          "crestM": 417.9378967285156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229780,
+          "to": 231317,
+          "crestM": 414.8217468261719,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229781,
+          "to": 231317,
+          "crestM": 414.3460998535156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229781,
+          "to": 231318,
+          "crestM": 413.3291931152344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229782,
+          "to": 231317,
+          "crestM": 414.3460998535156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229782,
+          "to": 231318,
+          "crestM": 413.3291931152344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229782,
+          "to": 231319,
+          "crestM": 415.4748229980469,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229783,
+          "to": 231318,
+          "crestM": 414.09246826171875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229783,
+          "to": 231319,
+          "crestM": 415.4748229980469,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229793,
+          "to": 229792,
+          "crestM": 415.7368469238281,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229793,
+          "to": 231328,
+          "crestM": 415.95733642578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229794,
+          "to": 229795,
+          "crestM": 416.8511962890625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D220571",
+          "from": 229794,
+          "to": 231331,
+          "crestM": 415.6864929199219,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237535,
+          "to": 239070,
+          "crestM": 397.23553466796875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237535,
+          "to": 239071,
+          "crestM": 395.7857971191406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237535,
+          "to": 239072,
+          "crestM": 395.7857971191406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237536,
+          "to": 239071,
+          "crestM": 395.2317810058594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237536,
+          "to": 239072,
+          "crestM": 393.03948974609375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237536,
+          "to": 239073,
+          "crestM": 393.6531677246094,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237537,
+          "to": 239072,
+          "crestM": 393.03948974609375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237537,
+          "to": 239073,
+          "crestM": 393.6531677246094,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237537,
+          "to": 239074,
+          "crestM": 396.4970397949219,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237538,
+          "to": 239073,
+          "crestM": 395.8200988769531,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D229859",
+          "from": 237538,
+          "to": 239074,
+          "crestM": 396.4970397949219,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 232769,
+          "to": 234304,
+          "crestM": 393.9536437988281,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234306,
+          "to": 235841,
+          "crestM": 395.1541748046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234306,
+          "to": 235842,
+          "crestM": 395.1541748046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234306,
+          "to": 235843,
+          "crestM": 395.1541748046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234307,
+          "to": 235842,
+          "crestM": 394.7456359863281,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234307,
+          "to": 235843,
+          "crestM": 391.2213439941406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 234308,
+          "to": 235843,
+          "crestM": 391.2213439941406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 235844,
+          "to": 235843,
+          "crestM": 391.2213439941406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D231234",
+          "from": 235844,
+          "to": 237379,
+          "crestM": 394.90667724609375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 231252,
+          "to": 229715,
+          "crestM": 438.8096618652344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 231252,
+          "to": 231251,
+          "crestM": 435.7718811035156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 231252,
+          "to": 232787,
+          "crestM": 435.7718811035156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 231252,
+          "to": 232788,
+          "crestM": 435.7718811035156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 231253,
+          "to": 232788,
+          "crestM": 434.4578857421875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 232789,
+          "to": 232788,
+          "crestM": 434.4578857421875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 232789,
+          "to": 234324,
+          "crestM": 434.1150207519531,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 234325,
+          "to": 232788,
+          "crestM": 434.4578857421875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 234325,
+          "to": 234324,
+          "crestM": 434.1150207519531,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 234325,
+          "to": 235860,
+          "crestM": 434.9387512207031,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 234325,
+          "to": 235861,
+          "crestM": 436.2924499511719,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 234326,
+          "to": 235861,
+          "crestM": 436.2924499511719,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232789",
+          "from": 235862,
+          "to": 235861,
+          "crestM": 438.1775817871094,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 232852,
+          "to": 231317,
+          "crestM": 414.9278259277344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 232852,
+          "to": 232853,
+          "crestM": 414.9278259277344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 232852,
+          "to": 234389,
+          "crestM": 414.9278259277344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 234388,
+          "to": 232853,
+          "crestM": 412.76470947265625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 234388,
+          "to": 234389,
+          "crestM": 411.07830810546875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 234388,
+          "to": 235925,
+          "crestM": 414.9396667480469,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 235924,
+          "to": 234389,
+          "crestM": 414.0050354003906,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D232848",
+          "from": 235924,
+          "to": 235925,
+          "crestM": 414.9396667480469,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245124,
+          "to": 246661,
+          "crestM": 401.660888671875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245125,
+          "to": 246661,
+          "crestM": 401.660888671875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245125,
+          "to": 246662,
+          "crestM": 397.5491638183594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245126,
+          "to": 246661,
+          "crestM": 401.660888671875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245126,
+          "to": 246662,
+          "crestM": 397.5491638183594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245126,
+          "to": 246663,
+          "crestM": 396.9219970703125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245127,
+          "to": 246662,
+          "crestM": 397.5491638183594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245127,
+          "to": 246663,
+          "crestM": 396.9219970703125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245127,
+          "to": 246664,
+          "crestM": 401.0662841796875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245128,
+          "to": 246663,
+          "crestM": 396.9219970703125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245128,
+          "to": 246664,
+          "crestM": 401.0662841796875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245129,
+          "to": 246664,
+          "crestM": 401.0662841796875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D237444",
+          "from": 245130,
+          "to": 246667,
+          "crestM": 401.6767578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 237527,
+          "to": 237528,
+          "crestM": 396.97637939453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 237527,
+          "to": 239064,
+          "crestM": 396.4029541015625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 239062,
+          "to": 240599,
+          "crestM": 395.4287109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 239063,
+          "to": 237528,
+          "crestM": 396.97637939453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 239063,
+          "to": 239064,
+          "crestM": 393.7088623046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 239063,
+          "to": 240599,
+          "crestM": 395.4287109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D239063",
+          "from": 239063,
+          "to": 240600,
+          "crestM": 394.28656005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251233,
+          "to": 252768,
+          "crestM": 389.4496154785156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251233,
+          "to": 252769,
+          "crestM": 390.4769287109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251233,
+          "to": 252770,
+          "crestM": 392.11114501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251234,
+          "to": 252769,
+          "crestM": 390.4769287109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251234,
+          "to": 252770,
+          "crestM": 392.11114501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 251235,
+          "to": 252770,
+          "crestM": 392.11114501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252771,
+          "to": 252770,
+          "crestM": 392.11114501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252771,
+          "to": 254306,
+          "crestM": 392.33441162109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252771,
+          "to": 254307,
+          "crestM": 392.4124450683594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252771,
+          "to": 254308,
+          "crestM": 392.26544189453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252772,
+          "to": 254307,
+          "crestM": 392.4124450683594,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252772,
+          "to": 254308,
+          "crestM": 392.26544189453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252772,
+          "to": 254309,
+          "crestM": 393.13885498046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252773,
+          "to": 254308,
+          "crestM": 392.26544189453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252773,
+          "to": 254309,
+          "crestM": 393.13885498046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252773,
+          "to": 254310,
+          "crestM": 394.3935852050781,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252774,
+          "to": 254309,
+          "crestM": 393.13885498046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252774,
+          "to": 254310,
+          "crestM": 394.3935852050781,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252774,
+          "to": 254311,
+          "crestM": 393.9686584472656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252775,
+          "to": 254310,
+          "crestM": 394.3935852050781,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252775,
+          "to": 254311,
+          "crestM": 393.9686584472656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252775,
+          "to": 254312,
+          "crestM": 393.772705078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252776,
+          "to": 254311,
+          "crestM": 393.9686584472656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248165",
+          "from": 252776,
+          "to": 254312,
+          "crestM": 393.772705078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248173,
+          "to": 249709,
+          "crestM": 407.2377014160156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248173,
+          "to": 249710,
+          "crestM": 406.88153076171875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248174,
+          "to": 249709,
+          "crestM": 407.2377014160156,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248174,
+          "to": 249710,
+          "crestM": 403.4425048828125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248174,
+          "to": 249711,
+          "crestM": 404.531494140625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248175,
+          "to": 249710,
+          "crestM": 404.1197814941406,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D248174",
+          "from": 248175,
+          "to": 249711,
+          "crestM": 404.531494140625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D154704",
+      "ids": [
+        "D154704"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 41,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D158546",
+      "ids": [
+        "D158546"
+      ],
+      "boundaries": 1,
+      "reaches": 8,
+      "cells": 24,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D162144",
+      "ids": [
+        "D162144"
+      ],
+      "boundaries": 1,
+      "reaches": 8,
+      "cells": 25,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D162153",
+      "ids": [
+        "D162153",
+        "D165228",
+        "D175967"
+      ],
+      "boundaries": 3,
+      "reaches": 152,
+      "cells": 455,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D162171",
+      "ids": [
+        "D162171"
+      ],
+      "boundaries": 1,
+      "reaches": 45,
+      "cells": 128,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D163176",
+      "ids": [
+        "D163176"
+      ],
+      "boundaries": 1,
+      "reaches": 6,
+      "cells": 22,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D166271",
+      "ids": [
+        "D166271",
+        "D169337",
+        "D173947",
+        "D175489"
+      ],
+      "boundaries": 4,
+      "reaches": 11,
+      "cells": 57,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D166271",
+          "from": 166271,
+          "to": 166272,
+          "crestM": 1079.1165771484375,
+          "kind": "foreign-catchment",
+          "targetNode": 153990
+        }
+      ]
+    },
+    {
+      "id": "D167091",
+      "ids": [
+        "D167091"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 21,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D169346",
+      "ids": [
+        "D169346"
+      ],
+      "boundaries": 1,
+      "reaches": 6,
+      "cells": 26,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D169346",
+          "from": 169346,
+          "to": 167811,
+          "crestM": 1223.9981689453125,
+          "kind": "foreign-catchment",
+          "targetNode": 153990
+        },
+        {
+          "id": "D169346",
+          "from": 169347,
+          "to": 167811,
+          "crestM": 1223.9981689453125,
+          "kind": "foreign-catchment",
+          "targetNode": 153990
+        }
+      ]
+    },
+    {
+      "id": "D171735",
+      "ids": [
+        "D171735"
+      ],
+      "boundaries": 1,
+      "reaches": 8,
+      "cells": 54,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D177045",
+      "ids": [
+        "D177045"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 8,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D177045",
+          "from": 177045,
+          "to": 177046,
+          "crestM": 1646.9759521484375,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D177052",
+      "ids": [
+        "D177052"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 19,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D177052",
+          "from": 177052,
+          "to": 175515,
+          "crestM": 1752.55810546875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D177067",
+      "ids": [
+        "D177067"
+      ],
+      "boundaries": 1,
+      "reaches": 8,
+      "cells": 28,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D177067",
+          "from": 177067,
+          "to": 175531,
+          "crestM": 1682.339111328125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D177067",
+          "from": 177068,
+          "to": 175531,
+          "crestM": 1682.339111328125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D177067",
+          "from": 177069,
+          "to": 177070,
+          "crestM": 1678.7713623046875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D177139",
+      "ids": [
+        "D177139"
+      ],
+      "boundaries": 1,
+      "reaches": 11,
+      "cells": 47,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D177139",
+          "from": 177139,
+          "to": 175602,
+          "crestM": 657.5390014648438,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D177821",
+      "ids": [
+        "D177821",
+        "D185509",
+        "D191651",
+        "D191657"
+      ],
+      "boundaries": 4,
+      "reaches": 56,
+      "cells": 372,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D177856",
+      "ids": [
+        "D177856"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D180233",
+      "ids": [
+        "D180233"
+      ],
+      "boundaries": 1,
+      "reaches": 13,
+      "cells": 46,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D180233",
+          "from": 180233,
+          "to": 178697,
+          "crestM": 698.459716796875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D180233",
+          "from": 180233,
+          "to": 178698,
+          "crestM": 696.8624267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D180233",
+          "from": 180234,
+          "to": 178697,
+          "crestM": 698.459716796875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D180233",
+          "from": 180234,
+          "to": 178698,
+          "crestM": 696.8624267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D180931",
+      "ids": [
+        "D180931"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D181687",
+      "ids": [
+        "D181687"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 19,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D181687",
+          "from": 181687,
+          "to": 180151,
+          "crestM": 1468.8525390625,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D183279",
+      "ids": [
+        "D183279"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 24,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D183279",
+          "from": 183279,
+          "to": 183278,
+          "crestM": 1617.258544921875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D183279",
+          "from": 184813,
+          "to": 183278,
+          "crestM": 1617.258544921875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D183279",
+          "from": 184814,
+          "to": 183278,
+          "crestM": 1617.258544921875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        },
+        {
+          "id": "D183279",
+          "from": 184815,
+          "to": 183278,
+          "crestM": 1617.258544921875,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D183357",
+      "ids": [
+        "D183357"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 17,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D183357",
+          "from": 183357,
+          "to": 181820,
+          "crestM": 1777.2642822265625,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D185162",
+      "ids": [
+        "D185162"
+      ],
+      "boundaries": 1,
+      "reaches": 14,
+      "cells": 44,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D185570",
+      "ids": [
+        "D185570"
+      ],
+      "boundaries": 1,
+      "reaches": 29,
+      "cells": 92,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D186422",
+      "ids": [
+        "D186422"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 26,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D186422",
+          "from": 186422,
+          "to": 184885,
+          "crestM": 1873.482666015625,
+          "kind": "foreign-catchment",
+          "targetNode": 155640
+        }
+      ]
+    },
+    {
+      "id": "D201548",
+      "ids": [
+        "D201548"
+      ],
+      "boundaries": 1,
+      "reaches": 11,
+      "cells": 27,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D210141",
+      "ids": [
+        "D210141",
+        "D213213",
+        "D219360"
+      ],
+      "boundaries": 3,
+      "reaches": 7,
+      "cells": 43,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D211645",
+      "ids": [
+        "D211645",
+        "D217796",
+        "D219336"
+      ],
+      "boundaries": 3,
+      "reaches": 60,
+      "cells": 403,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D211645",
+          "from": 217786,
+          "to": 219321,
+          "crestM": 318.08502197265625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 219322,
+          "to": 219321,
+          "crestM": 316.4411926269531,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 219322,
+          "to": 220857,
+          "crestM": 315.1275634765625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 219322,
+          "to": 220858,
+          "crestM": 315.54864501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 219323,
+          "to": 220858,
+          "crestM": 315.54864501953125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 220859,
+          "to": 220858,
+          "crestM": 315.6746826171875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 220859,
+          "to": 222394,
+          "crestM": 316.2957763671875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 220859,
+          "to": 222395,
+          "crestM": 319.20477294921875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D211645",
+          "from": 220860,
+          "to": 222395,
+          "crestM": 319.20477294921875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 219335,
+          "to": 220872,
+          "crestM": 324.2332458496094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 219336,
+          "to": 220872,
+          "crestM": 324.2332458496094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 219336,
+          "to": 220873,
+          "crestM": 321.3040466308594,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 220871,
+          "to": 220872,
+          "crestM": 325.9158630371094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 220871,
+          "to": 222407,
+          "crestM": 325.9158630371094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D219336",
+          "from": 220871,
+          "to": 222408,
+          "crestM": 325.9158630371094,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D222338",
+      "ids": [
+        "D222338"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D222338",
+          "from": 222337,
+          "to": 220800,
+          "crestM": 300.16278076171875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222337,
+          "to": 222336,
+          "crestM": 300.2043151855469,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222337,
+          "to": 223872,
+          "crestM": 298.4828186035156,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222337,
+          "to": 223873,
+          "crestM": 298.4828186035156,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222337,
+          "to": 223874,
+          "crestM": 301.5461730957031,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222338,
+          "to": 223873,
+          "crestM": 296.7041320800781,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222338,
+          "to": 223874,
+          "crestM": 301.5461730957031,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D222338",
+          "from": 222339,
+          "to": 223874,
+          "crestM": 301.5461730957031,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D223965",
+      "ids": [
+        "D223965"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 28,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D223965",
+          "from": 227037,
+          "to": 227036,
+          "crestM": 2230.688720703125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D223965",
+          "from": 228573,
+          "to": 227036,
+          "crestM": 2230.688720703125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D225378",
+      "ids": [
+        "D225378"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 25,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D225378",
+          "from": 225379,
+          "to": 226916,
+          "crestM": 312.89813232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225380,
+          "to": 226916,
+          "crestM": 312.89813232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225380,
+          "to": 226917,
+          "crestM": 311.7189025878906,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225381,
+          "to": 226916,
+          "crestM": 312.89813232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225381,
+          "to": 226917,
+          "crestM": 311.7189025878906,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225381,
+          "to": 226918,
+          "crestM": 311.8498840332031,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225382,
+          "to": 223847,
+          "crestM": 313.2923583984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225382,
+          "to": 225383,
+          "crestM": 315.7662048339844,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225382,
+          "to": 226917,
+          "crestM": 313.2923583984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225382,
+          "to": 226918,
+          "crestM": 313.2923583984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 225382,
+          "to": 226919,
+          "crestM": 313.2923583984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226913,
+          "to": 228448,
+          "crestM": 312.4922180175781,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226913,
+          "to": 228449,
+          "crestM": 312.4922180175781,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226913,
+          "to": 228450,
+          "crestM": 312.4922180175781,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226914,
+          "to": 228449,
+          "crestM": 312.3692321777344,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226914,
+          "to": 228450,
+          "crestM": 312.18438720703125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226914,
+          "to": 228451,
+          "crestM": 314.9368896484375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226915,
+          "to": 226916,
+          "crestM": 312.89813232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226915,
+          "to": 228450,
+          "crestM": 312.18438720703125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D225378",
+          "from": 226915,
+          "to": 228451,
+          "crestM": 314.9368896484375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D228351",
+      "ids": [
+        "D228351",
+        "D239090",
+        "D240629"
+      ],
+      "boundaries": 3,
+      "reaches": 95,
+      "cells": 412,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D240629",
+          "from": 240628,
+          "to": 242163,
+          "crestM": 382.8563537597656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240628,
+          "to": 242164,
+          "crestM": 382.8563537597656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240628,
+          "to": 242165,
+          "crestM": 382.8563537597656,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240629,
+          "to": 242164,
+          "crestM": 381.2358093261719,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240629,
+          "to": 242165,
+          "crestM": 381.1480407714844,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240629,
+          "to": 242166,
+          "crestM": 381.52392578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240630,
+          "to": 242165,
+          "crestM": 381.1480407714844,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240630,
+          "to": 242166,
+          "crestM": 381.52392578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 240631,
+          "to": 242166,
+          "crestM": 381.52392578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D240629",
+          "from": 242167,
+          "to": 242166,
+          "crestM": 381.52392578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D231441",
+      "ids": [
+        "D231441",
+        "D242195",
+        "D252941"
+      ],
+      "boundaries": 3,
+      "reaches": 74,
+      "cells": 402,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D242195",
+          "from": 249876,
+          "to": 251413,
+          "crestM": 345.780029296875,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D242195",
+          "from": 249877,
+          "to": 251413,
+          "crestM": 345.780029296875,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D242195",
+          "from": 251411,
+          "to": 252948,
+          "crestM": 349.3442077636719,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D242195",
+          "from": 251412,
+          "to": 251413,
+          "crestM": 345.780029296875,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D242195",
+          "from": 251412,
+          "to": 252948,
+          "crestM": 349.3442077636719,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        },
+        {
+          "id": "D242195",
+          "from": 251412,
+          "to": 252949,
+          "crestM": 346.9453125,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        }
+      ]
+    },
+    {
+      "id": "D242063",
+      "ids": [
+        "D242063"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 17,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D242063",
+          "from": 240528,
+          "to": 242065,
+          "crestM": 409.5557556152344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 240529,
+          "to": 242065,
+          "crestM": 413.061767578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 240529,
+          "to": 242066,
+          "crestM": 413.061767578125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 242063,
+          "to": 243600,
+          "crestM": 410.89520263671875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 242064,
+          "to": 242065,
+          "crestM": 409.00439453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 242064,
+          "to": 243600,
+          "crestM": 410.89520263671875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 242064,
+          "to": 243601,
+          "crestM": 408.1006774902344,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 243599,
+          "to": 243600,
+          "crestM": 412.134765625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 243599,
+          "to": 245134,
+          "crestM": 412.134765625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 243599,
+          "to": 245135,
+          "crestM": 412.134765625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D242063",
+          "from": 243599,
+          "to": 245136,
+          "crestM": 412.134765625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D246870",
+      "ids": [
+        "D246870"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 126,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D246870",
+          "from": 246871,
+          "to": 246872,
+          "crestM": 319.4682312011719,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 246871,
+          "to": 248408,
+          "crestM": 317.0872497558594,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 248406,
+          "to": 249943,
+          "crestM": 318.03851318359375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 248407,
+          "to": 246872,
+          "crestM": 319.4682312011719,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 248407,
+          "to": 248408,
+          "crestM": 315.1434631347656,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 248407,
+          "to": 249943,
+          "crestM": 318.03851318359375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D246870",
+          "from": 248407,
+          "to": 249944,
+          "crestM": 314.78863525390625,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D246998",
+      "ids": [
+        "D246998"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D246998",
+          "from": 246998,
+          "to": 246997,
+          "crestM": 2822.89892578125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D247021",
+      "ids": [
+        "D247021"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 11,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D250088",
+      "ids": [
+        "D250088"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 22,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D254655",
+      "ids": [
+        "D254655",
+        "D257738",
+        "D263880"
+      ],
+      "boundaries": 3,
+      "reaches": 52,
+      "cells": 97,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D254655",
+          "from": 254655,
+          "to": 253119,
+          "crestM": 1243.9892578125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D254688",
+      "ids": [
+        "D254688"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D259294",
+      "ids": [
+        "D259294",
+        "D279275",
+        "D279278",
+        "D280805",
+        "D283877"
+      ],
+      "boundaries": 5,
+      "reaches": 140,
+      "cells": 486,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D261938",
+      "ids": [
+        "D261938",
+        "D265006",
+        "D269620"
+      ],
+      "boundaries": 3,
+      "reaches": 14,
+      "cells": 45,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D261938",
+          "from": 261939,
+          "to": 260404,
+          "crestM": 3240.181884765625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D269620",
+          "from": 269620,
+          "to": 268084,
+          "crestM": 5032.02783203125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D263464",
+      "ids": [
+        "D263464",
+        "D281933",
+        "D291095",
+        "D295730",
+        "D298785",
+        "D298790",
+        "D298795",
+        "D298808",
+        "D304925",
+        "D304935",
+        "D308026",
+        "D309530",
+        "D317216",
+        "D317234"
+      ],
+      "boundaries": 14,
+      "reaches": 256,
+      "cells": 1604,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D264980",
+      "ids": [
+        "D264980",
+        "D274172",
+        "D275711",
+        "D278788",
+        "D283371",
+        "D294152",
+        "D294161",
+        "D295670",
+        "D295675",
+        "D297203",
+        "D298745",
+        "D301808",
+        "D304905",
+        "D307977"
+      ],
+      "boundaries": 14,
+      "reaches": 249,
+      "cells": 1028,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D265400",
+      "ids": [
+        "D265400"
+      ],
+      "boundaries": 1,
+      "reaches": 6,
+      "cells": 21,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D265400",
+          "from": 265400,
+          "to": 263864,
+          "crestM": 3290.5673828125,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D266947",
+      "ids": [
+        "D266947"
+      ],
+      "boundaries": 1,
+      "reaches": 12,
+      "cells": 23,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D269989",
+      "ids": [
+        "D269989"
+      ],
+      "boundaries": 1,
+      "reaches": 9,
+      "cells": 16,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D269989",
+          "from": 269989,
+          "to": 268452,
+          "crestM": 3378.988037109375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D269989",
+          "from": 269989,
+          "to": 269988,
+          "crestM": 3377.81005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D269989",
+          "from": 271524,
+          "to": 269988,
+          "crestM": 3377.81005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        },
+        {
+          "id": "D269989",
+          "from": 271525,
+          "to": 269988,
+          "crestM": 3377.81005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D270955",
+      "ids": [
+        "D270955"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D272526",
+      "ids": [
+        "D272526",
+        "D278669"
+      ],
+      "boundaries": 2,
+      "reaches": 19,
+      "cells": 50,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D275779",
+      "ids": [
+        "D275779"
+      ],
+      "boundaries": 1,
+      "reaches": 12,
+      "cells": 21,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D275779",
+          "from": 275782,
+          "to": 274247,
+          "crestM": 3963.44482421875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D278690",
+      "ids": [
+        "D278690"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D278699",
+      "ids": [
+        "D278699"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 10,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D278706",
+      "ids": [
+        "D278706"
+      ],
+      "boundaries": 1,
+      "reaches": 8,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D281940",
+      "ids": [
+        "D281940"
+      ],
+      "boundaries": 1,
+      "reaches": 15,
+      "cells": 21,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D281940",
+          "from": 281940,
+          "to": 280404,
+          "crestM": 3451.86083984375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D283341",
+      "ids": [
+        "D283341"
+      ],
+      "boundaries": 1,
+      "reaches": 25,
+      "cells": 57,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D285063",
+      "ids": [
+        "D285063",
+        "D301964",
+        "D301970",
+        "D306570",
+        "D311175"
+      ],
+      "boundaries": 5,
+      "reaches": 0,
+      "cells": 213,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D285063",
+          "from": 285063,
+          "to": 283526,
+          "crestM": 746.1544189453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285063",
+          "from": 285063,
+          "to": 283527,
+          "crestM": 748.1163330078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285063",
+          "from": 285064,
+          "to": 283527,
+          "crestM": 748.1163330078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D285075",
+      "ids": [
+        "D285075"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 71,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D285075",
+          "from": 285075,
+          "to": 283539,
+          "crestM": 772.966064453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285075",
+          "from": 285075,
+          "to": 283540,
+          "crestM": 772.4971923828125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285075",
+          "from": 285076,
+          "to": 283539,
+          "crestM": 772.966064453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285075",
+          "from": 285076,
+          "to": 283540,
+          "crestM": 772.4971923828125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D285075",
+          "from": 286614,
+          "to": 286615,
+          "crestM": 774.2515258789062,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D291474",
+      "ids": [
+        "D291474"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 2,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D294250",
+      "ids": [
+        "D294250"
+      ],
+      "boundaries": 1,
+      "reaches": 17,
+      "cells": 22,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D294250",
+          "from": 294250,
+          "to": 292715,
+          "crestM": 3192.417724609375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D294314",
+      "ids": [
+        "D294314",
+        "D297382",
+        "D303526",
+        "D306589",
+        "D312731",
+        "D312742"
+      ],
+      "boundaries": 6,
+      "reaches": 2,
+      "cells": 252,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D294314",
+          "from": 294314,
+          "to": 292778,
+          "crestM": 1264.6226806640625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D294314",
+          "from": 294314,
+          "to": 292779,
+          "crestM": 1267.564453125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D294524",
+      "ids": [
+        "D294524"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 5,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D294524",
+          "from": 294524,
+          "to": 294523,
+          "crestM": 4717.9833984375,
+          "kind": "foreign-catchment",
+          "targetNode": 239286
+        }
+      ]
+    },
+    {
+      "id": "D294618",
+      "ids": [
+        "D294618"
+      ],
+      "boundaries": 1,
+      "reaches": 13,
+      "cells": 17,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D295508",
+      "ids": [
+        "D295508",
+        "D298572",
+        "D298584",
+        "D300113"
+      ],
+      "boundaries": 4,
+      "reaches": 195,
+      "cells": 606,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D295800",
+      "ids": [
+        "D295800"
+      ],
+      "boundaries": 1,
+      "reaches": 33,
+      "cells": 69,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D295800",
+          "from": 295800,
+          "to": 294264,
+          "crestM": 1317.7713623046875,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D297401",
+      "ids": [
+        "D297401",
+        "D300469"
+      ],
+      "boundaries": 2,
+      "reaches": 2,
+      "cells": 65,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D297401",
+          "from": 297401,
+          "to": 295866,
+          "crestM": 2077.03662109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D297401",
+          "from": 297401,
+          "to": 297402,
+          "crestM": 2081.285400390625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D298619",
+      "ids": [
+        "D298619",
+        "D303221"
+      ],
+      "boundaries": 2,
+      "reaches": 117,
+      "cells": 383,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D298719",
+      "ids": [
+        "D298719",
+        "D303327"
+      ],
+      "boundaries": 2,
+      "reaches": 93,
+      "cells": 256,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D300499",
+      "ids": [
+        "D300499",
+        "D302044",
+        "D308175",
+        "D309723",
+        "D312794",
+        "D320473"
+      ],
+      "boundaries": 6,
+      "reaches": 16,
+      "cells": 203,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D300499",
+          "from": 300499,
+          "to": 298962,
+          "crestM": 1729.0601806640625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D302020",
+      "ids": [
+        "D302020"
+      ],
+      "boundaries": 1,
+      "reaches": 22,
+      "cells": 65,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D302020",
+          "from": 302020,
+          "to": 300484,
+          "crestM": 1582.460205078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D302020",
+          "from": 302020,
+          "to": 300485,
+          "crestM": 1580.537109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D302020",
+          "from": 302021,
+          "to": 300484,
+          "crestM": 1582.460205078125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D302020",
+          "from": 302021,
+          "to": 300485,
+          "crestM": 1580.537109375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D302065",
+      "ids": [
+        "D302065",
+        "D305130",
+        "D312802",
+        "D314353"
+      ],
+      "boundaries": 4,
+      "reaches": 0,
+      "cells": 187,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D302065",
+          "from": 302066,
+          "to": 300531,
+          "crestM": 1692.3173828125,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D302184",
+      "ids": [
+        "D302184"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D302184",
+          "from": 302184,
+          "to": 300647,
+          "crestM": 3786.81298828125,
+          "kind": "foreign-catchment",
+          "targetNode": 279138
+        }
+      ]
+    },
+    {
+      "id": "D303548",
+      "ids": [
+        "D303548",
+        "D309692",
+        "D314298"
+      ],
+      "boundaries": 3,
+      "reaches": 0,
+      "cells": 67,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D303548",
+          "from": 303548,
+          "to": 302012,
+          "crestM": 3256.537353515625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D303548",
+          "from": 303549,
+          "to": 302012,
+          "crestM": 3256.537353515625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D304605",
+      "ids": [
+        "D304605"
+      ],
+      "boundaries": 1,
+      "reaches": 17,
+      "cells": 69,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D305046",
+      "ids": [
+        "D305046",
+        "D308115"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 58,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D305046",
+          "from": 305046,
+          "to": 303511,
+          "crestM": 3159.156005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D305046",
+          "from": 305047,
+          "to": 303511,
+          "crestM": 3159.156005859375,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D305168",
+      "ids": [
+        "D305168"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 18,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D305168",
+          "from": 305168,
+          "to": 305169,
+          "crestM": 1577.42529296875,
+          "kind": "foreign-catchment",
+          "targetNode": 279066
+        }
+      ]
+    },
+    {
+      "id": "D305176",
+      "ids": [
+        "D305176",
+        "D317462"
+      ],
+      "boundaries": 2,
+      "reaches": 23,
+      "cells": 127,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D305176",
+          "from": 305176,
+          "to": 303640,
+          "crestM": 1446.508544921875,
+          "kind": "foreign-catchment",
+          "targetNode": 279066
+        }
+      ]
+    },
+    {
+      "id": "D305227",
+      "ids": [
+        "D305227"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D305227",
+          "from": 305227,
+          "to": 303690,
+          "crestM": 2506.230712890625,
+          "kind": "foreign-catchment",
+          "targetNode": 266828
+        }
+      ]
+    },
+    {
+      "id": "D306541",
+      "ids": [
+        "D306541"
+      ],
+      "boundaries": 1,
+      "reaches": 19,
+      "cells": 33,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D306541",
+          "from": 306541,
+          "to": 308077,
+          "crestM": 2822.3759765625,
+          "kind": "foreign-catchment",
+          "targetNode": 315732
+        },
+        {
+          "id": "D306541",
+          "from": 306542,
+          "to": 308077,
+          "crestM": 2822.3759765625,
+          "kind": "foreign-catchment",
+          "targetNode": 315732
+        }
+      ]
+    },
+    {
+      "id": "D309172",
+      "ids": [
+        "D309172"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D309796",
+      "ids": [
+        "D309796",
+        "D311329",
+        "D317477",
+        "D322090"
+      ],
+      "boundaries": 4,
+      "reaches": 60,
+      "cells": 116,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D309796",
+          "from": 309798,
+          "to": 308263,
+          "crestM": 2769.46240234375,
+          "kind": "foreign-catchment",
+          "targetNode": 272937
+        }
+      ]
+    },
+    {
+      "id": "D309820",
+      "ids": [
+        "D309820"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 8,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D309820",
+          "from": 309820,
+          "to": 309821,
+          "crestM": 2845.46923828125,
+          "kind": "foreign-catchment",
+          "targetNode": 272957
+        }
+      ]
+    },
+    {
+      "id": "D309829",
+      "ids": [
+        "D309829"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 3,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D309829",
+          "from": 309829,
+          "to": 309830,
+          "crestM": 2729.84375,
+          "kind": "foreign-catchment",
+          "targetNode": 266828
+        }
+      ]
+    },
+    {
+      "id": "D311158",
+      "ids": [
+        "D311158"
+      ],
+      "boundaries": 1,
+      "reaches": 11,
+      "cells": 19,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D311158",
+          "from": 311158,
+          "to": 312693,
+          "crestM": 2985.534912109375,
+          "kind": "foreign-catchment",
+          "targetNode": 315732
+        }
+      ]
+    },
+    {
+      "id": "D312255",
+      "ids": [
+        "D312255"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D312836",
+      "ids": [
+        "D312836"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 66,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D312836",
+          "from": 312836,
+          "to": 311300,
+          "crestM": 3220.32275390625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        },
+        {
+          "id": "D312836",
+          "from": 312837,
+          "to": 311300,
+          "crestM": 3220.32275390625,
+          "kind": "foreign-catchment",
+          "targetNode": 268148
+        }
+      ]
+    },
+    {
+      "id": "D312839",
+      "ids": [
+        "D312839"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 4,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D312839",
+          "from": 312839,
+          "to": 312840,
+          "crestM": 3257.7734375,
+          "kind": "foreign-catchment",
+          "targetNode": 257562
+        }
+      ]
+    },
+    {
+      "id": "D312883",
+      "ids": [
+        "D312883",
+        "D323635"
+      ],
+      "boundaries": 2,
+      "reaches": 32,
+      "cells": 61,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D312883",
+          "from": 312883,
+          "to": 311346,
+          "crestM": 3031.0009765625,
+          "kind": "foreign-catchment",
+          "targetNode": 272937
+        },
+        {
+          "id": "D312883",
+          "from": 312883,
+          "to": 312882,
+          "crestM": 3033.8828125,
+          "kind": "foreign-catchment",
+          "targetNode": 272937
+        },
+        {
+          "id": "D312883",
+          "from": 314419,
+          "to": 312882,
+          "crestM": 3033.8828125,
+          "kind": "foreign-catchment",
+          "targetNode": 272937
+        }
+      ]
+    },
+    {
+      "id": "D312918",
+      "ids": [
+        "D312918"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D312918",
+          "from": 312918,
+          "to": 311381,
+          "crestM": 3952.425048828125,
+          "kind": "foreign-catchment",
+          "targetNode": 266828
+        }
+      ]
+    },
+    {
+      "id": "D317503",
+      "ids": [
+        "D317503",
+        "D320571",
+        "D322115"
+      ],
+      "boundaries": 3,
+      "reaches": 6,
+      "cells": 53,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D317503",
+          "from": 317503,
+          "to": 315966,
+          "crestM": 3884.9599609375,
+          "kind": "foreign-catchment",
+          "targetNode": 272957
+        }
+      ]
+    },
+    {
+      "id": "D318414",
+      "ids": [
+        "D318414"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D321511",
+      "ids": [
+        "D321511"
+      ],
+      "boundaries": 1,
+      "reaches": 19,
+      "cells": 28,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D321905",
+      "ids": [
+        "D321905"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 15,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D321905",
+          "from": 321905,
+          "to": 321904,
+          "crestM": 1016.686279296875,
+          "kind": "foreign-catchment",
+          "targetNode": 337251
+        }
+      ]
+    },
+    {
+      "id": "D321912",
+      "ids": [
+        "D321912"
+      ],
+      "boundaries": 1,
+      "reaches": 23,
+      "cells": 88,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D321912",
+          "from": 321912,
+          "to": 323447,
+          "crestM": 1238.9534912109375,
+          "kind": "foreign-catchment",
+          "targetNode": 337251
+        },
+        {
+          "id": "D321912",
+          "from": 323448,
+          "to": 323447,
+          "crestM": 1238.9534912109375,
+          "kind": "foreign-catchment",
+          "targetNode": 337251
+        }
+      ]
+    },
+    {
+      "id": "D324927",
+      "ids": [
+        "D324927",
+        "D326459"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 47,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D324927",
+          "from": 326463,
+          "to": 327999,
+          "crestM": 336.4201354980469,
+          "kind": "foreign-catchment",
+          "targetNode": 334148
+        },
+        {
+          "id": "D324927",
+          "from": 326464,
+          "to": 327999,
+          "crestM": 336.4201354980469,
+          "kind": "foreign-catchment",
+          "targetNode": 334148
+        }
+      ]
+    },
+    {
+      "id": "D327772",
+      "ids": [
+        "D327772"
+      ],
+      "boundaries": 1,
+      "reaches": 17,
+      "cells": 39,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D340265",
+      "ids": [
+        "D340265"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 64,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D340524",
+      "ids": [
+        "D340524"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 30,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D340524",
+          "from": 340524,
+          "to": 342059,
+          "crestM": 1641.3409423828125,
+          "kind": "foreign-catchment",
+          "targetNode": 371225
+        },
+        {
+          "id": "D340524",
+          "from": 342060,
+          "to": 342059,
+          "crestM": 1641.3409423828125,
+          "kind": "foreign-catchment",
+          "targetNode": 371225
+        }
+      ]
+    },
+    {
+      "id": "D346127",
+      "ids": [
+        "D346127"
+      ],
+      "boundaries": 1,
+      "reaches": 6,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D371369",
+      "ids": [
+        "D371369",
+        "D374444",
+        "D377499",
+        "D377512",
+        "D377523"
+      ],
+      "boundaries": 5,
+      "reaches": 2,
+      "cells": 261,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D377499",
+          "from": 375963,
+          "to": 374426,
+          "crestM": 443.9242248535156,
+          "kind": "foreign-catchment",
+          "targetNode": 371351
+        },
+        {
+          "id": "D377499",
+          "from": 375963,
+          "to": 375962,
+          "crestM": 443.9242248535156,
+          "kind": "foreign-catchment",
+          "targetNode": 371351
+        },
+        {
+          "id": "D377499",
+          "from": 375963,
+          "to": 377498,
+          "crestM": 443.9242248535156,
+          "kind": "foreign-catchment",
+          "targetNode": 371351
+        },
+        {
+          "id": "D377499",
+          "from": 377499,
+          "to": 375962,
+          "crestM": 442.7336730957031,
+          "kind": "foreign-catchment",
+          "targetNode": 371351
+        },
+        {
+          "id": "D377499",
+          "from": 377499,
+          "to": 377498,
+          "crestM": 440.26300048828125,
+          "kind": "foreign-catchment",
+          "targetNode": 371351
+        }
+      ]
+    },
+    {
+      "id": "D377528",
+      "ids": [
+        "D377528"
+      ],
+      "boundaries": 1,
+      "reaches": 30,
+      "cells": 147,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D405183",
+      "ids": [
+        "D405183"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D406683",
+      "ids": [
+        "D406683",
+        "D412829"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 136,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D412829",
+          "from": 412829,
+          "to": 411294,
+          "crestM": 407.7689514160156,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 412830,
+          "to": 411294,
+          "crestM": 407.7689514160156,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 412830,
+          "to": 411295,
+          "crestM": 403.2414855957031,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 412830,
+          "to": 412831,
+          "crestM": 405.0056457519531,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 414366,
+          "to": 412831,
+          "crestM": 405.0056457519531,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 414367,
+          "to": 412831,
+          "crestM": 405.0056457519531,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        },
+        {
+          "id": "D412829",
+          "from": 414368,
+          "to": 412831,
+          "crestM": 408.011474609375,
+          "kind": "foreign-catchment",
+          "targetNode": 400551
+        }
+      ]
+    },
+    {
+      "id": "D418838",
+      "ids": [
+        "D418838",
+        "D420368"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 60,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D420413",
+      "ids": [
+        "D420413"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 81,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D423497",
+      "ids": [
+        "D423497"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 17,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D423497",
+          "from": 421960,
+          "to": 423495,
+          "crestM": 533.2010498046875,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 421960,
+          "to": 423496,
+          "crestM": 532.1123046875,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 421961,
+          "to": 423496,
+          "crestM": 528.9503173828125,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 423497,
+          "to": 423496,
+          "crestM": 528.9462280273438,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 423497,
+          "to": 425032,
+          "crestM": 528.76171875,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 423497,
+          "to": 425033,
+          "crestM": 531.6136474609375,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        },
+        {
+          "id": "D423497",
+          "from": 423498,
+          "to": 425033,
+          "crestM": 531.6136474609375,
+          "kind": "foreign-catchment",
+          "targetNode": 435777
+        }
+      ]
+    },
+    {
+      "id": "D429725",
+      "ids": [
+        "D429725"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 115,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D429725",
+          "from": 431258,
+          "to": 429721,
+          "crestM": 414.2445068359375,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 431258,
+          "to": 431257,
+          "crestM": 412.610595703125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432790,
+          "to": 431253,
+          "crestM": 415.33428955078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432790,
+          "to": 431254,
+          "crestM": 415.33428955078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432790,
+          "to": 431255,
+          "crestM": 415.33428955078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432790,
+          "to": 432789,
+          "crestM": 415.33428955078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432791,
+          "to": 431254,
+          "crestM": 413.0857849121094,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432791,
+          "to": 431255,
+          "crestM": 412.8563232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432791,
+          "to": 431256,
+          "crestM": 412.8563232421875,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432792,
+          "to": 431255,
+          "crestM": 412.18475341796875,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432792,
+          "to": 431256,
+          "crestM": 411.0987243652344,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432792,
+          "to": 431257,
+          "crestM": 412.1225280761719,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432793,
+          "to": 431256,
+          "crestM": 411.0987243652344,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432793,
+          "to": 431257,
+          "crestM": 412.1225280761719,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D429725",
+          "from": 432794,
+          "to": 431257,
+          "crestM": 412.1225280761719,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        }
+      ]
+    },
+    {
+      "id": "D432530",
+      "ids": [
+        "D432530"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 7,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D432530",
+          "from": 432531,
+          "to": 432532,
+          "crestM": 401.3982849121094,
+          "kind": "foreign-catchment",
+          "targetNode": 424853
+        }
+      ]
+    },
+    {
+      "id": "D432551",
+      "ids": [
+        "D432551",
+        "D435620"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 74,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D432551",
+          "from": 432550,
+          "to": 431014,
+          "crestM": 409.0223693847656,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432550,
+          "to": 431015,
+          "crestM": 408.864990234375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432551,
+          "to": 431014,
+          "crestM": 409.0223693847656,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432551,
+          "to": 431015,
+          "crestM": 406.31890869140625,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432551,
+          "to": 431016,
+          "crestM": 406.67236328125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432551,
+          "to": 432552,
+          "crestM": 404.7160949707031,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 432551,
+          "to": 434088,
+          "crestM": 407.99267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 434087,
+          "to": 432552,
+          "crestM": 406.68310546875,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D432551",
+          "from": 434087,
+          "to": 434088,
+          "crestM": 407.99267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        }
+      ]
+    },
+    {
+      "id": "D432615",
+      "ids": [
+        "D432615",
+        "D438749",
+        "D441825"
+      ],
+      "boundaries": 3,
+      "reaches": 0,
+      "cells": 88,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D438749",
+          "from": 437214,
+          "to": 435677,
+          "crestM": 449.8988037109375,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 437214,
+          "to": 437213,
+          "crestM": 449.8988037109375,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 438749,
+          "to": 437212,
+          "crestM": 445.09014892578125,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 438749,
+          "to": 437213,
+          "crestM": 449.27203369140625,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 438749,
+          "to": 438748,
+          "crestM": 445.9744567871094,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 438750,
+          "to": 437213,
+          "crestM": 449.27203369140625,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        },
+        {
+          "id": "D438749",
+          "from": 440285,
+          "to": 438748,
+          "crestM": 448.5429992675781,
+          "kind": "foreign-catchment",
+          "targetNode": 424928
+        }
+      ]
+    },
+    {
+      "id": "D432716",
+      "ids": [
+        "D432716",
+        "D432732",
+        "D432740",
+        "D435805",
+        "D440402",
+        "D441904",
+        "D443442",
+        "D444983",
+        "D446525",
+        "D448063",
+        "D448085",
+        "D452683",
+        "D454211",
+        "D455754",
+        "D455770"
+      ],
+      "boundaries": 15,
+      "reaches": 32,
+      "cells": 1181,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D432740",
+          "from": 431205,
+          "to": 429670,
+          "crestM": 454.0406799316406,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 431205,
+          "to": 431206,
+          "crestM": 453.0896301269531,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432741,
+          "to": 431206,
+          "crestM": 452.2657165527344,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432742,
+          "to": 431206,
+          "crestM": 452.2657165527344,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432742,
+          "to": 431207,
+          "crestM": 451.9420471191406,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432743,
+          "to": 431206,
+          "crestM": 455.0089416503906,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432743,
+          "to": 431207,
+          "crestM": 455.0089416503906,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432743,
+          "to": 431208,
+          "crestM": 455.0089416503906,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        },
+        {
+          "id": "D432740",
+          "from": 432743,
+          "to": 432744,
+          "crestM": 455.367919921875,
+          "kind": "foreign-catchment",
+          "targetNode": 425069
+        }
+      ]
+    },
+    {
+      "id": "D435647",
+      "ids": [
+        "D435647"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 30,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D435647",
+          "from": 434111,
+          "to": 432574,
+          "crestM": 402.197021484375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 434111,
+          "to": 434110,
+          "crestM": 402.197021484375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 434111,
+          "to": 435646,
+          "crestM": 402.197021484375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 434112,
+          "to": 432577,
+          "crestM": 402.2198791503906,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 434112,
+          "to": 434113,
+          "crestM": 402.2198791503906,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435647,
+          "to": 434110,
+          "crestM": 399.1515808105469,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435647,
+          "to": 435646,
+          "crestM": 398.4775695800781,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435647,
+          "to": 437182,
+          "crestM": 403.2527770996094,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435648,
+          "to": 434113,
+          "crestM": 401.2524719238281,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435649,
+          "to": 434113,
+          "crestM": 401.2524719238281,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 435649,
+          "to": 434114,
+          "crestM": 401.25079345703125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 437183,
+          "to": 435646,
+          "crestM": 402.658447265625,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D435647",
+          "from": 437183,
+          "to": 437182,
+          "crestM": 403.2527770996094,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        }
+      ]
+    },
+    {
+      "id": "D438638",
+      "ids": [
+        "D438638"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 7,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D441749",
+      "ids": [
+        "D441749",
+        "D446361",
+        "D446396",
+        "D449429",
+        "D449479",
+        "D451004",
+        "D455602",
+        "D455608",
+        "D455622",
+        "D461741",
+        "D469434",
+        "D475569",
+        "D478647",
+        "D484805"
+      ],
+      "boundaries": 14,
+      "reaches": 109,
+      "cells": 1802,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D441749",
+          "from": 441749,
+          "to": 440212,
+          "crestM": 396.3845520019531,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D441749",
+          "from": 441749,
+          "to": 441748,
+          "crestM": 393.33984375,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D441749",
+          "from": 441749,
+          "to": 443284,
+          "crestM": 393.6257629394531,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D441749",
+          "from": 443285,
+          "to": 441748,
+          "crestM": 393.33984375,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D441749",
+          "from": 443285,
+          "to": 443284,
+          "crestM": 393.6257629394531,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D446396",
+          "from": 446395,
+          "to": 444858,
+          "crestM": 410.4963073730469,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446395,
+          "to": 444859,
+          "crestM": 410.4963073730469,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446395,
+          "to": 444860,
+          "crestM": 410.4963073730469,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446395,
+          "to": 446394,
+          "crestM": 412.18597412109375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446396,
+          "to": 444859,
+          "crestM": 408.9013977050781,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446396,
+          "to": 444860,
+          "crestM": 409.2932434082031,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446396,
+          "to": 444861,
+          "crestM": 411.65802001953125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446397,
+          "to": 444860,
+          "crestM": 410.1138610839844,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446397,
+          "to": 444861,
+          "crestM": 411.65802001953125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 446398,
+          "to": 444861,
+          "crestM": 413.25390625,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D446396",
+          "from": 447931,
+          "to": 446394,
+          "crestM": 413.8005065917969,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D449429",
+          "from": 447894,
+          "to": 447893,
+          "crestM": 406.0201721191406,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D449429",
+          "from": 449429,
+          "to": 447892,
+          "crestM": 403.6392822265625,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D449429",
+          "from": 449429,
+          "to": 447893,
+          "crestM": 405.072509765625,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D449429",
+          "from": 449429,
+          "to": 449428,
+          "crestM": 404.2765808105469,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        },
+        {
+          "id": "D449429",
+          "from": 449430,
+          "to": 447893,
+          "crestM": 405.072509765625,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        }
+      ]
+    },
+    {
+      "id": "D441804",
+      "ids": [
+        "D441804"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 26,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D441804",
+          "from": 438735,
+          "to": 437198,
+          "crestM": 454.1866455078125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 438735,
+          "to": 438734,
+          "crestM": 454.062744140625,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440269,
+          "to": 438732,
+          "crestM": 453.8907775878906,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440269,
+          "to": 438733,
+          "crestM": 453.7684326171875,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440269,
+          "to": 438734,
+          "crestM": 453.7684326171875,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440270,
+          "to": 438733,
+          "crestM": 453.2398986816406,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440270,
+          "to": 438734,
+          "crestM": 452.3892517089844,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 440271,
+          "to": 438734,
+          "crestM": 452.9553527832031,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 441804,
+          "to": 440267,
+          "crestM": 454.304443359375,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 441804,
+          "to": 441803,
+          "crestM": 449.805419921875,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 441804,
+          "to": 443339,
+          "crestM": 450.9567565917969,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 443340,
+          "to": 441803,
+          "crestM": 451.21124267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        },
+        {
+          "id": "D441804",
+          "from": 443340,
+          "to": 443339,
+          "crestM": 451.21124267578125,
+          "kind": "foreign-catchment",
+          "targetNode": 431031
+        }
+      ]
+    },
+    {
+      "id": "D445045",
+      "ids": [
+        "D445045"
+      ],
+      "boundaries": 1,
+      "reaches": 50,
+      "cells": 581,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D445045",
+          "from": 443508,
+          "to": 441971,
+          "crestM": 460.9125671386719,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 443508,
+          "to": 441972,
+          "crestM": 460.41455078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 443508,
+          "to": 441973,
+          "crestM": 460.41455078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 443508,
+          "to": 443509,
+          "crestM": 460.41455078125,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 445045,
+          "to": 443509,
+          "crestM": 457.9706115722656,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 445045,
+          "to": 443510,
+          "crestM": 456.5032958984375,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 445046,
+          "to": 443509,
+          "crestM": 457.9706115722656,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        },
+        {
+          "id": "D445045",
+          "from": 445046,
+          "to": 443510,
+          "crestM": 456.5032958984375,
+          "kind": "foreign-catchment",
+          "targetNode": 426636
+        }
+      ]
+    },
+    {
+      "id": "D449489",
+      "ids": [
+        "D449489"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 36,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D449687",
+      "ids": [
+        "D449687"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 116,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D454014",
+      "ids": [
+        "D454014"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D454014",
+          "from": 454014,
+          "to": 455551,
+          "crestM": 1988.97900390625,
+          "kind": "foreign-catchment",
+          "targetNode": 441740
+        }
+      ]
+    },
+    {
+      "id": "D455832",
+      "ids": [
+        "D455832"
+      ],
+      "boundaries": 1,
+      "reaches": 9,
+      "cells": 101,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D463240",
+      "ids": [
+        "D463240"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 5,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D471168",
+      "ids": [
+        "D471168"
+      ],
+      "boundaries": 1,
+      "reaches": 7,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D474929",
+      "ids": [
+        "D474929",
+        "D484148"
+      ],
+      "boundaries": 2,
+      "reaches": 46,
+      "cells": 93,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D475783",
+      "ids": [
+        "D475783"
+      ],
+      "boundaries": 1,
+      "reaches": 9,
+      "cells": 25,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D500145",
+      "ids": [
+        "D500145"
+      ],
+      "boundaries": 1,
+      "reaches": 10,
+      "cells": 15,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D505625",
+      "ids": [
+        "D505625"
+      ],
+      "boundaries": 1,
+      "reaches": 52,
+      "cells": 193,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D507864",
+      "ids": [
+        "D507864",
+        "D529367"
+      ],
+      "boundaries": 2,
+      "reaches": 45,
+      "cells": 173,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D511784",
+      "ids": [
+        "D511784"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 2,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D517092",
+      "ids": [
+        "D517092"
+      ],
+      "boundaries": 1,
+      "reaches": 30,
+      "cells": 100,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D517906",
+      "ids": [
+        "D517906"
+      ],
+      "boundaries": 1,
+      "reaches": 22,
+      "cells": 204,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D520136",
+      "ids": [
+        "D520136"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D533309",
+      "ids": [
+        "D533309"
+      ],
+      "boundaries": 1,
+      "reaches": 19,
+      "cells": 28,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D533373",
+      "ids": [
+        "D533373"
+      ],
+      "boundaries": 1,
+      "reaches": 20,
+      "cells": 30,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D536327",
+      "ids": [
+        "D536327",
+        "D544008",
+        "D553223",
+        "D567047",
+        "D576306",
+        "D576311",
+        "D583995",
+        "D590094",
+        "D590147",
+        "D590153",
+        "D594689",
+        "D597796",
+        "D600819",
+        "D610032",
+        "D613130",
+        "D616187",
+        "D616195",
+        "D622362",
+        "D626951",
+        "D630008",
+        "D634713",
+        "D636188",
+        "D636260",
+        "D640778",
+        "D642335",
+        "D646932",
+        "D650093",
+        "D659312",
+        "D660843",
+        "D665433",
+        "D683804",
+        "D688459",
+        "D689944",
+        "D693020",
+        "D694602",
+        "D697678",
+        "D700697",
+        "D703805",
+        "D706847",
+        "D716060",
+        "D720670",
+        "D723770",
+        "D729929",
+        "D731426",
+        "D733004",
+        "D734519",
+        "D736049",
+        "D736070",
+        "D737573",
+        "D737618",
+        "D742191",
+        "D742232",
+        "D743741",
+        "D746847",
+        "D748340",
+        "D763735",
+        "D769872",
+        "D769893"
+      ],
+      "boundaries": 58,
+      "reaches": 349,
+      "cells": 11014,
+      "status": "geometry-held",
+      "reasons": [
+        {
+          "id": "D567047",
+          "reason": "native-contact-at-or-below-crest"
+        }
+      ],
+      "externalContacts": []
+    },
+    {
+      "id": "D537246",
+      "ids": [
+        "D537246"
+      ],
+      "boundaries": 1,
+      "reaches": 10,
+      "cells": 15,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D539451",
+      "ids": [
+        "D539451",
+        "D542512",
+        "D547139",
+        "D556340",
+        "D562490",
+        "D568618"
+      ],
+      "boundaries": 6,
+      "reaches": 379,
+      "cells": 1017,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D542601",
+      "ids": [
+        "D542601",
+        "D545650",
+        "D550271",
+        "D550283",
+        "D550289",
+        "D551814",
+        "D553329",
+        "D562558",
+        "D574846",
+        "D576340",
+        "D576351",
+        "D579437",
+        "D582482",
+        "D585562",
+        "D585568",
+        "D588659",
+        "D607076"
+      ],
+      "boundaries": 17,
+      "reaches": 159,
+      "cells": 1611,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D547833",
+      "ids": [
+        "D547833"
+      ],
+      "boundaries": 1,
+      "reaches": 7,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D558740",
+      "ids": [
+        "D558740"
+      ],
+      "boundaries": 1,
+      "reaches": 45,
+      "cells": 162,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D562506",
+      "ids": [
+        "D562506"
+      ],
+      "boundaries": 1,
+      "reaches": 38,
+      "cells": 116,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D564905",
+      "ids": [
+        "D564905"
+      ],
+      "boundaries": 1,
+      "reaches": 11,
+      "cells": 14,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D565495",
+      "ids": [
+        "D565495"
+      ],
+      "boundaries": 1,
+      "reaches": 2,
+      "cells": 9,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D570198",
+      "ids": [
+        "D570198"
+      ],
+      "boundaries": 1,
+      "reaches": 3,
+      "cells": 11,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D574091",
+      "ids": [
+        "D574091"
+      ],
+      "boundaries": 1,
+      "reaches": 13,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D574123",
+      "ids": [
+        "D574123"
+      ],
+      "boundaries": 1,
+      "reaches": 10,
+      "cells": 18,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D576248",
+      "ids": [
+        "D576248"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 24,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D577200",
+      "ids": [
+        "D577200"
+      ],
+      "boundaries": 1,
+      "reaches": 11,
+      "cells": 22,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D610982",
+      "ids": [
+        "D610982",
+        "D626340",
+        "D635569",
+        "D646330",
+        "D647850",
+        "D649373",
+        "D661675",
+        "D670904",
+        "D673942",
+        "D684737",
+        "D706237",
+        "D709292",
+        "D713873",
+        "D718477",
+        "D723065",
+        "D723157",
+        "D724662",
+        "D730803",
+        "D730812",
+        "D730821",
+        "D735389",
+        "D736940",
+        "D736951",
+        "D741487",
+        "D741561",
+        "D743030",
+        "D749195",
+        "D750681",
+        "D755305",
+        "D761536",
+        "D763043",
+        "D763080",
+        "D764508",
+        "D767603",
+        "D769225",
+        "D776901",
+        "D778364",
+        "D784529",
+        "D790713",
+        "D809127",
+        "D824536"
+      ],
+      "boundaries": 41,
+      "reaches": 622,
+      "cells": 10801,
+      "status": "geometry-held",
+      "reasons": [
+        {
+          "id": "D730812",
+          "reason": "face-below-internal-merge"
+        }
+      ],
+      "externalContacts": []
+    },
+    {
+      "id": "D613245",
+      "ids": [
+        "D613245"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 58,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D634088",
+      "ids": [
+        "D634088"
+      ],
+      "boundaries": 1,
+      "reaches": 51,
+      "cells": 96,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D634751",
+      "ids": [
+        "D634751",
+        "D650111"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 357,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D635618",
+      "ids": [
+        "D635618",
+        "D650976",
+        "D663262",
+        "D677106",
+        "D718564"
+      ],
+      "boundaries": 5,
+      "reaches": 424,
+      "cells": 1629,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D648452",
+      "ids": [
+        "D648452"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 32,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D656283",
+      "ids": [
+        "D656283",
+        "D662441",
+        "D663965",
+        "D667023",
+        "D676267",
+        "D682406",
+        "D687017",
+        "D688559",
+        "D694709"
+      ],
+      "boundaries": 9,
+      "reaches": 0,
+      "cells": 797,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D659432",
+      "ids": [
+        "D659432",
+        "D665556",
+        "D668603",
+        "D674767",
+        "D676283",
+        "D680941",
+        "D687065",
+        "D690145",
+        "D691657",
+        "D694737",
+        "D697836",
+        "D703974",
+        "D708558",
+        "D711614",
+        "D720877",
+        "D722382",
+        "D730092",
+        "D734699",
+        "D743926",
+        "D750035",
+        "D759255",
+        "D759289",
+        "D766958",
+        "D773113"
+      ],
+      "boundaries": 24,
+      "reaches": 360,
+      "cells": 4650,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D682349",
+      "ids": [
+        "D682349",
+        "D688499",
+        "D691581",
+        "D699246",
+        "D708517",
+        "D710027",
+        "D722343",
+        "D725421",
+        "D725431",
+        "D728498",
+        "D729964",
+        "D736157",
+        "D739194",
+        "D750017",
+        "D763808",
+        "D774583"
+      ],
+      "boundaries": 16,
+      "reaches": 110,
+      "cells": 3343,
+      "status": "geometry-held",
+      "reasons": [
+        {
+          "id": "D688499",
+          "reason": "face-below-internal-merge"
+        }
+      ],
+      "externalContacts": []
+    },
+    {
+      "id": "D749120",
+      "ids": [
+        "D749120",
+        "D750661"
+      ],
+      "boundaries": 2,
+      "reaches": 0,
+      "cells": 91,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D756815",
+      "ids": [
+        "D756815",
+        "D762966",
+        "D782923",
+        "D782929",
+        "D785990",
+        "D795192",
+        "D812102"
+      ],
+      "boundaries": 7,
+      "reaches": 104,
+      "cells": 1124,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D760049",
+      "ids": [
+        "D760049"
+      ],
+      "boundaries": 1,
+      "reaches": 30,
+      "cells": 502,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D763718",
+      "ids": [
+        "D763718"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 55,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D763761",
+      "ids": [
+        "D763761",
+        "D766841",
+        "D768371",
+        "D771457",
+        "D772995"
+      ],
+      "boundaries": 5,
+      "reaches": 18,
+      "cells": 829,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D764483",
+      "ids": [
+        "D764483"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 51,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D771499",
+      "ids": [
+        "D771499"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 5,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D783872",
+      "ids": [
+        "D783872",
+        "D788481"
+      ],
+      "boundaries": 2,
+      "reaches": 12,
+      "cells": 89,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": [
+        {
+          "id": "D783872",
+          "from": 783872,
+          "to": 782335,
+          "crestM": 327.01104736328125,
+          "kind": "foreign-catchment",
+          "targetNode": 774651
+        }
+      ]
+    },
+    {
+      "id": "D785978",
+      "ids": [
+        "D785978"
+      ],
+      "boundaries": 1,
+      "reaches": 4,
+      "cells": 32,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D791414",
+      "ids": [
+        "D791414"
+      ],
+      "boundaries": 1,
+      "reaches": 0,
+      "cells": 37,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D795378",
+      "ids": [
+        "D795378",
+        "D810740",
+        "D816891",
+        "D841458"
+      ],
+      "boundaries": 4,
+      "reaches": 78,
+      "cells": 926,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D798302",
+      "ids": [
+        "D798302",
+        "D802898",
+        "D802905",
+        "D804449"
+      ],
+      "boundaries": 4,
+      "reaches": 13,
+      "cells": 219,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D802830",
+      "ids": [
+        "D802830"
+      ],
+      "boundaries": 1,
+      "reaches": 26,
+      "cells": 62,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D806913",
+      "ids": [
+        "D806913",
+        "D822264"
+      ],
+      "boundaries": 2,
+      "reaches": 58,
+      "cells": 646,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D807575",
+      "ids": [
+        "D807575",
+        "D813697",
+        "D822899",
+        "D826013"
+      ],
+      "boundaries": 4,
+      "reaches": 189,
+      "cells": 1145,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D812058",
+      "ids": [
+        "D812058",
+        "D816640",
+        "D819738",
+        "D824328",
+        "D830468",
+        "D831998"
+      ],
+      "boundaries": 6,
+      "reaches": 106,
+      "cells": 536,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D844313",
+      "ids": [
+        "D844313"
+      ],
+      "boundaries": 1,
+      "reaches": 25,
+      "cells": 112,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D849098",
+      "ids": [
+        "D849098",
+        "D852162",
+        "D856758",
+        "D856796",
+        "D859821",
+        "D862910",
+        "D876714"
+      ],
+      "boundaries": 7,
+      "reaches": 300,
+      "cells": 1616,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D850580",
+      "ids": [
+        "D850580",
+        "D858218",
+        "D859760",
+        "D861308",
+        "D864384",
+        "D864387",
+        "D878225",
+        "D884363"
+      ],
+      "boundaries": 8,
+      "reaches": 213,
+      "cells": 1001,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D864347",
+      "ids": [
+        "D864347"
+      ],
+      "boundaries": 1,
+      "reaches": 62,
+      "cells": 307,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D890597",
+      "ids": [
+        "D890597"
+      ],
+      "boundaries": 1,
+      "reaches": 10,
+      "cells": 17,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D907493",
+      "ids": [
+        "D907493"
+      ],
+      "boundaries": 1,
+      "reaches": 5,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D915173",
+      "ids": [
+        "D915173"
+      ],
+      "boundaries": 1,
+      "reaches": 6,
+      "cells": 20,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    },
+    {
+      "id": "D944345",
+      "ids": [
+        "D944345"
+      ],
+      "boundaries": 1,
+      "reaches": 1,
+      "cells": 6,
+      "status": "ready",
+      "reasons": [],
+      "externalContacts": []
+    }
+  ]
+}
