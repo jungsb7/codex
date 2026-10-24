@@ -1,0 +1,10 @@
+{
+  "file": "review.json.gz",
+  "bytes": 296665,
+  "sha256": "36d59eebfcc5a890a1affc83de8abcb224971c613fe77b9201cdd7428bab709c",
+  "models": {
+    "file": "models.json.gz",
+    "bytes": 946005,
+    "sha256": "cfdcf4ea212b60e4a8cdc376db70cea1057bf56b70e74efd871cb98ba5f0887b"
+  }
+}

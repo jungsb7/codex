@@ -1,45 +1,37 @@
-GitHub 기반 인수인계 — 후속36 침투·유한 저장·출구 작동 후보 구현·검증·배포 완료, 2026-10-24
+GitHub 기반 인수인계 — 후속37 원본 지형·여러 출구 후보,2026-10-24
 
-jungsb7/codex 최신 main을 받고 로컬 변경을 보존한다. 후속36 기준은ffddacdf0e9fbc9d34497d3d118696014331b823이며 최신main은 더 새로울 수 있다.
+jungsb7/codex 최신main을 받고 로컬변경을 보존한다. 후속37 기준1cc0326686a4cfe63fffddd5ae260a9079e547bc.
+읽기:AGENTS.md,handoff/CURRENT_STATE.md,handoff/NEXT_GOALS.md,
+integration/natural-world/terrain-water-model/README.md,REPORT.md,validation/deployment.json.
+worldbuilding/WORLD_HANDOFF.md와handoff/FULL_ARCHIVE.md도준수.
 
-먼저 읽기:
-1. AGENTS.md, handoff/CURRENT_STATE.md, handoff/NEXT_GOALS.md
-2. integration/natural-world/finite-water-model/README.md, REPORT.md
-3. integration/natural-world/finite-water-model/validation/deployment.json
-4. integration/natural-world/finite-water-model/output/coverage.json
-5. worldbuilding/WORLD_HANDOFF.md, handoff/FULL_ARCHIVE.md
+사용자:23,022구간을끝내고싶으며연결숫자반복에불만.새가정후보구현/검증/배포진행허용,세계설정최종채택은별도.
 
-사용자 의도:23,022구간을 실제로 끝내고 싶으며 연결/검사 수 증가만 반복하는 것에 불만.
-이제 침투·유한 저장·지하수 복귀·출구 방류가 함께 작동하는 별도 후보를 구현했다.
-새 가정 구현은 진행하되 세계 설정 채택 여부는 아직 결정하지 않았으므로 actual:null 유지.
-
-후속36:
--새15+기존195=210모델검사,새12+기존12=24브라우저,AI17100조회/9JSON.
--30→60간격비교1.2552%실패후기본60으로올림.60→120주요누적차이최대0.624582%,경계공급대비최대0.184180%통과.
--세조건모두100년미처리0.실제설정채택/전체완료아님.
--D186192 상류57경계·11355격자·2637구간. 후속35 원본 계측/기하 재사용,10.2MB 복제 없음.
--토양200mm·대수층1000mm·침투1200mm/년·배수0.25년·복귀2년. 새 후보 가정.
--침투1/4와복귀4배 민감도. 눈/융설/증발산의 기존 기온식은 유지하며 빙설 열수지 완성 아님.
--출구폭은 원본 상류 누적유량을 기준으로 설계. 문턱 위5m 가상 수직기둥, 단방향 수위 함수/하류 진입 수위 대용값.
--실제 침수/다른출구/역류 아님. 범위 초과는 미처리량+실패상태. 전달 중 물도 재고 보존.
--다른20385구간에는 새 모델 미적용. 기존 원본장부2827 / 집계17428 / 자체보류2767 분류와 다른 지표.
--검증/배포 최종 수치·PR·Pages는REPORT 및validation에 기록. 실패/미완료 숨기지 않는다.
-
-배포:PR #16 병합5dec78fb3299e31bce93d61c0a0d013052c200ce,Pages39984782208의3작업성공.
-공개주소직접응답은환경제한으로미확인.최종인계문서커밋은더최신일수있음.
+후속37:
+-새18+기존210=228모델검사,새12+기존12=24브라우저,AI2838조건/경계조회·9JSON검증.
+-946경계/20065구간/117320원본격자 지형·유입배정일괄준비.4186추가기둥/5274동일하류출구면.
+-그중57경계/2637구간만원본기후로동적계산.210원본기둥추가.나머지889경계/17428구간은기후·초기저장계측전.
+-가상5m수직기둥대신원본지형단계별면적.같은하류출구에는총설계폭을나눔.실제강폭/침수지도아님.
+-다른집수권/호수/다른해양접촉에서57경계전체중단.미래강수와100년장부생성금지.
+-기준2.177778~2.179167년D221625→D200167에서중단.저침투0.130556~0.131944년D258447→D243078.느린복귀2.179167~2.180556년D221625.
+-기준60/120단계는같은접촉지점/상한시간.잔차0.061m³미만.마지막단계초과량은진단값,실제넘침량아님.
+-9곳기준문턱보다낮은출구+D567047기준문턱이하접촉은현재엔진적용전.지형준비를물리완료로표시금지.
+-D298591망3경계190구간/기존235보류2767구간보존.전체23,022구간완료아님.
+-검증/배포최종기록은REPORT및validation확인.원본10.2MB재사용,복제/추가원본게시없음.
 
 재현:
-node integration/natural-world/finite-water-model/build.cjs
-node --test --test-isolation=none integration/natural-world/finite-water-model/test.cjs
-node integration/natural-world/finite-water-model/convergence.cjs 120
-node integration/natural-world/finite-water-model/query.cjs reference D186192 100
-화면 integration/natural-world/finite-water-model/index.html
-annual은선택경계/연도, localTotals는경계100년,chain은57경계100년,global은전체혼합망100년.
-AI/화면/JSON은같은view.js.query. 가정/범위/한계/actual:null/automaticAdoption:false 함께 제공.
+node handoff/restore-inputs.cjs
+node integration/natural-world/terrain-water-model/prepare.cjs
+node integration/natural-world/terrain-water-model/build.cjs
+node --test --test-isolation=none integration/natural-world/terrain-water-model/test.cjs
+node integration/natural-world/terrain-water-model/query.cjs reference D221625 3
+AI/화면/JSON동일view.js.query.946조회가능하나computed:false는지역장부null.
+annual.complete:false는부분기간,stop/componentTotals는57경계공통.다른889경계결과로해석금지.
 
-다음은새모델일괄입력/전체적용,가상수직기둥을실제주변지형/대체출구로교체,고온·극지/빙설열수지공백해소.
-작은연결숫자반복으로회귀하지않는다. 완료날짜/남은회차근거없이약속금지.
-기존108보류·14중단,종료9곳및D193196/D126467/D147845/D144758내부계산재개금지.
-원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브 보존.
-전체3044원본은archive/full-handoff-20261020의4afae5da3a7730b79ced1d2b9b7a8bc3041689c0에별도보관,main병합금지.
-후속35 계측10.2MB 게시/배포는사용자명시승인으로완료. 과거자동거절해소,같은승인질문반복금지.
+다음:확인된D221625→D200167및D258447→D243078추가연결의양쪽수위/다중목적지후보계산;
+나머지889경계원본기후/초기저장일괄계측;낮은출구/기준문턱접촉10곳및고온극지/빙설공백해소.
+상한만높이거나원본수계자동수정금지.완료날짜/남은횟수근거없이약속금지.
+원본세계/경제/기후/지형/수계/마스크/구지도/전체아카이브보존.
+기존108보류·14중단,종료9곳/D193196/D126467/D147845/D144758내부계산재개금지.
+전체3044원본은archive/full-handoff-20261020의4afae5da3a7730b79ced1d2b9b7a8bc3041689c0에보존,main병합금지.
+후속35계측10.2MB게시승인/배포완료.과거자동거절해소,같은승인질문반복금지.

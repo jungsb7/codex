@@ -1,0 +1,20 @@
+'use strict';
+const fs=require('node:fs'),z=require('node:zlib'),crypto=require('node:crypto'),assert=require('node:assert/strict'),C=require('./core.cjs');
+const cfg=require('../finite-water-model/scenarios.json'),domains=require('./output/domains.json'),all=JSON.parse(z.gunzipSync(fs.readFileSync(__dirname+'/output/models.json.gz')));
+const old=require('../finite-water-model/output/summary.json'),ids=new Set(old.scenarios[0].boundaries.map(b=>b.id)),models=all.models.filter(m=>ids.has(m.id));
+const prepared=C.prepare(require('../inland-routing/output/catalog.json'),models,require('../basin-water-budget/source.cjs').read());
+const scenarios=cfg.scenarios.map(s=>{
+ const r=C.run(prepared,{...cfg.common,...s.changes});console.log(s.id,r.status,r.stop,r.totals.residualM3);
+ const before=old.scenarios.find(o=>o.id===s.id);
+ return {id:s.id,label:s.label,...r,geometryComparison:models.map(m=>{const d=domains.boundaries.find(d=>d.id===m.id),b=before.boundaries.find(b=>b.id===m.id);return {id:m.id,nativeRiseLimitM:d.riseM,limitKind:d.limitKind,original100YearPeakRiseM:b.maxSurchargeM,previousPeakBeyondDomain:b.maxSurchargeM>d.riseM,additionalColumns:d.additionalColumns};})};
+});
+const fine=C.run(prepared,{...cfg.common,substeps:120}),ref=scenarios[0];
+assert(ref.stop&&fine.stop,'Expected native-domain event');
+const refinement={schema:'terrain-water-event-refinement/1',scope:'all57-boundaries until first native-domain event; not100-year convergence',coarse:{substeps:60,stop:ref.stop,unresolvedM3:ref.totals.unresolvedM3,residualM3:ref.totals.residualM3},fine:{substeps:120,stop:fine.stop,unresolvedM3:fine.totals.unresolvedM3,residualM3:fine.totals.residualM3},eventUpperDifferenceYears:Math.abs(ref.elapsedYears-fine.elapsedYears)};
+refinement.sameTrigger=JSON.stringify(ref.stop.boundaries)===JSON.stringify(fine.stop.boundaries);
+refinement.status=refinement.sameTrigger&&refinement.eventUpperDifferenceYears<=2/(12*60)?'passed':'outside-tolerance';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),provenance={...domains.provenance,codeSha256:Object.fromEntries(['geometry.cjs','prepare.cjs','core.cjs','build.cjs'].map(p=>[p,hash(fs.readFileSync(__dirname+'/'+p))]))};
+const payload={schema:'terrain-water-review/1',provenance,scope:{...domains.summary,dynamicBoundaries:57,dynamicReaches:2637,dynamicSourceCells:11355,entireModelAdopted:false},domains:domains.boundaries,coverage:domains.coverage,scenarios,refinement,actual:{infiltrationM3:null,floodAreaM2:null,overflowM3:null},automaticAdoption:false};
+const b=z.gzipSync(JSON.stringify(payload),{level:9});fs.writeFileSync(__dirname+'/output/review.json.gz',b);fs.writeFileSync(__dirname+'/output/manifest.json',JSON.stringify({file:'review.json.gz',bytes:b.length,sha256:hash(b),models:{file:'models.json.gz',bytes:fs.statSync(__dirname+'/output/models.json.gz').size,sha256:hash(fs.readFileSync(__dirname+'/output/models.json.gz'))}},null,2)+'\n');
+fs.writeFileSync(__dirname+'/output/summary.json',JSON.stringify({...payload,domains:undefined,coverage:undefined,scenarios:scenarios.map(s=>({...s,boundaries:s.boundaries.map(({annual,...b})=>b)}))},null,2)+'\n');
+fs.writeFileSync(__dirname+'/validation/refinement.json',JSON.stringify(refinement,null,2)+'\n');console.log(JSON.stringify({scope:payload.scope,refinement,bytes:b.length},null,2));

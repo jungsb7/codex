@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "baseCommit": "1cc0326686a4cfe63fffddd5ae260a9079e547bc",
+  "newModelTests": 18,
+  "priorModelTests": 210,
+  "newBrowserChecks": 12,
+  "priorBrowserChecks": 12,
+  "aiSelections": 2838,
+  "downloads": 9,
+  "viewports": [
+    1440,
+    390,
+    320
+  ],
+  "preparedBoundaries": 946,
+  "preparedReaches": 20065,
+  "dynamicBoundaries": 57,
+  "dynamicReaches": 2637,
+  "originalFiles": 1132,
+  "unchangedFiles": 1127,
+  "referenceEventRefinement": "same trigger and upper time at60/120 steps",
+  "hundredYearCompletion": false,
+  "worldAdoption": false
+}

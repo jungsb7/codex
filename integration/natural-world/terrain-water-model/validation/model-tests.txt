@@ -1,0 +1,26 @@
+✔ same native downstream faces are collected without merging their catchment (2.052885ms)
+✔ independent flood proves the domain below and contact at the threshold (1.864177ms)
+✔ search ceiling means no contact found in range, never a permanently closed basin (0.25605ms)
+✔ lake and a different ocean contact stop without invented mask heights (0.471596ms)
+✔ D8 adjacency wraps longitude, clips latitude and has no duplicate/self edges (5.217352ms)
+✔ heap order is deterministic across ties (0.313018ms)
+✔ piecewise native expansion solves the independent layer-integrated outlet equation (1.657598ms)
+✔ multiple faces share total width, distinct crests and downstream suppression (2.280208ms)
+✔ fully blocked faces have exactly zero release and explicit excess inventory (0.331396ms)
+✔ all946 prepared geometries preserve original cells and disjoint source ownership (170.39992ms)
+✔ 946 domains have no foreign catchment cells; outlet faces retain original target (909.549489ms)
+✔ full coverage partitions23022 reaches without calling geometry-only work simulated (0.430592ms)
+✔ component stops at first contact, preserves overshoot, and does not fabricate remaining100 years (1.115367ms)
+✔ independent initial/final/transit sum closes whole-component external balance (0.482604ms)
+✔ 60/120 steps bracket the same first event; this is not a100-year convergence claim (0.439724ms)
+✔ all2838 AI selections distinguish geometry-only from stopped dynamic results (32.981761ms)
+✔ nine lower-reference outlets remain explicit model incompatibilities (0.334055ms)
+✔ simultaneous multiple-face transfers are independent of boundary iteration order (142.187286ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1401.651224

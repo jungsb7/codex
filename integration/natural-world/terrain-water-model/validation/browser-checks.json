@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checks": [
+    "946 prepared options with explicit assumption choice",
+    "nine downloads equal AI for dynamic and geometry-only boundaries",
+    "unsupported lower outlet keeps local dynamic values null",
+    "partial-year stop and native columns/outlet faces are visible",
+    "complete selection survives reload and history",
+    "future100-year and invalid selections clear stale results",
+    "1440/390/320 layouts fit diagram and tables",
+    "review.json.gz corruption and retry",
+    "models.json.gz corruption and retry",
+    "previous candidate links to terrain-aware successor",
+    "original map and new candidate navigation",
+    "all57 dynamically simulated boundaries render their own records"
+  ],
+  "downloads": 9,
+  "errors": [],
+  "viewports": [
+    1440,
+    390,
+    320
+  ]
+}
