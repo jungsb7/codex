@@ -1,0 +1,15 @@
+✔ Native piecewise terrain and outlet agree with direct-column bisection (17.050516ms)
+✔ Two connected ponds exchange exactly once and preserve water (97.140345ms)
+✔ Lower outlet drains its own leaf before a higher internal saddle connects (1.950952ms)
+✔ Signed coast ingress is an explicit source, not unprocessed or invented rainfall (1.301565ms)
+✔ No artificial head cap drops water from a closed storage example (0.296144ms)
+✔ Northern and legacy source equations match the existing four-store reference (4.644536ms)
+✔ Malformed geometry/forcing are rejected rather than reported complete (0.939333ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.3003

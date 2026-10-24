@@ -1,0 +1,26 @@
+{
+  "fingerprint": "f2ef305c3e1dd171252ad0a4822d4ed0846146e674fba8e7b734336b5917c722",
+  "results": [
+    {
+      "steps": 60,
+      "elapsedMs": 14778,
+      "unchanged": true,
+      "file": "/tmp/inundation-46/run-60.bin.gz",
+      "maxResidual": 0.796875
+    },
+    {
+      "steps": 120,
+      "elapsedMs": 13341,
+      "unchanged": false,
+      "file": "/tmp/inundation-46/run-120.bin.gz",
+      "maxResidual": 9.82763671875
+    },
+    {
+      "steps": 240,
+      "elapsedMs": 26029,
+      "unchanged": false,
+      "file": "/tmp/inundation-46/run-240.bin.gz",
+      "maxResidual": 12.42919921875
+    }
+  ]
+}

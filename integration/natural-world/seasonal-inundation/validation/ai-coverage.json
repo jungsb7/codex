@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "nativePointQueries": 3226284,
+  "periodBudgetQueries": 14244,
+  "originalLakeMaskCells": 209,
+  "classificationDifferenceCellPeriods": 10,
+  "changedEndClassificationCellPeriods": 3946
+}

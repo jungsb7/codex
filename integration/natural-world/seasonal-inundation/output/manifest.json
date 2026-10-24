@@ -1,0 +1,94 @@
+{
+  "schema": "seasonal-inundation-manifest/1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 3230550,
+    "sha256": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec",
+    "path": "../cover-boundary-model/output/base.json.gz"
+  },
+  "meta": {
+    "file": "meta.json.gz",
+    "bytes": 265556,
+    "sha256": "bfffe128b444b07896fe238df28ae4c3dc8927e5115d22f51e64c09fcbbe70ab"
+  },
+  "periods": [
+    {
+      "period": 1,
+      "file": "period-01.json.gz",
+      "bytes": 487533,
+      "sha256": "584779fc79dcbe262fa3e558c41c83214a55f26543aef8f1e79737c6d169068d"
+    },
+    {
+      "period": 2,
+      "file": "period-02.json.gz",
+      "bytes": 493623,
+      "sha256": "8f46f79e24a0a372ea5502d9f7ec49fbd227203426385c69af2236b2d3fb5ddf"
+    },
+    {
+      "period": 3,
+      "file": "period-03.json.gz",
+      "bytes": 510226,
+      "sha256": "866d62bda900a821fccc54b26e8363124074e334570eec8561eb6f748068bd6f"
+    },
+    {
+      "period": 4,
+      "file": "period-04.json.gz",
+      "bytes": 505954,
+      "sha256": "8dbefda1c3ba199db63466e69dc698f78ceadb5580fedf2598de84bc2ec905a4"
+    },
+    {
+      "period": 5,
+      "file": "period-05.json.gz",
+      "bytes": 502329,
+      "sha256": "6726349943f04e4004671ac267fcd0930114c0355c2803932af8d6d67c5199ea"
+    },
+    {
+      "period": 6,
+      "file": "period-06.json.gz",
+      "bytes": 497643,
+      "sha256": "604b093fe1313eda478640b3a83f3795bf636807d5bd1ad213857a99a08f2bbf"
+    },
+    {
+      "period": 7,
+      "file": "period-07.json.gz",
+      "bytes": 499986,
+      "sha256": "81eeac04873bd351216b7e19418eec00b8a0a3f37889c12b167bbe7854a8cbe7"
+    },
+    {
+      "period": 8,
+      "file": "period-08.json.gz",
+      "bytes": 497745,
+      "sha256": "67318ba437b33c8c0f5a1a45898d68279a890d5221302dda7eefc96ac76b2d15"
+    },
+    {
+      "period": 9,
+      "file": "period-09.json.gz",
+      "bytes": 497239,
+      "sha256": "1f40fc9fb792da8c1b1c60986b348376384943a25bb706ed6e573b7dbb543cd9"
+    },
+    {
+      "period": 10,
+      "file": "period-10.json.gz",
+      "bytes": 492139,
+      "sha256": "7bd1fbd7507330dd2b0806420e3a76fa7e781a55d36d84448e2bceadc84f1059"
+    },
+    {
+      "period": 11,
+      "file": "period-11.json.gz",
+      "bytes": 488845,
+      "sha256": "400224d4c4fa4cae75de71f3f1ee6b6bffbcd926ba31fbbaccdb53c1ca3a3de2"
+    },
+    {
+      "period": 12,
+      "file": "period-12.json.gz",
+      "bytes": 485504,
+      "sha256": "06dac65cbd18e98b7102545660d27899d52e99bded21a0144c41fb1b1bdd197a"
+    }
+  ],
+  "summary": {
+    "file": "summary.json",
+    "bytes": 18403,
+    "sha256": "d7c34761e492c378d4f73ebb36aac728c863817253a3d027a1a2e6a8b3933d70",
+    "encoding": "json"
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "schema": "seasonal-inundation-summary/1",
+  "modelYear": 101,
+  "nativeCells": 268857,
+  "pondCount": 3232,
+  "edgeCount": 9858,
+  "computedBoundaries": 1184,
+  "linkedReaches": 23022,
+  "steps": 240,
+  "comparisonSteps": 120,
+  "periods": [
+    {
+      "period": 1,
+      "endLandAreaKm2": 7763703.769675768,
+      "meanLandAreaKm2": 7779607.729580491,
+      "periodEnvelopeLandAreaKm2": 7832231.194090379,
+      "newLandAreaFromReferenceKm2": 73957.98585236838,
+      "retreatedLandAreaFromReferenceKm2": 65057.93681823328,
+      "changedFromPeriodStartCells": 267,
+      "maximumEndDepthM": 512.8670751969821,
+      "maximumDepthDifferenceM": 0.003288418494117984,
+      "maximumWetFractionDifference": 0.029166666666666674,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 2,
+      "endLandAreaKm2": 7842041.2184138475,
+      "meanLandAreaKm2": 7836886.535463874,
+      "periodEnvelopeLandAreaKm2": 7927341.144573117,
+      "newLandAreaFromReferenceKm2": 212248.8840825039,
+      "retreatedLandAreaFromReferenceKm2": 125011.38631029724,
+      "changedFromPeriodStartCells": 468,
+      "maximumEndDepthM": 512.9882108557731,
+      "maximumDepthDifferenceM": 0.008822028507552204,
+      "maximumWetFractionDifference": 0.033333333333333326,
+      "classificationDifferenceCells": 2
+    },
+    {
+      "period": 3,
+      "endLandAreaKm2": 7977566.051056923,
+      "meanLandAreaKm2": 7994999.910003563,
+      "periodEnvelopeLandAreaKm2": 8094520.08395739,
+      "newLandAreaFromReferenceKm2": 365202.58162514406,
+      "retreatedLandAreaFromReferenceKm2": 142440.25120992216,
+      "changedFromPeriodStartCells": 778,
+      "maximumEndDepthM": 514.3109823787736,
+      "maximumDepthDifferenceM": 0.016098863348112502,
+      "maximumWetFractionDifference": 0.04583333333333339,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 4,
+      "endLandAreaKm2": 7948962.444551673,
+      "meanLandAreaKm2": 7974390.429957188,
+      "periodEnvelopeLandAreaKm2": 8044418.041942039,
+      "newLandAreaFromReferenceKm2": 371073.9433601842,
+      "retreatedLandAreaFromReferenceKm2": 176915.21945021764,
+      "changedFromPeriodStartCells": 343,
+      "maximumEndDepthM": 516.1246706743345,
+      "maximumDepthDifferenceM": 0.008064035934694402,
+      "maximumWetFractionDifference": 0.07500000000000001,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 5,
+      "endLandAreaKm2": 7884817.4937240165,
+      "meanLandAreaKm2": 7913542.346055127,
+      "periodEnvelopeLandAreaKm2": 7966025.595986034,
+      "newLandAreaFromReferenceKm2": 342881.38454030384,
+      "retreatedLandAreaFromReferenceKm2": 212867.61145798385,
+      "changedFromPeriodStartCells": 210,
+      "maximumEndDepthM": 517.0126054983343,
+      "maximumDepthDifferenceM": 0.00600009208864094,
+      "maximumWetFractionDifference": 0.09583333333333333,
+      "classificationDifferenceCells": 2
+    },
+    {
+      "period": 6,
+      "endLandAreaKm2": 7842775.509118175,
+      "meanLandAreaKm2": 7867816.190030083,
+      "periodEnvelopeLandAreaKm2": 7911168.935859864,
+      "newLandAreaFromReferenceKm2": 331285.68686878093,
+      "retreatedLandAreaFromReferenceKm2": 243313.89839229133,
+      "changedFromPeriodStartCells": 188,
+      "maximumEndDepthM": 517.0649285584764,
+      "maximumDepthDifferenceM": 0.006322146978973819,
+      "maximumWetFractionDifference": 0.10833333333333328,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 7,
+      "endLandAreaKm2": 7901479.0917986315,
+      "meanLandAreaKm2": 7892875.981026542,
+      "periodEnvelopeLandAreaKm2": 7955282.461484394,
+      "newLandAreaFromReferenceKm2": 357205.34456772247,
+      "retreatedLandAreaFromReferenceKm2": 210529.97341077222,
+      "changedFromPeriodStartCells": 298,
+      "maximumEndDepthM": 516.015156490198,
+      "maximumDepthDifferenceM": 0.0059405629959314865,
+      "maximumWetFractionDifference": 0.10833333333333339,
+      "classificationDifferenceCells": 0
+    },
+    {
+      "period": 8,
+      "endLandAreaKm2": 7935218.453844213,
+      "meanLandAreaKm2": 7944683.311671522,
+      "periodEnvelopeLandAreaKm2": 8021145.518674039,
+      "newLandAreaFromReferenceKm2": 313473.8316265213,
+      "retreatedLandAreaFromReferenceKm2": 133059.0984239764,
+      "changedFromPeriodStartCells": 395,
+      "maximumEndDepthM": 514.6808902314237,
+      "maximumDepthDifferenceM": 0.00592657918605255,
+      "maximumWetFractionDifference": 0.18749999999999997,
+      "classificationDifferenceCells": 0
+    },
+    {
+      "period": 9,
+      "endLandAreaKm2": 7919559.886489583,
+      "meanLandAreaKm2": 7942105.755232294,
+      "periodEnvelopeLandAreaKm2": 8028189.66643593,
+      "newLandAreaFromReferenceKm2": 213049.5054983987,
+      "retreatedLandAreaFromReferenceKm2": 48293.33965046976,
+      "changedFromPeriodStartCells": 383,
+      "maximumEndDepthM": 513.9669126067074,
+      "maximumDepthDifferenceM": 0.004606586447209793,
+      "maximumWetFractionDifference": 0.06666666666666665,
+      "classificationDifferenceCells": 0
+    },
+    {
+      "period": 10,
+      "endLandAreaKm2": 7871708.981155377,
+      "meanLandAreaKm2": 7897282.044152259,
+      "periodEnvelopeLandAreaKm2": 7959066.469320137,
+      "newLandAreaFromReferenceKm2": 135196.44793069793,
+      "retreatedLandAreaFromReferenceKm2": 18291.18741696305,
+      "changedFromPeriodStartCells": 243,
+      "maximumEndDepthM": 513.5085907461826,
+      "maximumDepthDifferenceM": 0.004578912563488302,
+      "maximumWetFractionDifference": 0.07500000000000001,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 11,
+      "endLandAreaKm2": 7808190.680406409,
+      "meanLandAreaKm2": 7839625.347103428,
+      "periodEnvelopeLandAreaKm2": 7888444.145133675,
+      "newLandAreaFromReferenceKm2": 71908.34446526051,
+      "retreatedLandAreaFromReferenceKm2": 18521.384700478033,
+      "changedFromPeriodStartCells": 199,
+      "maximumEndDepthM": 513.2060188582195,
+      "maximumDepthDifferenceM": 0.005534263848126386,
+      "maximumWetFractionDifference": 0.050000000000000044,
+      "classificationDifferenceCells": 1
+    },
+    {
+      "period": 12,
+      "endLandAreaKm2": 7767472.987249189,
+      "meanLandAreaKm2": 7785822.473324196,
+      "periodEnvelopeLandAreaKm2": 7827633.278210694,
+      "newLandAreaFromReferenceKm2": 12669.26660755625,
+      "retreatedLandAreaFromReferenceKm2": 0,
+      "changedFromPeriodStartCells": 170,
+      "maximumEndDepthM": 513.0039386887929,
+      "maximumDepthDifferenceM": 0.004826891259313015,
+      "maximumWetFractionDifference": 0.07916666666666672,
+      "classificationDifferenceCells": 0
+    }
+  ],
+  "refinements": [
+    {
+      "period": 1,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7763590.078796261,
+            7763026.124695475
+          ],
+          "relativeLandAreaDifference": 0.00007264616809567926,
+          "maximumDepthDifferenceM": 0.006469983273295732,
+          "classificationDifferenceCells": 1
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7763026.124695475,
+            7763703.769675768
+          ],
+          "relativeLandAreaDifference": 0.00008728372441766508,
+          "maximumDepthDifferenceM": 0.003288418494117984,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 2,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7841002.839841814,
+            7840873.233227392
+          ],
+          "relativeLandAreaDifference": 0.000016529614823106323,
+          "maximumDepthDifferenceM": 0.0201754638175089,
+          "classificationDifferenceCells": 2
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7840873.233227392,
+            7842041.2184138475
+          ],
+          "relativeLandAreaDifference": 0.000148938924691346,
+          "maximumDepthDifferenceM": 0.008822028507552204,
+          "classificationDifferenceCells": 2
+        }
+      ]
+    },
+    {
+      "period": 3,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7976603.078428737,
+            7977058.165282042
+          ],
+          "relativeLandAreaDifference": 0.00005704945907070336,
+          "maximumDepthDifferenceM": 0.031820559258015635,
+          "classificationDifferenceCells": 1
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7977058.165282042,
+            7977566.051056923
+          ],
+          "relativeLandAreaDifference": 0.0000636642519323661,
+          "maximumDepthDifferenceM": 0.016098863348112502,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 4,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7949134.447988245,
+            7948612.079574097
+          ],
+          "relativeLandAreaDifference": 0.0000657181919205883,
+          "maximumDepthDifferenceM": 0.015507774018097109,
+          "classificationDifferenceCells": 1
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7948612.079574097,
+            7948962.444551673
+          ],
+          "relativeLandAreaDifference": 0.000044076818832624314,
+          "maximumDepthDifferenceM": 0.008064035934694402,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 5,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7884659.368066953,
+            7885139.243906854
+          ],
+          "relativeLandAreaDifference": 0.000060858258181296545,
+          "maximumDepthDifferenceM": 0.011192176536383158,
+          "classificationDifferenceCells": 3
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7885139.243906854,
+            7884817.4937240165
+          ],
+          "relativeLandAreaDifference": 0.0000408062942602473,
+          "maximumDepthDifferenceM": 0.00600009208864094,
+          "classificationDifferenceCells": 2
+        }
+      ]
+    },
+    {
+      "period": 6,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7843673.095563868,
+            7843347.086066895
+          ],
+          "relativeLandAreaDifference": 0.000041565098853272355,
+          "maximumDepthDifferenceM": 0.012005905257701954,
+          "classificationDifferenceCells": 2
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7843347.086066895,
+            7842775.509118175
+          ],
+          "relativeLandAreaDifference": 0.00007287942234933323,
+          "maximumDepthDifferenceM": 0.006322146978973819,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 7,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7900210.523523261,
+            7901479.0917986315
+          ],
+          "relativeLandAreaDifference": 0.00016054820377710676,
+          "maximumDepthDifferenceM": 0.01133090561785366,
+          "classificationDifferenceCells": 3
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7901479.0917986315,
+            7901479.0917986315
+          ],
+          "relativeLandAreaDifference": 0,
+          "maximumDepthDifferenceM": 0.0059405629959314865,
+          "classificationDifferenceCells": 0
+        }
+      ]
+    },
+    {
+      "period": 8,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7934837.657293091,
+            7935218.453844213
+          ],
+          "relativeLandAreaDifference": 0.00004798816230923717,
+          "maximumDepthDifferenceM": 0.009722505499446754,
+          "classificationDifferenceCells": 1
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7935218.453844213,
+            7935218.453844213
+          ],
+          "relativeLandAreaDifference": 0,
+          "maximumDepthDifferenceM": 0.00592657918605255,
+          "classificationDifferenceCells": 0
+        }
+      ]
+    },
+    {
+      "period": 9,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7918679.945606124,
+            7919559.886489583
+          ],
+          "relativeLandAreaDifference": 0.0001111098212617425,
+          "maximumDepthDifferenceM": 0.0077237904598916884,
+          "classificationDifferenceCells": 2
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7919559.886489583,
+            7919559.886489583
+          ],
+          "relativeLandAreaDifference": 0,
+          "maximumDepthDifferenceM": 0.004606586447209793,
+          "classificationDifferenceCells": 0
+        }
+      ]
+    },
+    {
+      "period": 10,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7869562.15108232,
+            7871110.643865361
+          ],
+          "relativeLandAreaDifference": 0.00019673116706187002,
+          "maximumDepthDifferenceM": 0.006939904447449408,
+          "classificationDifferenceCells": 4
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7871110.643865361,
+            7871708.981155377
+          ],
+          "relativeLandAreaDifference": 0.00007601110399894147,
+          "maximumDepthDifferenceM": 0.004578912563488302,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 11,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7807850.752715343,
+            7807682.794631528
+          ],
+          "relativeLandAreaDifference": 0.00002151189901444605,
+          "maximumDepthDifferenceM": 0.005386349347304531,
+          "classificationDifferenceCells": 4
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7807682.794631528,
+            7808190.680406409
+          ],
+          "relativeLandAreaDifference": 0.00006504525768768034,
+          "maximumDepthDifferenceM": 0.005534263848126386,
+          "classificationDifferenceCells": 1
+        }
+      ]
+    },
+    {
+      "period": 12,
+      "pairs": [
+        {
+          "steps": [
+            60,
+            120
+          ],
+          "landAreaKm2": [
+            7766397.525024362,
+            7767472.987249189
+          ],
+          "relativeLandAreaDifference": 0.00013845715673457622,
+          "maximumDepthDifferenceM": 0.005360683915341724,
+          "classificationDifferenceCells": 2
+        },
+        {
+          "steps": [
+            120,
+            240
+          ],
+          "landAreaKm2": [
+            7767472.987249189,
+            7767472.987249189
+          ],
+          "relativeLandAreaDifference": 0,
+          "maximumDepthDifferenceM": 0.004826891259313015,
+          "classificationDifferenceCells": 0
+        }
+      ]
+    }
+  ],
+  "maximumStorageReconstructionResidualM3": 0.0126953125,
+  "maximumOwnerPeriodRelativeResidual": 7.393078798352287e-12,
+  "maximumMeanDepthFloat32ErrorM": 0.000030307775546134508,
+  "originalEngineIdentityAt60": [
+    "initial",
+    "final",
+    "totals",
+    "annual",
+    "forward",
+    "reverse",
+    "firstForward",
+    "firstReverse",
+    "surface",
+    "levels",
+    "maxStage",
+    "wetArea",
+    "finalSource",
+    "maximumSoil",
+    "maximumGround",
+    "executedSteps",
+    "maxIterations",
+    "meanRootIterations",
+    "maxEquationResidualM3",
+    "maxAnnualResidualM3",
+    "maxRelativeAnnualResidual"
+  ],
+  "provenance": {
+    "baseCommit": "5cc0cf8f26559eea6847b0922bb164ffeb5786e4",
+    "initialState": "phase40 reference year100 end",
+    "initialStateSha256": "bc15e8f15906136b561aac44b4815bc9124010368e19871afaf747ac88091631",
+    "geometrySha256": "7233ad97ca00f10815e670560fb43f4129a3cadd6ac8a33a076a6273a4aa7fff",
+    "referenceReviewSha256": "89ed8f2fdf8b9a4375a7ad9509bd22c7b56fde3fffd997a61d9bd64f21428bff",
+    "backgroundSha256": "8933fda46fdfa40c02af946dc55937b72ae6043a1c295746b2096b810a748a6d",
+    "forcingExistingSha256": "3a7b12a2d3dcb4e0c3a462f58b22e70a6bcf9c196d397b9f3c59b4c0e5057954",
+    "forcingAdditionalSha256": "0f0fa22727f354ca44ae20cff5906ecc76a1662bf016927f673fffa034cf702b",
+    "sourceCodeSha256": {
+      "native.cc": "1f861cab32dc337fe238f5a2f1e7da1657b98d895517d232c9e5ec426cc0d93d",
+      "prepare-run.cjs": "5e5c7ea6f7d87920947bb3400a596128f6c321ae6d5e1eae22544343c1f01f15",
+      "source.cjs": "53fe429c602b94ca29deba1c34b2ccbf02470e61cbdf4303c958dfb6f3872eea"
+    },
+    "options": {
+      "years": 1,
+      "substeps": 240,
+      "soilCapacityMm": 200,
+      "aquiferCapacityMm": 1000,
+      "infiltrationMmPerYear": 1200,
+      "soilDrainYears": 0.25,
+      "groundwaterReturnYears": 2,
+      "evaporationMPerYear": 0.5,
+      "widthFraction": 0.02,
+      "outletCoefficient": 1.5
+    },
+    "runFingerprint": "f2ef305c3e1dd171252ad0a4822d4ed0846146e674fba8e7b734336b5917c722",
+    "codeSha256": {
+      "native.cc": "20f42fbe6ec83ff465cac48229eabc31827ebf4ec53ff1c5efaadaec20d19906",
+      "input.cjs": "ac7c66e905951b8effd90d83bec0132f0aca348a6ed2cf9afb063c201f88874f",
+      "worker.cjs": "82693ddc8aa28c2a1a1b9ef858a86623b7d57c5770eef2419a1b8ac0d69ee792",
+      "run.cjs": "55939999ca8e2967b5a8e778ff7b78cc67e913fb2df5f28e028809bcda861fec",
+      "core.js": "8e2b7abb6d677dfd845424a3e5e9d68d126f740cc84d9e04ba6b70da2cfa6624",
+      "build.cjs": "0249d3159d75227ad0103cbdf9b6d655b8040366fb803e9bd4490e5e03ac845b"
+    }
+  }
+}

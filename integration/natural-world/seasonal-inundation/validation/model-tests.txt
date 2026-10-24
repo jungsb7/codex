@@ -1,0 +1,16 @@
+✔ continuation starts from the published year100 state and every pinned code/data hash matches (520.716797ms)
+✔ all12 periods join continuously without resetting soil, snow or surface storage (262.748313ms)
+✔ every owner and global period water ledger closes with unique signed exchanges (180.056257ms)
+✔ all3226284 native point queries reconcile storage, duration, masks and published extent (3060.31108ms)
+✔ all23022 reach mappings expose catchment budgets without inventing individual discharge (577.526356ms)
+✔ native GIS distinguishes simultaneous period end from non-simultaneous envelope (29.995766ms)
+✔ time refinement publishes local differences while global area passes1percent in all periods (0.304953ms)
+✔ series, ocean applicability, invalid IDs and corruption fail explicitly (2.727498ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4809.526274

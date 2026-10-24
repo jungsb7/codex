@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "baseCommit": "5cc0cf8f26559eea6847b0922bb164ffeb5786e4",
+  "originalFileCount": 1639,
+  "unchangedOriginalFiles": 1629,
+  "allowedChangedOriginalFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/natural-status/core.js",
+    "integration/natural-world/natural-status/ui.js",
+    "integration/natural-world/natural-status/page.js",
+    "integration/natural-world/natural-status/index.html",
+    "integration/natural-world/unified-atlas/app.js",
+    "integration/natural-world/unified-atlas/render.js",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "unexpectedChanges": [],
+  "allCanonicalNumericDataAndModelCode": "byte-identical",
+  "originalWorldResearchAndArchive": "unchanged"
+}
