@@ -14,7 +14,7 @@
 - 모델8+상태3검사, 새 브라우저11+기존44검사. 모든 세부 표본·피복 쌍·배수 트리와42,016웅덩이 상태를 검사한다. 새 화면은 지점/기간별 JSON·GeoJSON·기간표와320~1440px를 지원한다.
 - 결과는 conservative-downscaling-scenario. natural-canon-v1·원본세계·장부와 채택 상태는 유지한다. 미세 지형 가정의 검증, 나머지 경계, 사건별 홍수·빙하 이동·침식/식생/유량 전체 연동은 남는다. allRequestedDetailImplemented=false 유지.
 
-게시·최종 Pages 결과는 후속47 배포 기록과 PR 본문에 기록한다. 아래 후속46의 미구현 중 이번에 추가한 부분은 세분 모델로 대체하지만, 관측 검증·전체 동적 결합을 완료한 것으로 읽지 않는다.
+[PR #27](https://github.com/jungsb7/codex/pull/27) 병합 `73eebab6c29d4c3bf563947a0fe5c4572dabd4f5`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다. 아래 후속46의 미구현 중 이번에 추가한 부분은 세분 모델로 대체하지만, 관측 검증·전체 동적 결합을 완료한 것으로 읽지 않는다.
 
 ## 후속46 원본 격자의 기간별 침수 계산 — 2026-10-25 Asia/Seoul
 

@@ -31,3 +31,5 @@
 ## 남은 일
 
 세부 지형·경계는 가정 기반 모델이며 새로운 관측자료나 정설 v2가 아니다. 나머지 피복 경계의 세분, 토양·식생 입력과 생태 변화, 배수 경로의 실제 유량·침식·퇴적, 세분 지형을 되먹이는 침수·지속·폭풍 사건, 빙하 이동과 전체 물리 연동은 남아 있다. 후속46의 기간별 장부와 기존 정설 수치는 그대로 유지한다. `allRequestedDetailImplemented=false`도 유지한다.
+
+[PR #27](https://github.com/jungsb7/codex/pull/27) 병합 `73eebab6c29d4c3bf563947a0fe5c4572dabd4f5`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다.

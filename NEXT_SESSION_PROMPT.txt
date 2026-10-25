@@ -26,3 +26,6 @@ allRequestedDetailImplemented=false. 명칭 변경을 완료로 보고하지 않
 아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0 main병합금지.
 공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
 최종커밋/Pages결과는후속47배포기록·PR본문참조.
+
+PR#27 https://github.com/jungsb7/codex/pull/27 병합73eebab6c29d4c3bf563947a0fe5c4572dabd4f5.
+최종커밋/Pages결과는PR본문참조.
