@@ -1,0 +1,42 @@
+RUN grid8-240
+{"period":1,"steps":240,"iterations":6,"residualM3":0.0569810905}
+{"period":2,"steps":240,"iterations":6,"residualM3":0.0569810905}
+{"period":3,"steps":240,"iterations":6,"residualM3":0.0569810905}
+{"period":4,"steps":240,"iterations":6,"residualM3":0.0754059125}
+{"period":5,"steps":240,"iterations":6,"residualM3":0.0754059125}
+{"period":6,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":7,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":8,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":9,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":10,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":11,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"period":12,"steps":240,"iterations":6,"residualM3":0.127131774}
+{"id":"grid8-240","elapsedMs":92582,"maxRelativeResidual":1.0697093381584518e-12,"file":"/tmp/storm-event-model-49/run-grid8-240.bin.gz"}
+RUN grid16-120
+{"period":1,"steps":120,"iterations":7,"residualM3":0.0743787567}
+{"period":2,"steps":120,"iterations":7,"residualM3":0.0743787567}
+{"period":3,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":4,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":5,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":6,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":7,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":8,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":9,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":10,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":11,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"period":12,"steps":120,"iterations":7,"residualM3":0.0772920214}
+{"id":"grid16-120","elapsedMs":86257,"maxRelativeResidual":5.591429445756918e-13,"file":"/tmp/storm-event-model-49/run-grid16-120.bin.gz"}
+RUN grid16-240
+{"period":1,"steps":240,"iterations":6,"residualM3":0.0572498934}
+{"period":2,"steps":240,"iterations":6,"residualM3":0.0572498934}
+{"period":3,"steps":240,"iterations":6,"residualM3":0.0572498934}
+{"period":4,"steps":240,"iterations":6,"residualM3":0.0756752454}
+{"period":5,"steps":240,"iterations":6,"residualM3":0.0756752454}
+{"period":6,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":7,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":8,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":9,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":10,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":11,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"period":12,"steps":240,"iterations":6,"residualM3":0.126517742}
+{"id":"grid16-240","elapsedMs":122838,"maxRelativeResidual":1.0954330385147855e-12,"file":"/tmp/storm-event-model-49/run-grid16-240.bin.gz"}

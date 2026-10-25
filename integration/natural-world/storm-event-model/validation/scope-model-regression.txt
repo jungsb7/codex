@@ -1,0 +1,11 @@
+✔ inventory explicitly separates adopted reference from six remaining scopes (1.08366ms)
+✔ all268857 current classifications agree with canonical query and preserve research flags (2597.284638ms)
+✔ ocean and invalid selections cannot manufacture a completed budget (0.899607ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2625.835551

@@ -1,0 +1,61 @@
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+✔ all512 regional profiles preserve each period amount and coarse intervals exactly integrate fine pairs (480.927303ms)
+✔ regional mapping is deterministic at tile seams, poles and longitude bounds (1.633406ms)
+✔ absent and uniform rain profiles retain every previous output exactly (1.109386ms)
+✔ native pulse timing follows an independent closed-pond cumulative rainfall balance (0.836144ms)
+✔ invalid regional input, nonconservative pulses and unsafe source offsets are rejected (0.824351ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 511.868431
