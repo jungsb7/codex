@@ -46,3 +46,5 @@
 새 압축 결과94,507,788bytes(약94.51MB),개별 최대7,714,970bytes다. 후속48의 지형과 균등 강수 결과를 재사용하며 원본과 과거 수치 파일을 보존한다. 기능PR·병합·최종main·Pages작업 결과는[배포 기록](validation/deployment.json)과PR본문에 남긴다. 공개Pages호스트는 환경 허용 목록 밖이므로 직접HTTP검증을 하지 않았고,로컬Chromium과GitHubPages작업을 구분하여 확인한다.
 
 완료한 것은 **총량을 보존하는 명시적 사건 입력과 그에 따른 기존 수문 모델의 시간 반응·대조·지도/AI 제공**이다. 강수 전선 이동·실제 공간 구조와 관측 검증은 구현 범위 밖이다. 다음 기존 계획은 큰 공간 민감도와 웅덩이 내부 연결/장애물 검토다. 빙하 이동,토양 결빙 억제,개별 하천 유량·침식·식생,지하 압력/손실수두와 전체 결합도 남는다. `allRequestedDetailImplemented=false`를 유지한다.
+
+[PR #29](https://github.com/jungsb7/codex/pull/29) 병합 `bd67e0d3a1e991bcf50e32193cc726331dcd73c9`. 기능 커밋 `7a3388e2e15fc84c77bbf21f3561a04127b64608`,첫 Pages 실행 `40161125773`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다.

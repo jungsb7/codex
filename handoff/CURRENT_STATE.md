@@ -14,6 +14,9 @@
 
 최종main·Pages결과는 배포 기록과PR본문 참조. Pages호스트 직접HTTP 검증은 환경 허용 목록 제한으로 수행하지 않았으며 우회하지 않는다.
 
+
+[PR #29](https://github.com/jungsb7/codex/pull/29) 병합 `bd67e0d3a1e991bcf50e32193cc726331dcd73c9`. 기능 커밋 `7a3388e2e15fc84c77bbf21f3561a04127b64608`,첫 Pages 실행 `40161125773`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다.
+
 ## 후속48 세분 지형 수문 연동 — 2026-10-25 Asia/Seoul
 
 사용자의 “다음”에 따라 후속47 지형을 시간 물수분 계산에 연결했다. [지도](../integration/natural-world/subgrid-hydrology/index.html), [방법·AI](../integration/natural-world/subgrid-hydrology/README.md), [검증 결과](../integration/natural-world/subgrid-hydrology/REPORT.md), [배포 기록](../integration/natural-world/subgrid-hydrology/validation/deployment.json)를 읽는다. 기준main `f95b40eb9e236b1d25250c7c10d9fe6e69b7f1a7`.

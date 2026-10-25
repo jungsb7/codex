@@ -24,3 +24,6 @@ allRequestedDetailImplemented=false.명칭 변경만으로 완료 처리 금지.
 공개GitHub/Pages승인유효,동일승인재질문금지.네트워크제한우회금지.
 자연환경디렉터리약769MiB;다음큰출력전Pages용량확인.
 최종커밋/Pages결과는후속49배포기록·PR본문참조.
+
+PR#29 https://github.com/jungsb7/codex/pull/29 병합bd67e0d3a1e991bcf50e32193cc726331dcd73c9.
+최종커밋/Pages결과는PR본문참조.

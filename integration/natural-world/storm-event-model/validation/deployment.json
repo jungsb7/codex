@@ -1,7 +1,7 @@
 {
   "phase": 49,
   "baseCommit": "7d2659ceacfeb4fa412e6864657600cd87e392c9",
-  "status": "validated-awaiting-publication",
+  "status": "published",
   "scope": "Period-total-conserving regional48h rainfall pulses, exact temporal integration and subgrid hydrological response versus phase48 uniform forcing",
   "tests": {
     "forcing": 5,
@@ -41,5 +41,10 @@
   },
   "authorization": "Standing public GitHub/Pages publication authorization; continue existing planned work sequentially",
   "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
-  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion.",
+  "featureCommit": "7a3388e2e15fc84c77bbf21f3561a04127b64608",
+  "mergeCommit": "bd67e0d3a1e991bcf50e32193cc726331dcd73c9",
+  "featureTree": "e31c2428da6e97339f2867ccaf7289bf82e8851f",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/29",
+  "firstPagesRun": 40161125773
 }
