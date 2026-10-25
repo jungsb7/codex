@@ -1,0 +1,118 @@
+{
+  "schema": "internal-pond-fixed-volume-refinement/1",
+  "meaning": "Additional static geometry check for the10 remaining >1m fixed-volume16/32 cases;64 geometry is not used in the dynamic runs.",
+  "rows": [
+    {
+      "pond": 1515,
+      "cells": 27,
+      "volumeM3": 979364.8742293976,
+      "level16M": 3057.5101123664394,
+      "level32M": 3059.410713482692,
+      "level64M": 3059.4937391694602,
+      "difference16To32M": 1.9006011162523464,
+      "difference32To64M": 0.08302568676845112,
+      "maximumMeanErrorM": 1.8462742445990443e-10
+    },
+    {
+      "pond": 1514,
+      "cells": 12,
+      "volumeM3": 20122.476163418512,
+      "level16M": 3032.416793247738,
+      "level32M": 3035.160882006656,
+      "level64M": 3035.4900964137382,
+      "difference16To32M": 2.744088758917769,
+      "difference32To64M": 0.3292144070824179,
+      "maximumMeanErrorM": 9.231371222995222e-11
+    },
+    {
+      "pond": 1541,
+      "cells": 14,
+      "volumeM3": 1389148.8754353265,
+      "level16M": 3168.055644167932,
+      "level32M": 3169.360152193235,
+      "level64M": 3169.4384047218273,
+      "difference16To32M": 1.304508025303221,
+      "difference32To64M": 0.078252528592202,
+      "maximumMeanErrorM": 1.3733369996771216e-10
+    },
+    {
+      "pond": 1539,
+      "cells": 26,
+      "volumeM3": 2130100.2826849865,
+      "level16M": 2824.0554048526924,
+      "level32M": 2826.335872025695,
+      "level64M": 2826.4568379003686,
+      "difference16To32M": 2.280467173002762,
+      "difference32To64M": 0.12096587467340214,
+      "maximumMeanErrorM": 2.837623469531536e-10
+    },
+    {
+      "pond": 1503,
+      "cells": 3,
+      "volumeM3": 243862.44858442398,
+      "level16M": 2300.8561451822466,
+      "level32M": 2302.9999425051833,
+      "level64M": 2303.1390053502596,
+      "difference16To32M": 2.1437973229367344,
+      "difference32To64M": 0.13906284507629607,
+      "maximumMeanErrorM": 1.355147105641663e-10
+    },
+    {
+      "pond": 2144,
+      "cells": 7,
+      "volumeM3": 333932.8247146463,
+      "level16M": 1574.6641988773267,
+      "level32M": 1576.40128794313,
+      "level64M": 1576.5321330545382,
+      "difference16To32M": 1.737089065803275,
+      "difference32To64M": 0.13084511140823452,
+      "maximumMeanErrorM": 1.1459633242338896e-10
+    },
+    {
+      "pond": 1527,
+      "cells": 47,
+      "volumeM3": 1145835.8574313659,
+      "level16M": 3079.8097593371767,
+      "level32M": 3081.084933367638,
+      "level64M": 3081.1420530391424,
+      "difference16To32M": 1.2751740304611303,
+      "difference32To64M": 0.05711967150455166,
+      "maximumMeanErrorM": 4.247340257279575e-10
+    },
+    {
+      "pond": 1479,
+      "cells": 6,
+      "volumeM3": 1419835.552187828,
+      "level16M": 3161.5214848321402,
+      "level32M": 3163.133033582614,
+      "level64M": 3163.254902448691,
+      "difference16To32M": 1.6115487504739576,
+      "difference32To64M": 0.12186886607696579,
+      "maximumMeanErrorM": 2.673914423212409e-10
+    },
+    {
+      "pond": 1465,
+      "cells": 31,
+      "volumeM3": 27202.452639044324,
+      "level16M": 2827.426570768808,
+      "level32M": 2831.814014013968,
+      "level64M": 2832.297385251883,
+      "difference16To32M": 4.387443245160284,
+      "difference32To64M": 0.48337123791498016,
+      "maximumMeanErrorM": 2.382876118645072e-10
+    },
+    {
+      "pond": 1470,
+      "cells": 29,
+      "volumeM3": 70633.59782628824,
+      "level16M": 1502.1947950727015,
+      "level32M": 1503.2943887411277,
+      "level64M": 1503.4001719852592,
+      "difference16To32M": 1.0995936684262233,
+      "difference32To64M": 0.10578324413154405,
+      "maximumMeanErrorM": 1.7780621419660747e-10
+    }
+  ],
+  "maximum32To64DifferenceM": 0.48337123791498016,
+  "over1m": 0
+}

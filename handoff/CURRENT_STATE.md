@@ -1,6 +1,19 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속49 사건별 강수·침수 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속50 웅덩이 내부 연결의 계산과 배포 상태를 기록한다. 사용자의 단계별 계속 진행 지시가 유효하며 [NEXT_GOALS.md](NEXT_GOALS.md)와 [유한한 완료 기준](MODEL_COMPLETION_CRITERIA.md)을 따른다.
+
+## 후속50 내부 저류칸·연속 지형 저장 — 2026-10-25 Asia/Seoul
+
+[지도](../integration/natural-world/internal-pond-model/index.html) · [방법/AI](../integration/natural-world/internal-pond-model/README.md) · [검증](../integration/natural-world/internal-pond-model/REPORT.md) · [배포](../integration/natural-world/internal-pond-model/validation/deployment.json). 기준main `c32a3c50c0b63e8f2310af5732d882645ebcc9e7`.
+
+- 민감 웅덩이365개를17,123개 원본 내부 칸으로 분리했다. 전체19,990저류 단위·65,028연결,기존 외부9,858연결/호수 출구 보존. 연속 삼각면 저장과 제한된 양방향 교환을 적용했다.
+- 선택된 배경102웅덩이·11,186격자의 원본 유입을 복원했다. 같은 원래 웅덩이 초기 물·기간 강수로16/240,32/120,32/240,32공통 수면 대조를 모두 완주했다. 모든 교환 수렴·비음수·집수권 물수지 검사 통과,최대 기간 상대 잔차5.379×10⁻¹².
+- 새 입력을 끈 전체 실행은 후속49 모든 출력과 정확히 일치. 자료22검사·브라우저42검사·독립 삼각면1,460조건·모든 공개 세밀/시간 이력의float64 비트 대조를 통과했다. 원본/정설/과거 수치/Oracle 보존.
+- 공간·시간 수렴 완료는 아니다. 동적 기간 말 시간 차이 최대4.046m,공간14.574m. 내부 칸 바닥16/32 차이1m 초과2,309곳. 같은 물을 담은 웅덩이16/32 비교에서1m 초과10곳은 추가32/64 정적 비교 최대0.483m였으나64는 동적 계산에 적용하지 않았다.
+- 결과187,602,813바이트,무손실 XOR/바이트 재배열/gzip.101년 말 대상 육지 저장·내부 수량을공개 final-state.json.gz에 보존했다. 큰 곡선 은행은 저장소 밖에서 재생성한다.
+- 초기 비수렴/메모리 종료 실험은 제외했다.16GiB에서는 전체 계산을 반드시 하나씩 실행한다. 다음은 정한 최소 기준의 빙설/동토,이어서개별유량/침식·퇴적,피복/생태,지정 지하 통로 압력과 전체 결합이다. allRequestedDetailImplemented=false.
+
+공개 GitHub/Pages 승인 유효. Pages호스트 직접 HTTP는 환경 제한으로 미검증이며 우회하지 않는다. 커밋/PR/Pages 결과는 이 단계 배포 기록과 PR본문에 남긴다.
 
 ## 후속49 사건별 강수와 침수 — 2026-10-25 Asia/Seoul
 

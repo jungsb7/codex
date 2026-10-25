@@ -1,0 +1,8 @@
+{
+  "nativeSha256": "c66cc5521c0ff9e3177af24f7d8c45c68a07a2939938763de85a150338a1cff5",
+  "codeSha256": {
+    "native.cc": "ef47106f219c6c4022468c19791e32460798f9215b20a741dc08cc9280d74033",
+    "poly.h": "02924e5d820704cc4d17084f2a7b3c5d147e8654d55691db888c394c95675abb"
+  },
+  "meaning": "Initial coarse run uses iterative cubic inverse. Fast build uses algebraically exact first-interval cube root; storage geometry and exchange equations unchanged."
+}

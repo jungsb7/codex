@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "verified internal point equals AI on preserved atlas deep link",
+    "period changes use computed water and comparison data",
+    "four actual downloads match AI including clipped wet triangles and signed ledger",
+    "internal cell navigation, history and reload retain selection",
+    "outside-target and ocean cells remain explicit",
+    "terrain, trace and connection tables fit desktop and mobile widths",
+    "atlas entry and return preserve user location, view and period",
+    "hash failure disables stale values and retry restores verified data",
+    "late data cannot overwrite a newer period or enable stale export"
+  ],
+  "downloads": 4,
+  "errors": []
+}

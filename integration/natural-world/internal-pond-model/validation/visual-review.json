@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "reviewedViewports": [
+    1440,
+    390
+  ],
+  "testedViewports": [
+    1440,
+    1024,
+    390,
+    320
+  ],
+  "findings": [
+    "Readable controls and explicit scenario/remaining-sensitivity notice",
+    "Internal-cell selection and connection table visible",
+    "Terrain with clipped water footprint and stage trace visible",
+    "Mobile content wraps without horizontal overflow"
+  ],
+  "screenshots": "Captured locally under /tmp/internal-pond-50-{width}.png; verified visually, not deployment HTTP evidence"
+}

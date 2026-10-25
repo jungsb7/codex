@@ -1,29 +1,28 @@
-GitHub 기반 인계 — 후속49 사건별 강수·침수,2026-10-25 Asia/Seoul
+GitHub 기반 인계 — 후속50 내부 저류칸·연속 저장,2026-10-25 Asia/Seoul
 
-최신main 확인, 로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
-handoff/NEXT_GOALS.md,integration/natural-world/storm-event-model/README.md,
-REPORT.md,validation/deployment.json 읽기.
+최신main 확인,로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
+handoff/NEXT_GOALS.md,handoff/MODEL_COMPLETION_CRITERIA.md,
+integration/natural-world/internal-pond-model/README.md,REPORT.md,
+validation/deployment.json을 읽는다.
 
-후속48 세분 지형 수문 배포 뒤,계속 진행 지시에 따라 사건 강수를 구현했다.
-동일한100년 끝 물·기간 강수량.512지역,80%를48시간 강수3회,20%균등.
-대상 육지168,576격자만 시간 분배;배경/호수/기온/PET는 기존 유지.
-8×8/240회,16×16/120·240회 완주;사건없음 대조33출력 정확히 일치.
-강수/수심 이력 그래프·지점/GIS/장부/기간표/이력JSON·AI forcing/hydrograph.
+365민감 웅덩이/17,123격자 내부 저류,32분할 삼각면 저장과양방향 교환.
+전체19,990저류단위/65,028연결,기존9,858외부연결·호수 출구 보존.
+원본 격자별 배경유입 복원.16/240·32/120·32/240·공통수면대조 완주.
+모든 교환수렴·비음수·기간물수지 통과,최대상대잔차5.379e-12.
+기능없는 전체실행은후속49출력과정확히일치. 자료22/브라우저42검사.
+모든공개세밀/시간이력float64비트 보존,무손실결과약188MB.
+101년말source/surface저장을manifest.finalState로제공한다.
 
-최대 수위 변화+21.091m(556295,7기간)은 사건 시나리오 누적 효과.
-시간120/240 최대 수위 차이0.611m,공간8/16차이27.674m 공개.
-총강수량보존과물수지 검사.관측 폭풍/재현기간/전 물리 검증 완료 아님.
-계산/상태29검사·브라우저46검사.원본/정설/후속48이전 수치 보존.
+전체수렴완료아님:동적시간차이최대4.046m·공간14.574m.
+선택웅덩이정적32/64추가비교최대.483m는동적수렴검사와다르다.
+내부원본칸의바닥차이1m초과2,309곳,칸내2차원운동량미구현.
+원본/정설v1/과거수치/Oracle보존. allRequestedDetailImplemented=false.
 
-다음:공간 민감도 큰 지점과 웅덩이 내부 연결/장애물 검토.
-이어서빙하/동토·개별유량/침식/식생·지하압력·전체결합.화산은별도미정.
-allRequestedDetailImplemented=false.명칭 변경만으로 완료 처리 금지.
-사용자의단계후순차계속진행지시유효.각단계검증뒤다음진행,범위임의확대금지.
+다음:정한최소기준51빙설/동토→52개별유량/침식→53피복/생태
+→54지정지하통로압력/전체결합. 사용자의단계후계속진행지시유효.
+단계검증뒤다음진행,관측자료/화산등새필수범위추가금지.
+전체계산은반드시순차실행.16GiB동시계산으로중간OOM발생이력있음.
+실패실험은최종자료에서제외했다. 기존진행을중복시작하지않는다.
 
-옛빌드/패키징스크립트실행금지.아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0 main병합금지.
-공개GitHub/Pages승인유효,동일승인재질문금지.네트워크제한우회금지.
-자연환경디렉터리약769MiB;다음큰출력전Pages용량확인.
-최종커밋/Pages결과는후속49배포기록·PR본문참조.
-
-PR#29 https://github.com/jungsb7/codex/pull/29 병합bd67e0d3a1e991bcf50e32193cc726331dcd73c9.
-최종커밋/Pages결과는PR본문참조.
+옛빌드/패키징금지,아카이브main병합금지. 공개GitHub/Pages승인유효.
+Pages호스트환경제한우회금지. 배포커밋·PR·작업결과는배포기록과PR본문.

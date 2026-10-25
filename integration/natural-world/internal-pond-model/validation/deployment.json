@@ -1,0 +1,30 @@
+{
+  "phase": 50,
+  "baseCommit": "c32a3c50c0b63e8f2310af5732d882645ebcc9e7",
+  "status": "validated-awaiting-publication",
+  "scope": "365 spatial-sensitive ponds split into17123 native-cell reservoirs; continuous triangular storage; conservative signed internal exchange; original external graph preserved",
+  "tests": {
+    "model": 22,
+    "independentTriangleConditions": 1460,
+    "newBrowser": 9,
+    "oldBrowser": 33,
+    "newDownloads": 4,
+    "legacyEventOutputsExactlyEqual": true
+  },
+  "outputBytes": 187602813,
+  "largestFileBytes": 9000000,
+  "nativeSha256": "84f2bbe62d6563a95d30cc7ad79a59684020efec1eddd12f5e7222a639bd1569",
+  "limits": {
+    "maximumTimeEndLevelDifferenceM": 4.046336152197,
+    "maximumSpaceEndLevelDifferenceM": 14.574174552892828,
+    "allRequestedDetailImplemented": false,
+    "full2DInternalMomentum": false
+  },
+  "authorization": "Standing public GitHub/Pages authorization; same existing task; continue planned work sequentially",
+  "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; no bypass. Local Chromium and GitHub Pages jobs are separate evidence.",
+  "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/internal-pond-model/index.html",
+  "finalPagesVerification": "Final head and build/deploy/report job evidence will be recorded after publication.",
+  "largestReassembledPayloadBytes": 15575592,
+  "trackedTreeBytesBeforePackaging": 809557275,
+  "transportPackaging": "Each period gzip split into <=9,000,000 byte parts; every original compressed byte and SHA-256 preserved; full reassembly plus per-part verification"
+}

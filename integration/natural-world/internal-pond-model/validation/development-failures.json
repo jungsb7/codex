@@ -1,0 +1,33 @@
+{
+  "status": "excluded-from-release",
+  "failedApproaches": [
+    {
+      "method": "whole-network iterative solve",
+      "issue": "Did not converge on expanded internal graph; tiny-storage absolute inverse tolerance and cancellation exposed",
+      "accepted": false
+    },
+    {
+      "method": "initial volume-variable pair solve",
+      "issue": "Reached100-iteration cap, residual69.9298096m3 in period1 and341.47599m3 in period2; rejected as a release calculation",
+      "accepted": false,
+      "termination": "OS memory kill while comparisons were being prepared"
+    },
+    {
+      "method": "first fast32/120 comparison",
+      "issue": "OS memory kill before a complete period",
+      "accepted": false
+    },
+    {
+      "method": "donor-stage pair solve",
+      "issue": "Strict residual check failed at edge17136; cancellation when donor and receiver storage scales differ",
+      "accepted": false
+    },
+    {
+      "method": "concurrent fine/grouped32 run preparation",
+      "issue": "OS memory kill of grouped control; successfully rerun sequentially. All release cases completed with the balanced solver.",
+      "accepted": false
+    }
+  ],
+  "replacement": "Bounded implicit exchange using square root of the smaller of transferred and remaining donor water; strict normalized residual checks; zero-copy read-only geometry/source spans",
+  "policy": "Only the balanced-case run IDs may enter build.cjs. All four runs must use the same native SHA, complete12periods, and satisfy normalized pair residual<=1. Experimental logs/caches are not published model results."
+}
