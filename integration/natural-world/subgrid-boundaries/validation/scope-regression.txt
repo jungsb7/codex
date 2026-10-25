@@ -1,0 +1,8 @@
+PASS existing review URL keeps view and research while showing verified current adoption and remaining work
+PASS same-point switch preserves camera and period and retains incomplete-detail notice in canonical view
+PASS scope and both research/canonical exports match AI and never claim all requested details implemented
+PASS remaining-work inventory and JSON cover six topics and return to same selection
+PASS original hold flags survive while a distinct adopted cover is displayed
+PASS current-reference tab and status panels fit1440/1024/390/320px
+PASS ocean does not acquire a fabricated completed inland budget
+PASS unverified base never fabricates adoption values and independent retry recovers

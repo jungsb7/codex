@@ -1,0 +1,21 @@
+{
+  "schema": "subgrid-boundaries-manifest/1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 3230550,
+    "sha256": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec",
+    "path": "../cover-boundary-model/output/base.json.gz"
+  },
+  "canon": {
+    "file": "base.json.gz",
+    "bytes": 5697771,
+    "rawBytes": 38104727,
+    "sha256": "149db6384b1c9ac78c67301b573be41eb485b8dd297270fe9c5f5dc902460633",
+    "path": "../natural-canon-v1/output/base.json.gz"
+  },
+  "meta": {
+    "path": "output/meta.json.gz",
+    "bytes": 4680400,
+    "sha256": "4da5bbb783935aa5e54246fb2ade6ac8b7c884eed8a9e57af7be4afd907c1747"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "schema": "subgrid-boundaries-summary/1",
+  "nativeCells": 268857,
+  "subcells16": 68827392,
+  "ponds": 3232,
+  "pairs": 10654,
+  "coverBoundaryAffectedCells": 21308,
+  "periods": [
+    {
+      "period": 0,
+      "landArea8Km2": 6785236.5875433525,
+      "landArea16Km2": 6771988.1119059995,
+      "maximumLevelDifferenceM": 15.837000875753688,
+      "maximumRelativeVolumeResidual": 8.063039364284743e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.06982421875,
+      "sensitiveWetPonds": 271,
+      "relativeAreaDifference": 0.001956364278617169
+    },
+    {
+      "period": 1,
+      "landArea8Km2": 6792778.2490599835,
+      "landArea16Km2": 6779167.251191846,
+      "maximumLevelDifferenceM": 13.093575258232704,
+      "maximumRelativeVolumeResidual": 8.063884275218288e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.058349609375,
+      "sensitiveWetPonds": 272,
+      "relativeAreaDifference": 0.002007768412225629
+    },
+    {
+      "period": 2,
+      "landArea8Km2": 6857952.619789821,
+      "landArea16Km2": 6845779.088153857,
+      "maximumLevelDifferenceM": 14.243377309272773,
+      "maximumRelativeVolumeResidual": 7.856207845738586e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.177001953125,
+      "sensitiveWetPonds": 262,
+      "relativeAreaDifference": 0.0017782536478616051
+    },
+    {
+      "period": 3,
+      "landArea8Km2": 6955803.309442282,
+      "landArea16Km2": 6942453.430126768,
+      "maximumLevelDifferenceM": 13.080514792999566,
+      "maximumRelativeVolumeResidual": 7.817950256330494e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.225830078125,
+      "sensitiveWetPonds": 269,
+      "relativeAreaDifference": 0.0019229339382504653
+    },
+    {
+      "period": 4,
+      "landArea8Km2": 6912060.690179623,
+      "landArea16Km2": 6899174.130069761,
+      "maximumLevelDifferenceM": 21.224156514360857,
+      "maximumRelativeVolumeResidual": 7.919103573587977e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.193603515625,
+      "sensitiveWetPonds": 293,
+      "relativeAreaDifference": 0.0018678409715297075
+    },
+    {
+      "period": 5,
+      "landArea8Km2": 6872512.375417993,
+      "landArea16Km2": 6860253.366461054,
+      "maximumLevelDifferenceM": 22.573198530355512,
+      "maximumRelativeVolumeResidual": 8.007719648154333e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.1904296875,
+      "sensitiveWetPonds": 306,
+      "relativeAreaDifference": 0.0017869615453084849
+    },
+    {
+      "period": 6,
+      "landArea8Km2": 6848978.868428928,
+      "landArea16Km2": 6836102.5011937665,
+      "maximumLevelDifferenceM": 23.51515387192012,
+      "maximumRelativeVolumeResidual": 8.055575299631918e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.184814453125,
+      "sensitiveWetPonds": 304,
+      "relativeAreaDifference": 0.001883583113757116
+    },
+    {
+      "period": 7,
+      "landArea8Km2": 6879062.1844834015,
+      "landArea16Km2": 6865589.302699494,
+      "maximumLevelDifferenceM": 25.71947986182704,
+      "maximumRelativeVolumeResidual": 8.045441698880462e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.169677734375,
+      "sensitiveWetPonds": 292,
+      "relativeAreaDifference": 0.001962378055239901
+    },
+    {
+      "period": 8,
+      "landArea8Km2": 6890635.454916382,
+      "landArea16Km2": 6875256.056879856,
+      "maximumLevelDifferenceM": 27.29811587874201,
+      "maximumRelativeVolumeResidual": 8.041352996425637e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.14892578125,
+      "sensitiveWetPonds": 294,
+      "relativeAreaDifference": 0.0022369200374925424
+    },
+    {
+      "period": 9,
+      "landArea8Km2": 6873972.948875257,
+      "landArea16Km2": 6861122.717718942,
+      "maximumLevelDifferenceM": 29.161078586617805,
+      "maximumRelativeVolumeResidual": 8.03886192441212e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.145751953125,
+      "sensitiveWetPonds": 286,
+      "relativeAreaDifference": 0.0018729050164237448
+    },
+    {
+      "period": 10,
+      "landArea8Km2": 6843077.361807389,
+      "landArea16Km2": 6829167.803763823,
+      "maximumLevelDifferenceM": 22.98059310901317,
+      "maximumRelativeVolumeResidual": 2.6769682680423045e-11,
+      "maximumAbsoluteVolumeResidualM3": 9.154052734375,
+      "sensitiveWetPonds": 283,
+      "relativeAreaDifference": 0.0020367866837157564
+    },
+    {
+      "period": 11,
+      "landArea8Km2": 6811304.858102862,
+      "landArea16Km2": 6797664.661836149,
+      "maximumLevelDifferenceM": 15.837000875753688,
+      "maximumRelativeVolumeResidual": 8.050652620086494e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.117431640625,
+      "sensitiveWetPonds": 279,
+      "relativeAreaDifference": 0.002006600346629662
+    },
+    {
+      "period": 12,
+      "landArea8Km2": 6796918.93400344,
+      "landArea16Km2": 6783696.384307525,
+      "maximumLevelDifferenceM": 15.837000875753688,
+      "maximumRelativeVolumeResidual": 8.715324554852405e-12,
+      "maximumAbsoluteVolumeResidualM3": 9.08251953125,
+      "sensitiveWetPonds": 271,
+      "relativeAreaDifference": 0.0019491659040787627
+    }
+  ],
+  "maximumMeanElevationResidualM": 1.3642420526593924e-11,
+  "examples": {
+    "selected": 310879,
+    "forest": 117506,
+    "wetland": 134409
+  }
+}

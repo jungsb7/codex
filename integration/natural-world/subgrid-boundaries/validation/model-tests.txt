@@ -1,0 +1,16 @@
+✔ pinned inputs and generating code match; all prescribed pond volumes are unchanged (1021.677165ms)
+✔ piecewise storage inversion agrees with independent analytical water columns (1.211718ms)
+✔ all 10654 disjoint boundary pairs conserve spherical class area and masks (632.263738ms)
+✔ all 68827392 subcells preserve parent area/elevation and reconstruct all13 pond storage snapshots (13866.830655ms)
+✔ every local drainage tree is acyclic, adjacent, area-conservative and preserves native exits (33404.011314ms)
+✔ GIS polygons partition one parent and carry the same numerical quantities as point query (5.891691ms)
+✔ wet-pond refinement limits are explicit and dry/ocean/invalid queries do not fabricate levels (12.962949ms)
+✔ terrain generation is deterministic, shared land corners agree, and 8/16 means retain the same source (128.014405ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 50089.849549
