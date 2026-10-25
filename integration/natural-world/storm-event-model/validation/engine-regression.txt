@@ -1,0 +1,99 @@
+{"period":1,"steps":1,"iterations":1,"residualM3":7.67477104e-07}
+{"period":2,"steps":1,"iterations":1,"residualM3":7.67477104e-07}
+{"period":3,"steps":1,"iterations":1,"residualM3":7.67477104e-07}
+{"period":4,"steps":1,"iterations":1,"residualM3":7.67477104e-07}
+{"period":5,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":6,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":7,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":8,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":9,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":10,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":11,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":12,"steps":1,"iterations":1,"residualM3":9.48296019e-07}
+{"period":1,"steps":1,"iterations":80,"residualM3":0.00982795007}
+{"period":2,"steps":1,"iterations":80,"residualM3":0.00982795007}
+{"period":3,"steps":1,"iterations":80,"residualM3":0.00982795007}
+{"period":4,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":5,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":6,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":7,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":8,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":9,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":10,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":11,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":12,"steps":1,"iterations":80,"residualM3":0.00993911437}
+{"period":1,"steps":1,"iterations":1,"residualM3":6.82121026e-13}
+{"period":2,"steps":1,"iterations":1,"residualM3":3.65390065e-08}
+{"period":3,"steps":1,"iterations":1,"residualM3":3.65390065e-08}
+{"period":4,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":5,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":6,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":7,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":8,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":9,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":10,"steps":1,"iterations":1,"residualM3":6.32867383e-06}
+{"period":11,"steps":1,"iterations":1,"residualM3":7.25292376e-06}
+{"period":12,"steps":1,"iterations":1,"residualM3":7.25292376e-06}
+{"period":1,"steps":1,"iterations":1,"residualM3":2.72848411e-12}
+{"period":2,"steps":1,"iterations":1,"residualM3":6.42563691e-09}
+{"period":3,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":4,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":5,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":6,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":7,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":8,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":9,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":10,"steps":1,"iterations":1,"residualM3":2.56202551e-06}
+{"period":11,"steps":1,"iterations":1,"residualM3":3.32574898e-06}
+{"period":12,"steps":1,"iterations":1,"residualM3":3.32574898e-06}
+{"period":1,"steps":1,"iterations":1,"residualM3":0}
+{"period":2,"steps":1,"iterations":1,"residualM3":0}
+{"period":3,"steps":1,"iterations":1,"residualM3":0}
+{"period":4,"steps":1,"iterations":1,"residualM3":0}
+{"period":5,"steps":1,"iterations":1,"residualM3":0}
+{"period":6,"steps":1,"iterations":1,"residualM3":0}
+{"period":7,"steps":1,"iterations":1,"residualM3":0}
+{"period":8,"steps":1,"iterations":1,"residualM3":0}
+{"period":9,"steps":1,"iterations":1,"residualM3":0}
+{"period":10,"steps":1,"iterations":1,"residualM3":0}
+{"period":11,"steps":1,"iterations":1,"residualM3":0}
+{"period":12,"steps":1,"iterations":1,"residualM3":0}
+{"period":1,"steps":60,"iterations":1,"residualM3":0}
+{"period":2,"steps":60,"iterations":1,"residualM3":0}
+{"period":3,"steps":60,"iterations":1,"residualM3":0}
+{"period":4,"steps":60,"iterations":1,"residualM3":0}
+{"period":5,"steps":60,"iterations":1,"residualM3":0}
+{"period":6,"steps":60,"iterations":1,"residualM3":0}
+{"period":7,"steps":60,"iterations":1,"residualM3":0}
+{"period":8,"steps":60,"iterations":1,"residualM3":0}
+{"period":9,"steps":60,"iterations":1,"residualM3":0}
+{"period":10,"steps":60,"iterations":1,"residualM3":0}
+{"period":11,"steps":60,"iterations":1,"residualM3":0}
+{"period":12,"steps":60,"iterations":1,"residualM3":0}
+{"period":1,"steps":60,"iterations":1,"residualM3":0}
+{"period":2,"steps":60,"iterations":1,"residualM3":0}
+{"period":3,"steps":60,"iterations":1,"residualM3":0}
+{"period":4,"steps":60,"iterations":1,"residualM3":0}
+{"period":5,"steps":60,"iterations":1,"residualM3":0}
+{"period":6,"steps":60,"iterations":1,"residualM3":0}
+{"period":7,"steps":60,"iterations":1,"residualM3":0}
+{"period":8,"steps":60,"iterations":1,"residualM3":0}
+{"period":9,"steps":60,"iterations":1,"residualM3":0}
+{"period":10,"steps":60,"iterations":1,"residualM3":0}
+{"period":11,"steps":60,"iterations":1,"residualM3":0}
+{"period":12,"steps":60,"iterations":1,"residualM3":0}
+✔ Native piecewise terrain and outlet agree with direct-column bisection (19.404419ms)
+✔ Two connected ponds exchange exactly once and preserve water (92.752759ms)
+✔ Lower outlet drains its own leaf before a higher internal saddle connects (2.96573ms)
+✔ Signed coast ingress is an explicit source, not unprocessed or invented rainfall (1.671931ms)
+✔ No artificial head cap drops water from a closed storage example (0.472157ms)
+✔ Northern and legacy source equations match the existing four-store reference (5.62166ms)
+✔ Malformed geometry/forcing are rejected rather than reported complete (0.686165ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 149.767972

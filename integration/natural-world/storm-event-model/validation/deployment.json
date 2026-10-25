@@ -1,0 +1,45 @@
+{
+  "phase": 49,
+  "baseCommit": "7d2659ceacfeb4fa412e6864657600cd87e392c9",
+  "status": "validated-awaiting-publication",
+  "scope": "Period-total-conserving regional48h rainfall pulses, exact temporal integration and subgrid hydrological response versus phase48 uniform forcing",
+  "tests": {
+    "forcing": 5,
+    "couplingRegression": 6,
+    "engineRegression": 7,
+    "model": 8,
+    "scope": 3,
+    "uniformFieldsExactlyEqual": 33,
+    "newBrowser": 13,
+    "oldBrowser": 33,
+    "downloads": 5,
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ]
+  },
+  "outputBytes": 94507788,
+  "preservation": {
+    "status": "passed",
+    "base": "7d2659ceacfeb4fa412e6864657600cd87e392c9",
+    "unchangedOriginalFiles": 1779,
+    "changedUiAndHandoffFiles": [
+      "NEXT_SESSION_PROMPT.txt",
+      "handoff/CURRENT_STATE.md",
+      "handoff/NEXT_GOALS.md",
+      "integration/natural-world/natural-status/core.js",
+      "integration/natural-world/natural-status/index.html",
+      "integration/natural-world/natural-status/ui.js",
+      "integration/natural-world/subgrid-hydrology/app.js",
+      "integration/natural-world/subgrid-hydrology/index.html",
+      "integration/natural-world/unified-atlas/index.html"
+    ],
+    "canonicalAndOriginalNumericData": "byte-exact preserved",
+    "archiveBranch": "not merged"
+  },
+  "authorization": "Standing public GitHub/Pages publication authorization; continue existing planned work sequentially",
+  "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+}

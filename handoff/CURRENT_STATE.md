@@ -1,6 +1,18 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속48 세분 지형 수문 연동과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속49 사건별 강수·침수 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속49 사건별 강수와 침수 — 2026-10-25 Asia/Seoul
+
+사용자는 단계 완료 뒤 기존 계획을 계속 진행하라고 지시했다. 후속48 배포 검증 뒤 같은 초기 물·기간 강수량을 보존하는 사건 분배를 구현했다. [지도](../integration/natural-world/storm-event-model/index.html), [방법·AI](../integration/natural-world/storm-event-model/README.md), [결과](../integration/natural-world/storm-event-model/REPORT.md), [배포](../integration/natural-world/storm-event-model/validation/deployment.json)를 확인한다. 기준main `7d2659ceacfeb4fa412e6864657600cd87e392c9`.
+
+- 512지역에서 기간 강수80%를48시간 삼각형 강수3회,20%를 균등 분배한다.168,576대상 육지만 적용하고 기온/PET·배경 유출·호수 시각은 유지한다. 실제 관측 폭풍이 아닌 명시적 가정이다.
+- 같은 연간 초기 물에서8×8/240회,16×16/120회·240회를 적분했다. 시간 간격 간 같은 연속 강수 곡선과 총량을 보존한다. 사건 입력이 없는 전체 대조는 후속48의33출력과 정확히 같다.
+- 균등 강수 대비 최대 수위 변화+21.091m(556295,7기간). 이전 사건의 누적 효과도 포함한다. 시간 최대 수위 차이0.611m,공간27.674m 한계 공개. 물수지 최대 상대 잔차2.067×10⁻¹².
+- 계산/상태29검사,브라우저46검사. 강수/수심 그래프와5종 내보내기,AI forcing/hydrograph/cell/budget/reach/exchange 제공. 원본·채택판·후속48이전 수치 보존.
+- 다음은 공간 민감도와 웅덩이 내부 연결/장애물 검토다. 빙하·침식/식생·개별 물길 유량·지하 압력과 전체 결합은 남는다. allRequestedDetailImplemented=false.
+
+최종main·Pages결과는 배포 기록과PR본문 참조. Pages호스트 직접HTTP 검증은 환경 허용 목록 제한으로 수행하지 않았으며 우회하지 않는다.
 
 ## 후속48 세분 지형 수문 연동 — 2026-10-25 Asia/Seoul
 

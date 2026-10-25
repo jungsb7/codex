@@ -1,0 +1,13 @@
+{"period":1,"steps":120,"iterations":7,"residualM3":0.0743787567}
+{"period":2,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":3,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":4,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":5,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":6,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":7,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":8,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":9,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":10,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":11,"steps":120,"iterations":7,"residualM3":0.075782422}
+{"period":12,"steps":120,"iterations":7,"residualM3":0.075782422}
+All phase48 outputs exactly equal with event forcing absent.

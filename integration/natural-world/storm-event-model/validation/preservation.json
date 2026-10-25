@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "base": "7d2659ceacfeb4fa412e6864657600cd87e392c9",
+  "unchangedOriginalFiles": 1779,
+  "changedUiAndHandoffFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/natural-status/core.js",
+    "integration/natural-world/natural-status/index.html",
+    "integration/natural-world/natural-status/ui.js",
+    "integration/natural-world/subgrid-hydrology/app.js",
+    "integration/natural-world/subgrid-hydrology/index.html",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "canonicalAndOriginalNumericData": "byte-exact preserved",
+  "archiveBranch": "not merged"
+}

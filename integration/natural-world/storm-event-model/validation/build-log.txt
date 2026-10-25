@@ -1,0 +1,89 @@
+{
+  "outputBytes": 94507788,
+  "summary": [
+    {
+      "period": 1,
+      "area": 6999603.96340471,
+      "floodInfiltrationM3": 659464184024.8416,
+      "timeDifference": 0.16905455920095847,
+      "spatialDifference": 27.67439339358407
+    },
+    {
+      "period": 2,
+      "area": 7197247.440047779,
+      "floodInfiltrationM3": 664873383430.9603,
+      "timeDifference": 0.15828969110668822,
+      "spatialDifference": 26.5751601950451
+    },
+    {
+      "period": 3,
+      "area": 7393187.8507819595,
+      "floodInfiltrationM3": 673839011502.9463,
+      "timeDifference": 0.1583371381152574,
+      "spatialDifference": 25.412813303526036
+    },
+    {
+      "period": 4,
+      "area": 7420717.661660773,
+      "floodInfiltrationM3": 557669188699.1302,
+      "timeDifference": 0.15584791950323051,
+      "spatialDifference": 22.486899619342694
+    },
+    {
+      "period": 5,
+      "area": 7428205.420854676,
+      "floodInfiltrationM3": 499597549045.09436,
+      "timeDifference": 0.1545665456653751,
+      "spatialDifference": 20.83821628436226
+    },
+    {
+      "period": 6,
+      "area": 7437469.851866775,
+      "floodInfiltrationM3": 493700961635.80725,
+      "timeDifference": 0.1534343393209383,
+      "spatialDifference": 20.300175586927708
+    },
+    {
+      "period": 7,
+      "area": 7482585.750005063,
+      "floodInfiltrationM3": 490199586151.9455,
+      "timeDifference": 0.15032935675463932,
+      "spatialDifference": 19.735991080387066
+    },
+    {
+      "period": 8,
+      "area": 7528303.1618496645,
+      "floodInfiltrationM3": 489152904462.0594,
+      "timeDifference": 0.23055749488966626,
+      "spatialDifference": 19.160364988870697
+    },
+    {
+      "period": 9,
+      "area": 7548309.487381811,
+      "floodInfiltrationM3": 488816688230.33685,
+      "timeDifference": 0.17748212916120565,
+      "spatialDifference": 18.583534355494066
+    },
+    {
+      "period": 10,
+      "area": 7564641.470694154,
+      "floodInfiltrationM3": 488926697584.7492,
+      "timeDifference": 0.2656258724155123,
+      "spatialDifference": 18.01254892500947
+    },
+    {
+      "period": 11,
+      "area": 7559785.967972503,
+      "floodInfiltrationM3": 488769435194.22437,
+      "timeDifference": 0.27236982846847013,
+      "spatialDifference": 17.452186291092403
+    },
+    {
+      "period": 12,
+      "area": 7558893.107239987,
+      "floodInfiltrationM3": 487830502121.87616,
+      "timeDifference": 0.3277278425971417,
+      "spatialDifference": 16.905607152723405
+    }
+  ]
+}
