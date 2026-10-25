@@ -1,0 +1,3102 @@
+[
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/terrain-v2/output/coverage.json.files[0]",
+    "to": "assets/atlas-716744ad89aad880-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/seasonal/output/imperial.json.files[0]",
+    "to": "assets/atlas-3a7110623cd880ba-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/seasonal/output/summary.json.files[0]",
+    "to": "assets/atlas-7c47354628899fae-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/seasonal/output/joint-result.json.files[0]",
+    "to": "assets/atlas-fb1d8586aa0698ea-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/seasonal/output/result.json.files[0]",
+    "to": "assets/atlas-f21156a791af2f1a-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/coverage-matrix.csv.files[0]",
+    "to": "assets/atlas-62103685d19e6640-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".downloads.integration/terrain/output/coverage.json.files[0]",
+    "to": "assets/atlas-c0cc9a6130798b34-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[0].path",
+    "to": "assets/atlas-ba089e8d2b7f1b49-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[1].path",
+    "to": "assets/atlas-ba089e8d2b7f1b49-01.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[2].path",
+    "to": "assets/atlas-ba089e8d2b7f1b49-02.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[3].path",
+    "to": "integration/atlas/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[4].path",
+    "to": "assets/atlas-716744ad89aad880-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[5].path",
+    "to": "assets/atlas-2f0583182d7d4c21-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[6].path",
+    "to": "assets/atlas-2f0583182d7d4c21-01.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[7].path",
+    "to": "integration/terrain-v2/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[8].path",
+    "to": "assets/atlas-3a7110623cd880ba-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[9].path",
+    "to": "assets/atlas-7c47354628899fae-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[10].path",
+    "to": "assets/atlas-fb1d8586aa0698ea-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[11].path",
+    "to": "assets/atlas-f21156a791af2f1a-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[12].path",
+    "to": "assets/atlas-62103685d19e6640-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[13].path",
+    "to": "assets/atlas-0b5acdc043aaefb2-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[14].path",
+    "to": "integration/seasonal/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[15].path",
+    "to": "application/planet-observatory.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[16].path",
+    "to": "integration/atlas/README.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[17].path",
+    "to": "integration/terrain-v2/README.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[18].path",
+    "to": "integration/terrain-v2/REPORT.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[19].path",
+    "to": "assets/atlas-c0cc9a6130798b34-00.bin"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[20].path",
+    "to": "integration/terrain/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[21].path",
+    "to": "integration/seasonal/REPORT.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[22].path",
+    "to": "integration/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[23].path",
+    "to": "integration/terrain/README.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[24].path",
+    "to": "integration/terrain/REPORT.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[25].path",
+    "to": "index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[25].path",
+    "to": "integration/natural-world/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[26].path",
+    "to": "START_SIMULATOR.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[27].path",
+    "to": "legacy-v0.77.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[28].path",
+    "to": ".nojekyll"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[29].path",
+    "to": "download.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[30].path",
+    "to": "README.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".files[30].path",
+    "to": "integration/natural-world/README.md"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".omittedSources[0].path",
+    "to": "application/planet-observatory.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".omittedSources[1].path",
+    "to": "integration/terrain/index.html"
+  },
+  {
+    "manifest": "deployment-manifest.json",
+    "field": ".omittedSources[2].path",
+    "to": "integration/index.html"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[0].url",
+    "to": "integration/natural-world/stage5/output/foundation-fc5d72cbbab3.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[1].files[0]",
+    "to": "integration/natural-world/stage5/output/climate-1369f5b0c513-part00.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[1].files[1]",
+    "to": "integration/natural-world/stage5/output/climate-1369f5b0c513-part01.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[1].files[2]",
+    "to": "integration/natural-world/stage5/output/climate-1369f5b0c513-part02.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[1].files[3]",
+    "to": "integration/natural-world/stage5/output/climate-1369f5b0c513-part03.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[2].files[0]",
+    "to": "integration/natural-world/stage5/output/water-3775f512672b-part00.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[2].files[1]",
+    "to": "integration/natural-world/stage5/output/water-3775f512672b-part01.bin"
+  },
+  {
+    "manifest": "integration/natural-world/atlas-experience/output/sources.json",
+    "field": ".parts[3].url",
+    "to": "integration/natural-world/stage5/output/ecology-322484a70c56.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/basin-water-budget/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/basin-water-budget/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".index.file",
+    "to": "integration/natural-world/channel-valley-model/output/index.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[0].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-000.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[1].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-001.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[2].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-002.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[3].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-003.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[4].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-004.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[5].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-005.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[6].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-006.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[7].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-007.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[8].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-008.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[9].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-009.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[10].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-010.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[11].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-011.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[12].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-012.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[13].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-013.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[14].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-014.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[15].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-015.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[16].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-016.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[17].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-017.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[18].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-018.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[19].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-019.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[20].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-020.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[21].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-021.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[22].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-022.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[23].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-023.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[24].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-024.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[25].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-025.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[26].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-026.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[27].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-027.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[28].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-028.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[29].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-029.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[30].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-030.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[31].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-031.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[32].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-032.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[33].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-033.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[34].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-034.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[35].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-035.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[36].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-036.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[37].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-037.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[38].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-038.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[39].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-039.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[40].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-040.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[41].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-041.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[42].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-042.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[43].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-043.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[44].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-044.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[45].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-045.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[46].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-046.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[47].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-047.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[48].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-048.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[49].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-049.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[50].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-050.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[51].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-051.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[52].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-052.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[53].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-053.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[54].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-054.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[55].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-055.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[56].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-056.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[57].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-057.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[58].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-058.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[59].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-059.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[60].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-060.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[61].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-061.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[62].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-062.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[63].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-063.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[64].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-064.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[65].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-065.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[66].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-066.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[67].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-067.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[68].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-068.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[69].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-069.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[70].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-070.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[71].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-071.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[72].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-072.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[73].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-073.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[74].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-074.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[75].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-075.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[76].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-076.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[77].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-077.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[78].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-078.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[79].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-079.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[80].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-080.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[81].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-081.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[82].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-082.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[83].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-083.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[84].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-084.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[85].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-085.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[86].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-086.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[87].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-087.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[88].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-088.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/channel-valley-model/output/manifest.json",
+    "field": ".parts[89].file",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-089.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/coupled-water-model/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/coupled-water-model/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-boundary-model/output/manifest.json",
+    "field": ".base.file",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-boundary-model/output/manifest.json",
+    "field": ".cases[0].file",
+    "to": "integration/natural-world/cover-boundary-model/output/case-reference.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-boundary-model/output/manifest.json",
+    "field": ".cases[1].file",
+    "to": "integration/natural-world/cover-boundary-model/output/case-low-infiltration.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-boundary-model/output/manifest.json",
+    "field": ".cases[2].file",
+    "to": "integration/natural-world/cover-boundary-model/output/case-slow-return.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-boundary-model/output/manifest.json",
+    "field": ".scopeSummaries.file",
+    "to": "integration/natural-world/cover-boundary-model/output/scope-summaries.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/boundary-manifest.json",
+    "field": ".geometry.file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/boundaries.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".terrain.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".boundaries.file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/boundaries.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".meta.file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".summary.file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cover-ecology-coupling/output/manifest.json",
+    "field": ".finalState.file",
+    "to": "integration/natural-world/cover-ecology-coupling/output/final-state.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".terrain.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".previousMeta.path",
+    "to": "integration/natural-world/internal-pond-model/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".meta.path",
+    "to": "integration/natural-world/cryosphere-coupling/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".summary.path",
+    "to": "integration/natural-world/cryosphere-coupling/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[0].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[1].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[2].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[3].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[4].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[5].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[6].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[7].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[8].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[9].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[10].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[11].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[12].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-13.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[13].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-14.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[14].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-15.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[15].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-16.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[16].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-17.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[17].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-18.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[18].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-19.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[19].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-20.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[20].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-21.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[21].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-22.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[22].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-23.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".periods[23].path",
+    "to": "integration/natural-world/cryosphere-coupling/output/period-24.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/cryosphere-coupling/output/manifest.json",
+    "field": ".finalState.path",
+    "to": "integration/natural-world/cryosphere-coupling/output/final-state.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-confluence/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-confluence/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-constraints/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-constraints/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-hydraulics/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-hydraulics/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-momentum/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-momentum/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-routing/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-routing/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-surface/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-surface/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/d298591-tailwater/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/d298591-tailwater/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/downstream-budget/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/downstream-budget/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/downstream-routing/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/downstream-routing/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/finite-water-model/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/finite-water-model/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/inland-routing/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/inland-routing/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".terrain.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".meta.path",
+    "to": "integration/natural-world/internal-pond-model/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".summary.path",
+    "to": "integration/natural-world/internal-pond-model/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".connectivity.path",
+    "to": "integration/natural-world/internal-pond-model/output/connectivity.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[0].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-01.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[0].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-01.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[1].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-02.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[1].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-02.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[2].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-03.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[2].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-03.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[3].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-04.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[3].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-04.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[4].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-05.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[4].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-05.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[5].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-06.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[5].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-06.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[6].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-07.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[6].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-07.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[7].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-08.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[7].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-08.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[8].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-09.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[8].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-09.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[9].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-10.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[9].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-10.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[10].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-11.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[10].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-11.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[11].parts[0].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-12.json.gz.part01"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".periods[11].parts[1].path",
+    "to": "integration/natural-world/internal-pond-model/output/period-12.json.gz.part02"
+  },
+  {
+    "manifest": "integration/natural-world/internal-pond-model/output/manifest.json",
+    "field": ".finalState.path",
+    "to": "integration/natural-world/internal-pond-model/output/final-state.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/landscape-notes/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/landscape-notes/output/catalog.json"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".base.file",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-01.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-02.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-03.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-04.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-05.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-06.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-07.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-08.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-09.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-10.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-11.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/natural-canon-v1/output/period-12.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[0].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-000.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[1].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-001.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[2].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-002.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[3].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-003.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[4].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-004.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[5].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-005.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[6].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-006.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[7].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-007.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[8].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-008.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[9].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-009.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[10].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-010.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[11].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-011.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[12].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-012.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[13].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-013.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[14].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-014.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[15].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-015.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[16].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-016.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[17].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-017.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[18].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-018.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[19].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-019.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[20].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-020.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[21].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-021.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[22].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-022.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[23].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-023.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[24].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-024.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[25].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-025.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[26].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-026.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[27].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-027.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[28].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-028.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[29].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-029.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[30].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-030.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[31].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-031.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[32].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-032.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[33].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-033.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[34].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-034.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[35].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-035.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[36].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-036.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[37].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-037.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[38].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-038.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[39].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-039.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[40].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-040.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[41].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-041.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[42].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-042.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[43].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-043.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[44].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-044.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[45].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-045.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[46].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-046.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[47].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-047.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[48].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-048.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[49].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-049.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[50].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-050.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[51].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-051.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[52].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-052.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[53].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-053.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[54].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-054.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[55].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-055.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[56].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-056.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[57].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-057.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[58].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-058.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[59].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-059.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[60].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-060.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[61].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-061.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[62].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-062.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[63].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-063.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[64].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-064.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[65].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-065.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[66].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-066.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[67].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-067.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[68].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-068.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[69].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-069.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[70].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-070.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[71].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-071.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[72].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-072.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[73].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-073.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[74].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-074.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[75].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-075.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[76].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-076.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[77].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-077.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[78].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-078.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[79].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-079.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[80].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-080.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[81].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-081.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[82].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-082.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[83].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-083.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[84].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-084.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[85].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-085.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[86].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-086.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[87].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-087.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[88].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-088.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/natural-canon-v1/output/manifest.json",
+    "field": ".geometryParts[89].path",
+    "to": "integration/natural-world/channel-valley-model/output/reaches-089.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/network-water-model/output/manifest.json",
+    "field": ".review.file",
+    "to": "integration/natural-world/network-water-model/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/network-water-model/output/manifest.json",
+    "field": ".histories[0].file",
+    "to": "integration/natural-world/network-water-model/output/history-reference.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/network-water-model/output/manifest.json",
+    "field": ".histories[1].file",
+    "to": "integration/natural-world/network-water-model/output/history-low-infiltration.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/network-water-model/output/manifest.json",
+    "field": ".histories[2].file",
+    "to": "integration/natural-world/network-water-model/output/history-slow-return.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/network-water-model/output/manifest.json",
+    "field": ".histories[3].file",
+    "to": "integration/natural-world/network-water-model/output/history-reference-fine.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".review.file",
+    "to": "integration/natural-world/pond-network-model/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".histories[0].file",
+    "to": "integration/natural-world/pond-network-model/output/history-reference.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".histories[1].file",
+    "to": "integration/natural-world/pond-network-model/output/history-low-infiltration.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".histories[2].file",
+    "to": "integration/natural-world/pond-network-model/output/history-slow-return.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".histories[3].file",
+    "to": "integration/natural-world/pond-network-model/output/history-reference-fine.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".states[0].file",
+    "to": "integration/natural-world/pond-network-model/output/states-reference.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".states[1].file",
+    "to": "integration/natural-world/pond-network-model/output/states-low-infiltration.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".states[2].file",
+    "to": "integration/natural-world/pond-network-model/output/states-slow-return.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".states[3].file",
+    "to": "integration/natural-world/pond-network-model/output/states-reference-fine.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pond-network-model/output/manifest.json",
+    "field": ".geometry.file",
+    "to": "integration/natural-world/pond-network-model/output/geometry.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".meta.file",
+    "to": "integration/natural-world/pressure-coupling/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".summary.file",
+    "to": "integration/natural-world/pressure-coupling/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/pressure-coupling/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/pressure-coupling/output/manifest.json",
+    "field": ".finalState.file",
+    "to": "integration/natural-world/pressure-coupling/output/final-state.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".meta.file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".summary.file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/reach-erosion-coupling/output/manifest.json",
+    "field": ".finalState.file",
+    "to": "integration/natural-world/reach-erosion-coupling/output/final-state.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".meta.file",
+    "to": "integration/natural-world/seasonal-inundation/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/seasonal-inundation/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-inundation/output/manifest.json",
+    "field": ".summary.file",
+    "to": "integration/natural-world/seasonal-inundation/output/summary.json"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".stats.file",
+    "to": "integration/natural-world/seasonal-loading/output/rain-range-422c5d515d87.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".metadata.file",
+    "to": "integration/natural-world/seasonal-loading/output/water-metadata-7911b64d2f2f.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-01-e6a9d3db8dc7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-02-6d57cedf8cf4.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-03-403f222cdde5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-04-2343292de859.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-05-02bf55a96d60.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-06-b99463e843e6.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-07-6b0e817495a9.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-08-d9ee83739a81.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-09-8666a5b27696.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-10-02d36bdfc4ef.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-11-c937cf997c6c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/seasonal-loading/output/period-12-4e95f0b570c7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[0].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-000-99ac4c9c684b.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[1].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-001-22a9ad587f11.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[2].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-002-1818ddf8230c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[3].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-003-a7d2073e2f12.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[4].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-004-ce6e0b6f060d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[5].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-005-0e8bf58a0104.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[6].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-006-88301f2c2615.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[7].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-007-55f6252b8e0c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[8].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-008-5b22ff44647c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[9].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-009-ca9b65d0f407.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[10].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-010-93a82aa39694.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[11].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-011-ca25b94232e8.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[12].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-012-b44269861fed.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[13].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-013-396a94f6dbe2.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[14].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-014-7f18bd546a86.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[15].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-015-2b65f7503bef.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[16].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-016-e588c57f38c3.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[17].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-017-0df526bc9115.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[18].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-018-2408cd12c319.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[19].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-019-d318dc0fb7f8.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[20].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-020-64bb9c6617cf.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[21].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-021-2f540e5c0933.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[22].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-022-cf7b0912bf68.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[23].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-023-3e611406c0ef.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[24].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-024-0d380bceff5c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[25].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-025-f1420389b3fe.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[26].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-026-21c1775b5198.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[27].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-027-18c00157137d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[28].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-028-e19b9d544b8e.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[29].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-029-27b659bc2da5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[30].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-030-04a64617e9b2.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[31].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-031-e4810787aed3.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[32].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-032-6d23d027d528.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[33].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-033-548e3a49c584.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[34].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-034-5c769f2f4426.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[35].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-035-63bdeef764f7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[36].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-036-51388cbe41b5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[37].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-037-a03b9c86e06b.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[38].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-038-22cacec43d5c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[39].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-039-046f9d594619.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[40].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-040-a930b6cc5194.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[41].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-041-4ecc87dbd18a.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[42].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-042-9c23bd201bbf.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[43].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-043-3a719a0fcac1.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[44].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-044-cc7987fa5747.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[45].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-045-9aeca6a39dff.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[46].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-046-2d24890f9402.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[47].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-047-5e7d03e89d89.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[48].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-048-f7a8d221d25d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[49].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-049-3f8ac40b2564.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[50].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-050-63400de95385.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[51].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-051-9ab1973f6b3a.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[52].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-052-32ed3fccea41.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[53].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-053-28b7ebcb9fdd.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[54].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-054-4c9df083a5f7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[55].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-055-f64345808d78.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[56].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-056-58873acbbee5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[57].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-057-f18ac6b56d81.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[58].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-058-fb9ebf3080a5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[59].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-059-0a23d45f81ba.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[60].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-060-b1441a52bff2.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[61].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-061-15de568abf22.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[62].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-062-0a81ee11d015.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[63].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-063-9a2651be8c09.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[64].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-064-01c313fbafaa.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[65].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-065-be684b839d9c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[66].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-066-30d2a9910640.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[67].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-067-36dca70580c2.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[68].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-068-3bdd7df71803.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[69].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-069-8533d0351339.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[70].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-070-9dcddb7a6ba7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[71].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-071-0a63c24f3f35.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[72].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-072-2bf0db8cc696.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[73].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-073-c83552e8dc71.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[74].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-074-8f5e96e35bbe.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[75].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-075-34d0f5047d03.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[76].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-076-2344905fd19e.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[77].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-077-0ce86886cec2.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[78].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-078-5eca2e84b1ed.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[79].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-079-a655d0942bc3.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[80].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-080-f7c7e940ae64.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[81].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-081-da93ed217510.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[82].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-082-1e07078f9d9f.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[83].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-083-609415dcc09d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[84].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-084-1ba5f9da9ad5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[85].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-085-7805900644d1.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[86].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-086-68b01ed29ef1.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[87].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-087-2ef1d6ca2990.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[88].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-088-6c2848bdd856.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[89].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-089-f143ddb9ac89.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[90].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-090-3a0103abdf06.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[91].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-091-c33be2b7b1e7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[92].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-092-606e6d164551.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[93].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-093-1386701ec75a.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[94].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-094-0a88add55f33.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[95].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-095-36e58f92223d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[96].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-096-fddfd9bfb1bc.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[97].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-097-10a1fcaf4ec3.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[98].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-098-95dc13b19a72.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[99].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-099-02c80637de17.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[100].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-100-222c631d523c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[101].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-101-9f327da9a869.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[102].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-102-b0500fe40108.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[103].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-103-6c3a84446beb.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[104].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-104-1bda57c5910c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[105].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-105-451294f1cb1e.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[106].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-106-27149e541821.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[107].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-107-142a2a102c8e.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[108].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-108-063a4e8d91b9.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[109].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-109-5d2fb02cbc3f.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[110].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-110-1a1385f0c798.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[111].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-111-d3d09c1f4913.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[112].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-112-d2352c3d5488.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[113].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-113-27125517001b.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[114].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-114-4db8a48ee84b.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[115].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-115-1f2723885324.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[116].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-116-8f777de9eb74.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[117].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-117-8b0c5deca20d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[118].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-118-cf0809502a9d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[119].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-119-6aef094a9115.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[120].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-120-251f3b32b566.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[121].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-121-46fdbbb41598.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[122].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-122-7532abfad605.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[123].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-123-8461dd16cb27.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[124].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-124-7012afcbad80.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[125].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-125-e8d3a4ed508d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[126].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-126-7abc1172c020.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[127].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-127-e476effb28ae.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[128].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-128-94adde7bafc9.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[129].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-129-823b0d5377c8.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[130].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-130-8d19b297019d.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-loading/output/manifest.json",
+    "field": ".charts[131].file",
+    "to": "integration/natural-world/seasonal-loading/output/chart-131-511d22b1c7f6.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".base.file",
+    "to": "integration/natural-world/seasonal-physical-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[0].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-01.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[0].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-01-e6a9d3db8dc7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[1].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-02.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[1].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-02-6d57cedf8cf4.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[2].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-03.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[2].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-03-403f222cdde5.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[3].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-04.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[3].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-04-2343292de859.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[4].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-05.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[4].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-05-02bf55a96d60.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[5].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-06.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[5].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-06-b99463e843e6.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[6].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-07.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[6].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-07-6b0e817495a9.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[7].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-08.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[7].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-08-d9ee83739a81.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[8].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-09.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[8].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-09-8666a5b27696.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[9].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-10.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[9].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-10-02d36bdfc4ef.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[10].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-11.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[10].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-11-c937cf997c6c.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[11].file",
+    "to": "integration/natural-world/seasonal-physical-model/output/period-12.bin.gz"
+  },
+  {
+    "manifest": "integration/natural-world/seasonal-physical-model/output/manifest.json",
+    "field": ".periods[11].forcing.path",
+    "to": "integration/natural-world/seasonal-loading/output/period-12-4e95f0b570c7.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".terrainMeta.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".meta.path",
+    "to": "integration/natural-world/storm-event-model/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".summary.path",
+    "to": "integration/natural-world/storm-event-model/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[0].path",
+    "to": "integration/natural-world/storm-event-model/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[1].path",
+    "to": "integration/natural-world/storm-event-model/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[2].path",
+    "to": "integration/natural-world/storm-event-model/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[3].path",
+    "to": "integration/natural-world/storm-event-model/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[4].path",
+    "to": "integration/natural-world/storm-event-model/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[5].path",
+    "to": "integration/natural-world/storm-event-model/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[6].path",
+    "to": "integration/natural-world/storm-event-model/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[7].path",
+    "to": "integration/natural-world/storm-event-model/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[8].path",
+    "to": "integration/natural-world/storm-event-model/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[9].path",
+    "to": "integration/natural-world/storm-event-model/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[10].path",
+    "to": "integration/natural-world/storm-event-model/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".periods[11].path",
+    "to": "integration/natural-world/storm-event-model/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/storm-event-model/output/manifest.json",
+    "field": ".continuation.path",
+    "to": "integration/natural-world/storm-event-model/output/continuation.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-boundaries/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-boundaries/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-boundaries/output/manifest.json",
+    "field": ".meta.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".base.path",
+    "to": "integration/natural-world/cover-boundary-model/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".canon.path",
+    "to": "integration/natural-world/natural-canon-v1/output/base.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".terrainMeta.path",
+    "to": "integration/natural-world/subgrid-boundaries/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".meta.path",
+    "to": "integration/natural-world/subgrid-hydrology/output/meta.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".summary.path",
+    "to": "integration/natural-world/subgrid-hydrology/output/summary.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[0].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-01.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[1].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-02.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[2].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-03.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[3].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-04.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[4].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-05.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[5].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-06.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[6].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-07.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[7].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-08.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[8].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-09.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[9].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-10.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[10].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-11.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".periods[11].path",
+    "to": "integration/natural-world/subgrid-hydrology/output/period-12.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/subgrid-hydrology/output/manifest.json",
+    "field": ".continuation.path",
+    "to": "integration/natural-world/subgrid-hydrology/output/continuation.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/terrain-water-model/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/terrain-water-model/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/terrain-water-model/output/manifest.json",
+    "field": ".models.file",
+    "to": "integration/natural-world/terrain-water-model/output/models.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/water-budget-chain/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/water-budget-chain/output/review.json.gz"
+  },
+  {
+    "manifest": "integration/natural-world/water-budget-link/output/manifest.json",
+    "field": ".file",
+    "to": "integration/natural-world/water-budget-link/output/review.json.gz"
+  }
+]

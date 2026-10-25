@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "checkedFiles": 1959,
+  "bytes": 1065238620,
+  "allGitBlobHashesEqualHead": true,
+  "method": "sha1 of Git blob header plus candidate bytes"
+}

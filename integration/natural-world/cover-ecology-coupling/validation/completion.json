@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "scope": "bounded phase53 local implementation and validation",
+  "modelYear": 105,
+  "boundaryTests": 4,
+  "engineTests": 6,
+  "dataTests": 6,
+  "browserChecks": 10,
+  "downloads": 4,
+  "nativeSha256": "6a14d7ae836d712928db5eb3808c0fa6c7ed148b36ebc68bf46ac051f66485e1",
+  "manifestSha256": "af6c69a93e72be8f5e6b733dba684213d38159218f3010e92e72513bc0725595",
+  "finalState": {
+    "file": "final-state.json.gz",
+    "bytes": 5674103,
+    "sha256": "402af0ed7a338f2f2f123a1814c4be91caadce0b95a56b07d84a708490d7ceba"
+  },
+  "outputBytes": 58419022,
+  "allFloat64BitsPreserved": true,
+  "comparisons": {
+    "timeVegetationDifference": 0.002077662998366314,
+    "feedbackVegetationDifference": 0.14939810641167173
+  },
+  "publicPublication": "not authorized for phase53; local only",
+  "allRequestedDetailImplemented": false
+}

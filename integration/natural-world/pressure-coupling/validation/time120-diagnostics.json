@@ -1,0 +1,79 @@
+{
+  "case": "time120",
+  "modelYear": 106,
+  "meaning": "Period-end/period-total diagnostics; not within-period pressure maxima or observed conduit data",
+  "passages": [
+    {
+      "id": "X0",
+      "sourceCells": 2,
+      "externalInputM3": 7497673174.853325,
+      "terminalForwardM3": 7497671678.107904,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 1496.7454207766568,
+      "maximumPeriodEndHeadAboveRoofM": -1.672449128974323,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        8.952594507414172,
+        5.520562058188361,
+        240.16433851870835,
+        534.1424719965607,
+        679.0001704777458,
+        607.3208257589913,
+        381.52125022085505,
+        196.86768434127225,
+        102.08115318060122,
+        53.41986377546469,
+        28.427376225146677,
+        15.577020243428617
+      ]
+    },
+    {
+      "id": "X1",
+      "sourceCells": 29,
+      "externalInputM3": 88359890046.51836,
+      "terminalForwardM3": 88359837915.75679,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 52130.76152522862,
+      "maximumPeriodEndHeadAboveRoofM": -0.31799561428965717,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        119.11840990680483,
+        866.4741074285544,
+        3475.21765616021,
+        6030.908186631972,
+        7004.551441554795,
+        6727.59498861016,
+        4548.0170692052925,
+        2398.666709863138,
+        1247.031763207135,
+        655.9619316994657,
+        352.47160535864583,
+        196.45109070746074
+      ]
+    },
+    {
+      "id": "X2",
+      "sourceCells": 328,
+      "externalInputM3": 54876608842.74693,
+      "terminalForwardM3": 54876247666.79237,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 361175.95453451574,
+      "maximumPeriodEndHeadAboveRoofM": -4.051351265924023,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        2410.6701543798836,
+        2686.338296825369,
+        2312.856774748538,
+        1797.578790196092,
+        1506.8613830440668,
+        1217.3020004005346,
+        1265.781800813791,
+        1493.0957585655974,
+        1456.3957042903048,
+        1466.3308948014983,
+        1457.0461373527555,
+        1811.1150849439641
+      ]
+    }
+  ]
+}

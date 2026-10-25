@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": [
+    "first reach and source route agree with shared AI query",
+    "selected head and terminal reaches agree across all sampled periods",
+    "point, budget and annual downloads match computed values; chart includes time/control comparisons",
+    "populated chart, route and controls fit desktop and mobile",
+    "reload and atlas return retain selection and prior location",
+    "non-target original reach fails closed without an invented discharge",
+    "atlas selected source maps to its first original downstream reach",
+    "corrupt payload blocks export and explicit retry recovers",
+    "late response cannot overwrite a newer period"
+  ],
+  "downloads": 3,
+  "errors": []
+}

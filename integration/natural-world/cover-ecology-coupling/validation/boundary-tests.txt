@@ -1,0 +1,12 @@
+✔ every terrestrial interface is covered; existing interiors and canonical endpoints are preserved (321.488566ms)
+✔ all268857 cell polygons retain adopted areas and all11 class totals (3303.806078ms)
+✔ shared edges reverse identically and do not cross protected ocean/lake masks (1648.20278ms)
+✔ deformed polygons are simple; adjacent support strips cannot overlap or leave gaps (3164.794262ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9197.695253

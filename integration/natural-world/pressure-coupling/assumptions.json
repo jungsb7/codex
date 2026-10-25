@@ -1,0 +1,17 @@
+{
+ "schema":"pressure-coupling-assumptions/1","initialModelYear":105,"years":1,"substeps":[120,240],
+ "scope":"Only three pre-existing independent lower passages X0/X1/X2. No connection to upper crossing reaches and no new underground topology.",
+ "compartmentsPerPassage":3,"frictionFactor":0.03,"totalMinorLoss":1.5,"gravityMPerS2":9.81,
+ "width":"2+2*sqrt(original lower-reach mean discharge) metres; assumed rectangular conduit",
+ "height":"Adopted maximum lower water stage plus1m freeboard",
+ "bed":"Original adopted channel profile at the three equal-length section centres, including X2 cosine-squared lowering",
+ "storage":"Each section has width*length/3 free-surface area up to its roof, then width squared surcharge storage. This slot is an explicit incompressible pressure-storage approximation, not a pressure-wave solver.",
+ "flow":"Signed quasi-steady Darcy-Weisbach head-loss law. Effective wet area is limited by donor head above the higher adjoining floor; full hydraulic diameter is retained as an explicit partial-fill approximation. Coupled implicit conservative pair exchanges iterate to a common network solution and are donor bounded.",
+ "forcing":"Divert original background local runoff whose original receiver path first encounters one of the three lower reaches into that passage upstream compartment, subtracting the identical per-cell load from its original pond. Route entire contributing reach load to entrance as an explicit spatial lumping assumption. Downstream section exchanges with the original next-node pond, with finite donor water and reverse flow.",
+ "initial":"All new conduit sections start empty. No priming water is invented. Existing105 state and total background inputs preserved.",
+ "thermal":"Subsurface water remains liquid; no new underground heat budget. Existing surface ice, snow, glacier and frost laws retained.",
+ "solid":"Existing23022 reach sediment and bed evolution continue. These three background passages have no imported sediment source or new erosion law.",
+ "control":"Closed passage exchange0 retains the same background diversion and stores the water; absent module preserves previous engine exactly.",
+ "limits":["Not an observed conduit geometry or calibrated roughness","No air entrainment, cavitation, elastic water hammer or compressible pressure waves","Three-section approximation and splitting with the original surface-pond solver;120/240 comparison is not an error bound","Inherited spatial14.574m and temporal4.282m storage-level sensitivity remains","Fixed1year, no global equilibrium claim"],
+ "actual":null,"automaticAdoption":false,"allRequestedDetailImplemented":false
+}

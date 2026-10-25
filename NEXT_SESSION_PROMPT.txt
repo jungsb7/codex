@@ -1,28 +1,23 @@
-GitHub 기반 인계 — 후속50 내부 저류칸·연속 저장,2026-10-25 Asia/Seoul
+jungsb7/codex의 archive/model54-session-20261025 보관 브랜치에서 작업을 이어간다.
+이 브랜치는50–54단계 최신 코드·입력·계산 결과·검증·용량 분석을 포함한다.
+사이트용 main 및 문서만 있는 codex/session-handoff-20261025와 구분한다.
 
-최신main 확인,로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
-handoff/NEXT_GOALS.md,handoff/MODEL_COMPLETION_CRITERIA.md,
-integration/natural-world/internal-pond-model/README.md,REPORT.md,
-validation/deployment.json을 읽는다.
+AGENTS.md, handoff/ARCHIVE_SESSION_20261025.md, handoff/CURRENT_STATE.md,
+handoff/NEXT_GOALS.md를 먼저 읽는다. git status를 확인하고 사용자 변경을 보존한다.
+다른 문서의 '51–54 자료는 GitHub에 없다'는 문장은 이전 상태의 기록이다.
+이 브랜치의 실제 파일/검증 기록과 최신 사용자 지시를 우선한다.
 
-365민감 웅덩이/17,123격자 내부 저류,32분할 삼각면 저장과양방향 교환.
-전체19,990저류단위/65,028연결,기존9,858외부연결·호수 출구 보존.
-원본 격자별 배경유입 복원.16/240·32/120·32/240·공통수면대조 완주.
-모든 교환수렴·비음수·기간물수지 통과,최대상대잔차5.379e-12.
-기능없는 전체실행은후속49출력과정확히일치. 자료22/브라우저42검사.
-모든공개세밀/시간이력float64비트 보존,무손실결과약188MB.
-101년말source/surface저장을manifest.finalState로제공한다.
+Node24 환경에서 node handoff/restore-inputs.cjs로 필요한 개발 입력을 복원한다.
+일반 화면/AI 조회는 커밋된 출력으로 작동한다. 이전 /workspace와 /tmp 경로는
+사용자 컴퓨터에 있다고 가정하지 않는다. 새 환경에서는 캐시/컴파일 경로를 먼저 확인한다.
+Git 밖의 대형 재생성 캐시·Linux 실행 파일·헤더와 일반 첨부 ZIP은 이 브랜치에 없다.
+구형 전체 원본은 별도 archive/full-handoff-20261020의 고정 보관본을 사용한다.
 
-전체수렴완료아님:동적시간차이최대4.046m·공간14.574m.
-선택웅덩이정적32/64추가비교최대.483m는동적수렴검사와다르다.
-내부원본칸의바닥차이1m초과2,309곳,칸내2차원운동량미구현.
-원본/정설v1/과거수치/Oracle보존. allRequestedDetailImplemented=false.
+정한50–54 유한 구현·검증은 완료됐다. 완료 계산을 무작정 다시 시작하지 않는다.
+최신시간 수위 차이4.227m와 이전 공간14.574m 한계, 관측검증/전체수렴=false는 유지한다.
+다음 목표는 PC 복원/조회 확인 후 기존 화면·다운로드·AI·수치 정밀도를 보존하는
+GitHub용 무손실 자료 포장이다. 그 뒤 시간 민감32지점과 공간32/64 동적 비교를 진행한다.
+구체적인 유한 완료 기준은 handoff/NEXT_GOALS.md를 따른다.
 
-다음:정한최소기준51빙설/동토→52개별유량/침식→53피복/생태
-→54지정지하통로압력/전체결합. 사용자의단계후계속진행지시유효.
-단계검증뒤다음진행,관측자료/화산등새필수범위추가금지.
-전체계산은반드시순차실행.16GiB동시계산으로중간OOM발생이력있음.
-실패실험은최종자료에서제외했다. 기존진행을중복시작하지않는다.
-
-옛빌드/패키징금지,아카이브main병합금지. 공개GitHub/Pages승인유효.
-Pages호스트환경제한우회금지. 배포커밋·PR·작업결과는배포기록과PR본문.
+사이트 배포는 보류한다. 이 보관 브랜치를 main에 자동 병합하거나 Pages를 실행하지 않는다.
+원본·정설·과거 결과·경제·Oracle·unknown=null을 보존하며 새 연구 범위를 임의로 늘리지 않는다.

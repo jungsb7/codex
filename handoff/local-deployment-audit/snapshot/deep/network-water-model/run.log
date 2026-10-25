@@ -1,0 +1,11 @@
+PASS 946 boundary choices and three scenarios load with validated data
+PASS twelve downloads match shared AI query for completed/northern/held/stopped records
+PASS geometry-held component shows no invented dynamic results
+PASS expanded former 57-boundary network reports external held contact and partial period
+PASS northern travel store is visible and distinct from groundwater
+PASS completed selection survives reload and browser history
+PASS invalid selection clears stale results and completion count
+PASS 1440/390/320 layouts fit controls and tables
+PASS integrity failure blocks stale UI and retry restores verified data
+PASS previous model links to new network candidate
+PASS original map selection and new navigation preserved

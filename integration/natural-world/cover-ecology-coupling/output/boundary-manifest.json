@@ -1,0 +1,12 @@
+{
+  "schema": "all-cover-boundaries-manifest/1",
+  "geometry": {
+    "file": "boundaries.json.gz",
+    "bytes": 761265,
+    "sha256": "81571594c53023229b88a173105edc8aebf4c9a47ac2df72a8b487168e98c6cb"
+  },
+  "provenance": {
+    "previousManifestSha256": "191ae14e109ac5a8b0e740e7a000e19a0b9710bdb4ac0cdd0009a3ebd50028f5",
+    "codeSha256": "82ce0359f1298cb1328387693afa8f2952beeeb011aea04c9d9d620b965e61b4"
+  }
+}

@@ -1,0 +1,15 @@
+✔ all23022 original IDs, downstream links and endpoint reservoirs are preserved (377.407764ms)
+✔ every reach period conserves water and solid inventories independently (1183.767464ms)
+✔ all owner water ledgers include channel storage and close each period (780.378104ms)
+✔ public arrays and control values preserve all native float64 bits (4744.252876ms)
+✔ one-year world sediment balance includes retained terminal deposits, erosion0 is unchanged (5.920125ms)
+✔ period continuity, bed-height feedback and UI/AI shared query remain explicit (1774.263088ms)
+✔ initial and final owner inventories independently reconstruct source, ice, pond and channel mass (383.777059ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9346.859127

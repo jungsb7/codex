@@ -1,0 +1,15 @@
+✔ all24 periods conserve each source ice inventory and original-owner total water (9211.063198ms)
+✔ continuation starts from exact published phase50 water and snow with zero invented ice (404.732308ms)
+✔ ice faces only join target land sharing a native side and preserve the original hydraulic graph (1155.511346ms)
+✔ map and AI queries distinguish source land, background/lake, ocean and the three ice states (723.595549ms)
+✔ every public state and comparison is bit-identical to its completed native run (20132.063374ms)
+✔ bad hashes/selectors fail closed and finite-duration limits remain explicit (476.838013ms)
+✔ owner exchange ledger independently equals liquid-edge net plus source-ice net (6467.72643ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 38611.978668

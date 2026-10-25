@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "area-preserving geometry and vegetation match shared AI query",
+    "period selection retains exact computed states",
+    "point, geometry, owner budget and annual downloads match AI",
+    "populated map/chart and controls fit desktop and mobile",
+    "reload and atlas return retain original location and period",
+    "background has geometry and explicit absent dynamics",
+    "ocean mask retains absent geometry",
+    "integrity error blocks export and retry recovers",
+    "late response cannot overwrite latest selection",
+    "atlas source selection and period reach the ecology view"
+  ],
+  "downloads": 4,
+  "errors": []
+}

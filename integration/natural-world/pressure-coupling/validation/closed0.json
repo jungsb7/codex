@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "id": "closed0",
+  "fingerprint": "d3b6316cacc632577349b365a01f6c8c18e70114875b2068284223901bb72a2c",
+  "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58",
+  "elapsedMs": 781917,
+  "maximumVegetationLedgerResidual": 1.8318679906315083e-15,
+  "maximumPressureWaterRelativeResidual": 2.131373288496683e-14,
+  "maximumPressureIterations": 1,
+  "maximumOwnerWaterRelativeResidual": 1.8509909884104574e-12,
+  "maximumReachWaterRelativeResidual": 2.5521275185855224e-14,
+  "maximumReachSedimentRelativeResidual": 1.8197060009419678e-14
+}

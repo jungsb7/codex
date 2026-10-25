@@ -1,0 +1,80 @@
+{
+  "schema": "pressure-manifest/1",
+  "meta": {
+    "file": "meta.json.gz",
+    "bytes": 2289170,
+    "sha256": "7d861733dac298b0fa5425df9305a03f30b38e42ba6039ef00c48203ea39b46f"
+  },
+  "summary": {
+    "file": "summary.json.gz",
+    "bytes": 649,
+    "sha256": "497510323e697d89de00dd5dd7cb61bcf9a68a4c8bc56fdb889ad4459ea84937"
+  },
+  "periods": [
+    {
+      "file": "period-01.json.gz",
+      "bytes": 6846026,
+      "sha256": "ec45863f89a20b2cedd0270f5112f13220ba8a8ba82019edb9ebcbdb8e2099c0"
+    },
+    {
+      "file": "period-02.json.gz",
+      "bytes": 6894588,
+      "sha256": "fe5e74d8ce001e0c6ce3e805a99eb3a03ecfa4aba84d0b223afbc1a47c909327"
+    },
+    {
+      "file": "period-03.json.gz",
+      "bytes": 6916953,
+      "sha256": "7125b78de1f0cd58d1555f7c99d50ba551bc1474b137cbd98c4ddeb2ed03f27e"
+    },
+    {
+      "file": "period-04.json.gz",
+      "bytes": 6896692,
+      "sha256": "69c71839e753ab502ccf116b3a26f0cc13db0ff44931eea0b4203d4273589318"
+    },
+    {
+      "file": "period-05.json.gz",
+      "bytes": 6832531,
+      "sha256": "f84cf6f9ce3ec29fa4cfdef1a8bf69fcdc9bec7daeb11bedf3251b538c964a1f"
+    },
+    {
+      "file": "period-06.json.gz",
+      "bytes": 6836694,
+      "sha256": "42928d52a4546b652e3208669efe0236dbaf2f353ae103332f00d49ad3f2d18d"
+    },
+    {
+      "file": "period-07.json.gz",
+      "bytes": 6924216,
+      "sha256": "ec6e2a965034c5d3eecad316642561d9bd748c5d914ead2d96219e389e4bb6d4"
+    },
+    {
+      "file": "period-08.json.gz",
+      "bytes": 7027937,
+      "sha256": "1046a3b261f3488fb073741940326a6dff0255ade6e8ad65731cf9e8c5167958"
+    },
+    {
+      "file": "period-09.json.gz",
+      "bytes": 6955029,
+      "sha256": "3fedd9cfa35169cc60a758cf9410b05da396837a5171c690056a3c3fa5fae73f"
+    },
+    {
+      "file": "period-10.json.gz",
+      "bytes": 6940974,
+      "sha256": "4246b5b97af00b2b8ec506b584fc25335ff619493bd5d7d55bb354650f5a2982"
+    },
+    {
+      "file": "period-11.json.gz",
+      "bytes": 6933914,
+      "sha256": "a06b36f35ff05227f6375b98bbdb7636598729599a4cec845da6cab0ebcd6c56"
+    },
+    {
+      "file": "period-12.json.gz",
+      "bytes": 6872022,
+      "sha256": "4e7a601d1d5fb50cfa417608ad79d578ae65453bf3f33ea80617bb338b5d8269"
+    }
+  ],
+  "finalState": {
+    "file": "final-state.json.gz",
+    "bytes": 5659076,
+    "sha256": "3da8094589062f7510f559becf6b138c71611b4cde817ffbb61596eb33fea341"
+  }
+}

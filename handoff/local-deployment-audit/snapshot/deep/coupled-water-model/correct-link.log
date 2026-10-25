@@ -1,0 +1,11 @@
+PASS 946 source-collected choices require explicit scenario
+PASS nine downloads exactly equal shared AI query, including northern input-only record
+PASS collected northern inputs are not mislabeled as dynamic results
+PASS formerly blocked extra route and both transfer directions visible
+PASS selection and year survive reload and browser history
+PASS uncomputed year and malformed selection hide stale results
+PASS 1440/390/320 layouts fit tables and controls
+PASS payload integrity failure clears UI and retry restores it
+PASS all57 dynamic records render
+PASS previous model links to new candidate
+PASS original map selection and new navigation preserved

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "id": "feedback0",
+  "fingerprint": "239ef1a80da5796de0e4fbadab6fcabdcaef1878dec8cd5bc86f3773a23c051e",
+  "nativeSha256": "6a14d7ae836d712928db5eb3808c0fa6c7ed148b36ebc68bf46ac051f66485e1",
+  "elapsedMs": 805941,
+  "maximumVegetationLedgerResidual": 2.220446049250313e-15,
+  "maximumOwnerWaterRelativeResidual": 1.9755111247648208e-12,
+  "maximumReachWaterRelativeResidual": 2.2945553068114414e-14,
+  "maximumReachSedimentRelativeResidual": 1.952468885991458e-14
+}

@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "id": "erosion0",
+  "fingerprint": "f72ff8d7a3a81c8162b768c37f822780ebfb35552fd6768971fdd0515f77558f",
+  "nativeSha256": "acbf19ae13812483fae2024bccec9b12860f02eed4c462b0e25774275b22f24b",
+  "elapsedMs": 769951,
+  "maximumOwnerWaterRelativeResidual": 1.9863007450869448e-12,
+  "maximumReachWaterRelativeResidual": 3.152490977467761e-14,
+  "maximumReachSedimentRelativeResidual": 0,
+  "maximumReachHydraulicNormalizedResidual": 0.9999997167463442
+}

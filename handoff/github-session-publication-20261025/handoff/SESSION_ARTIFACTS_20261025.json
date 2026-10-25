@@ -1,0 +1,62 @@
+{
+  "schema": "session-handoff-artifact-index/1",
+  "remoteBase": "6f2826af3c490881fef9e6c23f986f97f000507b",
+  "localModelCommit": "0a13db0194bf77d60d95a9bc5feb68f8b007ebab",
+  "localSavedCommit": "ced9891e24faa58cfe1eb6d44311542b95f068f4",
+  "documentationBranch": "codex/session-handoff-20261025",
+  "containsCodeOrCalculatedPayloads": false,
+  "artifacts": [
+    {
+      "module": "cryosphere-coupling",
+      "availability": "local-only; not contained in documentation branch",
+      "manifestSha256": "c63a50a8688d8c56f89e414c27020b4d87b6d1df52745f21c8ca9a091dcecb13",
+      "finalState": {
+        "bytes": 4475519,
+        "sha256": "47e59325463424c0d8f4106c24042af126b63797e61998d5390ad7784b8914c0",
+        "path": "output/final-state.json.gz"
+      },
+      "nativeSha256": null
+    },
+    {
+      "module": "reach-erosion-coupling",
+      "availability": "local-only; not contained in documentation branch",
+      "manifestSha256": "72b2c337087380d3971acd5d308f18724a63b1b43e74221ed7a177f36117dbb9",
+      "finalState": {
+        "file": "final-state.json.gz",
+        "bytes": 4873750,
+        "sha256": "cd00ae7ed7da2d5a773cb9f15bf04da91a2b7b110349f78b994036490c56da03"
+      },
+      "nativeSha256": "acbf19ae13812483fae2024bccec9b12860f02eed4c462b0e25774275b22f24b"
+    },
+    {
+      "module": "cover-ecology-coupling",
+      "availability": "local-only; not contained in documentation branch",
+      "manifestSha256": "af6c69a93e72be8f5e6b733dba684213d38159218f3010e92e72513bc0725595",
+      "finalState": {
+        "file": "final-state.json.gz",
+        "bytes": 5674103,
+        "sha256": "402af0ed7a338f2f2f123a1814c4be91caadce0b95a56b07d84a708490d7ceba"
+      },
+      "nativeSha256": "6a14d7ae836d712928db5eb3808c0fa6c7ed148b36ebc68bf46ac051f66485e1"
+    },
+    {
+      "module": "pressure-coupling",
+      "availability": "local-only; not contained in documentation branch",
+      "manifestSha256": "0f4562e6c2b88ab1ab5ad42a459834c2ca08a467cf9f162ff1d2ae9f2376c861",
+      "finalState": {
+        "file": "final-state.json.gz",
+        "bytes": 5659076,
+        "sha256": "3da8094589062f7510f559becf6b138c71611b4cde817ffbb61596eb33fea341"
+      },
+      "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58"
+    }
+  ],
+  "deploymentCandidate": {
+    "analysisCommit": "0a13db0194bf77d60d95a9bc5feb68f8b007ebab",
+    "files": 1959,
+    "bytes": 1065238620,
+    "excludedBytes": 87668307,
+    "overDecimal1GB": 65238620,
+    "over900MB": 165238620
+  }
+}

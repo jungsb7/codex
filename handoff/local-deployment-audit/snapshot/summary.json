@@ -1,0 +1,107 @@
+{
+  "commit": "0a13db0194bf77d60d95a9bc5feb68f8b007ebab",
+  "scope": "conservative candidate, not proven mathematically minimal or a built Pages artifact",
+  "tracked": {
+    "files": 2178,
+    "bytes": 1152906927
+  },
+  "candidate": {
+    "files": 1964,
+    "bytes": 1072785580,
+    "largest": {
+      "path": "integration/natural-world/pet-review/output/atlas.json.gz",
+      "bytes": 10874995,
+      "gitBlob": "365f46fd2042a3b094d9f6fc800d8ee0523ba0d0"
+    },
+    "overDecimal1GB": 72785580,
+    "remainingBinary1GiB": 956244
+  },
+  "excluded": {
+    "files": 214,
+    "bytes": 80121347,
+    "replayInputBytes": 44654864,
+    "validationImageBytes": 35466483
+  },
+  "retainedAllOutputFiles": true,
+  "retainedAllHtmlFiles": true,
+  "retainedSeasonalReviewImages": 144,
+  "queryEntrypoints": 32,
+  "queryRequireClosureFiles": 90,
+  "queryRequireEdges": 84,
+  "preExistingMissingLiteralReferences": [
+    {
+      "from": "handoff/CURRENT_STATE.md",
+      "reference": "../integration/natural-world/landscape-compare/validation/",
+      "resolved": "integration/natural-world/landscape-compare/validation"
+    },
+    {
+      "from": "integration/natural-world/basin-water-budget/README.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/basin-water-budget/validation"
+    },
+    {
+      "from": "integration/natural-world/downstream-budget/REPORT.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/downstream-budget/validation"
+    },
+    {
+      "from": "integration/natural-world/downstream-routing/README.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/downstream-routing/validation"
+    },
+    {
+      "from": "integration/natural-world/inland-routing/README.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/inland-routing/validation"
+    },
+    {
+      "from": "integration/natural-world/subgrid-hydrology/REPORT.md",
+      "reference": "validation",
+      "resolved": "integration/natural-world/subgrid-hydrology/validation"
+    },
+    {
+      "from": "integration/natural-world/water-budget-chain/README.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/water-budget-chain/validation"
+    },
+    {
+      "from": "integration/natural-world/water-budget-link/README.md",
+      "reference": "validation/",
+      "resolved": "integration/natural-world/water-budget-link/validation"
+    },
+    {
+      "from": "integration/terrain-v2/README.md",
+      "reference": "output/coverage.json",
+      "resolved": "integration/terrain-v2/output/coverage.json"
+    },
+    {
+      "from": "integration/terrain/README.md",
+      "reference": "output/coverage.json",
+      "resolved": "integration/terrain/output/coverage.json"
+    }
+  ],
+  "cloudflareConstraintOnly": {
+    "fileLimit": 20000,
+    "perFileLimitBytes": 26214400,
+    "filesOverLimit": [],
+    "fileCountPass": true,
+    "perFilePass": true
+  },
+  "uncertainty": [
+    "All computed outputs retained to cover manifest-driven and dynamic period/partition paths; not all possible UI interactions enumerated.",
+    "Only explicit HTML/Markdown/CSS links and static query requires resolved; legacy missing links listed, not repaired.",
+    "Excluded replay banks remain in Git; full development rebuild requires repository checkout.",
+    "No Pages artifact build or remote source settings verification performed."
+  ],
+  "localVerification": {
+    "pressureBrowserChecks": 10,
+    "pressureDownloads": 4,
+    "queryMatchesBrowser": true,
+    "status": "passed",
+    "htmlRoutesHeadChecked": 59,
+    "reviewCombinations": 72,
+    "reviewImages": 144,
+    "errors": [],
+    "scope": "Every tracked HTML URL served from candidate; all seasonal-review combinations decoded with matching image download links. HEAD availability does not prove every page interaction."
+  }
+}

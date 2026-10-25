@@ -1,0 +1,14 @@
+✔ all source vegetation states are bounded with continuous growth/death ledgers (1906.884153ms)
+✔ every owner ledger includes all six water inventories with period continuity (1243.547803ms)
+✔ encoded ecology and controls preserve every computed float64 value (7243.924736ms)
+✔ initial 104 state and final 105 water inventories independently reconstruct all stores (512.761039ms)
+✔ continuing sediment remains conserved including prior retained deposits (5.630786ms)
+✔ shared AI API separates boundary-only background, ocean, and modeled vegetation (233.789004ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 12318.98929

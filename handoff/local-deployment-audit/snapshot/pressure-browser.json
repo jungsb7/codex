@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checks": [
+    "initial pressure geometry and state match shared AI",
+    "all three original passages agree across sampled periods",
+    "same106-year cell vegetation, ice, pond and individual reach values agree with AI",
+    "passage, world budget, coupled cell and annual downloads preserve values",
+    "pressure profile, annual graph and cell controls fit desktop and mobile",
+    "reload and atlas return retain selected cell and location",
+    "nonexistent underground route fails closed",
+    "corrupt payload blocks export and retry recovers",
+    "late response cannot overwrite the latest period",
+    "atlas selected cell and period reach the complete coupling view"
+  ],
+  "downloads": 4,
+  "errors": []
+}

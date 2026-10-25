@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "htmlRoutesHeadChecked": 59,
+  "reviewCombinations": 72,
+  "reviewImages": 144,
+  "errors": [],
+  "scope": "Every tracked HTML URL served from candidate; all seasonal-review combinations decoded with matching image download links. HEAD availability does not prove every page interaction."
+}

@@ -1,0 +1,10 @@
+{
+  "excludedFromPublishedCalculations": true,
+  "initialNativeSha256": "c355a44f21c06e7faa5dfa33feb7b610a2b2885e208b2ad6ddc39772f2788785",
+  "priorFullControl": "All phase50 outputs exactly equal with optional module absent",
+  "failedCryosphereRun": "time120 stopped before completing period1 at edge47: unconstrained liquid weir root outside available mobile volume under positive frozen-water head",
+  "correction": "At the fully depleted donor boundary, transfer all and only available liquid when the unconstrained endpoint demand exceeds it; disclose constrained exchange count and unmet demand; add an independent dry-liquid regression",
+  "waterDiscardedOrCreated": false,
+  "toleranceRelaxed": false,
+  "acceptedAsModelResult": false
+}

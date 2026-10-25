@@ -1,0 +1,13 @@
+{
+  "status": "diagnostic-not-time-comparison",
+  "case": "time120",
+  "activeReaches": 23022,
+  "totalReaches": 23022,
+  "erodedKg": 9544949268.38566,
+  "depositedInChannelKg": 9374654345.174574,
+  "terminalSedimentKg": 170277611.50031596,
+  "minBedChangeM": -0.0011933400208156782,
+  "maxBedChangeM": 0.00046284001969689077,
+  "maxMeanDischargeM3s": 9209.084405362906,
+  "maxDischargeReachId": 15584
+}

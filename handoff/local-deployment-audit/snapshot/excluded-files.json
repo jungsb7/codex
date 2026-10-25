@@ -1,0 +1,1286 @@
+[
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/collection.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 1224,
+    "gitBlob": "fcf8bd76cfad8a8cf2f04e3ccc050647f4cde6d9"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-00.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c03f977c140e4b71664e867e66359dfea4226c0f"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-01.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3ea4a8b4f6f07a5d7a225c3aec990221ccf2f6aa"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-02.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "5838521a5b7d2c6ec4ce1ea05206fb08b2f3af9c"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-03.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3956511ce6a0dd5f1debec2e0771e26185c3413f"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-04.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "aa050bd40272ea83401cc0eb4f02c2349172b4df"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-05.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "b74bc899cbcfe566cee656e8bc263e3e6e35ad48"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-06.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e082a96507783f925e4473004eeca35dd55c057e"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-07.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e2e3246e12f4d6bbb63b297cebd2fcef15ed9187"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-08.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c7d40f64e021cbe2185a20a13ef2d036e1148611"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-09.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c4c5f0ad4a31e5cc39816404898ef66ba42bcde6"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-10.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "2e15df364c96e1a5bf6562ebe55761186b32ae6c"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-11.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e95d38a9857898d6fc130d44d4232f3263589c2a"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-12.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "5426bceb61ba59102b5015fb5ce2ddfa0c8c9ae0"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-13.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "f7ed97cfd412f740d28cd06e0d3a6512987b2c3d"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-14.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "626f4b5c8e2d3933a3d02fa7107c5304bd6e8615"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-15.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "1d1ddc24373fe4c3850d03417fcb8e8033553136"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-16.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "57f74a69d22050892d93c437959c3e563a87faf2"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-17.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 7089,
+    "gitBlob": "8baff57c04d75be3cac210fce97fc223006af459"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/flux-manifest.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 2817,
+    "gitBlob": "65490771856697df5e7339476f5265caa7f88a55"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/inputs/models.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 966566,
+    "gitBlob": "143962b077ae0dbee264d108f7cba7e921a57b58"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/validation/budget-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 350015,
+    "gitBlob": "832e2587c916408af84ce11fc45b94918080a44a"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/validation/budget-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 299556,
+    "gitBlob": "0441b1d558afb8e8792d8d0fe30be94d82aecdb1"
+  },
+  {
+    "path": "integration/natural-world/basin-water-budget/validation/budget-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 298464,
+    "gitBlob": "f86aa2e1f1c69d1cf9668f1497fc550e5617c5ee"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/valley-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 227487,
+    "gitBlob": "c8f827eab57b75de6fc2cae3b0d354c2b49f972e"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/valley-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 177574,
+    "gitBlob": "f0c3efdca9e784e32f795b4e65eeecbf8ab6bdc0"
+  },
+  {
+    "path": "integration/natural-world/channel-valley-model/validation/valley-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 182616,
+    "gitBlob": "1e1f72adbe9a2ff664bfc274c2aac244c182a460"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/collection.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 1001,
+    "gitBlob": "c9951094c69062098b5378b7af3f4a656d6dbf23"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-00.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e841ada1e12d84a4e0bf952a9eb400d484e33231"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-01.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "9baf7eab119b7e5bb72a07435aa4a75bc7b56e9e"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-02.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "24826e07b12c6fe0d15c10bc5765889570d0f2a3"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-03.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c2ef4df65b5f09ca83ac517b06eb8c6adbe3999f"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-04.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "6efcd3469f99f40351cd1b7fd6ba8d680b6a86ba"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-05.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3c921285cb35d02200c4c24e541b8aa2f33aeb76"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-06.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "b33e1c8d601c1d7d3f0a221a32bc2c01d7e0921f"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-07.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "5a956b9b3dd1a9ede2a513221f4b00d647d79382"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-08.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "80299623f18a794a987a6c01c05130785aaed680"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-09.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "b8159c3a65fb8bd0ee120b046d9e0a54870296bd"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-10.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e434721caa21e1bb680a954fa841dfd8a687a95c"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-11.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c30c15d92dfc4c6505cc6b68907fa6b1b6dc0fe1"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-12.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "07e56ff53597b3ac0379a4544aebf9feab9b6d61"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-13.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "460bbdd37deef2e335c431a4bfa966dfdf395972"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-14.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "699abb435941522d6010a983054a6134b99fe976"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-15.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "cc78b8e3dc0c40800fc9009c56ffa14faaa97a61"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-16.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "5b3bff167abd5bf0a69fb90fab8109ee2804f887"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-17.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "567b530450f2e618bcc66e69cde6a776fe6a5d3e"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-18.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "91dfc44235aaadbff5b664f7cfc95ff7929e67ba"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-19.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "27ac360f9b356fba0633e8267266ab5f34f0c261"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-20.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "6289b2d08a1c1a09c230113cfe37caa991bc89cb"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-21.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "991e6c502b6e7c835bd8dfbbc771e385ff202156"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-22.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "882dc5581a1cd0bd905cecd03468d5c2cc32ab27"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-23.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "e7a5e955774d84f3078acda274f2f26e31d18ae3"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-24.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "6dc35fdd6ebecac55197758a8a665f56431d718b"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-25.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "7d26966ab4b6b74280416313195a5874b9bd66c2"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-26.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "4e3cc5e67f1e0c510be3b2e52f03ceeee59c1fbd"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-27.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "da6701de49cca21867ddc657327c5243c2f5f51a"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-28.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "813333eef8632f07fe30fd816d0375fe6277c59e"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-29.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "4da1654d4c352342222665afda5cec0c0ce4acc2"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-30.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "116b3e0a43b7235e9912139f3281082bb26ae4b0"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-31.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "4cc1c0dfb3e7d82d4f41118027165f8507a43426"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-32.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "c7b5d3642d61d2491d49ea566ae2a42827d4fe79"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-33.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "b76fc779cc9bb92d6f974cf807f73954c8967d40"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-34.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "980d28139c182564f6b4606022bca9d88dc451b6"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-35.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "775261f72acd521b2da96a4cb39eacff2207acef"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-36.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "a32ee643ef3fce390a96a83af89310d37422e19a"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-37.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "615d1565920d3bdcbf694226341cf32dc27b74da"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-38.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3c934bb92805e9a586f9af9d140ef4ccf9632b3a"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/forcing-39.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 84677,
+    "gitBlob": "0fac93b769f5c3c9b23c4e8bf21b4eea8b9a8cb8"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/inputs/manifest.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 6199,
+    "gitBlob": "689aa0e01d4369b679298c3cb0796b148a2203f6"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/coupled-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 287164,
+    "gitBlob": "01a7547156f0e424a634888ed1cd3d4e8f4e1365"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/coupled-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 275755,
+    "gitBlob": "3d320b29badf6167274a9301fee8c2c78d4b6c3f"
+  },
+  {
+    "path": "integration/natural-world/coupled-water-model/validation/coupled-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 263720,
+    "gitBlob": "34a3aa6cb249f9cb2ecda30f2c9978033ccb38fa"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/cover-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 222483,
+    "gitBlob": "d5acb78d69d29209767f9b359d40f2ba4cd2ab18"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/cover-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 205315,
+    "gitBlob": "5b923ae2edef19fe18ba0ed2f533ccd9cad61d6b"
+  },
+  {
+    "path": "integration/natural-world/cover-boundary-model/validation/cover-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 206662,
+    "gitBlob": "c50daa70068acd3415a1e804aa6883faa78b3e92"
+  },
+  {
+    "path": "integration/natural-world/cryosphere-coupling/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542720,
+    "gitBlob": "413a34f10710e44b4d9c40928ce99454e20833fc"
+  },
+  {
+    "path": "integration/natural-world/cryosphere-coupling/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 679751,
+    "gitBlob": "173a3aa70154b943c0ffeee54d8233ebab0d34a9"
+  },
+  {
+    "path": "integration/natural-world/cryosphere-coupling/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27835,
+    "gitBlob": "d997f4c5f38591492956596dcbd17e770575ceaf"
+  },
+  {
+    "path": "integration/natural-world/cryosphere-coupling/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 241424,
+    "gitBlob": "e9b45f244b3383750d498d2dfb1279609142a38b"
+  },
+  {
+    "path": "integration/natural-world/cryosphere-coupling/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 144032,
+    "gitBlob": "76a92a1ada1e80be097973e5bda7af0b87cd1209"
+  },
+  {
+    "path": "integration/natural-world/d298591-confluence/validation/confluence-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 298971,
+    "gitBlob": "21ce655c9d2e83231568deabd4eb536ff094d2cf"
+  },
+  {
+    "path": "integration/natural-world/d298591-confluence/validation/confluence-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 249581,
+    "gitBlob": "4b6da8f1ed428fe3a0f1ed2bfba1ca60a6e9acea"
+  },
+  {
+    "path": "integration/natural-world/d298591-confluence/validation/confluence-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 247087,
+    "gitBlob": "4fc94271f3215a86328e43a6f4817829219549b2"
+  },
+  {
+    "path": "integration/natural-world/d298591-confluence/validation/confluence-editor-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 277529,
+    "gitBlob": "0c3c7a0bdf4e583cf277ad78f230204550d709ca"
+  },
+  {
+    "path": "integration/natural-world/d298591-constraints/validation/constraints-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 502398,
+    "gitBlob": "3c34ac54ff2648d3c93c3468cb294ab999033790"
+  },
+  {
+    "path": "integration/natural-world/d298591-constraints/validation/constraints-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 431728,
+    "gitBlob": "40566b0551db3ebc6886371a36eedb926a01c21d"
+  },
+  {
+    "path": "integration/natural-world/d298591-constraints/validation/constraints-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 435449,
+    "gitBlob": "91bc43ed47ff4897e8640320536ad7ac4e534a73"
+  },
+  {
+    "path": "integration/natural-world/d298591-hydraulics/validation/hydraulics-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 299235,
+    "gitBlob": "ace51364405ca64833c3ad0ca1248a134c4f2757"
+  },
+  {
+    "path": "integration/natural-world/d298591-hydraulics/validation/hydraulics-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 236012,
+    "gitBlob": "7a07c44cd0d6e005b21267d99e31cded136e2035"
+  },
+  {
+    "path": "integration/natural-world/d298591-hydraulics/validation/hydraulics-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 273413,
+    "gitBlob": "f9929ae08cee7c6e8e465e9a560dd4e82c13fe5a"
+  },
+  {
+    "path": "integration/natural-world/d298591-momentum/validation/momentum-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 360780,
+    "gitBlob": "931fc91246d7f1906cfba356be7951e2fcf967d8"
+  },
+  {
+    "path": "integration/natural-world/d298591-momentum/validation/momentum-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 314700,
+    "gitBlob": "fdc875a79b80577867e8a505c7017389e07f2208"
+  },
+  {
+    "path": "integration/natural-world/d298591-momentum/validation/momentum-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 321713,
+    "gitBlob": "97fb495053b78a768e3ea0d398bc9175d634f901"
+  },
+  {
+    "path": "integration/natural-world/d298591-momentum/validation/momentum-forces-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 329058,
+    "gitBlob": "9630a61c83040392ef741f66777b0da4abccee53"
+  },
+  {
+    "path": "integration/natural-world/d298591-routing/validation/routing-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 327529,
+    "gitBlob": "92499b9985321f9e18deeb9e9075c7b2332464a3"
+  },
+  {
+    "path": "integration/natural-world/d298591-routing/validation/routing-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 284346,
+    "gitBlob": "e92b7ee982ae27148fbd4ce0077661ac355896b5"
+  },
+  {
+    "path": "integration/natural-world/d298591-routing/validation/routing-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 306168,
+    "gitBlob": "eccc7962a0738e6641a40f420642173477e8452f"
+  },
+  {
+    "path": "integration/natural-world/d298591-surface/validation/surface-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 297867,
+    "gitBlob": "30139019faeacf8d7b3e0ac57ea0903022b58e2b"
+  },
+  {
+    "path": "integration/natural-world/d298591-surface/validation/surface-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 272815,
+    "gitBlob": "dad7964062d6e0bbcf79efa2b7c78f9092829ff5"
+  },
+  {
+    "path": "integration/natural-world/d298591-surface/validation/surface-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 274919,
+    "gitBlob": "4767c670fd110d0e0837ed75801ee6cd6904b10f"
+  },
+  {
+    "path": "integration/natural-world/d298591-tailwater/validation/tailwater-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 293131,
+    "gitBlob": "845a8e0af5b462c2693840d2058730e7dfd6ec37"
+  },
+  {
+    "path": "integration/natural-world/d298591-tailwater/validation/tailwater-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 273985,
+    "gitBlob": "719d1d63cdfe42cf6aa477b89863ed3ff5e44323"
+  },
+  {
+    "path": "integration/natural-world/d298591-tailwater/validation/tailwater-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 281706,
+    "gitBlob": "82697bdfbe22db26a45cacd98fc8b85c06c0c0e8"
+  },
+  {
+    "path": "integration/natural-world/downstream-budget/validation/budget-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 270282,
+    "gitBlob": "f22291dd3e6648cc277c584b5000c110a6d14af8"
+  },
+  {
+    "path": "integration/natural-world/downstream-budget/validation/budget-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 251297,
+    "gitBlob": "ce06fcb9b3decfbc66a1a1c1f97a0b195ce90b06"
+  },
+  {
+    "path": "integration/natural-world/downstream-budget/validation/budget-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 248735,
+    "gitBlob": "8d48d7e0c29a2a2e435c7d515cbc99c2ff92443b"
+  },
+  {
+    "path": "integration/natural-world/downstream-routing/validation/routing-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 209084,
+    "gitBlob": "09501fbef579366d1654a9a42d04c222675175e9"
+  },
+  {
+    "path": "integration/natural-world/downstream-routing/validation/routing-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 190787,
+    "gitBlob": "51677e8a981662638203dff85a32ff06796de361"
+  },
+  {
+    "path": "integration/natural-world/downstream-routing/validation/routing-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 191373,
+    "gitBlob": "abbf7760922f7a0bf13e86fa247f6a8506c81a39"
+  },
+  {
+    "path": "integration/natural-world/finite-water-model/validation/finite-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 247879,
+    "gitBlob": "f53eafa660c47f54c225bf5be75b9b1eddb3f9a4"
+  },
+  {
+    "path": "integration/natural-world/finite-water-model/validation/finite-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 215991,
+    "gitBlob": "e21e48a80b34569d47c32eda0d5441428b95cfac"
+  },
+  {
+    "path": "integration/natural-world/finite-water-model/validation/finite-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 214456,
+    "gitBlob": "5d7b9d362d1f4920da3c3556f21d42a26eed0f38"
+  },
+  {
+    "path": "integration/natural-world/inland-routing/validation/routing-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 237242,
+    "gitBlob": "04818683d56386b8734fffaa332a65a14d974a33"
+  },
+  {
+    "path": "integration/natural-world/inland-routing/validation/routing-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 216710,
+    "gitBlob": "8f06dbeffdf0c0cc5d6aad808651b1c57200157a"
+  },
+  {
+    "path": "integration/natural-world/inland-routing/validation/routing-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 217941,
+    "gitBlob": "55c6a41fdfc46d5de36efcf38aeefa36879c7fa8"
+  },
+  {
+    "path": "integration/natural-world/inland-routing/validation/routing-held-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 214264,
+    "gitBlob": "4432c809078972db0f501cfaf1796cdcf6cfb089"
+  },
+  {
+    "path": "integration/natural-world/internal-pond-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542720,
+    "gitBlob": "413a34f10710e44b4d9c40928ce99454e20833fc"
+  },
+  {
+    "path": "integration/natural-world/internal-pond-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 679751,
+    "gitBlob": "173a3aa70154b943c0ffeee54d8233ebab0d34a9"
+  },
+  {
+    "path": "integration/natural-world/internal-pond-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "64c1adb44f9edd95f888b3e19d3f53fff0fa311f"
+  },
+  {
+    "path": "integration/natural-world/internal-pond-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 241424,
+    "gitBlob": "e9b45f244b3383750d498d2dfb1279609142a38b"
+  },
+  {
+    "path": "integration/natural-world/internal-pond-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 144032,
+    "gitBlob": "76a92a1ada1e80be097973e5bda7af0b87cd1209"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/forest-290975-1500.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 87000,
+    "gitBlob": "799125c4e8fbd497e3757cf7dd5b52a3a0e03228"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/forest-290975-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 76140,
+    "gitBlob": "0baa98c4a7e3c4824711bd1b13198794eae8fa03"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/forest-290975-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 76131,
+    "gitBlob": "276d1a28ca949b9a7dbb2368564746865f1d9e8f"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/grass-164753-1500.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 84399,
+    "gitBlob": "2d0a7035b9e5c752a4912fd6f7290ff5836e223f"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/grass-164753-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 73946,
+    "gitBlob": "dd5d2249f2906a6c3b269d5de73eb7ee2feb4c57"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/grass-164753-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 74122,
+    "gitBlob": "acfc16ef54d5384e0aa351e231cebe8e5052437f"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/wetland-489597-1500.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 80796,
+    "gitBlob": "ac6e953c9a9886c4dd75a7aed94f6a1cfe7b492b"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/wetland-489597-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 70204,
+    "gitBlob": "a74eff125ddd878f0e48ce5d7a4b396767238e0c"
+  },
+  {
+    "path": "integration/natural-world/landscape-compare/validation/wetland-489597-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 70470,
+    "gitBlob": "6502116e702bcd6b3665cb769c49845a925e30c6"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/forest-317360-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 82364,
+    "gitBlob": "f0c13e7d583558b96c95f2884a70ceb732e32ce9"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/forest-317360-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 83061,
+    "gitBlob": "0d4f5b0bffd3e38f086ca81ed72879e1b972ef57"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/grass-164753-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 84888,
+    "gitBlob": "0beda0cf106ac8652581dc1bce553b77f22638ce"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/grass-164753-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 84767,
+    "gitBlob": "5fc49737f5b34592d4dee124e18d9dc499260835"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/wetland-489597-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 84518,
+    "gitBlob": "338088805e43ae4bdb0c3cfe11ca43411be9f7c7"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/wetland-489597-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 84561,
+    "gitBlob": "478bb47eac35cf995ff7f6b1a90a8286e1e997b8"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/wetland-desktop-bottom.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 499701,
+    "gitBlob": "a22b8140251b95f8a4cc3bc35fc77f5ce1af62fc"
+  },
+  {
+    "path": "integration/natural-world/landscape-notes/validation/wetland-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 514262,
+    "gitBlob": "91c703ded8f2200023891bccc6603ec87fa0b39f"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542729,
+    "gitBlob": "70628b3d051020ba5ff9615db64134a33ad1f60c"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 679731,
+    "gitBlob": "846ae6198c01b327d0442298f4e169ad03275f89"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27832,
+    "gitBlob": "e8d091647a7b03a0b20e0c4376dfd0b66c16e617"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 241426,
+    "gitBlob": "a5525383da22cb8813cb70a835c239897ddeee5e"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 144032,
+    "gitBlob": "76a92a1ada1e80be097973e5bda7af0b87cd1209"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/canon-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 596303,
+    "gitBlob": "72d1730cdd76a96661187ea76a056bb132c7fde4"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/canon-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 309327,
+    "gitBlob": "4ccfddaf16a3fa19e7b624ffe7fceea2e327c773"
+  },
+  {
+    "path": "integration/natural-world/natural-canon-v1/validation/canon-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 330503,
+    "gitBlob": "30329e375ce5df12c53f9327ed3351123531e193"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/network-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 216096,
+    "gitBlob": "bfe89cf4ebe6e729b478b4a3fdb24c43063b383d"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/network-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 186519,
+    "gitBlob": "e6bb39941a85f697cc07c43ac92cc1de496b3ff3"
+  },
+  {
+    "path": "integration/natural-world/network-water-model/validation/network-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 187302,
+    "gitBlob": "a52d807ccf450b7ebc2b305ca9534c7daecf9307"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/background.json.gz",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 145619,
+    "gitBlob": "a64e94ba3fc899a31c7a103850cff99cc563e247"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/collection.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 999,
+    "gitBlob": "477d781736dcfe2154a79ddfad09d5f789afd597"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-00.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "9947df79b0089bb9293d81f520e881e0ad047417"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-01.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "747691fd1706b27a084f402f8e0bbebe1a5251d5"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-02.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "4578ba337f58839221a3fa424f1a08c4fc1a4910"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-03.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "775806224944e2e54a5c5deaf4efc5c9839574a4"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-04.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "0c5e715b720217d337e06ff856253cae0fa1cad3"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-05.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "71864a98027df358aab4ae7769b7c41e6b7a27ab"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-06.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "b09762a8713f888cea65a91bfb8dd90c11d8c6e4"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-07.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "8168427bcef1fd864abdbcf23a17e4dc21b1a116"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-08.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "de98accf570ff0c2358011d17bc868ff189a4e84"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-09.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "d47b30b3104ad5cf5435213928357a2d0f14e996"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-10.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3de7e5bf5a10dadb5dbd95b0d9c593e643c26b30"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-11.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "41f51bffbea1530aa0d91de7a2f8cbe17bf7f085"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-12.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "5c5dd41d98f4bb586b0a14e0130af72e61be5771"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-13.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "4eab9fbeaed855090fe69938d1a15ddf28402fa4"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-14.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "84f61d04f0e3f3b2abfe2c8bec677b1cc4fc5757"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-15.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 600000,
+    "gitBlob": "3c849ae7189e7647ee29cd9e47a70955478ad365"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/forcing-16.bin",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 235947,
+    "gitBlob": "36e574b1cd4bad7109d4921160bdb384b59a52ab"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/inputs/manifest.json",
+    "reason": "recalculation-only input bank; query.cjs reads precomputed output",
+    "bytes": 2726,
+    "gitBlob": "bc2b4c7478d6e219bff5dc2b77f593874269b51d"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/ponds-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 271667,
+    "gitBlob": "289a205685711a6084d9c791a44bf12e80a59802"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/ponds-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 232959,
+    "gitBlob": "b64f53b7f5f02e8858c1a425e6ccfcedc417538b"
+  },
+  {
+    "path": "integration/natural-world/pond-network-model/validation/ponds-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 234888,
+    "gitBlob": "36f5950e48796025dc232ec38b59a5b3bf6b02d2"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/atlas/detail-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 542522,
+    "gitBlob": "4017dc0c13455c7a0f94cc78bacbe3e19bd5a039"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/atlas/forest-detail.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 674518,
+    "gitBlob": "a7b9217c96acdfeed110cb3ba106d839f82b10b7"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/atlas/ridge-card.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 27910,
+    "gitBlob": "fa8ffdeea8e491e0b8d2e60e95a05422d11fa90f"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/atlas/season-desktop.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 221212,
+    "gitBlob": "b3b34d5232c2f87236ebe51981dcd08e78abbce4"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/atlas/season-mobile.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 143997,
+    "gitBlob": "54460027eb748a69a4949244077365b77764ad13"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/physical-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 239956,
+    "gitBlob": "ffefeb55ddbba342ab89f64f3bfb0e3804c851ce"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/physical-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 231022,
+    "gitBlob": "f56b6f3f9ffe7c35d8b7bb2962d61fbfd8fc9517"
+  },
+  {
+    "path": "integration/natural-world/seasonal-physical-model/validation/physical-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 240707,
+    "gitBlob": "8ceb4e1af4405ed0fbb5e71192d102307a07de62"
+  },
+  {
+    "path": "integration/natural-world/terrain-water-model/validation/terrain-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 255938,
+    "gitBlob": "3cc23245db45d8a639fdac8b02bf75d6c5c2cf76"
+  },
+  {
+    "path": "integration/natural-world/terrain-water-model/validation/terrain-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 219752,
+    "gitBlob": "44d5b1e3af4f2c3a96a7ab18c4511869f1b23f09"
+  },
+  {
+    "path": "integration/natural-world/terrain-water-model/validation/terrain-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 220045,
+    "gitBlob": "3b623d021f6ea0760ca46d16b4bb056e70239ca6"
+  },
+  {
+    "path": "integration/natural-world/water-budget-chain/validation/budget-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 334300,
+    "gitBlob": "b509e77c87ce833e0af502baea92d231fa713527"
+  },
+  {
+    "path": "integration/natural-world/water-budget-chain/validation/budget-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 288306,
+    "gitBlob": "c95f35dca11e313f5d810533f1f68d1b88835ccc"
+  },
+  {
+    "path": "integration/natural-world/water-budget-chain/validation/budget-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 286265,
+    "gitBlob": "f97a84a77182b37c4eb3744b0ccd9c92364e9df4"
+  },
+  {
+    "path": "integration/natural-world/water-budget-link/validation/budget-1440.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 254544,
+    "gitBlob": "e04d35963a341ab2efa6e27beb6b7bfd8771bd2a"
+  },
+  {
+    "path": "integration/natural-world/water-budget-link/validation/budget-320.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 219673,
+    "gitBlob": "bd9eef76df3952029bef153e7e990fb4cd069482"
+  },
+  {
+    "path": "integration/natural-world/water-budget-link/validation/budget-390.png",
+    "reason": "validation image without identified site/document reference",
+    "bytes": 217806,
+    "gitBlob": "37dbf3d0cb86da8d390a2161c6e2523826e28aed"
+  }
+]

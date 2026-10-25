@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "preserved atlas deep link renders the same point as AI",
+    "both modeled years and three periods agree with computed comparison fields",
+    "all four map layers preserve selection and identify their scope",
+    "point, water budget and full annual downloads match AI",
+    "annual chart reads the12 computed end states",
+    "reload retains cell, year, layer and period",
+    "map, data tables and controls fit desktop and mobile",
+    "ocean remains outside scope with exports disabled",
+    "atlas entry and return preserve user location and period",
+    "corrupt part or payload fails closed and retry recovers",
+    "late period response cannot overwrite a newer selection"
+  ],
+  "downloads": 3,
+  "errors": []
+}

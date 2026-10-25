@@ -1,0 +1,16 @@
+'use strict';const fs=require('fs'),z=require('zlib'),assert=require('assert/strict'),crypto=require('crypto'),hash=b=>crypto.createHash('sha256').update(b).digest('hex'),read=f=>JSON.parse(fs.readFileSync(__dirname+'/'+f)),manifest=read('output/manifest.json'),verified=s=>{const b=fs.readFileSync(__dirname+'/output/'+s.file);assert.equal(hash(b),s.sha256);assert.equal(b.length,s.bytes);return JSON.parse(z.gunzipSync(b));},summary=verified(manifest.summary),meta=verified(manifest.meta),audits=['time120','fine240','feedback0'].map(id=>read('validation/'+id+'.json')),browser=read('validation/browser-checks.json');for(const a of audits){assert.equal(a.status,'passed');assert.equal(a.nativeSha256,hash(fs.readFileSync('/tmp/cover-ecology-coupling.node')));}assert.equal(browser.status,'passed');assert.equal(browser.checks.length,10);assert.equal(browser.downloads,4);for(const[file,count]of [['engine-tests.txt',6],['data-tests.txt',6],['boundary-tests.txt',4]]){const s=fs.readFileSync(__dirname+'/validation/'+file,'utf8');assert(new RegExp('pass\\s+'+count+'\\b').test(s));assert(/fail\s+0\b/.test(s));}for(const[file,sha]of Object.entries(meta.provenance.codeSha256))assert.equal(hash(fs.readFileSync(__dirname+'/'+file)),sha);const outputBytes=fs.readdirSync(__dirname+'/output').reduce((s,f)=>s+fs.statSync(__dirname+'/output/'+f).size,0),completion={status:'passed',scope:'bounded phase53 local implementation and validation',modelYear:105,boundaryTests:4,engineTests:6,dataTests:6,browserChecks:10,downloads:4,nativeSha256:audits[0].nativeSha256,manifestSha256:hash(fs.readFileSync(__dirname+'/output/manifest.json')),finalState:manifest.finalState,outputBytes,allFloat64BitsPreserved:true,comparisons:summary.comparisons,publicPublication:'not authorized for phase53; local only',allRequestedDetailImplemented:false};fs.writeFileSync(__dirname+'/REPORT.md',`# 후속53 로컬 검증 결과
+
+104년 말 상태에서105년1년을120/240단계와 식생 침투 피드백0으로 각각 완료했다. 전체53,803육지 분류 공유 경계와168,576수문 대상 육지의 식생 성장/사망·침투 피드백을 제공한다. 기존 채택 면적·해양/호수 마스크와 이전 수치 파일은 유지한다.
+
+- 경계4·작은 엔진6·전체 자료6검사,브라우저10검사/4다운로드 통과.
+- 본계산 최대 집수권 물 상대 잔차${summary.maximumOwnerWaterRelativeResidual.toExponential(4)},구간 물${summary.maximumReachWaterRelativeResidual.toExponential(4)},고체${summary.maximumReachSedimentRelativeResidual.toExponential(4)}.
+- 식생 시작+성장−사망−끝의 최대 절대 잔차${Math.max(...audits.map(a=>a.maximumVegetationLedgerResidual)).toExponential(4)}. 식생 비율은 생물량/탄소 질량이 아니다.
+-120/240 식생 비율 최대 차이${summary.comparisons.timeVegetationDifference},피드백0 차이${summary.comparisons.feedbackVegetationDifference}. 최대 위치는 output/summary.json.gz에 보존한다.
+- 결과${outputBytes.toLocaleString('en-US')}바이트,전 공개 부동소수점 값과 대조·계속 상태의 비트를 원래 계산과 확인했다.105년 말 상태SHA256:${manifest.finalState.sha256}.
+
+경계 공유/모든268,857격자·11분류 면적,원본 초기/최종 물·빙설·하도 재고의 독립 복원,모든 식생/개별 구간 고체·집수권 물 장부,지도/AI/다운로드 일치를 검사했다. 브라우저 손상 자료·재시도·늦은 응답·320/390/1440px도 확인했다. 전체 계산을 반복하지 않고 캐시를 검증/패키징했다.
+
+배경 육지는 경계만 제공하며 식생 동역학은 null이다. 고정1년으로 생태 평형을 주장하지 않는다. 경계는 관측값이 아니며 이전 공간14.574m·시간4.282m 수위 민감도도 남는다. 검사는 수치 보존과 구현 일치를 검증하며 과학적 정확성/전체 수렴의 확정이 아니다.
+
+다음은 기존 지정 통로3곳 압력과 전체 결합(54)이다. allRequestedDetailImplemented=false. 이번 자료는 로컬 전용이며 GitHub/Pages에 게시하지 않았다.51의 별도 승인 재시도도 자동 검토가 거부한 상태다.
+`);fs.writeFileSync(__dirname+'/validation/completion.json',JSON.stringify(completion,null,2)+'\n');console.log(JSON.stringify(completion));

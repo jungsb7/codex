@@ -1,0 +1,20 @@
+{
+  "status": "comparison-completed",
+  "maximumGlacierThicknessDifferenceM": 0.0004598749105817554,
+  "glacierCell": 266926,
+  "maximumStorageLevelDifferenceM": 4.282095255028253,
+  "node": 8084,
+  "maximumSurfaceIceDifferenceM3": 43330186.08854675,
+  "glacierYear": 103,
+  "glacierPeriod": 12,
+  "nodeInfo": {
+    "parent": 1415,
+    "cell": 270020,
+    "curves": [
+      10573
+    ]
+  },
+  "levelYear": 102,
+  "levelPeriod": 5,
+  "meaning": "Numerical differences, not a confidence interval; source and reservoir scopes differ"
+}

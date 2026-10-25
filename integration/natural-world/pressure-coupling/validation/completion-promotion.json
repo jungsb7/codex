@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "meaning": "After all numerical/data/browser gates passed, promote agreed finite implementation status; no numerical result or input changed",
+  "numericalPayloadsUnchanged": [
+    {
+      "file": "period-01.json.gz",
+      "sha256": "ec45863f89a20b2cedd0270f5112f13220ba8a8ba82019edb9ebcbdb8e2099c0"
+    },
+    {
+      "file": "period-02.json.gz",
+      "sha256": "fe5e74d8ce001e0c6ce3e805a99eb3a03ecfa4aba84d0b223afbc1a47c909327"
+    },
+    {
+      "file": "period-03.json.gz",
+      "sha256": "7125b78de1f0cd58d1555f7c99d50ba551bc1474b137cbd98c4ddeb2ed03f27e"
+    },
+    {
+      "file": "period-04.json.gz",
+      "sha256": "69c71839e753ab502ccf116b3a26f0cc13db0ff44931eea0b4203d4273589318"
+    },
+    {
+      "file": "period-05.json.gz",
+      "sha256": "f84cf6f9ce3ec29fa4cfdef1a8bf69fcdc9bec7daeb11bedf3251b538c964a1f"
+    },
+    {
+      "file": "period-06.json.gz",
+      "sha256": "42928d52a4546b652e3208669efe0236dbaf2f353ae103332f00d49ad3f2d18d"
+    },
+    {
+      "file": "period-07.json.gz",
+      "sha256": "ec6e2a965034c5d3eecad316642561d9bd748c5d914ead2d96219e389e4bb6d4"
+    },
+    {
+      "file": "period-08.json.gz",
+      "sha256": "1046a3b261f3488fb073741940326a6dff0255ade6e8ad65731cf9e8c5167958"
+    },
+    {
+      "file": "period-09.json.gz",
+      "sha256": "3fedd9cfa35169cc60a758cf9410b05da396837a5171c690056a3c3fa5fae73f"
+    },
+    {
+      "file": "period-10.json.gz",
+      "sha256": "4246b5b97af00b2b8ec506b584fc25335ff619493bd5d7d55bb354650f5a2982"
+    },
+    {
+      "file": "period-11.json.gz",
+      "sha256": "a06b36f35ff05227f6375b98bbdb7636598729599a4cec845da6cab0ebcd6c56"
+    },
+    {
+      "file": "period-12.json.gz",
+      "sha256": "4e7a601d1d5fb50cfa417608ad79d578ae65453bf3f33ea80617bb338b5d8269"
+    },
+    {
+      "file": "final-state.json.gz",
+      "sha256": "3da8094589062f7510f559becf6b138c71611b4cde817ffbb61596eb33fea341"
+    }
+  ],
+  "manifestSha256": "0f4562e6c2b88ab1ab5ad42a459834c2ca08a467cf9f162ff1d2ae9f2376c861",
+  "observationalValidationComplete": false,
+  "fullNumericalConvergence": false,
+  "postPromotionStatusAndBrowserRecheckRequired": false,
+  "postPromotionStatusAndBrowserRecheckPassed": true
+}

@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "scope": "bounded phase52 local implementation and validation",
+  "modelYear": 104,
+  "engineTests": 10,
+  "dataTests": 7,
+  "browserChecks": 9,
+  "downloads": 3,
+  "nativeSha256": "acbf19ae13812483fae2024bccec9b12860f02eed4c462b0e25774275b22f24b",
+  "manifestSha256": "72b2c337087380d3971acd5d308f18724a63b1b43e74221ed7a177f36117dbb9",
+  "finalState": {
+    "file": "final-state.json.gz",
+    "bytes": 4873750,
+    "sha256": "cd00ae7ed7da2d5a773cb9f15bf04da91a2b7b110349f78b994036490c56da03"
+  },
+  "outputBytes": 46259284,
+  "allFloat64BitsPreserved": true,
+  "publicPublication": "not authorized for phase52; local only",
+  "timeComparison": {
+    "status": "comparison-completed",
+    "maxMeanDischargeDifferenceM3s": 284.7280257269077,
+    "maxBedChangeDifferenceM": 0.00021223046072158232,
+    "maxStorageLevelDifferenceM": 4.047836244551945,
+    "discharge": {
+      "reachId": 37024,
+      "period": 1,
+      "fineM3s": 4493.217067183911,
+      "coarseM3s": 4208.489041457004
+    }
+  },
+  "allRequestedDetailImplemented": false
+}

@@ -15,3 +15,19 @@
 50의 대상 밖 웅덩이는 기존 모형을 유지한다. 이 표의 최소 범위를 끝내도 전 지구2차원 내부 흐름을 구현했다고 쓰지 않는다. `allRequestedDetailImplemented`는 모든 행의 구현·검증이 완료되기 전까지 false다. 개별 화산 등 별도 설정을 붙여 끝나는 기준을 계속 늘리지 않는다.
 
 배포 시에는 기존 공개 GitHub/Pages 승인을 사용한다. 로컬 브라우저 검증, Pages 작업 성공, 공개 주소의 직접 HTTP 검증을 구분하며 환경에서 거부된 주소는 우회하지 않는다.
+
+## 2026-10-25 로컬 완료 판정
+
+위50–54행의 유한 구현·검증 기준은 충족했다. 최신54 조회와 완료 기록의 `allRequestedDetailImplemented=true`, `finiteModelCriteriaMet=true`는 이 표의 범위를 뜻한다. 입력으로 고정한 과거 assumptions와 이전 판의 완료 상태는 재작성하지 않는다.
+
+| 단계 | 완료 근거 |
+|---|---|
+| 50 내부 저류·공간 비교 | [검증 결과](../integration/natural-world/internal-pond-model/REPORT.md) |
+| 51 빙설·동토 | [검증 결과](../integration/natural-world/cryosphere-coupling/REPORT.md) |
+| 52 개별 유량·침식/퇴적 | [완료 기록](../integration/natural-world/reach-erosion-coupling/validation/completion.json) |
+| 53 피복·생태 | [완료 기록](../integration/natural-world/cover-ecology-coupling/validation/completion.json) |
+| 54 통로·전체 결합 | [완료 기록](../integration/natural-world/pressure-coupling/validation/completion.json)·[검증 결과](../integration/natural-world/pressure-coupling/REPORT.md) |
+
+관측 검증과 전체 수렴은 완료가 아니다. 최신 시간 비교의 저류 수위 차이는 최대4.227m이며19,990칸 중32곳에서1m를 초과한다. 이전 공간14.574m 민감도와 빙설 비평형도 남는다. 표의 범위 밖 연구는 추가 필수 조건으로 바꾸지 않는다.
+
+위의 배포 일반 지침보다 현재의 구체적인 승인/차단 상태가 우선한다.51 약146MB 승인 전달 뒤 자동 검토 거부가 유지되며52–54는 공개 미승인이다. 로컬 완료가 공개 배포 완료를 뜻하지 않는다.

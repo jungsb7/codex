@@ -1,0 +1,624 @@
+{
+  "status": "verified-local-copy",
+  "analysisBaseCommit": "0a13db0194bf77d60d95a9bc5feb68f8b007ebab",
+  "source": "/tmp/codex-pages-audit",
+  "note": "Immutable diagnostic snapshot. Temporary site symlinks excluded; project code and datasets remain in the repository. No publication performed.",
+  "files": [
+    {
+      "file": "snapshot/REPORT.md",
+      "bytes": 4536,
+      "sha256": "aef25939a71cfa6aa4b3167191d7183b18554d9b4e50230985d578a9a6db07d8"
+    },
+    {
+      "file": "snapshot/audit.py",
+      "bytes": 5635,
+      "sha256": "9d4d05e059d8c442cd42d92aa146fe479d58283df43c37f560cfc8bf8b7c7f6d"
+    },
+    {
+      "file": "snapshot/deep/REPORT.md",
+      "bytes": 8351,
+      "sha256": "5ba0d7ddcf833575d2ba609fc58e3b1e987d7d3f0ff938670b534546ce9c9b88"
+    },
+    {
+      "file": "snapshot/deep/basin-water-budget-candidate-reads.json",
+      "bytes": 281,
+      "sha256": "d7103edf6ae02b92416aebef4b415935fc35f687aeb4507b8e04efe9d52748cd"
+    },
+    {
+      "file": "snapshot/deep/basin-water-budget-original-reads.json",
+      "bytes": 233,
+      "sha256": "1a53df791d4ccf711d2a356fc9c5c53152ec65936ba1bdb80bb9aae03b2d08f6"
+    },
+    {
+      "file": "snapshot/deep/candidate-preservation.json",
+      "bytes": 169,
+      "sha256": "b35af05c343be41980226766c2649685e38595ce1f5b2076653716975d260e60"
+    },
+    {
+      "file": "snapshot/deep/channel-valley-model-candidate-reads.json",
+      "bytes": 395,
+      "sha256": "f3bfa32339727c21a91ef9fba6e902791d39f5ccf5f5ecd417ea97af2140db24"
+    },
+    {
+      "file": "snapshot/deep/channel-valley-model-original-reads.json",
+      "bytes": 331,
+      "sha256": "69ebd4c35dfdf6b3820b3f73d93aec3a8516affedd9d9eee75c89db5d3737885"
+    },
+    {
+      "file": "snapshot/deep/classification.json",
+      "bytes": 1159205,
+      "sha256": "d784f7b00907309b39142c72ea4c92a533ce80b55d9796c05455b82997f30c5b"
+    },
+    {
+      "file": "snapshot/deep/classify.py",
+      "bytes": 6540,
+      "sha256": "085ca126b2265b9923c8fb316faa38ca6134362be567528cfb00c468b6653a43"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/browser.cjs",
+      "bytes": 6156,
+      "sha256": "30be4c2dd9b89298ea5d121fc0c058b7e1ad0bc50d8d7e35e283d3f74866b3f1"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/coupled-1440.png",
+      "bytes": 288689,
+      "sha256": "82bb3ccc8c78fccca3d75b26db43d87c151792e91709f8bac8cc7a760af40ee3"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/coupled-320.png",
+      "bytes": 277285,
+      "sha256": "a99a5625408114964c9fe18cfc10647201148b45200277eb63e85ea4d4af62ca"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/coupled-390.png",
+      "bytes": 265313,
+      "sha256": "adb25f5f7cbf935951d4a8c5c35c3d5a0133e182cb813c74258d98df453ccf1e"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/missing.txt",
+      "bytes": 29,
+      "sha256": "bed8c9ef6a1e88d5bba24100c142b1d05b4b55d94d4dac26437b3a4efb4f44b3"
+    },
+    {
+      "file": "snapshot/deep/coupled-original/run.log",
+      "bytes": 747,
+      "sha256": "e73d66b859ce5f5cb52757448023da1dbd4c77e4e01c71463e8b3a29450605ea"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/browser-checks.json",
+      "bytes": 806,
+      "sha256": "32eacdb4cbe3ce7c26c12d5724ac3b5c8700d8bc3776d97bce97a2ae418b8422"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/browser-correct-link.cjs",
+      "bytes": 6239,
+      "sha256": "344dfe5904e1ed5487a691afff7fe732bbc28976a1db38fd4e0acac31f2ea647"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/browser.cjs",
+      "bytes": 6210,
+      "sha256": "b65477ad276d68c902d51554cb83b20990b070ae3f2ee3aed28190499abc43f8"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/correct-link.log",
+      "bytes": 658,
+      "sha256": "17ffc804d0d9048813d21e7bd21fb9038ecd61cc0c272427bcb6a544bcef458f"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/coupled-1440.png",
+      "bytes": 288689,
+      "sha256": "82bb3ccc8c78fccca3d75b26db43d87c151792e91709f8bac8cc7a760af40ee3"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/coupled-320.png",
+      "bytes": 277285,
+      "sha256": "a99a5625408114964c9fe18cfc10647201148b45200277eb63e85ea4d4af62ca"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/coupled-390.png",
+      "bytes": 265313,
+      "sha256": "adb25f5f7cbf935951d4a8c5c35c3d5a0133e182cb813c74258d98df453ccf1e"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/missing.txt",
+      "bytes": 90,
+      "sha256": "1e5f922bff741ab551cda1fa098f62d35624c873654c7bf024d684107ebb7b17"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model/run.log",
+      "bytes": 750,
+      "sha256": "df8d057e817120104c5a79b68d3f976b38d8a1e05e7c99245a644c895aa7667b"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model-candidate-reads.json",
+      "bytes": 284,
+      "sha256": "a066d05d81b8482cac2db13503cfcc7ba0f414c3ab366483eeaca5e0ef2f7080"
+    },
+    {
+      "file": "snapshot/deep/coupled-water-model-original-reads.json",
+      "bytes": 236,
+      "sha256": "0758e1f2fa65c0df08904c45a1f75ad47cd80eb2376213f833436e8a3c459646"
+    },
+    {
+      "file": "snapshot/deep/cover-boundary-model-candidate-reads.json",
+      "bytes": 500,
+      "sha256": "16820cf8d48b0440b75dcfc65eda1e598068dc364851b1f8d6dd92c15ffaaefd"
+    },
+    {
+      "file": "snapshot/deep/cover-boundary-model-original-reads.json",
+      "bytes": 420,
+      "sha256": "203f08f4e2d427c6df42b5b8943688a0e268b6d27445e3722751af3c814cb030"
+    },
+    {
+      "file": "snapshot/deep/cover-ecology-coupling-candidate-reads.json",
+      "bytes": 1671,
+      "sha256": "3bda16dec17ef190d7a27080a23261c061d161fae26abe0ae7d0410269fdd609"
+    },
+    {
+      "file": "snapshot/deep/cover-ecology-coupling-original-reads.json",
+      "bytes": 1415,
+      "sha256": "57cef3d91bfba938e01f1ef090846765ed6572bc07ce41ceecbfc8e53eda2c80"
+    },
+    {
+      "file": "snapshot/deep/cryosphere-coupling-candidate-reads.json",
+      "bytes": 1718,
+      "sha256": "d264882153f7269873c1ef8b09c6acfa12fd6052bb5bc5d7a9e7a376af459cf8"
+    },
+    {
+      "file": "snapshot/deep/cryosphere-coupling-original-reads.json",
+      "bytes": 1462,
+      "sha256": "1da9cadf67bc2bc91ee3aafce3b381a5a1ffdd6940ab79f3a0170e41504fe34f"
+    },
+    {
+      "file": "snapshot/deep/d298591-confluence-candidate-reads.json",
+      "bytes": 367,
+      "sha256": "9a38796bd4da465f21941a5cf7cdf70ab6078d2775941e9186bc6e90e81a7cc5"
+    },
+    {
+      "file": "snapshot/deep/d298591-confluence-original-reads.json",
+      "bytes": 303,
+      "sha256": "d0b7eafbdef3d2d154ca72fb1a282200aa26003e189af80261bfb2e103b63e5a"
+    },
+    {
+      "file": "snapshot/deep/d298591-constraints-candidate-reads.json",
+      "bytes": 284,
+      "sha256": "1dc8a10e00a8065138a18a6bb4f9fcd810dc7c2c7816d8ace214596c52891884"
+    },
+    {
+      "file": "snapshot/deep/d298591-constraints-original-reads.json",
+      "bytes": 236,
+      "sha256": "3b14fbc2b7ad68fcc50291db1c41f5bfdc2387658c1a7dd4107f9a078ff1566b"
+    },
+    {
+      "file": "snapshot/deep/d298591-hydraulics-candidate-reads.json",
+      "bytes": 367,
+      "sha256": "84e4484c9a43625fc56cef4653f43313ba8bac18ad943800d82155479b6c73b8"
+    },
+    {
+      "file": "snapshot/deep/d298591-hydraulics-original-reads.json",
+      "bytes": 303,
+      "sha256": "8b2ae5c3c968d4210413c00ed62c57fc0469597ea447cf451ce4d450af3d48e0"
+    },
+    {
+      "file": "snapshot/deep/d298591-momentum-candidate-reads.json",
+      "bytes": 359,
+      "sha256": "26804b5caf6ecb166c110c271d58b6a3af4d3b2b774fda3c58fae198bfd8d528"
+    },
+    {
+      "file": "snapshot/deep/d298591-momentum-original-reads.json",
+      "bytes": 295,
+      "sha256": "66ea83a42450aee327465e7ecc3b8a119973b5f2f295266e5542d023de4e6926"
+    },
+    {
+      "file": "snapshot/deep/d298591-routing-candidate-reads.json",
+      "bytes": 272,
+      "sha256": "f03b02fec8f5cc9bf2b0e10c5a1b6502f28258b1c78beb1685b27851bb51d43d"
+    },
+    {
+      "file": "snapshot/deep/d298591-routing-original-reads.json",
+      "bytes": 224,
+      "sha256": "825df85a45bceb973da5de14511e2cac88116c38e0b51c25123fb2f9ba9da3a9"
+    },
+    {
+      "file": "snapshot/deep/d298591-surface-candidate-reads.json",
+      "bytes": 272,
+      "sha256": "68a9656a52cd0ad97ed3bb86beb1d22b1f8194077d258bfd482c8519ff61dc72"
+    },
+    {
+      "file": "snapshot/deep/d298591-surface-original-reads.json",
+      "bytes": 224,
+      "sha256": "1fee8d1e8d2d2b9ffb95db0f9faaa89b0eb2ea902757a5e2ec326af81c7c66b2"
+    },
+    {
+      "file": "snapshot/deep/d298591-tailwater-candidate-reads.json",
+      "bytes": 278,
+      "sha256": "85d74e7487aff0a9d8de00bebeb2d8ff608cf783d6efd1e3a871015914eaa6eb"
+    },
+    {
+      "file": "snapshot/deep/d298591-tailwater-original-reads.json",
+      "bytes": 230,
+      "sha256": "138e824b27cd9a3086642e4b5aa170809ce7f5bdc52395922192f0e63ba5b5a7"
+    },
+    {
+      "file": "snapshot/deep/downstream-budget-candidate-reads.json",
+      "bytes": 278,
+      "sha256": "8a8a70118d710a5161655ed0bcffbefa59c97d3f7afb8deef0acab2a19a4d803"
+    },
+    {
+      "file": "snapshot/deep/downstream-budget-original-reads.json",
+      "bytes": 230,
+      "sha256": "b464653260c5d419e951fb42276c3ccf46f44129fab5cc333c655c870c9510cd"
+    },
+    {
+      "file": "snapshot/deep/downstream-routing-candidate-reads.json",
+      "bytes": 279,
+      "sha256": "062f094545c3df248d425ec1f8592d22b0a0c6454e4f6cc883192e0e3ea4e660"
+    },
+    {
+      "file": "snapshot/deep/downstream-routing-original-reads.json",
+      "bytes": 231,
+      "sha256": "c4f1bfc27bfc1cd1aa47f33d4ae7603b9726c0381774bb7045e1001931be018a"
+    },
+    {
+      "file": "snapshot/deep/exact-duplicates.json",
+      "bytes": 17703,
+      "sha256": "a5f7c4cd4864da5009c33222701994ba0620637b4287afb5881680eab8801f09"
+    },
+    {
+      "file": "snapshot/deep/finite-water-model-candidate-reads.json",
+      "bytes": 281,
+      "sha256": "9811d135ef283d8b53a09ce52fc63d3f1a10d7ad99881d04fb7b2f182f670c39"
+    },
+    {
+      "file": "snapshot/deep/finite-water-model-original-reads.json",
+      "bytes": 233,
+      "sha256": "ed0729328a99251750d2f7ae5f7d0f59c63fce2b3b3b1065249e932a801971a8"
+    },
+    {
+      "file": "snapshot/deep/inland-routing-candidate-reads.json",
+      "bytes": 355,
+      "sha256": "f691319d04efd486f83c97943077882f961d37ac0b27f63e39854f1e7e3dddb2"
+    },
+    {
+      "file": "snapshot/deep/inland-routing-original-reads.json",
+      "bytes": 291,
+      "sha256": "cedcffb03659ffe68f523c3a807c116df1188f3a813169c41a49c52488daf3b9"
+    },
+    {
+      "file": "snapshot/deep/internal-pond-model-candidate-reads.json",
+      "bytes": 1466,
+      "sha256": "560bdba6b8d1227bceb6a1624181270beaec82831982b23a4e86a45c30f900e1"
+    },
+    {
+      "file": "snapshot/deep/internal-pond-model-original-reads.json",
+      "bytes": 1242,
+      "sha256": "818c758ea3a25e023e34ba55f6d702327d4b98af455660d0767ad789747f39a6"
+    },
+    {
+      "file": "snapshot/deep/manifest-edges.json",
+      "bytes": 128897,
+      "sha256": "f5ba05aaa4e6b567d17023e05454441ec1f54287d840f3135c39613cf5e14475"
+    },
+    {
+      "file": "snapshot/deep/manifest-integrity.json",
+      "bytes": 285399,
+      "sha256": "9dd63edbde1f43f6d0f3ebdfc42179ae349b175c72928cd2210c1bdb22b01a5e"
+    },
+    {
+      "file": "snapshot/deep/natural-canon-v1-candidate-reads.json",
+      "bytes": 564,
+      "sha256": "abcd3263e7c395638f0c70b939ab2e6a82022700e7f04f3adfded8a31b2c6ec4"
+    },
+    {
+      "file": "snapshot/deep/natural-canon-v1-original-reads.json",
+      "bytes": 468,
+      "sha256": "745e57a98cf2dbf9c5773db08b9074009f46b3fcab31ed4d565148a84b187130"
+    },
+    {
+      "file": "snapshot/deep/natural-status-candidate-reads.json",
+      "bytes": 534,
+      "sha256": "7cf49b9a1e7a821d60136730a6389485dc771d0d4409bf2fe8b53ff1cb28f4a5"
+    },
+    {
+      "file": "snapshot/deep/natural-status-original-reads.json",
+      "bytes": 438,
+      "sha256": "3fce1b3cd644b7e357a714f020653805ce6d66a65a5f15ccaf2b06df9ee10707"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/browser-checks.json",
+      "bytes": 885,
+      "sha256": "7049a80a108cee8948ca9c97aeccaeb8ce86cccf7c6d06a907f4411d393dded1"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/browser.cjs",
+      "bytes": 6585,
+      "sha256": "4682c54cdad2ff3f52ab993812208af251a506a593a1f0a3eec2552de4ba9948"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/missing.txt",
+      "bytes": 45,
+      "sha256": "888f75df9e8160adee73e97cbf834199460fe03b511c86de59e692b1a49ebf97"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/network-1440.png",
+      "bytes": 218061,
+      "sha256": "4ced2f30624a63af92e7be0622d328dba603b6e86975469886290fb4d1e3acff"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/network-320.png",
+      "bytes": 188417,
+      "sha256": "83f81c69c1d139f29c4e0f24950d2f8a969e4942f9328e3f27433a7412b31ed5"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/network-390.png",
+      "bytes": 189387,
+      "sha256": "5a56ad5fc25d93aba52ae95787b7bc99befe06fc4173657bc40ca514ea46b04a"
+    },
+    {
+      "file": "snapshot/deep/network-water-model/run.log",
+      "bytes": 736,
+      "sha256": "7f432421274510ca2bda6ac05af7de931033d0410e1a51caa0703e1c37e12d03"
+    },
+    {
+      "file": "snapshot/deep/network-water-model-candidate-reads.json",
+      "bytes": 386,
+      "sha256": "fd3058c9cb56a0811695feae9c677d23a12cee5a5b837411a768d5b2c91ed09c"
+    },
+    {
+      "file": "snapshot/deep/network-water-model-original-reads.json",
+      "bytes": 322,
+      "sha256": "9098299b7fed850b82d6ad069b6c25d3cf3b08782249c0f3238987257e0faf39"
+    },
+    {
+      "file": "snapshot/deep/pond-network-model-candidate-reads.json",
+      "bytes": 382,
+      "sha256": "576d3ac692ca355e67c2fa2d56f914226871388e6cdf3a222b377c573500e3af"
+    },
+    {
+      "file": "snapshot/deep/pond-network-model-original-reads.json",
+      "bytes": 318,
+      "sha256": "ad0193f1eef7ee012946198c4edf69f650e867e3d1cf4fb7ad9083e4df342049"
+    },
+    {
+      "file": "snapshot/deep/pressure-1440.png",
+      "bytes": 173670,
+      "sha256": "71123dd46579af8d7e4db1c9e111f8c5fc96d99b918b23a012c69f724780bbe0"
+    },
+    {
+      "file": "snapshot/deep/pressure-320.png",
+      "bytes": 131682,
+      "sha256": "846d7a0775b1f10e5b459c4e0fba7c1b2d7f5b2dd94b56aaefef641cbf94a81d"
+    },
+    {
+      "file": "snapshot/deep/pressure-390.png",
+      "bytes": 135962,
+      "sha256": "cd25d36dc08cc74061842d8ffd0ac59269efed9455f3ac551e7d99c3b583d026"
+    },
+    {
+      "file": "snapshot/deep/pressure-browser.cjs",
+      "bytes": 6671,
+      "sha256": "f7c9a501f88de129b9684c7a4f5d94f8f17397d93eb8c39133682ba0a842b85f"
+    },
+    {
+      "file": "snapshot/deep/pressure-browser.json",
+      "bytes": 746,
+      "sha256": "3cdd07bec8b54d922de78bab9d3a909dfb8815636fe488fd5c24385b733cc250"
+    },
+    {
+      "file": "snapshot/deep/pressure-browser.log",
+      "bytes": 649,
+      "sha256": "99f8760fccd4beed2ab6854e79829df4f0a8157e4ea71c3dec098e8fe695c877"
+    },
+    {
+      "file": "snapshot/deep/pressure-coupling-candidate-reads.json",
+      "bytes": 752,
+      "sha256": "c6dbe55519849b6ffa89ef947e9c9ac105e200a817fae2c2232314d414479e64"
+    },
+    {
+      "file": "snapshot/deep/pressure-coupling-original-reads.json",
+      "bytes": 624,
+      "sha256": "ae62d0f439aa1b5ee5d19bbe6aec47aa53eaa055234468fd56b5447c6018f78e"
+    },
+    {
+      "file": "snapshot/deep/publish-files.json",
+      "bytes": 327712,
+      "sha256": "ac51f9a14c243989e2a600f43bab2155ad5af3ee82713c388efe77723f1e7f65"
+    },
+    {
+      "file": "snapshot/deep/publish-files.txt",
+      "bytes": 128680,
+      "sha256": "73efd81889d579a247173d14b76e4021cbe0de21068005efb27fa6d5ed2018e0"
+    },
+    {
+      "file": "snapshot/deep/query-check.py",
+      "bytes": 1738,
+      "sha256": "8360245bfa4d92f155a940b632f997c59223955f72dd5b075c0b20504a5390f1"
+    },
+    {
+      "file": "snapshot/deep/query-checks.json",
+      "bytes": 19815,
+      "sha256": "8d3badedadbf586317d18516cec082cda205bad617973330fbe9b1d089e1bf5d"
+    },
+    {
+      "file": "snapshot/deep/query-checks.log",
+      "bytes": 930,
+      "sha256": "4c700353b1d5f850ca842c95dcb78d27528b02b0ed8b53919eb540a6fbe4f8f4"
+    },
+    {
+      "file": "snapshot/deep/reach-erosion-coupling-candidate-reads.json",
+      "bytes": 595,
+      "sha256": "114edda33f027b72ca03e6692e282f9692c4f27adc52b899bd7b45c0475570be"
+    },
+    {
+      "file": "snapshot/deep/reach-erosion-coupling-original-reads.json",
+      "bytes": 499,
+      "sha256": "ff20b7623759c06d34cff03ae418ca82000773fa170ed8542b3d9dc340f99d55"
+    },
+    {
+      "file": "snapshot/deep/record-reads.cjs",
+      "bytes": 343,
+      "sha256": "ea816cf30f90e8c39bc2698f8cd5b0b76f3ba4b4ef5af889c468175bfd67293d"
+    },
+    {
+      "file": "snapshot/deep/review-browser.cjs",
+      "bytes": 2649,
+      "sha256": "37f15eb4a828963b388d50cf9e41182c38cc765f17b5da9a8e08342e27eeb6ad"
+    },
+    {
+      "file": "snapshot/deep/review-browser.json",
+      "bytes": 316,
+      "sha256": "962daed3a18f70fe44e75c9582a768014dc036470d50c283436087823076a6fe"
+    },
+    {
+      "file": "snapshot/deep/review-browser.log",
+      "bytes": 292,
+      "sha256": "355624465c0191c842663f11799d18b997df6177882a38d49c39dbff8b87507e"
+    },
+    {
+      "file": "snapshot/deep/seasonal-inundation-candidate-reads.json",
+      "bytes": 705,
+      "sha256": "084cc3c048bc78afe537adfe09d283c22bc144291b3b9ed8828a6732401feb58"
+    },
+    {
+      "file": "snapshot/deep/seasonal-inundation-original-reads.json",
+      "bytes": 593,
+      "sha256": "a038a9e137cf0325b64ecf15bc615f46404f8bd42e7054827318128c2fd5b843"
+    },
+    {
+      "file": "snapshot/deep/seasonal-physical-model-candidate-reads.json",
+      "bytes": 647,
+      "sha256": "095dbc9a7334062d4ff0e577d6742a166d0b1f761887c1966f472dea97da20d4"
+    },
+    {
+      "file": "snapshot/deep/seasonal-physical-model-original-reads.json",
+      "bytes": 551,
+      "sha256": "18f1b55f5d431301a41c6e549525ee94246ccb1de213c9bc6e178ca4d2e3828f"
+    },
+    {
+      "file": "snapshot/deep/storm-event-model-candidate-reads.json",
+      "bytes": 1197,
+      "sha256": "cb19cfef60c2b641d1d8250df4cd11fe01019aec6169bd2a2925a0ce475f93ab"
+    },
+    {
+      "file": "snapshot/deep/storm-event-model-original-reads.json",
+      "bytes": 1005,
+      "sha256": "2d575193afac06ee9a9fd709e7ac378f9b43959ae119e807cfedf4fb76602473"
+    },
+    {
+      "file": "snapshot/deep/subgrid-boundaries-candidate-reads.json",
+      "bytes": 800,
+      "sha256": "d38be68edffa95b96c022a312e8e676298dafe10622ef419e047434128d4c1c7"
+    },
+    {
+      "file": "snapshot/deep/subgrid-boundaries-original-reads.json",
+      "bytes": 672,
+      "sha256": "43b2a1c657efb29a696e8c116c16b21202405ee1928e746974b737d22027f424"
+    },
+    {
+      "file": "snapshot/deep/subgrid-hydrology-candidate-reads.json",
+      "bytes": 1107,
+      "sha256": "4a92a1176021e58284bfcd0c615f456ae956ebb1e5d5e1a141645d67ce7113fa"
+    },
+    {
+      "file": "snapshot/deep/subgrid-hydrology-original-reads.json",
+      "bytes": 931,
+      "sha256": "a55c349e463d845d0567a1593ec5adef122d7a2b000af041c21079a7d94204f4"
+    },
+    {
+      "file": "snapshot/deep/terrain-water-model-candidate-reads.json",
+      "bytes": 387,
+      "sha256": "8a5986636167084bee8857883a609293a833e750077cdddcb55b3761ad13b0c3"
+    },
+    {
+      "file": "snapshot/deep/terrain-water-model-original-reads.json",
+      "bytes": 323,
+      "sha256": "f0b7c5a489ef872a56ea8a0fdabaa6b572f5dc685892d62ce6333f062e44f62a"
+    },
+    {
+      "file": "snapshot/deep/water-budget-chain-candidate-reads.json",
+      "bytes": 281,
+      "sha256": "073beb3ae034702335bb2c333452aa1c7433840c65fce4717d4bb46ded55bba6"
+    },
+    {
+      "file": "snapshot/deep/water-budget-chain-original-reads.json",
+      "bytes": 233,
+      "sha256": "bf143dfc3a7e451ddd3cbff3ead95a16cc65e703db885ec2cb04afb4ad32689f"
+    },
+    {
+      "file": "snapshot/deep/water-budget-link-candidate-reads.json",
+      "bytes": 278,
+      "sha256": "7d839355c731ed0449c784a45c9d41c1aa64c06308d2b4a238575889748ab5af"
+    },
+    {
+      "file": "snapshot/deep/water-budget-link-original-reads.json",
+      "bytes": 230,
+      "sha256": "6c74e39682bbfd12efa6bcd55137b7270be59e00ec342f3fd17ee916f36ea360"
+    },
+    {
+      "file": "snapshot/dependency-edges.json",
+      "bytes": 256728,
+      "sha256": "6ab4cf5ba10aa60c8d65ddeefc2e43ff5dce1ac37cbaba6c0a5e3b800e6ca6bf"
+    },
+    {
+      "file": "snapshot/excluded-files.json",
+      "bytes": 54482,
+      "sha256": "7759cce07171cc6e5459c6faac730dfc6ca53d58ccf2f0b500e10f67afa49fee"
+    },
+    {
+      "file": "snapshot/pressure-1440.png",
+      "bytes": 173670,
+      "sha256": "71123dd46579af8d7e4db1c9e111f8c5fc96d99b918b23a012c69f724780bbe0"
+    },
+    {
+      "file": "snapshot/pressure-320.png",
+      "bytes": 131682,
+      "sha256": "846d7a0775b1f10e5b459c4e0fba7c1b2d7f5b2dd94b56aaefef641cbf94a81d"
+    },
+    {
+      "file": "snapshot/pressure-390.png",
+      "bytes": 135962,
+      "sha256": "cd25d36dc08cc74061842d8ffd0ac59269efed9455f3ac551e7d99c3b583d026"
+    },
+    {
+      "file": "snapshot/pressure-browser.cjs",
+      "bytes": 6619,
+      "sha256": "522bfc317f9f205c4f832c48e0b5877f7d5594dee12e9c8c2f7c27e92e176a03"
+    },
+    {
+      "file": "snapshot/pressure-browser.json",
+      "bytes": 746,
+      "sha256": "3cdd07bec8b54d922de78bab9d3a909dfb8815636fe488fd5c24385b733cc250"
+    },
+    {
+      "file": "snapshot/pressure-browser.log",
+      "bytes": 649,
+      "sha256": "99f8760fccd4beed2ab6854e79829df4f0a8157e4ea71c3dec098e8fe695c877"
+    },
+    {
+      "file": "snapshot/publish-files.json",
+      "bytes": 328561,
+      "sha256": "962023b69b4dce2ec9c95cec255c98a011a958acd39523004fad7b8167980165"
+    },
+    {
+      "file": "snapshot/publish-files.txt",
+      "bytes": 129011,
+      "sha256": "b25dc5c38ef69a5fa6654c9e51cfc9f18bcbcbda240cc4e69a52ab60124febc9"
+    },
+    {
+      "file": "snapshot/review-browser.json",
+      "bytes": 316,
+      "sha256": "962daed3a18f70fe44e75c9582a768014dc036470d50c283436087823076a6fe"
+    },
+    {
+      "file": "snapshot/review-check.cjs",
+      "bytes": 2623,
+      "sha256": "ba92530fd646745d798e4c6c4700b55c93b76a88ba35071e08c3f3d4f1314bad"
+    },
+    {
+      "file": "snapshot/summary.json",
+      "bytes": 3895,
+      "sha256": "cd4eb58fb007e134b73dc396e21e9ac64ce85d2c02aa9c4ed01631aeea1e8e58"
+    }
+  ],
+  "bytes": 6095277
+}

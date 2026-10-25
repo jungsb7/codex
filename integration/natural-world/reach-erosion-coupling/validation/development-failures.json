@@ -1,0 +1,18 @@
+{
+  "excludedRuns": [
+    {
+      "log": "/tmp/reach52-run.log",
+      "status": "failed-before-first-period",
+      "reason": "Implicit channel root encountered cancellation when adding shallow depth to absolute elevation before subtracting tailwater.",
+      "fix": "Compute the constant bed-minus-tail head first and add local depth afterwards; keep hydraulic residual tolerance and rerun independent drainage convergence test.",
+      "includedInFinalResults": false
+    },
+    {
+      "log": "/tmp/reach52-run2.log",
+      "status": "failed-before-first-period",
+      "reason": "Near-equal tailwater and channel depths cause cancellation in a stiff square-root discharge root.",
+      "fix": "Solve only mobile excess over tailwater equilibrium volume; hydraulic tolerance unchanged. Added independent near-balanced tailwater test.",
+      "includedInFinalResults": false
+    }
+  ]
+}

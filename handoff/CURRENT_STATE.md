@@ -1,6 +1,60 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속50 웅덩이 내부 연결의 계산과 배포 상태를 기록한다. 사용자의 단계별 계속 진행 지시가 유효하며 [NEXT_GOALS.md](NEXT_GOALS.md)와 [유한한 완료 기준](MODEL_COMPLETION_CRITERIA.md)을 따른다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속54까지의 로컬 완료와 공개 배포 상태를 기록한다. 사용자의 단계별 계속 진행 지시가 유효하며 [NEXT_GOALS.md](NEXT_GOALS.md)와 [유한한 완료 기준](MODEL_COMPLETION_CRITERIA.md)을 따른다.
+
+## 최신 작업 보관 브랜치
+
+사용자 요청에 따라 최신 코드·입력·결과를 포함하는 `archive/model54-session-20261025` 브랜치를 준비했다. [PC 복원과 다음 세션 안내](ARCHIVE_SESSION_20261025.md)를 먼저 읽는다. 아래의 '51–54가 로컬에만 있음'·'문서만 공개' 문장은 이전 상태의 기록이며 이 보관 브랜치의 내용과 구분한다. 사이트 main은 별도이고 자동 병합·배포하지 않는다. 게시 검증 기록은 ARCHIVE_PUBLICATION_20261025.json에 추가한다.
+
+## GitHub 문서 인수인계 게시 완료
+
+사용자 요청에 따라 [문서 브랜치](https://github.com/jungsb7/codex/tree/codex/session-handoff-20261025)와 [초안 PR #31](https://github.com/jungsb7/codex/pull/31)에 인수인계5파일을 게시했다. 원격 커밋cd295f6609a4e71cfbadbf13795cdf51ee7f7280의5파일을 재조회해 일치 확인했고 main6f2826af는 그대로다. 병합/사이트 배포/최신 계산 자료 업로드는 하지 않았다. [게시 근거](github-session-publication-20261025/publication.json)와 [다음 목표](github-session-publication-20261025/handoff/NEXT_GOALS.md)를 확인한다. 문서 보존과 최신 작업 전체 백업을 혼동하지 않는다.
+
+## 최신 사용자 지시: 배포 대신 로컬 보존
+
+최신 코드·계산 자료는 그대로 유지하고 임시 용량 분석을 [로컬 보관본](local-deployment-audit/README.md)에 복사했다. 모든 복사 파일을 SHA256으로 확인했다. 모형/분석 기준은0a13db0이며 보관 커밋은 이 문서의 마지막 변경 커밋으로 확인한다. 웹 배포·원격 게시·설정 변경·파일 삭제·정확도 재계산은 하지 않았다. 다음 작업은 사용자 요청을 받은 뒤 진행한다.
+
+## 최신 상태: 50–54 유한 구현·검증 로컬 완료
+
+[54 결과](../integration/natural-world/pressure-coupling/REPORT.md)·[완료 기록](../integration/natural-world/pressure-coupling/validation/completion.json)·[사용법](../integration/natural-world/pressure-coupling/README.md). 아래의 이전 단계 절은 당시 기록이며, 현재 상태는 이 절과 완료 기록을 따른다.
+
+52의23,022구간 유량·침식/퇴적,53의 면적 보존 피복 경계·식생/침투,54의 기존3통로 압력/전체 연결을 완료했다. 54의106년120/240·교환0 대조와 압력 입력 없는 이전53 전체 회귀를 모두 마쳤고 이전56출력이 정확히 일치한다. 엔진10·배분3·자료7·새 브라우저10/4다운로드·기존 브라우저32·상태3검사가 통과했다. 계산이나 필수 구현이 대기 중이지 않다. 완료 캐시를 다시 실행하지 않는다.
+
+지도와 AI의 최신 완료 상태는 `allRequestedDetailImplemented=true`, `finiteModelCriteriaMet=true`이며 범위는 MODEL_COMPLETION_CRITERIA.md의50–54행이다. 원본/채택판/과거 수치/경제/Oracle와 연구 필드 actual=null은 보존한다. 관측 검증과 전체 수렴은 false다. 수위 시간 차이4.227m(19,990칸 중1m 초과32곳), 기존 공간14.574m 및 빙설 비평형 등은 남은 연구 한계이며 새 필수 단계로 확대하지 않는다.
+
+54 결과90,828,847바이트,106년 말 SHA256 `3da8094589062f7510f559becf6b138c71611b4cde817ffbb61596eb33fea341`. 보존 감사는54 validation/preservation.json을 확인한다. 최종 로컬 커밋은 이 문서의 마지막 변경 커밋(`git log -1 -- handoff/CURRENT_STATE.md`)으로 확인한다.
+
+공개 main은2026-10-25 10:15 UTC 읽기 확인 당시50의 `6f2826af3c490881fef9e6c23f986f97f000507b`다.51 약146MB의 명시 승인은 전달됐으나 자동 검토가 다른23.5MB 승인만 인정해 정확한 재시도도 거부했다. 추가 게시 재시도/우회 금지. 승인 대상51은 `d4eab1b`뿐이며52–54 새 자료는 공개 미승인이다. 현재 HEAD 전체를51 승인으로 게시하지 않는다. PR/병합/Pages 배포 없음. 공개 주소 직접 검증도 네트워크 제한으로 미수행이다.
+
+## 후속53 로컬 완료 · 마지막54 전체 계산
+
+53의 [완료 기록](../integration/natural-world/cover-ecology-coupling/validation/completion.json)·[결과](../integration/natural-world/cover-ecology-coupling/REPORT.md).105년120/240/피드백0을 완료했다. 경계4·생태6·전체자료6·브라우저10검사/4다운로드 통과. 식생 비율 시간 최대차이0.002078(0.208%p),피드백0차이0.149398(14.94%p). 본계산 물수지 상대잔차1.949e-12. 결과58,419,022바이트,105년 말SHA402af0ed7a338f2f2f123a1814c4be91caadce0b95a56b07d84a708490d7ceba. 캐시재실행금지.
+
+54 [방법](../integration/natural-world/pressure-coupling/README.md)·[가정](../integration/natural-world/pressure-coupling/assumptions.json).기존3통로의3구획,부호 있는 손실수두/압력저장/역류,원래359배경격자의 유입을 중복 없이 재배분한다.10엔진·3배분검사는 통과했다.105년 끝에서106년120/240/교환0과 압력입력 없는53전체 회귀를 하나씩 수행한다. /tmp/pressure54-run.log와 /workspace/pressure-cache-54/lock부터 확인하고중복실행금지.전체검사/브라우저/이전회귀까지끝내고유한완료기준을보고한다.새연구를필수로늘리지않는다.
+
+51게시재시도거부와52–54공개미승인은유지된다.로컬완료/공개배포/직접사이트검증을구분한다.
+
+## 후속52 로컬 완료 · 후속53 전체 실행 준비
+
+사용자의 “남은 작업까지 완료” 지시에 따라 같은 로컬 작업을 계속한다. 공개51승인은 별도이며52이후 새 자료를 공개하지 않는다. [52방법](../integration/natural-world/reach-erosion-coupling/README.md)·[결과](../integration/natural-world/reach-erosion-coupling/REPORT.md)·[완료](../integration/natural-world/reach-erosion-coupling/validation/completion.json).
+
+23,022개 원본 구간의 실제 계산 유입/유량·침식/퇴적·별도 하상 피드백,104년1년120/240·침식0대조 완료. 엔진10·자료7·브라우저9검사/3다운로드 통과,원본 연결/기존 수치 보존. 본계산 물수지 상대 잔차1.986e-12,구간 물3.218e-14·고체2.282e-14. 시간 유량 최대차이284.728m³/s(약6.34%),저류 높이4.047836m는 남은 한계다. 완료 계산은 `/workspace/reach-erosion-cache-52`에 있으며 재실행하지 않는다.
+
+[53준비](../integration/natural-world/cover-ecology-coupling/README.md): 전체53,803육지 클래스 경계(기존10,654유지+43,149추가),모든 격자/클래스 면적·공유 경계·마스크·자기교차4검사 통과. 식생 성장/사망과 침투 피드백의 작은6검사 통과. 전체105년1년120/240·피드백0계산은52완료 확인 뒤 하나씩 실행한다. `run.cjs`가52완료 기록을 확인한다. 이후54기존3통로의 압력/전체 결합을 진행한다.16GiB 전체 계산 병렬 금지. 공개 자료/코드 업로드·PR·배포 금지 상태와 로컬 개발을 구분한다.
+
+## 후속51 빙설·동토 연결 — 구현·검증 완료, 자동 승인 검토로 게시 차단
+
+2026-10-25 09:09 UTC 사용자의 “승인.” 직접 답장 근거를 관리 대화에서 전달받아,원격 main6f2826af/51브랜치 없음 확인 뒤 정확히d4eab1b의82파일/트리92a531ef만 한 번 재시도했다. 자동 승인 검토는 “신뢰할 수 있는 승인은 다른23.5MB 자료뿐”이라는 사유로 다시 거부했다.52이후 자료는 요청에 포함하지 않았고,추가 재시도나 우회는 하지 않았다.원격 main/PR/Pages 변경 없음. 새 승인 전달과 검토 차단을 구분하여 배포 기록에 남겼다. 로컬52→53→54 작업은 계속한다.
+
+공개 트리 생성이 자동 승인 검토에서 거부됐다. 기존 승인은 앞선23.5MB에 한정되고 새145.54MB 결과에는 적용되지 않는다는 사유다. 로컬 검증 커밋 `a61a8c0`, 트리 `95336451bbf213db60382d7453e6d0b82241d8bb`, 전체 파일956,959,526바이트.32개 바이너리 blob 업로드는 수락됐으나 새 공개 트리/커밋/브랜치/PR/main/Pages는 생성·변경하지 않았다. 차단을 우회하지 않는다. 이번 구체적 자료에 대한 명시 승인 뒤 같은 작업에서 게시를 이어간다. 계산/검증은 다시 실행할 필요 없다.
+
+기준 main `6f2826af3c490881fef9e6c23f986f97f000507b`. [방법](../integration/natural-world/cryosphere-coupling/README.md)·[검증](../integration/natural-world/cryosphere-coupling/REPORT.md)·[배포](../integration/natural-world/cryosphere-coupling/validation/deployment.json).
+
+고정 기후2년의120/240단계와 빙하 이동0대조를 모두 완주했다. 가용 액체 고갈 경계를 수정했고 빈 액체 방류 없이 얼음/물 질량을 보존한다. 새21검사·이전 엔진8검사·전체 이전 출력35개 정확한 일치·브라우저40검사·다운로드3종 통과. 집수권 기간 물수지 최대 상대 잔차4.542e-12,빙하 이동 제한0회.
+
+시간 분할의 빙하 두께 차이 최대0.46mm지만 저류 높이는4.282m로 수렴 한계가 남는다. 마지막 연간 빙설 재고 변화+4.535355%로 평형이 아니다. 원본/채택판/이전 수치/Oracle 보존. 무손실 결과145,535,948바이트,103년 말 계속 계산 상태 제공. allRequestedDetailImplemented=false.
+
+전체 계산은 완료됐으며 `/workspace/cryosphere-cache-51`에 보존했다. 중복 실행하지 않는다. 게시/Pages 확인 뒤 같은 작업에서52개별 유량·침식→53피복/생태→54지정 통로 압력/전체 결합 순서로 진행한다. 원격 main 변경 여부를 확인하고 기존 공개 승인을 사용한다. 직접 Pages HTTP는 환경 제한으로 미검증이다. PR 첨부 도구는 이전 단계에서 No handler registered였으며 GitHub 게시 자체와 구분한다.
 
 ## 후속50 내부 저류칸·연속 지형 저장 — 2026-10-25 Asia/Seoul
 

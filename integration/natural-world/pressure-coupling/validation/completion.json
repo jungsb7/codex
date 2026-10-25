@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "scope": "bounded phase54 local implementation and validation; finite phases50-54 criteria met",
+  "modelYear": 106,
+  "engineTests": 10,
+  "routingTests": 3,
+  "dataTests": 7,
+  "browserChecks": 10,
+  "downloads": 4,
+  "previousFullOutputFields": 56,
+  "browserRegressions": {
+    "canon-regression": 12,
+    "atlas-regression": 12,
+    "status-browser-checks": 8
+  },
+  "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58",
+  "manifestSha256": "0f4562e6c2b88ab1ab5ad42a459834c2ca08a467cf9f162ff1d2ae9f2376c861",
+  "finalState": {
+    "file": "final-state.json.gz",
+    "bytes": 5659076,
+    "sha256": "3da8094589062f7510f559becf6b138c71611b4cde817ffbb61596eb33fea341"
+  },
+  "outputBytes": 90828847,
+  "allFloat64BitsPreserved": true,
+  "comparisons": {
+    "pressureHeadTimeDifferenceM": 0.0003759834927166139,
+    "pressureFinalWaterTimeDifferenceM3": 10.706710405647755,
+    "pondLevelTimeDifferenceM": 4.226539260807272
+  },
+  "allRequestedDetailImplemented": true,
+  "finiteModelCriteriaMet": true,
+  "completionScope": "bounded phases50-54 in handoff/MODEL_COMPLETION_CRITERIA.md",
+  "statusModelTests": 3,
+  "observationalValidationComplete": false,
+  "fullNumericalConvergence": false,
+  "publicPublication": "not authorized for phase54; local only"
+}

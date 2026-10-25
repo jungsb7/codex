@@ -1,0 +1,41 @@
+{
+  "status": "published-documents-readback-verified",
+  "repository": "jungsb7/codex",
+  "branch": "codex/session-handoff-20261025",
+  "commit": "cd295f6609a4e71cfbadbf13795cdf51ee7f7280",
+  "tree": "48bff5b915ccd7315a9b8a07c3e39d21020d2494",
+  "baseMain": "6f2826af3c490881fef9e6c23f986f97f000507b",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/31",
+  "draft": true,
+  "merged": false,
+  "codeOrCalculationPayloadsPublished": false,
+  "siteDeploymentRequested": false,
+  "readbackMatchedAllFiveFiles": true,
+  "files": [
+    {
+      "path": "NEXT_SESSION_PROMPT.txt",
+      "bytes": 1720,
+      "sha256": "b67ab6e2c5dc0c0237c5c2fbe4e5d93fce6ba002a8de4d7809876de5d769f7ad"
+    },
+    {
+      "path": "handoff/CURRENT_STATE.md",
+      "bytes": 80608,
+      "sha256": "ca817e7cc5c88ab0eccf6a357e0b115920b7dd2e9eee37a6e9fc68cfa7e5825b"
+    },
+    {
+      "path": "handoff/NEXT_GOALS.md",
+      "bytes": 5245,
+      "sha256": "9d07a00ab96fd8e14d6f657af7b7b1e92daa0bdc5bb2ed0c0b18e87b0ee2ede8"
+    },
+    {
+      "path": "handoff/SESSION_ARTIFACTS_20261025.json",
+      "bytes": 2505,
+      "sha256": "6d6171a221d0ad5400a148275ac739c3abd7ec8c4d2ac0bc4f2cc623d1510dc3"
+    },
+    {
+      "path": "handoff/SESSION_HANDOFF_20261025.md",
+      "bytes": 9099,
+      "sha256": "775f56355c58711dfb290814b798d1b3d2c1c8102619a74c6dfb3f9b74b39759"
+    }
+  ]
+}

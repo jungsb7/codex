@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "viewports": [
+    1440,
+    390
+  ],
+  "populatedAnnualChartReviewed": true,
+  "smallPositiveStorageShownInScientificNotation": true,
+  "screenshots": [
+    "/tmp/cryosphere-51-chart-1440.png",
+    "/tmp/cryosphere-51-chart-390.png",
+    "/tmp/cryosphere-51-small-390.png"
+  ],
+  "note": "Manual visual inspection of completed helper screenshots; no overlap or clipped chart labels observed."
+}

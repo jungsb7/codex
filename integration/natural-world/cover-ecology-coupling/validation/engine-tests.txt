@@ -1,0 +1,134 @@
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+{"period":1,"steps":12,"iterations":1,"residualM3":0}
+{"period":2,"steps":12,"iterations":1,"residualM3":0}
+{"period":3,"steps":12,"iterations":1,"residualM3":0}
+{"period":4,"steps":12,"iterations":1,"residualM3":0}
+{"period":5,"steps":12,"iterations":1,"residualM3":0}
+{"period":6,"steps":12,"iterations":1,"residualM3":0}
+{"period":7,"steps":12,"iterations":1,"residualM3":0}
+{"period":8,"steps":12,"iterations":1,"residualM3":0}
+{"period":9,"steps":12,"iterations":1,"residualM3":0}
+{"period":10,"steps":12,"iterations":1,"residualM3":0}
+{"period":11,"steps":12,"iterations":1,"residualM3":0}
+{"period":12,"steps":12,"iterations":1,"residualM3":0}
+✔ constant favorable moisture growth follows independent logistic solution (10.474949ms)
+✔ drought and cold mortality follow independent exponential solution (0.559455ms)
+✔ flood tolerance changes mortality and exact growth-death ledger remains bounded (0.986101ms)
+✔ vegetation feedback affects infiltration while conserving water (0.684509ms)
+✔ feedback0 preserves every previous hydrological output exactly (2.469806ms)
+✔ absent ecology retains the complete previous engine path; invalid vegetation fails closed (1.335544ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 44.938969

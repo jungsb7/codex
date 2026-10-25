@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "edges": 53803,
+  "retainedPrevious": 10654,
+  "newEdges": 43149,
+  "maximumCellAreaErrorKm2": 1.6768808563938364e-10,
+  "classAreas": [
+    {
+      "id": "lake",
+      "adoptedKm2": 114033.57443391561,
+      "computedKm2": 114033.57443391555,
+      "differenceKm2": -5.820766091346741e-11
+    },
+    {
+      "id": "retained-water",
+      "adoptedKm2": 7775797.571231459,
+      "computedKm2": 7775797.571231544,
+      "differenceKm2": 8.475035429000854e-8
+    },
+    {
+      "id": "wetland",
+      "adoptedKm2": 262012.98296392406,
+      "computedKm2": 262012.98296392435,
+      "differenceKm2": 2.9103830456733704e-10
+    },
+    {
+      "id": "forest",
+      "adoptedKm2": 25360009.18431469,
+      "computedKm2": 25360009.184314497,
+      "differenceKm2": -1.9371509552001953e-7
+    },
+    {
+      "id": "grassland",
+      "adoptedKm2": 35008692.749647714,
+      "computedKm2": 35008692.74964678,
+      "differenceKm2": -9.313225746154785e-7
+    },
+    {
+      "id": "arid",
+      "adoptedKm2": 51535452.650031984,
+      "computedKm2": 51535452.65003148,
+      "differenceKm2": -5.066394805908203e-7
+    },
+    {
+      "id": "tundra",
+      "adoptedKm2": 6342653.618366357,
+      "computedKm2": 6342653.618366271,
+      "differenceKm2": -8.568167686462402e-8
+    },
+    {
+      "id": "icefield",
+      "adoptedKm2": 1612192.774224675,
+      "computedKm2": 1612192.7742246801,
+      "differenceKm2": 5.122274160385132e-9
+    },
+    {
+      "id": "barren",
+      "adoptedKm2": 0,
+      "computedKm2": 0,
+      "differenceKm2": 0
+    },
+    {
+      "id": "flood-woodland",
+      "adoptedKm2": 218891.79660138098,
+      "computedKm2": 218891.79660138095,
+      "differenceKm2": -2.9103830456733704e-11
+    },
+    {
+      "id": "moist-meadow",
+      "adoptedKm2": 4869834.882817933,
+      "computedKm2": 4869834.882817941,
+      "differenceKm2": 7.450580596923828e-9
+    }
+  ],
+  "maximumNewOffsetFraction": 0.06018876426590699,
+  "interfaceCoveragePassed": true,
+  "areaPassed": true,
+  "sharedEdgesExact": true,
+  "deformedCells": 68023,
+  "protectedMasksPreserved": true
+}

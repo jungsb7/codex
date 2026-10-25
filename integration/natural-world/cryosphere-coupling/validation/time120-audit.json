@@ -1,0 +1,211 @@
+{
+  "status": "passed",
+  "id": "time120",
+  "nativeSha256": "e31837c7bbc40ffb756e0c7e43146672b734444e4f53c369dbd06ea42e9bfb9d",
+  "fingerprint": "93ab93ad7b2dc76f4ea6867bf586c0931f97fd324a13423581e764decc998ce4",
+  "maximumAnnualWaterRelativeResidual": 3.5116991184892763e-13,
+  "dryLiquidLimitedExchanges": 18353922,
+  "maximumUnavailableLiquidDemandM3": 293942335.8471743,
+  "limitedIceDonorSteps": 0,
+  "maximumUnclippedIceSpeedMPerS": 0.0000014329938817732678,
+  "stats": {
+    "maximumSourceIceRelativeResidual": 2.8984370933880035e-14,
+    "maximumSurfaceIceRelativeResidual": 1.2644167731096797e-14,
+    "maximumGlacierThicknessM": 329.98806182953246,
+    "maximumGlacierCell": 268458
+  },
+  "periods": [
+    {
+      "year": 102,
+      "period": 1,
+      "snowM3": 65933083915904.555,
+      "glacierIceM3": 521222765661.6371,
+      "surfaceIceM3": 3004787621762.0093,
+      "sourceCellsAbove1cmIce": 3251
+    },
+    {
+      "year": 102,
+      "period": 2,
+      "snowM3": 64737293332650.14,
+      "glacierIceM3": 1038636675566.121,
+      "surfaceIceM3": 3258009216561.433,
+      "sourceCellsAbove1cmIce": 3292
+    },
+    {
+      "year": 102,
+      "period": 3,
+      "snowM3": 62952611160412.21,
+      "glacierIceM3": 1552395929122.232,
+      "surfaceIceM3": 1247395579960.0024,
+      "sourceCellsAbove1cmIce": 3310
+    },
+    {
+      "year": 102,
+      "period": 4,
+      "snowM3": 62227380615065.57,
+      "glacierIceM3": 2062230967526.482,
+      "surfaceIceM3": 402532560043.76025,
+      "sourceCellsAbove1cmIce": 3313
+    },
+    {
+      "year": 102,
+      "period": 5,
+      "snowM3": 61727550458742.58,
+      "glacierIceM3": 2567670209230.0356,
+      "surfaceIceM3": 448216665137.55035,
+      "sourceCellsAbove1cmIce": 3299
+    },
+    {
+      "year": 102,
+      "period": 6,
+      "snowM3": 61287828760147.27,
+      "glacierIceM3": 3069090896626.1025,
+      "surfaceIceM3": 515830354463.3921,
+      "sourceCellsAbove1cmIce": 3296
+    },
+    {
+      "year": 102,
+      "period": 7,
+      "snowM3": 60922797612080.34,
+      "glacierIceM3": 3566902096215.3315,
+      "surfaceIceM3": 619084204187.5669,
+      "sourceCellsAbove1cmIce": 3298
+    },
+    {
+      "year": 102,
+      "period": 8,
+      "snowM3": 60801028491449.33,
+      "glacierIceM3": 4061098795001.171,
+      "surfaceIceM3": 2588736991532.357,
+      "sourceCellsAbove1cmIce": 3299
+    },
+    {
+      "year": 102,
+      "period": 9,
+      "snowM3": 60728156861946.29,
+      "glacierIceM3": 4551562052957.699,
+      "surfaceIceM3": 6851383093476.421,
+      "sourceCellsAbove1cmIce": 3300
+    },
+    {
+      "year": 102,
+      "period": 10,
+      "snowM3": 60663819846072.49,
+      "glacierIceM3": 5038217569791.415,
+      "surfaceIceM3": 12357903309794.906,
+      "sourceCellsAbove1cmIce": 3300
+    },
+    {
+      "year": 102,
+      "period": 11,
+      "snowM3": 60617286686025.68,
+      "glacierIceM3": 5521065107203.436,
+      "surfaceIceM3": 17835239691036.13,
+      "sourceCellsAbove1cmIce": 3300
+    },
+    {
+      "year": 102,
+      "period": 12,
+      "snowM3": 60585600109063.664,
+      "glacierIceM3": 6000158055225.685,
+      "surfaceIceM3": 22139542168378.926,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 1,
+      "snowM3": 60464337543826.766,
+      "glacierIceM3": 6475617226285.117,
+      "surfaceIceM3": 24383493900866.703,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 2,
+      "snowM3": 59313931104787.234,
+      "glacierIceM3": 6947647317378.375,
+      "surfaceIceM3": 23765827441279.94,
+      "sourceCellsAbove1cmIce": 3310
+    },
+    {
+      "year": 103,
+      "period": 3,
+      "snowM3": 57574256288389.266,
+      "glacierIceM3": 7416399372694.031,
+      "surfaceIceM3": 18692400503939.59,
+      "sourceCellsAbove1cmIce": 3321
+    },
+    {
+      "year": 103,
+      "period": 4,
+      "snowM3": 56893659895299.805,
+      "glacierIceM3": 7881600130607.781,
+      "surfaceIceM3": 11251429653054.969,
+      "sourceCellsAbove1cmIce": 3323
+    },
+    {
+      "year": 103,
+      "period": 5,
+      "snowM3": 56438100863530.26,
+      "glacierIceM3": 8342768181450.474,
+      "surfaceIceM3": 5972861863326.299,
+      "sourceCellsAbove1cmIce": 3306
+    },
+    {
+      "year": 103,
+      "period": 6,
+      "snowM3": 56042280102386.375,
+      "glacierIceM3": 8800287720790.564,
+      "surfaceIceM3": 4082548394445.936,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 7,
+      "snowM3": 55720780545676.36,
+      "glacierIceM3": 9254567103743.527,
+      "surfaceIceM3": 4131013204784.029,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 8,
+      "snowM3": 55642181754499.26,
+      "glacierIceM3": 9705593468204.33,
+      "surfaceIceM3": 6140960937088.734,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 9,
+      "snowM3": 55612122203463.266,
+      "glacierIceM3": 10153244647693.898,
+      "surfaceIceM3": 10488106922241.648,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 10,
+      "snowM3": 55590241978595.93,
+      "glacierIceM3": 10597443373521.14,
+      "surfaceIceM3": 16082159463605.863,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 11,
+      "snowM3": 55585813254274.29,
+      "glacierIceM3": 11038186475207.906,
+      "surfaceIceM3": 21533384327128.15,
+      "sourceCellsAbove1cmIce": 3302
+    },
+    {
+      "year": 103,
+      "period": 12,
+      "snowM3": 55595881698758.04,
+      "glacierIceM3": 11475524401784.473,
+      "surfaceIceM3": 25676432571608.402,
+      "sourceCellsAbove1cmIce": 3304
+    }
+  ]
+}

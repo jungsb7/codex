@@ -1,0 +1,9 @@
+struct Ecology{
+ vector<double> cover,tolerance,growth,death,history;double feedback=1,growthRate=.8,baseMortality=.05,dryMortality=.5,floodMortality=.7,coldMortality=.3;
+ void init(napi_env e,napi_value input,size_t n){cover=array(e,input,"vegetation");tolerance=array(e,input,"vegetationFloodTolerance");need(cover.size()==n&&tolerance.size()==n,"Invalid vegetation dimensions");for(size_t j=0;j<n;j++)need(cover[j]>=0&&cover[j]<=1&&tolerance[j]>=0&&tolerance[j]<=1,"Vegetation outside unit interval");auto p=prop(e,input,"ecologyParameters");feedback=number(e,p,"feedbackMultiplier");growthRate=number(e,p,"growthRatePerYear");baseMortality=number(e,p,"baseMortalityPerYear");dryMortality=number(e,p,"dryMortalityPerYear");floodMortality=number(e,p,"floodMortalityPerYear");coldMortality=number(e,p,"coldMortalityPerYear");need(feedback>=0&&feedback<=1&&growthRate>=0&&baseMortality>=0&&dryMortality>=0&&floodMortality>=0&&coldMortality>=0,"Invalid ecology coefficients");reset();}
+ void reset(){growth.assign(cover.size(),0);death.assign(cover.size(),0);}
+ void step(size_t j,double temp,double soil,double capacity,double wet,double dt){double moisture=std::clamp(soil/capacity,0.,1.),suitable=std::clamp((temp+5)/20,0.,1.)*std::clamp((45-temp)/15,0.,1.),g=growthRate*suitable*moisture*(1-wet*(1-tolerance[j])),m=baseMortality+dryMortality*(1-moisture)+floodMortality*wet*(1-tolerance[j])+coldMortality*(temp< -5?1:0),b=cover[j],grown=b>0?b/(b+(1-b)*std::exp(-g*dt)):0,lost=grown*(-std::expm1(-m*dt));growth[j]+=grown-b;death[j]+=lost;cover[j]=grown-lost;need(cover[j]>=0&&cover[j]<=1&&std::isfinite(cover[j]),"Invalid ecological state");}
+ double factor(size_t j)const{return 1+feedback*(cover[j]-.5);}
+ void snapshot(){for(size_t j=0;j<cover.size();j++){history.push_back(cover[j]);history.push_back(growth[j]);history.push_back(death[j]);}}
+ void output(napi_env e,napi_value o){put(e,o,"vegetation",cover);put(e,o,"vegetationHistory",history);}
+};

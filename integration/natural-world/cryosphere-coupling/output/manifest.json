@@ -1,0 +1,163 @@
+{
+  "schema": "cryosphere-manifest/1",
+  "base": {
+    "file": "base.json.gz",
+    "bytes": 3230550,
+    "sha256": "8c96d8433c36161502f347219854b1525236118b3dda3f8b272df561d05cd0ec",
+    "path": "../internal-pond-model/../subgrid-boundaries/../cover-boundary-model/output/base.json.gz"
+  },
+  "canon": {
+    "file": "base.json.gz",
+    "bytes": 5697771,
+    "rawBytes": 38104727,
+    "sha256": "149db6384b1c9ac78c67301b573be41eb485b8dd297270fe9c5f5dc902460633",
+    "path": "../internal-pond-model/../subgrid-boundaries/../natural-canon-v1/output/base.json.gz"
+  },
+  "terrain": {
+    "path": "../internal-pond-model/../subgrid-boundaries/output/meta.json.gz",
+    "bytes": 4680400,
+    "sha256": "4da5bbb783935aa5e54246fb2ade6ac8b7c884eed8a9e57af7be4afd907c1747"
+  },
+  "previousMeta": {
+    "path": "../internal-pond-model/output/meta.json.gz",
+    "bytes": 2046635,
+    "sha256": "c226db310a1cf2ef3249404f2099a1b7ec8291e0366375e370f27c81c9c92521"
+  },
+  "meta": {
+    "bytes": 1433138,
+    "sha256": "115e948526a978757dd09d29f735d219f3f5541ecc4189a5d57450c74a5c893a",
+    "path": "output/meta.json.gz"
+  },
+  "summary": {
+    "bytes": 10545,
+    "sha256": "01838543124ff2d84dd78984fefd88bcc47071ccaf9806fea200d573c359f448",
+    "path": "output/summary.json.gz"
+  },
+  "periods": [
+    {
+      "bytes": 6166448,
+      "sha256": "223b3516b0914396fd755490dd22544c1ee445945ac6677e66abb7eec9bf2fc2",
+      "path": "output/period-01.json.gz"
+    },
+    {
+      "bytes": 5953168,
+      "sha256": "6efa5e9a29abe576b2f4aa859e09845c987b9512400bbad55bd21d3deaa0a234",
+      "path": "output/period-02.json.gz"
+    },
+    {
+      "bytes": 5514680,
+      "sha256": "ba07a0efe5020042a281a6d2595a14db703ac98fb1b1ba2fc5e2da79dbb4aafb",
+      "path": "output/period-03.json.gz"
+    },
+    {
+      "bytes": 5200102,
+      "sha256": "be91bdf1bba7b478b239b130cd28cab4cd1b2b9d8737e22dbd7f56017e8219a7",
+      "path": "output/period-04.json.gz"
+    },
+    {
+      "bytes": 5059759,
+      "sha256": "f7257b87b5509bf20fe1f2c0a058e4dd5f90dad658df314bfdbde98321d0c012",
+      "path": "output/period-05.json.gz"
+    },
+    {
+      "bytes": 5056661,
+      "sha256": "173001f060cca90bd67a775263f9ba338fbabd7363a9a108e2b00afc02de751a",
+      "path": "output/period-06.json.gz"
+    },
+    {
+      "bytes": 5515399,
+      "sha256": "9c30807d79642c36ec24da4d12686d8c61f2b237390960ebfb8b8c7b99a22f1d",
+      "path": "output/period-07.json.gz"
+    },
+    {
+      "bytes": 6105433,
+      "sha256": "7d6490caa931876d3330a511e7b373f38d46cedc1b18040200a9b1e28f8e59b0",
+      "path": "output/period-08.json.gz"
+    },
+    {
+      "bytes": 6227038,
+      "sha256": "70809dbb4e43aed56673f8622aeacafc45409965c903dd864af9b52294571b1e",
+      "path": "output/period-09.json.gz"
+    },
+    {
+      "bytes": 6255402,
+      "sha256": "17697a36fd0201d22cb1f2b44b198a96b115a1e71689328a822c6845b7d1caea",
+      "path": "output/period-10.json.gz"
+    },
+    {
+      "bytes": 6250305,
+      "sha256": "84688a330961cb04f4e7df625f5c3651a76640ae7d99acf947f30a5f01b16386",
+      "path": "output/period-11.json.gz"
+    },
+    {
+      "bytes": 6215485,
+      "sha256": "e783dae757891faeec1e5a1318f761180381506c85fe4cb8ff77bee7931c7458",
+      "path": "output/period-12.json.gz"
+    },
+    {
+      "bytes": 6164494,
+      "sha256": "a3ed54a0b2b5ae633afd2ffee0af998845c77d2f9c69202fd7a97d9ef23e77b2",
+      "path": "output/period-13.json.gz"
+    },
+    {
+      "bytes": 6017902,
+      "sha256": "e73e51ab4ad0bb5ca516bfd7c0cb118f206845507fdf097ac1ee5f0f0174b03a",
+      "path": "output/period-14.json.gz"
+    },
+    {
+      "bytes": 5590834,
+      "sha256": "92734f0e4de138fd31281731612fe4b5f53e5542963be594679a0e1e5d271283",
+      "path": "output/period-15.json.gz"
+    },
+    {
+      "bytes": 5280370,
+      "sha256": "adcfb47a10152a896058530134a60e4011f7d39ec3b8233b6152c964e32297cf",
+      "path": "output/period-16.json.gz"
+    },
+    {
+      "bytes": 5148004,
+      "sha256": "95586e58a4c894d73b09b7e31bcde75c7d5ccdd48887898593956de5d1bc3d98",
+      "path": "output/period-17.json.gz"
+    },
+    {
+      "bytes": 5135839,
+      "sha256": "088e55aef7ad01b0040fdfa6bb429757f6b456662b84766f2cfca7722dc7c64a",
+      "path": "output/period-18.json.gz"
+    },
+    {
+      "bytes": 5565732,
+      "sha256": "461ccc4466dfa49be4a263f5172a21a52a0ac4e8d61db2e09a4b1e6806052f61",
+      "path": "output/period-19.json.gz"
+    },
+    {
+      "bytes": 6138901,
+      "sha256": "72a1ad8e3577e8d1737097ae151a780c0c3720635974e4b5412abfa6fb09a693",
+      "path": "output/period-20.json.gz"
+    },
+    {
+      "bytes": 6259816,
+      "sha256": "7e28046ef493570fa7f3a98c141a52cb776c4f186aa512958658cc3acf65f04a",
+      "path": "output/period-21.json.gz"
+    },
+    {
+      "bytes": 6284953,
+      "sha256": "4ec43487fd82f98951d8156acd263074348d2e589f5d29c5b6034870ef06e658",
+      "path": "output/period-22.json.gz"
+    },
+    {
+      "bytes": 6275048,
+      "sha256": "84a12fd87c39708490894febeae865704d4922c53e16824ebb0455a1dd232ebc",
+      "path": "output/period-23.json.gz"
+    },
+    {
+      "bytes": 6234973,
+      "sha256": "05267aa5cd225e1b45786cbcf2e5a060e0109b69a4f4dcf8a1fa6de744cddb90",
+      "path": "output/period-24.json.gz"
+    }
+  ],
+  "finalState": {
+    "bytes": 4475519,
+    "sha256": "47e59325463424c0d8f4106c24042af126b63797e61998d5390ad7784b8914c0",
+    "path": "output/final-state.json.gz"
+  }
+}

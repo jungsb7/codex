@@ -1,0 +1,11 @@
+✔ only original three independent crossings and next-node ponds are used (1493.171036ms)
+✔ background diversion is unique, disjoint from target sources and reconstructs original local runoff (393.314096ms)
+✔ each node debit stays within original background and global input is conserved (68.699007ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2972.413818

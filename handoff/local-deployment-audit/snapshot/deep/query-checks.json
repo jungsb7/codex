@@ -1,0 +1,721 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "module": "basin-water-budget",
+      "path": "integration/natural-world/basin-water-budget/query.cjs",
+      "args": [
+        "E1-G0.25",
+        "D186192",
+        "100"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 233122,
+        "sha256": "caeaa33db9ef61b2c15b79c855f144c4eb370550fef74d790809f99cd9a9dc08",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 233122,
+        "sha256": "caeaa33db9ef61b2c15b79c855f144c4eb370550fef74d790809f99cd9a9dc08",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 1.06
+    },
+    {
+      "module": "channel-valley-model",
+      "path": "integration/natural-world/channel-valley-model/query.cjs",
+      "args": [
+        "13"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 89985,
+        "sha256": "9d8ac7e852d283ce12000e36d0d5e34d11be2d4d427d70578d3e6ffadf015c8e",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 89985,
+        "sha256": "9d8ac7e852d283ce12000e36d0d5e34d11be2d4d427d70578d3e6ffadf015c8e",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.15
+    },
+    {
+      "module": "coupled-water-model",
+      "path": "integration/natural-world/coupled-water-model/query.cjs",
+      "args": [
+        "reference",
+        "D221625"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 21384,
+        "sha256": "9f5eba1bbf51f89c8630cae22236fbac9a7692707bc7e68a47af5105b4ba6260",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 21384,
+        "sha256": "9f5eba1bbf51f89c8630cae22236fbac9a7692707bc7e68a47af5105b4ba6260",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.54
+    },
+    {
+      "module": "cover-boundary-model",
+      "path": "integration/natural-world/cover-boundary-model/query.cjs",
+      "args": [
+        "reference",
+        "world"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 4187,
+        "sha256": "d9b84e12675b7abcb5d286e52a32d27803e62d27130e20a8e3029b3baa732c53",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 4187,
+        "sha256": "d9b84e12675b7abcb5d286e52a32d27803e62d27130e20a8e3029b3baa732c53",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.64
+    },
+    {
+      "module": "cover-ecology-coupling",
+      "path": "integration/natural-world/cover-ecology-coupling/query.cjs",
+      "args": [
+        "315770",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 6167,
+        "sha256": "cd22fd23618ce5a4ced4c4f1b056ac921a8c9edcaaac04c8ae3a9bb82f146cda",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 6167,
+        "sha256": "cd22fd23618ce5a4ced4c4f1b056ac921a8c9edcaaac04c8ae3a9bb82f146cda",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 2.62
+    },
+    {
+      "module": "cryosphere-coupling",
+      "path": "integration/natural-world/cryosphere-coupling/query.cjs",
+      "args": [
+        "cell",
+        "268458",
+        "7",
+        "103"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 2382,
+        "sha256": "3186d35a4924c51553f8604f59c9664f9e4e82c6c6194741f14941cbf51eb51e",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 2382,
+        "sha256": "3186d35a4924c51553f8604f59c9664f9e4e82c6c6194741f14941cbf51eb51e",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 3.22
+    },
+    {
+      "module": "d298591-confluence",
+      "path": "integration/natural-world/d298591-confluence/query.cjs",
+      "args": [
+        "two-branches"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 520000,
+        "sha256": "7a60cc6fa274a3d0eb576159aad188519ce814f3c39c3a7e8c33ded5739538db",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 520000,
+        "sha256": "7a60cc6fa274a3d0eb576159aad188519ce814f3c39c3a7e8c33ded5739538db",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.15
+    },
+    {
+      "module": "d298591-constraints",
+      "path": "integration/natural-world/d298591-constraints/query.cjs",
+      "args": [
+        "274035",
+        "2",
+        "90",
+        "E2-G0.25-I0",
+        ".5",
+        "0"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 316241,
+        "sha256": "d0fd5286688eb68ea6b0dfbc14509246c77ad5254dd45ecb4ab3c8787c23e5bc",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 316241,
+        "sha256": "d0fd5286688eb68ea6b0dfbc14509246c77ad5254dd45ecb4ab3c8787c23e5bc",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.17
+    },
+    {
+      "module": "d298591-hydraulics",
+      "path": "integration/natural-world/d298591-hydraulics/query.cjs",
+      "args": [
+        "W1000-N0.05-D10"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 169595,
+        "sha256": "966a313ec797b4930e39239fbb02785481274aa31c1b5896cd84d13e9a66b2b9",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 169595,
+        "sha256": "966a313ec797b4930e39239fbb02785481274aa31c1b5896cd84d13e9a66b2b9",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.11
+    },
+    {
+      "module": "d298591-momentum",
+      "path": "integration/natural-world/d298591-momentum/query.cjs",
+      "args": [
+        "symmetric-30"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 10306,
+        "sha256": "522d45fe5794859a446b05ba185465081b415f58faaffc18916027685f08e90b",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 10306,
+        "sha256": "522d45fe5794859a446b05ba185465081b415f58faaffc18916027685f08e90b",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.1
+    },
+    {
+      "module": "d298591-routing",
+      "path": "integration/natural-world/d298591-routing/query.cjs",
+      "args": [
+        "E1-G0.25-I0-W100-C1.5-T0",
+        "10"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 185426,
+        "sha256": "76765a48b9007d7a66db309bbf757f98d72d4df8739666a82a93946089591b5d",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 185426,
+        "sha256": "76765a48b9007d7a66db309bbf757f98d72d4df8739666a82a93946089591b5d",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.31
+    },
+    {
+      "module": "d298591-surface",
+      "path": "integration/natural-world/d298591-surface/query.cjs",
+      "args": [
+        "E1-G0.25-I0",
+        "8"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 447079,
+        "sha256": "045e3a4063a77189ea574a94e55ddfb5bc903b7d95306364d94aef7159117f00",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 447079,
+        "sha256": "045e3a4063a77189ea574a94e55ddfb5bc903b7d95306364d94aef7159117f00",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.17
+    },
+    {
+      "module": "d298591-tailwater",
+      "path": "integration/natural-world/d298591-tailwater/query.cjs",
+      "args": [
+        "301657",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 15496,
+        "sha256": "9573676fc3a7959c8d65ec3db0571a0e8ec0507cea778c76d60aa2f5fa6832dc",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 15496,
+        "sha256": "9573676fc3a7959c8d65ec3db0571a0e8ec0507cea778c76d60aa2f5fa6832dc",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.11
+    },
+    {
+      "module": "downstream-budget",
+      "path": "integration/natural-world/downstream-budget/query.cjs",
+      "args": [
+        "D298591",
+        "0.5",
+        "100",
+        "0"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 427888,
+        "sha256": "25efabcf9a4ff67c7187baf2ef22bb2051675de94a1d909213b3e10b45462c48",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 427888,
+        "sha256": "25efabcf9a4ff67c7187baf2ef22bb2051675de94a1d909213b3e10b45462c48",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.21
+    },
+    {
+      "module": "downstream-routing",
+      "path": "integration/natural-world/downstream-routing/query.cjs",
+      "args": [
+        "D298591"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 17166,
+        "sha256": "20ec13f357ef7706cfb402baf0be4231784422dde4b5fe86c0a12903ff235a9a",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 17166,
+        "sha256": "20ec13f357ef7706cfb402baf0be4231784422dde4b5fe86c0a12903ff235a9a",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.14
+    },
+    {
+      "module": "finite-water-model",
+      "path": "integration/natural-world/finite-water-model/query.cjs",
+      "args": [
+        "reference",
+        "D186192",
+        "100"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 5700,
+        "sha256": "66ddb8db8ed1e0d33398c65ee9d827bf2273cd69f65f249901a7ec855b0e4d37",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 5700,
+        "sha256": "66ddb8db8ed1e0d33398c65ee9d827bf2273cd69f65f249901a7ec855b0e4d37",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.4
+    },
+    {
+      "module": "inland-routing",
+      "path": "integration/natural-world/inland-routing/query.cjs",
+      "args": [
+        "D200327"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 285501,
+        "sha256": "6dd0b632994f6d518458cf6e5233e43e9bd3bc38251d2690ff739d285e48e3de",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 285501,
+        "sha256": "6dd0b632994f6d518458cf6e5233e43e9bd3bc38251d2690ff739d285e48e3de",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.17
+    },
+    {
+      "module": "internal-pond-model",
+      "path": "integration/natural-world/internal-pond-model/query.cjs",
+      "args": [
+        "cell",
+        "266518",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 8844,
+        "sha256": "d03aa5ea4f51345d3582e76c8099aab249958193237a54144995ee65d1c32ab6",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 8844,
+        "sha256": "d03aa5ea4f51345d3582e76c8099aab249958193237a54144995ee65d1c32ab6",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 3.89
+    },
+    {
+      "module": "natural-canon-v1",
+      "path": "integration/natural-world/natural-canon-v1/query.cjs",
+      "args": [
+        "cell",
+        "310879",
+        "2"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 4448,
+        "sha256": "525e2a0deb41de6d5f37e70a39eca72219054a55cc7e881cf55346effe60679e",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 4448,
+        "sha256": "525e2a0deb41de6d5f37e70a39eca72219054a55cc7e881cf55346effe60679e",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 1.1
+    },
+    {
+      "module": "natural-status",
+      "path": "integration/natural-world/natural-status/query.cjs",
+      "args": [],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 4687,
+        "sha256": "e00b3196bf3ab20e6f527ed803cc80fafcf915a196f8988767e1af43d8b3d9ba",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 4687,
+        "sha256": "e00b3196bf3ab20e6f527ed803cc80fafcf915a196f8988767e1af43d8b3d9ba",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.11
+    },
+    {
+      "module": "network-water-model",
+      "path": "integration/natural-world/network-water-model/query.cjs",
+      "args": [
+        "reference",
+        "D186192"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 61718,
+        "sha256": "c61f49997025b56fbf1b42eea62679a9d1ed31c85ccbbbf67070b279cde339c3",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 61718,
+        "sha256": "c61f49997025b56fbf1b42eea62679a9d1ed31c85ccbbbf67070b279cde339c3",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.33
+    },
+    {
+      "module": "pond-network-model",
+      "path": "integration/natural-world/pond-network-model/query.cjs",
+      "args": [
+        "reference",
+        "D126467"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 107158,
+        "sha256": "088ecf3e5722bb0b72d2e534b0923464f3faee2fddda7f9a5250c7143f9676f7",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 107158,
+        "sha256": "088ecf3e5722bb0b72d2e534b0923464f3faee2fddda7f9a5250c7143f9676f7",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.49
+    },
+    {
+      "module": "pressure-coupling",
+      "path": "integration/natural-world/pressure-coupling/query.cjs",
+      "args": [
+        "passage",
+        "X2",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 5987,
+        "sha256": "8db4afac320e04dbfd87799578563c17f0cad0f329b5ded3627e21ee26304426",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 5987,
+        "sha256": "8db4afac320e04dbfd87799578563c17f0cad0f329b5ded3627e21ee26304426",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 1.57
+    },
+    {
+      "module": "reach-erosion-coupling",
+      "path": "integration/natural-world/reach-erosion-coupling/query.cjs",
+      "args": [
+        "48",
+        "7"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 1558,
+        "sha256": "3edb46b17764768e4522b7ff7119d5cc0725da80e2ab93369232a7ddc2887d49",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 1558,
+        "sha256": "3edb46b17764768e4522b7ff7119d5cc0725da80e2ab93369232a7ddc2887d49",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.52
+    },
+    {
+      "module": "seasonal-inundation",
+      "path": "integration/natural-world/seasonal-inundation/query.cjs",
+      "args": [
+        "cell",
+        "310879",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 1874,
+        "sha256": "aadb4bc3f22b26112f909b73c77d6e8c48392190ff5283e01a54d926e97195f8",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 1874,
+        "sha256": "aadb4bc3f22b26112f909b73c77d6e8c48392190ff5283e01a54d926e97195f8",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.74
+    },
+    {
+      "module": "seasonal-physical-model",
+      "path": "integration/natural-world/seasonal-physical-model/query.cjs",
+      "args": [
+        "cell",
+        "271529",
+        "1",
+        "reference"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 4742,
+        "sha256": "57875567976218a5f2cb54c0534ae71e1b5db6baaa17408789925c7b1cc35cd3",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 4742,
+        "sha256": "57875567976218a5f2cb54c0534ae71e1b5db6baaa17408789925c7b1cc35cd3",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 1.25
+    },
+    {
+      "module": "storm-event-model",
+      "path": "integration/natural-world/storm-event-model/query.cjs",
+      "args": [
+        "cell",
+        "556295",
+        "7"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 209294,
+        "sha256": "0181223f9a7f4f955b7e35d97107be203bc07f13c9c182faf856f6eee81e0155",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 209294,
+        "sha256": "0181223f9a7f4f955b7e35d97107be203bc07f13c9c182faf856f6eee81e0155",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 2.13
+    },
+    {
+      "module": "subgrid-boundaries",
+      "path": "integration/natural-world/subgrid-boundaries/query.cjs",
+      "args": [
+        "cell",
+        "310879",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 78774,
+        "sha256": "b3706a890e7beb92541c275ab1736ab678bf0b1fc54050c7d30e1d62806713ee",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 78774,
+        "sha256": "b3706a890e7beb92541c275ab1736ab678bf0b1fc54050c7d30e1d62806713ee",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 2.1
+    },
+    {
+      "module": "subgrid-hydrology",
+      "path": "integration/natural-world/subgrid-hydrology/query.cjs",
+      "args": [
+        "cell",
+        "310879",
+        "1"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 220270,
+        "sha256": "706b58730e5e0e69862815576707b5647625b7d59e84a4ecced78ba964ef8081",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 220270,
+        "sha256": "706b58730e5e0e69862815576707b5647625b7d59e84a4ecced78ba964ef8081",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 2.1
+    },
+    {
+      "module": "terrain-water-model",
+      "path": "integration/natural-world/terrain-water-model/query.cjs",
+      "args": [
+        "reference",
+        "D221625",
+        "3"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 8655,
+        "sha256": "1cd5e30ca7a66a2ddd5e43b1396ba09c2ed374d096b92c39447052ec7f934cee",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 8655,
+        "sha256": "1cd5e30ca7a66a2ddd5e43b1396ba09c2ed374d096b92c39447052ec7f934cee",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.36
+    },
+    {
+      "module": "water-budget-chain",
+      "path": "integration/natural-world/water-budget-chain/query.cjs",
+      "args": [
+        "E1-G0.25",
+        "D301678",
+        "7"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 21022,
+        "sha256": "828cc074fee4aaf47e0a97b6a3e6fd8f072c4463d377a26957bea029690ad20d",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 21022,
+        "sha256": "828cc074fee4aaf47e0a97b6a3e6fd8f072c4463d377a26957bea029690ad20d",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.16
+    },
+    {
+      "module": "water-budget-link",
+      "path": "integration/natural-world/water-budget-link/query.cjs",
+      "args": [
+        "E1-G0.25",
+        "7"
+      ],
+      "original": {
+        "exitCode": 0,
+        "outputBytes": 60889,
+        "sha256": "20d97b579d3de2294be38ef0a2b7b7c9a2381267bb4dcd950698280d797bfde7",
+        "stderr": ""
+      },
+      "candidate": {
+        "exitCode": 0,
+        "outputBytes": 60889,
+        "sha256": "20d97b579d3de2294be38ef0a2b7b7c9a2381267bb4dcd950698280d797bfde7",
+        "stderr": ""
+      },
+      "passed": true,
+      "elapsedSeconds": 0.13
+    }
+  ]
+}

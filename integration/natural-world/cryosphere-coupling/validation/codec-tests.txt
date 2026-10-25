@@ -1,0 +1,10 @@
+✔ cross-field byte deltas retain every float64 bit including subnormals, signed zero and infinity-shaped XOR (3.659852ms)
+✔ cycles, missing bases, malformed byte counts and mismatched delta dimensions fail closed (3.290604ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27.717801

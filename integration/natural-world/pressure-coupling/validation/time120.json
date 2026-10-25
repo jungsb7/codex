@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "id": "time120",
+  "fingerprint": "1345d07d8a72d175b90fa3f60c3f52e131f1a6a1e04958ff8ebb7d2aa7e0276d",
+  "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58",
+  "elapsedMs": 494144,
+  "maximumVegetationLedgerResidual": 1.3322676295501878e-15,
+  "maximumPressureWaterRelativeResidual": 2.9823459859840878e-15,
+  "maximumPressureIterations": 59,
+  "maximumOwnerWaterRelativeResidual": 3.1658041286904674e-13,
+  "maximumReachWaterRelativeResidual": 2.3753151487115964e-14,
+  "maximumReachSedimentRelativeResidual": 1.1018206532807058e-14
+}

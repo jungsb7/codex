@@ -1,0 +1,81 @@
+{
+  "case": "fine240",
+  "fingerprint": "ba6221d024b1a6bc9b8f27bcd07fcd462ba3c880d5b0a4644b0ecb9a3152423b",
+  "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58",
+  "modelYear": 106,
+  "meaning": "Period-end/period-total diagnostics; not within-period pressure maxima or observed conduit data",
+  "passages": [
+    {
+      "id": "X0",
+      "sourceCells": 2,
+      "externalInputM3": 7497673174.853325,
+      "terminalForwardM3": 7497671678.107956,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 1496.7453670921386,
+      "maximumPeriodEndHeadAboveRoofM": -1.6724492505610318,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        8.952594507423138,
+        5.520562058217619,
+        240.1643385221566,
+        534.1424720057709,
+        679.0001704829847,
+        607.3208257563913,
+        381.5212502129557,
+        196.86768433643525,
+        102.08115317873421,
+        53.41986377493547,
+        28.42737622500623,
+        15.577020243386308
+      ]
+    },
+    {
+      "id": "X1",
+      "sourceCells": 29,
+      "externalInputM3": 88359890046.51836,
+      "terminalForwardM3": 88359837915.76729,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 52130.751092772,
+      "maximumPeriodEndHeadAboveRoofM": -0.3179982511180697,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        119.11840991013837,
+        866.4741074727641,
+        3475.217656493398,
+        6030.908187158458,
+        7004.551441739203,
+        6727.594988573145,
+        4548.017068745304,
+        2398.666709481257,
+        1247.0317630727363,
+        655.961931647045,
+        352.4716053410917,
+        196.45109070308297
+      ]
+    },
+    {
+      "id": "X2",
+      "sourceCells": 328,
+      "externalInputM3": 54876608842.746864,
+      "terminalForwardM3": 54876247676.29709,
+      "terminalReverseM3": 0,
+      "finalWaterM3": 361166.4498249851,
+      "maximumPeriodEndHeadAboveRoofM": -4.051501002770461,
+      "pressurizedSectionPeriods": 0,
+      "meanSignedM3s": [
+        2410.6701603174815,
+        2686.3382975944614,
+        2312.856773056151,
+        1797.5787886882974,
+        1506.861382153192,
+        1217.301999581614,
+        1265.7818009775021,
+        1493.0957591660376,
+        1456.3957041456572,
+        1466.3308949225998,
+        1457.0461373695805,
+        1811.1150860065304
+      ]
+    }
+  ]
+}

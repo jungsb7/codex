@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "id": "fine240",
+  "fingerprint": "27230423bc3145ff65c5569d93384aeb76a6cb6dec0e8705b567ba677799ec01",
+  "nativeSha256": "6a14d7ae836d712928db5eb3808c0fa6c7ed148b36ebc68bf46ac051f66485e1",
+  "elapsedMs": 843681,
+  "maximumVegetationLedgerResidual": 2.220446049250313e-15,
+  "maximumOwnerWaterRelativeResidual": 1.948646289520984e-12,
+  "maximumReachWaterRelativeResidual": 1.8420885630164467e-14,
+  "maximumReachSedimentRelativeResidual": 1.85436717670597e-14
+}

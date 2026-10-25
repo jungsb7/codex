@@ -1,0 +1,12 @@
+{
+  "status": "comparison-completed",
+  "maxMeanDischargeDifferenceM3s": 284.7280257269077,
+  "maxBedChangeDifferenceM": 0.00021223046072158232,
+  "maxStorageLevelDifferenceM": 4.047836244551945,
+  "discharge": {
+    "reachId": 37024,
+    "period": 1,
+    "fineM3s": 4493.217067183911,
+    "coarseM3s": 4208.489041457004
+  }
+}

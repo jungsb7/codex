@@ -1,0 +1,1 @@
+const fs=require('fs'),path=require('path'),orig=fs.readFileSync,reads=new Set();fs.readFileSync=function(f,...args){if(typeof f==='string'||f instanceof URL)reads.add(String(f));return orig.call(this,f,...args);};process.on('exit',()=>{if(process.env.AUDIT_READ_LOG)fs.writeFileSync(process.env.AUDIT_READ_LOG,JSON.stringify([...reads]));});

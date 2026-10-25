@@ -1,0 +1,52 @@
+{
+  "status": "comparison-completed",
+  "sameInitialModelYear": 105,
+  "finalModelYear": 106,
+  "spatialSubdivision": 32,
+  "timeStepsPerPeriod": [
+    120,
+    240
+  ],
+  "meaning": "Same forcing and initial state; period-end water-equivalent storage heads. Not within-period maxima, an error bound, or proof of global convergence.",
+  "nativeSha256": "194b8a27ea3a6bb6382b49259c96f94169379ff1bba0df85b454d24923b15c58",
+  "fingerprints": {
+    "fine240": "ba6221d024b1a6bc9b8f27bcd07fcd462ba3c880d5b0a4644b0ecb9a3152423b",
+    "time120": "1345d07d8a72d175b90fa3f60c3f52e131f1a6a1e04958ff8ebb7d2aa7e0276d"
+  },
+  "maximum": {
+    "pressureHeadDifferenceM": 0.0003759834927166139,
+    "pressureWaterDifferenceM3": 10.706710405647755,
+    "terminalMeanDischargeDifferenceM3s": 0.0000059375979617470875,
+    "pondLevelDifferenceM": 4.226539260807272
+  },
+  "locations": {
+    "pressureHeadDifferenceM": {
+      "passage": "X2",
+      "section": 2,
+      "period": 2
+    },
+    "pressureWaterDifferenceM3": {
+      "passage": "X2",
+      "section": 2,
+      "period": 2
+    },
+    "terminalMeanDischargeDifferenceM3s": {
+      "passage": "X2",
+      "period": 1,
+      "fineM3s": 2410.6701603174815,
+      "timeM3s": 2410.6701543798836
+    },
+    "pondLevelDifferenceM": {
+      "node": 8156,
+      "parent": 1415,
+      "cell": 274634,
+      "curves": [
+        10645
+      ],
+      "period": 5
+    }
+  },
+  "totalPondNodes": 19990,
+  "pondNodesAbove1m": 32,
+  "pondNodePeriodsAbove1m": 156
+}

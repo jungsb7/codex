@@ -1,0 +1,15 @@
+✔ three original passages conserve each compartment and interface across all periods (9228.595659ms)
+✔ closed passage control retains all diverted background inputs with zero exchange (2747.729253ms)
+✔ all1186 owner ledgers include subsurface storage and conserve water with exact continuity (3587.557273ms)
+✔ full coupled reach water/solid and vegetation ledgers persist over106 without restart (3231.234902ms)
+✔ all packed fields match native floats and120/240/closed comparisons exactly (29837.834657ms)
+✔ initial and final water, ice, sediment and vegetation states reconstruct continued inventories (559.606613ms)
+✔ shared cell/reach/passage/budget API uses same106 state and fails closed outside scope (587.352002ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 55097.493541

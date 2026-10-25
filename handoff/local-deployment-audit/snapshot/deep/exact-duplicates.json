@@ -1,0 +1,410 @@
+[
+  {
+    "bytesPerFile": 674518,
+    "extraBytes": 3372590,
+    "paths": [
+      "integration/natural-world/channel-valley-model/validation/atlas/forest-detail.png",
+      "integration/natural-world/coupled-water-model/validation/atlas/forest-detail.png",
+      "integration/natural-world/cover-boundary-model/validation/atlas/forest-detail.png",
+      "integration/natural-world/network-water-model/validation/atlas/forest-detail.png",
+      "integration/natural-world/pond-network-model/validation/atlas/forest-detail.png",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/forest-detail.png"
+    ]
+  },
+  {
+    "bytesPerFile": 542522,
+    "extraBytes": 2712610,
+    "paths": [
+      "integration/natural-world/channel-valley-model/validation/atlas/detail-desktop.png",
+      "integration/natural-world/coupled-water-model/validation/atlas/detail-desktop.png",
+      "integration/natural-world/cover-boundary-model/validation/atlas/detail-desktop.png",
+      "integration/natural-world/network-water-model/validation/atlas/detail-desktop.png",
+      "integration/natural-world/pond-network-model/validation/atlas/detail-desktop.png",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/detail-desktop.png"
+    ]
+  },
+  {
+    "bytesPerFile": 221212,
+    "extraBytes": 1106060,
+    "paths": [
+      "integration/natural-world/channel-valley-model/validation/atlas/season-desktop.png",
+      "integration/natural-world/coupled-water-model/validation/atlas/season-desktop.png",
+      "integration/natural-world/cover-boundary-model/validation/atlas/season-desktop.png",
+      "integration/natural-world/network-water-model/validation/atlas/season-desktop.png",
+      "integration/natural-world/pond-network-model/validation/atlas/season-desktop.png",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/season-desktop.png"
+    ]
+  },
+  {
+    "bytesPerFile": 143997,
+    "extraBytes": 719985,
+    "paths": [
+      "integration/natural-world/channel-valley-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/coupled-water-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/cover-boundary-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/network-water-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/pond-network-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/season-mobile.png"
+    ]
+  },
+  {
+    "bytesPerFile": 679751,
+    "extraBytes": 679751,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/atlas/forest-detail.png",
+      "integration/natural-world/internal-pond-model/validation/atlas/forest-detail.png"
+    ]
+  },
+  {
+    "bytesPerFile": 542720,
+    "extraBytes": 542720,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/atlas/detail-desktop.png",
+      "integration/natural-world/internal-pond-model/validation/atlas/detail-desktop.png"
+    ]
+  },
+  {
+    "bytesPerFile": 144032,
+    "extraBytes": 288064,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/atlas/season-mobile.png",
+      "integration/natural-world/internal-pond-model/validation/atlas/season-mobile.png",
+      "integration/natural-world/natural-canon-v1/validation/atlas/season-mobile.png"
+    ]
+  },
+  {
+    "bytesPerFile": 241424,
+    "extraBytes": 241424,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/atlas/season-desktop.png",
+      "integration/natural-world/internal-pond-model/validation/atlas/season-desktop.png"
+    ]
+  },
+  {
+    "bytesPerFile": 27910,
+    "extraBytes": 139550,
+    "paths": [
+      "integration/natural-world/channel-valley-model/validation/atlas/ridge-card.png",
+      "integration/natural-world/coupled-water-model/validation/atlas/ridge-card.png",
+      "integration/natural-world/cover-boundary-model/validation/atlas/ridge-card.png",
+      "integration/natural-world/network-water-model/validation/atlas/ridge-card.png",
+      "integration/natural-world/pond-network-model/validation/atlas/ridge-card.png",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/ridge-card.png"
+    ]
+  },
+  {
+    "bytesPerFile": 77005,
+    "extraBytes": 77005,
+    "paths": [
+      "integration/natural-world/seasonal-loading/validation/prior-deployment-manifest.json",
+      "nature-deployment-manifest.json"
+    ]
+  },
+  {
+    "bytesPerFile": 10161,
+    "extraBytes": 60966,
+    "paths": [
+      "integration/natural-world/channel-valley-model/atlas-browser.cjs",
+      "integration/natural-world/coupled-water-model/atlas-browser.cjs",
+      "integration/natural-world/cover-boundary-model/atlas-browser.cjs",
+      "integration/natural-world/natural-canon-v1/atlas-browser.cjs",
+      "integration/natural-world/network-water-model/atlas-browser.cjs",
+      "integration/natural-world/pond-network-model/atlas-browser.cjs",
+      "integration/natural-world/seasonal-physical-model/atlas-browser.cjs"
+    ]
+  },
+  {
+    "bytesPerFile": 1499,
+    "extraBytes": 26982,
+    "paths": [
+      "integration/natural-world/basin-water-budget/validation/atlas-browser.txt",
+      "integration/natural-world/cover-boundary-model/validation/atlas-log.txt",
+      "integration/natural-world/d298591-confluence/validation/atlas-browser-log.txt",
+      "integration/natural-world/d298591-hydraulics/validation/atlas-browser-log.txt",
+      "integration/natural-world/d298591-momentum/validation/atlas-browser-log.txt",
+      "integration/natural-world/d298591-routing/validation/regression-browser-log.txt",
+      "integration/natural-world/d298591-tailwater/validation/atlas-browser-log.txt",
+      "integration/natural-world/downstream-budget/validation/regression-browser.txt",
+      "integration/natural-world/downstream-routing/validation/atlas-browser.txt",
+      "integration/natural-world/inland-routing/validation/atlas-browser.txt",
+      "integration/natural-world/natural-canon-v1/validation/atlas-log.txt",
+      "integration/natural-world/natural-status/validation/atlas-log.txt",
+      "integration/natural-world/seasonal-inundation/validation/atlas-regression.txt",
+      "integration/natural-world/seasonal-physical-model/validation/atlas-log.txt",
+      "integration/natural-world/storm-event-model/validation/atlas-regression.txt",
+      "integration/natural-world/subgrid-boundaries/validation/atlas-regression.txt",
+      "integration/natural-world/subgrid-hydrology/validation/atlas-regression.txt",
+      "integration/natural-world/water-budget-chain/validation/atlas-browser.txt",
+      "integration/natural-world/water-budget-link/validation/atlas-browser.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 829,
+    "extraBytes": 26528,
+    "paths": [
+      "integration/natural-world/basin-water-budget/validation/atlas-browser-checks.json",
+      "integration/natural-world/channel-valley-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/coupled-water-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/cover-boundary-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/cryosphere-coupling/validation/atlas/browser-checks.json",
+      "integration/natural-world/d298591-confluence/validation/atlas-browser-checks.json",
+      "integration/natural-world/d298591-constraints/validation/regression-browser-checks.json",
+      "integration/natural-world/d298591-hydraulics/validation/atlas-browser-checks.json",
+      "integration/natural-world/d298591-momentum/validation/atlas-browser-checks.json",
+      "integration/natural-world/d298591-routing/validation/regression-browser-checks.json",
+      "integration/natural-world/d298591-surface/validation/regression-browser-checks.json",
+      "integration/natural-world/d298591-tailwater/validation/atlas-browser-checks.json",
+      "integration/natural-world/downstream-budget/validation/atlas-browser-checks.json",
+      "integration/natural-world/downstream-routing/validation/atlas-browser-checks.json",
+      "integration/natural-world/finite-water-model/validation/atlas-browser-checks.json",
+      "integration/natural-world/inland-routing/validation/atlas-browser-checks.json",
+      "integration/natural-world/internal-pond-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/landscape-compare/validation/atlas-browser-checks.json",
+      "integration/natural-world/landscape-notes/validation/regression-browser-checks.json",
+      "integration/natural-world/natural-canon-v1/validation/atlas/browser-checks.json",
+      "integration/natural-world/natural-status/validation/atlas-regression.json",
+      "integration/natural-world/network-water-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/pond-network-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/pressure-coupling/validation/atlas-regression.json",
+      "integration/natural-world/seasonal-inundation/validation/atlas-browser-checks.json",
+      "integration/natural-world/seasonal-loading/validation/regression-browser-checks.json",
+      "integration/natural-world/seasonal-physical-model/validation/atlas/browser-checks.json",
+      "integration/natural-world/storm-event-model/validation/atlas-browser-checks.json",
+      "integration/natural-world/subgrid-boundaries/validation/atlas-browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/atlas-browser-checks.json",
+      "integration/natural-world/terrain-water-model/validation/atlas-browser-checks.json",
+      "integration/natural-world/water-budget-chain/validation/atlas-browser-checks.json",
+      "integration/natural-world/water-budget-link/validation/atlas-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 10151,
+    "extraBytes": 10151,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/atlas-regression.cjs",
+      "integration/natural-world/internal-pond-model/atlas-regression.cjs"
+    ]
+  },
+  {
+    "bytesPerFile": 9553,
+    "extraBytes": 9553,
+    "paths": [
+      "integration/natural-world/pond-decision-review/connection-browser.cjs",
+      "integration/natural-world/pond-thermal-review/connection-browser.cjs"
+    ]
+  },
+  {
+    "bytesPerFile": 6409,
+    "extraBytes": 6409,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/scope-regression.cjs",
+      "integration/natural-world/internal-pond-model/scope-regression.cjs"
+    ]
+  },
+  {
+    "bytesPerFile": 6368,
+    "extraBytes": 6368,
+    "paths": [
+      "integration/natural-world/landscape-compare/validation/landscape-notes/browser-checks.json",
+      "integration/natural-world/landscape-notes/validation/browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 1977,
+    "extraBytes": 5931,
+    "paths": [
+      "integration/natural-world/basin-water-budget/style.css",
+      "integration/natural-world/inland-routing/style.css",
+      "integration/natural-world/water-budget-chain/style.css",
+      "integration/natural-world/water-budget-link/style.css"
+    ]
+  },
+  {
+    "bytesPerFile": 793,
+    "extraBytes": 4758,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/scope/browser-checks.json",
+      "integration/natural-world/internal-pond-model/validation/scope/browser-checks.json",
+      "integration/natural-world/natural-status/validation/browser-checks.json",
+      "integration/natural-world/seasonal-inundation/validation/scope-browser-checks.json",
+      "integration/natural-world/storm-event-model/validation/scope-browser-checks.json",
+      "integration/natural-world/subgrid-boundaries/validation/scope-browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/scope-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 4426,
+    "extraBytes": 4426,
+    "paths": [
+      "integration/natural-world/subgrid-boundaries/style.css",
+      "integration/natural-world/subgrid-hydrology/style.css"
+    ]
+  },
+  {
+    "bytesPerFile": 885,
+    "extraBytes": 4425,
+    "paths": [
+      "integration/natural-world/natural-canon-v1/validation/browser-checks.json",
+      "integration/natural-world/natural-status/validation/canon-regression.json",
+      "integration/natural-world/pressure-coupling/validation/canon-regression.json",
+      "integration/natural-world/seasonal-inundation/validation/canon-browser-checks.json",
+      "integration/natural-world/subgrid-boundaries/validation/canon-browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/canon-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 784,
+    "extraBytes": 3136,
+    "paths": [
+      "integration/natural-world/natural-canon-v1/validation/browser-log.txt",
+      "integration/natural-world/natural-status/validation/canon-log.txt",
+      "integration/natural-world/seasonal-inundation/validation/canon-regression.txt",
+      "integration/natural-world/subgrid-boundaries/validation/canon-regression.txt",
+      "integration/natural-world/subgrid-hydrology/validation/canon-regression.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 2918,
+    "extraBytes": 2918,
+    "paths": [
+      "integration/natural-world/d298591-routing/style.css",
+      "integration/natural-world/d298591-surface/style.css"
+    ]
+  },
+  {
+    "bytesPerFile": 2869,
+    "extraBytes": 2869,
+    "paths": [
+      "integration/natural-world/coupled-water-model/style.css",
+      "integration/natural-world/network-water-model/style.css"
+    ]
+  },
+  {
+    "bytesPerFile": 700,
+    "extraBytes": 2800,
+    "paths": [
+      "integration/natural-world/natural-status/validation/browser-log.txt",
+      "integration/natural-world/seasonal-inundation/validation/scope-regression.txt",
+      "integration/natural-world/storm-event-model/validation/scope-regression.txt",
+      "integration/natural-world/subgrid-boundaries/validation/scope-regression.txt",
+      "integration/natural-world/subgrid-hydrology/validation/scope-regression.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 1019,
+    "extraBytes": 2038,
+    "paths": [
+      "integration/natural-world/cover-ecology-coupling/style.css",
+      "integration/natural-world/pressure-coupling/style.css",
+      "integration/natural-world/reach-erosion-coupling/style.css"
+    ]
+  },
+  {
+    "bytesPerFile": 957,
+    "extraBytes": 1914,
+    "paths": [
+      "integration/natural-world/storm-event-model/validation/baseline-regression.txt",
+      "integration/natural-world/storm-event-model/validation/browser-log.txt",
+      "integration/natural-world/subgrid-hydrology/validation/browser-log.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 934,
+    "extraBytes": 1868,
+    "paths": [
+      "integration/natural-world/landscape-compare/validation/seasonal-loading/browser-checks.json",
+      "integration/natural-world/landscape-notes/validation/seasonal-browser-checks.json",
+      "integration/natural-world/seasonal-loading/validation/browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 930,
+    "extraBytes": 1860,
+    "paths": [
+      "integration/natural-world/seasonal-inundation/validation/browser-checks.json",
+      "integration/natural-world/subgrid-boundaries/validation/inundation-browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/inundation-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 829,
+    "extraBytes": 1658,
+    "paths": [
+      "integration/natural-world/seasonal-inundation/validation/browser-log.txt",
+      "integration/natural-world/subgrid-boundaries/validation/inundation-regression.txt",
+      "integration/natural-world/subgrid-hydrology/validation/inundation-regression.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 1060,
+    "extraBytes": 1060,
+    "paths": [
+      "integration/natural-world/internal-pond-model/validation/storm-regression.json",
+      "integration/natural-world/storm-event-model/validation/browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 1060,
+    "extraBytes": 1060,
+    "paths": [
+      "integration/natural-world/storm-event-model/validation/baseline-browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 928,
+    "extraBytes": 928,
+    "paths": [
+      "integration/natural-world/subgrid-boundaries/validation/browser-checks.json",
+      "integration/natural-world/subgrid-hydrology/validation/subgrid-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 843,
+    "extraBytes": 843,
+    "paths": [
+      "handoff/validation/browser-checks.json",
+      "handoff/validation/repository-browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 829,
+    "extraBytes": 829,
+    "paths": [
+      "integration/natural-world/subgrid-boundaries/validation/browser-log.txt",
+      "integration/natural-world/subgrid-hydrology/validation/subgrid-regression.txt"
+    ]
+  },
+  {
+    "bytesPerFile": 710,
+    "extraBytes": 710,
+    "paths": [
+      "integration/natural-world/cryosphere-coupling/validation/internal-regression.json",
+      "integration/natural-world/internal-pond-model/validation/browser-checks.json"
+    ]
+  },
+  {
+    "bytesPerFile": 489,
+    "extraBytes": 489,
+    "paths": [
+      "integration/natural-world/basin-water-budget/query.cjs",
+      "integration/natural-world/water-budget-chain/query.cjs"
+    ]
+  },
+  {
+    "bytesPerFile": 323,
+    "extraBytes": 323,
+    "paths": [
+      "START_SIMULATOR.html",
+      "index.html"
+    ]
+  },
+  {
+    "bytesPerFile": 284,
+    "extraBytes": 284,
+    "paths": [
+      "integration/natural-world/d298591-momentum/output/summary.json",
+      "integration/natural-world/d298591-momentum/validation/build.txt"
+    ]
+  }
+]

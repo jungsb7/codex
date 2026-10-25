@@ -1,0 +1,10 @@
+PASS initial pressure geometry and state match shared AI
+PASS all three original passages agree across sampled periods
+PASS same106-year cell vegetation, ice, pond and individual reach values agree with AI
+PASS passage, world budget, coupled cell and annual downloads preserve values
+PASS pressure profile, annual graph and cell controls fit desktop and mobile
+PASS reload and atlas return retain selected cell and location
+PASS nonexistent underground route fails closed
+PASS corrupt payload blocks export and retry recovers
+PASS late response cannot overwrite the latest period
+PASS atlas selected cell and period reach the complete coupling view

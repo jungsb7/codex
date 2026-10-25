@@ -1,0 +1,80 @@
+{
+  "schema": "reach-erosion-manifest/1",
+  "meta": {
+    "file": "meta.json.gz",
+    "bytes": 1500379,
+    "sha256": "143015b0be098cb91dc16e5c4833a99b6a525f47f327a870c459f9aff43001f5"
+  },
+  "periods": [
+    {
+      "file": "period-01.json.gz",
+      "bytes": 2859709,
+      "sha256": "87974c513e210bad2a319924f94cb9a039459cb133c323d842a5c5eae2744c9a"
+    },
+    {
+      "file": "period-02.json.gz",
+      "bytes": 3168248,
+      "sha256": "04dad1de3cb01b25ab580777a1048e7e90792fe566973f6599aaa74d7aef39b5"
+    },
+    {
+      "file": "period-03.json.gz",
+      "bytes": 3520354,
+      "sha256": "ad7a55dfa6afaf06e57f6c7cf88b701dcc801707a1203f81796b5380404ba494"
+    },
+    {
+      "file": "period-04.json.gz",
+      "bytes": 3543301,
+      "sha256": "5a1e8f0f021ca8f49db1de147d0923dd00c383d07fdd954f20aacb9cc764ea4e"
+    },
+    {
+      "file": "period-05.json.gz",
+      "bytes": 3518080,
+      "sha256": "4980316b35d98eb4a0e3387e91183c0587aa1bea67c84d70fa21c5af69b35a53"
+    },
+    {
+      "file": "period-06.json.gz",
+      "bytes": 3532138,
+      "sha256": "9f8b556a34d0fbcdf34bcf5038339603d24d5407334f37c6b18394197413b4fd"
+    },
+    {
+      "file": "period-07.json.gz",
+      "bytes": 3486566,
+      "sha256": "6b32e9631a88014f10425b610f325745eab67c395fb8017684ea7737de3dfe59"
+    },
+    {
+      "file": "period-08.json.gz",
+      "bytes": 3370434,
+      "sha256": "086e63b0c7ea845afa7154910c737583fde93c1ca7d2965bc2a6e3d82d88f664"
+    },
+    {
+      "file": "period-09.json.gz",
+      "bytes": 3268066,
+      "sha256": "4fda33432d198c21453cb59c37e703b0d190dd3048ee46d225ba38da90293531"
+    },
+    {
+      "file": "period-10.json.gz",
+      "bytes": 3226940,
+      "sha256": "81370a94eeb1c5e4e3acc9739d742800ee0b022e7386986d495c814682db060e"
+    },
+    {
+      "file": "period-11.json.gz",
+      "bytes": 3202041,
+      "sha256": "fdb1e77e88633b2f24b93482b14bffab566fbae8d7562e9b49616b930357c6e8"
+    },
+    {
+      "file": "period-12.json.gz",
+      "bytes": 3186258,
+      "sha256": "71f823a92609ec8ea343dbd07e71e5e6ce027d986ba244a94a90b0b08a0002f9"
+    }
+  ],
+  "summary": {
+    "file": "summary.json.gz",
+    "bytes": 639,
+    "sha256": "51170901bfedce524d27c295a3cc111978b81e318612ca1d237557b1f9d1a126"
+  },
+  "finalState": {
+    "file": "final-state.json.gz",
+    "bytes": 4873750,
+    "sha256": "cd00ae7ed7da2d5a773cb9f15bf04da91a2b7b110349f78b994036490c56da03"
+  }
+}

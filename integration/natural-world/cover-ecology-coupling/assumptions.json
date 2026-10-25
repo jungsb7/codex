@@ -1,0 +1,13 @@
+{
+  "schema":"cover-ecology-assumptions/1","initialModelYear":104,"years":1,"substeps":[120,240],
+  "growthRatePerYear":0.8,"baseMortalityPerYear":0.05,"dryMortalityPerYear":0.5,"floodMortalityPerYear":0.7,"coldMortalityPerYear":0.3,"feedbackMultiplier":1,
+  "initialVegetationByCanonClass":[0,0,0.7,0.85,0.55,0.15,0.25,0,0,0.75,0.65],
+  "floodToleranceByCanonClass":[0,0,0.9,0.1,0.2,0.05,0.1,0,0,0.8,0.6],
+  "state":"Dimensionless living vegetation fraction within existing source land cells, not carbon or biomass mass. Canonical class areas remain fixed; ecological state is a separate scenario.",
+  "law":"Exact logistic growth substep followed by exact exponential mortality; growth depends on source temperature, soil-water fraction and inundated fraction; mortality on drought, inundation tolerance and temperature below-5C.",
+  "infiltration":"Multiply dry-land and flood infiltration capacity by1+feedback*(vegetation-.5); no additional water sink. Existing evaporation and frost/recharge laws retained.",
+  "boundaryScope":"All53803 non-lake terrestrial class interfaces, preserving10654 previous interiors; original ocean/lake mask boundaries remain fixed. Endpoints use exact canonical grid corners.",
+  "ecologyScope":"168576 hydrologically simulated source land cells; background land class geometry included but no invented background vegetation dynamics",
+  "limits":["Authored boundary geometry, not observed forest edges","Vegetation fraction is not species composition or a carbon budget","Existing water/time/space sensitivities retained","Fixed1year, no succession equilibrium claim"],
+  "actual":null,"automaticAdoption":false,"allRequestedDetailImplemented":false
+}

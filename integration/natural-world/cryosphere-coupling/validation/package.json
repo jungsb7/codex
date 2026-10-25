@@ -1,0 +1,13 @@
+{
+  "outputBytes": 145535948,
+  "largestFileBytes": 6284953,
+  "allFloat64BitsPreserved": true,
+  "maximumCellIceRelativeResidual": 5.076948956132003e-14,
+  "maximumCellIceAbsoluteResidualM3": 0.00052642822265625,
+  "maximumSurfaceIceRelativeResidual": 2.588635015021589e-14,
+  "maximumOwnerRelativeResidual": 4.542387459827267e-12,
+  "maximumTimeLevelDifferenceM": 4.282095255028253,
+  "maximumTimeGlacierThicknessDifferenceM": 0.0004598749105817554,
+  "maximumMotionGlacierThicknessDifferenceM": 0.30413732432096086,
+  "maximumMotionStorageLevelDifferenceM": 0.00036951568304743887
+}

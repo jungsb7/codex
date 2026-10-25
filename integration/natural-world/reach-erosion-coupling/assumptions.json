@@ -1,0 +1,11 @@
+{
+  "schema":"reach-erosion-assumptions/1",
+  "initialModelYear":103,"years":1,"substeps":[120,240],"spatialSubdivisions":32,
+  "bulkDensityKgM3":1600,"manningN":0.035,"erodibilityMPerPaYear":0.00001,"criticalShearPa":2,"settlingMPerS":0.001,"erosionMultiplier":1,"initialActiveBedThicknessM":1,
+  "width":"2 + 2 sqrt(original mean discharge) metres, prescribed rectangular section",
+  "routing":"Non-direct source runoff enters first original downstream target reach. Direct precipitation on standing water remains in its reservoir. Sources with no downstream channel remain in their original reservoir. Directed topological implicit Manning reservoirs; terminal flow enters the existing endpoint reservoir with its tailwater head.",
+  "sediment":"Finite initial1m active bed, erosion proportional to excess bed shear and zero at zero discharge; conservative settling and advection. Deposits at terminal reservoirs retained in a separate solid pool. Bed mass change shifts the separate channel bed and feeds its hydraulic gradient; adopted terrain remains unchanged.",
+  "initialChannelState":"zero liquid and suspended sediment, finite active bed; all phase51 final water/ice/soil inventories retained",
+  "limits":["Assumed kinematic rectangular reaches, no full Saint-Venant momentum or reverse reach flow","Bed feedback applies to channel hydraulics, not the original reservoir terrain","Inherited maximum4.282m time and14.574m spatial stage sensitivity","One fixed additional year, no long-term equilibrium claim"],
+  "actual":null,"automaticAdoption":false,"allRequestedDetailImplemented":false
+}
