@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "base": "f95b40eb9e236b1d25250c7c10d9fe6e69b7f1a7",
+  "unchangedOriginalFiles": 1716,
+  "changedUiAndHandoffFiles": [
+    "NEXT_SESSION_PROMPT.txt",
+    "handoff/CURRENT_STATE.md",
+    "handoff/NEXT_GOALS.md",
+    "integration/natural-world/natural-status/core.js",
+    "integration/natural-world/natural-status/index.html",
+    "integration/natural-world/natural-status/ui.js",
+    "integration/natural-world/subgrid-boundaries/app.js",
+    "integration/natural-world/subgrid-boundaries/index.html",
+    "integration/natural-world/unified-atlas/index.html"
+  ],
+  "canonicalAndOriginalNumericData": "byte-exact preserved",
+  "archiveBranch": "not merged"
+}

@@ -1,0 +1,86 @@
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":60,"iterations":1,"residualM3":0}
+{"period":2,"steps":60,"iterations":1,"residualM3":0}
+{"period":3,"steps":60,"iterations":1,"residualM3":0}
+{"period":4,"steps":60,"iterations":1,"residualM3":0}
+{"period":5,"steps":60,"iterations":1,"residualM3":0}
+{"period":6,"steps":60,"iterations":1,"residualM3":0}
+{"period":7,"steps":60,"iterations":1,"residualM3":0}
+{"period":8,"steps":60,"iterations":1,"residualM3":0}
+{"period":9,"steps":60,"iterations":1,"residualM3":0}
+{"period":10,"steps":60,"iterations":1,"residualM3":0}
+{"period":11,"steps":60,"iterations":1,"residualM3":0}
+{"period":12,"steps":60,"iterations":1,"residualM3":0}
+{"period":1,"steps":1,"iterations":1,"residualM3":0}
+{"period":2,"steps":1,"iterations":1,"residualM3":0}
+{"period":3,"steps":1,"iterations":1,"residualM3":0}
+{"period":4,"steps":1,"iterations":1,"residualM3":0}
+{"period":5,"steps":1,"iterations":1,"residualM3":0}
+{"period":6,"steps":1,"iterations":1,"residualM3":0}
+{"period":7,"steps":1,"iterations":1,"residualM3":0}
+{"period":8,"steps":1,"iterations":1,"residualM3":0}
+{"period":9,"steps":1,"iterations":1,"residualM3":0}
+{"period":10,"steps":1,"iterations":1,"residualM3":0}
+{"period":11,"steps":1,"iterations":1,"residualM3":0}
+{"period":12,"steps":1,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+{"period":1,"steps":3,"iterations":1,"residualM3":0}
+{"period":2,"steps":3,"iterations":1,"residualM3":0}
+{"period":3,"steps":3,"iterations":1,"residualM3":0}
+{"period":4,"steps":3,"iterations":1,"residualM3":0}
+{"period":5,"steps":3,"iterations":1,"residualM3":0}
+{"period":6,"steps":3,"iterations":1,"residualM3":0}
+{"period":7,"steps":3,"iterations":1,"residualM3":0}
+{"period":8,"steps":3,"iterations":1,"residualM3":0}
+{"period":9,"steps":3,"iterations":1,"residualM3":0}
+{"period":10,"steps":3,"iterations":1,"residualM3":0}
+{"period":11,"steps":3,"iterations":1,"residualM3":0}
+{"period":12,"steps":3,"iterations":1,"residualM3":0}
+✔ fractional inundation matches independently weighted original wet/dry kernels and volume bisection (14.966726ms)
+✔ flood-to-soil infiltration removes the same water from surface and respects soil capacity (1.564827ms)
+✔ simultaneous infiltration demand is proportionally limited by available pond water (0.42793ms)
+✔ stage trace and period extrema match the integration order exactly (0.681612ms)
+✔ invalid refined source geometry fails explicitly (1.334436ms)
+✔ a crest below a discrete pond floor is rejected instead of releasing nonexistent water (1.71993ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 43.620344

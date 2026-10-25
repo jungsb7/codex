@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "steps": 60,
+  "nativeCells": 268857,
+  "originalFieldsExactlyEqual": [
+    "initial",
+    "final",
+    "totals",
+    "annual",
+    "forward",
+    "reverse",
+    "firstForward",
+    "firstReverse",
+    "surface",
+    "levels",
+    "maxStage",
+    "wetArea",
+    "finalSource",
+    "maximumSoil",
+    "maximumGround",
+    "executedSteps",
+    "maxIterations",
+    "meanRootIterations",
+    "maxEquationResidualM3",
+    "maxAnnualResidualM3",
+    "maxRelativeAnnualResidual"
+  ],
+  "floodInfiltration": false,
+  "refinedSourceCurves": false
+}

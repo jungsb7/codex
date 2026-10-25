@@ -1,0 +1,15 @@
+✔ all periods and every catchment close external balance without double-counting flood infiltration (2450.337975ms)
+✔ all pond traces match start/end extrema; independently sampled subcell duration and depth match queries (1264.269224ms)
+✔ new dynamic storage differs from phase47 fixed storage; dry/ocean/lake masks remain explicit (10.182452ms)
+✔ same initial inventories, preserved topology and original outlet with explicit discrete crest corrections (2775.734808ms)
+✔ AI GIS, signed exchange and reach budget use same dynamic values without inventing stream discharge (793.868495ms)
+✔ integrity failures and invalid selectors fail closed (272.834335ms)
+✔ source mean terrain and cover polygons exactly reuse the preserved phase47 assumptions (1442.641347ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9097.944615
