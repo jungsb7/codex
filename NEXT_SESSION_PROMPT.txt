@@ -1,30 +1,28 @@
-GitHub 기반 인계 — 후속46 기간별 침수 계산,2026-10-25 Asia/Seoul
+GitHub 기반 인계 — 후속47 세분 지형·경계,2026-10-25 Asia/Seoul
 
 최신main 확인, 로컬 변경 보존. AGENTS.md,handoff/CURRENT_STATE.md,
-handoff/NEXT_GOALS.md,integration/natural-world/seasonal-inundation/README.md,
+handoff/NEXT_GOALS.md,integration/natural-world/subgrid-boundaries/README.md,
 REPORT.md,validation/deployment.json,worldbuilding/NATURAL_CANON_V1.md 읽기.
 
-최근 요청 “진행해.”에 따라 기준100년 끝에서101년차를 실제 이어 계산했다.
-268,857격자·3,232웅덩이·9,858연결,12기간×240단계.
-‘침수 변화’ 탭에서 수심·잠긴 비율·침수/퇴수·포락선·12기간 표와 장부,
-JSON·GeoJSON을 제공한다. AI조회는 seasonal-inundation/query.cjs.
-23,022구간은1,184집수권의 기간 장부에 연결; 개별 구간 유량은null.
+“남은 작업 진행해”에 따라 원본 격자 내부 계산을 추가했다.
+268,857격자×16×16=68,827,392등면적 표본, 원본 평균 고도 보존.
+숲·습지 인접10,654쌍·21,308격자에 면적 보존 세부 경계.
+후속46의3,232웅덩이×13상태 저장량으로 세부 침수 수위를 다시 풀었다.
+268,648국지 배수 트리·누적 면적; 기존 출구 또는 같은 웅덩이 내부 집수.
+통합지도 지점 카드→세부 경계 지도, AI query.cjs·JSON·GeoJSON·기간표 제공.
 
-120/240단계 최대 수심 차이1.61cm, 분류 차이10격자·기간을 표시.
-잠긴 비율 최대 차이18.75%p 및 초기100년 상태의48경계 수치 한계 유지.
-새8+기존수식7모델검사,AI3,226,284지점·기간,브라우저12+회귀32검사.
-기준판 natural-canon-v1 수치·채택과100년 장부 미처리0은 변경하지 않음.
-101년차 계산은 simulated-continuation이며 평형 연주기/사건 홍수 예측 아님.
+conservative-downscaling-scenario, 원본 약26km를 가정으로 세분했다.
+1.6km는 관측 해상도가 아니다. natural-canon-v1·100년 장부는 보존.
+8/16분할 수위 차이 최대29.161m;1m 초과 경고. 전체 면적 차이 약0.224%.
+국지 경로 연결용 채움 최대1,648.466m는 큰 불일치 진단이며 실제 하천 검증 아님.
+새 지형으로 시간 수문·교환을 재적분하지 않았고, 새 유량·침수 지속은null.
 
-실제로 남은 일:약26km 격자 안의 미세 숲·습지·지류·침수 경계,
-개별 폭풍별 침수,빙하 이동,지형·식생·빙설·유량 전체 연동,
+남은 일:나머지 경계의 세분과 지형 가정 검증, 개별 소하천 유량·침식,
+사건별 폭풍·홍수,빙하 이동,지형·식생·빙설·저류·유량 전체 연동,
 지하 통로 압력/손실수두. 화산 개별 위치는 별도 미정.
-명칭 변경을 물리 완료로 보고하지 않음. allRequestedDetailImplemented=false.
+allRequestedDetailImplemented=false. 명칭 변경을 완료로 보고하지 않음.
 
-원본세계/경제/기후/지형/마스크/수계/구지도/연구/별도아카이브 보존.
+모델8+상태3검사, 새 브라우저11+기존44검사. 원본/정설/장부/구지도 보존.
 아카이브4afae5da3a7730b79ced1d2b9b7a8bc3041689c0 main병합금지.
 공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
-최종커밋과Pages build·deploy·report결과는후속46배포기록/PR본문확인.
-
-PR#26 https://github.com/jungsb7/codex/pull/26 병합8a70de2c839cb8bf392f1a74ba4d9ff3767e1f8c.
-최종커밋/Pages결과는PR본문참조.
+최종커밋/Pages결과는후속47배포기록·PR본문참조.

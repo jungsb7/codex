@@ -1,0 +1,30 @@
+{
+  "phase": 47,
+  "baseCommit": "9589719045f0aa65fb157ed32d31598b851818e9",
+  "status": "validated-awaiting-publication",
+  "scope": "Conservative subgrid terrain, cover polygons, fixed-storage inundation and local drainage; not new coupled temporal hydrology",
+  "tests": {
+    "model": 8,
+    "scopeRegression": 3,
+    "subcells": 68827392,
+    "pondSnapshots": 42016,
+    "drainageTrees": 268648,
+    "coverPairs": 10654,
+    "browser": 55,
+    "newDownloads": 3,
+    "viewports": [
+      1440,
+      1024,
+      390,
+      320
+    ]
+  },
+  "outputBytes": 4686221,
+  "preservation": {
+    "unchangedOriginalFiles": 1682,
+    "changedUiAndHandoffFiles": 7
+  },
+  "authorization": "Standing public GitHub/Pages publication authorization",
+  "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+}

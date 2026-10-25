@@ -1,6 +1,20 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속46 기간별 침수 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속47 세분 지형·경계 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속47 세분 지형·피복·침수·배수 경로 — 2026-10-25 Asia/Seoul
+
+사용자의 “남은 작업 진행해”에 따라 원본 격자 내부 계산을 추가했다. [세부 지도](../integration/natural-world/subgrid-boundaries/index.html), [방법·AI](../integration/natural-world/subgrid-boundaries/README.md), [결과](../integration/natural-world/subgrid-boundaries/REPORT.md), [배포](../integration/natural-world/subgrid-boundaries/validation/deployment.json)를 읽는다. 기준main9589719045f0aa65fb157ed32d31598b851818e9.
+
+- 268,857격자×16×16=68,827,392등면적 표본. 원본 평균 고도를 보존하는 공유 꼭짓점·내부 기복 모델이다. 남북 약1.6km는 계산 표본이며 관측 해상도가 아니다.
+- 숲·습지와 맞닿은10,654인접 쌍·21,308격자의 경계를 세분했다. 원본 분류 면적을 경위도 GeoJSON 선분의 구면 적분까지 보존한다. 그 밖의 경계는 유지한다.
+- 후속46의 웅덩이별 저장량을 보존해 기준100년 끝+101년차12기간의 세부 침수 수위를 재계산했다. 3,232×13상태의 수량 복원 검증. 시간 흐름·교환·침투를 새 지형으로 다시 적분한 것은 아니다.
+- 육지268,648격자의 국지 배수 트리·면적 누적 계산.239,790개는 원본 출구 방향,28,858개는 같은 웅덩이 내부 집수. 배수 연결용 채움은 지형 저장·수문에 미적용, 최대 약1,648.466m라는 한계도 공개. 개별 유량은null.
+- 8/16분할의 전 세계 침수 면적 차이는 최대 약0.224%, 양수 저장 웅덩이 수위 차이는 최대 약29.161m.1m 초과를 경고하며 작은 전체 면적 차이를 모든 지점의 수렴으로 해석하지 않는다.
+- 모델8+상태3검사, 새 브라우저11+기존44검사. 모든 세부 표본·피복 쌍·배수 트리와42,016웅덩이 상태를 검사한다. 새 화면은 지점/기간별 JSON·GeoJSON·기간표와320~1440px를 지원한다.
+- 결과는 conservative-downscaling-scenario. natural-canon-v1·원본세계·장부와 채택 상태는 유지한다. 미세 지형 가정의 검증, 나머지 경계, 사건별 홍수·빙하 이동·침식/식생/유량 전체 연동은 남는다. allRequestedDetailImplemented=false 유지.
+
+게시·최종 Pages 결과는 후속47 배포 기록과 PR 본문에 기록한다. 아래 후속46의 미구현 중 이번에 추가한 부분은 세분 모델로 대체하지만, 관측 검증·전체 동적 결합을 완료한 것으로 읽지 않는다.
 
 ## 후속46 원본 격자의 기간별 침수 계산 — 2026-10-25 Asia/Seoul
 

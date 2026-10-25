@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "pairs": 10654,
+  "maximumAreaErrorKm2": 1.1826273293991107e-10,
+  "measure": "Analytic sphere area of linearly interpolated longitude/latitude GeoJSON edges"
+}

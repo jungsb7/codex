@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "year101 deep link matches AI point and period budget",
+    "all12 periods match AI and wrap returns to year101 start",
+    "four computed layers distinguish simultaneous extent and envelope",
+    "selection, budget, native GIS and annual series downloads match AI",
+    "period table, history and reload preserve selected cell and layer",
+    "canonical and research modes retain selection and link to new calculation",
+    "local time-step classification differences are visible",
+    "computed controls and inspector fit1440/1024/390/320px",
+    "map selection reads the clicked native cell without hidden river interception",
+    "ocean remains outside inland scope and original lake mask survives",
+    "corrupt data disables stale export and retry recovers",
+    "late period and annual-series responses cannot overwrite another active view"
+  ],
+  "downloads": 4,
+  "errors": []
+}

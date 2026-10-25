@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "nativeCells": 268857,
+  "subcells": 68827392,
+  "pondSnapshots": 42016,
+  "maximumMeanErrorM": 1.3642420526593924e-11,
+  "partialInundationCellsPeriod1": 12642,
+  "originalLakeCells": 209
+}
