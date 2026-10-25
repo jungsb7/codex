@@ -1,0 +1,69 @@
+{
+  "schema": "model54-archive-publication/1",
+  "status": "published-and-fresh-clone-verified",
+  "repository": "jungsb7/codex",
+  "branch": "archive/model54-session-20261025",
+  "url": "https://github.com/jungsb7/codex/tree/archive/model54-session-20261025",
+  "snapshotCommit": "46fb359ce1f9a31d56cede8a2ab603978233631f",
+  "snapshotTree": "1b24ff128da76ca3fd6aeb33c4dfd3660662db4a",
+  "sourceLocalCommit": "fc85f3644c4b9e89099ccbafc9369c1f6afbc90b",
+  "snapshotFiles": 2311,
+  "snapshotBytes": 1159139559,
+  "largestFileBytes": 10874995,
+  "allTrackedGitBlobsMatch": true,
+  "freshPublicClone": true,
+  "gitFsckPassed": true,
+  "committedInputRestorePassed": true,
+  "aiQueryChecks": [
+    {
+      "module": "pressure-coupling",
+      "args": [
+        "passage",
+        "X2",
+        "1"
+      ],
+      "sha256": "8db4afac320e04dbfd87799578563c17f0cad0f329b5ded3627e21ee26304426",
+      "matched": true
+    },
+    {
+      "module": "cover-ecology-coupling",
+      "args": [
+        "315770",
+        "1"
+      ],
+      "sha256": "cd22fd23618ce5a4ced4c4f1b056ac921a8c9edcaaac04c8ae3a9bb82f146cda",
+      "matched": true
+    },
+    {
+      "module": "reach-erosion-coupling",
+      "args": [
+        "48",
+        "7"
+      ],
+      "sha256": "3edb46b17764768e4522b7ff7119d5cc0725da80e2ab93369232a7ddc2887d49",
+      "matched": true
+    },
+    {
+      "module": "cryosphere-coupling",
+      "args": [
+        "budget",
+        "world",
+        "7",
+        "103"
+      ],
+      "sha256": "310e7c49e9272c901e5d376e3d2dfa5c134e033d59ca3d307fd3eab70a91c8e7",
+      "matched": true
+    }
+  ],
+  "mainUnchanged": "6f2826af3c490881fef9e6c23f986f97f000507b",
+  "mainMerged": false,
+  "pagesDeploymentRequested": false,
+  "approvalScope": "Latest direct user request to place latest code and data on a separate GitHub archive branch for next-session local checkout. This is separate from site deployment.",
+  "included": "All tracked source, committed inputs, computed outputs and final states, validation, historical runtime assets, handoff and saved diagnostics in the source snapshot.",
+  "excluded": "Regenerable untracked multi-GB caches, system installations/native executables, generic workspace attachments and duplicate original archive expansion. Original full archive remains separately published.",
+  "notes": [
+    "This evidence file is a documentation-only addition after the verified source snapshot.",
+    "Previous automatic approval rejections are preserved as historical records; current archive publication followed new direct user authorization.",
+    "Ordinary maps/AI queries use committed results and do not require re-running completed full native calculations."
+  ]
+}
