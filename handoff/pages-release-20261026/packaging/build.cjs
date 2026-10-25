@@ -5,7 +5,9 @@ const root=path.resolve(__dirname,'../..'),destination=path.resolve(process.argv
 if(!process.argv[2]||!process.argv[3])throw Error('Usage: node build.cjs NEW_CANDIDATE NEW_REPORT_DIRECTORY');
 if(fs.existsSync(destination)||fs.existsSync(reportDir))throw Error('Destination exists; refusing to overwrite');
 if(destination===root||destination.startsWith(root+path.sep))throw Error('Candidate must be outside the source repository');
-const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),gzip=b=>z.gzipSync(b,{level:9}),json=o=>Buffer.from(JSON.stringify(o));
+// Match the verified Windows package on every runner. gzip's OS byte is metadata;
+// zlib otherwise emits 3 on Linux and 10 on Windows for the same deflate stream.
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),gzip=b=>{const out=z.gzipSync(b,{level:9});assert.equal(out[3],0);out[9]=10;return out;},json=o=>Buffer.from(JSON.stringify(o));
 const list=fs.readFileSync(path.join(root,'handoff/local-deployment-audit/snapshot/deep/publish-files.txt'),'utf8').trim().split(/\r?\n/);
 const tree=cp.execFileSync('git',['ls-tree','-rz','HEAD'],{cwd:root,maxBuffer:4e6}).toString().split('\0').filter(Boolean);
 let sourceBytes=0;for(const row of tree){const [,sha,p]=row.match(/^\d+ blob ([0-9a-f]+)\t(.+)$/s)||[];if(!p)throw Error('Unexpected Git tree entry');const b=fs.readFileSync(path.join(root,p));const actual=crypto.createHash('sha1').update(Buffer.from('blob '+b.length+'\0')).update(b).digest('hex');assert.equal(actual,sha,'Source changed: '+p);sourceBytes+=b.length;}
