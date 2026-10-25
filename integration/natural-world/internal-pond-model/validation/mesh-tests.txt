@@ -1,0 +1,11 @@
+✔ degree-six quadrature integrates every triangle monomial exactly to floating precision (1.511115ms)
+✔ linear triangle volumes include flat and degenerate cases with correct wet area derivative (0.522797ms)
+✔ conservative-centroid meshes preserve native means and identical shared boundary vertices at every resolution (829.225223ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 860.840333

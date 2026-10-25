@@ -1,0 +1,80 @@
+{
+  "status": "passed",
+  "reason": "Connector request body limit 16MiB including base64; not repository size",
+  "maximumPartBytes": 9000000,
+  "numericalRunsRepeated": false,
+  "records": [
+    {
+      "sha256": "dd9bd190172133d6f586b4d2173ce06f2c4b1469847d94a54fe96542d720a9cf",
+      "bytes": 15170910,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "205e2d71dbaa258843ef612917c07c850d05f96265421579c31f53b9f7a0b00e",
+      "bytes": 15138619,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "d619b3c708f3ecbcc9052ee42af02cf1bb648b16f73afa1e8e5c3eb187080200",
+      "bytes": 15353760,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "ce59555a2a3a21a25ef5cff07f19b858067c7c747b49a9b37cd85e935da7df88",
+      "bytes": 15575592,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "711340367b9de7937353f61115e6c5a13fb8b99ad14653b2496c504becada3b8",
+      "bytes": 15465915,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "899cbbc3f6211a2c8dbbc8aaf202ce202b6587d29d278b84ec092156311e37af",
+      "bytes": 15353190,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "24838125cba6ca6285009c009941934d964be3a2f00fe948d562605d49d6b7ba",
+      "bytes": 15343016,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "4c133b88672d42b98e8c83c5f4f7d9d5fc387e9c656b5c300c028820d9d52219",
+      "bytes": 15184287,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "f6bfa05c53bbb661905a96b7634e73b17f286a87947e43f925d8f7ba3ad0b595",
+      "bytes": 15115925,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "a64af584cd9c309268a71d8148849ca0da318e6137fda97c0d009f9809c5c6e1",
+      "bytes": 15046131,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "1dbdf4d19721b20842894fe15be912107abf2d6d9bb8fdea5ab053aa73d513e0",
+      "bytes": 14958490,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    },
+    {
+      "sha256": "346104d054fbf73f5c190763cdd5a9e4e62663374b4aa8e4a4fd43ef1327b2c9",
+      "bytes": 14879349,
+      "parts": 2,
+      "originalCompressedBytesExactlyPreserved": true
+    }
+  ]
+}

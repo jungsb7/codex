@@ -1,0 +1,258 @@
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":0,"residualM3":0}
+{"period":4,"steps":1,"iterations":0,"residualM3":0}
+{"period":5,"steps":1,"iterations":0,"residualM3":0}
+{"period":6,"steps":1,"iterations":0,"residualM3":0}
+{"period":7,"steps":1,"iterations":0,"residualM3":0}
+{"period":8,"steps":1,"iterations":0,"residualM3":0}
+{"period":9,"steps":1,"iterations":0,"residualM3":0}
+{"period":10,"steps":1,"iterations":0,"residualM3":0}
+{"period":11,"steps":1,"iterations":0,"residualM3":0}
+{"period":12,"steps":1,"iterations":0,"residualM3":0}
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":0,"residualM3":0}
+{"period":4,"steps":1,"iterations":0,"residualM3":0}
+{"period":5,"steps":1,"iterations":0,"residualM3":0}
+{"period":6,"steps":1,"iterations":0,"residualM3":0}
+{"period":7,"steps":1,"iterations":0,"residualM3":0}
+{"period":8,"steps":1,"iterations":0,"residualM3":0}
+{"period":9,"steps":1,"iterations":0,"residualM3":0}
+{"period":10,"steps":1,"iterations":0,"residualM3":0}
+{"period":11,"steps":1,"iterations":0,"residualM3":0}
+{"period":12,"steps":1,"iterations":0,"residualM3":0}
+{"period":1,"steps":1,"iterations":7,"residualM3":3.68402198e-10}
+{"period":2,"steps":1,"iterations":10,"residualM3":3.68402198e-10}
+{"period":3,"steps":1,"iterations":14,"residualM3":3.68402198e-10}
+{"period":4,"steps":1,"iterations":17,"residualM3":3.95110566e-10}
+{"period":5,"steps":1,"iterations":20,"residualM3":3.95110566e-10}
+{"period":6,"steps":1,"iterations":22,"residualM3":5.33896875e-10}
+{"period":7,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":8,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":9,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":10,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":11,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":12,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":1,"steps":1,"iterations":7,"residualM3":3.68402198e-10}
+{"period":2,"steps":1,"iterations":10,"residualM3":3.68402198e-10}
+{"period":3,"steps":1,"iterations":14,"residualM3":3.68402198e-10}
+{"period":4,"steps":1,"iterations":17,"residualM3":3.95110566e-10}
+{"period":5,"steps":1,"iterations":20,"residualM3":3.95110566e-10}
+{"period":6,"steps":1,"iterations":22,"residualM3":5.33896875e-10}
+{"period":7,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":8,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":9,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":10,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":11,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":12,"steps":1,"iterations":22,"residualM3":6.41375515e-10}
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":5,"residualM3":2.20981233e-10}
+{"period":4,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":5,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":6,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":7,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":8,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":9,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":10,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":11,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":12,"steps":1,"iterations":6,"residualM3":2.20981233e-10}
+{"period":1,"steps":1,"iterations":1,"residualM3":0}
+{"period":2,"steps":1,"iterations":1,"residualM3":0}
+{"period":3,"steps":1,"iterations":1,"residualM3":0}
+{"period":4,"steps":1,"iterations":1,"residualM3":0}
+{"period":5,"steps":1,"iterations":1,"residualM3":0}
+{"period":6,"steps":1,"iterations":1,"residualM3":0}
+{"period":7,"steps":1,"iterations":1,"residualM3":0}
+{"period":8,"steps":1,"iterations":1,"residualM3":0}
+{"period":9,"steps":1,"iterations":1,"residualM3":0}
+{"period":10,"steps":1,"iterations":1,"residualM3":0}
+{"period":11,"steps":1,"iterations":1,"residualM3":0}
+{"period":12,"steps":1,"iterations":1,"residualM3":0}
+{"period":1,"steps":1,"iterations":1,"residualM3":0}
+{"period":2,"steps":1,"iterations":1,"residualM3":0}
+{"period":3,"steps":1,"iterations":1,"residualM3":0}
+{"period":4,"steps":1,"iterations":1,"residualM3":0}
+{"period":5,"steps":1,"iterations":1,"residualM3":0}
+{"period":6,"steps":1,"iterations":1,"residualM3":0}
+{"period":7,"steps":1,"iterations":1,"residualM3":0}
+{"period":8,"steps":1,"iterations":1,"residualM3":0}
+{"period":9,"steps":1,"iterations":1,"residualM3":0}
+{"period":10,"steps":1,"iterations":1,"residualM3":0}
+{"period":11,"steps":1,"iterations":1,"residualM3":0}
+{"period":12,"steps":1,"iterations":1,"residualM3":0}
+{"period":1,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":2,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":3,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":4,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":5,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":6,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":7,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":8,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":9,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":10,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":11,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":12,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":1,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":2,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":3,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":4,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":5,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":6,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":7,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":8,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":9,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":10,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":11,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":12,"steps":1,"iterations":19,"residualM3":0.00852380365}
+{"period":1,"steps":1,"iterations":75,"residualM3":0.00870091179}
+{"period":2,"steps":1,"iterations":75,"residualM3":0.00896349324}
+{"period":3,"steps":1,"iterations":75,"residualM3":0.00918168428}
+{"period":4,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":5,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":6,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":7,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":8,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":9,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":10,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":11,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":12,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":1,"steps":1,"iterations":75,"residualM3":0.00870091179}
+{"period":2,"steps":1,"iterations":75,"residualM3":0.00896349324}
+{"period":3,"steps":1,"iterations":75,"residualM3":0.00918168428}
+{"period":4,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":5,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":6,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":7,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":8,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":9,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":10,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":11,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":12,"steps":1,"iterations":75,"residualM3":0.00920079747}
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":0,"residualM3":0}
+{"period":4,"steps":1,"iterations":0,"residualM3":0}
+{"period":5,"steps":1,"iterations":0,"residualM3":0}
+{"period":6,"steps":1,"iterations":0,"residualM3":0}
+{"period":7,"steps":1,"iterations":0,"residualM3":0}
+{"period":8,"steps":1,"iterations":0,"residualM3":0}
+{"period":9,"steps":1,"iterations":0,"residualM3":0}
+{"period":10,"steps":1,"iterations":0,"residualM3":0}
+{"period":11,"steps":1,"iterations":0,"residualM3":0}
+{"period":12,"steps":1,"iterations":0,"residualM3":0}
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":0,"residualM3":0}
+{"period":4,"steps":1,"iterations":0,"residualM3":0}
+{"period":5,"steps":1,"iterations":0,"residualM3":0}
+{"period":6,"steps":1,"iterations":0,"residualM3":0}
+{"period":7,"steps":1,"iterations":0,"residualM3":0}
+{"period":8,"steps":1,"iterations":0,"residualM3":0}
+{"period":9,"steps":1,"iterations":0,"residualM3":0}
+{"period":10,"steps":1,"iterations":0,"residualM3":0}
+{"period":11,"steps":1,"iterations":0,"residualM3":0}
+{"period":12,"steps":1,"iterations":0,"residualM3":0}
+{"period":1,"steps":1,"iterations":0,"residualM3":0}
+{"period":2,"steps":1,"iterations":0,"residualM3":0}
+{"period":3,"steps":1,"iterations":0,"residualM3":0}
+{"period":4,"steps":1,"iterations":0,"residualM3":0}
+{"period":5,"steps":1,"iterations":0,"residualM3":0}
+{"period":6,"steps":1,"iterations":0,"residualM3":0}
+{"period":7,"steps":1,"iterations":0,"residualM3":0}
+{"period":8,"steps":1,"iterations":0,"residualM3":0}
+{"period":9,"steps":1,"iterations":0,"residualM3":0}
+{"period":10,"steps":1,"iterations":0,"residualM3":0}
+{"period":11,"steps":1,"iterations":0,"residualM3":0}
+{"period":12,"steps":1,"iterations":0,"residualM3":0}
+{"period":1,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":2,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":3,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":4,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":5,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":6,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":7,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":8,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":9,"steps":1,"iterations":7,"residualM3":4.4408921e-15}
+{"period":10,"steps":1,"iterations":7,"residualM3":9.70371339e-10}
+{"period":11,"steps":1,"iterations":7,"residualM3":9.70371339e-10}
+{"period":12,"steps":1,"iterations":7,"residualM3":9.70371339e-10}
+{"period":1,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":2,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":3,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":4,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":5,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":6,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":7,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":8,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":9,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":10,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":11,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":12,"steps":2,"iterations":7,"residualM3":6.30262509e-11}
+{"period":1,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":2,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":3,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":4,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":5,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":6,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":7,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":8,"steps":4,"iterations":8,"residualM3":1.11022302e-15}
+{"period":9,"steps":4,"iterations":8,"residualM3":9.30690414e-10}
+{"period":10,"steps":4,"iterations":8,"residualM3":9.30690414e-10}
+{"period":11,"steps":4,"iterations":8,"residualM3":9.30690414e-10}
+{"period":12,"steps":4,"iterations":8,"residualM3":9.30690414e-10}
+{"period":1,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":2,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":3,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":4,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":5,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":6,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":7,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":8,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":9,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":10,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":11,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":12,"steps":8,"iterations":8,"residualM3":1.7490398e-11}
+{"period":1,"steps":1,"iterations":7,"residualM3":1.01536557e-11}
+{"period":2,"steps":1,"iterations":9,"residualM3":1.01536557e-11}
+{"period":3,"steps":1,"iterations":11,"residualM3":1.01536557e-11}
+{"period":4,"steps":1,"iterations":13,"residualM3":1.01536557e-11}
+{"period":5,"steps":1,"iterations":14,"residualM3":6.25591276e-10}
+{"period":6,"steps":1,"iterations":16,"residualM3":6.25591276e-10}
+{"period":7,"steps":1,"iterations":18,"residualM3":6.25591276e-10}
+{"period":8,"steps":1,"iterations":19,"residualM3":6.25591276e-10}
+{"period":9,"steps":1,"iterations":21,"residualM3":6.25591276e-10}
+{"period":10,"steps":1,"iterations":21,"residualM3":9.21594062e-10}
+{"period":11,"steps":1,"iterations":22,"residualM3":9.21594062e-10}
+{"period":12,"steps":1,"iterations":22,"residualM3":9.21594062e-10}
+✔ row XOR encoding is bit-exact for dry constants, signed zero and changing large heights (10.232471ms)
+✔ every owner-period closes water balance and preserves the original precipitation totals (13002.30647ms)
+✔ native storage is nonnegative, trace endpoints/extrema match, and internal edges stay inside original parents (14165.724943ms)
+✔ point, signed exchange, budget and dry-state queries are consistent without inventing individual stream flow (21191.121768ms)
+✔ all original land ponds are connected on the native graph and unresolved refinement is disclosed (7.49626ms)
+✔ bad hashes, selectors and period identities fail closed (455.504647ms)
+✔ original external edges and original lake outlet map to the same native endpoints (181.269754ms)
+✔ published continuation state and every fine/coarse trace preserve native float64 bits (15392.284488ms)
+✔ internal barrier retains subcrest water and both dry reservoirs remain dry (2.582986ms)
+✔ triangular reservoirs fill/spill and reverse without creating or losing water (1.082443ms)
+✔ prescribed input and ocean outlet are included once in the water ledger (0.737256ms)
+✔ original engine outputs remain bit identical when continuous curves are absent (1.516054ms)
+✔ malformed bank/mapping fails before simulation (1.583714ms)
+✔ microscopic storage at a steep shared crest retains a nonzero hydraulic head (1.087485ms)
+✔ implicit triangular outlet converges to the independent continuous drainage solution (1.680093ms)
+✔ fixed ocean head fills a below-sea reservoir with an explicit conservative ingress ledger (0.53058ms)
+✔ each selected pond has an independent triangle/curve check including microscopic depth (5858.302654ms)
+✔ degree-six quadrature integrates every triangle monomial exactly to floating precision (0.772724ms)
+✔ linear triangle volumes include flat and degenerate cases with correct wet area derivative (0.544262ms)
+✔ conservative-centroid meshes preserve native means and identical shared boundary vertices at every resolution (26.155891ms)
+✔ native polynomial bank agrees with independent triangle integration and inverse over steep/flat terrain (524.497072ms)
+✔ flat and repeated vertex heights produce finite monotone continuous curves (0.913183ms)
+ℹ tests 22
+ℹ suites 0
+ℹ pass 22
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 70887.063008

@@ -1,0 +1,49 @@
+{
+  "schema": "internal-pond-comparison-interpretation/1",
+  "meaning": "Depth-filtered comparisons require both cases at least1cm above the corresponding native-cell/pond minimum. Unfiltered maxima remain in output/summary.json. A grouped common stage below the local bed is not a local flood stage.",
+  "max": {
+    "timeEnd": {
+      "differenceM": 4.046336152197,
+      "cell": 270020,
+      "parent": 1415,
+      "node": 8084,
+      "period": 5
+    },
+    "spaceEnd": {
+      "differenceM": 14.574174552892828,
+      "cell": 298873,
+      "parent": 1412,
+      "node": 7942,
+      "period": 12
+    },
+    "timePeak": {
+      "differenceM": 4.0995892934979565,
+      "cell": 270020,
+      "parent": 1415,
+      "node": 8084,
+      "period": 6
+    },
+    "spacePeak": {
+      "differenceM": 14.574174552892828,
+      "cell": 298873,
+      "parent": 1412,
+      "node": 7942,
+      "period": 12
+    },
+    "sharedWetInternalVsGrouped": {
+      "differenceM": 280.69415149699864,
+      "cell": 132499,
+      "parent": 292,
+      "node": 4109,
+      "period": 2
+    },
+    "parentStorage": {
+      "differenceM3": 77360001276.20946,
+      "parent": 1415,
+      "period": 12,
+      "internalStorageM3": 79714582392.84923,
+      "groupedStorageM3": 2354581116.6397734
+    }
+  },
+  "groupedBelowLocalBedComparisons": 148939
+}

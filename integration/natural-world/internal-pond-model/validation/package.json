@@ -1,0 +1,12 @@
+{
+  "outputBytes": 187602813,
+  "largestFileBytes": 9000000,
+  "coverage": {
+    "selectedPonds": 365,
+    "selectedNativeCells": 17123,
+    "allNativeCells": 268857,
+    "allPonds": 3232,
+    "internal2DMomentum": false
+  },
+  "largestPayloadBytes": 15575592
+}

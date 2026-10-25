@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "selectedParents": 365,
+  "checks": 1460,
+  "maxVolumeRelativeError": 6.912814516611858e-15,
+  "maxAreaRelativeError": 1.5975703234983517e-13
+}

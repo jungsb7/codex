@@ -1,0 +1,15 @@
+✔ every owner-period closes water balance and preserves the original precipitation totals (11986.998309ms)
+✔ native storage is nonnegative, trace endpoints/extrema match, and internal edges stay inside original parents (12165.358738ms)
+✔ point, signed exchange, budget and dry-state queries are consistent without inventing individual stream flow (25690.593703ms)
+✔ all original land ponds are connected on the native graph and unresolved refinement is disclosed (5.872349ms)
+✔ bad hashes, selectors and period identities fail closed (402.868498ms)
+✔ original external edges and original lake outlet map to the same native endpoints (181.714784ms)
+✔ published continuation state and every fine/coarse trace preserve native float64 bits (13520.760381ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 63999.945693
