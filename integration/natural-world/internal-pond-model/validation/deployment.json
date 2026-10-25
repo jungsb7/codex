@@ -1,7 +1,7 @@
 {
   "phase": 50,
   "baseCommit": "c32a3c50c0b63e8f2310af5732d882645ebcc9e7",
-  "status": "validated-awaiting-publication",
+  "status": "published-initial-pages-passed",
   "scope": "365 spatial-sensitive ponds split into17123 native-cell reservoirs; continuous triangular storage; conservative signed internal exchange; original external graph preserved",
   "tests": {
     "model": 22,
@@ -9,7 +9,9 @@
     "newBrowser": 9,
     "oldBrowser": 33,
     "newDownloads": 4,
-    "legacyEventOutputsExactlyEqual": true
+    "legacyEventOutputsExactlyEqual": true,
+    "packagedData": 7,
+    "packagedBrowser": 9
   },
   "outputBytes": 187602813,
   "largestFileBytes": 9000000,
@@ -23,8 +25,31 @@
   "authorization": "Standing public GitHub/Pages authorization; same existing task; continue planned work sequentially",
   "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; no bypass. Local Chromium and GitHub Pages jobs are separate evidence.",
   "publicUrl": "https://jungsb7.github.io/codex/integration/natural-world/internal-pond-model/index.html",
-  "finalPagesVerification": "Final head and build/deploy/report job evidence will be recorded after publication.",
+  "finalPagesVerification": "Final documentation head, tree, run and build/deploy/report job evidence are recorded in PR #30 body to avoid self-referencing commit hashes.",
   "largestReassembledPayloadBytes": 15575592,
   "trackedTreeBytesBeforePackaging": 809557275,
-  "transportPackaging": "Each period gzip split into <=9,000,000 byte parts; every original compressed byte and SHA-256 preserved; full reassembly plus per-part verification"
+  "transportPackaging": "Each period gzip split into <=9,000,000 byte parts; every original compressed byte and SHA-256 preserved; full reassembly plus per-part verification",
+  "featureCommit": "6270ad0acfc4e6ceb45b767118b88e7d55dba328",
+  "featureTree": "f4bf83a61813c90a8ce0e6710f7dc5b4417e0e71",
+  "mergeCommit": "47765c48577400bcfc6aaff3808e71d760f04d90",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/30",
+  "trackedTreeBytes": 809570075,
+  "initialPagesRun": 40168701195,
+  "initialPagesJobs": [
+    {
+      "id": 121094966656,
+      "name": "build",
+      "conclusion": "success"
+    },
+    {
+      "id": 121095270726,
+      "name": "report-build-status",
+      "conclusion": "success"
+    },
+    {
+      "id": 121095270765,
+      "name": "deploy",
+      "conclusion": "success"
+    }
+  ]
 }

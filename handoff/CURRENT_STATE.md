@@ -470,3 +470,5 @@ PLAYWRIGHT_MODULE=/opt/codex/cua_node/lib/node_modules/playwright CHROMIUM_PATH=
 ## 다음 인계 갱신 방식
 
 작업마다 이 문서와 루트 시작 안내에 완료 범위, 새 검증 결과 경로, 관련 커밋·Pages 결과, 미정과 다음 목표를 갱신한다. 새 기능의 source/검사 도구와 필요한 입력의 복원 경로를 함께 커밋한다. 큰 캐시·중복gzip·전체 ZIP을 매번 저장소에 넣지 않는다. 원격 최신 HEAD를 확인하고 변경 목록을 검토한 뒤 갱신한다.
+
+[PR #30](https://github.com/jungsb7/codex/pull/30) 기능 커밋 `6270ad0acfc4e6ceb45b767118b88e7d55dba328`, 병합 `47765c48577400bcfc6aaff3808e71d760f04d90`. 파일 트리 `f4bf83a61813c90a8ce0e6710f7dc5b4417e0e71`은 로컬 검증본과 정확히 일치한다. 첫 Pages 실행 `40168701195`. 최종 문서 커밋과 Pages 작업 증거는 PR 본문에 남긴다.
