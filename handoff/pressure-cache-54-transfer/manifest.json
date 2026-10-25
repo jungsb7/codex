@@ -1,0 +1,197 @@
+{
+  "schema": "pressure-cache-chunks/1",
+  "origin": "/workspace/pressure-cache-54",
+  "modelYear": 106,
+  "initialYear": 105,
+  "sourceArchiveBranch": "archive/model54-session-20261025",
+  "meaning": "Existing completed phase54 serialized calculation caches; no calculation rerun. Node v8.deserialize after gunzip, generated with Node24.19.0.",
+  "files": [
+    {
+      "file": "closed0.bin.gz",
+      "bytes": 95985207,
+      "sha256": "367e07e9a6e25fca980f9af74eee5bfa9ee7d957461d7dd9c77a10cf306f397e",
+      "parts": [
+        {
+          "path": "parts/closed0.bin.gz.part000",
+          "bytes": 9000000,
+          "sha256": "7a9ca826832092836a9f942fa58bb9e83e1d2250bf2ecae3e35489ea24f4b7e2"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part001",
+          "bytes": 9000000,
+          "sha256": "532b967bb3cc1f3c2a2964be4174b1a674669d191a73ea25ae243e5af6478571"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part002",
+          "bytes": 9000000,
+          "sha256": "65af804e6b84e770c3af3101551651016e709aa3c037f4e74ef52b660a907de9"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part003",
+          "bytes": 9000000,
+          "sha256": "c100ecdc112dd220b20181699001b53dd2a32c1f2e51d09555bb7b66f8d49d22"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part004",
+          "bytes": 9000000,
+          "sha256": "55188197b8198a90839269138ab98f8019f98ec3bc61c1eda0cadc40be2060cf"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part005",
+          "bytes": 9000000,
+          "sha256": "5b823ae81215c2dbf08e639b51d7fcfd6c645b57eed2bd4e12a4843b5fa1f1ab"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part006",
+          "bytes": 9000000,
+          "sha256": "e8879881be11cf3e9e4cea1d39145e6af3216c0a6e52fdf7b23046f25f89dfe7"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part007",
+          "bytes": 9000000,
+          "sha256": "571ea41f98ee3bc05bddda85ec6ed3389553d9bcb9ca622cc75501214810c3fc"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part008",
+          "bytes": 9000000,
+          "sha256": "c2266582ba342a83cae2adb41205124799faadb3f0be3651dd500c01995663c5"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part009",
+          "bytes": 9000000,
+          "sha256": "9cf71610dd3aa09afdbbca14c37a8adf8dfb51adce19097381057938f2722fb2"
+        },
+        {
+          "path": "parts/closed0.bin.gz.part010",
+          "bytes": 5985207,
+          "sha256": "bc54a7a240c7a1a2ef11da10749b2a6fd5877493dd06ecad3be025da9ee7172b"
+        }
+      ]
+    },
+    {
+      "file": "fine240.bin.gz",
+      "bytes": 95988058,
+      "sha256": "f61b90bd21d02d198ffa0a65369b423a2ab88d350770c244cabedda8b5a27464",
+      "parts": [
+        {
+          "path": "parts/fine240.bin.gz.part000",
+          "bytes": 9000000,
+          "sha256": "e2407f427e6aa5819e6614f021bbf95447600c5c8a8c558f1c03887699f83e30"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part001",
+          "bytes": 9000000,
+          "sha256": "76bed5216370bd26e9e7b99b8182ff80ed876105b30d6c6e729ee4204be231b0"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part002",
+          "bytes": 9000000,
+          "sha256": "1b03e1c5d9a0bb41a0be1a3716bf7a5d7e0ee79b81767a1808c796e28c929f7d"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part003",
+          "bytes": 9000000,
+          "sha256": "491e6d64fc34d0df0607e5de45dea45e178a32beb07712ccbde28b35a7229265"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part004",
+          "bytes": 9000000,
+          "sha256": "23b408d0cbb571e2a86047ef0458a1a100a5a85fe0249d2e260286c4b1649920"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part005",
+          "bytes": 9000000,
+          "sha256": "ba7e0b6fb5912f4481ee1ca417225e6413dce9f584b11ba97dfdb446ab6e3292"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part006",
+          "bytes": 9000000,
+          "sha256": "62761610c3a8f2923acf82f16483cd42ee7e320e7c2053d7d74fab0ccaf7d547"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part007",
+          "bytes": 9000000,
+          "sha256": "6d71cda5810a9a5ec5615d0d77cca39f6390016af9dba8481dcf8dca956cc9ab"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part008",
+          "bytes": 9000000,
+          "sha256": "98a308eebe0ad2dd00fef044b1a1d0b911b8102fdd2ac4ef3c8b45bc6bda440f"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part009",
+          "bytes": 9000000,
+          "sha256": "5605002e4de3b89e365f2e03664f6d84355106666a8b1abb5f5e5fcd20dff0a3"
+        },
+        {
+          "path": "parts/fine240.bin.gz.part010",
+          "bytes": 5988058,
+          "sha256": "347d97b46602d3493bddc1602da793f70f85c460016d5fdb4a9a29de9ecdbc2d"
+        }
+      ]
+    },
+    {
+      "file": "time120.bin.gz",
+      "bytes": 95140100,
+      "sha256": "857f2a5aec52733618bc7df393618379b4038b6f3e62c4c90f2a3cd3d75ee3e3",
+      "parts": [
+        {
+          "path": "parts/time120.bin.gz.part000",
+          "bytes": 9000000,
+          "sha256": "242ab6f12226da57bdd4c5baadfb46e6d6575bd4ecbcfba2dffdeaeb30db9e1e"
+        },
+        {
+          "path": "parts/time120.bin.gz.part001",
+          "bytes": 9000000,
+          "sha256": "28b49b2f587b0571548a6c4591402daee1a0833861c172ce284b77995eb6081e"
+        },
+        {
+          "path": "parts/time120.bin.gz.part002",
+          "bytes": 9000000,
+          "sha256": "670d6a79ea114c0c685dbbb8f3918eef43f53710c685cdd3a100ac3be5fe0829"
+        },
+        {
+          "path": "parts/time120.bin.gz.part003",
+          "bytes": 9000000,
+          "sha256": "090a1841466a1bea477dbf8dff28c15ef03c0f39266c337595630d43df041e9c"
+        },
+        {
+          "path": "parts/time120.bin.gz.part004",
+          "bytes": 9000000,
+          "sha256": "53dac687d4a86b79836d22e87bfe33308243070ddf7996a3297b6786abe3a149"
+        },
+        {
+          "path": "parts/time120.bin.gz.part005",
+          "bytes": 9000000,
+          "sha256": "9f4be61914749d08cbe4a8334ea8da5fefac763785858e9f0bb65740c394e7de"
+        },
+        {
+          "path": "parts/time120.bin.gz.part006",
+          "bytes": 9000000,
+          "sha256": "51192c205f6cea2a671fadc8b8616c320c8ac5a6071d98b6313349bd51d14d84"
+        },
+        {
+          "path": "parts/time120.bin.gz.part007",
+          "bytes": 9000000,
+          "sha256": "830e6ea90c84133f0050a51c40359a34354baea67f23448407462bf3abfc43f0"
+        },
+        {
+          "path": "parts/time120.bin.gz.part008",
+          "bytes": 9000000,
+          "sha256": "1b89fbc32764038e0ec2ad21f0dc59334ff0becbdf4defa12f0053250f1b1555"
+        },
+        {
+          "path": "parts/time120.bin.gz.part009",
+          "bytes": 9000000,
+          "sha256": "e7a3da30bf0b60bfb17f6e2bdd821e6ad441f5c3c1d37e232ea393e11a12d034"
+        },
+        {
+          "path": "parts/time120.bin.gz.part010",
+          "bytes": 5140100,
+          "sha256": "d3a693722a9901da9735d1227b864dc1de306169157259794b08414479ad8482"
+        }
+      ]
+    }
+  ],
+  "webRuntimeRequired": false
+}
