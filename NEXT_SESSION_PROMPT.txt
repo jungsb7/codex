@@ -28,3 +28,6 @@ REPORT.md,validation/deployment.json,worldbuilding/NATURAL_CANON_V1.md 읽기.
 공개GitHub/Pages게시·배포승인유효,동일승인재질문금지.
 Pages호스트는 환경 허용 목록 밖, 직접HTTP검증 제한을 우회하지 않음.
 최종커밋/Pages결과는후속48배포기록·PR본문참조.
+
+PR#28 https://github.com/jungsb7/codex/pull/28 병합6cbcaae31a3de4db0c394706dcec68440f407477.
+최종커밋/Pages결과는PR본문참조.

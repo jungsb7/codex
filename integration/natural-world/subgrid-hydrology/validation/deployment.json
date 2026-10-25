@@ -1,7 +1,7 @@
 {
   "phase": 48,
   "baseCommit": "f95b40eb9e236b1d25250c7c10d9fe6e69b7f1a7",
-  "status": "validated-awaiting-publication",
+  "status": "published",
   "scope": "Exact refined storage curves, fractional land processes, flood-to-soil infiltration, signed exchanges and sampled subcell hydroperiod; one model year from common initial state",
   "tests": {
     "newEngine": 6,
@@ -42,5 +42,10 @@
   },
   "authorization": "Standing public GitHub/Pages publication authorization",
   "directPublicHttpVerification": "Not performed: Pages host outside environment allowlist; local Chromium and GitHub Pages jobs used",
-  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion."
+  "finalPagesVerification": "Final documentation commit and build/deploy/report results will be recorded in the PR body after completion.",
+  "featureCommit": "10794e314c4d3a9fdd8952e572cf61d03647bb0e",
+  "mergeCommit": "6cbcaae31a3de4db0c394706dcec68440f407477",
+  "featureTree": "19906a34cefa3fadf13decc3c323b7c9f4af1952",
+  "pullRequest": "https://github.com/jungsb7/codex/pull/28",
+  "firstPagesRun": 40159490450
 }

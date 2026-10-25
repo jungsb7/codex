@@ -16,6 +16,9 @@
 
 배포는 기존 명시 승인 범위에서 진행한다. 최종 커밋·Pages 결과는 배포 기록과 PR본문으로 확인한다. 공개Pages호스트는 환경 허용 목록 밖이므로 직접HTTP검증은 수행하지 않았고 로컬Chromium과GitHubPages작업을 근거로 구분한다.
 
+
+[PR #28](https://github.com/jungsb7/codex/pull/28) 병합 `6cbcaae31a3de4db0c394706dcec68440f407477`. 기능 커밋 `10794e314c4d3a9fdd8952e572cf61d03647bb0e`,첫 Pages 실행 `40159490450`. 최종 문서 커밋과 Pages build/deploy/report 결과는 PR 본문에 기록한다.
+
 ## 후속47 세분 지형·피복·침수·배수 경로 — 2026-10-25 Asia/Seoul
 
 사용자의 “남은 작업 진행해”에 따라 원본 격자 내부 계산을 추가했다. [세부 지도](../integration/natural-world/subgrid-boundaries/index.html), [방법·AI](../integration/natural-world/subgrid-boundaries/README.md), [결과](../integration/natural-world/subgrid-boundaries/REPORT.md), [배포](../integration/natural-world/subgrid-boundaries/validation/deployment.json)를 읽는다. 기준main9589719045f0aa65fb157ed32d31598b851818e9.
