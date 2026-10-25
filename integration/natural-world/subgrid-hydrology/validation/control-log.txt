@@ -1,0 +1,13 @@
+{"period":1,"steps":60,"iterations":7,"residualM3":0.0380864954}
+{"period":2,"steps":60,"iterations":7,"residualM3":0.0496295169}
+{"period":3,"steps":60,"iterations":7,"residualM3":0.0496295169}
+{"period":4,"steps":60,"iterations":7,"residualM3":0.0765929446}
+{"period":5,"steps":60,"iterations":8,"residualM3":0.076637283}
+{"period":6,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":7,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":8,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":9,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":10,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":11,"steps":60,"iterations":8,"residualM3":0.0766986161}
+{"period":12,"steps":60,"iterations":8,"residualM3":0.0766986161}
+All original output fields exactly equal.

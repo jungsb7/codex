@@ -1,6 +1,20 @@
 # GitHub에서 이어가는 Planet Atlas
 
-큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속47 세분 지형·경계 계산과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+큰 ZIP 재업로드 대신 **이 저장소의 최신 main과 루트 NEXT_SESSION_PROMPT.txt**를 작업 시작점으로 사용한다. 이 문서는 후속48 세분 지형 수문 연동과 배포 상태를 기록한다. [NEXT_GOALS.md](NEXT_GOALS.md)는 이후 별도 제안이다.
+
+## 후속48 세분 지형 수문 연동 — 2026-10-25 Asia/Seoul
+
+사용자의 “다음”에 따라 후속47 지형을 시간 물수분 계산에 연결했다. [지도](../integration/natural-world/subgrid-hydrology/index.html), [방법·AI](../integration/natural-world/subgrid-hydrology/README.md), [검증 결과](../integration/natural-world/subgrid-hydrology/REPORT.md), [배포 기록](../integration/natural-world/subgrid-hydrology/validation/deployment.json)를 읽는다. 기준main `f95b40eb9e236b1d25250c7c10d9fe6e69b7f1a7`.
+
+- 68,827,392세부 지형 표본의 정확한 저장 곡선,3,232웅덩이·9,858연결의 기존 소유권/연결/폭/계수를 사용한다. 초기 물·원본 평균 지형·피복·해양/호수 마스크를 보존한다.
+- 168,576대상 원본 격자의 침수 비율에 따라 기존 젖은/마른 땅 계산을 면적 가중하고, 잠긴 물의 토양 재침투를 가용 물·침투율·토양 용량으로 제한한다. 토양·눈·지하수·이동 저장은 원본 격자 평균 상태다. 재침투는 내부 이동으로 장부에 남긴다.
+- 공유 경계 최솟값이 이산 바닥보다 낮던11출구를 최대1.168m 보정했다. 기존 호수 출구는 유지한다. 엔진은 바닥 아래 출구를 거부하고 빈 웅덩이 가짜 방류를 검사한다.
+- 같은100년 끝 상태로101년차12기간을1×1/8×8/16×16,16×16시간120/240회로 재적분한다. 본계산240회 수위 이력으로 작은 격자 침수 지속·평균 수심을 구한다. 새 지형에 따른 증발·교환·저장이 실제로 변화한다.
+- 기간 끝 육지 침수695.40만~737.42만km². 시간120/240수위 차이 최대0.1691m,공간8/16최대27.6744m·기간당1m 초과 최대328웅덩이. 모든 지점이 수렴했다고 주장하지 않는다.
+- 지점·GeoJSON·12기간·집수권/23,022구간 장부·교환·수위 이력 AI 조회와 동일 브라우저 수치를 제공한다. 수치·브라우저·보존 검증 근거는 REPORT와validation에 있다.
+- `coupled-subgrid-scenario`이며 기존 정설/후속40·46·47 수치와 연구 기록은 보존한다. 사건별 폭풍, 내부 장애물·2차원 흐름, 빙하 이동, 개별 하천 유량·침식/식생·전체 피드백·지하 압력은 남는다. `allRequestedDetailImplemented=false` 유지.
+
+배포는 기존 명시 승인 범위에서 진행한다. 최종 커밋·Pages 결과는 배포 기록과 PR본문으로 확인한다. 공개Pages호스트는 환경 허용 목록 밖이므로 직접HTTP검증은 수행하지 않았고 로컬Chromium과GitHubPages작업을 근거로 구분한다.
 
 ## 후속47 세분 지형·피복·침수·배수 경로 — 2026-10-25 Asia/Seoul
 

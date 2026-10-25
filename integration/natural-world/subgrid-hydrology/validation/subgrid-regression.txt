@@ -1,0 +1,11 @@
+PASS deep link renders verified terrain, storage and drainage identical to AI
+PASS reference plus12 periods and three map layers use actual computed values
+PASS point GIS and annual series exports match browser and AI
+PASS both forest and wetland boundaries display exact area-conserving polygons
+PASS subcell click, enlargement, native comparison and neighbouring-cell navigation work
+PASS history and reload preserve cell period and display controls
+PASS spatial sensitivity is disclosed and dry/ocean states do not invent water levels
+PASS new explorer fits1440/1024/390/320px and remains usable on mobile
+PASS atlas entry and return preserve the current view and selected period
+PASS corrupt data fails closed and retry restores verified values
+PASS selection changes during initial loading cannot be replaced by stale state

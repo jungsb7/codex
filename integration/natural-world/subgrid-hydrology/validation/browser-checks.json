@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    "deep link renders verified terrain, storage and drainage identical to AI",
+    "12 periods and four map layers use actual computed values",
+    "point GIS and annual series exports match browser and AI",
+    "both forest and wetland boundaries display exact area-conserving polygons",
+    "subcell click, enlargement, native comparison and neighbouring-cell navigation work",
+    "history and reload preserve cell period and display controls",
+    "spatial sensitivity is disclosed and dry/ocean states do not invent water levels",
+    "new explorer fits1440/1024/390/320px and remains usable on mobile",
+    "atlas entry and return preserve the current view and selected period",
+    "corrupt data fails closed and retry restores verified values",
+    "selection changes during initial loading cannot be replaced by stale state",
+    "late period response cannot replace newer selection or export stale values",
+    "annual-series loading is cancelled when selection changes"
+  ],
+  "downloads": 4,
+  "errors": []
+}
